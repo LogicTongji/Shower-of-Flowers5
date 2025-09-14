@@ -1,0 +1,22 @@
+
+diplomatic_decisions = {
+	     JAP_HBWUSHEN = {
+		potential = {
+			tag = JAP                                            
+                                                exists = CHI
+			not = { has_global_flag = huabeiwusheng } 
+			not = { year = 1938 } 
+		}
+		allow = {
+			not = { alliance_with = CHI }
+			date = 1936.1.1
+		}
+		effect = {
+			set_global_flag = huabeiwusheng
+			country_event = 2019324
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

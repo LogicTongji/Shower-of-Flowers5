@@ -1,0 +1,26 @@
+owner = JAP
+
+controller = JAP
+
+add_core = MEB
+add_core = CHC
+add_core = CHI
+points = 0
+metal = 2.00
+energy = 1.00
+rare_materials = 0
+infra = 1
+industry = 1
+land_fort = 0
+1938.1.1 = {
+	owner = JAP
+infra = 0
+
+}
+1946.1.1 = {
+	owner = CHC
+}
+1949.10.1 = {
+infra = 3
+
+}

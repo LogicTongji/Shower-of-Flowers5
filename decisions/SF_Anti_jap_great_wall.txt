@@ -1,0 +1,61 @@
+############################
+#   长城抗战  #
+############################
+diplomatic_decisions = {
+	Jap_war_rehe_front = {
+                   major = yes
+		potential = {
+			tag = JAP
+			not = { has_global_flag = the_war_attack_great_wall }
+			not = { year = 1934 } 
+			exists = CHI		
+			not = {
+				war_with = CHI
+			}
+		}
+		allow = {
+			CHI = {
+				not = { vassal_of = JAP }
+			}
+			and = {
+				date = 1933.1.6
+			}
+		}
+		effect = {
+			set_global_flag = the_war_attack_great_wall
+			war = {
+                                        target = CHI 
+                                                           }
+                             war = {
+                                        target = CSX 
+                                                           }
+                            war = {
+                                        target = CSY
+                                                           }
+			}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Anti_jap_front_great_wall = {
+		major = yes
+		potential = {
+			tag = CHI
+			not = { has_global_flag = Anti_jap_front_great_wall }
+			exists = CHI
+			has_global_flag = the_war_attack_great_wall
+		}
+		allow = {
+			CHI = {
+				not = { vassal_of = JAP }
+			}
+		}
+		effect = {
+			set_global_flag = Anti_jap_front_great_wall
+                            country_event = 12210
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

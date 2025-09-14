@@ -1,0 +1,140 @@
+##################
+#   新军议决组   #
+##################
+#组建德械师
+diplomatic_decisions = {
+	GersupportA_chi = {            
+		potential = {
+			tag = CHI
+                        exists = CHI
+			war_with = CHC
+			not = { has_country_flag = GersupportA_chi } 
+			date = 1936.1.2
+			not = { year = 1937 } 
+		}
+		allow = {
+			CHI = { controls = 5494 }
+		}
+		effect = {
+			set_country_flag = GersupportA_chi
+			country_event = 550
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+            #签订中苏互不侵犯条约
+	    SOVWCHI_chi = {               
+		potential = {
+			tag = SOV
+                        exists = CHI
+			CHI = { war_with = JAP }
+			not = { has_global_flag = ZSHBQFTYUE } 
+			date = 1937.8.20
+			not = { year = 1938 } 
+		}
+		allow = {
+                         CHI = { controls = 5494 }
+		}
+		effect = {
+			set_global_flag = ZSHBQFTYUE 
+                        non_aggression_pact = CHI
+			CHI = { country_event = 2100101 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+        #组建苏械攻击军
+	SOVsupportA_chi = {               
+		potential = {
+			tag = CHI
+                        exists = CHI
+			not = { has_country_flag = SOVsupportA_chi }
+			has_global_flag = Event10000272
+                        has_global_flag = ZSHBQFTYUE 
+			date = 1940.5.10
+			not = { year = 1942 } 
+		}
+		allow = {
+			CHI = { controls = 9478 }
+		}
+		effect = {
+			set_country_flag = SOVsupportA_chi
+			country_event = 551
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+        #组建美械师
+	USAsupportA_chi = {
+		potential = {
+			tag = CHI
+                        exists = CHI
+			war_with = JAP
+			not = { has_country_flag = USAsupportA_chi } 
+			has_country_flag = china_yuanzhengjun
+		}
+		allow = {
+			CHI = { controls = 9478 }
+				 JAP = { controls = 6070 
+                      controls = 7610 
+                      controls = 9640 
+                      controls = 7666 }
+                        has_country_flag = Event1200001
+		}
+		effect = {
+			set_country_flag = USAsupportA_chi
+			country_event = 552
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+          #组建装甲团
+	TKsupportA_chi = {
+		potential = {
+			tag = CHI
+                        exists = CHI
+			not = { has_country_flag = TKsupportA_chi 
+			         year = 1937 }
+			date = 1936.1.1
+		}
+		allow = {
+			CHI = { controls = 5494 }
+		}
+		effect = {
+			set_country_flag = TKsupportA_chi
+			country_event = 553
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	} 
+        #整编Y部队
+	USAsupportY_chi = {
+		potential = {
+			tag = CHI
+                        exists = CHI
+			war_with = JAP
+			not = { has_country_flag = USAsupportA_chi2 } 
+			has_country_flag = china_yuanzhengjun
+		}
+		allow = {
+			CHI = { controls = 9478 }
+			 JAP = { controls = 6070 
+                      controls = 7610 
+                      controls = 9640 
+                      controls = 7666 }
+                        has_country_flag = Event1200001
+		}
+		effect = {
+			set_country_flag = USAsupportA_chi2
+			country_event = 559
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

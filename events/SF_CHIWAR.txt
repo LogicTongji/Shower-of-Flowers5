@@ -1,0 +1,146 @@
+#国军战略事件组
+country_event = {
+	id = 8331
+	major = yes
+  is_triggered_only = yes
+	title = "WINTER_WART"
+	desc = "WINTER_WARD"
+	picture = "CHI_flag"
+	option = {
+		name = "WINTRWAROP"
+		  add_country_modifier = {
+			name = "WinterWAR_modifier"
+			duration = 250
+	}		
+   country_event = 8333
+    CHC = { country_event = 8334 }
+    CGX = { country_event = 8334 }
+    CYN = { country_event = 8334 }
+    CSY = { country_event = 8334 }
+    CQM = { country_event = 8334 }
+    CNM = { country_event = 8334 }  
+		
+	}		
+}
+country_event = {
+	id = 8332
+	major = yes
+  is_triggered_only = yes
+	title = "WINTER_WARTJAP"
+	desc = "WINTER_WARDJAP"
+	picture = "JAP_flag"
+	option = {
+		name = "WINTRWAROPJAP"
+		  add_country_modifier = {
+			name = "WinterWAR_modifier"
+			duration = 250
+	}		
+	}		
+}
+country_event = {
+	id = 8333
+ is_triggered_only = yes
+	title = "ZWFT"
+	desc = "ZWFD"
+	picture = "SIK_flag"
+	option = {
+		name = "ZWFOP"
+    national_unity = 10
+}
+country_event = {
+          id = 20190723
+          fire_only_once = yes
+          trigger = {
+		      tag = CHI
+	        war_with = JAP  
+	      CHI = { controls = 4979 
+			         controls = 7508
+			         controls = 5681
+			         controls = 5494
+			         controls = 5542 }          
+                has_global_flag = Winter_WAR
+          }
+          title = "WIN_WWART"
+          desc = "WIN_WWARD"
+          picture = "CHC_Event_2000075"
+          option = {
+		name = "WWROP"
+		JAP = { country_event = 8335 }
+                 add_country_modifier = {
+			name = "WINWAR_modifier"
+			duration = 1000
+		}
+		supplies = -1000
+		dissent = 5
+                ai_chance = { factor = 100 }
+         }
+ }
+country_event = {
+	id = 8335
+	major = yes
+  is_triggered_only = yes
+	title = "WINTER_WARTJAP"
+	desc = "WINTER_WARDJAP"
+	picture = "JAP_flag"
+	option = {
+		name = "WINTRWAROPJAP"
+		  add_country_modifier = {
+			name = "LOSEWAR_modifier"
+			duration = 1250
+	}		
+	}		
+} 
+country_event = {
+	id = 8334
+  is_triggered_only = yes
+	title = "WINTER_WART1"
+	desc = "WINTER_WARD"
+	picture = "CHI_flag"
+	option = {
+		name = "WINTRWAROP1"
+		 national_unity = 10 
+		 ai_chance = { factor = 100 }
+	}		
+		option = {
+		name = "WINTRWAROP2"
+		 national_unity = -10
+		 ai_chance = { factor = 0 } 
+	}		
+} 
+country_event = {
+	id = 8336
+  is_triggered_only = yes
+	title = "KMT_Amry_excise1"
+	desc = "KMT_Amry_excise1d"
+	picture = "CHI_flag"
+	option = {
+		name = "KMT_Amry_exciseOP1"
+		 national_unity = 10 
+		 CHI = { country_event = 8337 } 
+		 ai_chance = { factor = 100 }
+	}		
+		option = {
+		name = "KMT_Amry_exciseOP2"
+		 national_unity = -50
+		  add_country_modifier = {
+			name = "LOSEWAR2_modifier"
+			duration = 1250
+	}		 
+		 ai_chance = { factor = 0 } 
+	}		
+}
+country_event = {
+	id = 8337
+  is_triggered_only = yes
+	title = "KMT_Amry_excise2"
+	desc = "KMT_Amry_excise2d"
+	picture = "CHI_flag"
+		option = {
+		name = "KMT_Amry_excise_OP"
+		 national_unity = 5
+		  add_country_modifier = {
+			name = "KMT_Amry_excise_modifier"
+			duration = 250
+	}		 
+	}		
+}

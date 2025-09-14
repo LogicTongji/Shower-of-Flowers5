@@ -1,0 +1,316 @@
+country_event = {
+	id = 2019081601
+	fire_only_once = yes
+	title = "DLtitle"
+	desc = "DLRdecs"
+	picture = "Event81601"
+	trigger = {
+		tag = CHI
+    date = 1946.3.27
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "DLoption1"
+		remove_minister = 52063
+		minister_of_intelligence = 52080
+		set_global_flag = DL_DIE
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 2019081602
+	major = yes
+	fire_only_once = yes
+	title = "KMtitle"
+	desc = "KMecs"
+	picture = "Event3000083"
+	trigger = {
+		tag = CHI
+		has_global_flag = CHINA_CIVIL_WAR
+		has_global_flag = Chongqing_negotiations  
+		has_global_flag = JUNE_negotiations 
+    date = 1946.7.11
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "kmPoption1"
+		ai_chance = { factor = 0 }
+       	}
+	option = {
+		name = "kmPoption2"
+		set_global_flag = KM_1
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 2019081603
+	major = yes
+	fire_only_once = yes
+	title = "LGPtitle"
+	desc = "LGPecs"
+	picture = "Event81603"
+	trigger = {
+		tag = CHI
+		has_global_flag = CHINA_CIVIL_WAR
+		has_global_flag = Chongqing_negotiations   
+    date = 1946.7.11
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "LGPoption1"
+		set_global_flag = KM_2
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 2019081604
+	major = yes
+	fire_only_once = yes
+	title = "WDtitle"
+	desc = "WDecs"
+	picture = "Event81604"
+	trigger = {
+		tag = CHI
+		has_global_flag = CHINA_CIVIL_WAR
+		has_global_flag = Chongqing_negotiations   
+    date = 1946.7.15
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "WDoption1"
+		country_event = 8017
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 8017
+	is_triggered_only = yes
+	major = yes
+	title = "WD2title"
+	desc = "WD2decs"
+	picture = "Event80017"
+	option = {
+		name = "WD2option1"
+set_global_flag = KM_3
+ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 2019081605
+	major = yes
+	fire_only_once = yes
+	title = "XJtitle"
+	desc = "XJecs"
+	picture = "Event81605"
+	trigger = {
+		tag = USA
+		has_global_flag = JUNE_negotiations 
+    date = 1946.8.1
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "XJoption1"
+		relation = { who = CHC value = -100 }
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 2019081606
+	major = yes
+	fire_only_once = yes
+	title = "JTtitle"
+	desc = "JTecs"
+	picture = "Event81606"
+	trigger = {
+		tag = CHC
+		has_global_flag = JUNE_negotiations 
+    date = 1946.10.25
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "JToption1"
+		relation = { who = USA value = -10 }
+		relation = { who = CHI value = -50 }
+		threat = { who = CHI value = 50 }
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 2019081607
+	major = yes
+	fire_only_once = yes
+	title = "ZXtitle"
+	desc = "ZXecs"
+	picture = "Event81607"
+	trigger = {
+		tag = CHI
+		has_global_flag = JUNE_negotiations 
+    date = 1946.11.25
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "Event1000083option"
+		threat = { who = CHC value = 50 }
+		dissent = 15
+		set_global_flag = ZX_negotiations 
+		government = right_wing_autocrat
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 2019081608
+	major = yes
+	fire_only_once = yes
+	title = "GUtitle"
+	desc = "GUecs"
+	picture = "Event3000083"
+	trigger = {
+		tag = USA
+		has_global_flag = JUNE_negotiations 
+		has_global_flag = ZX_negotiations 
+    date = 1947.1.8
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "GUOP"
+		threat = { who = CHI value = -50 }
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 2019081609
+	major = yes
+	fire_only_once = yes
+	title = "NKtitle"
+	desc = "NKecs"
+	picture = "Event81609"
+	trigger = {
+		tag = CHI
+		not = { war_with = JAP }
+    date = 1946.5.8
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "NKOP"
+		capital = 5494
+		dissent = -15
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 201908171
+	major = yes
+	fire_only_once = yes
+	title = "TDtitle"
+	desc = "TDecs"
+	picture = "Event3000083"
+	trigger = {
+		tag = CHC
+    date = 1946.5.8
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "TDOP"
+		dissent = -15
+	 stalinist_PRC = { popularity = -2 }  
+	 	add_country_modifier = {
+			name = "TDXF_modifier"
+			duration = 270
+		} 
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 201908172
+	fire_only_once = yes
+	title = "ARtitle"
+	desc = "ARecs"
+	picture = "Event81730"
+	trigger = {
+		tag = USA
+    date = 1946.6.26
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "AROP"
+	add_country_modifier = {
+			name = "YHHF_modifier"
+			duration = 70
+		} 
+	CHI = { load_oob = "CHI_1946Air.txt" }
+       	}
+}
+country_event = {
+	id = 201908173
+	fire_only_once = yes
+	title = "ARCtitle"
+	desc = "ARCecs"
+	picture = "Event81731"
+	trigger = {
+		tag = CHC
+    date = 1946.6.28
+    war_with = CHI
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "ARCOP" 
+ load_oob = "CHC_1946Air.txt" 
+       	}
+}
+country_event = {
+	id = 201908174
+	major = yes
+	fire_only_once = yes
+	title = "CXXtitle"
+	desc = "CXXdecs"
+	picture = "CHI_CXX"
+	trigger = {
+		tag = CHI
+			CHC = { 	
+		  controls = 4979
+			controls = 5275
+			controls = 4452
+			controls = 5174
+			controls = 7435
+			controls = 7447
+			controls = 5383
+			controls = 5435
+			controls = 5515
+			controls = 9170		
+		}
+    war_with = CHC
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "CXXCOP" 
+  head_of_state = 52031
+  dissent = -15
+  set_global_flag = Nanking_cheakaishek
+       	}
+}

@@ -1,0 +1,101 @@
+#USA
+country_event = {
+	id = 20190816
+	fire_only_once = yes
+	title = "MXERtitle"
+	desc = "MXERdecs"
+	picture = "Event3000083"
+	trigger = {
+		tag = USA
+		has_global_flag = China_CivilWar
+		has_global_flag = Chongqing_negotiations   
+    date = 1946.6.1
+     not = ( year = 1947 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "MXERoption1"
+	CHI = { country_event = 8016 }
+	set_global_flag = JUNE_negotiations 
+		ai_chance = { factor = 100 }
+       	}
+	option = { 
+		name = "MXERoption2"
+		ai_chance = { factor = 0 }
+	}
+}
+#六月停战令
+country_event = {
+	id = 8016
+		is_triggered_only = yes
+			major = yes
+	title = "MXER2title"
+	desc = "MXER2decs"
+	picture = "Event3000083"
+	option = {
+		name = "MXER2option1"
+CSX = { end_war = CHC }
+CSX = { end_war = CHC }
+CNM = { end_war = CHC }
+CQM = { end_war = CHC }
+CXK = { end_war = CHC }
+CYN = { end_war = CHC }
+CSY = { end_war = CHC }
+CHI = { end_war = CHC }
+ai_chance = { factor = 100 }
+	}
+}
+#对华武器禁运
+country_event = {
+	id = 201908161
+	major = yes
+	fire_only_once = yes
+	title = "MXER3title"
+	desc = "MXER3decs"
+	picture = "Event3000083"
+	trigger = {
+		tag = USA
+		has_global_flag = China_CivilWar
+		has_global_flag = CHINA_CIVIL_WAR 
+		has_global_flag = Chongqing_negotiations   
+    date = 1946.9.16
+    not = ( year = 1947 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "MXER3option1"
+	relation = { who = CHI value = -150 }
+		ai_chance = { factor = 100 }
+
+	}
+}
+#进攻石家庄
+country_event = {
+	id = 201908162
+	major = yes
+	fire_only_once = yes
+	title = "WAR3title"
+	desc = "WAR3decs"
+	picture = "chongqing_n"
+	trigger = {
+		tag = CHI
+		has_global_flag = China_CivilWar
+		has_global_flag = Chongqing_negotiations   
+    date = 1946.10.5
+    not = ( year = 1947 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "WAR3option1"
+	relation = { who = USA value = -150 }
+	dissent = 15
+		ai_chance = { factor = 100 }
+
+	}
+}

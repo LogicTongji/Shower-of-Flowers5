@@ -1,0 +1,184 @@
+#1948新闻事件组
+#民革成立
+country_event = {
+	id = 20202081
+	fire_only_once = yes
+	title = "MGtitle"
+	desc = "MGdecs"
+	picture = "Event8"
+	trigger = {
+		tag = CHI
+    date = 1948.1.1
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "呵"
+		ai_chance = { factor = 100 }
+       	}
+}
+#民盟改组
+country_event = {
+	id = 20202082
+	fire_only_once = yes
+	title = "MMtitle"
+	desc = "MMdecs"
+	picture = "Event8"
+	trigger = {
+		tag = CHC
+    date = 1948.1.5
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "为了民主！"
+		ai_chance = { factor = 100 }
+       	}
+}
+#信鸽
+country_event = {
+	id = 20202083
+	major = yes
+	fire_only_once = yes
+	title = "XGtitle"
+	desc = "XGdecs"
+	picture = "Event8"
+	trigger = {
+		tag = BEL
+    date = 1948.1.9
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "咕咕咕"
+		ai_chance = { factor = 100 }
+       	}
+}
+#日本赔偿
+country_event = {
+	id = 20202084
+	fire_only_once = yes
+	title = "PCtitle"
+	desc = "PCdecs"
+	picture = "Event8"
+	trigger = {
+		tag = CHI
+    date = 1948.1.22
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "这些赔偿，够吗？"
+		supplies = 10000
+		money = 20
+		ai_chance = { factor = 100 }
+       	}
+}
+#甘地遇刺
+country_event = {
+	id = 20202085
+	major = yes
+	fire_only_once = yes
+	title = "GDtitle"
+	desc = "GDdecs"
+	picture = "Event8"
+	trigger = {
+		tag = IND
+    date = 1948.1.30
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "巨大损失"
+		ai_chance = { factor = 100 }
+       	}
+}
+#莱特去世
+country_event = {
+	id = 20202086
+	fire_only_once = yes
+	major = yes
+	title = "LTtitle"
+	desc = "LTdecs"
+	picture = "Event8"
+	trigger = {
+		tag = USA
+    date = 1948.1.30
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "巨大损失"
+		ai_chance = { factor = 100 }
+       	}
+}
+#申九惨案
+country_event = {
+	id = 20202087
+	fire_only_once = yes
+	major = yes
+	title = "sttitle"
+	desc = "stdecs"
+	picture = "Event8"
+	trigger = {
+		tag = CHI
+    date = 1948.2.2
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "巨大损失"
+		dissent = 25
+		national_unity = -10
+		ai_chance = { factor = 100 }
+       	}
+}
+#冬奥会
+country_event = {
+	id = 20202088
+	fire_only_once = yes
+	major = yes
+	title = "DYtitle"
+	desc = "DYdecs"
+	picture = "Event8"
+	trigger = {
+		tag = SCH
+    date = 1948.1.30
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "勇创佳绩"
+		national_unity = 10
+		ai_chance = { factor = 100 }
+       	}
+}
+#组织
+country_event = {
+	id = 20202089
+	fire_only_once = yes
+	major = yes
+	title = "SWtitle"
+	desc = "SWdecs"
+	picture = "Event8"
+	trigger = {
+		tag = UNN
+    date = 1948.4.7
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "精彩"
+		national_unity = 10
+		ai_chance = { factor = 100 }
+       	}
+}

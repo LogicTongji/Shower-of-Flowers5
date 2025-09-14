@@ -1,0 +1,87 @@
+######################
+#   经济崩溃事件组   #
+######################
+country_event = {
+          id = 2018416
+          trigger = {
+		tag = CHI
+	        war_with = JAP 
+                date = 1937.8.15
+                not = { year = 1938 }
+                not = { has_country_flag = Event2018416 }
+          }
+          title = "颁布《非常时期安定金融办法》"
+          desc = "Event2018416_decs"
+          picture = "CHI_Flag"
+          option = {
+		name = "好的"
+                dissent = -2
+                money = 20
+		set_country_flag = Event2018416
+                ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+          id = 2018417
+          trigger = {
+		tag = CHI
+	        war_with = JAP 
+                date = 1937.7.25
+                not = { year = 1938 }
+                not = { has_country_flag = Event2018417 }
+          }
+          title = "成立四联总处"
+          desc = "Event2018417_decs"
+          picture = "CHI_Flag"
+          option = {
+		name = "设立"
+                 add_country_modifier = {
+			name = "Event112_modifier"
+			duration = 1000
+		}
+		set_country_flag = Event2018417
+                ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "算了吧"
+           	set_country_flag = Event2018417
+                money = -1000
+                supplies = -10000
+                dissent = 5
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+          id = 2018419
+          trigger = {
+		tag = CHI
+	        war_with = JAP 
+                year = 1938
+                 5542 = { controller = { tag = JAP } }
+                 5275 = { controller = { tag = JAP } }
+                 5494 = { controller = { tag = JAP } }
+                 5599 = { controller = { tag = JAP } }
+                 4979 = { controller = { tag = JAP } } 
+                not = { has_country_flag = Event2018419 }
+          }
+          title = "发行战争公债"
+          desc = "war_money_decs"
+          picture = "CHI_Flag"
+          option = {
+		name = "发行"
+                 add_country_modifier = {
+			name = "Event111_modifier"
+			duration = 1000
+		}
+		set_country_flag = Event2018419
+                ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "算了吧"
+           	set_country_flag = Event2018419
+                money = -1000
+                supplies = -10000
+                dissent = -50
+		ai_chance = { factor = 0 }
+	}
+}

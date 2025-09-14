@@ -1,0 +1,26 @@
+######################
+#   游击区议决组  #
+######################
+
+diplomatic_decisions = {
+	     YOUJQ = {
+		potential = {
+			tag = CHC
+                                                exists = CHI
+			war_with = JAP
+			year = 1939
+                                                has_global_flag = Event10000272
+			not = { has_global_flag = KRYJQ } 
+		}
+		allow = {
+			JAP = { controls = 4979 }
+		}
+		effect = {
+			set_global_flag = KRYJQ
+			country_event = 20126
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

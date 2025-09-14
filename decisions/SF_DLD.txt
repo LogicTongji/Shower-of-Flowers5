@@ -1,0 +1,243 @@
+#蒙巴顿方案
+diplomatic_decisions = {
+	    ENG_IND_MBD = {
+	    major = yes
+		potential = {
+			tag = ENG                                       
+      not = { has_global_flag = ENG_MBD }	
+	    not = { war_with = JAP
+	            war_with = GER }	
+	   date = 1947.6.1  
+	   NOT = { exists = IND }
+		}
+		allow = {
+	    not = { war_with = SOV }
+		}
+		effect = {
+			set_global_flag = ENG_MBD
+			ENG = {			
+				ENG_6302 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6256 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6280 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6255 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6240 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6241 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6227 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9837 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9828 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6199 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6182 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9808 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6145 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6133 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9771 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6093 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6113 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6120 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6092 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9712 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6050 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6067 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6064 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6025 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9711 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6103 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9172 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6014 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6041 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5997 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9683 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9656 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7654 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5987 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5998 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5956 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9655 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9619 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7623 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7624 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7633 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5988 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5958 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+	     	ENG_5909 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9599 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9542 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9436 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }   
+	      ENG_7589 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7566 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7608 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+	      ENG_5926 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7591 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5892 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9437 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_6015 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9496 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9523 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7525 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7557 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9545 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9473 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7570 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5844 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5840 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5921 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5888 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5889 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_5842 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9558 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9467 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9406 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }		
+				ENG_9435 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9258 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_7526 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9345 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9469 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9827 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9809 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+				ENG_9826 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }	
+				ENG_5762 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9539 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9431 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9540 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9466 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9403 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9317 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9318 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9319 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9257 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9256 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_5893 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_5912 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_7568 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }	
+				ENG_7582 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }		
+				ENG_5859 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_5844 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_7558 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_5826 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+				ENG_9344 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = ENG }
+					9259 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = ENG }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }
+	    YSL_BLS = {
+	    major = yes
+		potential = {
+			tag = UNN                                        
+      not = { has_global_flag = UNN_YSL }	
+	    not = { war_with = JAP
+	            war_with = GER }		     
+		}
+		allow = {
+		 date = 1947.11.29
+		 not = { date = 1948.4.1 }
+		}
+		effect = {
+			set_global_flag = UNN_YSL
+			ENG = {			
+				ENG_5415 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ENG }
+				ENG_5567 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAL remove_core = ENG change_controller = ENG }
+				ENG_5566 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ENG }
+				ENG_5565 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ENG }
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }  
+#缅甸独立
+	the_liberation_of_burma = {
+		potential = {                     
+			  tag = ENG
+      
+			not = { has_country_flag = jiefangmiandian }
+			NOT = { 
+			war_with = GER
+			war_with = JAP
+			exists = MID 
+			}
+      year = 1948                      
+		}	
+		allow = {
+		                    controls = 9442 #密支那 
+                        controls = 7610 #曼德勒  
+                        controls = 6070 #仰光  
+                        controls = 9583 #抹谷  
+                        controls = 6082 #勃生 
+                        controls = 7583 #吉灵庙    
+                        controls = 6095 #毛淡棉  
+                        controls = 7650 #彬马那  
+                        controls = 5940 #特克纳特  
+                        controls = 6055 #勃固
+
+		}
+
+		effect = { 
+		set_country_flag = jiefangmiandian
+	 	ENG = {
+	 	SF_miandin_region = { any_owned = { limit = { controlled_by = ENG } } secede_province = MID remove_core = ENG add_core = MID change_controller = ENG } 
+		}
+		MID = {
+		  infantry_brigade = 6070
+		  infantry_brigade = 6070
+		  infantry_brigade = 6070
+		  infantry_brigade = 7610
+		  infantry_brigade = 7610
+		  infantry_brigade = 7610
+		  infantry_brigade = 9442
+		  infantry_brigade = 9442
+		  infantry_brigade = 9442
+		  militia_brigade = 6095
+		  militia_brigade = 6095
+		  militia_brigade = 6095
+		  militia_brigade = 6055
+		  militia_brigade = 6055
+		  militia_brigade = 6055
+		  militia_brigade = 7627
+		  militia_brigade = 7627
+		  militia_brigade = 7627
+		  officer_pool = 1000
+		  }
+		ai_will_do = {
+			factor = 1
+		}
+}	
+#告越南同胞书
+	         FreeYue = {
+		major = yes
+		potential = {
+			tag = YUE
+	   has_global_flag = yinzhiduli
+		}
+		allow = {
+		      war_with = FRA
+		      not = { has_country_flag = YueRpGc }
+		}
+		effect = {
+		  national_unity = 40
+		  YUE = { 
+		  infantry_brigade = 6021
+		  infantry_brigade = 6058
+		  infantry_brigade = 6010
+		  infantry_brigade = 6059
+		  infantry_brigade = 6060
+		  infantry_brigade = 6033
+		  infantry_brigade = 6033
+		  infantry_brigade = 6115
+		  infantry_brigade = 6115
+		  militia_brigade = 6166
+		  militia_brigade = 6165
+		  militia_brigade = 6179
+		  militia_brigade = 6179
+		  militia_brigade = 7720
+		  officer_pool = 1000
+		  }
+		  set_country_flag = YueRpGc
+	}			
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}  

@@ -1,0 +1,282 @@
+#####################
+#  中日谈判事件组   #
+#####################
+country_event = {
+	id = 321001
+	 fire_only_once = yes
+	title = "0001title"
+	desc = "0001decs"
+	picture = "Event3000083"
+	trigger = {
+		tag = GER
+                not = { has_global_flag = KRZZ }
+                not = { year = 1938 }
+                has_global_flag = Event55550004
+                CJS = { controls = 5494 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "0001option1"
+		set_global_flag = Event555540001
+		ai_chance = { factor = 100 }
+       	}
+	option = {
+		name = "0001option2"
+		set_global_flag = Event555540001
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 321004
+  fire_only_once = yes
+	title = "JCTT"
+	desc = "JCTD"
+	picture = "Event3000083"
+	trigger = {
+		tag =JAP
+		date = 1937.7.29
+		not = { year = 1938 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+                }
+	option = {
+		name = "0004option1"
+                relation = { who = GER value = -50 }
+		ai_chance = { factor = 100 }
+       	}
+	option = {
+		name = "0004option2"
+                GER = { country_event = 11898 }
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+          id = 11898
+          is_triggered_only = yes
+          title = "0005title"
+          desc = "0005decs"
+          picture = "news_paper"
+          option = {
+          name = "0005option1"
+          set_global_flag = Event5555000118
+          }
+          option = {
+          name = "0005option2"
+          set_global_flag = Event5555000119   
+         }
+} 
+country_event = {
+          id = 321006
+          fire_only_once = yes
+          title = "0006title"
+          desc = "0006decs"
+          picture = "news_paper"
+          trigger = {
+		tag = CHI
+		not = { year = 1938 }
+                has_global_flag = Event5555000118         
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "0006option"
+          CHI = { load_oob = "GER.txt" } 
+          relation = { who = GER value = 100 }      
+         }
+}  
+country_event = {
+          id = 321008  
+          fire_only_once = yes
+          title = "0008title"
+          desc = "0008decs"
+          picture = "news_paper"
+            trigger = {
+		tag = JAP
+		not = { year = 1938 }
+                has_global_flag = Event5555000118
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "0008option"
+          relation = { who = GER value = -100 }       
+         }
+}  
+country_event = {
+          id = 321007
+          	 fire_only_once = yes
+          title = "0007title"
+          desc = "0007decs"
+          picture = "news_paper"
+          trigger = {
+		tag = CHI
+		not = { year = 1938 }
+                has_global_flag = Event5555000119
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "0007option"
+          relation = { who = GER value = -100 } 
+         }
+}  
+country_event = {
+          id = 321009
+          	 fire_only_once = yes
+          title = "0009title"
+          desc = "0009decs"
+          picture = "news_paper"
+           trigger = {
+		tag = JAP
+		not = { year = 1938 }
+                has_global_flag = Event5555000119
+                has_global_flag = Event20190102
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "0009option"     
+         }
+}
+country_event = {
+          id = 3210002
+          	 fire_only_once = yes
+          title = "00002title"
+          desc = "00002decs"
+          picture = "news_paper"
+          trigger = {
+		tag = CHI
+                has_global_flag = Event555540001
+                has_global_flag = Event55550004
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "00002option"  
+          set_global_flag = TPYX
+         }
+} 
+country_event = {
+          id = 3210003
+          	 fire_only_once = yes
+          title = "00003title"
+          desc = "00003decs"
+          picture = "news_paper"
+          trigger = {
+		tag = JAP
+		not = { year = 1938 }
+                has_global_flag = Event555540001
+                has_global_flag = Event55550004
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "00003option" 
+         }
+} 
+country_event = {
+          id = 3210004
+          fire_only_once = yes
+          title = "00004title"
+          desc = "00004desc"
+          picture = "news_paper"
+          trigger = {
+		tag = CHI
+                has_global_flag = Event555540001              
+                has_global_flag = Event55550004
+                has_global_flag = TPYX
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "00004option" 
+           add_country_modifier = {
+			name = "Event00004_modifier"
+			duration = 3650
+          }
+          leave_alliance = CHC
+          leave_alliance = CGX
+          leave_alliance = CYN
+          leave_alliance = CSC
+          leave_alliance = CSY
+          leave_alliance = CXK
+          remove_minister = 52002
+          head_of_state = 52025
+          end_war = JAP
+          CHI = { hebei_region = { secede_province = JAP } }
+          CHI = { 4979 = { secede_province = JAP } }
+          CHI = { jiangsu_region = { secede_province = JAP } } 
+          CHI = { 5494 = { secede_province = JAP } }
+          CHI = { shandong_region = { secede_province = JAP } } 
+          CHI = { guangdong_region = { secede_province = JAP } } 
+          CHI = { chekiang_region = { secede_province = JAP } } 
+          CHI = { fujian_region = { secede_province = JAP } } 
+          set_country_flag = Event555500062 
+          set_global_flag = Event555500072
+          ai_chance = { factor = 0 }
+          } 
+          option = {
+          name = "00004option2" 
+          national_unity = 2
+          set_global_flag = Event555500072 
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 3210006
+          title = "00006title"
+          desc = "00006decs"
+          picture = "news_paper"
+            trigger = {
+		tag = JAP
+                has_global_flag = Event555500072
+                not = { has_global_flag = Event5555000872 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+           name = "00006option" 
+           set_global_flag = Event5555000872
+         }
+} 
+country_event = {
+          id = 3210008
+          fire_only_once = yes
+          title = "00008title"
+          desc = "00008decs"
+          picture = "news_paper"
+           trigger = {
+		tag = CHC
+                has_global_flag = Event555540001
+                has_global_flag = Event555500072
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "00008option" 
+          national_unity = 10
+          war = { target = CHI }
+          CHC = { inherit = CNM 
+                  inherit = CQM }
+          load_oob = "CHI_EA.txt" 
+          ai_chance = { factor = 100 }
+          }
+          option = {
+          name = "国已亡，信念应倒" 
+          national_unity = -100
+          dissent = 50
+          ai_chance = { factor = 0 }
+         }
+} 

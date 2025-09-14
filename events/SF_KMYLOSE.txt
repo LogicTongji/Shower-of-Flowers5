@@ -1,0 +1,77 @@
+#国府迁台
+country_event = {
+	id = 8018
+	is_triggered_only = yes
+	major = yes
+	title = "EventQTtitle"
+	subtitle = "EventQTsubtitle"
+	desc = "EventQTdesc"
+	picture = "CHI_flag"
+	option = {
+		name = "EventQT1"
+		 head_of_state = 52002
+		 remove_minister = 52031
+		capital = 5737
+		taiwan_region = { remove_core = CHC }
+		ai_chance = { factor = 100 }
+	}
+		option = {
+		name = "EventQT2"
+		capital = 9415
+		ai_chance = { factor = 0 }
+	}
+		option = {
+		name = "EventQT3"
+		capital = 5965
+		ai_chance = { factor = 0 }
+	}
+}
+#傅作义起义
+country_event = {
+	id = 8019
+	is_triggered_only = yes
+	major = yes
+	title = "Event8019title"
+	desc = "Event8019desc"
+	picture = "CHC_flag"
+	option = {
+		name = "Event8019option1"
+		  load_oob = "CSY_1949.txt"
+       }
+}
+#绥远起义
+country_event = {
+	id = 80191
+	major = yes
+	fire_only_once = yes
+	title = "Event80191title"
+	desc = "Event80191desc"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		has_global_flag = China_CivilWar
+		has_global_flag = China_CivilWar4
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "Event8019option1"
+		CHC = { inherit = CSY } 
+		 SF_china_region = { remove_core = CSY }
+		  load_oob = "CSY_1949(2).txt"
+        }
+}
+#西康起义
+country_event = {
+	id = 80195
+	is_triggered_only = yes
+	title = "Event80195title"
+	desc = "Event80195desc"
+	picture = "CHC_flag"
+	option = {
+		name = "弃暗投明"
+		CHC = { split_troops = 1.0 }
+		CHC = { inherit = CXK } 
+        }
+}

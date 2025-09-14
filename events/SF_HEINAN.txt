@@ -1,0 +1,241 @@
+######################
+#   河南饥荒事件组   #
+######################
+country_event = {
+          id = 5000000
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+	         CHI = { controls = 5383 
+	                 controls = 7447 }
+                date = 1942.1.1
+                has_country_flag = Event2221
+          }
+          title = "河南大饥荒"
+          desc = "Event5000000"
+          picture = "Henan_hungry1"
+          option = {
+		name = "援助"
+                 add_country_modifier = {
+			name = "Event4000_modifier"
+			duration = 1000
+		}
+		set_country_flag = Event2019000000
+		supplies = -1000
+		dissent = 5
+                ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "放弃河南"
+           	set_country_flag = Event5000000118
+                national_unity = -50
+                supplies = -10000
+                dissent = 50
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+          id = 5000001
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+	        CHI = { controls = 5383 
+	                 controls = 7447 }
+                date = 1942.4.1
+                has_country_flag = 2019000000
+          }
+          title = "河南大逃荒"
+          desc = "Event5000001"
+          picture = "Henan_hungry2"
+          option = {
+		name = "唉"
+                5383 = { change_manpower = -26 }
+                7435 = { change_manpower = 13 } 
+                9170 = { change_manpower = 10 }
+                7417 = { change_manpower = 3 }               
+		set_country_flag = Event5000001
+		supplies = -1000
+		dissent = 5
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 5000002
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+                date = 1942.5.1
+          }
+          title = "处分官员"
+          desc = "Event5000002"
+          picture = "CHI_flag"
+          option = {
+		name = "处分他们"            
+		set_country_flag = Event2019000002
+                national_unity = 10
+		supplies = 1000
+		dissent = -15
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 5000003
+          fire_only_once = yes
+          trigger = {
+		tag = JAP
+		exists = WJW
+	        war_with = CHI  
+	         JAP = { controls = 5275 
+	                 controls = 5174 }
+                date = 1942.5.1
+            
+          }
+          title = "采取封锁政策"
+          desc = "Event5000003"
+          picture = "JAP_flag"
+          option = {
+		name = "封锁这些支那人" 
+                CHI = { country_event = 5000004 }           
+                national_unity = 10
+                ai_chance = { factor = 100 }
+        }
+ }
+country_event = {
+          id = 5000004
+          is_triggered_only = yes
+          title = "日军采取封锁政策"
+          desc = "Event5000003"
+          picture = "CHI_flag"
+          option = {
+		name = "这些畜生"     
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 5000005
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+	        CHI = { controls = 5383 
+	                 controls = 7447 }
+                date = 1942.5.1
+                has_country_flag = Event2019000002           
+          }
+          title = "赈济灾民"
+          desc = "Event5000005"
+          picture = "CHI_flag"
+          option = {
+		name = "立刻开始第一次赈济"            
+                national_unity = 10
+		supplies = -10000
+		dissent = -15
+                money = -900
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 5000006
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+	        CHI = { controls = 5383 
+	                 controls = 7447 }
+                date = 1942.5.11
+                has_country_flag = Event2019000002
+          }
+          title = "政府报告"
+          desc = "Event5000006"
+          picture = "Henan_hungry3"
+          option = {
+		name = "唉"            
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 5000007
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+		CHI = { controls = 5383 
+	                 controls = 7447 }
+	        war_with = JAP  
+                date = 1942.5.11
+                has_country_flag = Event5000002
+          }
+          title = "媒体报告"
+          subtitle = "直到下一次收获季节来临"
+          desc = "Event5000007"
+          picture = "Henan_hungry3"
+          option = {
+		name = "唉" 
+                national_unity = -10
+                dissent = 5           
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 5000008
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+	        CHI = { controls = 5383 
+	                 controls = 7447 }
+                date = 1942.5.11               
+          }
+          title = "征集军粮"
+          desc = "征集军粮以维持河南驻军的消耗"
+          picture = "CHI_flag"
+          option = {
+		name = "前有暴日，后有灾民，迫不得已啊！" 
+                supplies = 15000
+                dissent = 15           
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 5000009
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+	        CHI = { controls = 5383 
+	                 controls = 7447 }
+                date = 1942.9.1
+          }
+          title = "视察灾情"
+          desc = "派遣官员视察灾情，统筹河南赈济。"
+          picture = "CHI_flag"
+          option = {
+		name = "第二次赈济灾民" 
+                supplies = -15000
+                dissent = -15           
+		set_country_flag = Event5000009
+                ai_chance = { factor = 100 }
+        }
+}
+country_event = {
+          id = 50000010
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+	        war_with = JAP  
+	        CHI = { controls = 5383 
+	                 controls = 7447 }
+                date = 1942.9.1    
+          }
+          title = "统计受灾情况"
+          desc = "Event_500000010"
+          picture = "Henan_hungry3"
+          option = {
+		name = "唉，努力赈济灾民吧" 
+                supplies = -15000
+                dissent = -15           
+                ai_chance = { factor = 100 }
+        }
+}

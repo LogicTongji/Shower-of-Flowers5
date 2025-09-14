@@ -1,0 +1,107 @@
+#波兰流亡政府
+country_event = {
+	id = 203111 
+	fire_only_once = yes
+	title = "POLtitle1"
+	desc = "POLdesc1"
+	picture = "EST"
+	trigger = {
+		tag = POL
+    war_with = GER
+    GER = { 	
+			controls = 1626
+			controls = 2155
+			controls = 2445
+		}
+	}
+	mean_time_to_happen = {
+		days = 120
+	}
+	option = {
+		name = "事已至此"
+    join_faction = allies
+    form_government_in_exile = yes
+ 		ai_chance = { factor = 100 }
+	}
+}
+#波兰救国军
+country_event = {
+	id = 203112
+	title = "POLtitle2"
+	desc = "POLdesc2"
+	picture = "POL_country_army"
+	trigger = {
+		tag = POL
+    has_country_flag = Save_country_army 
+    war_with = GER
+	}
+	mean_time_to_happen = {
+		days = 120
+	}
+	option = {
+		name = "武装斗争"
+		POL = { load_oob = "POL_save.txt" }
+		ai_chance = { factor = 100 }
+	}
+}
+#英法联合政府
+country_event = {
+	id = 203113
+	fire_only_once = yes
+	title = "eftitle1"
+	desc = "efdesc1"
+	picture = "EFU"
+	trigger = {
+		tag = POL
+    war_with = GER
+    GER = { 	
+			controls = 1626
+			controls = 2155
+			controls = 2445
+		}
+	}
+	mean_time_to_happen = {
+		days = 120
+	}
+	option = {
+		name = "事已至此"
+   FRA = { country_event = 6500 }
+ 		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 6500
+	is_triggered_only = yes
+	title = "EF1T"
+	desc = "efdesc1"
+	picture = "EFU"
+	option = {
+		name = "事已至此"
+     set_global_flag = EF_unity       
+	}
+	option = {
+		name = "算了"    
+	}
+}
+#法国战败
+country_event = {
+	id = 203114
+	major = yes
+	fire_only_once = yes
+	title = "FRAtitle1"
+	desc = "FRAdesc1"
+	picture = "EST"
+	trigger = {
+		tag = FRA
+    FRA = { government_in_exile = yes }
+	}
+	mean_time_to_happen = {
+		days = 120
+	}
+	option = {
+		name = "耻辱!"
+    set_global_flag = France_lose
+    load_oob = "Fra_lost_army.txt"
+ 		ai_chance = { factor = 100 }
+	}
+}

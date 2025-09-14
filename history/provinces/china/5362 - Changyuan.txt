@@ -1,0 +1,54 @@
+owner = CHI
+
+controller = CHI
+add_core = CHC
+
+add_core = CHI
+
+infra = 4
+
+
+1933.12.29 = {
+	owner = CJC
+
+controller = CJC
+add_core = CJC 
+}
+
+
+1937.7.29 = {
+	controller = JAP
+}
+
+1938.4.1 = {
+infra = 0
+
+}
+
+1938.5.9 = {
+
+	controller = JAP
+
+}
+
+1945.9.1 = {
+infra = 4
+
+}
+
+1940.3.1 = {
+owner = WJW 
+controller = WJW 
+add_core = WJW
+
+}
+
+1945.9.28 = {
+	owner = CHI
+	controller = CHI
+	remove_core = WJW
+}
+1946.1.1 = {
+	owner = CHC
+	controller = CHC
+}

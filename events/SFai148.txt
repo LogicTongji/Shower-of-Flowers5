@@ -1,0 +1,45 @@
+country_event = {
+	id = 2000076
+	trigger = {
+		tag = CHC
+		war_with = CHI
+		has_global_flag = China_CivilWar
+		not = { has_global_flag = Taibei_chance }
+		ai = yes
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	title = "微调"
+	desc = "AI弱智"
+	picture = "CHC_flag"
+	option = {
+		name = "去他妈的" 
+		supplies = 13000
+		fuel = 100
+	}
+}
+country_event = {
+	id = 2000076
+	trigger = {
+		tag = CHI
+    exists = CHC
+		war_with = JAP
+		not = { has_global_flag = Taibei_chance }
+		has_global_flag = China_CivilWar
+    ai = yes
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	title = "微调"
+	desc = "AI弱智"
+	picture = "CHI_flag"
+	option = {
+		name = "去他妈的" 
+		supplies = 13000
+		fuel = 100
+	}
+}

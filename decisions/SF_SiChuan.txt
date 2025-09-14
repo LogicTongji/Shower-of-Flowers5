@@ -1,0 +1,59 @@
+diplomatic_decisions = {
+Intagrate_China_SiChuan = {
+                             major = yes
+		potential = {
+			tag = CHI
+			 not = { has_country_flag = Intagrate_China_SiChuan } 	
+	                    date = 1935.4.1
+                    }
+		allow = {
+		 exists = CSC
+                    exists = CXK
+                    exists = CTS
+                    exists = CDX
+                    exists = CYS
+		 }
+		effect = {
+			set_country_flag = Intagrate_China_SiChuan	
+		         CSC = {  inherit = CTS
+                                          inherit = CYS
+                                          inherit = CDX  
+			     }	
+                             SF_china_region = { remove_core = CTS
+                                                            remove_core = CDX
+                                                            remove_core = CYS
+                             }
+                             CXK = {
+                                       any_owned = { limit = { province_id = 9477 } secede_province = CSC } 
+                                       any_owned = { limit = { province_id = 9415 } secede_province = CSC } 
+                                       any_owned = { limit = { province_id = 9381 } secede_province = CSC } 
+                                       any_owned = { limit = { province_id = 9350 } secede_province = CSC } 
+                                       any_owned = { limit = { province_id = 9324 } secede_province = CSC } 
+                          }
+ }		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+Intagrate_China_GuiZhou = {
+		potential = {
+			tag = CHI
+			 not = { has_country_flag = Intagrate_China_GuiZhou } 	
+	                    date = 1935.5.1
+                    }
+		allow = {
+		 exists = CQS
+		 }
+		effect = {
+			set_country_flag = Intagrate_China_GuiZhou
+                            country_event = 12214	
+		         CHI = {  inherit = CQS
+			     }	
+                             SF_china_region = { remove_core = CQS
+                             }
+ }		
+		ai_will_do = { 
+			factor = 1
+		}
+	}
+}

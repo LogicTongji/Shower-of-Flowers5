@@ -1,0 +1,277 @@
+#####################
+#  华北五省事件组   #
+#####################
+country_event = {
+                is_triggered_only = yes
+	id = 2019324
+	title = "华北五省自治"
+	desc = "hbwss"
+	picture = "JAP_flag"
+        option = {
+		name = "帝国万岁！"
+		relation = { who = CHI value = -100 }
+		CHI = { country_event = 2019711 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019711
+	title = "华北五省自治"
+	desc = "HBWS"
+	picture = "CHI_flag"
+        option = {
+		name = "他妈的"
+		relation = { who = JAP value = -100 }
+		JAP = { threat = { who = CHI value = 20 
+     who = CHC value = 20 
+     who = CJC value = 20 
+     who = CSX value = 20 
+     who = CSD value = 20 
+     who = CSY value = 20 }
+   }  
+	}
+}
+country_event = {
+          id = 2019405
+          trigger = {
+		tag = JAP
+                date = 1936.3.1
+                not = { has_global_flag = Event2019405
+	            has_global_flag = error2019405 }
+	            not = { year = 1937 }
+                has_global_flag = huabeiwusheng
+          }
+          title = "JAP1_title"
+          desc = "JAP1_decs"
+          picture = "JAP_flag"
+          option = {
+		name = "JAP1_option1"
+		set_global_flag = Event2019405
+		relation = { who = CHC value = -100 }
+		dissent = -10
+		CSX = { country_event = 2019406 }
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "JAP1_option2"
+           	set_global_flag = error2019405
+                national_unity = -5
+                dissent = 2
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019406
+	title = "CSX1_title"
+	desc = "CSX1_decs"
+	picture = "Event110010"
+        option = {
+		name = "CSX1_option1"
+                                load_oob = "CSX_JAPsupportA.txt"
+                                create_alliance = JAP
+		CSX = { war = { target = CHI } }
+		relation = { who = CHI value = -100 }
+                                ai_chance = { factor = 5 }
+                  }
+        option = {
+		name = "CSX1_option2"
+		relation = { who = JAP value = -100 }
+                                JAP = { country_event = 2019407 }
+		ai_chance = { factor = 95 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019407
+	title = "JAP2_title"
+	desc = "JAP2_decs"
+	picture = "Event110010"
+        option = {
+		name = "JAP2_option1"
+		relation = { who = CSX value = -100 }
+	}
+}
+country_event = {
+          id = 2019408
+          trigger = {
+		tag = JAP
+                date = 1936.6.1
+                not = { has_global_flag = Event2019408
+	            has_global_flag = error2019408 }
+	            not = { year = 1937 }
+                has_global_flag = huabeiwusheng
+          }
+          title = "JAP3_title"
+          desc = "JAP3_decs"
+          picture = "JAP_flag"
+          option = {
+		name = "JAP3_option1"
+		set_global_flag = Event2019408
+		relation = { who = CHI value = -100 }
+		dissent = -10
+		CSD = { country_event = 2019409 }
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "JAP3_option2"
+           	set_global_flag = error2019408
+                national_unity = -5
+                dissent = 2
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019409
+	title = "CSD1_title"
+	desc = "CSD1_decs"
+	picture = "Event110010"
+        option = {
+		name = "CSD1_option1"
+                                load_oob = "CSD_JAPsupportA.txt"
+                                create_alliance = JAP
+		CSD = { war = { target = CHI } }
+		relation = { who = CHI value = -100 }
+                                ai_chance = { factor = 10 }
+                  }
+        option = {
+		name = "CSD1_option2"
+		relation = { who = JAP value = -100 }
+                                JAP = { country_event = 2019410 }
+		ai_chance = { factor = 90 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019410
+	title = "JAP4_title"
+	desc = "JAP4_decs"
+	picture = "Event110010"
+        option = {
+		name = "JAP4_option1"
+		relation = { who = CSX value = -100 }
+	}
+}
+country_event = {
+          id = 20194011
+          trigger = {
+		tag = JAP
+                date = 1936.6.20
+                not = { has_global_flag = Event2019409
+	            has_global_flag = error2019409 }
+	            not = { year = 1937 }
+                has_global_flag = huabeiwusheng
+          }
+          title = "JAP5_title"
+          desc = "JAP5_decs"
+          picture = "JAP_flag"
+          option = {
+		name = "JAP5_option1"
+		set_global_flag = Event2019409
+		relation = { who = CHI value = -100 }
+		dissent = -10
+		CSY = { country_event = 2019412 }
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "JAP5_option2"
+           	set_global_flag = error2019409
+                national_unity = -5
+                dissent = 2
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019412
+	title = "CSY1_title"
+	desc = "CSY1_decs"
+	picture = "Event110010"
+        option = {
+		name = "CSY1_option1"
+                                load_oob = "CSY_JAPsupportA.txt"
+                                create_alliance = JAP
+		CSY = { war = { target = CHI } }
+		relation = { who = CHI value = -100 }
+                                ai_chance = { factor = 0 }
+                  }
+        option = {
+		name = "CSY1_option2"
+		relation = { who = JAP value = -100 }
+                                JAP = { country_event = 2019413 }
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019413
+	title = "JAP6_title"
+	desc = "JAP6_decs"
+	picture = "Event110010"
+        option = {
+		name = "JAP6_option1"
+		relation = { who = CSX value = -100 }
+	}
+}
+country_event = {
+          id = 2019414
+          trigger = {
+		tag = JAP
+                date = 1936.6.20
+                not = { has_global_flag = Event2019410
+	            has_global_flag = error2019410 }
+	            not = { year = 1937 }
+                has_global_flag = huabeiwusheng
+          }
+          title = "JAP8_title"
+          desc = "JAP8_decs"
+          picture = "JAP_flag"
+          option = {
+		name = "JAP8_option1"
+		set_global_flag = Event2019410
+		relation = { who = CHI value = -100 }
+		dissent = -10
+		CJC = { country_event = 2019415 }
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "JAP8_option2"
+           	set_global_flag = error2019410
+                national_unity = -5
+                dissent = 2
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019415
+	title = "CXB1_title"
+	desc = "CXB1_decs"
+	picture = "Event110010"
+        option = {
+		name = "CXB1_option1"
+                                load_oob = "CXB_JAPsupportA.txt"
+                                create_alliance = JAP
+		CJC = { war = { target = CHI } }
+		relation = { who = CHI value = -100 }
+                                ai_chance = { factor = 1 }
+                  }
+        option = {
+		name = "CXB1_option2"
+		relation = { who = JAP value = -100 }
+                                JAP = { country_event = 2019416 }
+		ai_chance = { factor = 99 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 2019416
+	title = "JAP7_title"
+	desc = "JAP7_decs"
+	picture = "Event110010"
+        option = {
+		name = "JAP7_option1"
+		relation = { who = CSX value = -100 }
+	}
+}

@@ -1,0 +1,251 @@
+country_event = {
+	id = 301907112
+	fire_only_once = yes
+	trigger = {
+                tag = JAP
+                war_with = CHI
+                year = 1939             
+                
+	}
+	title = "JAPFIND"
+	desc = "JAPFINDCS"
+	option = {
+		name = "JAPOP"
+		ai_chance = { factor = 50 }
+		set_global_flag = secret_talk_to_China_find
+	}		
+}
+country_event = {
+	id = 301907113
+	fire_only_once = yes
+	trigger = {
+                tag = CHI
+                war_with = JAP
+                has_global_flag = secret_talk_to_China_find            
+                
+	}
+	title = "CHIFIND"
+	desc = "CHIFINDCS"
+	option = {
+		name = "chuOP"
+		ai_chance = { factor = 50 }
+	}		
+}
+country_event = {
+	id = 20190711
+	is_triggered_only = yes
+	title = "CHI_JCTT1TIT"
+	desc = "CHI_JCTT1DES"
+	option = {
+		name = "JCTTOP1"
+		ai_chance = { factor = 100 }
+		JAP = { set_country_flag = secret_talk_to_China_1 }	
+	}
+	option = {
+		name = "JCTTOP2"
+		ai_chance = { factor = 0 }	
+		JAP = { country_event = 99014 }
+		set_country_flag = secret_talk_to_China				
+	}		
+}
+country_event = {
+	id = 201907112
+	fire_only_once = yes
+	trigger = {
+                tag = JAP
+                war_with = CHI
+                year = 1940               
+                has_country_flag = secret_talk_to_China_1
+	}
+	title = "中国方面有接触的意愿"
+	desc = "JCTHKT"
+	option = {
+		name = "派遣官员至香港谈判！"
+		ai_chance = { factor = 50 }
+		CHI = { country_event = 99011 }
+	}
+	option = {
+		name = "派遣官员至澳门谈判！"
+		ai_chance = { factor = 50 }
+		CHI = { country_event = 99012 }
+	}		
+}
+country_event = {
+	id = 99014
+	is_triggered_only = yes
+	title = "JCTTIT3"	
+ desc = "JCTTDEC3"	
+	option = {
+		name = "JTTOP4"
+		relation = { who = CHI value = -10 }
+		national_unity = 1
+	}		
+}
+country_event = {
+is_triggered_only = yes
+	id = 99011
+	title = "HKTT1"
+	desc = "HKDCS1"	
+	option = {
+		name = "hktop"
+		national_unity = 1
+    		dissent = -2
+    		CHI = { country_event = 99013 }
+	}		
+}
+
+country_event = {
+	id = 99012
+	is_triggered_only = yes
+	title = "MACOTT1"
+	desc = "HKDCS1"
+	option = {
+		name = "hktop"
+		national_unity = 1
+    		dissent = -2
+		CHI = { country_event = 99013 }
+	}		
+}
+country_event = {
+          id = 99013
+          is_triggered_only = yes
+          title = "00004title"
+          desc = "TPDESC"
+          picture = "news_paper"
+          option = {
+          name = "00004option" 
+           add_country_modifier = {
+			name = "Event00004_modifier"
+			duration = 3650
+          }
+          national_unity = -80
+          leave_alliance = CHC
+          leave_alliance = CGX
+          leave_alliance = CYN
+          leave_alliance = CSC
+          leave_alliance = CSY
+          leave_alliance = CXK
+          remove_minister = 52002
+          head_of_state = 52025
+          end_war = JAP
+          CHI = { hebei_region = { secede_province = JAP } }
+          CHI = { 4979 = { secede_province = JAP } }
+          CHI = { jiangsu_region = { secede_province = JAP } } 
+          CHI = { 5494 = { secede_province = JAP } }
+          CHI = { shandong_region = { secede_province = JAP } } 
+          CHI = { guangdong_region = { secede_province = JAP } } 
+          CHI = { chekiang_region = { secede_province = JAP } } 
+          CHI = { fujian_region = { secede_province = JAP } } 
+          set_global_flag = Event201907116
+          ai_chance = { factor = 0 }
+          } 
+          option = {
+          name = "00004option2" 
+          national_unity = 2  
+          set_global_flag = Event301907116
+          ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 201907117
+          fire_only_once = yes
+          title = "00008title"
+          desc = "00008decs"
+          picture = "news_paper"
+           trigger = {
+		tag = CHC
+		war_with = JAP
+                has_global_flag = Event201907116            
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "00008option" 
+          national_unity = 10
+          war = { target = CHI }
+          CHC = { inherit = CNM }	
+          CHC = { inherit = CQM }
+          load_oob = "CHC_KRJG.txt" 
+          set_country_flag = Event555500064	       
+         }
+} 
+country_event = {
+          id = 201907119
+          fire_only_once = yes
+          title = "JAPCHItitle"
+          desc = "JAPCHIdecs"
+          picture = "news_paper"
+           trigger = {
+		tag = CHI
+		war_with = JAP
+                has_global_flag = Event201907118
+                has_global_flag = baituandazhan
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "JAPCHIoption" 
+          national_unity = 10
+          set_global_flag = Event201907119       
+         }
+} 
+country_event = {
+          id = 201907118
+          fire_only_once = yes
+          title = "JAPCHItitle1"
+          desc = "JAPCHIdecs1"
+          picture = "news_paper"
+           trigger = {
+		tag = JAP
+		war_with = CHI
+		  has_global_flag = Event301907116
+                has_global_flag = baituandazhan       
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "JAPCHIoption1"          
+          set_global_flag = Event201907118       
+         }
+} 
+country_event = {
+	id = 2019071120
+	  fire_only_once = yes              
+           trigger = {
+		tag = JAP
+		war_with = CHI
+		year = 1938
+		  not = { CHI = { controls = 7508 } }
+			not = { CHI = { controls = 5494 } }
+			not = { has_country_flag = WJW_FCPUE }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	title = "WJW1"	
+ desc = "WJWD"
+ 	 picture = "JAP_flag"
+	option = {
+		name = "WJWOP1"
+		CHI = { country_event = 99015 } 
+		CHC = { country_event = 99015 } 
+		CYN = { country_event = 99015 } 
+		CGX = { country_event = 99015 } 
+		set_country_flag = WJW_FCPUE
+		relation = { who = CHI value = -100 } 
+	}		
+}
+country_event = {
+	id = 99015
+	is_triggered_only = yes
+	title = "WJW2"	
+ desc = "WJWD1"	
+	option = {
+		name = "WJWOP2"
+		relation = { who = JAP value = -100 } 
+		
+	}		
+}

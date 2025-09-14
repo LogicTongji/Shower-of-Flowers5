@@ -1,0 +1,423 @@
+###################
+#  二战抵抗运动   #
+###################
+#国际指导
+country_event = {
+          fire_only_once = yes
+	id = 2020316
+	title = "FF1"
+	desc = "FFD1"
+	picture = "Lostgroly"
+	trigger = {
+		tag = SOV
+		FRA = { government_in_exile = yes }
+		has_country_flag = FreeFra_in_africa  
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "算了吧"
+		ai_chance = { factor = 0 }
+       	}
+	option = {
+		name = "可以一试"
+		set_country_flag = Fra_war_in_deep_first
+		ai_chance = { factor = 100 }
+	}
+}
+#FTP组织抵抗
+country_event = {
+          fire_only_once = yes
+	id = 20203161
+	title = "FFR2"
+	desc = "FFRD2"
+	picture = "Lostgroly"
+	trigger = {
+		tag = SOV
+		FRA = { government_in_exile = yes }
+		has_country_flag = Fra_war_in_deep_first 
+			axis_faction = { 	
+		  controls = 2613
+			controls = 3687
+			controls = 4229
+		      } 
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "继续观察"
+				  load_oob = "FTP.txt"
+				  set_country_flag = Fra_be_fft
+		ai_chance = { factor = 100 }
+	}
+}
+#陆军秘密抵抗组织
+country_event = {
+          fire_only_once = yes
+	id = 20203162
+	title = "FFR3"
+	desc = "FFRD3"
+	picture = "Lostgroly"
+	trigger = {
+		tag = FRA
+		FRA = { government_in_exile = yes }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "没啥大不了的"
+		ai_chance = { factor = 0 }
+       	}
+	option = {
+		name = "暗中支持"
+		set_country_flag = Fra_war_in_deep_second
+		ai_chance = { factor = 100 }
+	}
+}
+#ORA
+country_event = {
+          fire_only_once = yes
+	id = 20203163
+	title = "ffr5"
+	desc = "ffrd5"
+	picture = "SPA"
+	trigger = {
+		tag = FRA		
+		date = 1942.1.1
+		not = { year = 1945 }
+			axis_faction = { 	
+		  controls = 2613
+			controls = 3687
+			controls = 4229
+		      }
+    has_country_flag = Fra_war_in_deep_second
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "太好了"
+				  load_oob = "ORA.txt"
+		set_country_flag = Set_up_Ora
+		ai_chance = { factor = 100 }
+	}
+}
+#AS
+country_event = {
+          fire_only_once = yes
+	id = 20203164
+	title = "FFR7"
+	desc = "FFRD7"
+	picture = "SPA"
+	trigger = {
+		tag = FRA		
+		date = 1942.9.1
+		not = { year = 1945 }
+			axis_faction = { 	
+		  controls = 2613
+			controls = 3687
+			controls = 4229
+		      }
+    has_country_flag = Fra_war_in_deep_second
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "太好了"
+     		  load_oob = "AS.txt"
+		set_country_flag = Set_up_AS
+		ai_chance = { factor = 100 }
+	}
+}
+#南斯拉夫游击队
+#南共中央对德宣战
+country_event = {
+          fire_only_once = yes
+          major = yes
+	id = 20203165
+	title = "YRT1"
+	desc = "YRD1"
+	picture = "Lostgroly"
+	trigger = {
+		tag = YUG
+	  war_with = GER
+	  SOV = { war_with = GER }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "太好了"
+     		  load_oob = "YUG_LA.txt"
+		set_country_flag = yug_against_ger
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 6100
+	title = "YRT2"
+	desc = "YRD2"
+	picture = "Lostgroly"
+	trigger = {
+		tag = YUG
+	  war_with = GER
+	  SOV = { war_with = GER }
+	  has_country_flag = yug_against_ger
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+	option = {
+		name = "太好了"
+     		  load_oob = "YUG_LAb.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 5400
+	title = "EYRT2"
+	desc = "EYRD2"
+	picture = "SPA"
+	trigger = {
+		tag = ENG
+		has_global_flag = EventMCD  
+	  war_with = GER
+	  SOV = { war_with = GER }
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+        option = {
+		name = "没必要"
+		ai_chance = { factor = 0 }
+		 relation = { who = SOV value = -100 }
+	}
+	option = {
+		name = "转变态度"
+		YUG = { country_event = 6412 }
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 6412
+	title = "EYRT2"
+	desc = "EYRD2"
+	picture = "Lostgroly"
+	option = {
+		name = "没有永远的朋友...."
+     		  load_oob = "YUG_EG.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+#挪威抵抗运动
+#拥护流亡政府
+country_event = {
+          fire_only_once = yes
+	id = 20203165
+	title = "NFT1"
+	desc = "NFD1"
+	picture = "Lostgroly"
+	trigger = {
+		tag = NOR
+		government_in_exile = yes
+	  war_with = GER
+	  SOV = { war_with = GER }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "太好了"
+		set_country_flag = nor_against_ger
+		ai_chance = { factor = 100 }
+	}
+}
+#自由军
+country_event = {
+	id = 6101
+	title = "NFT2"
+	desc = "NFD2"
+	picture = "Lostgroly"
+	trigger = {
+		tag = NOR
+		government_in_exile = yes
+	  war_with = GER
+	  SOV = { war_with = GER }
+	  has_country_flag = nor_against_ger
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+	option = {
+		name = "太好了"
+     		  load_oob = "nor_LAb.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+#USA_OSS
+country_event = {
+	id = 6102
+	title = "NFT3"
+	desc = "NFD3"
+	picture = "Lostgroly"
+	trigger = {
+		tag = NOR
+		government_in_exile = yes
+	  war_with = GER
+	  SOV = { war_with = GER }
+	  has_country_flag = nor_against_ger
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+	option = {
+		name = "太好了"
+		ai_chance = { factor = 100 }
+	}
+}
+#皇家空军成立
+country_event = {
+	id = 6103
+	title = "NFT4"
+	desc = "NFD4"
+	picture = "Lostgroly"
+	trigger = {
+		tag = NOR
+		government_in_exile = yes
+	  war_with = GER
+	  SOV = { war_with = GER }
+	  has_country_flag = nor_against_ger
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+	option = {
+		name = "太好了"
+     		  load_oob = "norair_LAb.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+#希腊抵抗运动
+#民族解放阵线
+country_event = {
+          fire_only_once = yes
+	id = 20203166
+	title = "GFT1"
+	desc = "GFD1"
+	picture = "Lostgroly"
+	trigger = {
+		tag = GRE
+	  war_with = GER
+	  SOV = { war_with = GER }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "太好了"
+     		  load_oob = "GRE_national_aganist1.txt"
+		set_country_flag = gre_against_ger
+		ai_chance = { factor = 100 }
+	}
+}
+#民族主义共和联盟
+country_event = {
+	id = 6103
+	title = "GFT2"
+	desc = "GFD2"
+	picture = "Lostgroly"
+	trigger = {
+		tag = GRE
+	  war_with = GER
+	  SOV = { war_with = GER }
+	  has_country_flag = gre_against_ger
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+	option = {
+		name = "太好了"
+     		  load_oob = "GRE_national_aganist.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+#荷兰抵抗运动
+#温和政策
+country_event = {
+          fire_only_once = yes
+	id = 20203167
+	title = "HFT1"
+	desc = "HFD1"
+	picture = "Lostgroly"
+	trigger = {
+		tag = GER
+		HOL = { government_in_exile = yes }
+	  war_with = GER
+	  SOV = { war_with = GER }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "施行吧"
+		set_country_flag = hol_no_against_ger
+		ai_chance = { factor = 100 }
+	}
+}
+#小规模抵抗
+country_event = {
+	id = 6105
+	title = "HFT2"
+	desc = "HFD2"
+	picture = "Lostgroly"
+	trigger = {
+	OR = {
+		tag = HOL
+		tag = GER
+		}
+		government_in_exile = yes
+	  war_with = GER
+	  SOV = { war_with = GER }
+	  has_country_flag = hol_no_against_ger
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+	option = {
+		name = "不必在意"
+			  set_country_flag = hol_no_against_ger2
+		ai_chance = { factor = 100 }
+	}
+}
+#组织罢工
+country_event = {
+	id = 6106
+	title = "HFT3"
+	desc = "HFD3"
+	picture = "ICP"
+	trigger = {
+		tag = GER
+	   has_country_flag = hol_no_against_ger2
+	}
+        mean_time_to_happen =  {
+	        months = 2
+        }
+	option = {
+		name = "立刻逮捕组织者"
+		random_list = {
+50 = { dissent = 4 
+       money = -100 } 
+20 = { dissent = 3 } 
+20 = { dissent = 2 }
+10 = { dissent = 1 
+      fascistic_GER = { popularity = -5 }
+      } 
+}
+		ai_chance = { factor = 100 }
+	}
+}
+

@@ -1,0 +1,363 @@
+country_event = {
+	id = 20126
+	is_triggered_only = yes
+	title = "Event20190702title"
+	desc = "Event20190702desc"
+	picture = "CHC_flag"
+	option = {
+		  name = "Event20190702option"
+                                    add_country_modifier = {
+			name = "KRYJQ12_modifier"
+			duration = 2196
+		}
+                                  set_country_flag = KRYJQ1
+                                  dissent = -5
+		  national_unity = 10	
+	}
+}
+country_event = {
+	id = 20127
+fire_only_once = yes
+	title = "Event201907031title"
+	desc = "Event201907031desc"
+	picture = "CHC_Flag"
+	trigger = {
+		tag = CHC
+                                has_country_flag = KRYJQ1
+	}
+	option = {
+		name = "Event201907031option"
+		set_country_flag = Event201907031
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 20128
+fire_only_once = yes
+	title = "Event2019070311title"
+	desc = "Event2019070311desc"
+	picture = "CHC_Flag"
+	trigger = {
+		tag = CHC
+                                war_with = JAP
+                                has_country_flag = KRYJQ1
+	}
+	option = {
+		name = "Event2019070311option"
+		set_country_flag = Event2019070311
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 20129
+fire_only_once = yes
+	title = "Event2019070312title"
+	desc = "Event2019070312desc"
+	picture = "CHC_Flag"
+	trigger = {
+		tag = CHC
+                                war_with = JAP
+                                has_country_flag = KRYJQ1
+	}
+	option = {
+		name = "Event2019070312option"
+		set_country_flag = Event2019070312
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30121
+fire_only_once = yes
+	title = "Event2019070313title"
+	desc = "Event2019070313desc"
+	picture = "CHC_Flag"
+	trigger = {
+		tag = CHC
+                                war_with = JAP
+                                has_country_flag = KRYJQ1
+	}
+	option = {
+		name = "Event2019070313option"
+		set_country_flag = Event2019070313
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30122
+fire_only_once = yes
+	title = "Event2019070314title"
+	desc = "Event2019070314desc"
+	picture = "CHC_Flag"
+	trigger = {
+		tag = CHC
+                                war_with = JAP
+                                has_country_flag = KRYJQ1
+	}
+	option = {
+		name = "Event2019070314option"
+		set_country_flag = Event2019070314
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30123
+fire_only_once = yes
+	title = "Event2019070315title"
+	desc = "Event2019070315desc"
+	picture = "CHC_Flag"
+	trigger = {
+		tag = CHC
+                                war_with = JAP
+                                has_country_flag = KRYJQ1
+	}
+	option = {
+		name = "Event2019070315option"
+		set_country_flag = Event2019070315
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30124
+fire_only_once = yes
+	title = "Event2019070316title"
+	desc = "Event2019070316desc"
+	picture = "CHC_Flag"
+	trigger = {
+		tag = CHC
+                                war_with = JAP
+                                has_country_flag = KRYJQ1
+	}
+	option = {
+		name = "Event2019070316option"
+		set_country_flag =Event2019070316
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30125
+fire_only_once = yes
+	title = "chc_jirecha1"
+	desc = "chc_jirecha1_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                 not = { 
+		  OR = {
+		  CHI = { controls = 5018
+              controls = 4979 }
+		  CHC = { controls = 5018
+              controls = 4979 }
+		  }
+    } 
+                                
+                                has_country_flag = 20190704
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_20190704_option"
+		manpower = 5
+		load_oob = "CHC_PXRCJ.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30126
+fire_only_once = yes
+	title = "chc_jirecha2"
+	desc = "chc_jirecha2_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                  not = { 
+		  OR = {
+		  CHI = { controls = 5174
+             controls = 4977 }
+		  CHC = { controls = 5174
+                controls = 4977 }
+		  CSX = { controls = 5174
+              controls = 4977 }
+		  }
+    } 
+                                has_country_flag = Event2019070311
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907041_option"
+		manpower = 5
+		load_oob = "CHC_JS.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30127
+fire_only_once = yes
+	title = "chc_jirecha3"
+	desc = "chc_lunansub_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                  not = { 
+		  OR = {
+		  CHI = { controls = 5515 }
+		  CHC = { controls = 5515 }
+		  }                              
+                                has_country_flag = Event2019070312
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907042_option"
+		manpower = 5
+		load_oob = "CHC_SBLN.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30128
+fire_only_once = yes
+	title = "chc_jirecha4"
+	desc = "chc_jirecha4_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                  not = { 
+		  OR = {
+		  CHI = { controls = 7508 }
+		  CHC = { controls = 7508 }
+		  }
+                                JAP = { controls = 7508 }
+                                has_country_flag = Event2019070313
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907043_option"
+		manpower = 5
+		load_oob = "CHC_EB.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30129
+fire_only_once = yes
+	title = "chc_jirecha5"
+	desc = "chc_jirecha5_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                  not = { 
+		  OR = {
+		  CHI = { controls = 5494 }
+		  CHC = { controls = 5494 }
+		  }
+		  }
+                                WJW = { controls = 5494 }
+                                has_country_flag = Event2019070314
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907044_option"
+		manpower = 5
+		load_oob = "CHC_SN.txt"
+		load_oob = "CHC_ZD.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 40121
+fire_only_once = yes
+	title = "chc_jirecha6"
+	desc = "chc_jirecha6_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                 not = { 
+		  OR = {
+		  CHI = { controls = 5834 }
+		  CHC = { controls = 5834 }
+		  CGX = { controls = 5834 }
+		         }
+		  }
+                                WJW = { controls = 5834 }
+                                has_country_flag = Event2019070315
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907045_option"
+		manpower = 5
+		load_oob = "CHC_HLFLJ.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 40122
+fire_only_once = yes
+	title = "chc_jirecha7"
+	desc = "chc_jirecha7_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                WJW = { controls = 5965 }
+                                has_country_flag = Event2019070316
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907046_option"
+		manpower = 5
+		load_oob = "CHC_QY.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 40123
+fire_only_once = yes
+	title = "jizhong_army"
+	desc = "jizhong_army_desc"
+	picture = "jizhong_army"
+	trigger = {
+		tag = CHC
+		war_with = JAP
+		  not = { 
+		  OR = {
+		  CHI = { controls = 4979 }
+		  CHC = { controls = 4979 }
+		           }
+		  }
+                                has_country_flag = Event201907031
+                                has_country_flag = KRYJQ1
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_1000039_option"
+		load_oob = "CHC_11.txt"
+		ai_chance = { factor = 100 }
+	}
+}

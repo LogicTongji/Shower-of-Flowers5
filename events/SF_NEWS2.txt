@@ -1,0 +1,379 @@
+#1937—1945新闻事件
+#1937
+country_event = {
+	id = 20190719
+	major = yes
+		fire_only_once = yes
+	title = "XHSV"	
+	desc = "XHSD"
+	picture = "Event90719"
+	trigger = {
+		tag = CHC  
+		not = { year = 1938 }   
+		date = 1937.1.25
+	}
+	option = {
+		name = "XHS"  
+		national_unity = 2           
+	}
+}
+country_event = {
+	id = 201907191
+		fire_only_once = yes
+	title = "FCJT"	
+	desc = "FCJD"
+	picture = "Event907191"
+	trigger = {
+		tag = CHC  
+		not = { year = 1938 }   
+		date = 1937.2.2
+	}
+	option = {
+		name = "FCJOP"  
+		national_unity = 2           
+	}
+}
+country_event = {
+	id = 201907193
+	major = yes
+		fire_only_once = yes
+	title = "LTXZ"	
+	desc = "LTXZD"
+	picture = "EventLTXZ"
+	trigger = {
+		tag = CHI 
+		not = { year = 1938 }   
+		date = 1937.3.6
+	}
+	option = {
+		name = "LTXZOP"  
+		national_unity = 1           
+	}
+}
+country_event = {
+	id = 301907194
+	major = yes
+		fire_only_once = yes
+	title = "YAC"	
+	desc = "YACD"
+	picture = "Event193613"
+	trigger = {
+		tag = CHC 
+		not = { year = 1938 }   
+		date = 1937.3.6
+	}
+	option = {
+		name = "YACOP"  
+		head_of_government = 51012
+		set_country_flag = YananConversation
+		national_unity = 1           
+	}
+}
+country_event = {
+	id = 201907195
+		fire_only_once = yes
+	title = "NCC"	
+	desc = "NCD"
+	picture = "EventNCC"
+	trigger = {
+		tag = CHC 
+		not = { year = 1938 }   
+		date = 1937.3.6
+	}
+	option = {
+		name = "NCOP"             
+	}
+}
+country_event = {
+	id = 201907196
+	major = yes
+		fire_only_once = yes
+	title = "GBDT"	
+	desc = "EVentGBD"
+	picture = "EventGBDP"
+	trigger = {
+		tag = FRA 
+		not = { year = 1938 }   
+		date = 1937.5.2
+	}
+	option = {
+		name = "GBDOP"             
+	}
+}
+country_event = {
+	id = 2019071999
+	major = yes
+		fire_only_once = yes
+	title = "QGHT"	
+	desc = "QGHD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		not = { year = 1938 }   
+		date = 1937.5.2
+	}
+	option = {
+		name = "QGHOP"  
+		national_unity = 2  
+		 set_global_flag = Yanan_conversation1 
+		   add_country_modifier = {
+			name = "TGconversation_modifier"
+			duration = 200
+	}		              
+	}
+}
+#1938
+country_event = {
+	id = 201907201
+		fire_only_once = yes
+	title = "KMMT"	
+	desc = "KMMD"
+	picture = "KMMP"
+	trigger = {
+		tag = CHI
+		not = { year = 1939 }   
+		date = 1938.1.21
+	}
+	option = {
+		name = "NCOP"       
+	}
+}
+country_event = {
+	id = 201907202
+	major = yes
+		fire_only_once = yes
+	title = "KMCT"	
+	desc = "KMCD"
+	picture = "CHI_flag"
+	trigger = {
+		tag = CHI
+		not = { year = 1939 }   
+		date = 1938.1.21
+	}
+	option = {
+		name = "KMCOP"
+		country_event = 15000
+		head_of_government = 52025       
+	}
+}
+#抗战建国纲领
+country_event = {
+	id = 15000
+	major = yes
+	is_triggered_only = yes
+	title = "EVENT_15000_TITLE"
+	desc = "EVENT_15000_DESC"
+	picture = "CHI_flag"
+	option = {
+		name = "EVENT_15000_OPTION"
+		add_country_modifier = {
+			name = "EVENT_15000_MODIFIER"
+			duration = 730
+		}
+	}
+}
+#游击战争
+country_event = {
+	id = 201907203
+	major = yes
+		fire_only_once = yes
+	title = "PYT"	
+	desc = "PYD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		not = { year = 1939 }   
+		date = 1938.4.21
+	}
+	option = {
+		name = "PYOP"
+		add_country_modifier = {
+			name = "EYOUJQZB_MODIFIER"
+			duration = 400
+		}      
+	}
+}
+country_event = {
+	id = 201907204
+	major = yes
+		fire_only_once = yes
+	title = "XZT"	
+	desc = "XZD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		not = { year = 1939 }   
+		JAP = { controls = 5419 }
+	}
+	option = {
+		name = "XZOP"
+		load_oob = "CHC_YDA.txt"
+}
+country_event = {
+	id = 201907206
+	fire_only_once = yes
+	title = "SQT"	
+	desc = "SQD"
+	picture = "CHI_SQT"
+	trigger = {
+		tag = CHI
+		not = { year = 1939 }   
+		date = 1938.7.9
+	}
+	option = {
+		name = "SQOP1"
+		add_country_modifier = {
+			name = "SQT_MODIFIER"
+			duration = 4000
+		}  
+		ai_chance = { factor = 100 }    
+	}
+	option = {
+		name = "SQOP2"
+	  	national_unity = 2 
+	  	ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 201907207
+		major = yes
+		fire_only_once = yes
+	title = "JBLT"	
+	desc = "JBLD"
+	picture = "CHI_JBL"
+	trigger = {
+		tag = CHI
+		 exists = CHI
+	war_with = JAP
+	date = 1938.11.4
+	not = { year = 1939 }
+	}
+	option = {
+		name = "JBLP1"
+	  	national_unity = 2 
+	}
+}
+country_event = {
+	id = 201907208
+		major = yes
+		fire_only_once = yes
+	title = "YAMT"	
+	desc = "YAMD"
+	picture = "CHCYAM"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1938.8.18
+	}
+	option = {
+		name = "YAMP1"
+	  	national_unity = 2 
+	}
+}
+#1939
+country_event = {
+	id = 201907209
+		major = yes
+		fire_only_once = yes
+	title = "MPRT"	
+	desc = "MPRD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1939.2.2
+	}
+	option = {
+		name = "MPRP1"
+			add_country_modifier = {
+			name = "MPR_modifier"
+			duration = 750
+		}
+		set_country_flag = Parer_MPR
+	  	national_unity = 2 
+	}
+}
+#军委会
+country_event = {
+	id = 201907210
+		fire_only_once = yes
+	title = "CKST2"	
+	desc = "CKSD2"
+	picture = "CHI_flag"
+	trigger = {
+		tag = CHI
+		 exists = CHI
+	war_with = JAP
+	date = 1939.2.7
+	}
+	option = {
+		name = "CKS1"
+			add_country_modifier = {
+			name = "AmryCULI_modifier"
+			duration = 300
+		}
+		CHC = { country_event = 7221 }
+		CGX = { country_event = 7221 }
+		CQM = { country_event = 7221 }
+		CNM = { country_event = 7221 }
+		CYN = { country_event = 7221 }
+		CSY = { country_event = 7221 }
+	}
+	option = {
+		name = "CKS3"
+		national_unity = -15 
+	}
+}
+country_event = {
+	id = 7221
+	is_triggered_only = yes
+	title = "CKST3"	
+	desc = "CKSD3"
+	picture = "CHI_flag"
+	option = {
+		name = "CKS2"	
+	}
+}
+#土地革命
+country_event = {
+	id = 201907211
+		fire_only_once = yes
+	title = "TDT1"	
+	desc = "TDD1"
+	picture = "CH_TDG"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1939.4.4
+	}
+	option = {
+		name = "TDOP1"
+		stalinist_PRC = { popularity = 5 }  
+	}
+}
+#施政纲领
+country_event = {
+	id = 201907212
+		fire_only_once = yes
+	title = "SZG1"	
+	desc = "SZGD1"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1939.4.4
+	}
+	option = {
+		name = "SZGP1"
+		stalinist_PRC = { popularity = 5 }
+		government = socialist_republic 
+			add_country_modifier = {
+			name = "SZG_modifier"
+			duration = 750
+		} 
+	}
+}

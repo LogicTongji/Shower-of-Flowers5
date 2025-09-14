@@ -1,0 +1,30 @@
+######################
+#   国府迁台决议组   #
+######################
+diplomatic_decisions = {
+	Taibei_chance = {
+		major = yes
+		potential = {	
+			tag = CHI
+		         exists = CHC
+                            exists = CHI
+		         war_with = CHC
+                            has_global_flag = China_CivilWar
+                            not = { has_global_flag = Taibei_chance }	
+		}
+		allow = {
+		CHC = { 	
+		         controls = 4979
+		         controls = 5018
+			controls = 5275
+			controls = 5383
+			controls = 5435
+			controls = 5515
+			}
+		}
+		effect = {
+			set_global_flag = Taibei_chance
+			SF_china_region = { remove_core = CHI }
+			country_event = 8018
+		}
+	}

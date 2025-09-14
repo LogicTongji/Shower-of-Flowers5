@@ -1,0 +1,269 @@
+##################
+# 战区成立议决组 #
+##################
+diplomatic_decisions = {
+               The_first_armygroup = {
+		potential = {
+			tag = CHI
+			date = 1937.7.9 
+		        not = { 
+		        year = 1938    
+		        war_with = CHC }
+		}
+		allow = {
+			not = { has_country_flag = event0007 }
+		}
+		effect = {
+			set_country_flag = event0007
+			national_unity = 10
+			country_event = 0007 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}                    
+              The_second_armygroup = {
+		potential = {
+			tag = CHI
+			date = 1937.7.9
+                        war_with = JAP
+		        not = { 
+		         year = 1938
+		        war_with = CHC 
+		        }
+		}
+		allow = {
+			not = { has_country_flag = event0006 }
+		}
+		effect = {
+			set_country_flag = event0006
+			national_unity = 8
+			CSX = { country_event = 0006 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	                          
+               The_third_armygroup = {
+		potential = {
+			tag = CHI
+			date = 1937.8.13
+                        war_with = JAP
+		        not = { 
+		         year = 1938
+		        war_with = CHC 
+		        }
+		}
+		allow = {
+			not = { has_country_flag = event00018 }
+		}
+		effect = {
+			set_country_flag = event00018
+			national_unity = 5
+			country_event = 0008 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+               The_fifth_armygroup = {
+		potential = {
+			tag = CHI
+		        not = {  
+		        year = 1938
+		        war_with = CHC 
+		        }
+                        war_with = JAP
+                        date = 1937.8.13
+		}
+		allow = {
+			not = { has_country_flag = event00094 }
+		}
+		effect = {
+			set_country_flag = event00094
+                        country_event = 0009 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+               The_forth_armygroup = {
+		potential = {
+			tag = CHI
+		        not = { 
+		         year = 1938
+		        war_with = CHC 
+		        }
+                        war_with = JAP
+                        JAP = { controller = 5275 }
+		}
+		allow = {
+			not = { has_country_flag = event00010 }
+		}
+		effect = {
+			set_country_flag = event00010
+		        country_event = 00010 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+      }
+       The_seventh_armygroup = {
+		potential = {
+			tag = CHI
+		        not = {
+		          year = 1938
+		        war_with = CHC 
+		        }
+                        war_with = JAP
+                       date = 1937.7.31
+		}
+		allow = {
+			not = { has_country_flag = event0001088 }
+		}
+		effect = {
+			set_country_flag = event0001088
+		       CSC = { country_event = 33332 } 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+      }
+       The_eighth_armygroup = {
+		potential = {
+			tag = CHI
+			 not = {
+		          year = 1938
+		        war_with = CHC 
+		        }
+                        date = 1938.1.13
+                        war_with = JAP
+		}
+		allow = {
+			not = { has_country_flag = event000419 }
+		}
+		effect = {
+			set_country_flag = event000419
+		        country_event = 00012 
+		}
+		ai_will_do = {
+			factor = 1
+           }
+}
+             The_ninth_armygroup = {
+		potential = {
+			tag = CHI
+		       not = { 
+		       war_with = CHC 
+		       }
+		       CHI = { controls = 7508 }
+                        war_with = JAP
+                        or = {
+			 JAP = { controls = 5515 }
+			CJS = { controls = 5515 }  
+			CHB = { controls = 5515 }  
+			WJW = { controls = 5515 }  
+		     }
+		}
+		allow = {
+                                                has_country_flag = event0015
+                                               	not = { has_country_flag = event00010881 }
+		}
+		effect = {
+			set_country_flag = event00010881
+		               country_event = 333370
+		}
+		ai_will_do = {
+			factor = 1
+		}
+}
+       The_armygroup_in_henan = {
+		potential = {
+			tag = CHI
+		       not = { 
+		       war_with = CHC 
+		       }
+                       war_with = JAP
+                       not = { year = 1941 }
+                       JAP = { controls = 7508 } 
+		}
+		allow = {
+                   not = { has_country_flag = event000108812 }
+		}
+		effect = {
+			set_country_flag = event000108812
+		               country_event = 333355 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+      }
+ The_sixth_armygroup = {
+		potential = {
+			tag = CHI
+		       not = { 
+		       war_with = CHC 
+		       }
+                        war_with = JAP
+                         JAP = { controls = 7508 }
+                         not = { year = 1941 }
+                        has_global_flag = Event10000272                       
+		}
+		allow = {
+                   not = { has_country_flag = eventDSITT }
+		}
+		effect = {
+			set_country_flag = eventDSITT
+		               country_event = 333356 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+      }
+      The_sulu_armygroup = {
+		potential = {
+			tag = CHI
+		       not = { 
+		       war_with = CHC 
+		       }
+                        war_with = JAP
+                         year = 1939
+                         not = { year = 1941 }
+                          JAP = { controls = 7508 }
+                        has_global_flag = Event10000272                       
+		}
+		allow = {
+                   not = { has_country_flag = sulu }
+		}
+		effect = {
+			set_country_flag = sulu
+         country_event = 6801
+		}
+		ai_will_do = {
+			factor = 1
+		}
+      }
+      The_jicha_armygroup = {
+		potential = {
+			tag = CHI
+		       not = { 
+		       war_with = CHC 
+		       }
+		                                year = 1939
+                        war_with = JAP
+                         JAP = { controls = 7508 }
+                         not = { year = 1941 }
+                        has_global_flag = Event10000272                       
+		}
+		allow = {
+                   not = { has_country_flag = jicha }
+		}
+		effect = {
+			set_country_flag = jicha
+country_event = 6801
+		}
+		ai_will_do = {
+			factor = 1
+		}
+      }
+}

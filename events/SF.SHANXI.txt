@@ -1,0 +1,321 @@
+country_event = {
+          id = 2019417
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+		war_with = CHC
+		not = { year = 1937 }
+                date = 1936.6.20
+                
+          }
+          title = "CHI8_title"
+          desc = "CHI8_decs"
+          picture = "CHI_lag"
+          option = {
+		name = "CHI8_option1"
+		set_global_flag = Event2019420
+                                national_unity = -8
+		relation = { who = CHC value = -100 }
+		dissent = 10
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "CHI8_option2"
+           	set_global_flag = eerror201942
+                dissent = -8
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 20194121
+	fire_only_once = yes
+                 trigger = {
+		tag = CSX
+		not = { year = 1937 }
+                has_global_flag = Event2019420
+          }
+	title = "CSX7_title"
+	desc = "CSX7_decs"
+	picture = "CSX_flag"
+        option = {
+		name = "CSX_option1"
+		relation = { who = CHI value = -100 }
+                               ai_chance = { factor = 100 }
+         option = {
+		name = "CSX8_option2"
+                CSX = { war = { target = CHC } }
+                dissent = 20
+                national_unity = -50
+                dissent = 200
+                CHC = { country_event = 50191 }
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 50191
+	title = "CHC7_title"
+	desc = "CHC7_decs"
+	picture = "Event110010"
+        option = {
+		name = "CHCOP"
+                                 load_oob = "CHCWEA.txt"
+		relation = { who = CHI value = -100 }
+	}
+}
+country_event = {
+          id = 2019425
+          fire_only_once = yes
+          trigger = {
+		tag = CSX
+		not = { year = 1937 }
+                has_global_flag = suiyuan
+          }
+          title = "CSX9_title"
+          desc = "CSX9_decs"
+          picture = "JA9_lag"
+          option = {
+		name = "CHI9_option1"
+		set_global_flag = Event2019425
+                                national_unity = 8
+		relation = { who = CHC value = 100 }
+		dissent = -10
+		CHI = { country_event = 50192 }
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "CSX9_option2"
+           	set_global_flag = Event2019425
+                national_unity = -80
+                dissent = 80
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 50192
+	title = "CHI7_title"
+	desc = "CHI7_decs"
+	picture = "Event110010"
+        option = {
+		name = "CHCOIP"
+                                national_unity = -5
+                                dissent = 20
+                                relation = { who = CSY value = -100 }
+		relation = { who = CSX value = -100 }
+                                ai_chance = { factor = 90 }
+             }
+	 option = {
+		name = "CHCOIP2"
+		CHI = { war = { target = MEA } }
+                national_unity = 8
+                dissent = -8
+		ai_chance = { factor = 10 }
+	}
+}
+country_event = {
+	id = 3000091
+	fire_only_once = yes
+	title = "建立防共间谍网"
+	desc = "Event_3000091decs"
+	picture = "Event3000089"
+	trigger = {
+		tag = CSX
+		not = { year = 1937 }
+                date = 1936.3.1 
+	}
+        mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "宁可错杀一万"
+		set_country_flag = Event3000091
+                relation = { who = CHC value = -50 }
+                dissent = 5
+                national_unity = -5
+		ai_chance = { factor = 100 }
+        }
+	option = {
+		name = "我不亡于共，亦要亡于蒋"
+                national_unity = 5
+                relation = { who = CHI value = -50 }
+                threat = { who = CHI value = 50 }
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 3000092
+	fire_only_once = yes
+                trigger = {
+		tag = CSX
+		not = { year = 1937 }
+                                has_country_flag = Event3000091
+	}
+        mean_time_to_happen =  {
+		days = 1
+	}
+	title = "设立赏罚制度"
+	desc = "Event_3000092decs"
+	picture = "Event1100101"
+	option = {
+		name = "让共产党滚出山西"
+                                set_country_flag = Event30000911 
+		load_oob = "CSXtwt.txt"
+	        money = -500
+                threat = { who = CHC value = 50 }
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 3000093
+	fire_only_once = yes
+	title = "停止防共网络建设"
+	desc = "Event_3000093decs"
+	picture = "Event3000089"
+	trigger = {
+		tag = CSX
+		not = { year = 1937 }
+                	date = 1936.5.1
+                	has_country_flag = Event3000091
+                	has_country_flag = Event30000911 
+	}
+        mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "宁可错杀一万"
+                relation = { who = CHC value = -50 }
+                dissent = 50
+                national_unity = -90
+                CHC = { countr_event= 50194 }
+		ai_chance = { factor = 0 }
+      	}
+	option = {
+		name = "还是联合共产党吧"
+                national_unity = 5
+                manpower = -10
+                dissent = -10
+                relation = { who = CHC value = 50 }
+                threat = { who = CHC value = -50 }
+                CHC = { countr_event= 50193 }
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 50194
+	title = "HBWS1_title"
+	desc = "HBWS1_decs"
+	picture = "Event110010"
+        option = {
+		name = "CHCOPHB"
+                                 load_oob = "CHCEA.txt"
+    CHC = { war = { target = CSX } }                             
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 50193
+	title = "HBWS2_title"
+	desc = "HBWS2_decs"
+	picture = "Event110010"
+        option = {
+		name = "CHCOPHB2"  
+		CHC = { countr_event= 50195 }      
+		relation = { who = CSX value = 50 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 50195 
+	title = "HBWS3_title"
+	desc = "Event3000097_decs"
+	picture = "Event110010"
+        option = {
+		name = "CHCOPHB3"     
+	  set_global_flag = Event400002    
+	    dissent = -5
+                national_unity = 10
+		relation = { who = CHC value = 50 }
+	}
+}
+country_event = {
+	id = 3000098
+	fire_only_once = yes
+	major = yes
+	title = "成立牺牲救国同盟会"
+	desc = "Event_3000098decs"
+	picture = "Event3000089"
+	trigger = {
+		tag = CSX
+		has_global_flag = Event400002  
+		has_country_flag = Event193616
+		not = { year = 1937 }
+                date = 1936.9.1 	
+	}
+        mean_time_to_happen =  {
+		days = 1
+        }
+	option = {
+		name = "Event_3000098option"
+                relation = { who = CHC value = 50 }
+                dissent = -5
+                national_unity = 10
+		ai_chance = { factor = 100 }
+        }
+	option = {
+		name = "没必要"
+                national_unity = -50
+                dissent = 50 
+                relation = { who = CHC value = -50 }
+                threat = { who = CHI value = 50 }
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 3000000
+	fire_only_once = yes
+	title = "暗杀投蒋将领"
+	desc = "Event3000000decs"
+	picture = "Event3000089"
+	trigger = {
+		tag = CSX
+		not = { year = 1937 }
+                                date = 1936.3.12	
+	}
+        mean_time_to_happen =  {
+		days = 1
+        }
+	option = {
+		name = "杀了他们"
+                relation = { who = CHI value = -100 }
+                dissent = 5
+                national_unity = 5
+		ai_chance = { factor = 100 }
+       	}
+	option = {
+		name = "算了吧"
+                relation = { who = CHI value = 50 }
+                dissent = 10
+                national_unity = -5
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 193616
+		fire_only_once = yes
+	title = "ZQH"	
+	desc = "ZQHD"
+	picture = "Event19362"
+	trigger = {
+		tag = CSX  
+		not = { year = 1937 }   
+		date = 1936.3.25
+	}
+	option = {
+		name = "SXZQ" 
+		 dissent = -10
+     national_unity = 5
+     set_country_flag = Event193616
+	}
+}

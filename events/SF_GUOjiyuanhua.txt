@@ -1,0 +1,601 @@
+
+######################
+#   国际援华事件组   #
+######################
+#是否援华
+country_event = {
+          id = 2000073
+           fire_only_once = yes
+          trigger = {
+		tag = SOV
+		CHI ={ war_with = JAP } 
+                date = 1937.9.1
+                not = { year = 1938 }
+                has_country_flag = ZSHBQFTYUE
+          }
+          title = "是否援华"
+          desc = "SOV_Event_decs2000073"
+          picture = "CHC_Event_2000075"
+          option = {
+		name = "援助"
+		set_global_flag = Event2000073
+		supplies = -1000
+		dissent = -10
+		CHI = { country_event = 2000075 }
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "让黄种人自己打自己吧"
+           	set_global_flag = error10000
+                national_unity = -5
+                dissent = 50
+		ai_chance = { factor = 0 }
+	}
+}
+#苏联援华（萨雷奥泽克--霍尔果斯--迪化--兰州路线）
+country_event= {
+	id = 2000075
+	is_triggered_only = yes
+	title = "他们终于同意了"
+	desc = "CHI_Event_decs2000075"
+	picture = "CHI_Flag"
+	option = {
+		name = "中国万岁"          
+		supplies = 1000
+		metal = 10
+		energy = 10
+		rare_materials = 10
+		crude_oil = 10
+		national_unity = 5
+	}
+}
+#得到苏联援华补给
+country_event = {
+	id = 2000076
+	trigger = {
+		tag = CHI
+                exists = CHI
+		war_with = JAP  
+		has_global_flag = Event2000073
+		not = { year = 1941 }
+		CHI = { 
+			controls = 9170
+			}
+			OR = {
+			CQM = { 
+			controls = 9200
+			}
+			CHI = { 
+			controls = 9200
+			}
+			CHC = { 
+			controls = 9200
+			}
+	}
+			SIK = { 
+			controls = 8955
+			}
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+	title = "收到补给"
+	desc = "苏联给我们的补给到了"
+	picture = "CHI_Flag"
+	option = {
+		name = "马上投入战场" 
+		supplies = 150
+		fuel = 10
+	}
+}
+#滇越铁路
+country_event = {
+          id = 2000077
+           fire_only_once = yes
+          trigger = {
+		tag = CHI
+                exists = CHI
+		war_with = JAP
+                date = 1937.9.1
+                not = { year = 1938 }
+                not = { has_global_flag = JAPsouthing }
+          }
+          title = "是否接受滇越铁路的补给"
+          desc = "CHI_Event_decs2000077"
+         picture = "CHI_Flag"
+         option = {
+           name = "接受"
+           set_country_flag = Event2000077
+           supplies = 1000
+           dissent = -10
+           ai_chance = { factor = 100 }
+         }
+	 option = {
+		name = "我们自己能打赢抗战"
+                national_unity = -5
+                dissent = 5
+                set_country_flag = error10002
+		ai_chance = { factor = 0 }
+	}
+}
+#收到补给
+country_event = {
+          id = 2000078
+          trigger ={
+               tag = CHI
+               exists = CHI
+               war_with = JAP 
+               has_country_flag = Event2000077
+               not = { has_global_flag = JAPsouthing } 
+          }
+          mean_time_to_happen = {
+                  months = 1
+          }
+          title = "得到补给"
+          desc = "国际给我们的补给到了"
+          picture = "CHI_Flag"
+          option = {
+           name = "马上投入战场"              
+              supplies = 150
+              fuel = 50 
+           
+         }
+}
+#开通滇缅公路
+country_event = {
+	id = 2000079
+	 fire_only_once = yes
+	trigger = {
+		tag = CHI
+		exists = CHI
+		war_with = JAP
+		ENG = { controls = 6070 }
+		date = 1938.8.20
+		not = { year = 1938 }
+	}
+	title = "国民政府开通滇缅公路"
+	desc = "CHI_Event_decs2000079"
+	picture = "CHI_Flag"
+	option = {
+		name = "中国万岁！中国不会亡！"
+		set_global_flag = Event2000079
+		supplies = 1000
+		national_unity = 5
+	}
+}			
+#得到补给
+country_event = {
+          id = 2000080
+          trigger = {
+               tag = CHI
+               exists = CHI
+               war_with = JAP 
+               has_global_flag = Event2000079 
+               not = { has_global_flag = Event2000081 }
+               ENG = { controls = 6070 }
+          }
+
+          mean_time_to_happen = {
+                  months = 1
+          }
+
+          title = "得到补给"
+          desc = "国际给我们的补给到了"
+          picture = "CHI_Flag"
+
+          option = {
+           name = "马上投入战场"              
+              supplies = 250
+              fuel = 50 
+           
+         }
+}
+#关闭滇缅公路
+country_event = {
+          id = 2000081
+          major = yes
+          fire_only_once = yes
+          trigger = {
+               tag = ENG
+               CHI ={ war_with = JAP }  
+               ENG = { controls = 6070 }
+               exists = CHI
+               date= 1940.7.18
+               not = { year = 1941 }
+	       has_global_flag = Event2000079         
+          }
+          title = "关闭滇缅公路"
+          desc = "ENG_Event_decs2000081"
+          picture = "news_paper"
+          option = {
+           name = "这样做是理智的"
+              national_unity = -5
+              dissent = 5 
+              set_global_flag = Event2000081
+              CHI = { country_event = 2000083 }
+              ai_chance = { factor = 100 }
+          }
+          option = {
+           name = "帝国不会向日本妥协"
+              national_unity = 5
+              dissent = -5
+              relation = { who = JAP value = -50 }
+              ai_chance = { factor = 0 }
+         }
+}               
+#重新开放滇缅公路
+country_event = {
+          id = 2000082
+         fire_only_once = yes
+          trigger = {
+               tag = ENG
+               CHI ={ war_with = JAP }  
+               ENG = { controls = 6070 }
+               exists = CHI
+               has_global_flag = Event2000081        
+               date= 1940.10.18
+          }
+          title = "重新开放滇缅公路"
+          desc = "ENG_Event_decs2000082"
+          picture = "news_paper"
+          option = {
+           name = "维持现状"
+              national_unity = -5
+              dissent = 5 
+              ai_chance = { factor = 0 }
+          }
+          option = {
+           name = "开放"
+              national_unity = 5
+              dissent = -5
+              relation = { who = JAP value = -50 }             
+              remove_global_flag = Event2000081
+              CHI = { country_event = 2000084 }
+              ai_chance = { factor = 100 }
+         }
+}               
+#英国方面关闭滇缅公路
+country_event = {
+          id = 2000083
+          is_triggered_only = yes
+          title = "滇缅公路被迫关闭"
+          desc = "CHI_Event_decs2000083"
+          picture = "news_paper"
+          option = {
+           name = "纵使没有援助，我们仍誓死抗战到底"
+              national_unity = 5
+         }
+}               
+#英国方面重新开放滇缅公路
+country_event = {
+          id = 2000084
+          is_triggered_only = yes
+          title = "英国方面重新开放滇缅公路"
+          desc = "CHI_Event_decs2000084"
+          picture = "news_paper"
+          option = {
+           name = "国际不会放弃我们"
+              national_unity = 5    
+         }
+}               
+#仰光沦陷 
+country_event={
+          id = 2000086
+          fire_only_once = yes        
+          tirgger = {
+               tag = ENG
+               war_with = JAP  
+               JAP = { controls = 6070 }
+          }
+          mean_time_to_happen = {
+                  days = 1
+          }
+          title="仰光沦陷"
+          desc="ENG_Event_decs2000086"
+          picture="news_paper"
+          option={
+           name="卑鄙的日本人"              
+              national_unity = 5
+              dissent = 5
+              set_country_flag = Event2000086 
+              relation = { who = JAP value = -100 }
+           
+         }
+}            
+#开通驼峰航线
+country_enent = {
+          id = 2000087
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+                exists = CHI
+		war_with = JAP 
+                JAP = { controls = 6070 }
+                has_global_flag = JAPsouthing 
+                date = 1943.8.20          
+          }
+          mean_time_to_happen = {
+                  days = 1
+          }
+          title = "开通驼峰航线"
+          desc = "CHI_Event_decs2000087"
+         picture = "CHC_Event_1000075"
+         option={
+           name="中国万岁！中国不会亡！"
+           set_global_flag = Event1000087
+           supplies = 1000
+           national_unity = 5
+         } 
+}
+#开通中印公路
+country_enent={
+          id=2000088
+          fire_only_once = yes
+          trigger = {
+		tag = CHI
+                exists = CHI
+		war_with = jAP 
+                JAP = { controls = 6070 }
+                has_global_flag = JAPsouthing 
+                has_global_flag = Event1000087
+                date = 1943.8.20
+          }
+          mean_time_to_happen = {
+                  days = 1
+          }
+          title="开通中印公路"
+          desc = "CHI_Event_decs2000088"
+         picture = "CHI_Flag"
+         option = {
+           name = "中国万岁！中国不会亡！"
+           set_country_flag = Event1000088
+           supplies = 1000
+           national_unity = 5
+         } 
+}
+#得到补给
+country_enent = {
+          id = 1000089
+          trigger = {
+		tag = CHI
+                exists = CHI
+		war_with = JAP 
+                has_global_flag = JAPsouthing 
+                has_global_flag = Event1000087
+                has_country_flag = Event1000088
+                not = { year = 1946 }
+          }
+          mean_time_to_happen = {
+                  months = 1
+          }
+          title = "得到补给"
+          desc = "CHI_Event_decs1000089"
+         picture = "CHC_Event_1000075"
+         option = {
+           name = "中国万岁！中国不会亡！"
+           supplies = 100
+           national_unity = 5
+         } 
+}          
+#租借法案
+country_event = {
+          id = 2020228
+          trigger = {
+          OR = {
+               tag = ENG
+               tag = FRA
+               }
+               exists = ENG
+               exists = FRA
+               OR = {
+               war_with = JAP 
+               war_with = GER
+               war_with = ITA
+               }
+               has_global_flag = War_in_East_eroup_gizuiAmriac
+               ENG = { controls = 6070 }
+          }
+          mean_time_to_happen = {
+                  months = 1
+          }
+          title = "得到补给"
+          desc = "美国给我们的补给到了"
+          picture = "ZZFA"
+          option = {
+           name = "马上投入战场"              
+              supplies = 1250
+              fuel = 50 
+             energy = 20
+             metal  = 100            
+             coal  = 800
+             USA = { -supplies = 2250 }
+         }
+}
+country_event = {
+          id = 2020229
+          trigger = {
+               tag = SOV
+               exists = SOV
+               exists = GER
+               OR = {
+               war_with = JAP 
+               war_with = GER
+               war_with = ITA
+               }
+               has_global_flag = War_in_East_eroup_gizuiAmriac
+               ENG = { controls = 6070 }
+          }
+
+          mean_time_to_happen = {
+                  months = 1
+          }
+          title = "得到补给"
+          desc = "美国给我们的补给到了"
+          picture = "ZZFA"
+          option = {
+           name = "马上投入战场"              
+              supplies = 1250
+              fuel = 50 
+             energy = 20
+             metal  = 100            
+             coal  = 800
+             USA = { -supplies = 2250 }
+         }
+}
+country_event = {
+          id = 2020319
+          fire_only_once = yes
+          trigger = {
+               tag = USA
+               SOV ={ war_with = GER }  
+               ENG = { controls = 6070 }
+               exists = SOV
+               not = { year = 1942 }
+               GER = { 
+			controls = 2223
+			controls = 1694
+			controls = 1819
+		  controls = 1178
+			controls = 906
+			controls = 3309
+			controls = 2975
+			controls = 1534
+			controls = 1536
+			}
+	       has_global_flag = War_in_East_eroup_gizuiAmriac         
+          }
+            }
+              mean_time_to_happen = {
+                  days = 1
+          }
+          title = "向苏联提供援助"
+          desc = "UUUSS"
+          picture = "news_paper"
+          option = {
+           name = "这样做是理智的"
+              dissent = 5 
+             SOV = { country_event = 6650 }
+              ai_chance = { factor = 100 }
+          }
+          option = {
+           name = "座山观虎斗"
+              national_unity = 5
+              ai_chance = { factor = 0 }
+         }
+}               
+country_event = {
+          id = 6650
+	is_triggered_only = yes
+          title = "租借法案"
+          desc = "SOVNED"
+          picture = "news_paper"
+          option = {
+           name = "我们确实没能力单独取得胜利了"
+              set_global_flag = SOV_need
+              ai_chance = { factor = 100 }
+          }
+          option = {
+           name = "苏维埃不会向资本主义屈服"
+              national_unity = 5
+              dissent = -5
+              relation = { who = USA value = -50 }
+              ai_chance = { factor = 0 }
+         }
+}   
+country_event = {
+          id = 2020400
+          major = yes
+          trigger = {
+               tag = USA
+               SOV ={ war_with = GER }  
+               ENG = { controls = 6070 }
+               exists = SOV
+               has_global_flag = SOV_need
+	             has_global_flag = War_in_East_eroup_gizuiAmriac           
+          }
+                    }
+              mean_time_to_happen = {
+                  days = 1
+          }
+          title = "NHT"
+          desc = "NHD"
+          picture = "ZZFA"
+          option = {
+           name = "马上投入战场"   
+           supplies = 50000           
+             set_global_flag = Nothern_most 
+         }
+    }
+country_event = {
+          id = 2020300
+          trigger = {
+               tag = SOV
+               SOV ={ war_with = GER }  
+               ENG = { controls = 6070 }
+               exists = SOV
+               has_global_flag = SOV_need
+	             has_global_flag = War_in_East_eroup_gizuiAmriac
+	                          has_global_flag = Nothern_most 
+          }
+                    }
+              mean_time_to_happen = {
+                  months = 1
+          }
+          title = "美国援助"
+          desc = "美国的援助到了"
+          picture = "ZZFA"
+          option = {
+           name = "马上投入战场"              
+              supplies = 3250
+              fuel = 250 
+             energy = 80
+             metal  = 1000            
+             coal  = 1800
+             USA = { -supplies = 3250 }
+         }
+    }            
+country_event = {
+          id = 2020301
+          trigger = {
+          OR = {
+               tag = ENG
+               tag = SOV
+               }
+               exists = ENG
+               exists = SOV
+               OR = {
+               war_with = JAP 
+               war_with = GER
+               war_with = ITA
+               }
+               has_global_flag = War_in_East_eroup_gizuiAmriac
+               has_global_flag = SOV_need
+               	                          has_global_flag = Nothern_most 
+               	                          			has_global_flag = provide_ic_to_euroup
+
+          }
+
+          mean_time_to_happen = {
+                  months = 3
+          }
+          title = "美国的工业救助"
+          desc = "美国给我们的机床和工业生产机械到了"
+          picture = "ICP"
+          option = {
+           name = "马上投入生产"              
+       1052 = { industry = 1 }              
+       1964 = { industry = 1 }              
+       1341 = { industry = 1 }                 
+       1522 = { industry = 1 }              
+       1617 = { industry = 1 }              
+       4390 = { industry = 1 }
+       3064 = { industry = 1 }              
+       2992 = { industry = 1 }              
+       8592 = { industry = 1 }                 
+       6776 = { industry = 1 }              
+       6766 = { industry = 1 }              
+       6755 = { industry = 1 }
+       6799 = { industry = 1 }              
+         }
+}

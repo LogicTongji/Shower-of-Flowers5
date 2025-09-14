@@ -1,0 +1,62 @@
+
+#同中国接触	
+Surrendered_to_China = {
+
+    
+		potential = { 
+      tag = JAP
+      year = 1939    
+      not = { has_country_flag = secret_talk_to_China }
+      exists = CHI
+      war_with = CHI
+      JAP = {     
+        controls = 7508 #武汉           
+        }
+      CHI = { 
+        controls = 9415 #成都
+        controls = 7520 #长沙
+        controls = 7523 #常德
+        controls = 9478 #重庆
+        controls = 7541 #贵阳
+        controls = 7435 #西安
+        }             
+	    }
+
+		allow = {		
+                 has_global_flag = Event10000272  
+                 has_global_flag = secret_talk_to_China_find   
+		}
+
+		effect = {
+		  set_country_flag = secret_talk_to_China
+		  CHI = { country_event = 20190711 } 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+}
+WJW_to_China = {
+
+    
+		potential = { 
+      tag = JAP   
+      not = { has_country_flag = WJW_FCPUE }
+      exists = CHI
+      war_with = CHI
+        }             
+	    }
+
+		allow = {		
+                has_global_flag = Event201907118
+                has_global_flag = baituandazhan 
+		}
+
+		effect = {
+		  set_country_flag = WJW_FCPUE
+		  country_event = 2019071120  
+		}
+		ai_will_do = {
+			factor = 1
+		}
+}
+}

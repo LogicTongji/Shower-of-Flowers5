@@ -1,0 +1,85 @@
+######################
+#   日本扩张议决组   #
+######################
+#南进
+diplomatic_decisions = {
+	   JAP_southing = {
+	   major = yes
+		potential = {
+			tag = JAP
+                        exists = CHI
+                        exists = USA
+                        exists = ENG
+			war_with = CHI
+			not = { has_global_flag = JAPsouthing } 
+			date = 1941.12.1
+			not = { year = 1942 } 
+		}
+		allow = {
+			JAP = { controls = 5916 }
+                               
+		}
+		effect = {
+			set_global_flag = JAPsouthing
+                        JAP = { war = { target = ENG } 
+                                war = { target = USA } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+               #组建南方军
+	         JAP_SA = {
+		potential = {
+			tag = JAP
+                        exists = CHI
+                        exists = USA
+                        exists = ENG
+			war_with = CHI
+                        war_with = ENG
+                        war_with = USA                    
+		        has_global_flag = JAPsouthing  
+		        not = { has_global_flag = JAPsouthing_army }
+		}
+		allow = {
+			JAP = { controls = 5916
+			        controls = 5965 
+			        controls = 5994 }
+		}
+		effect = {
+			country_event = 300
+			set_global_flag = JAPsouthing_army
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+                 #北进
+     Japan's north into = {
+     major = yes
+		potential = {
+			tag = JAP
+                        exists = CHI
+                        exists = SOV
+			war_with = CHI
+                        GER = { war_with = SOV }
+                        not = { has_global_flag = JAPsouthing }
+			not = { has_global_flag = Japan's north into } 
+                        not = { war_with = SOV }
+			date = 1941.12.21
+			not = { year = 1942 } 
+			ai = no
+		}
+		allow = {
+			JAP = { crude_oil = 25000 }
+		}
+		effect = {
+			set_global_flag =  Japan's north into
+			country_event = 302
+                        JAP = { war = { target = SOV } }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

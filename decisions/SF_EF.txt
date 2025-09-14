@@ -1,0 +1,58 @@
+#联合政府
+diplomatic_decisions = {
+	    Xaction_ENG_FRA = {
+		major = yes
+		potential = {
+			tag = ENG
+			has_global_flag = EF_unity 
+			not = { has_country_flag = Xacton_ENG_FRA } 
+			exists = FRA
+			FRA = { government_in_exile = no }
+		}
+		allow = {
+				GER = { 	
+		  controls = 2311
+			controls = 2309
+			controls = 2197
+		      }
+		}
+		effect = {
+			set_country_flag = Xacton_ENG_FRA	
+			ENG = { any_owned = { limit = { province_id = 1964 } secede_province = EFU } 
+		    }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	  Xaction_ENG_FRAUnity = {
+		major = yes
+		potential = {
+			tag = EFU
+			has_global_flag = EF_unity 
+			not = { has_global_flag = Xaction_ENG_FRAUnity } 
+			exists = FRA
+			FRA = { government_in_exile = no }
+		}
+		allow = {
+				GER = { 	
+		  controls = 2311
+			controls = 2309
+			controls = 2197
+		      }
+		}
+		effect = {
+			set_global_flag = Xaction_ENG_FRAUnity	
+			any_owned = { add_core = EFU remove_core = ENG remove_core = FRA }
+	  	EFU = { 
+                                FRA = { split_troops = 1.0 }
+	  	ENG = { split_troops = 1.0 }
+	  	inherit = ENG
+		  inherit = FRA	  	
+	    war = { target = GER } 
+                                            }
+		    }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

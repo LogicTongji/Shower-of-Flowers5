@@ -1,0 +1,91 @@
+######################
+#   日本集群议决组   #
+######################
+#华北方面军
+diplomatic_decisions = {
+	     JAP_HBamry = {
+		potential = {
+			tag = JAP
+                        exists = CHI
+			war_with = CHI
+			not = { has_global_flag = JAPHUABEIFMJ } 
+			not = { year = 1938 } 
+		}
+		allow = {			
+			or = {
+			 JAP = { controls = 4979 }
+			CHB = { controls = 4979 } 
+			}
+		}
+		effect = {
+			set_global_flag = JAPHUABEIFMJ
+			country_event = 300110
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+                    #华中方面军
+	     JAP_HZamry = {
+		potential = {
+			tag = JAP
+                                                exists = CHI
+			war_with = CHI
+			not = { has_global_flag = JAPHUAZFMJ } 
+			not = { year = 1938 } 
+		}
+		allow = {			
+			or = {
+			JAP = { controls = 5494 }
+			 CJS = { controls = 5494 } 
+			 }
+		}
+		effect = {
+			set_global_flag = JAPHUAZFMJ
+			country_event = 300111
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+                     #千里无人区
+	     JAP_WRQ = {
+		potential = {
+			tag = JAP
+			has_country_flag = jap_seizes_coast
+			not = { has_global_flag = JAPQLWRQ } 
+			not = { year = 1939 } 
+		}
+		allow = {
+			 or = { 
+			 JAP = { controls = 4979 }
+			 CHB = { controls = 4979 } 
+			 }
+		}
+		effect = {
+			set_global_flag = JAPQLWRQ
+			country_event = 300112
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+   JAP_CHERamry = {
+		potential = {
+			tag = JAP
+                                                exists = CHI
+			war_with = CHI
+			not = { has_global_flag = JAPHUAZFMJ } 
+			not = { year = 1938 } 
+		}
+		allow = {			
+	JAP = { controls = 4977 }
+		}
+		effect = {
+			set_global_flag = JAPHUAZFMJ
+			country_event = 300111
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	

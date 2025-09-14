@@ -1,0 +1,186 @@
+#内战
+diplomatic_decisions = {
+	    China_CivilWar1 = {
+		potential = {
+			tag = CHI   
+			exists = CHC
+			has_global_flag = Chongqing_negotiations                                          
+      not = { has_global_flag = China_CivilWar }	
+	    not = { war_with = JAP }
+	    not = { war_with = CHC }		    
+		}
+		allow = {
+		 not = { has_country_modifier = china_stop_war }
+		}
+		effect = {
+			set_global_flag = China_CivilWar
+			war = { target = CHC }
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }
+ China_CivilWar2 = {
+	     major = yes
+		potential = {
+			tag = CHI   
+			exists = CHC
+			has_global_flag = Chongqing_negotiations 
+			has_global_flag = JUNE_negotiations 
+			has_global_flag = China_CivilWar
+      not = { has_global_flag = China_CivilWar2 }	
+	    not = { war_with = JAP }
+	    not = { war_with = CHC }		    
+		}
+		allow = {
+		 not = { has_country_modifier = china_stop_war }
+		 date = 1946.6.26
+		  not = ( year = 1947 }
+		}
+		effect = {
+			set_global_flag = China_CivilWar2
+			country_event = 1000312
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }
+#华北军政事务
+ China_CivilWar3 = {
+		potential = {
+			tag = CHI 
+			exists = CSY
+			exists = CHC	
+	    war_with = CHC
+	    not = { CHC = { controls = 4979 }		    
+		}
+		allow = {
+		has_global_flag = China_CivilWar
+     not = { has_global_flag = China_CivilWar3 }
+     date = 1946.7.1	
+     not = ( year = 1947 }
+		}
+		effect = {
+			set_global_flag = China_CivilWar3
+		CHI = {	4979 = { secede_province = CSY } 
+			5018 = { secede_province = CSY } 
+		 	5053 = { secede_province = CSY } 
+			5086 = { secede_province = CSY } }
+				CSY = { load_oob = "CSY_1946.txt" } 
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }        
+#傅作义起义
+ China_CivilWar4 = {
+	     major = yes
+		potential = {
+			tag = CSY  
+			 ai = no
+			exists = CHI
+			exists = CHC	
+					CHC = { 	
+		  controls = 4575
+			controls = 4452
+			controls = 4685
+			controls = 4936
+			controls = 4978
+			controls = 4788
+	   	}				    
+		}
+		allow = {
+		has_global_flag = China_CivilWar
+      not = { has_global_flag = China_CivilWar4 }	
+		}
+		effect = {
+		CSY = { 
+                             4979 = { secede_province = CHC } 
+			5018 = { secede_province = CHC } 
+			5053 = { secede_province = CHC } 
+			5086 = { secede_province = CHC } 
+                             set_global_flag = China_CivilWar4
+                                                                                    }
+			CHC = { country_event = 8019 }
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }  
+    #傅作义起义AI
+ China_CivilWar4_AI = {
+	     major = yes
+		potential = {
+			tag = CSY  
+			exists = CHI
+			exists = CHC	
+			ai = yes
+					CHC = { 	
+		  controls = 4575
+			controls = 4452
+		  controls = 4788
+		  }				    
+		}
+		allow = {
+		has_global_flag = China_CivilWar
+      not = { has_global_flag = China_CivilWar4_AI }	
+		}
+		effect = {
+			set_global_flag = China_CivilWar4_AI
+		CSY = {	4979 = { secede_province = CHC } 
+			5018 = { secede_province = CHC } 
+			5053 = { secede_province = CHC } 
+			5086 = { secede_province = CHC } }
+			CHC = { country_event = 8019 }
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }      
+#刘文辉起义
+ China_CivilWar5 = {
+	     major = yes
+		potential = {
+			tag = CXK  
+			exists = CHI
+			exists = CHC		
+      war_with = CHI 		    
+		}
+		allow = {
+		has_global_flag = China_CivilWar
+		has_global_flag = China_CivilWar4
+		has_global_flag = China_CivilWar_Yunnan
+      not = { has_global_flag = China_CivilWar5 }	
+		}
+		effect = {
+			set_global_flag = China_CivilWar5		
+			CXK = { country_event = 80195 }
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }   
+#组建快速纵队
+ China_CivilWar6 = {
+		potential = {
+			tag = CHI 
+			exists = CHI
+			exists = CHC		
+			war_with = CHC
+     CHC = { 	
+		  controls = 4979
+			controls = 5018
+		}				    		    
+	}
+		allow = {
+      not = { has_global_flag = China_CivilWar6 }	
+		}
+		effect = {
+			set_global_flag = China_CivilWar6		
+			CHI = { country_event = 8029 }
+		}
+		ai_will_do = {
+			factor = 1
+		     }
+    }        
+}         

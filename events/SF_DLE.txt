@@ -1,0 +1,61 @@
+country_event = {
+          id = 2020124
+         major = yes
+	        fire_only_once = yes
+          title = "1244title"
+          desc = "124Decs"
+          picture = "news_paper"
+          trigger = {
+		tag = HOL
+               year = 1945
+               not = { war_with = GER
+                       war_with = JAP }
+               not = { exists = INO }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "1234option" 
+          HOL = { Dutch_east_indies = { secede_province = INO } }
+          war = { target = INO }
+          INO = { country_event = 20201241 }
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 20201241
+         is_triggered_only = yes
+          title = "1241title"
+          desc = "1241Decs"
+          picture = "news_paper"     
+          option = {
+          name = "12341option" 
+          national_unity = 100
+          load_oob = INO_SA.txt
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 20201242
+         major = yes
+	        fire_only_once = yes
+          title = "12442title"
+          desc = "1242Decs"
+          picture = "news_paper"
+          trigger = {
+		tag = USA
+               date = 1946.7.4
+               not = { war_with = GER
+                       war_with = JAP }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "12342option" 
+          inherit = PHI
+          release = PHI
+            ai_chance = { factor = 100 }
+         }
+} 

@@ -1,0 +1,68 @@
+country_event = {
+	id = 3100102
+       	trigger = {
+		tag = CHI
+                has_global_flag = Event1000101
+		not = { has_global_flag = Event1000102 }
+		war_with = JAP
+		year = 1938
+	}
+	title = "四川问题解决方案"
+	desc = "派遣张群担任四川省主席，以便于中央管理军政"
+	picture = "CHI_flag"
+	option = {
+		name = "派遣"
+                set_global_flag = Event1000102
+                national_unity = 5
+        }
+}
+country_event = {
+	id = 3100103
+       	trigger = {
+		tag = CSC
+                has_global_flag = Event1000102
+		not = { has_global_flag = Event1000103 }
+		not = { has_global_flag = Event1000104 }
+		war_with = JAP
+		alliance_with = CHI
+		year = 1938
+	}
+	title = "国民政府打算派遣张群赴川担任主席"
+	desc = "中央打算派遣张群担任四川省主席，以便于中央管理军政"
+	picture = "CHI_flag"
+	option = {
+		name = "他要是敢来，我就拿飞机大炮欢迎他"
+                set_global_flag = Event1000103
+                set_global_flag = Event1000104
+                national_unity = 5
+                relation = { who = CHI value = -100 }
+                ai_chance = { factor = 0 }
+        }
+        option = {
+		name = "好吧"
+                CHI = { split_troops = 1.0 }
+		CHI = { inherit = CSC } 
+                national_unity = 5
+                ai_chance = { factor = 100 }
+                set_global_flag = Event1000103
+	}
+}
+country_event = {
+	id = 3100104
+       	 	trigger = {
+		tag = CHI
+                has_global_flag = Event1000102
+                has_global_flag = Event1000104
+		not = { has_global_flag = Event1000105 }
+		war_with = JAP
+		alliance_with = CSC
+		year = 1938
+	}
+	title = "四川方面拒绝了我们"
+	desc = "四川方面拒绝了我们对于四川人事的调遣"
+	picture = "CHI_flag"
+        option = {
+		name = "好吧"  
+                 set_global_flag = Event1000105        
+	}
+}

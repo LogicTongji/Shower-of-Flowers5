@@ -1,0 +1,299 @@
+#####################
+#  庐山谈判事件组   #
+#####################
+country_event = {
+	id = 200
+        major = yes
+	title = "200title"
+	desc = "200decs"
+	picture = "CHI_Flag"
+	trigger = {
+		tag = CHI
+		date = 1937.6.4
+		not = { year = 1938 }
+                not = { has_country_flag = Event200 }
+                not = { has_country_flag = Xian_conversation4 }               
+                CHI = { controls = 5494 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "200option1"
+		set_country_flag = Event200
+                dissent = -5
+		national_unity = 10
+		CHC = { country_event = 201 }
+		ai_chance = { factor = 10 }
+       	}
+	option = {
+		name = "200option2"
+		set_country_flag = Event200
+                dissent = 5
+		national_unity = -10
+                CHC = { country_event = 202 }
+		ai_chance = { factor = 90 }
+	        }
+      }
+country_event = {
+	id = 201
+       	is_triggered_only = yes
+	title = "201title"
+	desc = "201decs"
+	picture = "CHC_flag"
+	option = {
+		name = "201option"
+                load_oob = "CHC_14.txt"
+	        }
+     }
+country_event = {
+	id = 202
+       	is_triggered_only = yes
+	title = "202title"
+	desc = "202decs"
+	picture = "CHC_flag"
+	option = {
+		name = "202option"
+                CHI = {country_event = 203 }	
+		relation = { who = CHI value = -100 }
+		ai_chance = { factor = 100 }
+        }
+        option = {
+		name = "202option2"
+                CHI = { inherit = CHC }	
+		relation = { who = CHI value = 100 }
+		ai_chance = { factor = 0 }
+	       }
+    }
+country_event = {
+	id = 203
+       	is_triggered_only = yes
+	title = "203title"
+	desc = "203decs"
+	picture = "CHI_flag"
+	option = {
+		name = "203option"	
+		relation = { who = CHC value = -100 }
+	}
+}
+#第二次庐山会谈
+country_event = {
+	id = 204
+	major = yes
+	fire_only_once = yes
+	trigger = {
+                tag = CHI
+                not = { year = 1938 }
+                date = 1937.7.13                           
+	}
+	title = "204title"
+	desc = "204decs"
+	picture = "CHI_flag"
+	option = {
+		name = "204option"
+    national_unity = 1
+    dissent = -80
+   CHC = { country_event = 205 }
+	}		
+}
+country_event = {
+	id = 205
+       	is_triggered_only = yes
+	title = "205title"
+	desc = "205decs"
+	picture = "CHC_flag"
+	option = {
+		name = "205option"	
+		 national_unity = 1
+    dissent = -10
+    CHI = { set_country_flag = KRJW }
+		relation = { who = CHI value = 100 }
+	}
+}
+#西安谈判
+country_event = {
+	id = 206
+	major = yes
+	fire_only_once = yes
+	trigger = {
+                tag = CHI
+                not = { war_with = CHC }
+                not = { exists = CXB }
+                not = { year = 1938 }
+                date = 1937.2.11                           
+	}
+	title = "206title"
+	desc = "206decs"
+	picture = "CHI_flag"
+	option = {
+		name = "206option1"
+    national_unity = 1
+    dissent = -10
+       set_country_flag = Xian_conversation
+   CHC = { country_event = 207 }
+   ai_chance = { factor = 100 }
+	}	
+	option = {
+		name = "206option2"
+    dissent = 10
+   ai_chance = { factor = 0 } 
+        add_country_modifier = {
+			name = "NOconversation_modifier"
+			duration = 200
+	                            }		
+	}		
+}
+country_event = {
+	id = 207
+       	is_triggered_only = yes
+	title = "207title"
+	desc = "207decs"
+	picture = "CHC_flag"
+	option = {
+		name = "207option"	
+		 national_unity = 1
+    dissent = -10
+    set_global_flag = Xian_conversation2
+		relation = { who = CHI value = 100 }
+	}
+}
+country_event = {
+	id = 208
+	major = yes
+	fire_only_once = yes
+	trigger = {
+                tag = CHI
+                not = { war_with = CHC }
+                not = { exists = CXB }
+                not = { year = 1938 }
+                has_global_flag = Xian_conversation2                           
+	}
+	title = "208title"
+	desc = "208decs"
+	picture = "CHI_flag"
+	option = {
+		name = "208option1"
+    national_unity = 1
+    dissent = -20
+   CHC = { country_event = 209 }
+  set_country_flag = Xian_conversation3 
+   ai_chance = { factor = 100 }
+	}	
+	option = {
+		name = "208option2"
+    national_unity = -10
+    dissent = 80
+        add_country_modifier = {
+			name = "NOconversation_modifier"
+			duration = 200
+	}		
+	set_country_flag = Xian_conversation4
+   ai_chance = { factor = 0 } 
+	}		
+}
+country_event = {
+	id = 209
+       	is_triggered_only = yes
+	title = "209title"
+	desc = "209decs"
+	picture = "CHC_flag"
+	option = {
+		name = "209option"	
+		 national_unity = 1
+    dissent = -10
+		relation = { who = CHI value = 100 }
+	}
+}
+#秋季谈判
+country_event = {
+	id = 210
+	fire_only_once = yes
+	trigger = {
+                tag = CHI
+                war_with = CHC 
+                CHI = { controls = 4885 }
+                date = 1946.12.1                          
+	}
+	title = "210title"
+	desc = "210decs"
+	picture = "CHI_flag"
+	option = {
+		name = "210option1"
+    national_unity = 1
+    dissent = 5
+    national_unity = -5
+   CHC = { country_event = 211 }
+   ai_chance = { factor = 100 }
+	}		
+}
+country_event = {
+	id = 211
+       	is_triggered_only = yes
+	title = "211title"
+	desc = "211decs"
+	picture = "CHC_flag"
+	option = {
+		name = "211option1"	
+		 national_unity = 10
+    dissent = -10
+		relation = { who = CHI value = -100 }
+		CHC = { country_event = 212 }
+		ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "211option2"	
+		 national_unity = -10
+    dissent = 10
+    CSX = { end_war = CHC }
+CSX = { end_war = CHC }
+CNM = { end_war = CHC }
+CQM = { end_war = CHC }
+CXK = { end_war = CHC }
+CYN = { end_war = CHC }
+CSY = { end_war = CHC }
+CHI = { end_war = CHC }
+		relation = { who = CHI value = 100 }
+		  set_global_flag = WINTER_conversation3 
+		ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 212
+	is_triggered_only = yes
+	title = "212title"
+	desc = "212decs"
+	picture = "CHI_flag"
+	option = {
+		name = "212option1"
+    national_unity = -10
+    dissent = 15
+   ai_chance = { factor = 100 }
+	}		
+}
+country_event = {
+	id = 213
+	fire_only_once = yes
+	trigger = {
+                tag = CHC             
+           has_global_flag = WINTER_conversation3                         
+	}
+	title = "213title"
+	desc = "213decs"
+	picture = "CHI_flag"
+	option = {
+		name = "210option1"
+    CHI = { inherit = CHC }	
+   ai_chance = { factor = 0 }
+	}		
+	option = {
+		name = "213option2"
+	CHI = { war = { target = CHC } }
+	CSX = { war = { target = CHC } }
+	CSY = { war = { target = CHC } }
+	CQM = { war = { target = CHC } }
+	CNM = { war = { target = CHC } }
+	CYN = { war = { target = CHC } }
+	CXK = { war = { target = CHC } }
+	ai_chance = { factor = 100 }
+	}
+}

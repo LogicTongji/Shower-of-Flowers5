@@ -1,0 +1,82 @@
+########################
+#   武装党卫军事件组   #
+########################
+#SS1
+country_event = {
+         id = 5211
+         is_triggered_only = yes
+         title = "第一波次武装党卫军"
+         desc = "GER_SS_desc1"
+         picture = "GER_SS"
+         option = {
+                 name = "组建"
+                 load_oob="GER_SS1.txt"
+               
+        } 
+}
+#SS2
+country_event = {
+         id = 5212
+         is_triggered_only = yes
+         title = "第三波次武装党卫军"
+         desc = "GER_SS_desc2"
+         picture = "GER_SS"
+         option = {
+                 name = "组建"
+                 load_oob="GER_SS2.txt"
+               
+        } 
+}
+#SS3
+country_event = {
+         id = 5213
+         is_triggered_only = yes
+         title = "第二波次武装党卫军"
+         desc = "GER_SS_desc3"
+         picture = "GER_SS"
+         option = {
+                 name = "组建"
+                 load_oob="GER_SS3.txt"
+               
+        } 
+}
+#SS4
+country_event = {
+         id = 5214
+         is_triggered_only = yes
+         title = "第四波次武装党卫军"
+         desc = "GER_SS_desc4"
+         picture = "GER_SS"
+         option = {
+                 name = "组建"
+                 load_oob="GER_SS4.txt"
+               
+        } 
+}
+#SS5
+country_event = {
+         id = 5214
+         is_triggered_only = yes
+         title = "第五波次武装党卫军"
+         desc = "GER_SS_desc5"
+         picture = "GER_SS"
+         option = {
+                 name = "组建"
+                 load_oob="GER_SS5.txt"
+               
+        } 
+}
+#SS6
+country_event = {
+         id = 5214
+         is_triggered_only = yes
+         title = "第六波次武装党卫军"
+         desc = "GER_SS_desc6"
+         picture = "GER_SS"
+         option = {
+                 name = "组建"
+                 load_oob="GER_SS6.txt"
+               
+        } 
+}
+                                                                    

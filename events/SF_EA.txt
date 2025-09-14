@@ -1,0 +1,236 @@
+######################
+#   中共破袭议决组   #
+######################
+#CHC开辟敌后抗日根据地
+country_event = {
+
+	id = 830259
+	title = "我们建立了一个新的敌后抗日根据地"
+	desc = "EVTDESC830259"
+	picture = "genjudi"
+	
+	trigger = {
+     tag = CHC
+     ideology = stalinist
+     war_with = JAP
+     ai = no
+     year = 1937
+     not= { CSX = { owns = 5174 } }
+     OR = {
+       4979 = { controller = { tag = JAP } }
+       5018 = { controller = { tag = JAP } }
+       5174 = { controller = { tag = JAP } }
+       5143 = { controller = { tag = JAP } }
+       5054 = { controller = { tag = JAP } }
+       4979 = { controller = { tag = CHB } }
+       5018 = { controller = { tag = CHB } }
+       5174 = { controller = { tag = CHB } }
+       5143 = { controller = { tag = CHB } }
+       5054 = { controller = { tag = CHB } }
+       4979 = { controller = { tag = WJW } }
+       5018 = { controller = { tag = WJW } }
+       5174 = { controller = { tag = WJW } }
+       5143 = { controller = { tag = WJW } }
+       5054 = { controller = { tag = WJW } }
+       }
+    }
+
+	mean_time_to_happen =  { months = 5 }
+
+   option = {
+	 name = "太好了！"
+	 JAP = {
+     random_owned = {
+		   limit = {
+		     region = north_china_region 
+		     not = { province_id = 4979 }
+		     not = { province_id = 5018 }
+		     not = { province_id = 5174 }
+		     not = { province_id = 5143 }
+		     not = { province_id = 5054 }
+		     }
+		   secede_province = CHC
+		   volunteers_infantry_brigade = current
+		   volunteers_infantry_brigade = current
+		   volunteers_cavalry_brigade = current
+		  }
+		}
+		JAP = { country_event = 830261 }
+  }
+}
+
+#CHC开展敌后破袭交通
+country_event = {
+
+	id = 830262
+	title = "我们破坏了敌人赖以支持的交通线路"
+	desc = "EVTDESC830259"
+	picture = "genjudi"
+	
+	trigger = {
+     tag = CHC
+     ideology = stalinist
+     war_with = JAP
+     year = 1937
+     has_country_flag = luochuanhuiyi
+     JAP = { owns = 5174 }
+     OR = {
+       4979 = { controller = { tag = JAP } }
+       5018 = { controller = { tag = JAP } }
+       5174 = { controller = { tag = JAP } }
+       5176 = { controller = { tag = JAP } }
+       5143 = { controller = { tag = JAP } }
+       5054 = { controller = { tag = JAP } }
+       }
+    }
+
+	mean_time_to_happen =  { months = 1 }
+
+   option = {
+	 name = "破袭石太铁路"
+	 
+                
+                JAP = {
+		  5142 = {
+			infra = -1
+                }  
+		  5141 = {
+			infra = -1
+                }  
+  					}
+		JAP = { country_event = 830263 }
+  }
+   option = {
+	 name = "破袭京张铁路"
+	 
+                
+                JAP = {
+		  4933 = {
+			infra = -1
+                }  
+		  4978 = {
+			infra = -1
+                }  
+		  7360 = {
+			infra = -1
+                }  
+		  7368 = {
+			infra = -1
+                } 
+  					}
+		JAP = { country_event = 830263 }
+  }
+   option = {
+	 name = "破袭京汉铁路"
+	 
+                
+                JAP = {
+		  5142 = {
+			infra = -1
+                }  
+		  5141 = {
+			infra = -1
+                }  
+  					}
+		JAP = { country_event = 830263 }
+  }
+   option = {
+	 name = "全面破坏华北公路铁路线网，支援正面抗战！"
+	 
+                
+		manpower = -50
+                JAP = {
+		  north_china_region = {
+			infra = -1
+                }  
+  					}
+		JAP = { country_event = 830263 }
+  }
+}
+				}
+
+#CHC开辟敌后抗日根据地（AI）
+country_event = {
+
+	id = 830260
+	title = "我们建立了一个新的敌后抗日根据地"
+	desc = "EVTDESC830259"
+	picture = "genjudi"
+	
+	trigger = {
+     tag = CHC
+     ideology = stalinist
+     war_with = JAP
+     ai = yes
+     year = 1937
+     has_country_flag = luochuanhuiyi
+     JAP = { owns = 5174 }
+     OR = {
+       4979 = { controller = { tag = JAP } }
+       5018 = { controller = { tag = JAP } }
+       5174 = { controller = { tag = JAP } }
+       5143 = { controller = { tag = JAP } }
+       5054 = { controller = { tag = JAP } }
+       }
+    }
+
+	mean_time_to_happen =  { months = 2 }
+
+   option = {
+	 name = "太好了！"
+	 JAP = {
+     random_owned = {
+		   limit = {
+		     region = north_china_region 
+		     not = { province_id = 4979 }
+		     not = { province_id = 5018 }
+		     not = { province_id = 5174 }
+		     not = { province_id = 5143 }
+		     not = { province_id = 5054 }
+		     }
+		   secede_province = CHC
+		   volunteers_infantry_brigade = current
+		   volunteers_infantry_brigade = current
+		   volunteers_cavalry_brigade = current
+		  }
+		}
+		JAP = { country_event = 830261 }
+  }
+}
+
+#CHC开辟敌后抗日根据地（JAP）
+country_event = {
+
+	id = 830261
+	
+	is_triggered_only = yes
+		
+	title = "八路在华北建立了一个抗日据点"
+	desc = "EVTDESC830261"
+	picture = "genjudi"	
+
+   option = {
+	 name = "该死的八路！"
+  }
+}
+				}
+
+#CHC开展敌后破袭战（JAP）
+country_event = {
+
+	id = 830263
+	
+	is_triggered_only = yes
+	title = "八路在华北展开了针对交通线网的破袭"
+	desc = "EVTDESC830263"
+	picture = "genjudi"	
+
+   option = {
+	 name = "该死的八路！"
+   option = {
+	name = "准备物资修复吧！"
+	suppiles = -500
+	unit_repair = 0.1
+  }
+  }
+}

@@ -1,0 +1,26 @@
+owner = CHI
+controller = CHI
+add_core = CHC
+add_core = CHI
+infra = 3
+1933.12.13 = {
+	owner = CJC
+controller = CJC
+add_core = CJC
+}
+1936.5.12 = {
+	owner = MEN
+
+	controller = MEN
+
+	add_core = MEN
+
+}
+1937.8.12 = { 
+owner = JAP
+controller = JAP 
+}
+1946.1.1 = {
+	owner = CHC
+	controller = CHC
+}

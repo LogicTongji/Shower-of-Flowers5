@@ -1,0 +1,130 @@
+#国军投诚事件组
+#卢汉云南起义
+country_event = {
+	id = 201908176
+	major = yes
+	fire_only_once = yes
+	title = "LUtitle"
+	subtitle = "LUsubtitle"
+	desc = "LUecs"
+	picture = "CHI_flag"
+	trigger = {
+		tag = CHI
+			CHC = { 	
+		  controls = 4979
+			controls = 5275
+			controls = 4452
+			controls = 5174
+			controls = 7435
+			controls = 7447
+			controls = 5383
+			controls = 5435
+			controls = 5515	
+			controls = 9478
+			controls = 7520
+			controls = 7508
+		}
+		has_global_flag = China_CivilWar4 
+    war_with = CHC
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "LUCOP" 
+     CHC = { inherit = CYN }
+     CHC = {  load_oob = "CHC_Yunnan.txt" }
+     set_global_flag = China_CivilWar_Yunnan 
+       	}
+}
+#贵州起义
+country_event = {
+	id = 80192
+	major = yes
+	fire_only_once = yes
+	title = "Event80192title"
+	desc = "Event80192desc"
+	picture = "CHI_flag"
+	trigger = {
+		tag = CHI
+		has_global_flag = China_CivilWar
+		has_global_flag = China_CivilWar4
+		has_global_flag = China_CivilWar_Yunnan
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "LUCOP"
+		CHI = { guizhou_region = { limit = { controlled_by = CHI } secede_province = CHC change_controller = CHI } } 	
+		 CHC = { load_oob = "CHC_Guizhou.txt" }
+        }
+}
+#湖南起义
+country_event = {
+	id = 80193
+	major = yes
+	fire_only_once = yes
+	title = "Event80193title"
+	desc = "Event80193desc"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHI
+		has_global_flag = China_CivilWar
+		has_global_flag = China_CivilWar4
+		has_global_flag = China_CivilWar_Yunnan
+		CHC = { 	
+		  controls = 7508
+		  }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "LUCOP"
+		kill_leader = 50041
+		kill_leader = 50034
+		CHI = { hunan_region = { limit = { controlled_by = CHI } secede_province = CHC change_controller = CHI } } 		 
+		set_global_flag = China_CivilWar_hunan
+			CHC = {
+		  load_oob = "Lakesouth.txt"
+		  }
+        }
+}
+#国民党海军起义
+country_event = {
+	id = 80194
+	fire_only_once = yes
+	title = "Event80194title"
+	desc = "Event80194desc"
+	picture = "CHI_flag"
+	trigger = {
+		tag = CHI
+		war_with = CHC
+			CHC = { 	
+		  controls = 4979
+			controls = 5018
+			controls = 5515
+		}
+		has_global_flag = China_CivilWar
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "NACOP"
+		CHC = { country_event = 20205 }
+        }
+}
+country_event = {
+	id = 20205
+	major = yes
+	is_triggered_only = yes
+	title = "Event20205title"
+	desc = "Event20205desc"
+	picture = "CHC_flag"
+	option = {
+		name = "MPOCOP"
+    load_oob = "CHC_nave.txt"
+        }
+}

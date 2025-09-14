@@ -1,0 +1,19 @@
+owner = JAP
+controller = JAP
+add_core = JAP
+add_core = CHI
+add_core = CHC
+
+infra = 3
+1936.5.12 = {
+	owner = MEN 	controller = MEN 	add_core = MEN 
+}
+1937.8.12 = { 
+owner = JAP
+controller = JAP 
+}
+1937.7.7= { controller = JAP}
+1946.1.1 = {
+	owner = CHC
+	controller = CHC
+}

@@ -17,8 +17,8 @@ national_unity = 100
 
 oob = "CHC_1933.txt"
 
-infantry_theory = 6
-infantry_practical = 8
+infantry_theory = 5
+infantry_practical = 6
 militia_theory = 5
 militia_practical = 5
 mobile_theory = 1
@@ -152,10 +152,10 @@ national_unity = 100
 
 oob = "CHC_1936.txt"
 
-infantry_theory = 8
-infantry_practical = 9
-militia_theory = 7
-militia_practical = 5
+infantry_theory = 6
+infantry_practical = 6
+militia_theory = 10
+militia_practical = 10
 mobile_theory = 1
 mobile_practical = 1
 artillery_theory = 0 
@@ -289,9 +289,9 @@ capital = 7139
 oob = "CHC_1946.txt"
 
 infantry_theory = 10
-infantry_practical = 12
-militia_theory = 10
-militia_practical = 10
+infantry_practical = 10
+militia_theory = 12
+militia_practical = 12
 mobile_theory = 2
 mobile_practical = 2
 artillery_theory = 1

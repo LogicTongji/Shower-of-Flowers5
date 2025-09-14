@@ -1,5 +1,5 @@
 country_event = {
-	id = 2019081601
+	id = 44444
 	fire_only_once = yes
 	title = "DLtitle"
 	desc = "DLRdecs"
@@ -20,7 +20,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 2019081602
+	id = 44445
 	major = yes
 	fire_only_once = yes
 	title = "KMtitle"
@@ -47,7 +47,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 2019081603
+	id = 44446
 	major = yes
 	fire_only_once = yes
 	title = "LGPtitle"
@@ -69,7 +69,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 2019081604
+	id = 44447
 	major = yes
 	fire_only_once = yes
 	title = "WDtitle"
@@ -104,7 +104,7 @@ ai_chance = { factor = 100 }
 	}
 }
 country_event = {
-	id = 2019081605
+	id = 44448
 	major = yes
 	fire_only_once = yes
 	title = "XJtitle"
@@ -125,7 +125,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 2019081606
+	id = 44449
 	major = yes
 	fire_only_once = yes
 	title = "JTtitle"
@@ -148,7 +148,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 2019081607
+	id = 444410
 	major = yes
 	fire_only_once = yes
 	title = "ZXtitle"
@@ -172,7 +172,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 2019081608
+	id = 444411
 	major = yes
 	fire_only_once = yes
 	title = "GUtitle"
@@ -194,7 +194,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 2019081609
+	id = 444412
 	major = yes
 	fire_only_once = yes
 	title = "NKtitle"
@@ -216,7 +216,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 201908171
+	id = 444413
 	major = yes
 	fire_only_once = yes
 	title = "TDtitle"
@@ -241,7 +241,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 201908172
+	id = 444414
 	fire_only_once = yes
 	title = "ARtitle"
 	desc = "ARecs"
@@ -263,7 +263,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 201908173
+	id = 444415
 	fire_only_once = yes
 	title = "ARCtitle"
 	desc = "ARCecs"
@@ -282,7 +282,7 @@ country_event = {
        	}
 }
 country_event = {
-	id = 201908174
+	id = 444416
 	major = yes
 	fire_only_once = yes
 	title = "CXXtitle"

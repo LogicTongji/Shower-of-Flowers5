@@ -3324,3 +3324,33 @@ supply_consumption = -0.7
 org_regain = 0.1
 	icon = 5
 }
+#Î±ÕþÈ¨
+wjw_a_dog = {
+
+	potential = {		
+	OR = {	
+			TAG = WJW
+			TAG = CJD
+			TAG = CHB
+			TAG = CJB
+			TAG = MAN
+	}
+}
+	trigger = {
+	JAP = { war_with = CHC 
+	        war_with = CHI
+			}
+	not = { controls = 9478
+	        controls = 9415
+	        controls = 9170
+	        }
+	}
+global_ic = -0.5
+local_supplies = 0.2
+dissent = 0.10
+global_resources = -0.80
+land_organisation = -0.50
+global_leadership_modifier = -0.25 
+research_efficiency = -0.45
+	icon = 5
+}

@@ -1,6 +1,38 @@
 ######################
 #   1936新闻事件组   #
 ######################
+#12.9运动
+country_event = {
+	id = 193512
+	major = yes
+	fire_only_once = yes
+	title = "Event129title"
+	subtitle = "Event129subtitle"
+	desc = "Event129desc"
+	picture = "Event129"
+	trigger = {
+		tag = CHI
+		not = { war_with = JAP }
+		has_global_flag = the_war_attack_great_wall
+		date = 1935.12.9
+	}
+	option = {
+		name = "统一方能御侮"
+                add_country_modifier = {
+			name = "Event19361_modifier"
+			duration = 506
+		}
+		set_country_flag = Event19361
+                ai_chance = { factor = 100 }
+	}
+	option = {
+		name = "外侮需人御"
+		set_country_flag = Event19361
+		dissent = -5
+		national_unity = 10
+                ai_chance = { factor = 0 }
+	}
+}
 #平津学生组成南下抗日宣传团
 country_event = {
 	id = 19361

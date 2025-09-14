@@ -61,7 +61,6 @@ corps = {
 			name = "第三军"
 			location = 5573
 			regiment = { type = hq_brigade name = "第三军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "第3师"
 				location = 5573
@@ -120,7 +119,6 @@ corps = {
 			name = "第五军"
 			location = 5384
 			regiment = { type = hq_brigade name = "第五军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "第40师"
 				location = 5384
@@ -140,7 +138,6 @@ corps = {
 			name = "第九军"
 			location = 5401
 			regiment = { type = hq_brigade name = "第九军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "第24师"
 				location = 5401
@@ -217,7 +214,6 @@ corps = {
 			name = "第六军"
 			location = 5386
 			regiment = { type = hq_brigade name = "第六军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "第48师"
 				location = 5386
@@ -248,7 +244,6 @@ corps = {
 			name = "第一军"
 			location = 5417
 			regiment = { type = hq_brigade name = "第一军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "暂编第14师"
 				location = 5417
@@ -268,7 +263,6 @@ corps = {
 			name = "第八军"
 			location = 5362
 			regiment = { type = hq_brigade name = "第八军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "暂编第16师"
 				location = 5362
@@ -542,7 +536,6 @@ corps = {
 			name = "第十二军"
 			location = 5621
 			regiment = { type = hq_brigade name = "第十二军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "暂编第34师"
 				location = 5621
@@ -590,8 +583,6 @@ corps = {
 			name = "和平建国军第1集团军"
 			location = 5823
 			regiment = { type = hq_brigade name = "闽越边区绥靖总司令部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "第3路军"
 				location = 5823

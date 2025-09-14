@@ -70,7 +70,6 @@ folders = {
 	land_doctrine_folder
 	naval_doctrine_folder
 	air_doctrine_folder
-	national_policy_chi_folder
 }
 
  

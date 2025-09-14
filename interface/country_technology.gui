@@ -143,12 +143,7 @@ guiTypes = {
 			position = { x= 302 y = 97 }
 			Orientation = "UPPER_LEFT"
 		}
-		iconType = {
-			name ="bg_tech_national_policy_chi_folder"
-			spriteType = "GFX_tech_national_policy_chi"
-			position = { x= 302 y = 97 }
-			Orientation = "UPPER_LEFT"
-		}
+	
 		
 		
 		
@@ -548,23 +543,7 @@ guiTypes = {
 			maxHeight = 64	
 			format = centre
 		}
-		guiButtonType = {
-			name = "techtree_national_policy_chi_folder"
-			position = { x= 302 y = 124}
-			quadTextureSprite ="GFX_tech_button_national_policy_chi"
-			
-		}
-		textBoxType = { 
-			name = "national_policy_text"
-			position = { x = 301 y = 135 }
-			textureFile = ""
-			font = "Arial12"
-			borderSize = {x = 0 y = 4}
-			text = "NATIONAL_POLICY_CHI"	
-			maxWidth = 64
-			maxHeight = 64	
-			format = centre
-		}
+	
 		
 		
 		

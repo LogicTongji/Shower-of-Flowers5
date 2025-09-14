@@ -176,13 +176,6 @@ spriteTypes = {
 		loadType = "INGAME"
 		norefcount = yes
 	}
-		spriteType = {
-		norefcount = yes
-	  name = "GFX_tech_national_policy_chi"
-	  texturefile = "gfx\\interface\\bg_tech_national_policy_chi.dds"
-	  loadType = "INGAME"
-	  norefcount = yes
-	}
 	
 	######
 	spriteType = {
@@ -407,14 +400,7 @@ spriteTypes = {
 		loadType = "INGAME"
 			norefcount = yes
 	}
-  spriteType = {
-		norefcount = yes
-	  name = "GFX_tech_button_national_policy_chi"
-	  texturefile = "gfx\\interface\\tech_button_national_policy_chi.dds"
-	  noOfFrames = 2
-		loadType = "INGAME"
-			norefcount = yes
-	}
+
 
 	
 	

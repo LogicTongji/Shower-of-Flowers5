@@ -38,7 +38,8 @@ country_event = {
 	option = {
 		name = "Event1000079option"
 		ai_chance = { factor = 100 }
-		CHC = {	end_war = CSX }
+		CHC = {	end_war = CSX
+		        end_war = CSY }
 		CSX = {	leave_alliance = CHI country_event = 1000080 }
 		CSX = { any_owned = { limit = { province_id = 7391 } secede_province = CHC } }
 		manpower = 60

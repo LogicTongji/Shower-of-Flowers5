@@ -1,7 +1,7 @@
 #1937—1945新闻事件
 #1937
 country_event = {
-	id = 20190719
+	id = 44450
 	major = yes
 		fire_only_once = yes
 	title = "XHSV"	
@@ -18,7 +18,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907191
+	id = 44451
 		fire_only_once = yes
 	title = "FCJT"	
 	desc = "FCJD"
@@ -34,7 +34,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907193
+	id = 44452
 	major = yes
 		fire_only_once = yes
 	title = "LTXZ"	
@@ -51,12 +51,12 @@ country_event = {
 	}
 }
 country_event = {
-	id = 301907194
+	id = 44453
 	major = yes
 		fire_only_once = yes
 	title = "YAC"	
 	desc = "YACD"
-	picture = "Event193613"
+	picture = "Event193618"
 	trigger = {
 		tag = CHC 
 		not = { year = 1938 }   
@@ -70,7 +70,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907195
+	id = 44454
 		fire_only_once = yes
 	title = "NCC"	
 	desc = "NCD"
@@ -85,7 +85,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907196
+	id = 44455
 	major = yes
 		fire_only_once = yes
 	title = "GBDT"	
@@ -101,7 +101,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 2019071999
+	id = 44456
 	major = yes
 		fire_only_once = yes
 	title = "QGHT"	
@@ -124,7 +124,7 @@ country_event = {
 }
 #1938
 country_event = {
-	id = 201907201
+	id = 44457
 		fire_only_once = yes
 	title = "KMMT"	
 	desc = "KMMD"
@@ -139,7 +139,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907202
+	id = 44458
 	major = yes
 		fire_only_once = yes
 	title = "KMCT"	
@@ -174,7 +174,7 @@ country_event = {
 }
 #游击战争
 country_event = {
-	id = 201907203
+	id = 44459
 	major = yes
 		fire_only_once = yes
 	title = "PYT"	
@@ -194,7 +194,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907204
+	id = 444510
 	major = yes
 		fire_only_once = yes
 	title = "XZT"	
@@ -210,7 +210,7 @@ country_event = {
 		load_oob = "CHC_YDA.txt"
 }
 country_event = {
-	id = 201907206
+	id = 444511
 	fire_only_once = yes
 	title = "SQT"	
 	desc = "SQD"
@@ -235,7 +235,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907207
+	id = 444512
 		major = yes
 		fire_only_once = yes
 	title = "JBLT"	
@@ -254,7 +254,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 201907208
+	id = 444513
 		major = yes
 		fire_only_once = yes
 	title = "YAMT"	
@@ -273,7 +273,7 @@ country_event = {
 }
 #1939
 country_event = {
-	id = 201907209
+	id = 444514
 		major = yes
 		fire_only_once = yes
 	title = "MPRT"	
@@ -297,7 +297,7 @@ country_event = {
 }
 #军委会
 country_event = {
-	id = 201907210
+	id = 444515
 		fire_only_once = yes
 	title = "CKST2"	
 	desc = "CKSD2"
@@ -338,7 +338,7 @@ country_event = {
 }
 #土地革命
 country_event = {
-	id = 201907211
+	id = 444516
 		fire_only_once = yes
 	title = "TDT1"	
 	desc = "TDD1"
@@ -356,7 +356,7 @@ country_event = {
 }
 #施政纲领
 country_event = {
-	id = 201907212
+	id = 444517
 		fire_only_once = yes
 	title = "SZG1"	
 	desc = "SZGD1"

@@ -50,7 +50,8 @@ country_event = {
 		has_country_flag = Xaction_CDB
 		not = { has_global_flag = Event10000271 }
 		not = { has_global_flag = Event10000272 }
-		exists = CHI
+		exists = CHI
+
 	}
 	option = {
 		name = "Event1000027option1"
@@ -150,9 +151,10 @@ country_event = {
 	option = {
 		name = "Event1000155option"
 		ai_chance = { factor = 100 }
-		CHI = { split_troops = 0.65 }
+		CHI = { split_troops = 1.00 }
 		SF_china_region = { remove_core = CDB }
-		CHI = { inherit = CDB }
+		CHI = { inherit = CDB
+		        end_war = CHC }
 	}
 }
 country_event = {

@@ -1,6 +1,6 @@
 defines = {
 
-start_date = '1931.9.18',
+start_date = '1931.9.1',
 end_date = '1999.1.1',
 
 land_combat = 'land_doctrine_practical',

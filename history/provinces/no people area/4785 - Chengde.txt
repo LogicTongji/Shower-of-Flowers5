@@ -17,7 +17,7 @@ infra = 0
 
 
 1949.10.1 = {
-	owner = CHC
-	controller = CHC
-	infra = 5
+	owner = PRC
+	controller = PRC
+	infra = 3
 }

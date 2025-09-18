@@ -4,7 +4,6 @@ add_core = CHI
 add_core = CHC
 infra = 5
 
-infra = 5
 1938.5.9 = {
 
 	controller = JAP 
@@ -21,4 +20,7 @@ add_core = WJW
 	controller = CHC 
 owner = CHC
 }
-
+1949.10.1 = { 
+owner = PRC
+controller = PRC
+}

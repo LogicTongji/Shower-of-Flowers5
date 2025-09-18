@@ -16,3 +16,7 @@ leadership = 0.65
 land_fort = 4
 industry = 3
 }
+1949.10.1 = { 
+owner = PRC
+controller = PRC
+}

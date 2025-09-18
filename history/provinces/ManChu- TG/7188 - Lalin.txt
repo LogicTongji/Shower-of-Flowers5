@@ -10,3 +10,7 @@ infra = 6
 add_core = CHI
 	remove_core = MAN
 }
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
+}

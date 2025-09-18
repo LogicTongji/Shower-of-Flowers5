@@ -20,3 +20,7 @@ add_core = WJW
 	owner = CHI
 	controller = CHI
 }
+1949.10.1 = { 
+owner = PRC
+controller = PRC
+}

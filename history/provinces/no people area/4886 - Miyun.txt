@@ -26,3 +26,7 @@ controller = CHI
 add_core = CHI
 infra = 3
 }
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
+}

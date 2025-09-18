@@ -10,3 +10,7 @@ points = 1
 land_fort = 1
 manpower = 3.00
 leadership = 0.30
+1949.10.1 = { 
+owner = PRC
+controller = PRC
+}

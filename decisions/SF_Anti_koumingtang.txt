@@ -190,6 +190,18 @@ diplomatic_decisions = {
  any_owned = { limit = { province_id = 5744 } secede_province = CHI } 
  any_owned = { limit = { province_id = 4739 } secede_province = CSC } 
  any_owned = { limit = { province_id = 9445 } secede_province = CSC }   
+  5732 = { land_fort = -1 }
+			5743 = { land_fort = -1 }
+			5755 = { land_fort = -1 }
+			5767 = { land_fort = -1 }
+			5756 = { land_fort = -1 }
+			5745 = { land_fort = -1 }
+			5726 = { land_fort = -1 }
+			5717 = { land_fort = -1 }
+			5700 = { land_fort = -1 }
+			5692 = { land_fort = -1 }
+			5699 = { land_fort = -1 }
+			5698 = { land_fort = -1 }
                              end_war = CHI      
                             manpower = 160
                             country_event = 12215

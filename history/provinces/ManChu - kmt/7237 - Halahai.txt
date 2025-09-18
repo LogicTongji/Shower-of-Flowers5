@@ -6,9 +6,6 @@ add_core = CHC
 
 infra = 3
 
-infra = 3
-
-infra = 3
 
 1945.9.28 = {
 	owner = CHI
@@ -20,4 +17,8 @@ infra = 3
 
 	controller = CHC
 
+}
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
 }

@@ -6,21 +6,7 @@ add_core = CHC
 
 infra = 3
 
-infra = 3
 
-infra = 3
-
-infra = 3
-
-infra = 3
-
-infra = 3
-
-infra = 3
-
-infra = 3
-
-infra = 3
 1945.9.28 = {
 	owner = CHC
 	controller = CHC

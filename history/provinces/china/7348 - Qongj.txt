@@ -7,5 +7,8 @@ add_core = CSY
 add_core = CHI
 
 infra = 1
-
+1949.10.1 = { 
+owner = PRC
+controller = PRC
+}
 

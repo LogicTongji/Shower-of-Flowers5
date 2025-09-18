@@ -1,4 +1,6 @@
 xxxx;;;;;;;;;;;;;;x
+918ROAD_TO_WIN_NAME;ËÉ»¨½­ÉÏ ;;;;;;;;;;X
+918ROAD_TO_WIN_DESC;¸£ìãËùÎ½¶þÊ®ÄêµÄÐÝÕ½»òÐí²»ÄÜÈçÔ¸ÁË£¬ÔÚÊÀ½çµÄ¶«·½£¬ÖÐ¹úºÍÈÕ±¾Ö®¼äµÄ³åÍ»ÒÑ¾­¼ýÔÚÏÒÉÏ¡£±±´óÓªµÄÇ¹Éù´òËéÁËÄÏ¾©Õþ¸®ºÍÆ½µÄ»ÃÃÎ£¬Õ½Õù£¬»òÐíÖ»ÔÚ³¯Ï¦Ö®¼ä¡£¡¾»¶Ó­Ê¹ÓÃÂþÌì»¨Óêmod¡¿;;;;;;;;;;x
 ROAD_TO_WIN_NAME;³¤³ÇÊØÍû ;;;;;;;;;;X
 ROAD_TO_WIN_DESC;Ò»ÇúËÉ»¨½­ÉÏ£¬²»ÖªÊÇ¶àÉÙÄêµÄ¹úéä¡£×Ô1931Äê¾ÅÒ»°ËÊÂ±äÒÔÀ´£¬ÈÕ¿ÜÖ®ÌúÌã²¢Ã»ÓÐÍ£Ö¹ÔÚÖÐ¹ú¶«±±£¬1933Äê1ÔÂ£¬ÈÕ¾üÕ¼ÁìÉ½º£¹Ø£¬±ø·æÖ±Ö¸Æ½½òÒ»Ïß¡£Óë´ËÍ¬Ê±£¬ÄÏ¾©·½ÃæµÄ½¯½éÊ¯²»¹ËÃñ×åÎ£Íö£¬Ìá³ö¡°ÈÁÍâ±ØÏÈ°²ÄÚ£¬Í³Ò»·½ÄÜÓùÎê¡±ÌÃ¶ø»ÊÖ®µØ¶¯ÓÃÈ«¹ú¾üÁ¦½øÐÐÎ¬»¤Æä¶À²ÃÍ³ÖÎµÄËùÎ½µÄ¡°½Ë·Ë¡±\n¡£ÔÚÅ·ÖÞ£¬Ï£ÌØÀÕµÄÒ»°Ñ´ó»ð£¬ÉÕµôÁËÕâ¸öÊÀ½çºÍÆ½µÄ»ÃÃÎ¡£Õ½ÕùµÄ³µÂÖÕýÔÚ¹ö¹öÏòÇ°£¬ÎÒÃÇµ½µ×¸ÃºÎÈ¥ºÎ´Ó£¿¡¾»¶Ó­Ê¹ÓÃÂþÌì»¨Óêmod¡¿;;;;;;;;;;x
 ROAD_TO_WAR_NAME;Â¬¹µ²ÐÔÂ ;;;;;;;;;;X
@@ -20,4 +22,6 @@ GOTTERDAMMERUNG_DESC;Òâ´óÀûÍ¶½µÁË¡£ÈÕ¾üÉîÏÝÓÚÌ«Æ½ÑóÉÏµÄµº½¸¡£µÂ¾üÔòÔÚ´Ó¶«Ïß³·ÍË²
 45GATHERING_STORM_NAME;Ë­Ö÷¸¡³Á ;;;;;;;;;;x
 45GATHERING_STORM_DESC;Ë«Ê®Ð­¶¨¾ÍÈçÍ¬Ò»Ö½¿ÕÎÄ£¬Ö»²»¹ýÊÇÕÖ×¡ÁË½¯¼ÒÍõ³¯ÕøÄüµÄÃæ¿×°ÕÁË¡£°ËÄêÄÚÕ½±éµØ°§ºè£¬½ñÈÕÄÚÕ½ÓÖÆð¡£ÎÊ²ÔÃ£´óµØ£¬Ë­Ö÷¸¡³Á£¿¡¾»¶Ó­Ê¹ÓÃÂþÌì»¨Óêmod¡¿;;;;;;;;;;x
 48GATHERING_STORM_NAME;ÀèÃ÷Ç°Ò¹ ;;;;;;;;;;x
-48GATHERING_STORM_DESC;Ëæ×Å¹ú¾ü±»ÈËÃñ½â·Å¾üÖð³ö¶«±±¡¢ÁõµË¾ü¶ÓÍ¦½ø´ó±ðÉ½£¬¹ú¹²ÄÚÕ½ÒµÒÑ½Ó½üÎ²Éù¡£Õýµ±Ó¢ÃÀ·¨Èý¹úÎª³ÉÁ¢Î÷µÂËÄ´¦³ï´ëÊ±£¬À´×Ô¶«·½µÄºìÉ«¸ÖÌúºéÁ÷ÓÖºÎ³¢²»ÊÇ»¢ÊÓíñíñ¡£Ëæ×ÅÊÀ½çÖ³ÃñÌåÏµµÄ±ÀÀ££¬°ÔÈ¨¹ú¼ÒµØÎ»µÄ¶¯Ò¡£¬ÊÀ½çÕýÃæÁÙÇ§°ÙÄêÎ´¼ûÖ®´ó±ä¾Ö¡£¡¾»¶Ó­Ê¹ÓÃÂþÌì»¨Óêmod¡¿;;;;;;;;;;;;x
+48GATHERING_STORM_DESC;Ëæ×Å¹ú¾ü±»ÈËÃñ½â·Å¾üÖð³ö¶«±±¡¢ÁõµË¾ü¶ÓÍ¦½ø´ó±ðÉ½£¬¹ú¹²ÄÚÕ½µÄ×ªÕÛµãÒÑÈ»µ½À´¡£Õýµ±Ó¢ÃÀ·¨Èý¹úÎª³ÉÁ¢Î÷µÂËÄ´¦³ï´ëÊ±£¬À´×Ô¶«·½µÄºìÉ«¸ÖÌúºéÁ÷ÓÖºÎ³¢²»ÊÇ»¢ÊÓíñíñ¡£Ëæ×ÅÊÀ½çÖ³ÃñÌåÏµµÄ±ÀÀ££¬°ÔÈ¨¹ú¼ÒµØÎ»µÄ¶¯Ò¡£¬ÊÀ½çÕýÃæÁÙÇ§°ÙÄêÎ´¼ûÖ®´ó±ä¾Ö¡£¡¾»¶Ó­Ê¹ÓÃÂþÌì»¨Óêmod¡¿;;;;;;;;;;;;x
+49GATHERING_STORM_NAME;ÖÓÉ½·çÓê ;;;;;;;;;;x
+49GATHERING_STORM_DESC;Õýµ±Î÷·½ÊÀ½ç¿Ö¾åÔÚÌúÄ»Ö®ÏÂÊ±£¬ÈËÃñ½â·Å¾üÈ´ÒÔÑ¸À×Ö®ÊÆºá¶É³¤½­£¬ÕâÆ¬¹ÅÀÏµÄÍÁµØÉÏ³¤´ïÊ®¾ÅÄêµÄÕ½»ðÖÕÓÚ½øÈëÎ²Éù£¬Ò»¸ö¿ÕÇ°ÍÅ½áµÄÖÐ¹ú½«»áÔÚ²»¾ÃµÄ½«À´ÒÙÁ¢ÓÚÊÀ½ç¶«·½¡£¡¾»¶Ó­Ê¹ÓÃÂþÌì»¨Óêmod¡¿;;;;;;;;;;x

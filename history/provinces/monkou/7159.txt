@@ -25,3 +25,7 @@ remove_core = MEB
 1946.1.1 = {
 	owner = CHC
 }
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
+}

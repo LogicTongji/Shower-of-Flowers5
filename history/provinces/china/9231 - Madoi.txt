@@ -3,5 +3,10 @@ controller = CQM
 add_core = CQM
 add_core = CHC
 add_core = CHI
-
+
+
 infra = 2
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
+}

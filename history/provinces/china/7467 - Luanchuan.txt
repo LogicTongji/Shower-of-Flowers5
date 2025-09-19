@@ -1,4 +1,7 @@
-owner = CHIcontroller = CHIadd_core = CHIadd_core = CHC
+owner = CHI
+controller = CHI
+add_core = CHI
+add_core = CHC
 infra = 3
 
 infra = 3
@@ -11,4 +14,8 @@ infra = 3
 }
 1945.9.1 = {
 	controller = CHI
+}
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
 }

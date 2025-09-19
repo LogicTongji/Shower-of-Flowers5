@@ -12,4 +12,7 @@ add_core = CDB
 1937.1.2 = {
 	owner = CHI
 }
-
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
+}

@@ -114,7 +114,7 @@ diplomatic_decisions = {
 			tag = CSY  
 			exists = CHI
 			exists = CHC	
-			ai = yes
+			CHC = { ai = yes }
 					CHC = { 	
 		  controls = 4575
 			controls = 4452
@@ -123,10 +123,10 @@ diplomatic_decisions = {
 		}
 		allow = {
 		has_global_flag = China_CivilWar
-      not = { has_global_flag = China_CivilWar4_AI }	
+      not = { has_global_flag = China_CivilWar4 }	
 		}
 		effect = {
-			set_global_flag = China_CivilWar4_AI
+			set_global_flag = China_CivilWar4
 		CSY = {	4979 = { secede_province = CHC } 
 			5018 = { secede_province = CHC } 
 			5053 = { secede_province = CHC } 

@@ -108,7 +108,6 @@ theatre ={
 			corps  = {
 				name = "骑兵第1军"
 				location = 5335
-				leader = 76467 #王海山
 				regiment = { type = hq_brigade name = "骑1军指挥部" experience = 50 historical_model = 4 }
 				regiment = { type = cavalry_brigade name = "警卫团" experience = 50 historical_model = 4 }
 				division= {
@@ -220,6 +219,7 @@ theatre ={
 					regiment = { type = infantry_brigade name = "第54团" experience = 50 historical_model = 3 }
 				}
 			}
+	 }
 			army =  { 			
 			name = "中国人民解放军第二十二兵团"		
 			location = 9029

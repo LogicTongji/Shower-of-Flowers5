@@ -43,6 +43,7 @@ diplomatic_decisions = {
 			tag = CHI
 			not = { has_global_flag = Anti_jap_front_great_wall }
 			exists = CHI
+			exists = JAP
 			has_global_flag = the_war_attack_great_wall
 		}
 		allow = {

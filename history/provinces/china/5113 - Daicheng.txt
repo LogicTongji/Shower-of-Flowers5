@@ -14,7 +14,3 @@ remove_core = CYS
 1938.1.1 = {
 	owner = CHI
 }
-1949.10.1 = { 
-owner = PRC
-controller = PRC
-}

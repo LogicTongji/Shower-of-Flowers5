@@ -35,6 +35,7 @@ country_event = {
 		name = "LUCOP" 
      CHC = { inherit = CYN }
      CHC = {  load_oob = "CHC_Yunnan.txt" }
+	 SF_china_region = { remove_core = CYN }
      set_global_flag = China_CivilWar_Yunnan 
        	}
 }

@@ -246,3 +246,5 @@ education_investment_law = minimal_education_investment
 economic_law = full_civilian_economy
 conscription_law = service_by_requirement
 civil_law = totalitarian_system
+
+1949.1.1 = { oob = "CQM_1949.txt" }

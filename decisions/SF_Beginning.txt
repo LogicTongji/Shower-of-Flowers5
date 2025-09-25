@@ -78,4 +78,24 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
+	introduction_prc = {
+		potential = {
+			tag = PRC
+			or = {
+			year = 1949
+			}		
+			not = { has_country_flag = introduction_prc_1949 } 
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = introduction_prc_1949
+			country_event = 1000004
+			supplies = 15000
+			manpower = 250
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

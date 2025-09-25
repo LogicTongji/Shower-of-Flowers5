@@ -283,10 +283,10 @@ ENDGAMEBOOY_CXBT_JAP_WIN;´óÈÕ±¾µÛ¹úµÄÓÂÊ¿ÃÇºÝºÝ´ò»÷ÁË²»¿°Ò»»÷µÄÑÓ°²²¿¶Ó£¬Ö§ÄÇÈËÖ
 ENDGAMEBUTTON_CXBT_JAP_WIN;ÍòËê;;;;;;;;;;;;;x
 ENDGAMEHEADER_CXBT_JAP_LOSS;ÎÒÃÇµÄ³ÜÈè;;;;;;;;;;;;;x
 ENDGAMEBOOY_CXBT_JAP_LOSS;±±Ö§ÄÇ·½Ãæ¾üºÍ»ÊÐ­¾üÊÜµ½ÁËÖ§ÄÇÈËµÄÃÍÁÒ¹¥»÷£¬¶ªÊ§¶à¸ö¾Ýµã£¬ÊýÌõ½»Í¨ÒªµÀ±»Ëð»Ù´ù¾¡£¬ÇôÁýÕþ²ß³¹³¹µ×µ×µØÊ§°ÜÁË¡£;;;;;;;;;;;;;x
-ENDGAMEBUTTON_CXBT_JAP_LOSS;°Ë¸ÂÑ½Â·;;;;;;;;;;;;;x
+ENDGAMEBUTTON_CXBT_JAP_LOSS;ÎÒÃÇµÄ³ÜÈè;;;;;;;;;;;;;x
 ENDGAMEBUTTON_CXBT_CHC_WIN;ÎÒ¾ü½«Ê¿Ò»ÖùÇæÌì£¡;;;;;;;;;;;;x
 SCENARIO_TY_NAME;Ì«Ô­»áÕ½;;;;;;;;;;;;;x
-SCENARIO_TY_DESC;µÐ»ª±±·½Ãæ¾üÒÑ¾­Í»ÆÆÄÚ³¤³Ç·ÀÏß£¬É½Î÷È«¾³¸æ¼±¡£¹ú×ã´¹ÍöÖ®¼Ê£¬Î¨ÓÐ·ÜÆðµÖ¿¹£¬·½ÄÜ±£ÎÀ»ª±±£¬±£ÎÀÈ«ÖÐ¹ú£¡;;;;;;;;;;;;;;x
+SCENARIO_TY_DESC;µÐ»ª±±·½Ãæ¾üÒÑ¾­Í»ÆÆÄÚ³¤³Ç·ÀÏß£¬É½Î÷È«¾³¸æ¼±¡£¹ú×å´¹ÍöÖ®¼Ê£¬Î¨ÓÐ·ÜÆðµÖ¿¹£¬·½ÄÜ±£ÎÀ»ª±±£¬±£ÎÀÈ«ÖÐ¹ú£¡;;;;;;;;;;;;;;x
 TY_Axis;¿ØÖÆÌ«Ô­;;;;;;;;;;;;x
 TY1_Axis;¿ØÖÆ´óÍ¬;;;;;;;;;;;;;x
 TY1_Allies;±£ÎÀÑÓ°²;;;;;;;;;;;;x
@@ -299,7 +299,7 @@ ENDGAMEBOOY_TY_JAP_WIN;´óÈÕ±¾µÛ¹úµÄÓÂÊ¿ÃÇºÝºÝ´ò»÷ÁË²»¿°Ò»»÷µÄÑÓ°²²¿¶Ó£¬Ö§ÄÇÈËÖÕ¾
 ENDGAMEBUTTON_TY_JAP_WIN;ÍòËê;;;;;;;;;;;;;x
 ENDGAMEHEADER_TY_JAP_LOSS;ÎÒÃÇµÄ³ÜÈè;;;;;;;;;;;;;x
 ENDGAMEBOOY_TY_JAP_LOSS;±±Ö§ÄÇ·½Ãæ¾üºÍ»ÊÐ­¾üÊÜµ½ÁËÖ§ÄÇÈËµÄÃÍÁÒ¹¥»÷£¬¶ªÊ§¶à¸ö¾Ýµã£¬ÊýÌõ½»Í¨ÒªµÀ±»Ëð»Ù´ù¾¡£¬ÇôÁýÕþ²ß³¹³¹µ×µ×µØÊ§°ÜÁË¡£;;;;;;;;;;;;;x
-ENDGAMEBUTTON_TY_JAP_LOSS;°Ë¸ÂÑ½Â·;;;;;;;;;;;;;x
+ENDGAMEBUTTON_TY_JAP_LOSS;ÎÒÃÇµÄ³ÜÈè;;;;;;;;;;;;;x
 ENDGAMEBUTTON_TY_CHC_WIN;ÎÒ¾ü½«Ê¿Ò»ÖùÇæÌì£¡;;;;;;;;;;;;x
 ENDGAMEHEADER_TY_CSX_WIN;ÎÒÃÇµÄÈÙÒ«;;;;;;;;;;;;;x
 ENDGAMEBOOY_TY_CSX_WIN;ÎÒÃÇÔÚ»ª±±Õ½³¡ºÝºÝµØ´ò»÷ÁËÇîÐ×¼«¶ñµÄÈÕ¿Ü£¬»ñµÃÃË¹úÒ»ÖÂÔÞÑï£¬¸üÔöÇ¿ÁËÎÒÃÇµÄ¹úÃñµÄÈÙÓþ¸Ð¡£;;;;;;;;;;;;;x
@@ -367,7 +367,7 @@ ENDGAMEBOOY_KE_GER_LOSS;ÂüÊ©Ì¹ÒòÂÊÁìÖÐÑë¼¯ÍÅ¾üÈº½øÐÐµÄÃÍÁÒ½ø¹¥ÔÚËÕ¾üµÄÃÍÁÒ·´»÷ÏÂ
 huaihai;ÖÓÉ½·çÓê;;;;;;;;;;;x
 ccivil_1948;µ±Ê±¼äÀ´µ½ÁË1949Äê£¬Ëæ×Å°ÙÍò´ó¾ü¹ØÍâÕÛêª£¬½¯½éÊ¯¼¯ÍÅµÄ¸²ÍöËÆºõÒÑ¾­Ö»ÊÇÊ±¼äÎÊÌâÁË¡£´ÓÔ­ÏÈºÅ³Æ¡°°Ë°ÙÍò´ó¾ü£¬ËÄ°ÙÍòÃÀÐµ¡±£¬µ½Èç½ñ¡°°ÜÁÛ²Ð¼×ÂúÌì·É¡±¡£Èç½ñ´óÏÃÖ®½«Çã£¬µ½µ×ÄÏ¾©Õþ¸®ÄÜ·ñÁ¦Íì¿ñÀ½£¿»¹ÊÇ¹²²úµ³¾ü¶Ó´Ý¿ÝÀ­ÐàÉ¨ÇåËÄµÐÄØ£¿;;;;;;;;;;;;x
 Liaoshen;ËÆÑª²ÐÑô;;;;;;;;;x
-LiaoshenDesc;Ëæ×ÅÖÐÔ­µØÇøµÄÖØµã½ø¹¥±»»÷ÆÆ£¬ÁõµË´ó¾üÇ§ÀïÍ¦½ø´ó±ðÉ½£¬ÒÔ¼°È«¹ú·¶Î§ÄÚµÄÍ¨»õÅòÕÍ£¬¹úÃñµ³¼¯ÍÅÓöµ½ÁËÇ°ËùÎ´ÓÐµÄÎ£»ú¡£Èç½ñ£¬¹ú¹²Á½¾üÔÚ¶«±±³Â±ø°ÙÍò£¬¾«Èñ¾¡³ö¡£ÏõÑÌÃÖÂþµÄ¶«±±£¬½«»áÊéÐ´¹úÃñµ³µÄ²ÐÑô£¬»¹ÊÇÁôÏÂ¹²²úµ³µÄÓà»Ô£¿
+LiaoshenDesc;Ëæ×ÅÖÐÔ­µØÇøµÄÖØµã½ø¹¥±»»÷ÆÆ£¬ÁõµË´ó¾üÇ§ÀïÍ¦½ø´ó±ðÉ½£¬ÒÔ¼°È«¹ú·¶Î§ÄÚµÄÍ¨»õÅòÕÍ£¬¹úÃñµ³¼¯ÍÅÓöµ½ÁËÇ°ËùÎ´ÓÐµÄÎ£»ú¡£Èç½ñ£¬¹ú¹²Á½¾üÔÚ¶«±±³Â±ø°ÙÍò£¬¾«Èñ¾¡³ö¡£ÏõÑÌÃÖÂþµÄ¶«±±£¬½«»áÊéÐ´¹úÃñµ³µÄ²ÐÑô£¬»¹ÊÇÁôÏÂ¹²²úµ³µÄÓà»Ô£¿;;;;;;;;;;;;x
 ENDGAMEHEADER_huaihai_CHC_WIN;½â·ÅÈ«ÖÐ¹ú£¡;;;;;;;;;;;;;x
 ENDGAMEBOOY_huaihai_CHC_WIN;½­±±Ò»ÒÛ£¬¼ßµÐÉõ¾ç£¬µÐ±øÖ®¾«Èñ¼Ì¶«±±Ö®ºó±¾ÒÑËùÊ£ÎÞ¼¸£¬´ËÕ½½áÊøºó²»½ö¼ßÃðµÐ¾«Èñ£¬»¹¼ßÃð»ò·ýÂ²´ó²¿·ÖµÐ¾üºÍÎüÊÕÆðÒå²¿¶Ó¡£ÓÉ´Ë¹ÛÖ®£¬½¯¼¯ÍÅµÄÍ³ÖÎµÄ¸²ÍöÖ»²»¹ýÊÇÊ±¼äÎÊÌâÁË¡£;;;;;;;;;;;;;x
 ENDGAMEBUTTON_huaihai_CHC_LOSS;ÔÝÇÒÍËÈ´;;;;;;;;;;;;;x
@@ -379,7 +379,7 @@ ENDGAMEBOOY_huaihai_CHI_LOSS;ÎÒ¾üÔÚ¹²¾üµÄÃÍÁÒ¹¥»÷ÏÂÒ»ÍËÔÙÍË£¬´Ó¶«±±Èë¹ØµÄ°ÙÍòÐÛÊ
 ENDGAMEBUTTON_huaihai_CHI_LOSS;´óÏÃ½«Çã;;;;;;;;;;;;;x
 ENDGAMEBUTTON_huaihai_CHC_LOSS;°¦;;;;;;;;;;;;x
 ENDGAMEHEADER_huaihai_CHC_LOSS;³·ÍË;;;;;;;;;;;;;x
-ENDGAMEBOOY_huaihai_CHC_LOSS;ÎÒ¾üµÄÈ·Ã»Ïëµ½¹ú¾ü¾ÓÈ»»¹ÓÐÈç´ËÉú»úÄÜÍ¬ÎÒ¾ü×÷Õ½£¬²¢ÇÒÆäµÖ¿¹Ö®ÍçÇ¿³öºõÁË¾üÎ¯ºÍ¸÷¸ö³¤¹ÙµÄÔ¤ÁÏ¡£ÎÒÃÇµÄÇáµÐÃ°½ø·¸ÁË´ó´í¡£Èç½ñ£¬½â·ÅÈ«¹úµÄÊÂÒµ»¹µÃ»ºÒ»»ºÁË¡£;;;;;;;;;;;;;x
+ENDGAMEBOOY_huaihai_CHC_LOSS;ÎÒ¾üµÄÈ·Ã»Ïëµ½¹ú¾ü¾ÓÈ»»¹ÓÐÈç´ËÉú»úÄÜÍ¬ÎÒ¾ü×÷Õ½£¬²¢ÇÒÆäµÖ¿¹Ö®ÍçÇ¿³öºõÁË¾üÎ¯ºÍ¸÷¸öÊ×³¤µÄÔ¤ÁÏ¡£ÎÒÃÇµÄÇáµÐÃ°½ø·¸ÁË´ó´í¡£Èç½ñ£¬½â·ÅÈ«¹úµÄÊÂÒµ»¹µÃ»ºÒ»»ºÁË¡£;;;;;;;;;;;;;x
 ENDGAMEHEADER_Liaoshen_CHC_WIN;½â·ÅÈ«ÖÐ¹ú£¡;;;;;;;;;;;;;x
 ENDGAMEBOOY_Liaoshen_CHC_WIN;¶«±±Ö®Õ½£¬½«½¯¾üÖ®ËùÎ½ÃÀÐµ¾«Èñ¼ßÃð´ó°ë£¬»¹¼ßÃð»ò·ýÂ²´ó²¿·ÖµÐ¾üºÍÎüÊÕÆðÒå²¿¶Ó£¬½â·ÅÈ«¶«±±µÄÄ¿±êÒµÒÑÊµÏÖ¡£°ÙÍò´ó¾üÒÑ¾­ÖØÕûÆì¹Ä£¬Èë¹ØÄÏÏÂ£¬½â·ÅÈ«ÖÐ¹úÖ»²»¹ýÊÇÊ±¼äÎÊÌâ¡£;;;;;;;;;;;;;x
 ENDGAMEBUTTON_Liaoshen_CHC_LOSS;¾ø²»Çü·þ;;;;;;;;;;;;;x

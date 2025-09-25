@@ -19,3 +19,7 @@ infra = 0
 infra = 4
 
 }
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
+}

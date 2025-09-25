@@ -33,11 +33,6 @@ country_event = {
 		8955 = { change_province_name = "乌鲁木齐" }
 		4685 = { change_province_name = "沈阳" }
 		4452 = { change_province_name = "长春" }
-		ENG = { any_owned = { limit = { province_id = 9225 } secede_province = PRC }}
-		ENG = { any_owned = { limit = { province_id = 9259 } secede_province = PRC }}
-		ENG = { any_owned = { limit = { province_id = 9524 } secede_province = PRC }}
-		ENG = { any_owned = { limit = { province_id = 9473 } secede_province = PRC }}
-		ENG = { any_owned = { limit = { province_id = 9441 } secede_province = PRC }}
 	}
 }
 country_event = {
@@ -80,3 +75,25 @@ country_event = {
 		4452 = { change_province_name = "长春" }
 	}
 }
+#打过长江去
+country_event = {
+	id = 1000171
+	is_triggered_only = yes
+	major = yes
+	title = "Event1000171title"
+	subtitle = "Event1000171subtitle"
+	desc = "Event1000171desc"
+	picture = "Event1000168"
+	option = {
+		name = "Event1000171option"
+		ai_chance = { factor = 100 }
+		SF_china_region = { remove_core = CHC
+		                    remove_core = CQM
+							remove_core = CSD
+							remove_core = SIK
+							remove_core = CSX
+							}
+		SF_china_region = { add_core = PRC }
+	}
+}
+

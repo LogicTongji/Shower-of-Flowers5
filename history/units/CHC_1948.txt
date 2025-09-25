@@ -2091,6 +2091,21 @@ armygroup = {
 		}
 	}	
 }	
+division= {	
+			name = "琼崖纵队"
+			location = 5975
+			leader = 76489
+			regiment = { type = partisan_bergsjaeger name = "第1支队" historical_model = 2 }
+			regiment = { type = partisan_bergsjaeger name = "第4支队" historical_model = 2 }
+			regiment = { type = partisan_bergsjaeger name = "第7支队" historical_model = 2 }
+			}
+division= {
+			name = "两广纵队"
+			location = 5904
+			regiment = { type = partisan_bergsjaeger name = "东江大队" experience = 30 historical_model = 2 }
+			regiment = { type = partisan_bergsjaeger name = "珠江大队" experience = 30 historical_model = 2 }
+			regiment = { type = partisan_bergsjaeger name = "韩江大队" experience = 30 historical_model = 2 }
+		}
 armygroup = {				
 		name = "人民空军司令部"			
 		location = 7139
@@ -2098,14 +2113,6 @@ armygroup = {
 		regiment = { type = hq_brigade name = "空军总司令部" experience = 15 historical_model = 3 }
 		regiment = { type = infantry_brigade name = "直属警卫旅" experience = 15 historical_model = 2 }
 	  regiment = { type = chc_gundam name = "空军机关" experience = 30 historical_model = 2 }
-	  division= {	
-			name = "琼崖纵队"
-			location = 5975
-			leader = 76489
-			regiment = { type = infantry_brigade name = "第1支队" historical_model = 2 }
-			regiment = { type = infantry_brigade name = "第4支队" historical_model = 2 }
-			regiment = { type = infantry_brigade name = "第7支队" historical_model = 2 }
-			}
 	  	air = {
 			name = "截击机编队"
 			base = 7139

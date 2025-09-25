@@ -421,3 +421,6 @@ set_global_flag = Chongqing_negotiations
 head_of_government = 52002
 oob = "CHI_1948.txt"
 }
+1949.5.22 = {
+oob = "CHI_1949.txt"
+}

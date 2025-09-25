@@ -311,6 +311,39 @@ country_event = {
 		  CHC = { country_event = 1000110 }
 	}
 }
+#军阀投降PRC
+country_event = {
+	id = 202592
+	is_triggered_only = yes
+	title = "Event1000110title"
+	desc = "Event1000110desc"
+	picture = "PRC_Flag"
+	option = {
+		  name = "Event1000110option"
+		  ai_chance = { factor = 100 }
+		  national_unity = 2
+	}
+}
+country_event = {
+	id = 202593
+	is_triggered_only = yes
+	trigger = {
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
+		FROM = { TAG = PRC }
+	}
+	title = "Event1000111title"
+	desc = "Event1000111desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000111option"
+		  ai_chance = { factor = 100 }
+		  PRC = { split_troops = 0.3 }
+		  SF_china_region = { remove_core = THIS }
+		  THIS = { any_owned = { secede_province = PRC } }
+		  PRC = { country_event = 202592 }
+	}
+}
+
 #军阀投降CXB
 country_event = {
 	id = 1000112

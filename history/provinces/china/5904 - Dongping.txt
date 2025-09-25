@@ -6,3 +6,6 @@ infra = 4
 1936.7.15 = { owner = CHI} 
 1944.6.20 = {
 	controller = JAP }
+1949.10.1 = {
+	controller = PRC
+}

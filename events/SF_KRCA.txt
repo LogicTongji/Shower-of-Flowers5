@@ -90,7 +90,7 @@ country_event = {
           desc = "2224decs"
           picture = "fllowermouth"
           option = {
-          name = "不值得"       
+          name = "他们本应做得更好"       
          }
 } 
 country_event = {
@@ -100,7 +100,7 @@ country_event = {
           desc = "22222decs"
           picture = "fire_in_changsha"
           option = {
-          name = "不值得"        
+          name = "他们本应做得更好"        
          }
 }
 country_event = {

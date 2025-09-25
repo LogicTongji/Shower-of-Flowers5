@@ -62,16 +62,3 @@ country_event = {
 		  load_oob = "CSY_1949(2).txt"
         }
 }
-#西康起义
-country_event = {
-	id = 80195
-	is_triggered_only = yes
-	title = "Event80195title"
-	desc = "Event80195desc"
-	picture = "CHC_flag"
-	option = {
-		name = "弃暗投明"
-		CHC = { split_troops = 1.0 }
-		CHC = { inherit = CXK } 
-        }
-}

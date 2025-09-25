@@ -129,3 +129,8 @@ civil_law = totalitarian_system
 national_unity = 95
 oob = "CGX_1946.txt" 
 }
+
+1949.5.1 = { 
+national_unity = 95
+oob = "CGX_1949.txt" 
+}

@@ -1131,3 +1131,16 @@ diplomatic_decisions = {
 		}
 	}
 }
+#解放全中国
+Uaction_ALLPRC = {
+		major = yes
+		potential = {
+			tag = PRC
+			has_country_flag = Uaction_PRC
+			not = { has_country_flag = Uaction_ALLPRC } 
+		}
+		effect = {
+			set_country_flag = Uaction_ALLPRC
+			country_event = 1000171
+		}
+	}

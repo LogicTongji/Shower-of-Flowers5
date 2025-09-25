@@ -21,3 +21,7 @@ infra = 3
 	owner = CSY 	controller = CSY 	add_core = CSY
 }
 1946.1.29 = { 	owner = CHC }
+1949.10.1 = {
+	owner = PRC
+	controller = PRC
+}

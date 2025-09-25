@@ -43,3 +43,18 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+country_event = {
+
+	id = 1000004
+	
+	is_triggered_only = yes
+	
+	title = "introduction_prc_title"
+	subtitle = "天若有情天易老，人间正道是沧桑。"
+	desc = "introduction_prc"
+	picture = "PRC_Flag"
+	option = {
+		name = "introduction_prc_option"
+		ai_chance = { factor = 100 }
+	}
+}

@@ -99,7 +99,7 @@ XBsupportA_chi_title;ÖÐ¹úÏÜ±ø;;;;;;;;;;;;;;x
 The_forth_armygroup_title;³ÉÁ¢µÚËÄÕ½Çø;;;;;;;;;;;;;;x
 HUAYEA_chi_title;³ÉÁ¢»ª¶«Ò°Õ½¾ü;;;;;;;;;;;;;;x
 DBY_chi_title;³ÉÁ¢¶«±±Ò°Õ½¾ü;;;;;;;;;;;;;;x
-XBY_chi_title;Î÷±±Ò°Õ½¾ü;;;;;;;;;;;;;;x
+XBY_chi_title;³ÉÁ¢Î÷±±Ò°Õ½¾ü;;;;;;;;;;;;;;x
 The_seventh_armygroup_title;³ÉÁ¢µÚÆßÕ½Çø;;;;;;;;;;;;;;x
 The_eighth_armygroup_title;³ÉÁ¢µÚ°ËÕ½Çø;;;;;;;;;;;;;;x
 JAP_HBWUSHEN_title;»ª±±ÎåÊ¡×ÔÖÎ;;;;;;;;;;;;;;x
@@ -179,9 +179,9 @@ independent_KOR_desc;1945Äê9ÔÂ2ÈÕ£¬¸ù¾ÝÃË¹úÐ­Òé£¬ÃË¾ü×î¸ßË¾Áî¹ÙÂó¿Ë°¢ÉªÔÚµÚÒ»ºÅÖ
 China_CivilWar1_title;½ø¹¥¶«±±½â·ÅÇø;;;;;;;;;;;;;;x
 China_CivilWar1_desc;½ø¹¥¶«±±½â·ÅÇø£¬ËàÇå¶«±±¾³ÄÚ¹²·Ë;;;;;;;;;;;;;;x
 ENG_IND_MBD_title;ÃÉ°Í¶Ù·½°¸;;;;;;;;;;;;;;x
-ENG_IND_MBD_desc;¼´¡°Ó¡°Í·ÖÖÎ¡±·½°¸£¬Òà³ÆÓ¡¶È¶ÀÁ¢·¨°¸¡£Òò1947Äê6ÔÂÓÉÓ¢¹ú×¤Ó¡¶È×îºóÒ»ÈÎ×Ü¶½Â·Ò×Ë¹¡¤ÃÉ°Í¶ÙÌá³ö¶øµÃÃû¡£µÚ¶þ´ÎÊÀ½ç´óÕ½ºó£¬Ó¢µÛ¹úÖ÷ÒåÆÈÓÚÓ¡¶ÈÃñ×å½â·ÅÔË¶¯µÄÇ¿´óÑ¹Á¦£¬Ìá³ö¡°·Ö¶øÖÎÖ®¡±µÄ·½°¸¡£1947ÄêÓ¢¹úÓ¡¶È×Ü¶½L.ÃÉ°Í¶Ù(1900¡«1979)Ìá³öµÄÓ¢¹úÒÆ½»ÕþÈ¨ºÍÓ¡°Í·ÖÖÎ·½°¸¡£;;;;;;;;;;;;;;x
+ENG_IND_MBD_desc;µÚ¶þ´ÎÊÀ½ç´óÕ½ºó£¬Ó¢¹úÆÈÓÚÓ¡¶ÈÃñ×å½â·ÅÔË¶¯µÄÇ¿´óÑ¹Á¦£¬Ìá³ö¶ÔÓ¡¶È¡°·Ö¶øÖÎÖ®¡±µÄÓ¡¶È¶ÀÁ¢·½°¸¡£;;;;;;;;;;;;;;x
 YSL_BLS_title;¡¶1947ÄêÁªºÏ¹ú·ÖÖÎ·½°¸¡·;;;;;;;;;;;;;;x
-YSL_BLS_desc;ÁªºÏ¹ú³ÉÁ¢ÁË¡°°ÍÀÕË¹Ì¹×¨ÃÅÎ¯Ô±»á¡±£¬1947Äê11ÔÂÁªºÏ¹ú´ó»á±í¾öÁË¡¶1947ÄêÁªºÏ¹ú·ÖÖÎ·½°¸¡·£¬33¹úÔÞ³É£¨°üÀ¨ÃÀ¹úºÍÔ­ËÕÁª£©£¬13¹ú·´¶Ô£¬10¹úÆúÈ¨£¬Í¨¹ý¾öÒé£º½«°ÍÀÕË¹Ì¹µØÇø·ÖÎªÁ½¸ö¹ú¼Ò£¬ÓÌÌ«ÈËºÍ°¢À­²®ÈË·Ö±ðÓµÓÐ´óÔ¼55%ºÍ45%µÄÁìÍÁ£¨°¢À­²®¹úºÍÓÌÌ«¹ú£©£¬Ò®Â·ÈöÀä±»ÖÃÓÚÁªºÏ¹úµÄ¹ÜÀíÖ®ÏÂ£¬ÒÔÆÚ±ÜÃâ³åÍ»¡£;;;;;;;;;;;;;;x
+YSL_BLS_desc;ÁªºÏ¹úÔÚ³ÉÁ¢ÁË¡°°ÍÀÕË¹Ì¹×¨ÃÅÎ¯Ô±»á¡±ºóÓÚ1947Äê11ÔÂÁª´ó±í¾öÁË¡¶1947ÄêÁªºÏ¹ú·ÖÖÎ·½°¸¡·£¬ÒÔ33¹úÔÞ³É£¬13¹ú·´¶Ô£¬10¹úÆúÈ¨µÄ½á¹ûÍ¨¹ý¾öÒé£º½«°ÍÀÕË¹Ì¹µØÇø·ÖÎªÁ½¸ö¹ú¼Ò£¬ÓÌÌ«ÈËºÍ°¢À­²®ÈË·Ö±ðÓµÓÐ´óÔ¼55%ºÍ45%µÄÁìÍÁ£¬Ò®Â·ÈöÀä±»ÖÃÓÚÁªºÏ¹úµÄ¹ÜÀíÖ®ÏÂ£¬ÒÔÆÚ±ÜÃâ³åÍ»¡£;;;;;;;;;;;;;;x
 YOUJQ_title;ÔÚÈ«¹ú·¶Î§ÄÚ¿ªÕ¹µÐºóÓÎ»÷Õ½;;;;;;;;;;;;;;x
 YOUJQ_desc;ÔÚÈ«¹ú·¶Î§ÄÚ¿ªÕ¹µÐºóÔË¶¯Õ½¡¢ÓÎ»÷Õ½£¬È«Á¦²ßÓ¦ÕýÃæÕ½³¡£¬´ò»÷µÐ¿ÜÏùÕÅÆøÑæ¡£;;;;;;;;;;;;;;x
 ManChu_develop_desicion1_title;°ä²¼²úÒµÎåÄê¼Æ»®;;;;;;;;;;;;;;x
@@ -304,6 +304,8 @@ Xian_war_ShanXi_Commist_title;³ÉÁ¢Î÷±±½Ë×Ü;;;;;;;;;;;;;;x
 Xian_war_ShanXi_Commist_desc;³ÉÁ¢Î÷±±½Ë×Ü£¬µ÷¼¯¶«±±¾üÖ÷Á¦ÖÁÉÂ¸ÊÒ»´øÎ§½Ëºì¾ü¡£;;;;;;;;;;;;;;x
 Intagrate_China_SiChuan_title;¹úÃñÕþ¸®ÕþÁîÍ³Ò»ËÄ´¨;;;;;;;;;;;;;;x
 Intagrate_China_SiChuan_desc;ËÄ´¨¾ü·§£¬Á¬Äê»ìÕ½£¬³à»öºáÐÐ£¬Ãñ²»ÁÄÉú¡£Ó¦ËÄ´¨Ê¡Ö÷Ï¯ÁõÏæÇëÇó£¬Èç½ñ¹ú¸®ÖÐÑë¾ö¶¨½áÊøËÄ´¨·ÀÇøÖÆ£¬³ÉÁ¢Í³Ò»µÄËÄ´¨Ê¡Õþ¸®£¬ÒÔ±ãÓÚÖÐÑëÕþÖÆ¹á³¹¡£;;;;;;;;;;;;;;x
+Uaction_ALLPRC_title;½â·Å´óÎ÷ÄÏ;;;;;;;;;;;;;;x
+Uaction_ALLPRC_desc;Õ¾ÔÚÖÐ¹úÈËÃñ¶ÔÁ¢ÃæµÄ¹úÃñµ³·´¶¯ÅÉÔÚ½â·Å¾ü´Ý¿ÝÀ­ÐàµÄ¹¥ÊÆÏÂÒÑ¾­²»¿°Ò»»÷£¬½ÓÏÂÀ´£¬½ø¾ü´óÎ÷ÄÏ£¬½â·ÅÈ«ÖÐ¹ú£¡;;;;;;;;;;;;;;x
 #_title;;;;;;;;;;;;;;x
 #_desc;;;;;;;;;;;;;;x
 #######################################;;;;;;;;;;;;;;x

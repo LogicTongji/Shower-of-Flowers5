@@ -51,23 +51,23 @@ bookmark =
 	country = CHC
 }
 
-bookmark =
-{
-	icon = "GFX_bg_startdate_1938"
-	name = "FATHERING_STORM_NAME"
-	desc = "FATHERING_STORM_DESC"
-	date = 1938.1.1
-	
-	country = ENG
-	country = GER
-	country = FRA
-	country = USA
-	country = JAP
-	country = SOV
-	country = ITA
-	country = CHI
-	country = CHC
-}
+#bookmark =
+#{
+#	icon = "GFX_bg_startdate_1938"
+#	name = "FATHERING_STORM_NAME"
+#	desc = "FATHERING_STORM_DESC"
+#	date = 1938.1.1
+#	
+#	country = ENG
+#	country = GER
+#	country = FRA
+#	country = USA
+#	country = JAP
+#	country = SOV
+#	country = ITA
+#	country = CHI
+#	country = CHC
+#}
 bookmark =
 {
 	icon = "GFX_bg_startdate_1939"
@@ -115,20 +115,19 @@ bookmark =
 	country = FRA
 	country = ENG
 }
-bookmark =
-{
-	icon = "GFX_bg_startdate_1941-2"
-	name = "48GATHERING_STORM_NAME"
-	desc = "48GATHERING_STORM_DESC"
-	date = 1948.6.1
-	
-	country = CHI
-	country = CHC
-	country = SOV
-	country = USA
-	country = FRA
-	country = ENG
-}
+#bookmark =
+#{
+#	icon = "GFX_bg_startdate_1941-2"
+#	name = "48GATHERING_STORM_NAME"
+#	desc = "48GATHERING_STORM_DESC"
+#	date = 1948.6.1
+#	country = CHI
+#	country = CHC
+#	country = SOV
+#	country = USA
+#	country = FRA
+#	country = ENG
+#}
 bookmark =
 {
 	icon = "GFX_bg_startdate_1938"

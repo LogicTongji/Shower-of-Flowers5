@@ -9,6 +9,7 @@ diplomatic_decisions = 	{
                         exists = CGX
                         exists = CHI
 			war_with = JAP
+			CHI = { has_country_flag = junfazhengbian }
 			not = { has_country_flag = GUIXIZB }			
 		}
 		allow = {		
@@ -29,6 +30,7 @@ diplomatic_decisions = 	{
                         exists = CGX
                         exists = CHI
 			war_with = JAP
+			CHI = { has_country_flag = junfazhengbian }
                         has_country_flag = GUIXIZB
 			not = { has_country_flag = GUIXIZB2 }
 		}

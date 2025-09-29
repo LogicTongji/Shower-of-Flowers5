@@ -79,6 +79,7 @@ country_event = {
 	id = 1000061
 	is_triggered_only = yes
 	title = "Nanking_china"
+	subtitle = "Nanking_japansubtitle"
 	desc = "Nanking_china_desc"
 	picture = "Nanking_china"
 	option = {

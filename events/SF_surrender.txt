@@ -7,6 +7,7 @@ country_event = {
 	is_triggered_only = yes
 	major = yes
 	title = "EVTNAME520"
+	subtitle = "EVTNAME520_subtitle"
 	desc = "EVTDESC520" 
 	picture = "CHI_Flag"
 	trigger = {

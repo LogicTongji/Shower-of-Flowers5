@@ -52,6 +52,7 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	title = "CHC_Event_1000029"
+	subtitle = "CHC_Event_1000029_subtitle"
 	desc = "CHC_Event_1000029_desc"
 	picture = "CHC_Event_1000029"
 	option = {

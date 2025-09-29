@@ -188,6 +188,10 @@ conscription_law = service_by_requirement
 civil_law = totalitarian_system
 
 }
+1935.12.25 = {
+set_country_flag = 129yundong
+}
+
 
 1938.1.1 = {
 capital = 9478

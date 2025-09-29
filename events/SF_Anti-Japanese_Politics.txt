@@ -30,6 +30,7 @@ country_event = {
 country_event = {
 	id = 1000053
 	title = "CHC_Event_1000053"
+	subtitle = "CHC_Event_1000053subtitle"
 	desc = "CHC_Event_1000053_desc"
 	picture = "CHC_Event_1000053"
 	trigger = {

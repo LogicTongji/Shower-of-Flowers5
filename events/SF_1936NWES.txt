@@ -17,26 +17,20 @@ country_event = {
 		date = 1935.12.9
 	}
 	option = {
-		name = "统一方能御侮"
+		name = "Event129op"
                 add_country_modifier = {
 			name = "Event19361_modifier"
-			duration = 506
+			duration = 120
 		}
-		set_country_flag = Event19361
+		set_country_flag = 129yundong
                 ai_chance = { factor = 100 }
-	}
-	option = {
-		name = "外侮需人御"
-		set_country_flag = Event19361
-		dissent = -5
-		national_unity = 10
-                ai_chance = { factor = 0 }
 	}
 }
 #平津学生组成南下抗日宣传团
 country_event = {
 	id = 19361
 	major = yes
+		fire_only_once = yes
 	title = "Event19361title"
 	subtitle = "Event19361subtitle"
 	desc = "Event19361desc"
@@ -44,7 +38,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		not = { war_with = JAP }
-		not = { has_country_flag = Event19361 }
+		has_country_flag = 129yundong
 		not = { year = 1937 }
 		date = 1936.1.2
 	}
@@ -69,6 +63,7 @@ country_event = {
 country_event = {
 	id = 19362
 	major = yes
+		fire_only_once = yes
 	title = "Event19362title"
 	subtitle = "Event19362subtitle"
 	desc = "Event19362desc"
@@ -77,7 +72,6 @@ country_event = {
 		tag = CHC
 	        war_with = JAP 
 	   not = { year = 1937 }     
-		not = { has_country_flag = Event19362 }
 		date = 1936.1.15
 	}
 	option = {

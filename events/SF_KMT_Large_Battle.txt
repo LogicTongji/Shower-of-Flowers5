@@ -98,6 +98,7 @@ country_event = {
 country_event = {
 	id = 1000070
 	title = "zhongtiaoshan"
+	subtitle = "zhongtiaoshan_subtitle"
 	desc = "zhongtiaoshan_desc"
 	picture = "zhongtiaoshan"
 	trigger = {

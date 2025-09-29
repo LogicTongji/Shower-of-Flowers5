@@ -21,6 +21,7 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	title = "CHI_Event_1000065"
+	subtitle = "CHI_Event_1000065_subtitle"
 	desc = "CHI_Event_1000065_desc"
 	picture = "CHI_Event_1000065"
 	option = {
@@ -28,10 +29,6 @@ country_event = {
 		manpower = -100
 		ENG = { country_event = 1000066 }
 		ai_chance = { factor = 100 }
-	}
-	option = {
-		name = "Íæ¶ùµ°È¥"
-		ai_chance = { factor = 0 }
 	}
 }
 country_event = {

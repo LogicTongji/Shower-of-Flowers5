@@ -58,7 +58,8 @@ country_event = {
 country_event = {
         is_triggered_only = yes
 	id = 33332
-	title = "川军出川"
+	title = "chuanjunoption"
+	subtitle = "chuanjunoption_subtitle"
 	desc = "chuanjundesc"
 	picture = "chuanjun"
 	option = {
@@ -223,7 +224,7 @@ country_event = {
 	desc = "dianjun1desc"
 	picture = "dianjun"
 	option = {
-		name = "太好了"
+		name = "chuanjunoption2"
 		load_oob = "CYN2.txt"
                 remove_country_flag = junfanzhengbian
          }
@@ -231,7 +232,7 @@ country_event = {
 country_event = {
         is_triggered_only = yes
 	id = 33334
-	title = "川军出川"
+	title = "chuanjunoption"
 	desc = "chuanjun1desc"
 	picture = "chuanjun"
 	option = {
@@ -242,6 +243,7 @@ country_event = {
 }
 country_event = {
 	id = 33336
+	fire_only_once = yes
 	title = "zhengbian1"
 	desc = "zhengbian1decs"
 	picture = "dianjun"
@@ -250,11 +252,11 @@ country_event = {
                 war_with = JAP
 		date = 1937.8.3
 		not = { year = 1938 }
-        	not = { has_country_flag = junfazhengbian }
 	}
 	option = {
-		name = "把鬼子赶出中国！"
+		name = "chuanjunoption"
                 set_country_flag = junfazhengbian
                 CYN = { country_event = 33331 } 
+				CSC = { country_event = 33332 }
        }
 }

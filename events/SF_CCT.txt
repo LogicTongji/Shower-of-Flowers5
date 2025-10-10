@@ -120,6 +120,7 @@ country_event = {
                 not = { war_with = CHC }
                 not = { exists = CXB }
                 not = { year = 1938 }
+				exists = CHC
                 date = 1937.2.11                           
 	}
 	title = "206title"
@@ -133,15 +134,6 @@ country_event = {
    CHC = { country_event = 207 }
    ai_chance = { factor = 100 }
 	}	
-	option = {
-		name = "206option2"
-    dissent = 10
-   ai_chance = { factor = 0 } 
-        add_country_modifier = {
-			name = "NOconversation_modifier"
-			duration = 200
-	                            }		
-	}		
 }
 country_event = {
 	id = 207
@@ -179,17 +171,6 @@ country_event = {
   set_country_flag = Xian_conversation3 
    ai_chance = { factor = 100 }
 	}	
-	option = {
-		name = "208option2"
-    national_unity = -10
-    dissent = 80
-        add_country_modifier = {
-			name = "NOconversation_modifier"
-			duration = 200
-	}		
-	set_country_flag = Xian_conversation4
-   ai_chance = { factor = 0 } 
-	}		
 }
 country_event = {
 	id = 209

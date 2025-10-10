@@ -94,17 +94,12 @@ country_event = {
 	id = 8334
   is_triggered_only = yes
 	title = "WINTER_WART1"
-	desc = "WINTER_WARD"
+	desc = "ZWFD"
 	picture = "CHI_flag"
 	option = {
 		name = "WINTRWAROP1"
 		 national_unity = 10 
 		 ai_chance = { factor = 100 }
-	}		
-		option = {
-		name = "WINTRWAROP2"
-		 national_unity = -10
-		 ai_chance = { factor = 0 } 
 	}		
 } 
 country_event = {

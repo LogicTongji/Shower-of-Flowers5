@@ -71,12 +71,33 @@ limited_war = yes
 	add_attacker = CSY
 }
 #太原战役
-1948.10.5 = {
+
+1948.10.5 = {
 	rem_attacker = CSX
 }
 #宁夏战役
 1949.9 = {
 	rem_attacker = CNM
+}
+#解放大西南
+1949.10.1 = {
+	add_attacker = CHI
+	add_attacker = CYN
+	add_defender = PRC
+	add_attacker = CGX
+	add_attacker = CNM
+	war_goal=
+	{
+		casus_belli=conquer
+		actor="CHI"
+		receiver="PRC"
+	}
+	war_goal=
+	{
+		casus_belli=conquer
+		actor="PRC"
+		receiver="CHI"
+	}
 }
 #云南卢汉起义
 1949.12.9 = {

@@ -29,6 +29,7 @@ country_event = {
           is_triggered_only = yes
           major = yes
 	title = "jiangxi2"
+    subtitle = "jiangxi2_subtitle"
 	desc = "jiangxi2desc"
 	picture = "CHC_flag"
 	option = {

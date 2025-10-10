@@ -321,10 +321,6 @@ country_event = {
 		CYN = { country_event = 7221 }
 		CSY = { country_event = 7221 }
 	}
-	option = {
-		name = "CKS3"
-		national_unity = -15 
-	}
 }
 country_event = {
 	id = 7221

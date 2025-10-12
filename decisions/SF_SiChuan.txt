@@ -8,10 +8,6 @@ Intagrate_China_SiChuan = {
                     }
 		allow = {
 		 exists = CSC
-                    exists = CXK
-                    exists = CTS
-                    exists = CDX
-                    exists = CYS
 		 }
 		effect = {
 			set_country_flag = Intagrate_China_SiChuan	

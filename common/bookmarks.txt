@@ -1,20 +1,20 @@
-bookmark =
-{
-	icon = "GFX_bg_startdate_1941-1"
-	name = "918ROAD_TO_WIN_NAME"
-	desc = "918ROAD_TO_WIN_DESC"
-	date = 1931.9.1
-	
-	country = ENG
-	country = GER
-	country = FRA
-	country = USA
-	country = JAP
-	country = SOV
-	country = ITA
-	country = CHI
-	country = CHC
-}
+#bookmark =
+#{
+#	icon = "GFX_bg_startdate_1941-1"
+#	name = "918ROAD_TO_WIN_NAME"
+#	desc = "918ROAD_TO_WIN_DESC"
+#	date = 1931.9.1
+#	
+#	country = ENG
+#	country = GER
+#	country = FRA
+#	country = USA
+#	country = JAP
+#	country = SOV
+#	country = ITA
+#	country = CHI
+#	country = CHC
+#}
 bookmark =
 {
 	icon = "GFX_bg_startdate_1936"

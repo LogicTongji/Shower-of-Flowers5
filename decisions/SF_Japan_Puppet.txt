@@ -9,9 +9,9 @@ diplomatic_decisions = {
 			tag = JAP
 			not = { has_country_flag = independent_MEA }
 			NOT = { year = 1937 }
+            date = 1936.5.12
 		}
 		allow = {
-			date = 1936.5.12
 			NOT = { exists = MEA }
 			JAP = {
 				controls = 4932
@@ -39,15 +39,15 @@ diplomatic_decisions = {
 		potential = {
 			tag = JAP
 			NOT = { exists = MEA }
+			JAP = {
+				controls = 4932
+				controls = 5017
+			}
 			war_with = CHI
 			not = { has_country_flag = independent_mengkukuo }
 		}
 		allow = {
 			NOT = { exists = MEB }
-			JAP = {
-				controls = 4932
-				controls = 5017
-			}
 		}
 		effect = {
 		CJB = { country_event = 1000039 }
@@ -226,13 +226,14 @@ diplomatic_decisions = {
 			NOT = { exists = CJB }
 			war_with = CHI
 			not = { has_country_flag = independent_JBSX }
-		}
-		allow = {
-			NOT = { exists = CJB }
 			JAP = {
 				controls = 4977
 				controls = 5083
 			}
+		}
+		allow = {
+			NOT = { exists = CJB }
+			
 		}
 		effect = {
 			mengkukuo_region = { add_core = MEB remove_core = JAP }

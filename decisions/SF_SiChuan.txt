@@ -5,6 +5,7 @@ Intagrate_China_SiChuan = {
 			tag = CHI
 			 not = { has_country_flag = Intagrate_China_SiChuan } 	
 	                    date = 1935.4.1
+						not = { year = 1936 }
                     }
 		allow = {
 		 exists = CSC
@@ -36,6 +37,7 @@ Intagrate_China_GuiZhou = {
 			tag = CHI
 			 not = { has_country_flag = Intagrate_China_GuiZhou } 	
 	                    date = 1935.5.1
+						not = { year = 1936 }
                     }
 		allow = {
 		 exists = CQS

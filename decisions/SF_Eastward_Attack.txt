@@ -10,11 +10,11 @@ diplomatic_decisions = {
 			not = { has_country_flag = Eattack_chc } 
 			not = { has_country_flag = xi_an_incident } 
 			not = { year = 1938 } 
+			date = 1936.2.20
 			ai = no
 		}
 		allow = {
 			not = { year = 1937 } 
-			date = 1936.2.20
 		}
 		effect = {
 			set_country_flag = Eattack_chc
@@ -28,11 +28,11 @@ diplomatic_decisions = {
 			not = { has_country_flag = Eattack_chc } 
 			not = { has_country_flag = xi_an_incident } 
 			not = { year = 1937 } 
+            date = 1936.2.20
 			ai = yes
 		}
 		allow = {
 			not = { year = 1937 } 
-			date = 1936.2.20
 		}
 		effect = {
 			set_country_flag = Eattack_chc
@@ -56,6 +56,11 @@ diplomatic_decisions = {
 			CHC = {
 				controls = 7399
 			}
+			province_id = 7399
+		OR = {
+			last_battle_winner_losses = 300
+			last_battle_loser_losses = 300
+		}
 		}
 		effect = {
 			set_global_flag = Eask_csx

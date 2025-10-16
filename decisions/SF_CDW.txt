@@ -77,7 +77,6 @@ diplomatic_decisions = {
 	     major = yes
 		potential = {
 			tag = CSY  
-			 ai = no
 			exists = CHI
 			exists = CHC	
 					CHC = { 	

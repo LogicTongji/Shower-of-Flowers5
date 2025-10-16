@@ -67,6 +67,7 @@ country_event = {
 	id = 1000030
 	is_triggered_only = yes
 	title = "CHI_Event_1000030"
+	subtitle = "Event1000030subtitle"
 	desc = "CHI_Event_1000030_desc"
 	picture = "CHI_Flag"
 	option = {

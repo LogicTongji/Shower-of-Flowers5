@@ -85,6 +85,7 @@ limited_war = yes
 	add_attacker = CYN
 	add_defender = PRC
 	add_attacker = CGX
+	add_attacker = CXK
 	add_attacker = CNM
 	war_goal=
 	{

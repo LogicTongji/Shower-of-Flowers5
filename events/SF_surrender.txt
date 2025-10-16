@@ -977,8 +977,8 @@ country_event = {
 		#中国内战
 		not = {
 			and = {
-				or = { TAG = CHC TAG = CHI TAG = CXB TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA  }
-				or = { FROM = { TAG = CHC } FROM = { TAG = CHI } FROM = { TAG = CXB } FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA } }
+				or = { TAG = PRC TAG = CHC TAG = CHI TAG = CXB TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA  }
+				or = { FROM = { TAG = PRC } FROM = { TAG = CHC } FROM = { TAG = CHI } FROM = { TAG = CXB } FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA } }
 			}
 		}
 		#抗日战争

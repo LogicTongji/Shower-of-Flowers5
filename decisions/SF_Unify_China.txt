@@ -1130,8 +1130,7 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
-}
-#解放全中国
+	#解放全中国
 Uaction_ALLPRC = {
 		major = yes
 		potential = {
@@ -1144,3 +1143,4 @@ Uaction_ALLPRC = {
 			country_event = 1000171
 		}
 	}
+}

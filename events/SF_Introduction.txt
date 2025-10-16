@@ -5,7 +5,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	title = "introduction_chc_title"
-	subtitle = "长夜难明赤县天，百年魔怪舞翩跹。"
+	subtitle = "introduction_chc_subtitle"
 	desc = "introduction_chc"
 	picture = "CHC_Flag"
 	option = {
@@ -20,7 +20,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	title = "introduction_chi_title"
-	subtitle = "攘外必先安内，统一方能御侮！"
+	subtitle = "introduction_chi_subtitle"
 	desc = "introduction_chi"
 	picture = "CHI_Flag"
 	option = {
@@ -35,7 +35,7 @@ country_event = {
 	is_triggered_only = yes
 	
 	title = "introduction_jap_title"
-	subtitle = "开拓万里波涛，布国威于四方。"
+	subtitle = "introduction_jap_subtitle"
 	desc = "introduction_jap"
 	picture = "JAP_Flag"
 	option = {
@@ -50,11 +50,71 @@ country_event = {
 	is_triggered_only = yes
 	
 	title = "introduction_prc_title"
-	subtitle = "天若有情天易老，人间正道是沧桑。"
+	subtitle = "introduction_prc_subtitle"
 	desc = "introduction_prc"
 	picture = "PRC_Flag"
 	option = {
 		name = "introduction_prc_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+
+	id = 1000005
+	
+	is_triggered_only = yes
+	
+	title = "introduction_chcw_title"
+	subtitle = "introduction_chcw_subtitle"
+	desc = "introduction_chcw"
+	picture = "CHC_Flag"
+	option = {
+		name = "introduction_chc_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+
+	id = 1000006
+	
+	is_triggered_only = yes
+	
+	title = "introduction_chiw_title"
+	subtitle = "introduction_chiw_subtitle"
+	desc = "introduction_chiw"
+	picture = "CHI_Flag"
+	option = {
+		name = "introduction_chi_option"
+		ai_chance = { factor = 100 }
+	}
+}
+	country_event = {
+
+	id = 1000007
+	
+	is_triggered_only = yes
+	
+	title = "introduction_chc_title"
+	subtitle = "introduction_chc_subtitle"
+	desc = "introduction_chcf"
+	picture = "CHC_Flag"
+	option = {
+		name = "introduction_chc_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+
+	id = 1000008
+	
+	is_triggered_only = yes
+	
+	title = "introduction_chi_title"
+	subtitle = "introduction_chi_subtitle"
+	desc = "introduction_chif"
+	picture = "CHI_Flag"
+	option = {
+		name = "introduction_chi_option"
 		ai_chance = { factor = 100 }
 	}
 }

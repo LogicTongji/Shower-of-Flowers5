@@ -329,7 +329,7 @@ country_event = {
 	id = 202593
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
+			or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
 		FROM = { TAG = PRC }
 	}
 	title = "Event1000111title"

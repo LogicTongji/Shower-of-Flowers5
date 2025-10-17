@@ -126,7 +126,7 @@ civil_law = totalitarian_system
 
 1935.6.1 = {
 set_country_flag = Xian_war_ShanXi_Commist 
-set_global_flag = the_war_attack_great_wall
+set_global_flag = Anti_jap_front_great_wall
 }
 
 1935.12.1 = {

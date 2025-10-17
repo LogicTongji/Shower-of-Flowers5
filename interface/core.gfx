@@ -715,20 +715,20 @@ bitmapfonts = {
 	
 	bitmapfont = {
 		name = "axis_country"
-		fontname = "Arial30chi"
+		fontname = "Arial30chia"
 		color = 0xff222222
 		effect = no
 	}
 
 	bitmapfont = {
 		name = "allies_country"
-		fontname = "Arial30chi"
+		fontname = "Arial30chib"
 		color = 0xff111188
 		effect = yes
 	}
 	bitmapfont = {
 		name = "comintern_country"
-		fontname = "Arial30chi"
+		fontname = "Arial30chir"
 		color = 0xffffcb11
 		effect = yes
 	}

@@ -87,11 +87,14 @@ country_event = {
 	option = {
 		name = "Event1000171option"
 		ai_chance = { factor = 100 }
-		SF_china_region = { remove_core = CHC
+		SF_china_region = { 
+		                    remove_core = CHC
 		                    remove_core = CQM
 							remove_core = CSD
 							remove_core = SIK
 							remove_core = CSX
+							remove_core = CNM
+							remove_core = CSY
 							}
 		SF_china_region = { add_core = PRC }
 	}

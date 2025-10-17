@@ -15,6 +15,7 @@ country_event = {
 		not = { war_with = JAP }
 		has_global_flag = the_war_attack_great_wall
 		date = 1935.12.9
+		not = { year = 1936 }
 	}
 	option = {
 		name = "Event129op"

@@ -6,9 +6,13 @@ diplomatic_decisions = {
 		major = yes
 		potential = {	
 			tag = CHI
-		         exists = CHC
                             exists = CHI
-		         war_with = CHC
+		OR = {
+		war_with = CHC
+		war_with = PRC
+				         exists = CHC
+						 		         exists = PRC
+		}
                             has_global_flag = China_CivilWar
                             not = { has_global_flag = Taibei_chance }	
 		}
@@ -24,7 +28,6 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag = Taibei_chance
-			SF_china_region = { remove_core = CHI }
 			country_event = 8018
 		}
 	}

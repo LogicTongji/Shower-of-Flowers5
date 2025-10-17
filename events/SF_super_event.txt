@@ -1,0 +1,33 @@
+province_event = {
+	id = 2025118
+	title = "EVTNAME700"
+	desc = "EVTDESC700"
+	picture = "lugqsb"
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	
+	trigger = {
+		province_id = 1982
+		OR = {
+			last_battle_winner_losses = 1000
+			last_battle_loser_losses = 1000
+		}
+	}
+	
+	option = {
+		name = "EVTOPTA700"
+		add_country_modifier = {
+			name = bzura_battle_lost
+			duration = 25
+		}
+	}
+	
+	option = {
+		name = "EVTOPTB700"
+		add_country_modifier = {
+			name = battle_lost
+			duration = 25
+		}
+	}
+}

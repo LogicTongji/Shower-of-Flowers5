@@ -1,67 +1,76 @@
 guiTypes = {
 	windowType = {
-		name = "EventWindow"
+		name = "Event_Province_Window"
 		backGround="Background"
-		position = { x=112 y=84 }	
-		size = { x=800 y=600 }
+		position = { x=300 y=50 }	
+		size = { x=1200 y=700 }
 		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
 		fullScreen = no
+		
 		guiButtonType = {
 			name = "Background"	
-			quadTextureSprite ="GFX_bg_event_2"
+			quadTextureSprite ="GFX_prov_event_bg"
 			tooltip = ""	
 			tooltipText =""
 			delayedTooltipText = ""
 		}
+		
 		iconType =
 		{
 			name ="event_images"
-			spriteType = "GFX_event_no_image"
-			position = { x= -762 y = 37 }
-			Orientation = "UPPER_RIGHT"
-		}	
+			spriteType = "GFX_prov_event_no_image"
+			position = { x= 85 y = 85 }
+			Orientation = "UPPER_LEFT"
+		}
+		
 		textBoxType = {
 				name = "Title"
-				position = { x = 450 y = 69 }
+				position = { x = 280 y = 36 }
 				textureFile = ""
-				font = "Arial16_black"
+				font = "Garamond_40"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 300
-				maxHeight = 120
-				format = left
+				maxWidth = 630
+				maxHeight = 60
+
+				format = centre
 			}
 			
 		textBoxType = {
 				name = "Subtitle"
-				position = { x = 450 y = 100 }
+				position = { x = 20 y = 63 }
 				textureFile = ""
-				font = "Arial14_black"
+				font = "Arial16_black"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 300
+				maxWidth = 600
 				maxHeight = 120
-				format = left
+
+				format = centre
 			}
 		
 		instantTextBoxType = {
 				name = "Description"
-				position = { x = 450 y = 155 }
+				position = { x = 331 y = 414 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "Courier"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 300
-				maxHeight = 248
+				maxWidth = 598
+				maxHeight = 180
+
 				format = left
 			}
+		
+		
+		
 	}
 	guiButtonType = {
-		name = "EventOptionButton"
-		position = { x = 318 y = 587 }
+		name = "EventPOptionButton"
+		position = { x = 620 y = 623 }
 		quadTextureSprite ="GFX_button_standard_512"
 		tooltip = ""
 		tooltipText =""
@@ -69,8 +78,16 @@ guiTypes = {
 		buttonText = "I Do."
 		buttonFont = "Arial12_black"
 	}
+	
+	#positionType = {
+	#	name = "event_province_option_start"
+	#	position = { x = 100 y = 595 }
+	#}
+
 	positionType = {
-		name = "event_option_offset"
-		position = { x = 410 y = 30 }
+		name = "event_province_option_offset"
+		position = { x = 318 y = 25 }
 	}
+	
+
 }

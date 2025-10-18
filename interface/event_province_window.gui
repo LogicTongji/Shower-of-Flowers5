@@ -41,13 +41,13 @@ guiTypes = {
 			
 		textBoxType = {
 				name = "Subtitle"
-				position = { x = 20 y = 63 }
+				position = { x = 280 y = 86 }
 				textureFile = ""
 				font = "Arial16_black"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 600
-				maxHeight = 120
+				maxWidth = 630
+				maxHeight = 16
 
 				format = centre
 			}
@@ -56,10 +56,10 @@ guiTypes = {
 				name = "Description"
 				position = { x = 331 y = 414 }
 				textureFile = ""
-				font = "Courier"
+				font = "Arial16_black"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 598
+				maxWidth = 590
 				maxHeight = 180
 
 				format = left
@@ -71,7 +71,7 @@ guiTypes = {
 	guiButtonType = {
 		name = "EventPOptionButton"
 		position = { x = 620 y = 623 }
-		quadTextureSprite ="GFX_button_standard_512"
+		quadTextureSprite ="GFX_button_standard_510"
 		tooltip = ""
 		tooltipText =""
 		delayedTooltipText = ""
@@ -86,7 +86,7 @@ guiTypes = {
 
 	positionType = {
 		name = "event_province_option_offset"
-		position = { x = 318 y = 25 }
+		position = { x = 390 y = 50 }
 	}
 	
 

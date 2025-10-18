@@ -213,7 +213,14 @@ spriteTypes = {
 		noOfFrames = 1
 		effectFile = "gfx\\FX\\buttonstate.fx"
 	}
-
+	textSpriteType = {
+		norefcount = yes
+		name = "GFX_button_standard_510"
+		texturefile = "gfx\\interface\\button_standard_510.tga"
+		noOfFrames = 1
+		effectFile = "gfx\\FX\\buttonstate.fx"
+	}
+	
 
 	textSpriteType = {
 		norefcount = yes

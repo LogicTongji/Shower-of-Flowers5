@@ -117,7 +117,7 @@ spriteTypes = {
 	spriteType = {
 		norefcount = yes
 		name = "GFX_prov_event_no_image"
-		texturefile = "gfx\\pictures\\events\\prov_event_default.tga"
+		texturefile = "gfx\\pictures\\events\\prov_event_default.dds"
 		loadType = "INGAME"
 		norefcount = yes
 	}

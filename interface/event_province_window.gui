@@ -28,12 +28,12 @@ guiTypes = {
 		
 		textBoxType = {
 				name = "Title"
-				position = { x = 280 y = 36 }
+				position = { x = 262 y = 10 }
 				textureFile = ""
 				font = "Garamond_40"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 630
+				maxWidth = 670
 				maxHeight = 60
 
 				format = centre
@@ -41,12 +41,12 @@ guiTypes = {
 			
 		textBoxType = {
 				name = "Subtitle"
-				position = { x = 280 y = 86 }
+				position = { x = 262 y = 86 }
 				textureFile = ""
 				font = "Arial16_black"
 				borderSize = {x = 0 y = 0}
 				text = ""
-				maxWidth = 630
+				maxWidth = 670
 				maxHeight = 16
 
 				format = centre
@@ -54,13 +54,13 @@ guiTypes = {
 		
 		instantTextBoxType = {
 				name = "Description"
-				position = { x = 331 y = 414 }
+				position = { x = 318 y = 463 }
 				textureFile = ""
 				font = "Arial16_black"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
-				maxWidth = 590
-				maxHeight = 180
+				maxWidth = 563
+				maxHeight = 158
 
 				format = left
 			}
@@ -70,7 +70,7 @@ guiTypes = {
 	}
 	guiButtonType = {
 		name = "EventPOptionButton"
-		position = { x = 620 y = 623 }
+		position = { x = 308 y = 631 }
 		quadTextureSprite ="GFX_button_standard_510"
 		tooltip = ""
 		tooltipText =""
@@ -86,7 +86,7 @@ guiTypes = {
 
 	positionType = {
 		name = "event_province_option_offset"
-		position = { x = 390 y = 50 }
+		position = { x = 308 y = 50 }
 	}
 	
 

@@ -1,4 +1,4 @@
-#国军战略事件组
+#抗战战略
 country_event = {
 	id = 8331
 	major = yes
@@ -33,7 +33,7 @@ country_event = {
 		name = "WINTRWAROPJAP"
 		  add_country_modifier = {
 			name = "WinterWAR_modifier"
-			duration = 250
+			duration = 150
 	}		
 	}		
 }
@@ -68,7 +68,7 @@ country_event = {
 		JAP = { country_event = 8335 }
                  add_country_modifier = {
 			name = "WINWAR_modifier"
-			duration = 1000
+			duration = 100
 		}
 		supplies = -1000
 		dissent = 5
@@ -135,7 +135,7 @@ country_event = {
 		 national_unity = 5
 		  add_country_modifier = {
 			name = "KMT_Amry_excise_modifier"
-			duration = 250
+			duration = 100
 	}		 
 	}		
 }

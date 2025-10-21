@@ -17,10 +17,9 @@ country_event = {
 	}
 	option = {
 		name = "pinghanname"
-		set_country_flag = pinghankuibai
                 add_country_modifier = {
 				name = "kuibai_modifier"
-				duration = 30
+				duration = 50
 		ai_chance = { factor = 100 }
 	}
 }
@@ -49,7 +48,7 @@ country_event = {
 		name = "songhuname"
                 add_country_modifier = {
 				name = "kuibai_modifier"
-				duration = 30
+				duration = 50
 		ai_chance = { factor = 100 }
 	}
 }

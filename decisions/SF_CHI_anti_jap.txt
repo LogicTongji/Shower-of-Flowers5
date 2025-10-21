@@ -6,7 +6,10 @@ diplomatic_decisions = {
 			tag = CHI                                         
       war_with = JAP    
 			 has_country_flag = KMT_Amry_excise
-      not = { has_global_flag = Winter_WAR }		 
+			 has_country_flag = jap_seizes_coast_chi
+      not = { has_global_flag = Winter_WAR 
+	          has_global_flag = CHI_defence_war 
+	        }		 
 		}
 		allow = {
 		  	or = {
@@ -42,6 +45,7 @@ diplomatic_decisions = {
 			tag = CHI                                        
       exists = CHC
       not = { has_global_flag = CHI_defence_war }	
+	  has_country_flag = jap_seizes_coast_chi
       year = 1940	
 			not = { year = 1942 } 
 		}
@@ -70,7 +74,7 @@ diplomatic_decisions = {
 		}
 		allow = {
 			not = { alliance_with = JAP }
-				 has_global_flag = Event10000272 
+			has_country_flag = CHI_Kangzhan
 		 has_country_flag = jap_seizes_coast_chi 
 		}
 		effect = {
@@ -89,7 +93,8 @@ diplomatic_decisions = {
       exists = CHI
       war_with = JAP
       not = { war_with= CHC }
-      not = { has_global_flag = Chongqing_govrnment_move_to_xining }	
+      not = { has_global_flag = Chongqing_govrnment_move_to_xining }
+	  has_country_flag = jap_seizes_coast_chi 
 		}
 		allow = {
 			 OR = {

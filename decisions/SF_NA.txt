@@ -35,6 +35,7 @@ diplomatic_decisions = {
 		}
 		allow = {
                          CHI = { controls = 5494 }
+						 has_country_flag = CHI_Kangzhan
 		}
 		effect = {
 			set_global_flag = ZSHBQFTYUE 
@@ -82,7 +83,7 @@ diplomatic_decisions = {
                       controls = 7610 
                       controls = 9640 
                       controls = 7666 }
-                        has_country_flag = Event1200001
+                        has_country_flag = USA_allice_CHI
 		}
 		effect = {
 			set_country_flag = USAsupportA_chi
@@ -127,7 +128,7 @@ diplomatic_decisions = {
                       controls = 7610 
                       controls = 9640 
                       controls = 7666 }
-                        has_country_flag = Event1200001
+                        has_country_flag = USA_allice_CHI
 		}
 		effect = {
 			set_country_flag = USAsupportA_chi2

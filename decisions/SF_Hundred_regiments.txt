@@ -10,6 +10,7 @@ diplomatic_decisions = {
 			war_with = CHC
 			has_global_flag = luochuan_meeting_2
 			has_global_flag = Sanguang
+			has_country_flag = jap_seizes_coast
 		}
 		allow = {
 			CHC = { total_amount_of_brigades = 100 }
@@ -35,6 +36,9 @@ diplomatic_decisions = {
 			exists = CHB
 			has_global_flag = luochuan_meeting_2
 			has_global_flag = thenorthchinapolice
+			JAP = {
+			has_country_flag = jap_seizes_coast
+			}
 			not = { has_global_flag = baituandazhan }
 		}
 		allow = {

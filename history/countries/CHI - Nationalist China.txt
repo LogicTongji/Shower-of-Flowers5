@@ -198,6 +198,7 @@ set_country_flag = Intagrate_China_SiChuan
 }
 1937.2.13 ={
 set_country_flag = Xian_conversation
+set_country_flag = Event9111100
 }
 1937.8.15 = {
 set_country_flag = CHI_Kangzhan
@@ -229,7 +230,6 @@ oob = "CHI_1938d.txt"
 set_country_flag =  The_Migration_Period¡¤WuHan 
 set_country_flag = The_Migration_Period¡¤education
 set_country_flag = The_Migration_Period¡¤education3
-set_country_flag = Event9111100
 set_country_flag = Event9111102
 set_global_flag = Event2000073
 set_country_flag = Event2000077
@@ -338,15 +338,26 @@ large_front = 0
 guerilla_warfare = 1
 operational_level_organisation = 0
 }
-1940.1.1 = { national_unity = 100 }
+1940.1.1 = { 
+set_country_flag = KMT_Amry_excise
+set_global_flag = Winter_WAR
+national_unity = 100 
+}
+1940.6.1 ={
+set_global_flag = CHI_defence_war
+}
 1941.2.1 ={
          set_global_flag = Event700001
+		 set_country_flag = Event9111103
 }
 1941.12.7 = {
 oob = "CHI_DayOfInfamy.txt"
 }
 1942.2.1 = {
 set_country_flag = CHI_warto_jap
+set_global_flag = Event1000087
+set_country_flag = USA_allice_CHI
+set_country_flag = china_yuanzhengjun
 }
 1944.6.7 = {
 oob = "CHI_1944.txt"

@@ -82,7 +82,7 @@ country_event = {
 	        days = 1
     }
 	option = { 
-		name = "让我们分割世界！"
+		name = "TCoop！"
 		ITA = { guarantee = GER }
 	}
 }
@@ -107,7 +107,7 @@ country_event = {
 	        days = 1
     }
 	option = { 
-		name = "让我们分割世界！"
+		name = "TCoop"
 		GER = { guarantee = ITA
 		        guarantee = JAP
 		        }

@@ -2,7 +2,7 @@
 #  飞虎队事件组   #
 ###################
 country_event = {
-	id = 9111100
+	id = 390040
  fire_only_once = yes
 	title = "FHDCND"
 	desc = "FHDCND1"
@@ -16,18 +16,13 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "算了吧"
-		kill_leader = 50370
-		ai_chance = { factor = 0 }
-       	}
-	option = {
-		name = "聘用"
+		name = "SDUOP1"
 		set_country_flag = Event9111100
 		ai_chance = { factor = 100 }
 	}
 }
 country_event = {
-	id = 9111101
+	id = 390041
 	 fire_only_once = yes
 	title = "FHDCND2"
 	desc = "FHDCND2_decs"
@@ -42,7 +37,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "成立"
+		name = "SDUOP2"
                    add_country_modifier = {
 			name = "Event2244_modifier"
 			duration = 120
@@ -52,7 +47,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 9111102
+	id = 390042
 	   fire_only_once = yes
 	title = "FHDCND3"
 	desc = "FHDCND3_decs"
@@ -66,13 +61,13 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "成立"
+		name = "SDUOP3"
                 7561 = { leadership = 0.3 }
 		ai_chance = { factor = 100 }
 	}
 }
 country_event = {
-	id = 9111103
+	id = 390043
 	          fire_only_once = yes
 	title = "FHDCND4"
 	desc = "FHDCND4_decs"

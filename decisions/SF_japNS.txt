@@ -17,6 +17,7 @@ diplomatic_decisions = {
 		}
 		allow = {
 			JAP = { controls = 5916 }
+			has_country_flag = jap_seizes_coast
                                
 		}
 		effect = {

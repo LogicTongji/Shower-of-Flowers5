@@ -7,6 +7,7 @@ Surrendered_to_China = {
       tag = JAP
       year = 1939    
       not = { has_country_flag = secret_talk_to_China }
+      has_country_flag = jap_seizes_coast
       exists = CHI
       war_with = CHI
       JAP = {     
@@ -23,7 +24,6 @@ Surrendered_to_China = {
 	    }
 
 		allow = {		
-                 has_global_flag = Event10000272  
                  has_global_flag = secret_talk_to_China_find   
 		}
 

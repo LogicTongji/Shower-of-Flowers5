@@ -145,6 +145,7 @@ set_country_flag = Event290000
 }
 1941.1.6 = {
 set_global_flag = Event700007
+set_global_flag = baituandazhan
 }
 1941.5.22 = {
 oob = "CHC_1941.txt"

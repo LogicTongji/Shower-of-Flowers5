@@ -627,6 +627,7 @@ oob = "JAP_1936.txt"
 	
 	set_global_flag = wangjingwei_message
 	set_country_flag = jap_seizes_coast
+	set_global_flag = Sanguang
 }
 
 1938.9.1 = {
@@ -843,6 +844,8 @@ oob = "JAP_1936.txt"
 	naval_tactics = 4
 	construction_practical = 2.5
 	threat = 20 
+
+	set_global_flag = thenorthchinapolice
 }
 1940.5.10 = {
 	head_of_state = 5001
@@ -913,6 +916,9 @@ oob = "JAP_1936.txt"
 	portstrike_tactics = 4
 	naval_air_targeting = 4
 	construction_practical = 2.5
+
+	set_global_flag = wangweizf
+	set_country_flag = independent_WJW
 }
 1941.6.22 = {
 	head_of_state = 5001

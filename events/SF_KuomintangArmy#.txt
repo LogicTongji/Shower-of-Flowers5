@@ -1,15 +1,57 @@
 ######################
-#   新式陆军事件组   #
+#   国府新军事件组   #
 ######################
+#青年军
+country_event = {
+	id = 1000064
+	is_triggered_only = yes
+	title = "CHI_Event_1000064"
+	subtitle = "CHI_Event_1000064_subtitle"
+	desc = "CHI_Event_1000064_desc"
+	picture = "CHI_Flag"
+	option = {
+		name = "CHI_Event_1000064_option"
+		load_oob = "CHI_1.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+#远征军
+country_event = {
+	id = 1000065
+	major = yes
+	is_triggered_only = yes
+	title = "CHI_Event_1000065"
+	subtitle = "CHI_Event_1000065_subtitle"
+	desc = "CHI_Event_1000065_desc"
+	picture = "CHI_Event_1000065"
+	option = {
+		name = "CHI_Event_1000065_option"
+		manpower = -100
+		ENG = { country_event = 1000066 }
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 1000066
+	is_triggered_only = yes
+	title = "ENG_Event_1000066"
+	desc = "ENG_Event_1000066_desc"
+	picture = "CHI_Event_1000065"
+	option = {
+		name = "CHI_Event_1000030_option"
+		load_oob = "CHI_2.txt"
+		ai_chance = { factor = 100 }
+	}
+}
 #组建德式步兵师
 country_event = {
          id = 550
          is_triggered_only = yes
-         title = "建立德式步兵师"
+         title = "CHI_Event_550_title"
          desc = "CHI_Event_550_decs"
          picture = "CHI_Flag"
          option = {
-                 name = "组建"
+                 name = "CHI_Event_550_op"
                  load_oob="CHI_GER_SupportA.txt"
                  remove_brigade = "国民革命军第106旅"
 		 remove_brigade = "国民革命军第108旅"
@@ -19,11 +61,11 @@ country_event = {
 country_event = {
          id = 553
          is_triggered_only = yes
-         title = "建立装甲团"
-         desc = "国民党军事委员会直属装甲团，成立于1936年，是200师前身。"
+         title = "CHI_Event_553_title"
+         desc = "CHI_Event_553_decs"
          picture = "CHI_Flag"
          option = {
-                 name = "组建"
+                 name = "CHI_Event_550_op"
                  load_oob="CHI_TK_SupportA.txt"
         } 
 }
@@ -31,11 +73,11 @@ country_event = {
 country_event = {
          id = 551
          is_triggered_only = yes
-         title = "建立苏械攻击军"
+         title = "CHI_Event_551_title"
          desc = "CHI_Event_551_decs"
          picture = "China_Event_1000020"
          option = {
-                 name = "组建"
+                 name = "CHI_Event_550_op"
                  load_oob = "CHI_SOV_SupportA.txt"
                  remove_brigade = "国民革命军第1旅"
 		 remove_brigade = "国民革命军第2旅"
@@ -64,22 +106,22 @@ country_event = {
 country_enent = {
          id = 552
          is_triggered_only = yes
-         title = "建立美械师"
+         title = "CHI_Event_552_title"
          desc = "CHI_Event_552_decs"
          picture = "China_Event_1000020"
          option = {
-                 name = "组建"
+                 name = "CHI_Event_550_op"
                  load_oob = "CHI_USA_SupportA.txt"
         }
 }
  country_event = {
          id = 559
          is_triggered_only = yes
-         title = "整编远征军"
+         title = "vCHI_Event_3019_title"
          desc = "CHI_Event_3019_decs"
          picture = "CHI_flag"
          option = {
-                 name = "组建"
+                 name = "CHI_Event_559_op1"
                        remove_brigade = "远征军第一路军司令部"
 	        remove_brigade = "远征军第5军司令部"
 	        remove_brigade = "第200师"
@@ -132,12 +174,11 @@ country_enent = {
 country_event = {
          id = 8029
          is_triggered_only = yes
-         title = "建立快速纵队"
+         title = "CHI_Event_567_title"
          desc = "KSECS"
          picture = "China_Event_1000020"
          option = {
-                 name = "组建"
+                 name = "CHI_Event_550_op"
                  load_oob="CHI_JDAmry.txt"             
         } 
 }    
-#2018.1.27修订版by二哈           

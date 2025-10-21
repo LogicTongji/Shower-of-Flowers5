@@ -9,7 +9,6 @@ diplomatic_decisions = {
                                                 exists = CHI
 			war_with = JAP
 			year = 1939
-                                                has_global_flag = Event10000272
 			not = { has_global_flag = KRYJQ } 
 		}
 		allow = {

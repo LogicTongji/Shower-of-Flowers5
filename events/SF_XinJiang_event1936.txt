@@ -68,7 +68,7 @@ country_event = {
 	desc = "SIKDCS"
 	picture = "SIK_flag"
 	option = {
-		name = "好"
+		name = "CXMOP"
 		load_oob = "SOV_YZHUB.txt"
 		ai_chance = { factor = 100 }
 	}				
@@ -80,7 +80,7 @@ country_event = {
 	desc = "SIKDCS"
 	picture = "SIK_flag"
 	option = {
-		name = "好"
+		name = "CXMOP"
 		create_alliance = SIK
 		load_oob = "SOV_GHAmry.txt"
 		ai_chance = { factor = 100 }
@@ -94,7 +94,7 @@ country_event = {
 	desc = "CHIDCS"
 	picture = "SIK_flag"
 	option = {
-		name = "大势已去"
+		name = "CXMOP"
 		   CHI = { split_troops = 1.0 }
 		CHI = { inherit = SIK } 
 		ai_chance = { factor = 100 }

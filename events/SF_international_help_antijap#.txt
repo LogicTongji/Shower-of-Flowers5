@@ -13,11 +13,11 @@ country_event = {
                 not = { year = 1938 }
                 has_country_flag = ZSHBQFTYUE
           }
-          title = "是否援华"
+          title = "SOV_Event_title2000073"
           desc = "SOV_Event_decs2000073"
           picture = "CHC_Event_2000075"
           option = {
-		name = "援助"
+		name = "SOV_Event_option2000073"
 		set_global_flag = Event2000073
 		supplies = -1000
 		dissent = -10
@@ -25,7 +25,7 @@ country_event = {
            ai_chance = { factor = 100 }
          }
 	 option = {
-		name = "让黄种人自己打自己吧"
+		name = "SOV_Event_option20000732"
            	set_global_flag = error10000
                 national_unity = -5
                 dissent = 50
@@ -36,57 +36,13 @@ country_event = {
 country_event= {
 	id = 2000075
 	is_triggered_only = yes
-	title = "他们终于同意了"
+	title = "CHI_Event_title2000075"
 	desc = "CHI_Event_decs2000075"
 	picture = "CHI_Flag"
 	option = {
-		name = "中国万岁"          
-		supplies = 1000
-		metal = 10
-		energy = 10
-		rare_materials = 10
-		crude_oil = 10
+		name = "CHI_Event_option2000075"          
+		9415 = { industry = 2 }
 		national_unity = 5
-	}
-}
-#得到苏联援华补给
-country_event = {
-	id = 2000076
-	trigger = {
-		tag = CHI
-                exists = CHI
-		war_with = JAP  
-		has_global_flag = Event2000073
-		not = { year = 1941 }
-		CHI = { 
-			controls = 9170
-			}
-			OR = {
-			CQM = { 
-			controls = 9200
-			}
-			CHI = { 
-			controls = 9200
-			}
-			CHC = { 
-			controls = 9200
-			}
-	}
-			SIK = { 
-			controls = 8955
-			}
-	}
-
-	mean_time_to_happen = {
-		months = 1
-	}
-	title = "收到补给"
-	desc = "苏联给我们的补给到了"
-	picture = "CHI_Flag"
-	option = {
-		name = "马上投入战场" 
-		supplies = 150
-		fuel = 10
 	}
 }
 #滇越铁路
@@ -100,46 +56,16 @@ country_event = {
                 date = 1937.9.1
                 not = { year = 1938 }
                 not = { has_global_flag = JAPsouthing }
+                has_country_flag = CHI_Kangzhan
           }
-          title = "是否接受滇越铁路的补给"
+          title = "CHI_Event_title2000077"
           desc = "CHI_Event_decs2000077"
          picture = "CHI_Flag"
          option = {
-           name = "接受"
+           name = "CHI_Event_option2000077"
            set_country_flag = Event2000077
-           supplies = 1000
-           dissent = -10
+           7561 = { industry = 1 }
            ai_chance = { factor = 100 }
-         }
-	 option = {
-		name = "我们自己能打赢抗战"
-                national_unity = -5
-                dissent = 5
-                set_country_flag = error10002
-		ai_chance = { factor = 0 }
-	}
-}
-#收到补给
-country_event = {
-          id = 2000078
-          trigger ={
-               tag = CHI
-               exists = CHI
-               war_with = JAP 
-               has_country_flag = Event2000077
-               not = { has_global_flag = JAPsouthing } 
-          }
-          mean_time_to_happen = {
-                  months = 1
-          }
-          title = "得到补给"
-          desc = "国际给我们的补给到了"
-          picture = "CHI_Flag"
-          option = {
-           name = "马上投入战场"              
-              supplies = 150
-              fuel = 50 
-           
          }
 }
 #开通滇缅公路
@@ -152,133 +78,19 @@ country_event = {
 		war_with = JAP
 		ENG = { controls = 6070 }
 		date = 1938.8.20
+        has_country_flag = CHI_Kangzhan
+        has_country_flag = jap_seizes_coast_chi
 		not = { year = 1938 }
 	}
-	title = "国民政府开通滇缅公路"
+	title = "CHI_Event_title2000079"
 	desc = "CHI_Event_decs2000079"
 	picture = "CHI_Flag"
 	option = {
-		name = "中国万岁！中国不会亡！"
+		name = "CHI_Event_option2000079"
 		set_global_flag = Event2000079
-		supplies = 1000
-		national_unity = 5
+		7561 = { industry = 3 }
 	}
 }			
-#得到补给
-country_event = {
-          id = 2000080
-          trigger = {
-               tag = CHI
-               exists = CHI
-               war_with = JAP 
-               has_global_flag = Event2000079 
-               not = { has_global_flag = Event2000081 }
-               ENG = { controls = 6070 }
-          }
-
-          mean_time_to_happen = {
-                  months = 1
-          }
-
-          title = "得到补给"
-          desc = "国际给我们的补给到了"
-          picture = "CHI_Flag"
-
-          option = {
-           name = "马上投入战场"              
-              supplies = 250
-              fuel = 50 
-           
-         }
-}
-#关闭滇缅公路
-country_event = {
-          id = 2000081
-          major = yes
-          fire_only_once = yes
-          trigger = {
-               tag = ENG
-               CHI ={ war_with = JAP }  
-               ENG = { controls = 6070 }
-               exists = CHI
-               date= 1940.7.18
-               not = { year = 1941 }
-	       has_global_flag = Event2000079         
-          }
-          title = "关闭滇缅公路"
-          desc = "ENG_Event_decs2000081"
-          picture = "news_paper"
-          option = {
-           name = "这样做是理智的"
-              national_unity = -5
-              dissent = 5 
-              set_global_flag = Event2000081
-              CHI = { country_event = 2000083 }
-              ai_chance = { factor = 100 }
-          }
-          option = {
-           name = "帝国不会向日本妥协"
-              national_unity = 5
-              dissent = -5
-              relation = { who = JAP value = -50 }
-              ai_chance = { factor = 0 }
-         }
-}               
-#重新开放滇缅公路
-country_event = {
-          id = 2000082
-         fire_only_once = yes
-          trigger = {
-               tag = ENG
-               CHI ={ war_with = JAP }  
-               ENG = { controls = 6070 }
-               exists = CHI
-               has_global_flag = Event2000081        
-               date= 1940.10.18
-          }
-          title = "重新开放滇缅公路"
-          desc = "ENG_Event_decs2000082"
-          picture = "news_paper"
-          option = {
-           name = "维持现状"
-              national_unity = -5
-              dissent = 5 
-              ai_chance = { factor = 0 }
-          }
-          option = {
-           name = "开放"
-              national_unity = 5
-              dissent = -5
-              relation = { who = JAP value = -50 }             
-              remove_global_flag = Event2000081
-              CHI = { country_event = 2000084 }
-              ai_chance = { factor = 100 }
-         }
-}               
-#英国方面关闭滇缅公路
-country_event = {
-          id = 2000083
-          is_triggered_only = yes
-          title = "滇缅公路被迫关闭"
-          desc = "CHI_Event_decs2000083"
-          picture = "news_paper"
-          option = {
-           name = "纵使没有援助，我们仍誓死抗战到底"
-              national_unity = 5
-         }
-}               
-#英国方面重新开放滇缅公路
-country_event = {
-          id = 2000084
-          is_triggered_only = yes
-          title = "英国方面重新开放滇缅公路"
-          desc = "CHI_Event_decs2000084"
-          picture = "news_paper"
-          option = {
-           name = "国际不会放弃我们"
-              national_unity = 5    
-         }
-}               
 #仰光沦陷 
 country_event={
           id = 2000086
@@ -291,11 +103,11 @@ country_event={
           mean_time_to_happen = {
                   days = 1
           }
-          title="仰光沦陷"
+          title="ENG_Event_title2000086"
           desc="ENG_Event_decs2000086"
           picture="news_paper"
           option={
-           name="卑鄙的日本人"              
+           name="ENG_Event_option2000086"              
               national_unity = 5
               dissent = 5
               set_country_flag = Event2000086 
@@ -313,19 +125,20 @@ country_enent = {
 		war_with = JAP 
                 JAP = { controls = 6070 }
                 has_global_flag = JAPsouthing 
+                has_country_flag = CHI_Kangzhan
+                has_country_flag = jap_seizes_coast_chi
                 date = 1943.8.20          
           }
           mean_time_to_happen = {
                   days = 1
           }
-          title = "开通驼峰航线"
+          title = "CHI_Event_title2000087"
           desc = "CHI_Event_decs2000087"
          picture = "CHC_Event_1000075"
          option={
-           name="中国万岁！中国不会亡！"
+           name="CHI_Event_op2000087"
            set_global_flag = Event1000087
-           supplies = 1000
-           national_unity = 5
+           9415 = { industry = 1 }
          } 
 }
 #开通中印公路
@@ -344,14 +157,13 @@ country_enent={
           mean_time_to_happen = {
                   days = 1
           }
-          title="开通中印公路"
+          title="CHI_Event_title2000088"
           desc = "CHI_Event_decs2000088"
          picture = "CHI_Flag"
          option = {
-           name = "中国万岁！中国不会亡！"
+           name = "CHI_Event_option2000088"
            set_country_flag = Event1000088
-           supplies = 1000
-           national_unity = 5
+           9415 = { industry = 1 }
          } 
 }
 #得到补给
@@ -399,11 +211,11 @@ country_event = {
           mean_time_to_happen = {
                   months = 1
           }
-          title = "得到补给"
-          desc = "美国给我们的补给到了"
+          title = "USA_Event_T2000088"
+          desc = "USA_Event_D2000088"
           picture = "ZZFA"
           option = {
-           name = "马上投入战场"              
+           name = "USA_Event_OP2000088"              
               supplies = 1250
               fuel = 50 
              energy = 20
@@ -430,11 +242,11 @@ country_event = {
           mean_time_to_happen = {
                   months = 1
           }
-          title = "得到补给"
-          desc = "美国给我们的补给到了"
+           title = "USA_Event_T2000088"
+          desc = "USA_Event_D2000088"
           picture = "ZZFA"
           option = {
-           name = "马上投入战场"              
+           name = "USA_Event_OP2000088"              
               supplies = 1250
               fuel = 50 
              energy = 20
@@ -469,40 +281,21 @@ country_event = {
               mean_time_to_happen = {
                   days = 1
           }
-          title = "向苏联提供援助"
+          title = "UUUST"
           desc = "UUUSS"
           picture = "news_paper"
           option = {
-           name = "这样做是理智的"
+           name = "SSSSOP1"
               dissent = 5 
-             SOV = { country_event = 6650 }
-              ai_chance = { factor = 100 }
-          }
-          option = {
-           name = "座山观虎斗"
-              national_unity = 5
-              ai_chance = { factor = 0 }
-         }
-}               
-country_event = {
-          id = 6650
-	is_triggered_only = yes
-          title = "租借法案"
-          desc = "SOVNED"
-          picture = "news_paper"
-          option = {
-           name = "我们确实没能力单独取得胜利了"
               set_global_flag = SOV_need
               ai_chance = { factor = 100 }
           }
           option = {
-           name = "苏维埃不会向资本主义屈服"
+           name = "SSSSOP2"
               national_unity = 5
-              dissent = -5
-              relation = { who = USA value = -50 }
               ai_chance = { factor = 0 }
          }
-}   
+}               
 country_event = {
           id = 2020400
           major = yes
@@ -522,7 +315,7 @@ country_event = {
           desc = "NHD"
           picture = "ZZFA"
           option = {
-           name = "马上投入战场"   
+           name = "NHTOP"   
            supplies = 50000           
              set_global_flag = Nothern_most 
          }
@@ -542,11 +335,11 @@ country_event = {
               mean_time_to_happen = {
                   months = 1
           }
-          title = "美国援助"
-          desc = "美国的援助到了"
+          title = "AAAT"
+          desc = "AAADE"
           picture = "ZZFA"
           option = {
-           name = "马上投入战场"              
+           name = "AAAOP"              
               supplies = 3250
               fuel = 250 
              energy = 80
@@ -577,13 +370,13 @@ country_event = {
           }
 
           mean_time_to_happen = {
-                  months = 3
+                  months = 10
           }
-          title = "美国的工业救助"
-          desc = "美国给我们的机床和工业生产机械到了"
+          title = "AAAT1"
+          desc = "AAADE2"
           picture = "ICP"
           option = {
-           name = "马上投入生产"              
+           name = "AAAOP2"              
        1052 = { industry = 1 }              
        1964 = { industry = 1 }              
        1341 = { industry = 1 }                 

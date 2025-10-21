@@ -25,5 +25,7 @@ owner = CHI
 controller = CHI
 remove_core = CSC
 }
-
+1945.9.1 = {
+industry = 5
+}
 

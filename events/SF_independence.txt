@@ -1,3 +1,4 @@
+#÷≥√Òµÿ∂¿¡¢
 country_event = {
           id = 2020124
          major = yes
@@ -11,6 +12,8 @@ country_event = {
                not = { war_with = GER
                        war_with = JAP }
                not = { exists = INO }
+               has_global_flag = JAP_Lost
+               has_global_flag = GER_Lost 
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -48,6 +51,8 @@ country_event = {
                date = 1946.7.4
                not = { war_with = GER
                        war_with = JAP }
+                       has_global_flag = JAP_Lost
+                       has_global_flag = GER_Lost 
 	}
         mean_time_to_happen =  {
 	        days = 1

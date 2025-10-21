@@ -5,7 +5,7 @@ diplomatic_decisions = {
 			tag = JAP                                            
                                                 exists = CHI
 			not = { has_global_flag = huabeiwusheng } 
-			not = { year = 1938 } 
+			not = { year = 1937 } 
 		}
 		allow = {
 			not = { alliance_with = CHI }

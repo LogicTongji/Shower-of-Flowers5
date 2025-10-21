@@ -68,7 +68,7 @@ country_event = {
 	desc = "801decs"
 	picture = "Event1100101"
 	option = {
-		name = "八嘎"	
+		name = "801OOP"	
                 dissent = 10
 		relation = { who = USA value = -100 }
 	}
@@ -80,7 +80,7 @@ country_event = {
 	desc = "21decs"
 	picture = "Event1100101"
 	option = {
-		name = "不惜一切代价让中国打下去"
+		name = "21OOP"
                 national_unity = 20
                 dissent = -10	
 		relation = { who = USA value = 100 }
@@ -114,11 +114,11 @@ country_event = {
 country_event = {
 	id = 80015
        	is_triggered_only = yes
-	title = "波兹坦公告发布"
+	title = "31title"
 	desc = "31decs"
 	picture = "Event1100101"
 	option = {
-		name = "坚持抗战到底，胜利就在眼前！"
+		name = "31OOP"
                 national_unity = 20
                 dissent = -10	
 		relation = { who = USA value = 100 }
@@ -127,18 +127,18 @@ country_event = {
 country_event = {
 	id = 80014
        	is_triggered_only = yes
-	title = "美中英三国敦促帝国投降"
+	title = "31title"
 	desc = "31decs"
 	picture = "Event1100101"
 	option = {
-		name = "帝国万岁，誓死不降"
+		name = "31oop"
                 national_unity = 20
                 dissent = 30	
 		relation = { who = USA value = -100 }
                 ai_chance = { factor = 100 }
 	}
         option = {
-		name = "不可能了，投降吧"
+		name = "31oop2"
                 national_unity = -100
                 dissent = 30	
 		relation = { who = USA value = -100 }
@@ -165,7 +165,7 @@ country_event = {
     not = { year = 1943 }
 	}
 	option = {
-		name = "签署"
+		name = "Event44444opt"
                 non_aggression_pact = JAP
                 relation = { who = CHI value = -100 }
 		ai_chance = { factor = 100 }
@@ -173,15 +173,15 @@ country_event = {
 }
 country_event = {
         major = yes
+		fire_only_once = yes
 	id = 80017
-	title = "对日宣战"
+	title = "61title"
 	desc = "61decs"
 	picture = "Event3000083"
 	trigger = {		
                 tag = SOV
                 exists = CHI
 		not = { exists = GER }
-                not = { has_global_flag = Even81 }
                 has_global_flag = Event80
                 CHI = { controls = 9478 }
 	}
@@ -189,36 +189,25 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "消灭日本法西斯"
+		name = "61oop"
                 SOV = { war = { target = JAP } }
                 create_alliance = USA
                 create_alliance = ENG
                 create_alliance = CHI
-		set_country_flag = Even81
                 JAP = { country_event = 80018 }
 		ai_chance = { factor = 100 }
        	}
 }
 country_event = {
 	id = 800018
-	title = "苏联对帝国宣战"
+	title = "61title2"
 	desc = "61decs"
 	picture = "Event1100101"
-                trigger = {		
-                tag = JAP
-                exists = CHI
-	has_global_flag = Even81
-                 not = { has_global_flag = Even813 }
-                CHI = { controls = 9478 }
-	}
-        mean_time_to_happen =  {
-	        days = 1
-        }
+	is_triggered_only = yes
 	option = {
-		name = "将大东亚战争进行到底"
+		name = "61oop2"
                 national_unity = 20
                 dissent = 30
-                set_global_flag = Even813	
 	}
 }
 #纽伦堡法庭宪章

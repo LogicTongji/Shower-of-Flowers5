@@ -1,4 +1,4 @@
-#内战
+#解放战争
 diplomatic_decisions = {
 	    China_CivilWar1 = {
 		potential = {

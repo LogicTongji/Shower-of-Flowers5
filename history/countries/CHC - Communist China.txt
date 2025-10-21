@@ -128,13 +128,23 @@ civil_law = legalistic_restrictions
 1936.10.26 = {
 set_country_flag = FrontArmy_chc
 }
+1936.12.31 = {
+set_global_flag = Event10000271
+}
 1938.1.1 = {
 capital = 7417
 oob = "CHC_1938d.txt"
 set_global_flag = luochuan_meeting_2
+set_country_flag = CHC_Event_1000053
+set_global_flag = chc_jinchaji
+set_global_flag = the_china_united_front
+set_country_flag = sgn_bianqu
 }
 1940.6.1 = {
 set_country_flag = Event290000
+}
+1941.1.6 = {
+set_global_flag = Event700007
 }
 1941.5.22 = {
 oob = "CHC_1941.txt"

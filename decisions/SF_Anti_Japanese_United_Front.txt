@@ -44,7 +44,6 @@ diplomatic_decisions = {
 		potential = {
 			tag = CHI
 			not = { has_global_flag = the_china_united_front }
-			not = { has_country_flag = Xian_conversation4 }
 			exists = CHC
 			not = { war_with = CHC }
 			has_global_flag = Yanan_conversation1

@@ -5,7 +5,7 @@ country_event = {
 	desc = "diyizhanqudesc"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_SF_FT.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -17,7 +17,7 @@ country_event = {
 	desc = "disanzhanqudesc"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_SF_ST.txt"
 		ai_chance = { factor = 100 }
 		CHI = {
@@ -50,7 +50,7 @@ country_event = {
 	desc = "SCTD"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_SF_CT.txt"
 		ai_chance = { factor = 100 }
                remove_brigade = "32军司令部"
@@ -83,7 +83,7 @@ country_event = {
 	desc = "diwuzhanqudesc"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_SF_3T.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -95,7 +95,7 @@ country_event = {
 	desc = "12Adesc"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "12A.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -107,7 +107,7 @@ country_event = {
 	desc = "DBZQ"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_TSA.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -119,7 +119,7 @@ country_event = {
 	desc = "DJZQD"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_NIT.txt"
 		CHI = {
 			remove_brigade = "第151旅"
@@ -137,7 +137,7 @@ country_event = {
 	desc = "TEWD"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_HENY.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -149,7 +149,7 @@ country_event = {
 	desc = "DLZQD"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_SIT.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -161,7 +161,7 @@ country_event = {
 	desc = "SLZQD"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_SLT.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -173,7 +173,7 @@ country_event = {
 	desc = "JCZQD"
 	picture = "CHI_Flag"
 	option = {
-		name = "成立"
+		name = "theatreop"
 		load_oob = "CHI_JCT.txt"
 		ai_chance = { factor = 100 }
 	}

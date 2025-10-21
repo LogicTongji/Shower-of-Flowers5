@@ -1,3 +1,4 @@
+#卢沟桥事变
 province_event = {
 	id = 2025118
 	title = "EVTNAME700"
@@ -29,5 +30,27 @@ province_event = {
 			name = battle_lost
 			duration = 25
 		}
+	}
+}
+#皖南事变
+province_event = {
+	id = 7229
+	is_triggered_only = yes
+	 fire_only_once = yes
+	title = "FG9qh"
+	desc = "FG9desc"
+	picture = "disanzhanqu"
+                trigger = {
+		tag = CHC
+                exists = CHI
+                has_global_flag = Event700007
+                has_global_flag = Event700008
+                has_global_flag = Event700001 
+                CHI = { controls = 9478 }
+	}
+	option = {
+		name = "让狗娘养的蒋光头看着！"
+                load_oob = "N4A.txt"
+		ai_chance = { factor = 100 }
 	}
 }

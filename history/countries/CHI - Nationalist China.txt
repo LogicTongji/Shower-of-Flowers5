@@ -124,6 +124,9 @@ economic_law = full_civilian_economy
 conscription_law = service_by_requirement
 civil_law = totalitarian_system
 
+1933.6.1 = {
+set_global_flag = Anti_jap_front_great_wall_loss
+}
 1935.6.1 = {
 set_country_flag = Xian_war_ShanXi_Commist 
 set_global_flag = Anti_jap_front_great_wall
@@ -191,8 +194,16 @@ civil_law = totalitarian_system
 }
 1935.12.25 = {
 set_country_flag = 129yundong
+set_country_flag = Intagrate_China_SiChuan
 }
-
+1937.2.13 ={
+set_country_flag = Xian_conversation
+}
+1937.8.15 = {
+set_country_flag = CHI_Kangzhan
+set_country_flag = HeGuoguang_goto_SiChuan
+set_country_flag = KRJW
+}
 
 1938.1.1 = {
 capital = 9478
@@ -224,8 +235,10 @@ set_global_flag = Event2000073
 set_country_flag = Event2000077
 set_global_flag = ZSHBQFTYUE 
 set_global_flag = Event10000272
-set_country_flag = jap_seizes_coast_chi
 set_country_flag = Event2018417	
+}
+1938.1.21 = {
+set_global_flag = Event1000101
 }
 1938.9.1 = {
 set_country_flag = jap_seizes_coast_chi
@@ -326,14 +339,23 @@ guerilla_warfare = 1
 operational_level_organisation = 0
 }
 1940.1.1 = { national_unity = 100 }
+1941.2.1 ={
+         set_global_flag = Event700001
+}
 1941.12.7 = {
 oob = "CHI_DayOfInfamy.txt"
 }
 1942.2.1 = {
-set_country_flag = CHI_Event_1000057
+set_country_flag = CHI_warto_jap
 }
 1944.6.7 = {
 oob = "CHI_1944.txt"
+}
+1945.9.3 = {
+set_global_flag = JAP_Lost
+}
+1945.10.10 = {
+set_global_flag = Chongqing_negotiations
 }
 1946.5.1 = {
 capital = 9478
@@ -418,10 +440,15 @@ guerilla_warfare = 1
 operational_level_organisation = 0
 
 
-set_global_flag = Chongqing_negotiations
+
 
 }
-1946.7.1 = { set_global_flag = China_CivilWar }
+1946.6.2 = {
+set_global_flag = JUNE_negotiations 
+}
+1946.7.1 = { set_global_flag = China_CivilWar
+set_global_flag = CHINA_CIVIL_WAR
+}
 1948.5.22 = {
 head_of_government = 52002
 oob = "CHI_1948.txt"

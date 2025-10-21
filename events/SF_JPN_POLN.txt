@@ -75,6 +75,7 @@ country_event = {
 		exists = JPN
 		year = 1945
 		 has_global_flag = Yaert
+         has_global_flag = EventMCD  
 		   }
 	option = {
 		name = "EVTOPTA520"

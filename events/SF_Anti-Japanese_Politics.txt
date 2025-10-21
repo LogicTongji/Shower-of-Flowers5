@@ -12,7 +12,9 @@ country_event = {
 		or = { tag = CHC tag = CXB }
 		war_with = JAP
 		not = { has_country_flag = kangda }
-		or = { has_global_flag = Event10000271 has_global_flag = Event10000272 }
+		or = { has_global_flag = Event10000271 
+		       has_global_flag = Event10000272 
+			   }
 		not = { year = 1938 }
 		date = 1937.1.20
 	}
@@ -39,6 +41,7 @@ country_event = {
 		exists = CHI
 		not = { has_country_flag = CHC_Event_1000053 }
 		not = { year = 1938 }
+		has_country_flag = CHI_Kangzhan
 		has_global_flag = chc_jinchaji
 	}
 	mean_time_to_happen =  {
@@ -111,7 +114,8 @@ country_event = {
 	trigger = {
 		tag = CHI
 		war_with = JAP
-		not = { has_country_flag = CHI_Event_1000057 }
+		not = { has_country_flag = CHI_warto_jap }
+		has_country_flag = CHI_Kangzhan
 		USA = { war_with = JAP }
 	}
 	mean_time_to_happen =  {
@@ -119,7 +123,7 @@ country_event = {
 	}
 	option = {
 		name = "CHI_Event_1000057_option"
-		set_country_flag = CHI_Event_1000057
+		set_country_flag = CHI_warto_jap
 		CHC = { country_event = 1000058 }
 		CGX = { country_event = 1000058 }
 		CSX = { country_event = 1000058 }
@@ -141,7 +145,7 @@ country_event = {
 	desc = "CHI_Event_1000057_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "≈∂"
+		name = "CHI_Event_1000057_option"
 	}
 }
 #π‚∏¥¥Û¡¨

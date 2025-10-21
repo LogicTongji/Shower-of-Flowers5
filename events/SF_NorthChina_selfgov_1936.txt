@@ -4,11 +4,11 @@
 country_event = {
                 is_triggered_only = yes
 	id = 2019324
-	title = "华北五省自治"
+	title = "hbwst"
 	desc = "hbwss"
 	picture = "JAP_flag"
         option = {
-		name = "帝国万岁！"
+		name = "hbwsp"
 		relation = { who = CHI value = -100 }
 		CHI = { country_event = 2019711 }
 	}
@@ -16,11 +16,11 @@ country_event = {
 country_event = {
                 is_triggered_only = yes
 	id = 2019711
-	title = "华北五省自治"
+	title = "HBWST"
 	desc = "HBWS"
 	picture = "CHI_flag"
         option = {
-		name = "他妈的"
+		name = "HBWSOP"
 		relation = { who = JAP value = -100 }
 		JAP = { threat = { who = CHI value = 20 
      who = CHC value = 20 
@@ -33,11 +33,10 @@ country_event = {
 }
 country_event = {
           id = 2019405
+		  fire_only_once = yes
           trigger = {
 		tag = JAP
                 date = 1936.3.1
-                not = { has_global_flag = Event2019405
-	            has_global_flag = error2019405 }
 	            not = { year = 1937 }
                 has_global_flag = huabeiwusheng
           }
@@ -46,7 +45,6 @@ country_event = {
           picture = "JAP_flag"
           option = {
 		name = "JAP1_option1"
-		set_global_flag = Event2019405
 		relation = { who = CHC value = -100 }
 		dissent = -10
 		CSX = { country_event = 2019406 }
@@ -54,7 +52,6 @@ country_event = {
          }
 	 option = {
 		name = "JAP1_option2"
-           	set_global_flag = error2019405
                 national_unity = -5
                 dissent = 2
 		ai_chance = { factor = 0 }
@@ -94,11 +91,10 @@ country_event = {
 }
 country_event = {
           id = 2019408
+		  fire_only_once = yes
           trigger = {
 		tag = JAP
                 date = 1936.6.1
-                not = { has_global_flag = Event2019408
-	            has_global_flag = error2019408 }
 	            not = { year = 1937 }
                 has_global_flag = huabeiwusheng
           }
@@ -107,7 +103,6 @@ country_event = {
           picture = "JAP_flag"
           option = {
 		name = "JAP3_option1"
-		set_global_flag = Event2019408
 		relation = { who = CHI value = -100 }
 		dissent = -10
 		CSD = { country_event = 2019409 }
@@ -115,7 +110,6 @@ country_event = {
          }
 	 option = {
 		name = "JAP3_option2"
-           	set_global_flag = error2019408
                 national_unity = -5
                 dissent = 2
 		ai_chance = { factor = 0 }
@@ -155,11 +149,10 @@ country_event = {
 }
 country_event = {
           id = 20194011
+		  fire_only_once = yes
           trigger = {
 		tag = JAP
                 date = 1936.6.20
-                not = { has_global_flag = Event2019409
-	            has_global_flag = error2019409 }
 	            not = { year = 1937 }
                 has_global_flag = huabeiwusheng
           }
@@ -168,7 +161,6 @@ country_event = {
           picture = "JAP_flag"
           option = {
 		name = "JAP5_option1"
-		set_global_flag = Event2019409
 		relation = { who = CHI value = -100 }
 		dissent = -10
 		CSY = { country_event = 2019412 }
@@ -176,7 +168,6 @@ country_event = {
          }
 	 option = {
 		name = "JAP5_option2"
-           	set_global_flag = error2019409
                 national_unity = -5
                 dissent = 2
 		ai_chance = { factor = 0 }
@@ -216,11 +207,10 @@ country_event = {
 }
 country_event = {
           id = 2019414
+		  fire_only_once = yes
           trigger = {
 		tag = JAP
-                date = 1936.6.20
-                not = { has_global_flag = Event2019410
-	            has_global_flag = error2019410 }
+                date = 1936.6.25
 	            not = { year = 1937 }
                 has_global_flag = huabeiwusheng
           }
@@ -229,7 +219,6 @@ country_event = {
           picture = "JAP_flag"
           option = {
 		name = "JAP8_option1"
-		set_global_flag = Event2019410
 		relation = { who = CHI value = -100 }
 		dissent = -10
 		CJC = { country_event = 2019415 }
@@ -237,7 +226,6 @@ country_event = {
          }
 	 option = {
 		name = "JAP8_option2"
-           	set_global_flag = error2019410
                 national_unity = -5
                 dissent = 2
 		ai_chance = { factor = 0 }

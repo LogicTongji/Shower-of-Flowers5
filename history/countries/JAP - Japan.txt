@@ -488,6 +488,7 @@ oob = "JAP_1936.txt"
 1936.11.25 = {
 	join_faction = axis
 	neutrality = 30
+	set_global_flag = huabeiwusheng
 } # Anti-Comintern Pact
 1937.11.25 = {	
 			set_global_flag = Man_Chu_develop1
@@ -1164,6 +1165,7 @@ oob = "JAP_DayOfInfamy.txt"
 } # Pearl Harbour
 1941.12.12={
 	decision = tora_tora
+	set_global_flag = JAPsouthing
 }
 1942.6.4 = {
 set_global_flag = ManChu_develop_desicion4

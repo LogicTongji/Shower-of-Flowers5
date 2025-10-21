@@ -7,7 +7,7 @@ country_event = {
 	picture = "Event32"
 	trigger = {
 		tag = CHI
-                exists = CHI
+                exists = CHC
 		date = 1941.1.1
 		not = { year = 1944 }
                 CHI = { controls = 9478 }
@@ -21,7 +21,7 @@ country_event = {
 		ai_chance = { factor = 100 }
        	}
 	option = {
-		name = "我们应以抗战大局为重"
+		name = "73option2"
 		ai_chance = { factor = 0 }
 	}
 }
@@ -34,13 +34,11 @@ country_event = {
                 trigger = {
 		tag = CHC
                 exists = CHI
-                not = { has_global_flag = Event700002 }
                 has_global_flag = Event700001 
                 CHI = { controls = 9478 }
 	}
 	option = {
 		name = "FG"
-                set_global_flag = Event700002
                 CHI = { country_event = 7224 }
 		ai_chance = { factor = 100 }
 	}
@@ -91,7 +89,7 @@ country_event = {
                 CHI = { controls = 9478 }
 	}
 	option = {
-		name = "打"
+		name = "FG6qhop"
                 CHC = { country_event = 7227 }
                 CSC = { country_event = 7228 }
                 CNM = { country_event = 7228 }
@@ -110,6 +108,7 @@ country_event = {
 	option = {
 		name = "FG6"
                 kill_leader = 76314
+				leave_alliance = CHI
                  set_global_flag = Event700007
 		ai_chance = { factor = 100 }
 	}
@@ -121,28 +120,8 @@ country_event = {
 	desc = "FG8desc"
 	picture = "disanzhanqu"
 	option = {
-		name = "声讨蒋光头！"
+		name = "FG8qhop"
                 set_global_flag = Event700008
-		ai_chance = { factor = 100 }
-	}
-}
-country_event = {
-	id = 7229
-	 fire_only_once = yes
-	title = "FG9qh"
-	desc = "FG9desc"
-	picture = "disanzhanqu"
-                trigger = {
-		tag = CHC
-                exists = CHI
-                has_global_flag = Event700007
-                has_global_flag = Event700008
-                has_global_flag = Event700001 
-                CHI = { controls = 9478 }
-	}
-	option = {
-		name = "让狗娘养的蒋光头看着！"
-                load_oob = "N4A.txt"
 		ai_chance = { factor = 100 }
 	}
 }
@@ -161,7 +140,7 @@ country_event = {
                 CHI = { controls = 9478 }
 	}
 	option = {
-		name = "这只是开始！"
+		name = "FG10qhoop"
                   add_country_modifier = {
 			name = "Event72_modifier"
 			duration = 120

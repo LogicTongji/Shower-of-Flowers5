@@ -827,10 +827,9 @@ set_global_flag = SOV_need
 }
 1943.5.15 = {
 	decision = dissolution_of_the_third_international
+	set_global_flag = against_germany
 }
-1943.11.1 = {
- set_global_flag = EventMCD   
- }
+
 1944.6.20 = {
 	head_of_state = 4001
 	head_of_government = 4002
@@ -946,3 +945,6 @@ set_global_flag = SOV_need
 	set_global_flag = GER_Lost
 	oob = "SOV_1946.txt"
 }
+1945.11.1 = {
+ set_global_flag = EventMCD  
+ }

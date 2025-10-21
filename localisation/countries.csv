@@ -68,7 +68,7 @@ OMN;阿曼;Oman;Oman;;Om醤;;;;;;;;;x
 OTT;奥斯曼帝国;Empire ottoman;Ottomanisches Reich;;Imperio Otomano;;;;;;;;;x
 PAL;巴勒斯坦;Palestine;Pal鋝tina;;Palestina;;;;;;;;;x
 PER;伊朗;Perse;Persien;;Persia;;;;;;;;;x
-SAU;沙特阿拉伯;Arabie Saoudite;Saudiarabien;;Arabia Saud?;;;;;;;;x
+SAU;沙特阿拉伯;Arabie Saoudite;Saudiarabien;;Arabia Saud?;;;;;;;;;x
 SYR;叙利亚;Syrie;Syrien;;Siria;;;;;;;;;x
 TUR;土耳其;Turquie;T黵kei;;Turqu韆;;;;;;;;;x
 YEM;也门;Y閙en;Jemen;;Yemen;;;;;;;;;x
@@ -115,7 +115,7 @@ BEN;贝宁;B閚in-Sahel;Benin-Sahel;;Benin-Sahel;;;;;;;;;x
 GLD;黄金海岸;C魌e d'Or;Goldk黶te;;Costa de Oro;;;;;;;;;x
 GUI;几内亚;Guin閑;Guinea;;Guinea;;;;;;;;;x
 LIB;利比里亚;Lib閞ia;Liberia;;Liberia;;;;;;;;;x
-MAL;马里联邦;Mali;Mali-Union;;Uni髇 de Mal?;;;;;;;;x
+MAL;马里联邦;Mali;Mali-Union;;Uni髇 de Mal?;;;;;;;;;x
 NIG;尼日利亚;Nig閞ia;Nigeria;;Nigeria;;;;;;;;;x
 SIE;塞拉利昂;Sierra Leone;Sierra Leone;;Sierra Leona;;;;;;;;;x
 KON;刚果;Congo;Kongo;;El Congo;;;;;;;;;x
@@ -141,10 +141,10 @@ CUB;古巴;Cuba;Kuba;;Cuba;;;;;;;;;x
 COS;哥斯达黎加;Costa Rica;Costa Rica;;Costa Rica;;;;;;;;;x
 DOM;多米尼加;R閜ublique Dominicaine;Dominikanische Republik;;Rep鷅lica Dominicana;;;;;;;;;x
 GUA;危地马拉;Guat閙ala;Guatemala;;Guatemala;;;;;;;;;x
-HAI;海地;Ha飔i;Haiti;;Hait?;;;;;;;;x
+HAI;海地;Ha飔i;Haiti;;Hait?;;;;;;;;;x
 HON;洪都拉斯;Honduras;Honduras;;Honduras;;;;;;;;;x
 NIC;尼加拉瓜;Nicaragua;Nicaragua;;Nicaragua;;;;;;;;;x
-PAN;巴拿马;Panama;Panama;;Panam?;;;;;;;;x
+PAN;巴拿马;Panama;Panama;;Panam?;;;;;;;;;x
 SAL;萨尔瓦多;Salvador;El Salvador;;El Salvador;;;;;;;;;x
 ARG;阿根廷;Argentine;Argentinien;;Argentina;;;;;;;;;x
 BOL;玻利维亚;Bolivie;Bolivien;;Bolivia;;;;;;;;;x
@@ -155,7 +155,7 @@ ECU;厄瓜多尔;蓂uateur;Ekuador;;Ecuador;;;;;;;;;x
 GUY;圭亚那;Guyane;Guyana;;Guayana;;;;;;;;;x
 MEX;墨西哥;Mexique;Mexiko;;M閤ico;;;;;;;;;x
 PAR;巴拉圭;Paraguay;Paraguay;;Paraguay;;;;;;;;;x
-PRU;秘鲁;P閞ou;Peru;;Per?;;;;;;;;x
+PRU;秘鲁;P閞ou;Peru;;Per?;;;;;;;;;x
 TEX;德克萨斯;Texas;Texas;;Texas;;;;;;;;;x
 URU;乌拉圭;Uruguay;Uruguay;;Uruguay;;;;;;;;;x
 VEN;委内瑞拉;V閚閦uela;Venezuela;;Venezuela;;;;;;;;;x
@@ -220,18 +220,18 @@ ARM_ADJ;亚美尼亚的;Arm閚ien;Armenisch;;Armenia;;;;;;;;;x
 AZB_ADJ;阿塞拜疆的;Az閞i;Aserbaidschanisch;;Azerbaiyana;;;;;;;;;x
 CYP_ADJ;塞浦路斯的;Chypriote;Zypriotisch;;Chipriota;;;;;;;;;x
 GEO_ADJ;格鲁吉亚的;G閛rgien;Georgisch;;Georgiana;;;;;;;;;x
-IRQ_ADJ;伊拉克的;Iraquien;Irakisch;;Iraqu?;;;;;;;;x
-ISR_ADJ;以色列的;Isra閘ien;Israelisch;;Israel?;;;;;;;;x
+IRQ_ADJ;伊拉克的;Iraquien;Irakisch;;Iraqu?;;;;;;;;;x
+ISR_ADJ;以色列的;Isra閘ien;Israelisch;;Israel?;;;;;;;;;x
 JOR_ADJ;约旦的;Jordanien;Jordanisch;;Jordana;;;;;;;;;x
 LEB_ADJ;黎巴嫩的;Libanais;Libanesisch;;Libanesa;;;;;;;;;x
-OMN_ADJ;阿曼的;Omanais;Omanisch;;Oman?;;;;;;;;x
+OMN_ADJ;阿曼的;Omanais;Omanisch;;Oman?;;;;;;;;;x
 OTT_ADJ;奥斯曼的;Ottoman;Ottomanisch;;Otomano;;;;;;;;;x
 PAL_ADJ;巴勒斯坦的;Palestinien;Pal鋝tinensisch;;Palestina;;;;;;;;;x
 PER_ADJ;伊朗的;Perse;Persisch;;Persa;;;;;;;;;x
-SAU_ADJ;沙特的;Saudien;Saudisch;;Saud?;;;;;;;;x
+SAU_ADJ;沙特的;Saudien;Saudisch;;Saud?;;;;;;;;;x
 SYR_ADJ;叙利亚的;Syrien;Syrisch;;Siria;;;;;;;;;x
 TUR_ADJ;土耳其的;Turc;T黵kisch;;Turca;;;;;;;;;x
-YEM_ADJ;也门的;Y閙閚ite;Jemenitisch;;Yemen?;;;;;;;;x
+YEM_ADJ;也门的;Y閙閚ite;Jemenitisch;;Yemen?;;;;;;;;;x
 KAZ_ADJ;哈萨克的;Kazakh;Kasachisch;;Kazaka;;;;;;;;;x
 KUR_ADJ;库尔德的;Kurde;Kurdisch;;Curda;;;;;;;;;x
 KYG_ADJ;吉尔吉斯的;Kirghiz;Kirgisisch;;Kirguistana;;;;;;;;;x
@@ -240,8 +240,8 @@ TRK_ADJ;土库曼的;Turkm鑞e;Turkmenisch;;Turkmen;;;;;;;;;x
 UZB_ADJ;乌兹别克的;Ouzbek;Usbekisch;;Uzbeka;;;;;;;;;x
 BHU_ADJ;不丹的;Bhoutanais;Bhutanisch;;Butanesa;;;;;;;;;x
 IND_ADJ;印度的;Indien;Indisch;;India;;;;;;;;;x
-NEP_ADJ;尼泊尔的;N閜alais;Nepalesisch;;Nepal?;;;;;;;;x
-PAK_ADJ;巴基斯坦的;Pakistanais;Pakistanisch;;Pakistan?;;;;;;;;x
+NEP_ADJ;尼泊尔的;N閜alais;Nepalesisch;;Nepal?;;;;;;;;;x
+PAK_ADJ;巴基斯坦的;Pakistanais;Pakistanisch;;Pakistan?;;;;;;;;;x
 CGX_ADJ;桂系的;Guangxi;Guangxi ;;Guangxi ;;;;;;;;;x
 CHC_ADJ;中国的;Chinois;Chinesisch;;China;;;;;;;;;x
 CHI_ADJ;中国的;Chinois;Chinesisch;;China;;;;;;;;;x

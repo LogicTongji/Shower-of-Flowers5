@@ -22,7 +22,7 @@ guiTypes = {
 		{
 			name ="event_images"
 			spriteType = "GFX_prov_event_no_image"
-			position = { x= 85 y = 85 }
+			position = { x= 20 y = 85 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -56,7 +56,7 @@ guiTypes = {
 				name = "Description"
 				position = { x = 318 y = 463 }
 				textureFile = ""
-				font = "Arial16_black"
+				font = "Arial16"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
 				maxWidth = 563
@@ -70,7 +70,7 @@ guiTypes = {
 	}
 	guiButtonType = {
 		name = "EventPOptionButton"
-		position = { x = 308 y = 631 }
+		position = { x = 565 y = 671 }
 		quadTextureSprite ="GFX_button_standard_510"
 		tooltip = ""
 		tooltipText =""
@@ -86,7 +86,7 @@ guiTypes = {
 
 	positionType = {
 		name = "event_province_option_offset"
-		position = { x = 308 y = 50 }
+		position = { x = 378 y = 45 }
 	}
 	
 

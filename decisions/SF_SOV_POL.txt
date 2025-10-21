@@ -21,7 +21,7 @@ diplomatic_decisions = {
 	Xaction_East_eroup2 = {
 		major = yes
 		potential = {
-			tag = ENG
+			tag = GER
 			not = { has_global_flag = Xaction_East_eroup_gizui2 } 
 			total_amount_of_divisions = 1000
 			exists = SOV

@@ -1009,6 +1009,9 @@ civil_law = totalitarian_system
 	construction_practical = 10
 	amphibious_invasion_craft = 1
 }
+1943.12.1 = {
+            set_global_flag = Event80
+}
 1944.6.20 = {
 	head_of_state = 6001
 	head_of_government = 6032

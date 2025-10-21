@@ -13,6 +13,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		FROM = { TAG = JAP }
+		has_country_flag = CHI_Kangzhan
 		not = { has_global_flag = Event10000272 }
 		not = { has_country_flag = jap_seizes_coast_chi }
 	}

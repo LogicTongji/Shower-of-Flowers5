@@ -76,7 +76,6 @@ country_event = {
           picture = "JA9_lag"
           option = {
 		name = "CHI9_option1"
-		set_global_flag = Event2019425
                                 national_unity = 8
 		relation = { who = CHC value = 100 }
 		dissent = -10
@@ -85,7 +84,6 @@ country_event = {
          }
 	 option = {
 		name = "CSX9_option2"
-           	set_global_flag = Event2019425
                 national_unity = -80
                 dissent = 80
 		ai_chance = { factor = 0 }
@@ -116,7 +114,7 @@ country_event = {
 country_event = {
 	id = 3000091
 	fire_only_once = yes
-	title = "建立防共间谍网"
+	title = "Event_3000091title"
 	desc = "Event_3000091decs"
 	picture = "Event3000089"
 	trigger = {
@@ -128,7 +126,8 @@ country_event = {
 		days = 1
 	}
 	option = {
-		name = "宁可错杀一万"
+		name = "Event_3000091op1"
+		load_oob = "CSXtwt.txt"
 		set_country_flag = Event3000091
                 relation = { who = CHC value = -50 }
                 dissent = 5
@@ -136,7 +135,7 @@ country_event = {
 		ai_chance = { factor = 100 }
         }
 	option = {
-		name = "我不亡于共，亦要亡于蒋"
+		name = "Event_3000091op2"
                 national_unity = 5
                 relation = { who = CHI value = -50 }
                 threat = { who = CHI value = 50 }
@@ -144,32 +143,9 @@ country_event = {
 	}
 }
 country_event = {
-	id = 3000092
-	fire_only_once = yes
-                trigger = {
-		tag = CSX
-		not = { year = 1937 }
-                                has_country_flag = Event3000091
-	}
-        mean_time_to_happen =  {
-		days = 1
-	}
-	title = "设立赏罚制度"
-	desc = "Event_3000092decs"
-	picture = "Event1100101"
-	option = {
-		name = "让共产党滚出山西"
-                                set_country_flag = Event30000911 
-		load_oob = "CSXtwt.txt"
-	        money = -500
-                threat = { who = CHC value = 50 }
-		ai_chance = { factor = 0 }
-	}
-}
-country_event = {
 	id = 3000093
 	fire_only_once = yes
-	title = "停止防共网络建设"
+	title = "Event_3000093itle"
 	desc = "Event_3000093decs"
 	picture = "Event3000089"
 	trigger = {
@@ -177,13 +153,12 @@ country_event = {
 		not = { year = 1937 }
                 	date = 1936.5.1
                 	has_country_flag = Event3000091
-                	has_country_flag = Event30000911 
 	}
         mean_time_to_happen =  {
 		days = 1
 	}
 	option = {
-		name = "宁可错杀一万"
+		name = "Event_3000091op1"
                 relation = { who = CHC value = -50 }
                 dissent = 50
                 national_unity = -90
@@ -191,7 +166,7 @@ country_event = {
 		ai_chance = { factor = 0 }
       	}
 	option = {
-		name = "还是联合共产党吧"
+		name = "Event_3000091op22"
                 national_unity = 5
                 manpower = -10
                 dissent = -10
@@ -243,7 +218,7 @@ country_event = {
 	id = 3000098
 	fire_only_once = yes
 	major = yes
-	title = "成立牺牲救国同盟会"
+	title = "Event_3000098title"
 	desc = "Event_3000098decs"
 	picture = "Event3000089"
 	trigger = {
@@ -263,43 +238,6 @@ country_event = {
                 national_unity = 10
 		ai_chance = { factor = 100 }
         }
-	option = {
-		name = "没必要"
-                national_unity = -50
-                dissent = 50 
-                relation = { who = CHC value = -50 }
-                threat = { who = CHI value = 50 }
-		ai_chance = { factor = 0 }
-	}
-}
-country_event = {
-	id = 3000000
-	fire_only_once = yes
-	title = "暗杀投蒋将领"
-	desc = "Event3000000decs"
-	picture = "Event3000089"
-	trigger = {
-		tag = CSX
-		not = { year = 1937 }
-                                date = 1936.3.12	
-	}
-        mean_time_to_happen =  {
-		days = 1
-        }
-	option = {
-		name = "杀了他们"
-                relation = { who = CHI value = -100 }
-                dissent = 5
-                national_unity = 5
-		ai_chance = { factor = 100 }
-       	}
-	option = {
-		name = "算了吧"
-                relation = { who = CHI value = 50 }
-                dissent = 10
-                national_unity = -5
-		ai_chance = { factor = 0 }
-	}
 }
 country_event = {
 	id = 193616

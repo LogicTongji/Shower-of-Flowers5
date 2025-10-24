@@ -121,9 +121,14 @@ diplomatic_decisions = {
                              controls = 5716
                              controls = 5733
 		          } 
+				      CHC = { 	
+			controls = 5241
+                             controls = 7398
+		          } 
 		}
 		effect = {
 			set_global_flag = Long_March
+			province_event = 190019
                              manpower = -160
 		}
 		ai_will_do = {

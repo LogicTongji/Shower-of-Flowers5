@@ -1,56 +1,153 @@
-#卢沟桥事变
+#长征
 province_event = {
-	id = 2025118
-	title = "EVTNAME700"
-	desc = "EVTDESC700"
-	picture = "lugqsb"
-	
+	id = 190019
+	title = "Long_Marchtitle"
+	desc = "Long_Marchdesc"
+	picture = "LongMarch_superevent"
 	is_triggered_only = yes
 	fire_only_once = yes
-	
+	option = {
+		name = "Long_Marchoption"
+}
+}
+#西安事变
+province_event = {
+	id = 190020
+	title = "Xian_incidencetitle"
+	desc = "Xian_incidencedesc"
+	picture = "XIan_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
 	trigger = {
-		province_id = 1982
-		OR = {
-			last_battle_winner_losses = 1000
-			last_battle_loser_losses = 1000
-		}
+	OR = {
+	     tag = CHI
+		 tag = CHC 
+		 tag = CYN
+		 tag = CGX
+		 tag = CSC
+		 tag = CXK
+		 tag = CSX
+		 tag = CSD
+		 tag = CJC
+		 tag = CQM
+		 tag = CNM
+	}
+		CDB = { has_country_flag = Xaction_CDB } 
 	}
 	
 	option = {
-		name = "EVTOPTA700"
-		add_country_modifier = {
-			name = bzura_battle_lost
-			duration = 25
-		}
+		name = "Xian_incidenceoption"
+}
+}
+#卢沟桥事变
+province_event = {
+	id = 190021
+	title = "AntiJapan_lugoutitle"
+	desc = "AntiJapan_lugoudesc"
+	picture = "AntiJapan_lugou"
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	OR = {
+	     tag = CHI
+		 tag = CHC 
+		 tag = CYN
+		 tag = CGX
+		 tag = CSC
+		 tag = CXK
+		 tag = CSX
+		 tag = CSD
+		 tag = CJC
+		 tag = CQM
+		 tag = CNM
+	}
+		CHI = { has_country_flag = CHI_Passive_defense }
 	}
 	
 	option = {
-		name = "EVTOPTB700"
-		add_country_modifier = {
-			name = battle_lost
-			duration = 25
-		}
+		name = "AntiJapan_lugouoption"
+}
+}
+#抗日战争相持阶段
+province_event = {
+	id = 190022
+	title = "Wuhanbattletitle"
+	desc = "Wuhanbattledesc"
+	picture = "WuHan_battle_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	OR = {
+	     tag = CHI
+		 tag = CHC 
+		 tag = CYN
+		 tag = CGX
+		 tag = CSC
+		 tag = CXK
+		 tag = CSX
+		 tag = CSD
+		 tag = CJC
+		 tag = CQM
+		 tag = CNM
 	}
+		CHI = { has_country_flag = CHI_Passive_defense }
+	}
+	
+	option = {
+		name = "Wuhanbattleoption"
+}
+}
+#抗战胜利
+province_event = {
+	id = 190022
+	title = "Anti_Japan_win_title"
+	desc = "Anti_Japan_win_desc"
+	picture = "AntiJapan_win"
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	OR = {
+	     tag = CHI
+		 tag = CHC 
+		 tag = CYN
+		 tag = CGX
+		 tag = CSC
+		 tag = CXK
+		 tag = CSX
+		 tag = CSD
+		 tag = CJC
+		 tag = CQM
+		 tag = CNM
+	}
+	not = {
+	year = 1946
+	}
+		 has_global_flag = JAP_Lost
+	}
+	
+	option = {
+		name = "Anti_Japan_win_option"
+}
 }
 #皖南事变
-province_event = {
-	id = 7229
-	is_triggered_only = yes
-	 fire_only_once = yes
-	title = "FG9qh"
-	desc = "FG9desc"
-	picture = "disanzhanqu"
-                trigger = {
-		tag = CHC
-                exists = CHI
-                has_global_flag = Event700007
-                has_global_flag = Event700008
-                has_global_flag = Event700001 
-                CHI = { controls = 9478 }
-	}
-	option = {
-		name = "让狗娘养的蒋光头看着！"
-                load_oob = "N4A.txt"
-		ai_chance = { factor = 100 }
-	}
-}
+#province_event = {
+#	id = 7229
+#	is_triggered_only = yes
+#	 fire_only_once = yes
+#	title = "FG9qh"
+#	desc = "FG9desc"
+#	picture = "disanzhanqu"
+#                trigger = {
+#		tag = CHC
+ #               exists = CHI
+ #               has_global_flag = Event700007
+ #               has_global_flag = Event700008
+ #               has_global_flag = Event700001 
+ #               CHI = { controls = 9478 }
+#	}
+#	option = {
+#		name = "让狗娘养的蒋光头看着！"
+ #               load_oob = "N4A.txt"
+#		ai_chance = { factor = 100 }
+#	}
+#}

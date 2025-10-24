@@ -39,7 +39,7 @@ country_event = {
         }
 }
 country_event = {
-	id = 190019
+	id = 290019
     is_triggered_only = yes
 	title = "EVENT190019title"
 	desc = "EVENT190019desc"

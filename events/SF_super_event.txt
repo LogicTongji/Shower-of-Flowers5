@@ -99,7 +99,7 @@ province_event = {
 }
 #¿¹Õ½Ê¤Àû
 province_event = {
-	id = 190022
+	id = 190023
 	title = "Anti_Japan_win_title"
 	desc = "Anti_Japan_win_desc"
 	picture = "AntiJapan_win"

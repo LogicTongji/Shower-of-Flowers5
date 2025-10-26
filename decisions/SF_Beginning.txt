@@ -6,12 +6,7 @@ diplomatic_decisions = {
 	introduction_chc = {
 		potential = {
 			tag = CHC
-			or = {
-                             year = 1933
-			year = 1936
-			year = 1938
-			year = 1941
-			}		
+			year = 1936	
 			not = { 
 			year = 1945
 			has_country_flag = introduction_chc_1936 
@@ -32,12 +27,7 @@ diplomatic_decisions = {
 	introduction_chi = {
 		potential = {
 			tag = CHI
-			or = {
-                             year = 1933
 			year = 1936
-			year = 1938
-			year = 1941
-			}
 			not = { 
 			year = 1945
 			has_country_flag = introduction_chi_1936 
@@ -85,9 +75,7 @@ diplomatic_decisions = {
 	introduction_prc = {
 		potential = {
 			tag = PRC
-			or = {
-			year = 1949
-			}		
+			year = 1949	
 			not = { has_country_flag = introduction_prc_1949 } 
 		}
 		allow = {

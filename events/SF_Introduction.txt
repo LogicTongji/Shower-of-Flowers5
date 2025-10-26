@@ -7,7 +7,7 @@ country_event = {
 	title = "introduction_chc_title"
 	subtitle = "introduction_chc_subtitle"
 	desc = "introduction_chc"
-	picture = "CHC_Flag"
+	picture = "1936begin_CHC"
 	option = {
 		name = "introduction_chc_option"
 		ai_chance = { factor = 100 }
@@ -22,7 +22,7 @@ country_event = {
 	title = "introduction_chi_title"
 	subtitle = "introduction_chi_subtitle"
 	desc = "introduction_chi"
-	picture = "CHI_Flag"
+	picture = "1936begin_CHI"
 	option = {
 		name = "introduction_chi_option"
 		ai_chance = { factor = 100 }
@@ -37,7 +37,7 @@ country_event = {
 	title = "introduction_jap_title"
 	subtitle = "introduction_jap_subtitle"
 	desc = "introduction_jap"
-	picture = "JAP_Flag"
+	picture = "1936begin_JAP"
 	option = {
 		name = "introduction_jap_option"
 		ai_chance = { factor = 100 }
@@ -52,7 +52,7 @@ country_event = {
 	title = "introduction_prc_title"
 	subtitle = "introduction_prc_subtitle"
 	desc = "introduction_prc"
-	picture = "PRC_Flag"
+	picture = "1949begin_PRC"
 	option = {
 		name = "introduction_prc_option"
 		ai_chance = { factor = 100 }
@@ -67,7 +67,7 @@ country_event = {
 	title = "introduction_chcw_title"
 	subtitle = "introduction_chcw_subtitle"
 	desc = "introduction_chcw"
-	picture = "CHC_Flag"
+	picture = "1946begin_CHC"
 	option = {
 		name = "introduction_chc_option"
 		ai_chance = { factor = 100 }
@@ -82,7 +82,7 @@ country_event = {
 	title = "introduction_chiw_title"
 	subtitle = "introduction_chiw_subtitle"
 	desc = "introduction_chiw"
-	picture = "CHI_Flag"
+	picture = "1946begin_CHI"
 	option = {
 		name = "introduction_chi_option"
 		ai_chance = { factor = 100 }
@@ -97,7 +97,7 @@ country_event = {
 	title = "introduction_chc_title"
 	subtitle = "introduction_chc_subtitle"
 	desc = "introduction_chcf"
-	picture = "CHC_Flag"
+	picture = "1933begin_CHC"
 	option = {
 		name = "introduction_chc_option"
 		ai_chance = { factor = 100 }
@@ -105,14 +105,14 @@ country_event = {
 }
 country_event = {
 
-	id = 1000008
+	id = 1001118
 	
 	is_triggered_only = yes
 	
 	title = "introduction_chi_title"
 	subtitle = "introduction_chi_subtitle"
 	desc = "introduction_chif"
-	picture = "CHI_Flag"
+	picture = "1933begin_CHI"
 	option = {
 		name = "introduction_chi_option"
 		ai_chance = { factor = 100 }

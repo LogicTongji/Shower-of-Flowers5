@@ -10,7 +10,7 @@ province_event = {
 		name = "Long_Marchoption"
         }
 }
-长城抗战
+#长城抗战
 province_event = {
 	id = 190020
 	title = "Anti_jap_great_walltitle"
@@ -33,8 +33,7 @@ province_event = {
 		 tag = CNM
 	}
 		has_global_flag = Anti_jap_front_great_wall
-	}
-	
+	}	
 	option = {
 		name = "Anti_jap_great_walleoption"
         }

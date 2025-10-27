@@ -51,7 +51,7 @@ diplomatic_decisions = {
 		effect = {
 			set_global_flag = Anti_jap_front_great_wall
 						war = {
-                                        target = CHI 
+                                        target = JAP 
                                                            }
                             country_event = 12210
 		}

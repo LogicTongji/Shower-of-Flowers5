@@ -63,7 +63,9 @@ diplomatic_decisions = {
 		major = yes
 		potential = {
 			tag = CHI
-			not = { has_global_flag = Anti_jap_front_great_wall_win }
+			not = { has_global_flag = Anti_jap_front_great_wall_win
+			has_global_flag = Anti_jap_front_great_wall_loss
+			}
 			exists = CHI
 			exists = JAP
 			has_global_flag = the_war_attack_great_wall

@@ -313,7 +313,7 @@ ENDGAMEBOOY_TY_CSX_LOSS;我们在华北战场用我们血肉筑起的长城还是无法抵挡日军的铁蹄
 SCENARIO_XZ_NAME;徐州会战;;;;;;;;;;;;;;x
 SCENARIO_XZ_DESC;淞沪、华北一败再败，日军已经踏破了中华半壁江山。徐州——津浦线上的交通枢纽，能否阻止日军南进会师的铁蹄呢？;;;;;;;;;;;;;x
 ENDGAMEHEADER_XZ_CHI_WIN;我们的荣耀;;;;;;;;;;;;;x
-"ENDGAMEBOOY_XZ_CHI_WIN;我们狠狠地打击了穷凶极恶的日寇,我泱泱五千年之华夏绝不仅仅亡于三岛倭寇之手！;;;;;;;;;;;;;x"
+ENDGAMEBOOY_XZ_CHI_WIN;我们狠狠地打击了穷凶极恶的日寇,我泱泱五千年之华夏绝不仅仅亡于三岛倭寇之手！;;;;;;;;;;;;;x
 ENDGAMEBUTTON_XZ_CHI_LOSS;唉，国之将亡;;;;;;;;;;;;;x
 ENDGAMEHEADER_XZ_JAP_WIN;我们的荣耀;;;;;;;;;;;;;x
 ENDGAMEBOOY_XZ_JAP_WIN;大日本帝国的勇士们狠狠打击了不堪一击的重庆军，支那人终究还是挽救不了危亡之局。;;;;;;;;;;;;;x
@@ -332,7 +332,7 @@ XZ2_Allies;拱卫郑州;;;;;;;;;;;;;x
 SCENARIO_WH_NAME;武汉会战;;;;;;;;;;;;;x
 SCENARIO_WH_DESC;日军铁蹄已经逼近武汉三镇。三镇之地，为国家之交通枢纽，南北交通要隘，武汉一处之得失，事关国家之生死。;;;;;;;;;;;;;x
 ENDGAMEHEADER_WH_CHI_WIN;我们的荣耀;;;;;;;;;;;;;x
-"ENDGAMEBOOY_WH_CHI_WIN;我们狠狠地打击了穷凶极恶的日寇,我泱泱五千年之华夏绝不仅仅亡于三岛倭寇之手！;;;;;;;;;;;;;x"
+ENDGAMEBOOY_WH_CHI_WIN;我们狠狠地打击了穷凶极恶的日寇,我泱泱五千年之华夏绝不仅仅亡于三岛倭寇之手！;;;;;;;;;;;;;x
 ENDGAMEBUTTON_WH_CHI_LOSS;唉，国之将亡;;;;;;;;;;;;;x
 ENDGAMEHEADER_WH_JAP_WIN;我们的荣耀;;;;;;;;;;;;;x
 ENDGAMEBOOY_WH_JAP_WIN;大日本帝国的勇士们狠狠打击了不堪一击的重庆军，支那人终究还是挽救不了危亡之局。;;;;;;;;;;;;;x

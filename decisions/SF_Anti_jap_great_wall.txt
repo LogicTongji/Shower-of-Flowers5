@@ -23,9 +23,6 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag = the_war_attack_great_wall
-			war = {
-                                        target = CHI 
-                                                           }
                              war = {
                                         target = CSX 
                                                            }
@@ -53,7 +50,43 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag = Anti_jap_front_great_wall
+						war = {
+                                        target = CHI 
+                                                           }
                             country_event = 12210
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Anti_jap_front_great_wall_win = {
+		major = yes
+		potential = {
+			tag = CHI
+			not = { has_global_flag = Anti_jap_front_great_wall_win }
+			exists = CHI
+			exists = JAP
+			has_global_flag = the_war_attack_great_wall
+		}
+		allow = {
+			CHI = {
+				not = { 
+				       vassal_of = JAP 
+				                } 
+                controls = 5019
+		        controls = 4886
+                controls = 4934
+                controls = 4935
+                controls = 5055
+                controls = 4981
+           } 
+			date = 1933.5.6
+		}
+		effect = {
+			set_global_flag = Anti_jap_front_great_wall_win
+						CSY = { end_war = JAP }
+						CSX = { end_war = JAP }
+						CHI = { end_war = JAP }
 		}
 		ai_will_do = {
 			factor = 1

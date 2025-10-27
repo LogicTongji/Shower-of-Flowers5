@@ -7,7 +7,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "rehe0"
 	desc = "rehe0desc"
-	picture = "CHI_flag"
+	picture = "Anti_jap_front_great_wall1"
 	option = {
 		name = "rehe0_option"
                     national_unity = 15
@@ -21,12 +21,12 @@ country_event = {
 	}
 }
 country_event = {
-	id = 20231201
+	id = 390050
           fire_only_once = yes
           major = yes
 	title = "rehe1"
 	desc = "rehe1desc"
-	picture = "pinghan"
+	picture = "Anti_jap_front_great_wall2"
 	trigger = {
 		tag = CHI
 		war_with = JAP
@@ -58,7 +58,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "reheconversation"
 	desc = "reheconversationdesc"
-	picture = "CHI_flag"
+	picture = "Anti_jap_front_great_wall3"
 	option = {
 		name = "reheoption"
                              any_owned = { limit = { province_id = 5362 } secede_province = CJC } 
@@ -104,11 +104,11 @@ any_owned = { limit = { province_id = 4978 } secede_province = CHA }
 	}
 }
 country_event = {
-	id = 20231203
+	id = 390051
           fire_only_once = yes
 	title = "rehe2"
 	desc = "rehe2desc"
-	picture = "pinghan"
+	picture = "Anti_jap_front_great_wall4"
 	trigger = {
 		tag = CHI
                    has_global_flag = Anti_jap_front_great_wall_loss
@@ -131,11 +131,11 @@ country_event = {
 	}
 }
 country_event = {
-	id = 20231204
+	id = 390052
           fire_only_once = yes
 	title = "rehe3"
 	desc = "rehe3desc"
-	picture = "pinghan"
+	picture = "Anti_jap_front_great_wall5"
 	trigger = {
 		tag = CHI
                    has_global_flag = Anti_jap_front_great_wall_loss

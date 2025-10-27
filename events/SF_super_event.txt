@@ -8,11 +8,40 @@ province_event = {
 	fire_only_once = yes
 	option = {
 		name = "Long_Marchoption"
+        }
 }
+长城抗战
+province_event = {
+	id = 190020
+	title = "Anti_jap_great_walltitle"
+	desc = "Anti_jap_great_walldesc"
+	picture = "Greatwall_antijap_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+	OR = {
+	     tag = CHI
+		 tag = CHC 
+		 tag = CYN
+		 tag = CGX
+		 tag = CSC
+		 tag = CXK
+		 tag = CSX
+		 tag = CSD
+		 tag = CJC
+		 tag = CQM
+		 tag = CNM
+	}
+		has_global_flag = Anti_jap_front_great_wall
+	}
+	
+	option = {
+		name = "Anti_jap_great_walleoption"
+        }
 }
 #西安事变
 province_event = {
-	id = 190020
+	id = 190021
 	title = "Xian_incidencetitle"
 	desc = "Xian_incidencedesc"
 	picture = "XIan_superevent"
@@ -37,11 +66,11 @@ province_event = {
 	
 	option = {
 		name = "Xian_incidenceoption"
-}
+        }
 }
 #卢沟桥事变
 province_event = {
-	id = 190021
+	id = 190022
 	title = "AntiJapan_lugoutitle"
 	desc = "AntiJapan_lugoudesc"
 	picture = "AntiJapan_lugou"
@@ -66,11 +95,11 @@ province_event = {
 	
 	option = {
 		name = "AntiJapan_lugouoption"
-}
+        }
 }
 #抗日战争相持阶段
 province_event = {
-	id = 190022
+	id = 190023
 	title = "Wuhanbattletitle"
 	desc = "Wuhanbattledesc"
 	picture = "WuHan_battle_superevent"
@@ -95,11 +124,11 @@ province_event = {
 	
 	option = {
 		name = "Wuhanbattleoption"
-}
+        }
 }
 #抗战胜利
 province_event = {
-	id = 190023
+	id = 190024
 	title = "Anti_Japan_win_title"
 	desc = "Anti_Japan_win_desc"
 	picture = "AntiJapan_win"
@@ -127,7 +156,7 @@ province_event = {
 	
 	option = {
 		name = "Anti_Japan_win_option"
-}
+        }
 }
 #皖南事变
 #province_event = {

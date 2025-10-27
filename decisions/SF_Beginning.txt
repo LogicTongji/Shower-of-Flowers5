@@ -162,7 +162,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = introduction_chi_1933
-			country_event = 1000008
+			country_event = 1001118
 			manpower = 1500
 			supplies = 15000
 			CDB = { manpower = 300 }

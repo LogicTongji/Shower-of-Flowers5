@@ -16,22 +16,9 @@ province_event = {
 	title = "Anti_jap_great_walltitle"
 	desc = "Anti_jap_great_walldesc"
 	picture = "Greatwall_antijap_superevent"
-	is_triggered_only = yes
 	fire_only_once = yes
 	trigger = {
-	OR = {
 	     tag = CHI
-		 tag = CHC 
-		 tag = CYN
-		 tag = CGX
-		 tag = CSC
-		 tag = CXK
-		 tag = CSX
-		 tag = CSD
-		 tag = CJC
-		 tag = CQM
-		 tag = CNM
-	}
 		has_global_flag = Anti_jap_front_great_wall
 	}	
 	option = {

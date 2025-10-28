@@ -53,15 +53,18 @@ diplomatic_decisions = {
 			not = { has_global_flag = Eask_csx } 
 		}
 		allow = {
+		OR = {
 			CHC = {
 				controls = 7399
+				controls = 7405
 			}
 			province_id = 7399
 		OR = {
 			last_battle_winner_losses = 300
 			last_battle_loser_losses = 300
+		    }
 		}
-		}
+	}
 		effect = {
 			set_global_flag = Eask_csx
 			create_alliance = CHI

@@ -17,8 +17,10 @@ province_event = {
 	desc = "Anti_jap_great_walldesc"
 	picture = "Greatwall_antijap_superevent"
 	trigger = {
-			tag = CHI
-	}
+			region = east_hebei_region
+			TAG = CHI
+			war_with = JAP
+		}
 	is_triggered_only = yes
 	option = {
 		name = "Anti_jap_great_walleoption"

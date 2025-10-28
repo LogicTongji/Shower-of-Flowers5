@@ -173,3 +173,91 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+#风趣事件
+country_event = {
+	id = 390053
+          fire_only_once = yes
+	title = "rehe4"
+	desc = "rehe4desc"
+	picture = "Anti_jap_front_great_wall5"
+	trigger = {
+		tag = CHI
+                   has_global_flag = Anti_jap_front_great_wall
+				   date = 1933.1.10
+	
+		not = {
+                                year = 1936
+                   }
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "rehename3"  
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 390054
+          fire_only_once = yes
+	title = "rehe5"
+	desc = "rehe5desc"
+	picture = "Anti_jap_front_great_wall5"
+	trigger = {
+		tag = CHI
+                   has_global_flag = Anti_jap_front_great_wall
+				   date = 1933.1.20
+		not = {
+                                year = 1936
+                   }
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "rehename4"  
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 390055
+          fire_only_once = yes
+	title = "rehe6"
+	desc = "rehe6desc"
+	picture = "Anti_jap_front_great_wall5"
+	trigger = {
+		tag = CHI
+                   has_global_flag = Anti_jap_front_great_wall
+				   date = 1933.1.25
+	
+		not = {
+                                year = 1936
+                   }
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "rehename5"  
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 390056
+          fire_only_once = yes
+	title = "rehe7"
+	desc = "rehe7desc"
+	picture = "Anti_jap_front_great_wall5"
+	trigger = {
+		tag = CHI
+                   has_global_flag = Anti_jap_front_great_wall_loss
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "rehename6"
+           
+		ai_chance = { factor = 100 }
+	}
+}

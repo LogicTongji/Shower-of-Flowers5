@@ -18,18 +18,15 @@ province_event = {
 	picture = "Greatwall_antijap_superevent"
 	trigger = {
 				province_id = 4979
-		OR = {
-			CHI = {
-				controls = 4979
-			}
+		TAG = CHI
+		controller = {
+			tag = CHI
 		}
-		OR = {
-			war_with = JAP
-			war_with = MAN
-		}
+		war_with = JAP
 		has_global_flag = the_war_attack_great_wall
 	}
 	is_triggered_only = yes
+	fire_only_once = yes
 	option = {
 		name = "Anti_jap_great_walleoption"
         }

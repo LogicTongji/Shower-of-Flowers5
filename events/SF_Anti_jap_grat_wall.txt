@@ -17,6 +17,7 @@ country_event = {
                        create_alliance = CSX
                         }
                            CSX = { create_alliance = CSY }
+						   province_event = 12211
 		ai_chance = { factor = 100 }
 	}
 }

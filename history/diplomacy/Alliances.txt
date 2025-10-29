@@ -149,7 +149,7 @@ alliance = {
 alliance = {
 	first = CHI
 	second = CJC
-	start_date = 1936.1.1
+	start_date = 1933.1.1
 	end_date = 1945.12.10
 }
 alliance = {

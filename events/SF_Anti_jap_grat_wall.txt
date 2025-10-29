@@ -231,7 +231,7 @@ country_event = {
 	trigger = {
 		tag = CHI
                    has_global_flag = Anti_jap_front_great_wall
-				   date = 1933.1.25
+				   date = 1933.1.30
 	
 		not = {
                                 year = 1936

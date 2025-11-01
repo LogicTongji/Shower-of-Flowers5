@@ -128,7 +128,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag = Long_March
-			province_event = 190019
+			5725 = { province_event = 190019 }
                              manpower = -160
 		}
 		ai_will_do = {

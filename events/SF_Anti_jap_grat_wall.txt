@@ -176,7 +176,7 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
-#风趣事件
+#文本事件
 country_event = {
 	id = 390053
 	fire_only_once = yes

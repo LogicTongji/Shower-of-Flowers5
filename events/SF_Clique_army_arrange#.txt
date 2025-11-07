@@ -270,7 +270,7 @@ country_event = {
           option = {
            name = "北上抗日"
               national_unity = 5
-              CHI = { country_event = 301 }
+              CHI = { country_event = 390100 }
               remove_brigade = "第508旅第1015团"
 	      remove_brigade = "第508旅第1016团"
 	      remove_brigade = "第510旅第1019团"
@@ -313,11 +313,11 @@ country_event = {
           option = {
            name = "北上抗日"
               national_unity = 5
-              CHI = {country_event = 302 }
+              CHI = { country_event = 390101 }
          }
 }  
 country_event = {
-          id = 301
+          id = 390100
           is_triggered_only = yes
           title = "接受部队"
           desc = "接受桂系21集团军，北上抗日，共同御侮。"
@@ -329,7 +329,7 @@ country_event = {
          }
 }
 country_event = {
-          id = 302
+          id = 390101
           is_triggered_only = yes
           title = "接受部队"
           desc = "接受桂系11、16集团军，北上抗日，共同御侮。"

@@ -48,7 +48,7 @@ diplomatic_decisions = {
 			        controls = 5994 }
 		}
 		effect = {
-			country_event = 300
+			country_event = 390090
 			set_global_flag = JAPsouthing_army
 		}
 		ai_will_do = {
@@ -76,7 +76,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag =  Japan's north into
-			country_event = 302
+			country_event = 390091
                         JAP = { war = { target = SOV } }
 		}
 		ai_will_do = {

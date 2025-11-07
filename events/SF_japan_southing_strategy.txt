@@ -3,13 +3,13 @@
 ######################
 #成立南方军
 country_event = {
-          id = 300
+          id = 390090
           is_triggered_only = yes
           title = "组建南方军"
           desc = "JAP_Event_decs300"
           picture = "JAP_Flag"
           option = {
-           name = "南进"
+           name = "JAP_Event_decs300option"
                add_country_modifier = {
 			name = "Event300_modifier"
 			duration = 365
@@ -20,7 +20,7 @@ country_event = {
 } 
 #攻陷仰光
 country_event = {
-	id = 299
+	id = 390092
 	major = yes
 fire_only_once = yes
 	title = "JAP_Event_title299"
@@ -35,13 +35,13 @@ fire_only_once = yes
 	        days = 1
         }
 	option = {
-		name = "天皇万岁"
+		name = "JAP_Event_decs299option"
                 national_unity = 5
 	}
 }  
 #攻陷东枝
 country_event = {
-	id = 298
+	id = 390093
 	major = yes
 fire_only_once = yes
 	title = "JAP_Event_title298"
@@ -56,7 +56,7 @@ fire_only_once = yes
 	        days = 1
         }
 	option = {
-		name = "天皇万岁"
+		name = "JAP_Event_decs298option"
                 national_unity = 5
 	}
 }                                

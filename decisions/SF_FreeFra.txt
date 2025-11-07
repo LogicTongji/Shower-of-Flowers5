@@ -136,7 +136,7 @@ diplomatic_decisions = {
 		potential = {
 			tag = FRA
 			not = { has_country_flag = FreeFra2 } 
-			SOV = { set_country_flag = Fra_be_fft }
+			SOV = { has_country_flag = Fra_be_fft }
 			has_country_flag = FreeFra1
 			has_country_flag = Set_up_Ora
 			has_country_flag = Set_up_AS

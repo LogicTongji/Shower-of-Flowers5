@@ -18,7 +18,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "好的"
+		name = "OKPPP"
 		relation = { who = SPR value = -100 }
 		SPA = { country_event = 2151 }
 		ai_chance = { factor = 100 }
@@ -30,7 +30,7 @@ country_event = {
 	desc = "FDCND2_decs"
 	picture = "SPA"
 	option = {
-		name = "精彩！"
+		name = "OK"
          SPA = {  
          add_country_modifier = {
 			name = "SPA_modifier"
@@ -56,7 +56,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "凯旋归来！"
+		name = "OK"
 		load_oob = "GER_SPA.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -76,7 +76,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "好的"
+		name = "OK"
 		SPA = { load_oob = "PTY.txt" }
 		ai_chance = { factor = 100 }
 	}
@@ -96,7 +96,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "没必要"
+		name = "OK"
 		relation = { who = SPR value = -100 }
 		ai_chance = { factor = 0 }
        	}
@@ -122,7 +122,7 @@ SRA = { war_with = SPR }
 	        days = 1
         }
 	option = {
-		name = "嗯"
+		name = "OK"
     supplies = -2500
     SPR = { supplies = 2500 } 
 		ai_chance = { factor = 100 }
@@ -143,7 +143,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "嗯"
+		name = "OK"
 		load_oob = "ROM_SPA.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -163,13 +163,8 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "好的"
+		name = "OK"
 		country_event = 15571
-		ai_chance = { factor = 100 }
-	}
-	option = {
-		name = "不可能"
-		relation = { who = SPA value = 100 }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -181,7 +176,7 @@ country_event = {
 	desc = "ITA_SPRD"
 	picture = "SPA"
 	option = {
-		name = "好的"
+		name = "OK"
 		load_oob = "ITA_SPA.txt"
 		supplies = -2500
 		ai_chance = { factor = 100 }
@@ -201,7 +196,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "凯旋归来！"
+		name = "OK"
 		load_oob = "ITA_SPA.txt"
 		ai_chance = { factor = 100 }
 	}
@@ -223,7 +218,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "聘用"
+		name = "OK"
 		SPR = { load_oob = "CCCP.txt" }
 		ai_chance = { factor = 100 }
 	}
@@ -246,7 +241,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "聘用"
+		name = "OK"
 		SPR = { load_oob = "CCCP2.txt" }
 		ai_chance = { factor = 100 }
 	}
@@ -265,13 +260,13 @@ SRA = { war_with = SPR }
 	        days = 1
         }
 	option = {
-		name = "嗯"
+		name = "OK"
     supplies = -2500
     SPR = { supplies = 2500 } 
 		ai_chance = { factor = 100 }
 	}
 	option = {
-		name = "没必要"
+		name = "OK"
 		SPR = { load_oob = "ENG_spr.txt" }
 		ai_chance = { factor = 100 }
 	}

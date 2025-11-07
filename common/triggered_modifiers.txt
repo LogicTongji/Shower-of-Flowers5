@@ -2491,10 +2491,9 @@ CHI_DAILI_modifier = {
 	}
        espionage_bonus = 0.05
        ruling_party_support = 0.1 
-       dissent = -0.1 
-       counter_espionage = 0.1
-      global_revolt_risk = -0.15 
-      national_unity_effect = 0.1
+       dissent = -0.05
+       counter_espionage = 0.05
+      global_revolt_risk = -0.05
         icon = 5
 }
 CHC_DAILI_modifier = {
@@ -2505,11 +2504,11 @@ CHC_DAILI_modifier = {
 		tag = CHC
 	not = {	has_global_flag = DL_DIE }
 	}
-       espionage_bonus = 0.25
+       espionage_bonus = 0.1
        ruling_party_support = 0.1 
        dissent = -0.1 
-       counter_espionage = 0.15 
-      global_revolt_risk = -0.15       
+       counter_espionage = 0.1
+      global_revolt_risk = -0.1      
         icon = 5
 }
 #腐朽不堪的政府
@@ -2526,7 +2525,7 @@ CHI_GOVERMENT = {
 	}
 	trigger = {
 	}
-dissent = 0.1 
+dissent = 0.15
 territorial_pride = -0.1 
 suseptibility = -0.15 
 ruling_party_support = -0.15
@@ -2609,8 +2608,8 @@ JAP_defence2_war = {
 	}
 territorial_pride = -0.05
 suseptibility = 0.1 
-land_organisation = -0.1 
-naval_organisation = -0.2
+land_organisation = -0.05
+naval_organisation = -0.1
 
  icon = 5
 }
@@ -2685,7 +2684,7 @@ PRC_TO_KOR_WAR = {
 
  icon = 5
 }
-#"自由民主"
+#自由民主
 CHI_AUMERE = {
 
 	potential = {

@@ -23,12 +23,6 @@ country_event = {
                    who = USA value = -300 }
                 ai_chance = { factor = 100 }
 	}
-	option = {
-		name = "ZUJIE2"
-		dissent = 5
-		national_unity = -10
-                ai_chance = { factor = 0 }
-	}
 }
 country_event = {
 	id = 201907101

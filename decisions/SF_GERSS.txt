@@ -21,7 +21,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 	    set_country_flag = GER_gun_frigth_ssfirst
-			country_event = 5211
+			load_oob="GER_SS1.txt"
 		}
 		ai_will_do = {
 			factor = 1
@@ -44,7 +44,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = GER_gun_frigth_sssecond 
-			country_event = 5212
+			load_oob="GER_SS2.txt"
 		}
 		ai_will_do = {
 			factor = 1
@@ -62,7 +62,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = GER_gun_frigth_ssthird
-			country_event = 5213
+			load_oob="GER_SS3.txt"
 		}
 		ai_will_do = {
 			factor = 1
@@ -87,7 +87,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = GER_gun_frigth_ssforth
-			country_event = 5214
+			 load_oob="GER_SS4.txt"
 		}
 		ai_will_do = {
 			factor = 1
@@ -124,7 +124,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = GER_gun_frigth_ssfifth
-			country_event = 5215
+			load_oob="GER_SS5.txt"
 		}
 		ai_will_do = {
 			factor = 1
@@ -157,7 +157,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = GER_gun_frigth_sssixth
-			country_event = 5216
+			load_oob="GER_SS6.txt"
 		}
 		ai_will_do = {
 			factor = 1

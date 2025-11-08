@@ -81,7 +81,7 @@ country_event = {
 	desc = "Event2100101desc"
 	picture = "Event1100101"
 	option = {
-		name = "Ç©¶©°É"
+		name = "Event2100101op"
                 national_unity = 5
         }
 }
@@ -105,7 +105,7 @@ country_event = {
 		date = 1942.6.2
 	}
 	option = {
-		name = "Ç©Êð"
+		name = "Event2100101op"
 		set_country_flag = USA_allice_CHI
                 national_unity = 5
                 supplies = 1000

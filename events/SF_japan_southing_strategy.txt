@@ -36,6 +36,7 @@ fire_only_once = yes
         }
 	option = {
 		name = "JAP_Event_decs299option"
+		ENG = { country_event= 390094 }
                 national_unity = 5
 	}
 }  

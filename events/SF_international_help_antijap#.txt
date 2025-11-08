@@ -1,4 +1,3 @@
-
 ######################
 #   国际援华事件组   #
 ######################
@@ -93,16 +92,8 @@ country_event = {
 }			
 #仰光沦陷 
 country_event={
-          id = 2000086
-          fire_only_once = yes        
-          tirgger = {
-               tag = ENG
-               war_with = JAP  
-               JAP = { controls = 6070 }
-          }
-          mean_time_to_happen = {
-                  days = 1
-          }
+          id = 390094
+          is_triggered_only = yes        
           title="ENG_Event_title2000086"
           desc="ENG_Event_decs2000086"
           picture="news_paper"
@@ -165,31 +156,7 @@ country_enent={
            set_country_flag = Event1000088
            9415 = { industry = 1 }
          } 
-}
-#得到补给
-country_enent = {
-          id = 1000089
-          trigger = {
-		tag = CHI
-                exists = CHI
-		war_with = JAP 
-                has_global_flag = JAPsouthing 
-                has_global_flag = Event1000087
-                has_country_flag = Event1000088
-                not = { year = 1946 }
-          }
-          mean_time_to_happen = {
-                  months = 1
-          }
-          title = "得到补给"
-          desc = "CHI_Event_decs1000089"
-         picture = "CHC_Event_1000075"
-         option = {
-           name = "中国万岁！中国不会亡！"
-           supplies = 100
-           national_unity = 5
-         } 
-}          
+}   
 #租借法案
 country_event = {
           id = 2020228

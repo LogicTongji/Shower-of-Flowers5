@@ -5,8 +5,8 @@ country_event = {
 	id = 2221
 	fire_only_once = yes
 		major = yes
-	title = "2221title"
-	desc = "2221decs"
+	title = "22222title"
+	desc = "22222decs"
 	picture = "fire_in_changsha"
 	trigger = {
 		tag = CHI
@@ -22,7 +22,6 @@ country_event = {
 			name = "Event2221_modifier"
 			duration = 120
 		}
-		CHI = { country_event = 22223 }
                 CGX = { country_event = 22223 }
                 CYN = { country_event = 22223 }
                 CSY = { country_event = 22223 }
@@ -31,7 +30,7 @@ country_event = {
        	}
 	option = {
 		name = "2221option2"
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 country_event = {
@@ -86,11 +85,11 @@ country_event = {
 country_event = {
           id = 22222
           is_triggered_only = yes
-          title = "国民党当局掘开花园口大堤"
+          title = "2224title"
           desc = "2224decs"
           picture = "fllowermouth"
           option = {
-          name = "他们本应做得更好"       
+          name = "2224option"       
          }
 } 
 country_event = {
@@ -100,7 +99,7 @@ country_event = {
           desc = "22222decs"
           picture = "fire_in_changsha"
           option = {
-          name = "他们本应做得更好"        
+          name = "2221option2"        
          }
 }
 country_event = {
@@ -118,7 +117,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "歼灭叛军！保护侨民！"
+		name = "2225option"
 		CJC = { load_oob = "Amry_in_jd.txt" }
 	}
 }

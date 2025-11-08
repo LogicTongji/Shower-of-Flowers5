@@ -13,6 +13,7 @@ country_event = {
 		date = 1939.1.1
 		not = { year = 1940 }
                 not = { has_country_flag = Event700000 }
+				has_country_flag = jap_seizes_coast_chi
                 CHI = { controls = 9478 }
 	}
         mean_time_to_happen =  {
@@ -28,20 +29,15 @@ country_event = {
                 CHC = { country_event = 7012 }
 		ai_chance = { factor = 100 }
        	}
-	option = {
-		name = "不行"
-		set_country_flag = Event700000
-		ai_chance = { factor = 0 }
-	}
 }
 country_event = {
 	id = 7012
 	is_triggered_only = yes
 	title = "wzqh"
-	desc = "wzqhdesc"
+	desc = "70decs"
 	picture = "disanzhanqu"
 	option = {
-		name = "去他娘的老将"
+		name = "70option1"
 		set_country_flag = Event20200707
 		ai_chance = { factor = 100 }
 	}

@@ -29,6 +29,9 @@ country_event = {
 			any_owned = { limit = { province_id = 5946 } secede_province = JAP }
 			set_country_flag = jap_seizes_coast_chi
 			national_unity = 60
+			7515 = {
+						   province_event = 190023
+						   }
 		}
 		JAP = {
 			set_country_flag = jap_seizes_coast

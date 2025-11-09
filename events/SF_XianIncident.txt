@@ -1,7 +1,6 @@
 ######################
 #   西安事变事件组   #
 ######################
-
 country_event = {
 	id = 1000024
 	is_triggered_only = yes
@@ -11,6 +10,9 @@ country_event = {
 	picture = "Event1000024"
 	option = {
 		name = "Event1000024option"
+		7415 = {
+						   province_event = 190021
+						   }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -22,6 +24,9 @@ country_event = {
 	picture = "Event1000024"
 	option = {
 		name = "Event1000025option"
+		7415 = {
+						   province_event = 190021
+						   }
 		ai_chance = { factor = 100 }
 	}
 }

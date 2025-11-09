@@ -30,23 +30,6 @@ province_event = {
 	picture = "XIan_superevent"
 	is_triggered_only = yes
 	fire_only_once = yes
-	trigger = {
-	OR = {
-	     tag = CHI
-		 tag = CHC 
-		 tag = CYN
-		 tag = CGX
-		 tag = CSC
-		 tag = CXK
-		 tag = CSX
-		 tag = CSD
-		 tag = CJC
-		 tag = CQM
-		 tag = CNM
-	}
-		CDB = { has_country_flag = Xaction_CDB } 
-	}
-	
 	option = {
 		name = "Xian_incidenceoption"
         }
@@ -59,23 +42,6 @@ province_event = {
 	picture = "AntiJapan_lugou"
 	is_triggered_only = yes
 	fire_only_once = yes
-	trigger = {
-	OR = {
-	     tag = CHI
-		 tag = CHC 
-		 tag = CYN
-		 tag = CGX
-		 tag = CSC
-		 tag = CXK
-		 tag = CSX
-		 tag = CSD
-		 tag = CJC
-		 tag = CQM
-		 tag = CNM
-	}
-		CHI = { has_country_flag = CHI_Passive_defense }
-	}
-	
 	option = {
 		name = "AntiJapan_lugouoption"
         }
@@ -88,23 +54,6 @@ province_event = {
 	picture = "WuHan_battle_superevent"
 	is_triggered_only = yes
 	fire_only_once = yes
-	trigger = {
-	OR = {
-	     tag = CHI
-		 tag = CHC 
-		 tag = CYN
-		 tag = CGX
-		 tag = CSC
-		 tag = CXK
-		 tag = CSX
-		 tag = CSD
-		 tag = CJC
-		 tag = CQM
-		 tag = CNM
-	}
-		CHI = { has_country_flag = CHI_Passive_defense }
-	}
-	
 	option = {
 		name = "Wuhanbattleoption"
         }

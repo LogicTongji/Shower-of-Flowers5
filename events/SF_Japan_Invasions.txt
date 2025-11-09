@@ -42,6 +42,9 @@ country_event = {
 		name = "Peking_Invasion_CHI_option"
 		manpower = 500
 		set_country_flag = CHI_Passive_defense
+		4979 = {
+						   province_event = 190022
+						   }
 	}
 }
 #中共通电
@@ -55,6 +58,9 @@ country_event = {
 	option = {
 		name = "Peking_Invasion_CHC_option"
 		set_country_flag = CHC_defense
+		4979 = {
+						   province_event = 190022
+						   }
 	}
 }
 #最高领袖的摇摆态度

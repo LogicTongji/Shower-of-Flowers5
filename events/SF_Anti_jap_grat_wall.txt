@@ -96,6 +96,7 @@ any_owned = { limit = { province_id = 4978 } secede_province = CHA }
                     end_war = JAP
                     CSX = { end_war = JAP }
                     CSY = { end_war = JAP }
+					CHI = { end_war = CJD }
                     leave_alliance = CSX
                     leave_alliance = CSY
                     add_country_modifier = {

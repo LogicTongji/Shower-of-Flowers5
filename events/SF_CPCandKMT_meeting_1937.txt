@@ -22,7 +22,6 @@ country_event = {
 		name = "200option1"
 		set_country_flag = Event200
                 dissent = -5
-		national_unity = 10
 		CHC = { country_event = 390024 }
 		ai_chance = { factor = 10 }
        	}
@@ -93,7 +92,6 @@ country_event = {
 	picture = "CHI_flag"
 	option = {
 		name = "204option"
-    national_unity = 1
     dissent = -80
    CHC = { country_event = 390028 }
 	}		
@@ -130,7 +128,6 @@ country_event = {
 	picture = "CHI_flag"
 	option = {
 		name = "206option1"
-    national_unity = 1
     dissent = -10
        set_country_flag = Xian_conversation
    CHC = { country_event = 390030 }

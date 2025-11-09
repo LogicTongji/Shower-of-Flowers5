@@ -17,7 +17,6 @@ country_event = {
 	picture = "CHC_flag"
 	option = {
 		name = "HDLWOP"
-    national_unity = 5
     dissent = -10
 	}		
 }
@@ -36,7 +35,6 @@ country_event = {
 	picture = "CHI_flag"
 	option = {
 		name = "KMTOP"
-	national_unity = 5
     dissent = -20
 	}		
 }
@@ -50,7 +48,6 @@ country_event = {
 	picture = "CHI_flag"
 	option = {
 		name = "TKOP"
-    national_unity = 1
     dissent = -20
 	}		
 }
@@ -90,7 +87,6 @@ country_event = {
 	picture = "CHI_flag"
 	option = {
 		name = "CKSOP"
-    national_unity = 1
     dissent = -10
     paternal_autocrat_CHI = { popularity = 10 } 
 	}		

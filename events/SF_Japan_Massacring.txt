@@ -56,6 +56,7 @@ country_event = {
 			supplies = 10000
 			fuel = 1000
 			country_event = 1000061
+			national_unity = -10
 		}
 		CHC = { country_event = 1000061 }
 		CJC = { country_event = 1000061 }

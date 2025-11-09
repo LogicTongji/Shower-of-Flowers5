@@ -20,7 +20,9 @@ country_event = {
                 add_country_modifier = {
 				name = "kuibai_modifier"
 				duration = 50
+				}
 		ai_chance = { factor = 100 }
+		national_unity = -5
 	}
 }
 
@@ -49,6 +51,8 @@ country_event = {
                 add_country_modifier = {
 				name = "kuibai_modifier"
 				duration = 50
+				}
+				national_unity = -5
 		ai_chance = { factor = 100 }
 	}
 }

@@ -254,7 +254,7 @@ country_event = {
 		not = { year = 1938 }
 	}
 	option = {
-		name = "chuanjunoption"
+		name = "chuanjunoptionop"
                 set_country_flag = junfazhengbian
                 CYN = { country_event = 33331 } 
 				CSC = { country_event = 33332 }

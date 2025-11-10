@@ -17,23 +17,19 @@ country_event = {
         }
 	option = {
 		name = "3220option1"             
-		ai_chance = { factor = 0 }
-       	}
-	option = {
-		name = "3220option2"              
-                country_event = 3221
+               CHI = { country_event = 3221 }
+			   kill_leader = 503003
 		ai_chance = { factor = 100 }
 	}
 }
 country_event = {
         is_triggered_only = yes
 	id = 3221
-	title = "3221title"
-	desc = "3221decs"
+	title = "3220title"
+	desc = "3220decs"
 	picture = "CHI_flag"
 	option = {
-		name = "°¦"
-                kill_leader = 503003                  			           	
+		name = "3220option1"               			           	
 	}
 }
 country_event = {

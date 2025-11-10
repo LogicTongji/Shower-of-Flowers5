@@ -83,7 +83,7 @@ country_event = {
 	desc = "diwuzhanqudesc"
 	picture = "CHI_Flag"
 	option = {
-		name = "theatreop"
+		name = "theatreop1"
 		load_oob = "CHI_SF_3T.txt"
 		ai_chance = { factor = 100 }
 	}

@@ -273,6 +273,7 @@ song = {
 		modifier = {
 			factor = 4
 			tag = CHC
+			has_global_flag = Long_March
 		}
 	}
 }
@@ -698,6 +699,7 @@ song = {
 			factor = 4
 			or = { TAG = CHC TAG = CHI TAG = CXB TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB }
 			or = ( not = { exists = JAP } JAP = { is_subject = yes } }
+			has_global_flag = JAP_Lost
 		}
 	}
 }

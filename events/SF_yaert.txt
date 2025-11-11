@@ -65,7 +65,6 @@ country_event = {
 
 country_event = {
 	id = 7201
-	major = yes
                  fire_only_once = yes
 	title = "JAP_LOST2"
 	desc = "JAP_LSTD2" 

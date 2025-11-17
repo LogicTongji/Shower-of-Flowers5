@@ -42,7 +42,7 @@ country_event = {
 		name = "Peking_Invasion_CHI_option"
 		manpower = 500
 		set_country_flag = CHI_Passive_defense
-		4979 = {
+		5494 = {
 						   province_event = 190022
 						   }
 	}
@@ -58,7 +58,7 @@ country_event = {
 	option = {
 		name = "Peking_Invasion_CHC_option"
 		set_country_flag = CHC_defense
-		4979 = {
+		7391 = {
 						   province_event = 190022
 						   }
 	}

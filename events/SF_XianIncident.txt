@@ -10,7 +10,7 @@ country_event = {
 	picture = "Event1000024"
 	option = {
 		name = "Event1000024option"
-		7415 = {
+		5494 = {
 						   province_event = 190021
 						   }
 		ai_chance = { factor = 100 }
@@ -24,7 +24,7 @@ country_event = {
 	picture = "Event1000024"
 	option = {
 		name = "Event1000025option"
-		7415 = {
+		7391 = {
 						   province_event = 190021
 						   }
 		ai_chance = { factor = 100 }

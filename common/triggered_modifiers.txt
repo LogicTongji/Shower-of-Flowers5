@@ -2411,37 +2411,6 @@ CHI_PEOPE_BUFF = {
 	peace_consumer_goods_demand = 0.1 
 	global_leadership_modifier = -0.1
 }
-JAP_JINGYUN_BUFF = {
-
-	potential = {
-			TAG = JAP
-	}
-	trigger = {
-		tag = JAP
-		has_global_flag = EVENT20190710113
-		has_global_flag = EVENT20190710112
-	}
-  global_supplies = -0.3
-  global_energy = -0.5
-  global_crude_oil = -0.5
-	war_consumer_goods_demand = 0.55
-}
-usa_JINGYUN_BUFF = {
-
-	potential = {
-				OR = {
-			TAG = USA
-			TAG = ENG
-		}
-	}
-	trigger = {
-		has_global_flag = EVENT20190710113
-		has_global_flag = EVENT20190710112
-	}
-  global_money = -0.3
-  global_energy = 0.3
-  global_crude_oil = 0.5  
-}
 PERPARKR_CHI = {
 	potential = {
 		tag = CHI

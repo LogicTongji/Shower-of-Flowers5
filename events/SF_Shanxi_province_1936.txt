@@ -97,7 +97,7 @@ country_event = {
 	picture = "Event110010"
         option = {
 		name = "CHCOIP"
-                                national_unity = -5
+                                national_unity = -1
                                 dissent = 20
                                 relation = { who = CSY value = -100 }
 		relation = { who = CSX value = -100 }
@@ -106,7 +106,7 @@ country_event = {
 	 option = {
 		name = "CHCOIP2"
 		CHI = { war = { target = MEA } }
-                national_unity = 8
+                national_unity = 1
                 dissent = -8
 		ai_chance = { factor = 10 }
 	}

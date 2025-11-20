@@ -3,7 +3,7 @@
 ######################
 #Æ½½ò×÷Õ½
 country_event = {
-	id = 1701
+	id = 390103
 	is_triggered_only = yes
 	title = "Peking_Invasion"
 	desc = "Peking_Invasion_desc"

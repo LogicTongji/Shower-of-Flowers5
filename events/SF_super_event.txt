@@ -1,3 +1,4 @@
+#China
 #长征
 province_event = {
 	id = 190019
@@ -58,57 +59,112 @@ province_event = {
 		name = "Wuhanbattleoption"
         }
 }
-#抗战胜利
+#百团大战
 province_event = {
 	id = 190024
+	title = "baituanbattletitle"
+	desc = "baituanbattledesc"
+	picture = "NorthChina_war_1940_super_event"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "baituanbattleoption"
+        }
+}
+#抗战胜利
+province_event = {
+	id = 190025
 	title = "Anti_Japan_win_title"
 	desc = "Anti_Japan_win_desc"
 	picture = "AntiJapan_win"
 	is_triggered_only = yes
 	fire_only_once = yes
-	trigger = {
-	OR = {
-	     tag = CHI
-		 tag = CHC 
-		 tag = CYN
-		 tag = CGX
-		 tag = CSC
-		 tag = CXK
-		 tag = CSX
-		 tag = CSD
-		 tag = CJC
-		 tag = CQM
-		 tag = CNM
-	}
-	not = {
-	year = 1946
-	}
-		 has_global_flag = JAP_Lost
-	}
-	
 	option = {
 		name = "Anti_Japan_win_option"
         }
 }
-#皖南事变
-#province_event = {
-#	id = 7229
-#	is_triggered_only = yes
-#	 fire_only_once = yes
-#	title = "FG9qh"
-#	desc = "FG9desc"
-#	picture = "disanzhanqu"
-#                trigger = {
-#		tag = CHC
- #               exists = CHI
- #               has_global_flag = Event700007
- #               has_global_flag = Event700008
- #               has_global_flag = Event700001 
- #               CHI = { controls = 9478 }
-#	}
-#	option = {
-#		name = "让狗娘养的蒋光头看着！"
- #               load_oob = "N4A.txt"
-#		ai_chance = { factor = 100 }
-#	}
-#}
+#第二次国共内战CHC
+province_event = {
+	id = 190025
+	title = "civil_war_title"
+	desc = "civil_war_desc"
+	picture = "liberation_war_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "civil_war_option"
+        }
+}
+#第二次国共内战CHI
+province_event = {
+	id = 190028
+	title = "civil_war_title1"
+	desc = "civil_war_desc1"
+	picture = "liberation_war_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "civil_war_option1"
+        }
+}
+#开国大典
+province_event = {
+	id = 190025
+	title = "New_china_title"
+	desc = "New_china_desc"
+	picture = "NewChina_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "New_china_option"
+        }
+}
+#朝鲜战争
+province_event = {
+	id = 190026
+	title = "Koreanwar_title"
+	desc = "Koreanwar_desc"
+	picture = "Koreanwar_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Koreanwar_option"
+        }
+}
+#Japan
+#北支那事变
+province_event = {
+	id = 190027
+	title = "Japan_lugoutitle"
+	desc = "Japan_lugoudesc"
+	picture = "NorthChina_war_super_event"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Japan_lugouoption"
+        }
+}
+#南进
+province_event = {
+	id = 190028
+	title = "Japan_lugoutitle"
+	desc = "Japan_lugoudesc"
+	picture = "NorthChina_war_super_event"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Japan_lugouoption"
+        }
+}
+#长城战役
+province_event = {
+	id = 190029
+	title = "Japan_lugoutitle"
+	desc = "Japan_lugoudesc"
+	picture = "NorthChina_war_super_event"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Japan_lugouoption"
+        }
+}

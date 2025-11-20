@@ -27,7 +27,8 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = the_marco_polo_bridge_incident
-			JAP = { country_event = 1701 }
+			JAP = { country_event = 390103 }
+			5315 = { province_event = 190027 }
 		}
 		ai_will_do = {
 			factor = 1

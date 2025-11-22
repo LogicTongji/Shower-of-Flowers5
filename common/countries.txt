@@ -182,7 +182,7 @@ CYS = "countries/YangSen.txt"
 CJY = "countries/LiuCunhou.txt"
 CQS = "countries/Wangjialie.txt"
 CHA = "countries/ChaHaer.txt"
-CRH = "countries/Zhangxueliang.txt"
-CCH = "countries/Songzheyuan.txt"
+CRH = "countries/ShanGan Alliance.txt"
+CCH = "countries/Xibei Army.txt"
 
 

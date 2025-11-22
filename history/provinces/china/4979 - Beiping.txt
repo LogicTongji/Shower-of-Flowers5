@@ -1,6 +1,9 @@
-owner = CHI
-controller = CHI
+owner = CRH
+
+controller = CRH
+
 add_core = CHC
+add_core = CRH
 add_core = CHI
 points = 2
 metal = 4.00

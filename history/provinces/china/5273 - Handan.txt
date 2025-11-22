@@ -1,10 +1,10 @@
-owner = CHI
+owner = CRH
 
-controller = CHI
+controller = CRH
+
 add_core = CHC
-
+add_core = CRH
 add_core = CHI
-
 infra = 4
 
 

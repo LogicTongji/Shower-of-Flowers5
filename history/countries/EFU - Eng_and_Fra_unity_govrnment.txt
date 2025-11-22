@@ -1,16 +1,16 @@
 capital = 1964
 government = constitutional_monarchy
 ideology = social_conservative
-head_of_state = 501001
-head_of_government = 502001
-foreign_minister = 501236		
-armament_minister = 501168				
-minister_of_security = 501164
-minister_of_intelligence = 501006
-chief_of_staff = 501007
-chief_of_army = 501007
-chief_of_navy = 501009
-chief_of_air = 501168
+head_of_state = 5010011
+head_of_government = 5020011
+foreign_minister = 5012361	
+armament_minister = 5011681			
+minister_of_security = 5011641
+minister_of_intelligence = 5010061
+chief_of_staff = 5010071
+chief_of_army = 5010071
+chief_of_navy = 5010091
+chief_of_air = 5011681
 join_faction = allies
 alignment = { x = 0 y = -146 }
 neutrality = 0

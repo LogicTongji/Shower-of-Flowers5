@@ -1,6 +1,9 @@
-owner = CHI
-controller = CHI
+owner = CRH
+
+controller = CRH
+
 add_core = CHC
+add_core = CRH
 add_core = CHI
 infra = 5
 1933.12.13 = {

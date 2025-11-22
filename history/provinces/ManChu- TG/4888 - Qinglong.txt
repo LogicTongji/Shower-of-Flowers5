@@ -1,10 +1,17 @@
-owner = MAN
-controller = MAN
-add_core = MAN 
+owner = CRH
+
+controller = CRH
+
 add_core = CHC
+add_core = CRH
+add_core = CHI
 
 infra = 3
-
+1933.3.8 = {
+owner = MAN
+controller = MAN
+add_core = MAN
+}
 1945.9.28 = {
 	owner = CHC
 	controller = CHC

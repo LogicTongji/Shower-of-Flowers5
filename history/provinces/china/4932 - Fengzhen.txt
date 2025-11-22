@@ -1,11 +1,10 @@
-owner = JAP
+owner = CRH
 
-controller = JAP
+controller = CRH
 
- 
-add_core = JAP
-add_core = CHI
 add_core = CHC
+add_core = CRH
+add_core = CHI
 points = 1
 infra = 3
 1946.1.1 = {

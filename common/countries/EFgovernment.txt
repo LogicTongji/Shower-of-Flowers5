@@ -224,7 +224,7 @@ unit_names = {
 
 
 ministers = {
-	502001 = {
+	5020011 = {
 		name = "阿尔贝特·勒布伦"
 		ideology = social_liberal
 		loyalty = 1.00
@@ -234,7 +234,7 @@ ministers = {
 		head_of_state = barking_buffoon
 		start_date = 1936.1.1
 	}
-	502007 = {
+	5020071 = {
 		name = "莫里斯·甘末林"
 		ideology = social_liberal
 		loyalty = 1.00
@@ -243,7 +243,7 @@ ministers = {
 		chief_of_army = static_defence_doctrine
 		start_date = 1936.1.1
 	}
-	502030 = {
+	5020301 = {
 		name = "莫里斯·多列士"
 		ideology = stalinist
 		loyalty = 1.00
@@ -252,7 +252,7 @@ ministers = {
 		minister_of_security = prince_of_terror
 		start_date = 1936.1.1
 	}
-	502031 = {
+	5020311 = {
 		name = "夏尔·戴高乐"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -263,7 +263,7 @@ ministers = {
 		chief_of_staff = school_of_manoeuvre
 		start_date = 1940.1.1
 	}
-	502099 = {
+	5020991 = {
 		name = "朱利安·鲁切尔"
 		ideology = social_democrat
 		loyalty = 0.75
@@ -271,7 +271,7 @@ ministers = {
 		minister_of_security = efficient_sociopath
 		start_date = 1937.1.1
 	}
-	502100 = {
+	5021001 = {
 		name = "阿德里安·蒂克希尔"
 		ideology = social_democrat
 		loyalty = 1.00
@@ -279,7 +279,7 @@ ministers = {
 		minister_of_security = compassionate_gentleman
 		start_date = 1938.1.1
 	}
-	502101 = {
+	5021011 = {
 		name = "亨利·伯内特"
 		ideology = social_democrat
 		loyalty = 0.75
@@ -287,7 +287,7 @@ ministers = {
 		minister_of_security = back_stabber
 		start_date = 1938.1.1
 	}
-	502104 = {
+	5021041 = {
 		name = "朱尔斯·莫克"
 		ideology = social_liberal
 		loyalty = 1.00
@@ -296,7 +296,7 @@ ministers = {
 		armament_minister = battle_fleet_proponent
 		start_date = 1947.1.1
 	}
-	502105 = {
+	5021051 = {
 		name = "皮埃尔·彭"
 		ideology = social_liberal
 		loyalty = 0.75
@@ -304,7 +304,7 @@ ministers = {
 		minister_of_security = silent_lawyer
 		start_date = 1936.1.1
 	}
-	502111 = {
+	5021111 = {
 		name = "加斯顿·亚历山大·克劳泽"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -312,7 +312,7 @@ ministers = {
 		minister_of_security = man_of_the_people
 		start_date = 1938.1.1
 	}
-	501004 = {
+	5010041 = {
 		name = "温斯顿·丘吉尔"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -321,7 +321,7 @@ ministers = {
 		armament_minister = theoretical_scientist
 		start_date = 1936.1.1
 	}
-	501005 = {
+	5010051 = {
 		name = "约翰·西蒙爵士"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -330,7 +330,7 @@ ministers = {
 		armament_minister = resource_industrialist
 		start_date = 1936.1.1
 	}
-	501006 = {
+	5010061 = {
 		name = "休·辛克莱爵士"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -338,7 +338,7 @@ ministers = {
 		minister_of_intelligence = research_specialist
 		start_date = 1936.1.1
 	}
-	501007 = {
+	5010071 = {
 		name = "蒙哥马利·马森伯德爵士"
 		ideology = market_liberal
 		loyalty = 1.00
@@ -347,7 +347,7 @@ ministers = {
 		chief_of_army = static_defence_doctrine
 		start_date = 1936.1.1
 	}
-	501009 = {
+	5010091 = {
 		name = "查特菲尔德爵士"
 		ideology = market_liberal
 		loyalty = 1.00
@@ -356,7 +356,7 @@ ministers = {
 		armament_minister = battle_fleet_proponent
 		start_date = 1936.1.1
 	}
-	501010 = {
+	5010101 = {
 		name = "欧文·博伊得爵士"
 		ideology = market_liberal
 		loyalty = 1.00
@@ -364,7 +364,7 @@ ministers = {
 		chief_of_air = air_superiority_doctrine
 		start_date = 1936.1.1
 	}
-	501031 = {
+	5010311 = {
 		name = "爱德华八世"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -374,7 +374,7 @@ ministers = {
 		head_of_state = autocratic_charmer
 		start_date = 1936.1.1
 	}
-	501033 = {
+	5010331 = {
 		name = "乔治六世"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -384,7 +384,7 @@ ministers = {
 		head_of_state = benevolent_gentleman
 		start_date = 1936.1.1
 	}
-	501036 = {
+	5010361 = {
 		name = "阿努因·贝万"
 		ideology = left_wing_radical
 		loyalty = 1.00
@@ -394,7 +394,7 @@ ministers = {
 		foreign_minister = ideological_crusader
 		start_date = 1936.1.1
 	}
-	501123 = {
+	5011231 = {
 		name = "伯纳德·蒙哥马利爵士"
 		ideology = social_liberal
 		loyalty = 0.75
@@ -403,7 +403,7 @@ ministers = {
 		chief_of_army = armoured_spearhead_doctrine
 		start_date = 1936.1.1
 	}
-	501164 = {
+	5011641 = {
 		name = "哈罗德·亚历山大爵士"
 		ideology = market_liberal
 		loyalty = 1.00
@@ -412,7 +412,7 @@ ministers = {
 		armament_minister = tank_proponent
 		start_date = 1936.1.1
 	}
-	501168 = {
+	5011681 = {
 		name = "休·道丁爵士"
 		ideology = market_liberal
 		loyalty = 1.00
@@ -420,7 +420,7 @@ ministers = {
 		chief_of_air = air_superiority_doctrine
 		start_date = 1936.1.1
 	}
-	501177 = {
+	5011771 = {
 		name = "克洛斯爵士"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -428,7 +428,7 @@ ministers = {
 		armament_minister = laissez_faires_capitalist
 		start_date = 1936.1.1
 	}
-	501178 = {
+	5011781 = {
 		name = "阿尔弗雷德·库柏"
 		ideology = social_conservative
 		loyalty = 0.75
@@ -436,7 +436,7 @@ ministers = {
 		armament_minister = battle_fleet_proponent
 		start_date = 1936.1.1
 	}
-	501179 = {
+	5011791 = {
 		name = "奥利弗·斯坦利"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -444,7 +444,7 @@ ministers = {
 		armament_minister = military_entrepreneur
 		start_date = 1936.1.1
 	}
-	501180 = {
+	5011801 = {
 		name = "亨利·马杰松"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -452,7 +452,7 @@ ministers = {
 		armament_minister = resource_industrialist
 		start_date = 1936.1.1
 	}
-	501181 = {
+	5011811 = {
 		name = "格里格爵士"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -460,7 +460,7 @@ ministers = {
 		armament_minister = laissez_faires_capitalist
 		start_date = 1936.1.1
 	}
-	501182 = {
+	5011821 = {
 		name = "伊丽莎白二世"
 		ideology = social_conservative
 		loyalty = 1.00
@@ -470,7 +470,7 @@ ministers = {
 		head_of_state = popular_figurehead
 		start_date = 1936.1.1
 	}
-	501194 = {
+	5011941 = {
 		name = "休·盖茨克"
 		ideology = social_democrat
 		loyalty = 1.00
@@ -478,7 +478,7 @@ ministers = {
 		head_of_government = naive_optimist
 		start_date = 1936.1.1
 	}
-	501195 = {
+	5011951 = {
 		name = "哈罗德·威尔逊"
 		ideology = social_democrat
 		loyalty = 1.00
@@ -488,7 +488,7 @@ ministers = {
 		armament_minister = administrative_genius
 		start_date = 1936.1.1
 	}
-	501199 = {
+	5011991 = {
 		name = "阿尔弗雷德·罗本斯"
 		ideology = social_democrat
 		loyalty = 0.75
@@ -496,7 +496,7 @@ ministers = {
 		foreign_minister = apologetic_clerk
 		start_date = 1936.1.1
 	}
-	501201 = {
+	5012011 = {
 		name = "丹尼斯·赫利"
 		ideology = social_democrat
 		loyalty = 0.75
@@ -505,7 +505,7 @@ ministers = {
 		armament_minister = resource_industrialist
 		start_date = 1936.1.1
 	}
-	501203 = {
+	5012031 = {
 		name = "帕特里克·沃克"
 		ideology = social_democrat
 		loyalty = 0.75
@@ -514,7 +514,7 @@ ministers = {
 		minister_of_security = silent_lawyer
 		start_date = 1936.1.1
 	}
-	501205 = {
+	5012051 = {
 		name = "沃尔特·蒙克顿"
 		ideology = social_conservative
 		loyalty = 0.75
@@ -522,7 +522,7 @@ ministers = {
 		armament_minister = air_superiority_proponent
 		start_date = 1936.1.1
 	}
-	501236 = {
+	5012361 = {
 		name = "蒙巴顿伯爵"
 		ideology = market_liberal
 		loyalty = 1.00

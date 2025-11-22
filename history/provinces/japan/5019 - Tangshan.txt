@@ -1,7 +1,10 @@
-owner = CHI
-controller = CHI
-add_core = CHI
+owner = CRH
+
+controller = CRH
+
 add_core = CHC
+add_core = CRH
+add_core = CHI
 
 energy = 14.00
 infra = 6

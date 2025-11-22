@@ -147,24 +147,24 @@ province_event = {
 #南进
 province_event = {
 	id = 190028
-	title = "Japan_lugoutitle"
-	desc = "Japan_lugoudesc"
+	title = "Eastern_Asian_wartitle"
+	desc = "Eastern_Asian_wardesc"
 	picture = "NorthChina_war_super_event"
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = "Japan_lugouoption"
+		name = "Eastern_Asian_waroption"
         }
 }
 #长城战役
 province_event = {
 	id = 190029
-	title = "Japan_lugoutitle"
-	desc = "Japan_lugoudesc"
+	title = "Great_wall_conquetitle"
+	desc = "Great_wall_conquedesc"
 	picture = "NorthChina_war_super_event"
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
-		name = "Japan_lugouoption"
+		name = "Great_wall_conqueoption"
         }
 }

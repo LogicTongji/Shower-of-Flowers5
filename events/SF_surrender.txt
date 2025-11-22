@@ -40,6 +40,9 @@ country_event = {
 				target = CHI
 				attacker_goal = { casus_belli = conquer }
 			} 
+			5315 = {
+						   province_event = 190030
+						   }
 		}
 	}
 }

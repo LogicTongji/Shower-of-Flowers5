@@ -29,6 +29,9 @@ diplomatic_decisions = {
                             war = {
                                         target = CSY
                                                            }
+					 5315 = {
+						   province_event = 190029
+						   }
 			}
 		ai_will_do = {
 			factor = 1

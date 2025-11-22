@@ -23,7 +23,11 @@ diplomatic_decisions = {
 		effect = {
 			set_global_flag = JAPsouthing
                         JAP = { war = { target = ENG } 
-                                war = { target = USA } }
+                                war = { target = USA } 
+								}
+								5315 = {
+						   province_event = 190028
+						   }
 		}
 		ai_will_do = {
 			factor = 1

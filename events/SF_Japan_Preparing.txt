@@ -26,6 +26,9 @@ country_event = {
 			popularity = 10 
 			organisation = 10
 		}
+		5315 = {
+						   province_event = 190031
+						   }
 		national_unity = 15
 		ai_chance = { factor = 100 }
 	}

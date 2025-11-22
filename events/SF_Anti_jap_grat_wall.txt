@@ -51,6 +51,9 @@ country_event = {
 	option = {
 		name = "rehename"
                    country_event = 12211
+				   JAP ={
+				   country_event = 390056
+				   }
                    set_global_flag = Anti_jap_front_great_wall_loss
 		ai_chance = { factor = 100 }
 	}
@@ -81,12 +84,12 @@ country_event = {
  any_owned = { limit = { province_id = 5086 } secede_province = CJC } 
  any_owned = { limit = { province_id = 4979 } secede_province = CJC } 
  any_owned = { limit = { province_id = 5018 } secede_province = CJC } 
- any_owned = { limit = { province_id = 4886 } secede_province = CJD } 
-any_owned = { limit = { province_id = 4934 } secede_province = CJD }
-any_owned = { limit = { province_id = 4935 } secede_province = CJD }
-any_owned = { limit = { province_id = 5019 } secede_province = CJD }
-any_owned = { limit = { province_id = 5055 } secede_province = CJD }
-any_owned = { limit = { province_id = 4981 } secede_province = CJD }
+ any_owned = { limit = { province_id = 4886 } secede_province = MAN } 
+any_owned = { limit = { province_id = 4934 } secede_province = MAN }
+any_owned = { limit = { province_id = 4935 } secede_province = MAN }
+any_owned = { limit = { province_id = 5019 } secede_province = MAN }
+any_owned = { limit = { province_id = 5055 } secede_province = MAN }
+any_owned = { limit = { province_id = 4981 } secede_province = MAN }
 any_owned = { limit = { province_id = 4976 } secede_province = CHA } 
  any_owned = { limit = { province_id = 5016 } secede_province = CHA } 
  any_owned = { limit = { province_id = 4933 } secede_province = CHA } 
@@ -166,12 +169,12 @@ country_event = {
 			duration = 180
 		}
                    JAP = {
-                    any_owned = { limit = { province_id = 4978 } secede_province = CJC } 
-                   any_owned = { limit = { province_id = 4976 } secede_province = CJC } 
- any_owned = { limit = { province_id = 5016 } secede_province = CJC } 
- any_owned = { limit = { province_id = 4933 } secede_province = CJC } 
- any_owned = { limit = { province_id = 5084 } secede_province = CJC } 
- any_owned = { limit = { province_id = 5112 } secede_province = CJC } 
+                    any_owned = { limit = { province_id = 4978 } secede_province = CHI } 
+                   any_owned = { limit = { province_id = 4976 } secede_province = CHI } 
+ any_owned = { limit = { province_id = 5016 } secede_province = CHI } 
+ any_owned = { limit = { province_id = 4933 } secede_province = CHI } 
+ any_owned = { limit = { province_id = 5084 } secede_province = CHI } 
+ any_owned = { limit = { province_id = 5112 } secede_province = CHI } 
                   }
                   CHA = { end_war = JAP }
 		ai_chance = { factor = 100 }
@@ -237,3 +240,18 @@ country_event = {
 		ai_chance = { factor = 100 }
        	}
 }
+country_event = {
+	id = 390056
+         major = yes
+	is_triggered_only = yes
+	title = "Great_wall_win_japtitle"
+	desc = "Great_wall_win_japtitledesc"
+	picture = "Anti_jap_front_great_wall3"
+	option = {
+		name = "Great_wall_win_japtitleoption"
+        national_unity = 5
+        dissent = -15
+		ai_chance = { factor = 100 }
+	}
+}
+

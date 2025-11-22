@@ -1,6 +1,29 @@
 ##########################
 #   长征·西路军事件组   #
 ##########################
+#取消第二中央
+country_event = {
+	id = 193617
+	major = yes
+		fire_only_once = yes
+	title = "Event193617title"	
+	subtitle = "Event193617subtitle"
+	desc = "Event193617desc"
+	picture = "Event193614"
+	trigger = {
+		tag = CHC	 
+		not = { year = 1937 }     
+		date = 1936.6.6
+	}
+	option = {
+		name = "Event193617option" 
+                stalinist_PRC = { popularity = 5 } 
+                 set_country_flag = ZGTBS
+                dissent = -5
+		national_unity = 10                    
+		
+	}
+}
 #会宁会师
 country_event = {
 	id = 1000082

@@ -216,39 +216,6 @@ country_event = {
                 ai_chance = { factor = 0 }
 	}
 }
-#发布《关于红军东进抗日及讨伐卖国贼阎锡山的命令》
-country_event = {
-	id = 19362
-	major = yes
-		fire_only_once = yes
-	title = "Event19362title"
-	subtitle = "Event19362subtitle"
-	desc = "Event19362desc"
-	picture = "Event19362"
-	trigger = {
-		tag = CHC
-	        war_with = JAP 
-	   not = { year = 1937 }     
-		date = 1936.1.15
-	}
-	option = {
-		name = "组建抗日先锋军"
-                country_event = 193601
-                national_unity = 10
-		set_country_flag = Event19362
-	}
-}
-#组建抗日先锋军
-country_event = {
-	id = 193601
-	is_triggered_only = yes
-	title = "dz1title"
-	desc = "DZD"
-	picture = "Event19362"
-	option = {
-		name = "dzop"            
-	}
-}
 #毛泽东填词《沁园春·雪》
 country_event = {
 	id = 19363
@@ -540,28 +507,6 @@ country_event = {
 	}
 	option = {
 		name = "otsop"             
-	}
-}
-#第二中央
-country_event = {
-	id = 193617
-	major = yes
-		fire_only_once = yes
-	title = "ZGTT"	
-	desc = "ZGTD"
-	picture = "Event193614"
-	trigger = {
-		tag = CHC	 
-		not = { year = 1937 }     
-		date = 1936.6.6
-	}
-	option = {
-		name = "ZGTP" 
-                stalinist_PRC = { popularity = 5 } 
-                 set_country_flag = ZGTBS
-                dissent = -5
-		national_unity = 10                    
-		
 	}
 }
 #二中全会

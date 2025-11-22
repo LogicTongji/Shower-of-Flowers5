@@ -37,7 +37,7 @@ New_china_option;人间正道是沧桑;;;;;;;;;;;;;;x
 Koreanwar_title;朝鲜战争;;;;;;;;;;;;;;x
 Koreanwar_desc;雄赳赳,气昂昂,跨过鸭绿江！\n保和平,卫祖国,就是保家乡！\n中国好儿女,齐心团结紧!\n——「中国人民志愿军战歌」;;;;;;;;;;;;;;x
 Koreanwar_option;打败美国野心狼！;;;;;;;;;;;;;;x
-Eastern_Asian_war;大东亚战争;;;;;;;;;;;;;;x
+Eastern_Asian_wartitle;大东亚战争;;;;;;;;;;;;;;x
 Eastern_Asian_wardesc;凡能保全主权线及利益线者，方成为国家。\n当今列国并立，仅防守主权线已不足以维护国家之独立，必须进而防卫利益线。\n——山县有朋;;;;;;;;;;;;;;x
 Eastern_Asian_waroption;烬灭亚太;;;;;;;;;;;;;;x
 Great_wall_conquetitle;关内作战;;;;;;;;;;;;;;x
@@ -52,7 +52,7 @@ conqueChinaoption;东亚新秩序;;;;;;;;;;;;;;x
 Army_attack_potitle;帝都不详事件;;;;;;;;;;;;;;x
 Army_attack_podesc;日本国体乃在于天皇之施治，自远古以自万亿斯年，永矢弗替，以期日本国家天赋之美传遍八纮一宇，使普天之下人类尽情享受其生活。\n日本此种基本使命，实为日本之光荣，故得自远古以传于今。\n——野中四郎;;;;;;;;;;;;;;x
 Army_attack_pooption;历史变动之时;;;;;;;;;;;;;;x
-Northern_gov_establish;西北建政;;;;;;;;;;;;;;x
+Northern_gov_establishtitle;西北建政;;;;;;;;;;;;;;x
 Northern_gov_establishdesc;谁主沉浮？人民，醒悟了的人民。\n——周恩来;;;;;;;;;;;;;;x
 Northern_gov_establishoption;共赴国难;;;;;;;;;;;;;;x
 Eeatern_Asian_revolutiontitle;东亚革命战争;;;;;;;;;;;;;;x

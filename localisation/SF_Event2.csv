@@ -102,7 +102,7 @@ DBY_chi_title;成立东北野战军;;;;;;;;;;;;;;x
 XBY_chi_title;成立西北野战军;;;;;;;;;;;;;;x
 The_seventh_armygroup_title;成立第七战区;;;;;;;;;;;;;;x
 The_eighth_armygroup_title;成立第八战区;;;;;;;;;;;;;;x
-JAP_HBWUSHEN_title;华北五省自治;;;;;;;;;;;;;;x
+JAP_north_China1_title;策动华北事变;;;;;;;;;;;;;;x
 JAP_WRQ_title;无人区;;;;;;;;;;;;;;x
 JAP_WRQ_desc;无人区;;;;;;;;;;;;;;x
 education3_chi_title;成立国立西安临时大学;;;;;;;;;;;;;;x
@@ -160,7 +160,7 @@ DBY_chi_title;成立东北野战军，负责东北战局。;;;;;;;;;;;;;;x
 XBY_chi_title;西北野战军，挺进西北，拱卫陕北。;;;;;;;;;;;;;;x
 The_seventh_armygroup_desc;成立第七战区，支援全国抗战。;;;;;;;;;;;;;;x
 The_eighth_armygroup_desc;成立第八战区，拱卫西北内陆。;;;;;;;;;;;;;;x
-JAP_HBWUSHEN_desc;策动华北五省自治,分离中国华北。;;;;;;;;;;;;;;x
+JAP_north_China1_desc;支那政府为保卫北支那五省，曾两度不惜与帝国一战......如今，是该用政治手段为帝国夺取利益了。;;;;;;;;;;;;;;x
 education3_chi_desc;成立国立西安临时大学，保全北方地区高等教育;;;;;;;;;;;;;;x
 educationXB_chi_desc;成立国立西北联合大学,保全北方地区高等教育;;;;;;;;;;;;;;x
 education5_chi_desc;组织华西坝五校联合办学，共同培育国家所需之人才.;;;;;;;;;;;;;;x

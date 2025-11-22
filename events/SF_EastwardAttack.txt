@@ -1,6 +1,28 @@
 ######################
 #   东征战役事件组   #
 ######################
+#发布《关于红军东进抗日及讨伐卖国贼阎锡山的命令》
+country_event = {
+	id = 19362
+	major = yes
+		fire_only_once = yes
+	title = "Event19362title"
+	subtitle = "Event19362subtitle"
+	desc = "Event19362desc"
+	picture = "Event19362"
+	trigger = {
+		tag = CHC
+	        war_with = JAP 
+	   not = { year = 1937 }     
+		date = 1936.1.15
+	}
+	option = {
+		name = "组建抗日先锋军"
+                country_event = 193601
+                national_unity = 10
+		set_country_flag = Event19362
+	}
+}
 country_event = {
 	id = 1000077
 	is_triggered_only = yes

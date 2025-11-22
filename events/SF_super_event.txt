@@ -85,7 +85,7 @@ province_event = {
 }
 #第二次国共内战CHC
 province_event = {
-	id = 190025
+	id = 190034
 	title = "civil_war_title"
 	desc = "civil_war_desc"
 	picture = "liberation_war_superevent"
@@ -97,7 +97,7 @@ province_event = {
 }
 #第二次国共内战CHI
 province_event = {
-	id = 190028
+	id = 190035
 	title = "civil_war_title1"
 	desc = "civil_war_desc1"
 	picture = "liberation_war_superevent"
@@ -109,7 +109,7 @@ province_event = {
 }
 #开国大典
 province_event = {
-	id = 190025
+	id = 190036
 	title = "New_china_title"
 	desc = "New_china_desc"
 	picture = "NewChina_superevent"

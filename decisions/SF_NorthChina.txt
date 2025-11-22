@@ -1,0 +1,26 @@
+#####################
+#  华北五省事件组   #
+#####################
+diplomatic_decisions = {
+	     JAP_north_China1 = {
+		potential = {
+			tag = JAP                                            
+                                                exists = CHI
+			not = { has_global_flag = JAP_invassion_northChina } 
+			has_global_flag = Anti_jap_front_great_wall_loss
+			not = { year = 1937 } 
+		}
+		allow = {
+			not = { alliance_with = CHI }
+			date = 1934.10.1
+		}
+		effect = {
+			set_global_flag = JAP_invassion_northChina
+
+			country_event = 390219
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

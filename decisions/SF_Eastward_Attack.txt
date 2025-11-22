@@ -15,6 +15,7 @@ diplomatic_decisions = {
 		}
 		allow = {
 			not = { year = 1937 } 
+			has_country_flag = Event19362
 		}
 		effect = {
 			set_country_flag = Eattack_chc

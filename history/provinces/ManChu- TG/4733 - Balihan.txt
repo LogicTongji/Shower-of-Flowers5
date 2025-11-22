@@ -1,7 +1,10 @@
-owner = MAN 
-controller = MAN
-add_core = MAN 
+owner = CRH
+
+controller = CRH
+
 add_core = CHC
+add_core = CRH
+add_core = CHI
 
 infra = 3
 

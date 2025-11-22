@@ -28,3 +28,9 @@ controller = CHI
 add_core = CHI
 infra = 3
 }
+1949.1.1 = { 
+owner = PRC
+controller = PRC
+add_core = PRC
+infra = 3
+}

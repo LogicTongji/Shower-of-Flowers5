@@ -4,7 +4,7 @@ province_event = {
 	id = 190019
 	title = "Long_Marchtitle"
 	desc = "Long_Marchdesc"
-	picture = "LongMarch_superevent"
+	picture = "longMarch_superevent"
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
@@ -144,27 +144,100 @@ province_event = {
 		name = "Japan_lugouoption"
         }
 }
-#南进
+#大东亚战争
 province_event = {
 	id = 190028
 	title = "Eastern_Asian_wartitle"
 	desc = "Eastern_Asian_wardesc"
-	picture = "NorthChina_war_super_event"
+	picture = "EasternAsian_war_superevent"
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
 		name = "Eastern_Asian_waroption"
         }
 }
-#长城战役
+#关内作战
 province_event = {
 	id = 190029
 	title = "Great_wall_conquetitle"
 	desc = "Great_wall_conquedesc"
-	picture = "NorthChina_war_super_event"
+	picture = "Greatwall_antijap_superevent"
 	is_triggered_only = yes
 	fire_only_once = yes
 	option = {
 		name = "Great_wall_conqueoption"
+        }
+}
+#战略僵持
+province_event = {
+	id = 190030
+	title = "Stoped_in_Chinatitle"
+	desc = "Stoped_in_Chinadesc"
+	picture = "stopped_in_China_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Stoped_in_Chinaoption"
+        }
+}
+#征服支那
+province_event = {
+	id = 190031
+	title = "conqueChinatitle"
+	desc = "conqueChinadesc"
+	picture = "conque_China_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "conqueChinaoption"
+        }
+}
+#226兵变
+province_event = {
+	id = 190031
+	title = "Army_attack_potitle"
+	desc = "Army_attack_podesc"
+	picture = "226superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Army_attack_pooption"
+        }
+}
+#Notherngovment
+#西北建政
+province_event = {
+	id = 190031
+	title = "Northern_gov_establishtitle"
+	desc = "Northern_gov_establishdesc"
+	picture = "WestNorther_gov_superevent"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Northern_gov_establishoption"
+        }
+}
+#东亚革命战争
+province_event = {
+	id = 190032
+	title = "Eeatern_Asian_revolutiontitle"
+	desc = "Eeatern_Asian_revolutiondesc"
+	picture = "Great_Asian_revolution_war"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Eeatern_Asian_revolutionoption"
+        }
+}
+#西北国防政府凯旋
+province_event = {
+	id = 190033
+	title = "Northern_gov_win_title"
+	desc = "Northern_gov_win_desc"
+	picture = "NorthChina_war_super_event"
+	is_triggered_only = yes
+	fire_only_once = yes
+	option = {
+		name = "Northern_gov_win_option"
         }
 }

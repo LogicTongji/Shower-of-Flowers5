@@ -5,6 +5,7 @@ controller = CRH
 add_core = CHC
 add_core = CRH
 add_core = CHI
+infra = 0
 1936.1.1 = {
 	owner = MEC
 	controller = MEC

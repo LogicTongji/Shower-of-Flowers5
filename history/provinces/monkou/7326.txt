@@ -5,7 +5,7 @@ controller = CRH
 add_core = CHC
 add_core = CRH
 add_core = CHI
-infra = 0
+infra = 2
 1936.1.1 = {
 	owner = MEC
 	controller = MEC
@@ -14,6 +14,7 @@ infra = 0
 owner = MEB
 controller = MEB
 add_core = MEB
+infra = 0
 }
 1945.9.3 = {
 remove_core = MEB

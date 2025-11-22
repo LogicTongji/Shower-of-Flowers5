@@ -14,6 +14,10 @@ add_core = CJC
 1937.9.13 = {
 	owner = JAP
 }
+1937.10.1 = {
+infra = 0
+
+}
 1946.1.1 = {
 	owner = CHC
 	controller = CHC

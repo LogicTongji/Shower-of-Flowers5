@@ -241,10 +241,10 @@ country_event = {
 	picture = "Anti_jap_front_great_wall4"
 	trigger = {
 		tag = CHI
-                   has_global_flag = Anti_jap_front_great_wall_loss
-                   exists = CHA
+                   has_global_flag = Anti_jap_front_great_wall_loss 
 		not = { war_with = JAP }
 		not = {
+		                        exists = CHA
                                 year = 1936
                    }
 	}
@@ -254,7 +254,7 @@ country_event = {
 	option = {
 		name = "rehename1"
 		CRH = {	
-				chahar_region = { any_owned = { limit = { controlled_by = CRH } }  secede_province = CRH remove_core = CRH add_core = CHA change_controller = CRH }
+				chahar_region = { any_owned = { limit = { controlled_by = CRH } }  secede_province = CHA remove_core = CRH add_core = CHA change_controller = CHA }
 			}
                     CHA = {  war = {
                                         target = JAP

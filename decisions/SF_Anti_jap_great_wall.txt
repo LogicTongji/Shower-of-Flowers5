@@ -36,6 +36,7 @@ diplomatic_decisions = {
 			tag = JAP
 			not = { has_global_flag = the_war_attack_great_wall }
 			has_global_flag = the_war_attack_rehe
+			has_global_flag = japthe_war_attack_rehe_win
 			not = { year = 1934 } 
 			exists = CHI	
 			exists = CRH

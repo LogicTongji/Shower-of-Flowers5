@@ -652,7 +652,7 @@ country_event = {
 	id = 1000131
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CCH }
 		FROM = { TAG = JAP }
 		and = { exists = CHI CHI = { war_with = JAP } }
 		or = { not = { exists = CXB } not = { CXB = { war_with = JAP } } }
@@ -675,7 +675,7 @@ country_event = {
 	id = 1000132
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH  }
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CCH  }
 		FROM = { TAG = JAP }
 		and = { exists = CXB CXB = { war_with = JAP } }
 		has_global_flag = SF_anti_japanese_war
@@ -699,7 +699,7 @@ country_event = {
 	trigger = {
 		or = {
 			and = {
-				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
+				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CCH }
 				FROM = { TAG = JAP }
 				CHC = { has_country_flag = CHC_Kangzhan }
 				or = { not = { exists = CXB } not = { CXB = { war_with = JAP } } }
@@ -734,7 +734,7 @@ country_event = {
 	trigger = {
 		or = {
 			and = {
-				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
+				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CCH }
 				FROM = { TAG = JAP }
 				or = { not = { exists = CXB } not = { CXB = { war_with = JAP } } }
 				or = { not = { exists = CHI } not = { CHI = { war_with = JAP } } }
@@ -1174,6 +1174,33 @@ country_event = {
 				   }
 		  CRH ={
 				   country_event = 390059
+				   }
+				    ai_chance = { factor = 100 }
+	}
+}
+#³¤³Ç¿¹Õ½
+country_event = {
+	id = 2025114
+	is_triggered_only = yes
+	trigger = {
+		TAG = CHR
+		OR = { FROM = { TAG = MAN } FROM = { TAG = JAP } }
+		has_global_flag = the_war_attack_rehe
+		has_global_flag = the_war_attack_great_wall
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		  any_owned = { limit = { controlled_by = JAP } secede_province = CHR change_controller = CHR }
+		  any_owned = { limit = { not = { controlled_by = JAP } } secede_province = CHR }
+		     CSX = { end_war = JAP }
+					CRH = { end_war = JAP }
+                    CSY = { end_war = JAP }
+					CHI = { end_war = CJD }
+		   CHI ={
+				   country_event = 12211
 				   }
 				    ai_chance = { factor = 100 }
 	}

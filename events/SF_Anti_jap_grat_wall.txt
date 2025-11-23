@@ -108,7 +108,10 @@ country_event = {
 	picture = "Anti_jap_front_great_wall2"
 	trigger = {
 		tag = JAP
+		OR = {
 		rehe_region = { controlled_by = CRH }
+		rehe_region = { controlled_by = CTY }
+		}
 		date = 1933.2.17
 		not = {
 		war_with = CRH
@@ -364,7 +367,7 @@ country_event = {
 	desc = "japrehe1desc"
 	picture = "Anti_jap_front_great_wall3"
 	option = {
-		name = "Great_wall_win_japtitleoption"
+		name = "japrehe1_option"
         national_unity = 5
         dissent = -15
 		ai_chance = { factor = 100 }
@@ -392,8 +395,8 @@ country_event = {
 	picture = "Anti_jap_front_great_wall3"
 	option = {
 		name = "japrehe22_option"
-        national_unity = 5
-        dissent = -15
+        national_unity = -5
+		set_global_flag = japthe_war_attack_rehe_win
 		ai_chance = { factor = 100 }
 	}
 }

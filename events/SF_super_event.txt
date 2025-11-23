@@ -207,7 +207,7 @@ province_event = {
 #Notherngovment
 #西北建政
 province_event = {
-	id = 190031
+	id = 190032
 	title = "Northern_gov_establishtitle"
 	desc = "Northern_gov_establishdesc"
 	picture = "WestNorther_gov_superevent"
@@ -219,7 +219,7 @@ province_event = {
 }
 #东亚革命战争
 province_event = {
-	id = 190032
+	id = 190033
 	title = "Eeatern_Asian_revolutiontitle"
 	desc = "Eeatern_Asian_revolutiondesc"
 	picture = "Great_Asian_revolution_war"
@@ -231,7 +231,7 @@ province_event = {
 }
 #西北国防政府凯旋
 province_event = {
-	id = 190033
+	id = 190034
 	title = "Northern_gov_win_title"
 	desc = "Northern_gov_win_desc"
 	picture = "AntiJapan_win"

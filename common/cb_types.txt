@@ -111,7 +111,11 @@ conquer = {
 		country_event = 1000143#铲除汉奸政权
 		country_event = 1000148
 		country_event = 1000141#普通灭国事件
-	  country_event = 6700#战后秩序
+	  country_event = 2021129#战后秩序
+	  country_event = 2021291#战后秩序
+	  country_event = 100160#热河抗战
+	  country_event = 100161#长城抗战
+	  country_event = 100162#察哈尔抗战
 	}
 	
 	war_name = WAR_CONQUEST_NAME

@@ -1304,7 +1304,7 @@ theatre = {
 			regiment = { type = mechanized_brigade experience = 70 name = "机动步兵第2联队" historical_model = 4 }
 			regiment = { type = engineer_brigade experience = 70 name = "工兵队" historical_model = 4 }
 			regiment = { type = motorized_anti_tank_brigade experience = 70 name = "师团直属速射炮队" historical_model = 4 }
-			regiment = { type = motorized_artillery_brigadeB experience = 70 name = "机动炮兵第3联队" historical_model = 4 }
+			regiment = { type = artillery_brigadeB experience = 70 name = "机动炮兵第3联队" historical_model = 4 }
 			regiment = { type = motorized_anti_air_brigade experience = 70 name = "防空队" historical_model = 4 }
 		division = {
 			name = "第1边境警备师团"
@@ -1787,7 +1787,7 @@ theatre = {
 				regiment = { type = motorized_brigade name = "歩兵第11联队" experience = 40 historical_model = 5 }
 				regiment = { type = motorized_brigade name = "歩兵第41联队" experience = 40 historical_model = 5 }
 				regiment = { type = engineer_brigade name = "工兵第5联队" historical_model = 4 }
-			regiment = { type = motorized_artillery_brigadeB name = "野炮兵第5联队" historical_model = 4 }
+			regiment = { type = artillery_brigadeB name = "野炮兵第5联队" historical_model = 4 }
 			}
 			division = {
 				name = "歩兵第21旅团"

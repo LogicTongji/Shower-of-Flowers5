@@ -79,14 +79,14 @@ theatre = {
 		}
 	                division = {
 				name = "独立混成第14旅团"
-				location = 4889
+				location = 4680
 				regiment = { type = imperial_brigade name = "歩兵第25联队第二大队、步兵第26联队第二大队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "歩兵第27联队第一大队、步兵第28联队第二大队" experience = 55 historical_model = 1 }
 				regiment = { type = artillery_brigade name = "野炮兵第7联队第二大队" experience = 55 historical_model = 1 }
 			}
                                   division = {
 				name = "独立混成第33旅团"
-				location = 4889
+				location = 4680
 				regiment = { type = imperial_brigade name = "歩兵第10联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "歩兵第63联队" experience = 55 historical_model = 1 }
                                                                 regiment = { type = imperial_brigade name = "歩兵第40联队、第39联队混成大队" experience = 55 historical_model = 1 }
@@ -117,14 +117,14 @@ theatre = {
 	regiment = { type = hq_brigade name = "帝国大本营" experience = 55 historical_model = 1 }
                                                 corps= {
 			name = "第1近卫师团"
-			location = 4981
+			location = 5315
 			regiment = { type = hq_brigade experience = 55 historical_model = 1 }
 			    regiment = { type = imperial_brigade name = "守备联队" experience = 55 historical_model = 1 }
 				regiment = { type = police_brigade name = "铁道第1联队" experience = 55 historical_model = 1 }
 				regiment = { type = police_brigade name = "铁道第2联队" experience = 55 historical_model = 1 }
 			division = {
 				name = "近卫第1旅团"
-				location = 5019
+				location = 5315
 				regiment = { type = imperial_brigade name = "近卫第1联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "近卫第2联队" experience = 55 historical_model = 1 }
 				regiment = { type = engineer_brigade name = "近卫工兵联队" experience = 55 historical_model = 1 }
@@ -132,13 +132,13 @@ theatre = {
 			}
 			division = {
 				name = "近卫第2旅团"
-				location = 4935
+				location = 5315
 				regiment = { type = imperial_brigade name = "近卫第3联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "近卫第4联队" experience = 55 historical_model = 1 }
 			}
 			division = {
 				name = "野战重炮兵第4旅团"
-				location = 4935
+				location = 5315
 				regiment = { type = imperial_brigade name = "加强大队" experience = 55 historical_model = 1 }
 				regiment = { type = artillery_brigadeB name = "近卫野炮兵联队" experience = 55 historical_model = 1 }
 				regiment = { type = artillery_brigadeB name = "野战重炮兵第4联队" experience = 55 historical_model = 1 }
@@ -146,7 +146,7 @@ theatre = {
 			}
 			division = {
 				name = "骑兵第1旅团"
-				location = 5019
+				location = 5315
 				regiment = { type = cavalry_brigade name = "骑兵第13联队" experience = 55 historical_model = 1 }
 				regiment = { type = cavalry_brigade name = "骑兵第14联队" experience = 55 historical_model = 1 }
 			}

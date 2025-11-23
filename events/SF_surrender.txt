@@ -68,47 +68,6 @@ country_event = {
 		  ai_chance = { factor = 100 }
 	}
 }
-#绥远抗战
-country_event = {
-	id = 1000092
-	major = yes
-	is_triggered_only = yes
-	trigger = {
-		TAG = CSY
-		FROM = { TAG = MEA }
-		has_global_flag = suiyuan
-	}
-	title = "Event1000092title"
-	desc = "Event1000092desc"
-	picture = "china_surrendered"
-	option = {
-		  name = "Event1000092option"
-		  cir_global_flag = suiyuan
-		  MEA = { country_event = 1000093 }
-		  mengkukuo_region = { remove_core = CSY }
-		  CSY = { mengkukuo_region = { secede_province = MEA } }
-		  ai_chance = { factor = 100 }
-	}
-}
-country_event = {
-	id = 1000094
-	is_triggered_only = yes
-	trigger = {
-		TAG = MEA
-		FROM = { TAG = CSY }
-		has_global_flag = suiyuan
-	}
-	title = "Event1000094title"
-	desc = "Event1000094desc"
-	picture = "china_surrendered"
-	option = {
-		  name = "Event1000094option"
-		  cir_global_flag = suiyuan
-		  CSY = { country_event = 1000095 }
-		  MEA = { mengkukuo_region = { secede_province = MEA } }
-		  ai_chance = { factor = 100 }
-	}
-}
 #两广事变-开战
 country_event = {
 	id = 1000102
@@ -1151,6 +1110,47 @@ country_event = {
           }
                                    set_global_flag = jap_sei_lost
 		}
+	}
+}
+#绥远抗战
+country_event = {
+	id = 1000092
+	major = yes
+	is_triggered_only = yes
+	trigger = {
+		TAG = CSY
+		FROM = { TAG = MEA }
+		has_global_flag = suiyuan
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		  cir_global_flag = suiyuan
+		  MEA = { country_event = 1000093 }
+		  mengkukuo_region = { remove_core = CSY }
+		  CSY = { mengkukuo_region = { secede_province = MEA } }
+		  ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 1000094
+	is_triggered_only = yes
+	trigger = {
+		TAG = MEA
+		FROM = { TAG = CSY }
+		has_global_flag = suiyuan
+	}
+	title = "Event1000094title"
+	desc = "Event1000094desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000094option"
+		  cir_global_flag = suiyuan
+		  CSY = { country_event = 1000095 }
+		  MEA = { mengkukuo_region = { secede_province = MEA } }
+		  ai_chance = { factor = 100 }
 	}
 }
 #热河抗战

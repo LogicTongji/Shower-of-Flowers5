@@ -6,6 +6,12 @@ add_core = CHC
 add_core = CRH
 add_core = CHI
 infra = 3
+1935.1.1 = {
+	owner = MAN
+	controller = MAN
+	add_core = MAN
+	remove_core = CRH
+}
 1945.9.28 = {
 	owner = CHI
 	controller = CHI

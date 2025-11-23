@@ -206,13 +206,15 @@ country_event = {
 	desc = "reheconversationdesc"
 	picture = "Anti_jap_front_great_wall3"
 	option = {
-		name = "reheoption"                         
+		name = "reheoption"    
+CRH = {
  any_owned = { limit = { province_id = 4886 } secede_province = MAN } 
 any_owned = { limit = { province_id = 4934 } secede_province = MAN }
 any_owned = { limit = { province_id = 4935 } secede_province = MAN }
 any_owned = { limit = { province_id = 5019 } secede_province = MAN }
 any_owned = { limit = { province_id = 5055 } secede_province = MAN }
 any_owned = { limit = { province_id = 4981 } secede_province = MAN }
+}
                     end_war = JAP
                     CSX = { end_war = JAP }
 					CRH = { end_war = JAP }

@@ -15,7 +15,12 @@ air_base = 5
 land_fort = 1
 manpower = 12.00
 
-
+1935.1.1 = {
+	owner = MAN
+	controller = MAN
+	add_core = MAN
+	remove_core = CRH
+}
 1945.9.28 = {
 	owner = CHC
 	controller = CHC

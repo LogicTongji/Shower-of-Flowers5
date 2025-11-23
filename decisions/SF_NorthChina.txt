@@ -36,7 +36,9 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = CHI_papring_northChina
-            CJC = { inherit = CRH }
+            CJC = { inherit = CRH
+			        inherit = CCH 
+					}
 			SF_china_region = { remove_core = CRH }
 		}
 		ai_will_do = {

@@ -3011,3 +3011,10 @@ NanChang_Conference_modifier = {
         dissent = 0.150
         ruling_party_support = -0.10
 }
+Anti_jap_front_modifier = {
+org_regain = 0.15
+supply_throughput = -0.2
+dissent = -0.35 
+land_organisation = 0.15
+icon = 5
+}

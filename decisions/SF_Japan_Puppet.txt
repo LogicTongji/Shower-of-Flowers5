@@ -19,9 +19,8 @@ diplomatic_decisions = {
 		}
 		effect = {
 			mengkukuo_region = { add_core = MEA remove_core = JAP }
-			JAP = {	
-				mengkukuo_region = { secede_province = MEA }
-			}
+			MEA = { inherit = MEC
+					}
 			MEA = { 
 				manpower = 100
 				load_oob = "MEA_military.txt"

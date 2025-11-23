@@ -4,6 +4,7 @@
 #Íô¾«ÎÀÅÑÌÓ
 country_event = {
 	id = 1000004
+	fire_only_once = yes
 	title = "wangjingwei_defect"
 	subtitle = "wangjingwei_defectsubtitle"
 	desc = "wangjingwei_defect_desc"
@@ -11,7 +12,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		war_with = JAP
-		not = { has_global_flag = wangjingwei_message }
+		has_country_flag = jap_seizes_coast_chi
 		not = { controls = 5494 }
 	}
 	mean_time_to_happen =  {

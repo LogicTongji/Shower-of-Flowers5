@@ -139,13 +139,12 @@ country_event = {
 	option = {
 		name = "rehe0_option"
                     national_unity = 15
-                    CHI = {   
-                      create_alliance = CSY
-                       create_alliance = CSX
-                        }
-                           CSX = { create_alliance = CSY }
-						   CRH = { create_alliance = CSY }
-						   CRH = { create_alliance = CSX }
+						CRH = {
+			 add_country_modifier = {
+			name = "Anti_jap_front_modifier"
+			duration = 30
+		}
+	}
 						   5494 = {
 						   province_event = 190020
 						   }
@@ -277,6 +276,11 @@ country_event = {
 			duration = 180
 		}
                    JAP = {
+				       any_owned = { limit = { province_id = 7313 } secede_province = CCH } 
+                   any_owned = { limit = { province_id = 7326 } secede_province = CCH } 
+ any_owned = { limit = { province_id = 7338 } secede_province = CCH } 
+ any_owned = { limit = { province_id = 4932 } secede_province = CCH }
+  any_owned = { limit = { province_id = 4885 } secede_province = CCH }
                     any_owned = { limit = { province_id = 4978 } secede_province = CCH } 
                    any_owned = { limit = { province_id = 4976 } secede_province = CCH } 
  any_owned = { limit = { province_id = 5016 } secede_province = CCH } 

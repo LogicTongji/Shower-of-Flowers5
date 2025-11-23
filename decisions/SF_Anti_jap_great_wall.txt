@@ -58,12 +58,6 @@ diplomatic_decisions = {
                              war = {
                                         target = CRH 
                                                            }
-					         war = {
-                                        target = CSX 
-                                                           }
-					         war = {
-                                        target = CSY 
-                                                           }
 				5315 = {
 						   province_event = 190029
 						   }
@@ -87,9 +81,6 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag = Anti_jap_front_great_wall
-						war = {
-                                        target = JAP 
-                                                           }
                             country_event = 12210
 		}
 		ai_will_do = {

@@ -225,23 +225,6 @@ theatre = {
 		}
 	}
 	corps = {
-		name = "第17军" 
-		location = 5699
-		regiment = { type = hq_brigade name = "第17军军部" historical_model = 1 }
-		division= {
-			name = "第2师"
-			location = 5699
-			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
-		}
-		division= {
-			name = "第25师"
-			location = 5699
-			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
-		}
-	}
-	corps = {
 		name = "第18军"
 		location = 5717
 		regiment = { type = hq_brigade name = "第18军军部" historical_model = 1 }
@@ -262,22 +245,6 @@ theatre = {
 			location = 7520
 			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
 			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
-		}
-	}
-	corps = {
-		name = "第26军"
-		location = 5728
-		regiment = { type = hq_brigade name = "第26军军部" historical_model = 1 }
-		division= {
-			name = "第97师"
-			location = 5728
-			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
-		}
-		division= {
-			name = "独立第4旅"
-			location = 5728
-			regiment = { type = infantry_brigade name = "独立第32旅" historical_model = 0 }
 		}
 	}
 	corps = {
@@ -311,17 +278,6 @@ theatre = {
 			name = "独立第36旅"
 			location = 7520
 			regiment = { type = infantry_brigade name = "独立第32旅" historical_model = 0 }
-		}
-	}
-	corps = {
-		name = "第40军"
-		location = 5791
-		regiment = { type = hq_brigade name = "第40军军部" historical_model = 1 }
-		division= {
-			name = "第39师"
-			location = 5791
-			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
 		}
 	}
 	corps = {

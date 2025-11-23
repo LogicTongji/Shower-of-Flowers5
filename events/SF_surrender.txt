@@ -105,8 +105,7 @@ country_event = {
 		  name = "Event1000094option"
 		  cir_global_flag = suiyuan
 		  CSY = { country_event = 1000095 }
-		  mengkukuo_region = { remove_core = MEA }
-		  MEA = { mengkukuo_region = { secede_province = JAP } }
+		  MEA = { mengkukuo_region = { secede_province = MEA } }
 		  ai_chance = { factor = 100 }
 	}
 }
@@ -272,7 +271,7 @@ country_event = {
 	id = 1000109
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
 		FROM = { TAG = CHI }
 	}
 	title = "Event1000107title"
@@ -304,7 +303,7 @@ country_event = {
 	id = 1000111
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
 		FROM = { TAG = CHC }
 	}
 	title = "Event1000111title"
@@ -369,7 +368,7 @@ country_event = {
 	id = 1000113
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CQM TAG = CNM TAG = CSX TAG = CSD TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
+		or = { TAG = CYN TAG = CQM TAG = CNM TAG = CSX TAG = CSD TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
 		FROM = { TAG = CXB }
 	}
 	title = "Event1000113title"
@@ -400,8 +399,8 @@ country_event = {
 	id = 1000115
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
-		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA } }
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
+		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA } FROM = { TAG = CRH } FROM = { TAG = CCH } }
 	}
 	title = "Event1000115title"
 	desc = "Event1000115desc"
@@ -432,7 +431,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		TAG = CHC
-		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CHI } FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS }  FROM = { TAG = CHA } }
+		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CHI } FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS }  FROM = { TAG = CHA } FROM = { TAG = CRH } FROM = { TAG = CCH } }
 	}
 	title = "Event1000117title"
 	desc = "Event1000117desc"
@@ -590,7 +589,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		TAG = CXB
-		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSD } FROM = { TAG = CGD } FROM = { TAG = CGX }  FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA }  }
+		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CYN } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSD } FROM = { TAG = CGD } FROM = { TAG = CGX }  FROM = { TAG = CXM } FROM = { TAG = CWJ } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA } FROM = { TAG = CRH } FROM = { TAG = CCH }  }
 	}
 	title = "Event1000127title"
 	desc = "Event1000127desc"
@@ -621,7 +620,7 @@ country_event = {
 	is_triggered_only = yes
 	trigger = {
 		TAG = JAP
-		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CXB } FROM = { TAG = CHC } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CHI }  FROM = { TAG = CXM } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA }  }
+		or = { FROM = { TAG = SIK } FROM = { TAG = TIB } FROM = { TAG = CXB } FROM = { TAG = CHC } FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CSC } FROM = { TAG = CDB } FROM = { TAG = CQM } FROM = { TAG = CNM } FROM = { TAG = CSX } FROM = { TAG = CSY } FROM = { TAG = CSD } FROM = { TAG = CJC } FROM = { TAG = CGD } FROM = { TAG = CGX } FROM = { TAG = CHI }  FROM = { TAG = CXM } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CJY } FROM = { TAG = CQS } FROM = { TAG = CHA } FROM = { TAG = CRH } FROM = { TAG = CCH }  }
 		has_global_flag = SF_anti_japanese_war
 	}
 	title = "Event1000129title"
@@ -653,7 +652,7 @@ country_event = {
 	id = 1000131
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA  }
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
 		FROM = { TAG = JAP }
 		and = { exists = CHI CHI = { war_with = JAP } }
 		or = { not = { exists = CXB } not = { CXB = { war_with = JAP } } }
@@ -676,7 +675,7 @@ country_event = {
 	id = 1000132
 	is_triggered_only = yes
 	trigger = {
-		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA  }
+		or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH  }
 		FROM = { TAG = JAP }
 		and = { exists = CXB CXB = { war_with = JAP } }
 		has_global_flag = SF_anti_japanese_war
@@ -700,7 +699,7 @@ country_event = {
 	trigger = {
 		or = {
 			and = {
-				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
+				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
 				FROM = { TAG = JAP }
 				CHC = { has_country_flag = CHC_Kangzhan }
 				or = { not = { exists = CXB } not = { CXB = { war_with = JAP } } }
@@ -735,7 +734,7 @@ country_event = {
 	trigger = {
 		or = {
 			and = {
-				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA }
+				or = { TAG = CYN TAG = CXK TAG = CSC TAG = CDB TAG = CQM TAG = CNM TAG = CSX TAG = CSY TAG = CSD TAG = CJC TAG = CGD TAG = CGX TAG = SIK TAG = TIB TAG = CXM TAG = CWJ TAG = CDX TAG = CTS TAG = CYS TAG = CJY TAG = CQS TAG = CHA TAG = CRH TAG = CCH }
 				FROM = { TAG = JAP }
 				or = { not = { exists = CXB } not = { CXB = { war_with = JAP } } }
 				or = { not = { exists = CHI } not = { CHI = { war_with = JAP } } }
@@ -1154,4 +1153,51 @@ country_event = {
 		}
 	}
 }
-
+#热河抗战
+country_event = {
+	id = 2025112
+	is_triggered_only = yes
+	trigger = {
+		TAG = CTY
+		OR = { FROM = { TAG = MAN } FROM = { TAG = JAP } }
+		has_global_flag = the_war_attack_rehe
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		 rehe_region = { remove_core = CRH }
+		  CTY = { rehe_region = { secede_province = MAN } }
+		   CHI ={
+				   country_event = 390059
+				   }
+		  CRH ={
+				   country_event = 390059
+				   }
+				    ai_chance = { factor = 100 }
+	}
+}
+#察哈尔抗战
+country_event = {
+	id = 2025113
+	is_triggered_only = yes
+	trigger = {
+		TAG = CHA
+		OR = { FROM = { TAG = MAN } FROM = { TAG = JAP } }
+		has_global_flag = the_war_attack_rehe
+		has_global_flag = Anti_jap_front_great_wall_loss
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		 chahar_region = { remove_core = CHA }
+		  CHA = { chahar_region = { secede_province = MAN } }
+		   CHI ={
+				   country_event = 390052
+				   }
+				    ai_chance = { factor = 100 }
+	}
+}

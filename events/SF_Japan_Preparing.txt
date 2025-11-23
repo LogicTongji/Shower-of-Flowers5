@@ -84,7 +84,6 @@ country_event = {
 		name = "Japan_Preparing_3_option"
 		set_country_flag = Japan_Preparing_3
 		national_unity = 10
-		set_global_flag = SF_anti_japanese_war
 		ai_chance = { factor = 100 }
 	}
 }

@@ -6,9 +6,39 @@ diplomatic_decisions = {
                    major = yes
 		potential = {
 			tag = JAP
-			not = { has_global_flag = the_war_attack_great_wall }
+			not = { has_global_flag = the_war_attack_rehe }
 			not = { year = 1934 } 
-			exists = CHI		
+			exists = CRH		
+			not = {
+				war_with = CHI
+			}
+		}
+		allow = {
+			CRH = {
+				not = { vassal_of = JAP }
+			}
+			and = {
+				date = 1933.1.6
+			}
+		}
+		effect = {
+			set_global_flag = the_war_attack_rehe
+                  country_event = 12209    
+					 
+			}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	Jap_war_greatwall_front = {
+                   major = yes
+		potential = {
+			tag = JAP
+			not = { has_global_flag = the_war_attack_great_wall }
+			has_global_flag = the_war_attack_rehe
+			not = { year = 1934 } 
+			exists = CHI	
+			exists = CRH
 			not = {
 				war_with = CHI
 			}
@@ -17,19 +47,23 @@ diplomatic_decisions = {
 			CHI = {
 				not = { vassal_of = JAP }
 			}
-			and = {
-				date = 1933.1.6
+			OR = {
+			rehe_region = { controlled_by = JAP }
+			rehe_region = { controlled_by = MAN }
 			}
 		}
 		effect = {
 			set_global_flag = the_war_attack_great_wall
                              war = {
+                                        target = CRH 
+                                                           }
+					         war = {
                                         target = CSX 
                                                            }
-                            war = {
-                                        target = CSY
+					         war = {
+                                        target = CSY 
                                                            }
-					 5315 = {
+				5315 = {
 						   province_event = 190029
 						   }
 			}
@@ -42,7 +76,6 @@ diplomatic_decisions = {
 		potential = {
 			tag = CHI
 			not = { has_global_flag = Anti_jap_front_great_wall }
-			exists = CHI
 			exists = JAP
 			has_global_flag = the_war_attack_great_wall
 		}

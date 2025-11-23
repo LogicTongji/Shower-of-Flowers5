@@ -23,4 +23,24 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
+	 CHI_north_China1 = {
+		potential = {
+			tag = CHI                                          
+			not = { has_country_flag = CHI_papring_northChina } 
+			has_global_flag = Anti_jap_front_great_wall_loss
+			not = { year = 1937 } 
+		}
+		allow = {
+			not = { alliance_with = CHI }
+			date = 1935.10.1
+		}
+		effect = {
+			set_country_flag = CHI_papring_northChina
+            CJC = { inherit = CRH }
+			SF_china_region = { remove_core = CRH }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

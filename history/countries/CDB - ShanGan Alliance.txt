@@ -10,7 +10,6 @@ minister_of_security = 3000053
 minister_of_intelligence = 3000054
 chief_of_staff = 3000054
 chief_of_army = 3000055
-oob = "CDB_1933.txt"
 
 
 infantry_theory = 5

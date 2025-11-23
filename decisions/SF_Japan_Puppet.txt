@@ -13,9 +13,14 @@ diplomatic_decisions = {
 		}
 		allow = {
 			NOT = { exists = MEA }
+			OR = {
 			JAP = {
 				controls = 4932
 			}
+			MEC = {
+				controls = 4932
+			}
+		  }
 		}
 		effect = {
 			mengkukuo_region = { add_core = MEA remove_core = JAP }

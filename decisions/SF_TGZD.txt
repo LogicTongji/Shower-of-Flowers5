@@ -1,5 +1,5 @@
 
-#Í¬ÖÐ¹ú½Ó´¥	
+#Í¬ï¿½Ð¹ï¿½ï¿½Ó´ï¿½	
 Surrendered_to_China = {
 
     
@@ -11,15 +11,15 @@ Surrendered_to_China = {
       exists = CHI
       war_with = CHI
       JAP = {     
-        controls = 7508 #Îäºº           
+        controls = 7508 #ï¿½äºº           
         }
       CHI = { 
-        controls = 9415 #³É¶¼
-        controls = 7520 #³¤É³
-        controls = 7523 #³£µÂ
-        controls = 9478 #ÖØÇì
-        controls = 7541 #¹óÑô
-        controls = 7435 #Î÷°²
+        controls = 9415 #ï¿½É¶ï¿½
+        controls = 7520 #ï¿½ï¿½É³
+        controls = 7523 #ï¿½ï¿½ï¿½ï¿½
+        controls = 9478 #ï¿½ï¿½ï¿½ï¿½
+        controls = 7541 #ï¿½ï¿½ï¿½ï¿½
+        controls = 7435 #ï¿½ï¿½ï¿½ï¿½
         }             
 	    }
 

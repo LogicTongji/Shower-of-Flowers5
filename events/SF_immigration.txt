@@ -1,15 +1,15 @@
 ####################
-#   ´óÇ¨áãÊÂ¼þ×é   #
+#   ï¿½ï¿½Ç¨ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½   #
 ####################
-#¹¤ÒµÄÚÇ¨µÚÒ»½×¶Î
+#ï¿½ï¿½Òµï¿½ï¿½Ç¨ï¿½ï¿½Ò»ï¿½×¶ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1550
-	title = "¿ªÕ¹µÚÒ»½×¶ÎµÄ¹¤ÒµÄÚÇ¨"
+	title = "ï¿½ï¿½Õ¹ï¿½ï¿½Ò»ï¿½×¶ÎµÄ¹ï¿½Òµï¿½ï¿½Ç¨"
 	desc = "Migration_Period1_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÖÐ¹ú»¹ÊÇÓÐÏ£ÍûµÄ£¡"
+		name = "ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½Ä£ï¿½"
                 add_country_modifier = {
 			name = "The_Migration_Period_modifier"
 			duration = 365
@@ -33,15 +33,15 @@ country_event = {
                 CHI = { 7520 = { metal  = 9 } }		
 	}
 }
-#¹¤ÒµÄÚÇ¨µÚ¶þ½×¶Î
+#ï¿½ï¿½Òµï¿½ï¿½Ç¨ï¿½Ú¶ï¿½ï¿½×¶ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1551
-	title = "¿ªÕ¹µÚ¶þ½×¶ÎµÄ¹¤ÒµÄÚÇ¨"
+	title = "ï¿½ï¿½Õ¹ï¿½Ú¶ï¿½ï¿½×¶ÎµÄ¹ï¿½Òµï¿½ï¿½Ç¨"
 	desc = "Migration_Period2_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÖÐ¹ú»¹ÊÇÓÐÏ£ÍûµÄ£¡"
+		name = "ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½Ä£ï¿½"
                 country_event = 1552		
                 5728 = { industry = -1 }
                 5843 = { industry = -1 }
@@ -57,15 +57,15 @@ country_event = {
                 CHI = { 7508 = { metal  = -10 } }           			           	
 	}
 }
-#¹¤ÒµÄÚÇ¨µÚ¶þ½×¶Î*½¨Éè¹¤ÒµÇø
+#ï¿½ï¿½Òµï¿½ï¿½Ç¨ï¿½Ú¶ï¿½ï¿½×¶ï¿½*ï¿½ï¿½ï¿½è¹¤Òµï¿½ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1552
-	title = "½¨Éè¹¤ÒµÇø"
+	title = "ï¿½ï¿½ï¿½è¹¤Òµï¿½ï¿½"
 	desc = "Migration_Period3_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÖÐ¹ú»¹ÊÇÓÐÏ£ÍûµÄ£¡"		
+		name = "ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï£ï¿½ï¿½ï¿½Ä£ï¿½"		
                 7519 = { industry = 1 }              
                 7530 = { industry = 1 }
                 9415 = { industry = 1 }
@@ -92,17 +92,17 @@ country_event = {
                 CHI = { 7563 = { metal  = 1 } }					           	
 	}
 }
-#½ÌÓýÄÚÇ¨ ½­Õã
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¨ ï¿½ï¿½ï¿½ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1553
-	title = "×ªÒÆÖÐÑë´óÑ§¡¢¸´µ©´óÑ§¡¢½»Í¨´óÑ§¡¢Í¬¼Ã´óÑ§¼°Õã½­´óÑ§"
+	title = "×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½Ñ§ï¿½ï¿½Í¬ï¿½Ã´ï¿½Ñ§ï¿½ï¿½ï¿½ã½­ï¿½ï¿½Ñ§"
 	desc = "Migration_Period4_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÎªÁËÃñ×å£¡"
+		name = "Îªï¿½ï¿½ï¿½ï¿½ï¿½å£¡"
                 add_country_modifier = {
-			name = "The_Migration_Period¡¤education_modifier"
+			name = "The_Migration_Periodï¿½ï¿½education_modifier"
 			duration = 120
                 }
                 country_event = 1554		
@@ -111,99 +111,99 @@ country_event = {
                 9478 = { leadership = 1 }                     			           	
 	}
 }
-#½ÌÓýÄÚÇ¨ Æ½½ò
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¨ Æ½ï¿½ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1554
-	title = "×ªÒÆ¹úÁ¢Çå»ª´óÑ§¡¢¹úÁ¢±±¾©´óÑ§ÒÔ¼°Ë½Á¢ÄÏ¿ª´óÑ§µÈ¸ßµÈÑ§¸®"
+	title = "×ªï¿½Æ¹ï¿½ï¿½ï¿½ï¿½å»ªï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ§ï¿½Ô¼ï¿½Ë½ï¿½ï¿½ï¿½Ï¿ï¿½ï¿½ï¿½Ñ§ï¿½È¸ßµï¿½Ñ§ï¿½ï¿½"
 	desc = "Migration_Period5_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "¾ÈÍöÍ¼´æ"
+		name = "ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½"
                 country_event = 1556		
                 4979 = { leadership = -1.2 }              
                 7520 = { leadership = 0.7 }
                 7435 = { leadership = 0.5 }                     			           	
 	}
 }
-#½ÌÓýÄÚÇ¨ ÔÁÃö
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¨ ï¿½ï¿½ï¿½ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 3553
-	title = "×ªÒÆÖÐÉ½´óÑ§¡¢ÏÃÃÅ´óÑ§"
+	title = "×ªï¿½ï¿½ï¿½ï¿½É½ï¿½ï¿½Ñ§ï¿½ï¿½ï¿½ï¿½ï¿½Å´ï¿½Ñ§"
 	desc = "Migration_Period11_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÎªÁËÃñ×å£¡"              
+		name = "Îªï¿½ï¿½ï¿½ï¿½ï¿½å£¡"              
                 5757 = { leadership = -0.3 }              
                 5834 = { leadership = -0.3 }
                 5763 = { leadership = 0.5 }    
                 5717 = { leadership = 0.5 } 		           	
 	}
 }
-#Î÷°²ÁÙÊ±´óÑ§
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ñ§
 country_event = {
         is_triggered_only = yes
 	id = 1555
-	title = "³ÉÁ¢¹úÁ¢Î÷°²ÁÙÊ±´óÑ§"
+	title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Ñ§"
 	desc = "Migration_Period6_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÎªÁËÃñ×å£¡"	                         
+		name = "Îªï¿½ï¿½ï¿½ï¿½ï¿½å£¡"	                         
                 7435 = { leadership = 0.5 }                     			           	
 	}
 }
-#³¤É³ÁÙÊ±´óÑ§
+#ï¿½ï¿½É³ï¿½ï¿½Ê±ï¿½ï¿½Ñ§
 country_event = {
         is_triggered_only = yes
 	id = 1556
-	title = "³ÉÁ¢³¤É³ÁÙÊ±´óÑ§"
+	title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É³ï¿½ï¿½Ê±ï¿½ï¿½Ñ§"
 	desc = "Migration_Period7_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÎªÁËÃñ×å£¡"	 
+		name = "Îªï¿½ï¿½ï¿½ï¿½ï¿½å£¡"	 
 		                      country_event = 3553	  
                 7520 = { leadership = 0.5 }                     			           	
 	}
 }
-#Î÷ÄÏÁª´ó
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1557
-	title = "³ÉÁ¢¹úÁ¢Î÷ÄÏÁªºÏ´óÑ§"
+	title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½Ñ§"
 	desc = "Migration_Period8_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÖÐ¹úÍòËê£¡"
+		name = "ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ê£¡"
                 add_country_modifier = {
-			name = "The_Migration_education2¡¤education_modifier"
+			name = "The_Migration_education2ï¿½ï¿½education_modifier"
 			duration = 2923
                 }	                         
                 7520 = { leadership = -0.5 }
                 7561 = { leadership = 1 }                     			           			           	
 	}
 }
-#Î÷±±Áª´ó
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1558
-	title = "³ÉÁ¢¹úÁ¢Î÷ÄÏÁªºÏ´óÑ§"
+	title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï´ï¿½Ñ§"
 	desc = "Migration_Period12_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÖÐ¹úÍòËê£¡"             
+		name = "ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ê£¡"             
                 9296 = { leadership = 0.2 }                     			           			           	
 	}
 }
-#»ªÎ÷°Ó
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 country_event = {
         is_triggered_only = yes
 	id = 1559
-	title = "×éÖ¯»ªÎ÷°ÓÎåÐ£°ìÑ§"
+	title = "ï¿½ï¿½Ö¯ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½Ñ§"
 	desc = "Migration_Period13_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "ÖÐ¹úÍòËê£¡"           
+		name = "ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½ê£¡"           
 	           
                 9415 = { leadership = 0.5 }                     			           			           	
 	}

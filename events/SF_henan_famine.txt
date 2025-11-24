@@ -1,5 +1,5 @@
 ######################
-#   ºÓÄÏ¼¢»ÄÊÂ¼þ×é   #
+#   ï¿½ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½   #
 ######################
 country_event = {
           id = 5000000
@@ -12,11 +12,11 @@ country_event = {
                 date = 1942.1.1
                 has_country_flag = Event2221
           }
-          title = "ºÓÄÏ´ó¼¢»Ä"
+          title = "ï¿½ï¿½ï¿½Ï´ó¼¢»ï¿½"
           desc = "Event5000000"
           picture = "Henan_hungry1"
           option = {
-		name = "Ô®Öú"
+		name = "Ô®ï¿½ï¿½"
                  add_country_modifier = {
 			name = "Event4000_modifier"
 			duration = 1000
@@ -27,7 +27,7 @@ country_event = {
                 ai_chance = { factor = 100 }
          }
 	 option = {
-		name = "·ÅÆúºÓÄÏ"
+		name = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
            	set_country_flag = Event5000000118
                 national_unity = -50
                 supplies = -10000
@@ -46,11 +46,11 @@ country_event = {
                 date = 1942.4.1
                 has_country_flag = 2019000000
           }
-          title = "ºÓÄÏ´óÌÓ»Ä"
+          title = "ï¿½ï¿½ï¿½Ï´ï¿½ï¿½Ó»ï¿½"
           desc = "Event5000001"
           picture = "Henan_hungry2"
           option = {
-		name = "°¦"
+		name = "ï¿½ï¿½"
                 5383 = { change_manpower = -26 }
                 7435 = { change_manpower = 13 } 
                 9170 = { change_manpower = 10 }
@@ -69,11 +69,11 @@ country_event = {
 	        war_with = JAP  
                 date = 1942.5.1
           }
-          title = "´¦·Ö¹ÙÔ±"
+          title = "ï¿½ï¿½ï¿½Ö¹ï¿½Ô±"
           desc = "Event5000002"
           picture = "CHI_flag"
           option = {
-		name = "´¦·ÖËûÃÇ"            
+		name = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"            
 		set_country_flag = Event2019000002
                 national_unity = 10
 		supplies = 1000
@@ -93,11 +93,11 @@ country_event = {
                 date = 1942.5.1
             
           }
-          title = "²ÉÈ¡·âËøÕþ²ß"
+          title = "ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
           desc = "Event5000003"
           picture = "JAP_flag"
           option = {
-		name = "·âËøÕâÐ©Ö§ÄÇÈË" 
+		name = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©Ö§ï¿½ï¿½ï¿½ï¿½" 
                 CHI = { country_event = 5000004 }           
                 national_unity = 10
                 ai_chance = { factor = 100 }
@@ -106,11 +106,11 @@ country_event = {
 country_event = {
           id = 5000004
           is_triggered_only = yes
-          title = "ÈÕ¾ü²ÉÈ¡·âËøÕþ²ß"
+          title = "ï¿½Õ¾ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
           desc = "Event5000003"
           picture = "CHI_flag"
           option = {
-		name = "ÕâÐ©ÐóÉú"     
+		name = "ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½"     
                 ai_chance = { factor = 100 }
         }
 }
@@ -125,11 +125,11 @@ country_event = {
                 date = 1942.5.1
                 has_country_flag = Event2019000002           
           }
-          title = "êâ¼ÃÔÖÃñ"
+          title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
           desc = "Event5000005"
           picture = "CHI_flag"
           option = {
-		name = "Á¢¿Ì¿ªÊ¼µÚÒ»´Îêâ¼Ã"            
+		name = "ï¿½ï¿½ï¿½Ì¿ï¿½Ê¼ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½"            
                 national_unity = 10
 		supplies = -10000
 		dissent = -15
@@ -148,11 +148,11 @@ country_event = {
                 date = 1942.5.11
                 has_country_flag = Event2019000002
           }
-          title = "Õþ¸®±¨¸æ"
+          title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
           desc = "Event5000006"
           picture = "Henan_hungry3"
           option = {
-		name = "°¦"            
+		name = "ï¿½ï¿½"            
                 ai_chance = { factor = 100 }
         }
 }
@@ -167,12 +167,12 @@ country_event = {
                 date = 1942.5.11
                 has_country_flag = Event5000002
           }
-          title = "Ã½Ìå±¨¸æ"
-          subtitle = "Ö±µ½ÏÂÒ»´ÎÊÕ»ñ¼¾½ÚÀ´ÁÙ"
+          title = "Ã½ï¿½å±¨ï¿½ï¿½"
+          subtitle = "Ö±ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Õ»ñ¼¾½ï¿½ï¿½ï¿½ï¿½ï¿½"
           desc = "Event5000007"
           picture = "Henan_hungry3"
           option = {
-		name = "°¦" 
+		name = "ï¿½ï¿½" 
                 national_unity = -10
                 dissent = 5           
                 ai_chance = { factor = 100 }
@@ -188,11 +188,11 @@ country_event = {
 	                 controls = 7447 }
                 date = 1942.5.11               
           }
-          title = "Õ÷¼¯¾üÁ¸"
-          desc = "Õ÷¼¯¾üÁ¸ÒÔÎ¬³ÖºÓÄÏ×¤¾üµÄÏûºÄ"
+          title = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
+          desc = "ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¬ï¿½Öºï¿½ï¿½ï¿½×¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
           picture = "CHI_flag"
           option = {
-		name = "Ç°ÓÐ±©ÈÕ£¬ºóÓÐÔÖÃñ£¬ÆÈ²»µÃÒÑ°¡£¡" 
+		name = "Ç°ï¿½Ð±ï¿½ï¿½Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È²ï¿½ï¿½ï¿½ï¿½Ñ°ï¿½ï¿½ï¿½" 
                 supplies = 15000
                 dissent = 15           
                 ai_chance = { factor = 100 }
@@ -208,11 +208,11 @@ country_event = {
 	                 controls = 7447 }
                 date = 1942.9.1
           }
-          title = "ÊÓ²ìÔÖÇé"
-          desc = "ÅÉÇ²¹ÙÔ±ÊÓ²ìÔÖÇé£¬Í³³ïºÓÄÏêâ¼Ã¡£"
+          title = "ï¿½Ó²ï¿½ï¿½ï¿½ï¿½ï¿½"
+          desc = "ï¿½ï¿½Ç²ï¿½ï¿½Ô±ï¿½Ó²ï¿½ï¿½ï¿½ï¿½é£¬Í³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½"
           picture = "CHI_flag"
           option = {
-		name = "µÚ¶þ´Îêâ¼ÃÔÖÃñ" 
+		name = "ï¿½Ú¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" 
                 supplies = -15000
                 dissent = -15           
 		set_country_flag = Event5000009
@@ -229,11 +229,11 @@ country_event = {
 	                 controls = 7447 }
                 date = 1942.9.1    
           }
-          title = "Í³¼ÆÊÜÔÖÇé¿ö"
+          title = "Í³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½"
           desc = "Event_500000010"
           picture = "Henan_hungry3"
           option = {
-		name = "°¦£¬Å¬Á¦êâ¼ÃÔÖÃñ°É" 
+		name = "ï¿½ï¿½ï¿½ï¿½Å¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½" 
                 supplies = -15000
                 dissent = -15           
                 ai_chance = { factor = 100 }

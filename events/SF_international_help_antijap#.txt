@@ -1,7 +1,7 @@
 ######################
-#   ¹ú¼ÊÔ®»ªÊÂ¼þ×é   #
+#   ï¿½ï¿½ï¿½ï¿½Ô®ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½   #
 ######################
-#ÊÇ·ñÔ®»ª
+#ï¿½Ç·ï¿½Ô®ï¿½ï¿½
 country_event = {
           id = 2000073
            fire_only_once = yes
@@ -31,7 +31,7 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
-#ËÕÁªÔ®»ª£¨ÈøÀ×°ÂÔó¿Ë--»ô¶û¹ûË¹--µÏ»¯--À¼ÖÝÂ·Ïß£©
+#ï¿½ï¿½ï¿½ï¿½Ô®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½--ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹--ï¿½Ï»ï¿½--ï¿½ï¿½ï¿½ï¿½Â·ï¿½ß£ï¿½
 country_event= {
 	id = 2000075
 	is_triggered_only = yes
@@ -44,7 +44,7 @@ country_event= {
 		national_unity = 5
 	}
 }
-#µáÔ½ÌúÂ·
+#ï¿½ï¿½Ô½ï¿½ï¿½Â·
 country_event = {
           id = 2000077
            fire_only_once = yes
@@ -67,7 +67,7 @@ country_event = {
            ai_chance = { factor = 100 }
          }
 }
-#¿ªÍ¨µáÃå¹«Â·
+#ï¿½ï¿½Í¨ï¿½ï¿½ï¿½å¹«Â·
 country_event = {
 	id = 2000079
 	 fire_only_once = yes
@@ -90,7 +90,7 @@ country_event = {
 		7561 = { industry = 3 }
 	}
 }			
-#Ñö¹âÂÙÏÝ 
+#ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 
 country_event={
           id = 390094
           is_triggered_only = yes        
@@ -106,7 +106,7 @@ country_event={
            
          }
 }            
-#¿ªÍ¨ÍÕ·åº½Ïß
+#ï¿½ï¿½Í¨ï¿½Õ·åº½ï¿½ï¿½
 country_enent = {
           id = 2000087
           fire_only_once = yes
@@ -132,7 +132,7 @@ country_enent = {
            9415 = { industry = 1 }
          } 
 }
-#¿ªÍ¨ÖÐÓ¡¹«Â·
+#ï¿½ï¿½Í¨ï¿½ï¿½Ó¡ï¿½ï¿½Â·
 country_enent={
           id=2000088
           fire_only_once = yes
@@ -157,7 +157,7 @@ country_enent={
            9415 = { industry = 1 }
          } 
 }   
-#×â½è·¨°¸
+#ï¿½ï¿½è·¨ï¿½ï¿½
 country_event = {
           id = 2020228
           trigger = {

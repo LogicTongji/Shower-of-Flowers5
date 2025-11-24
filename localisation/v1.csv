@@ -1,79 +1,79 @@
-As Reseves;Ô¤±¸ÒÛ;En réserve;Als Reserven;;;;;;;;;;;x
-Add Cags;Ìí¼Ó½¢ÔØ»ú;Ajouter des groupes de porte-avions;Trägergeschwader hinzufügen;;;;;;;;;;;x
-DIPRELCH_DEPENDENCY;¿þÀÜ-×ÚÖ÷¹ØÏµ;Relations Fantoche-Maître;Beziehung Marionette-Herr;;;;;;;;;;;x
-RELATION_CAPPED;²»ÄÜ½øÒ»²½¸ÄÉÆ´Ë¹ØÏµ.;Impossibilit?de dépasser cette relation avec des améliorations graduelles.;Diese Beziehung kann auch mit allmählichen Verbesserungen nicht weiter gebracht werden.;;;;;;;;;;;x
-STOPALIGNTITLE;Í£Ö¹¿¿ÏòÄ³ÕóÓª;Arrêter de s’aligner sur la faction;Ausrichtung an Fraktion stoppen;;;;;;;;;;;x
-STOPALIGNNEWDESC;ÄãÊÇ·ñÏ£ÍûÍ£Ö¹¿¿Ïò $RECIPIENT$ ?;Voulez-vous arrêter de vous aligner sur $RECIPIENT$ ?;Möchten Sie die Ausrichtung an $RECIPIENT$ stoppen?;;;;;;;;;;;x
-STOPALIGNDESC;Í£Ö¹¿¿ÏòÄ³ÕóÓª¡£;Arrêter de s’aligner sur la faction.;Ausrichtung an Fraktion stoppen.;;;;;;;;;;;x
-WEALIGNSTOP_SETUP;µ±ÎÒÃÇÍ£Ö¹¿¿ÏòÒ»¸öÕóÓªµÄÁìµ¼;Quand nous arrêtons de nous aligner sur le leader d’une faction;Wenn wir die Ausrichtung an einen Fraktionsführer stoppen;;;;;;;;;;;x
-WEALIGNSTOP_HEADER;$foreign_minister$ ±¨¸æ;$foreign_minister$ rapporte que;$foreign_minister$ berichtet;;;;;;;;;;;x
-WEALIGNSTOP_1;Íâ½»Ó°Ïì;Influence diplomatique;Diplomatischer Einfluss;;;;;;;;;;;x
-WEALIGNSTOP_2;$MONARCHTITLE$ £¬ÎÒÃÇ;$MONARCHTITLE$, nous avons arrêt?$MONARCHTITLE$, wir haben unsere;;;;;;;;;;;x
-WEALIGNSTOP_3;Í£Ö¹ÁË;de nous aligner;Ausrichtung;;;;;;;;;;;x
-WEALIGNSTOP_4;¿¿Ïò;sur;an;;;;;;;;;;;x
+As Reseves;Ô¤ï¿½ï¿½ï¿½ï¿½;En rï¿½serve;Als Reserven;;;;;;;;;;;x
+Add Cags;ï¿½ï¿½ï¿½Ó½ï¿½ï¿½Ø»ï¿½;Ajouter des groupes de porte-avions;Trï¿½gergeschwader hinzufï¿½gen;;;;;;;;;;;x
+DIPRELCH_DEPENDENCY;ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµ;Relations Fantoche-Maï¿½tre;Beziehung Marionette-Herr;;;;;;;;;;;x
+RELATION_CAPPED;ï¿½ï¿½ï¿½Ü½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Æ´Ë¹ï¿½Ïµ.;Impossibilit?de dï¿½passer cette relation avec des amï¿½liorations graduelles.;Diese Beziehung kann auch mit allmï¿½hlichen Verbesserungen nicht weiter gebracht werden.;;;;;;;;;;;x
+STOPALIGNTITLE;Í£Ö¹ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½Óª;Arrï¿½ter de sï¿½aligner sur la faction;Ausrichtung an Fraktion stoppen;;;;;;;;;;;x
+STOPALIGNNEWDESC;ï¿½ï¿½ï¿½Ç·ï¿½Ï£ï¿½ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½ $RECIPIENT$ ?;Voulez-vous arrï¿½ter de vous aligner sur $RECIPIENT$ ?;Mï¿½chten Sie die Ausrichtung an $RECIPIENT$ stoppen?;;;;;;;;;;;x
+STOPALIGNDESC;Í£Ö¹ï¿½ï¿½ï¿½ï¿½Ä³ï¿½ï¿½Óªï¿½ï¿½;Arrï¿½ter de sï¿½aligner sur la faction.;Ausrichtung an Fraktion stoppen.;;;;;;;;;;;x
+WEALIGNSTOP_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Óªï¿½ï¿½ï¿½ìµ¼;Quand nous arrï¿½tons de nous aligner sur le leader dï¿½une faction;Wenn wir die Ausrichtung an einen Fraktionsfï¿½hrer stoppen;;;;;;;;;;;x
+WEALIGNSTOP_HEADER;$foreign_minister$ ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ rapporte que;$foreign_minister$ berichtet;;;;;;;;;;;x
+WEALIGNSTOP_1;ï¿½â½»Ó°ï¿½ï¿½;Influence diplomatique;Diplomatischer Einfluss;;;;;;;;;;;x
+WEALIGNSTOP_2;$MONARCHTITLE$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;$MONARCHTITLE$, nous avons arrï¿½t?$MONARCHTITLE$, wir haben unsere;;;;;;;;;;;;x
+WEALIGNSTOP_3;Í£Ö¹ï¿½ï¿½;de nous aligner;Ausrichtung;;;;;;;;;;;x
+WEALIGNSTOP_4;ï¿½ï¿½ï¿½ï¿½;sur;an;;;;;;;;;;;x
 WEALIGNSTOP_5;$RECIPIENT$;$RECIPIENT$;$RECIPIENT$ gestoppt;;;;;;;;;;;x
 WEALIGNSTOP_6;*;*;*;;*;;;;;;;;;x,
-WEALIGNSTOP_LOG;ÎÒÃÇÍ£Ö¹ÁË¿¿Ïò $RECIPIENT$ ;Nous avons arrêt?de nous aligner sur $RECIPIENT$;Wir haben unsere Ausrichtung an $RECIPIENT$ gestoppt;;;;;;;;;;;x
-WEALIGNSTOP_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
-WEALIGNSTOP_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
-WEALIGNSTOP_BTN3;²é¿´;Aller ?GOTO;Id?do;Ir all?Andare;Ugrás;Pøejít na;;;;;;x,
+WEALIGNSTOP_LOG;ï¿½ï¿½ï¿½ï¿½Í£Ö¹ï¿½Ë¿ï¿½ï¿½ï¿½ $RECIPIENT$ ;Nous avons arrï¿½t?de nous aligner sur $RECIPIENT$;Wir haben unsere Ausrichtung an $RECIPIENT$ gestoppt;;;;;;;;;;;x
+WEALIGNSTOP_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
+WEALIGNSTOP_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
+WEALIGNSTOP_BTN3;ï¿½é¿´;Aller ?GOTO;Id?do;Ir all?Andare;Ugrï¿½s;Pï¿½ejï¿½t na;;;;;;;;x,
 WEALIGNSTOP_MAP;*;*;*;*;*;*;*;;;;;;;x,
-OTHERALIGNSTOP_SETUP;µ±Ò»¸ö¹ú¼ÒÍ£Ö¹¿¿ÏòÁíÒ»¸öÕóÓª;Quand une nation arrête de s’aligner sur une autre faction.;Wenn eine Nation ihre Ausrichtung an einer anderen Fraktion stoppt.;;;;;;;;;;;x
-OTHERALIGNSTOP_HEADER;$minister_of_intelligence$ ±¨¸æ;$minister_of_intelligence$ rapporte que;$minister_of_intelligence$ berichtet:;;$minister_of_intelligence$ informa de;;;;;;;;;x,
-OTHERALIGNSTOP_1;Íâ½»ÕóÓª;Alignement diplomatique;Diplomatische Ausrichtung;;;;;;;;;;;x
-OTHERALIGNSTOP_2;$MONARCHTITLE$, $ACTOR$ ;$MONARCHTITLE$, $ACTOR$ a arrêt?$MONARCHTITLE$, $ACTOR$ stoppte;;;;;;;;;;;x
-OTHERALIGNSTOP_3;Í£Ö¹ÁË;de s’aligner;die Ausrichtung;;;;;;;;;;;x
-OTHERALIGNSTOP_4;¿¿Ïò;sur;an;;;;;;;;;;;x
+OTHERALIGNSTOP_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Óª;Quand une nation arrï¿½te de sï¿½aligner sur une autre faction.;Wenn eine Nation ihre Ausrichtung an einer anderen Fraktion stoppt.;;;;;;;;;;;x
+OTHERALIGNSTOP_HEADER;$minister_of_intelligence$ ï¿½ï¿½ï¿½ï¿½;$minister_of_intelligence$ rapporte que;$minister_of_intelligence$ berichtet:;;$minister_of_intelligence$ informa de;;;;;;;;;x,
+OTHERALIGNSTOP_1;ï¿½â½»ï¿½ï¿½Óª;Alignement diplomatique;Diplomatische Ausrichtung;;;;;;;;;;;x
+OTHERALIGNSTOP_2;$MONARCHTITLE$, $ACTOR$ ;$MONARCHTITLE$, $ACTOR$ a arrï¿½t?$MONARCHTITLE$, $ACTOR$ stoppte;;;;;;;;;;;;x
+OTHERALIGNSTOP_3;Í£Ö¹ï¿½ï¿½;de sï¿½aligner;die Ausrichtung;;;;;;;;;;;x
+OTHERALIGNSTOP_4;ï¿½ï¿½ï¿½ï¿½;sur;an;;;;;;;;;;;x
 OTHERALIGNSTOP_5;$RECIPIENT$;$RECIPIENT$;$RECIPIENT$;;;;;;;;;;;x
 OTHERALIGNSTOP_6;*;*;*;;*;;;;;;;;;x,
-OTHERALIGNSTOP_LOG;$ACTOR$ Í£Ö¹ÁË¿¿Ïò $RECIPIENT$ ¡£;$ACTOR$ a arrêt?de s’aligner sur $RECIPIENT$.;$ACTOR$ stoppte die Ausrichtung an $RECIPIENT$.;;;;;;;;;;;x
-OTHERALIGNSTOP_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
-OTHERALIGNSTOP_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
-OTHERALIGNSTOP_BTN3;²é¿´;Aller ?Goto;Id?do;Ir all?Andare;Ugrás;Pøejít na;;;;;;x,
+OTHERALIGNSTOP_LOG;$ACTOR$ Í£Ö¹ï¿½Ë¿ï¿½ï¿½ï¿½ $RECIPIENT$ ï¿½ï¿½;$ACTOR$ a arrï¿½t?de sï¿½aligner sur $RECIPIENT$.;$ACTOR$ stoppte die Ausrichtung an $RECIPIENT$.;;;;;;;;;;;x
+OTHERALIGNSTOP_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
+OTHERALIGNSTOP_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x,
+OTHERALIGNSTOP_BTN3;ï¿½é¿´;Aller ?Goto;Id?do;Ir all?Andare;Ugrï¿½s;Pï¿½ejï¿½t na;;;;;;;;x,
 OTHERALIGNSTOP_MAP;*;*;*;*;*;*;*;;;;;;;x,
-THEYALIGNSTOP_SETUP;µ±Ëû¹úÍ£Ö¹¿¿ÏòÎÒÃÇµÄÕóÓª;Quand une nation arrête de s’aligner sur notre faction.;Wenn eine andere Nation ihre Ausrichtung an unserer Fraktion stoppt.;;;;;;;;;;;x
-THEYALIGNSTOP_HEADER;$foreign_minister$ ±¨¸æ;$foreign_minister$ rapporte que;$foreign_minister$ berichtet;;;;;;;;;;;x
-THEYALIGNSTOP_1;Íâ½»ÕóÓª;Alignement diplomatique;Diplomatische Ausrichtung;;;;;;;;;;;x
+THEYALIGNSTOP_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½Óª;Quand une nation arrï¿½te de sï¿½aligner sur notre faction.;Wenn eine andere Nation ihre Ausrichtung an unserer Fraktion stoppt.;;;;;;;;;;;x
+THEYALIGNSTOP_HEADER;$foreign_minister$ ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ rapporte que;$foreign_minister$ berichtet;;;;;;;;;;;x
+THEYALIGNSTOP_1;ï¿½â½»ï¿½ï¿½Óª;Alignement diplomatique;Diplomatische Ausrichtung;;;;;;;;;;;x
 THEYALIGNSTOP_2;$MONARCHTITLE$,;$MONARCHTITLE$,;$MONARCHTITLE$,;;$MONARCHTITLE$,;;;;;;;;;x
 THEYALIGNSTOP_3;$ACTOR$;$ACTOR$;$ACTOR$;;$ACTOR$;;;;;;;;;x,
-THEYALIGNSTOP_4;²»ÔÙ³¢ÊÔ¿¿ÏòÎÒÃÇµÄÕóÓª¡£;n’essaie plus de s’aligner sur notre faction.;versuchen nicht mehr, sich an unserer Fraktion auszurichten.;;;;;;;;;;;x
+THEYALIGNSTOP_4;ï¿½ï¿½ï¿½Ù³ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½Óªï¿½ï¿½;nï¿½essaie plus de sï¿½aligner sur notre faction.;versuchen nicht mehr, sich an unserer Fraktion auszurichten.;;;;;;;;;;;x
 THEYALIGNSTOP_5;*;*;*;;*;;;;;;;;;x,
 THEYALIGNSTOP_6;*;*;*;;*;;;;;;;;;x,
-THEYALIGNSTOP_LOG;$ACTOR$ Í£Ö¹¿¿ÏòÎÒÃÇµÄÕóÓª¡£;$ACTOR$ a arrêt?de s’aligner sur notre faction.;$ACTOR$ stoppte die Ausrichtung an unserer Fraktion.;;;;;;;;;;;x
-THEYALIGNSTOP_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-THEYALIGNSTOP_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-THEYALIGNSTOP_BTN3;²é¿´;Aller ?Goto;Id?do;Ir all?Andare;Ugrás;Pøejít na;;;;;;x
+THEYALIGNSTOP_LOG;$ACTOR$ Í£Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½Óªï¿½ï¿½;$ACTOR$ a arrï¿½t?de sï¿½aligner sur notre faction.;$ACTOR$ stoppte die Ausrichtung an unserer Fraktion.;;;;;;;;;;;x
+THEYALIGNSTOP_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+THEYALIGNSTOP_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+THEYALIGNSTOP_BTN3;ï¿½é¿´;Aller ?Goto;Id?do;Ir all?Andare;Ugrï¿½s;Pï¿½ejï¿½t na;;;;;;;;x
 THEYALIGNSTOP_MAP;*;*;*;*;*;*;*;;;;;;;x
-GGCOINS_BAD_LOGIN;´íÎóµÄÓÃ»§Ãû»òÃÜÂë;Nom d’utilisateur ou mot de passe incorrect;Benutzername oder Passwort ungültig;;;;;;;x;;;;x
-OV_CONT;Ñ¡Ôñ³ÖÐø½«¿ªÊ¼ÈÎÎñÖ±µ½Íæ¼ÒÈ¡Ïû¡£;Cochez la case pour démarrer immédiatement la mission et la poursuivre jusqu’à ce qu’elle soit annulée par le joueur.;"Aktivieren Sie das Kästchen ""Kontinuierlich"", um die Mission sofort zu starten. Sie wird dann weiter laufen, bis sie vom Spieler abgebrochen wird.";;;;;;;x;;;;x
-ALLOWDEBTDESC;ÏòÃ³Ò×·½ÇëÇó±»ÔÊÐíÔÚÕ½Ê±»ýÀÛÕ®Îñ¡£;Demandez l’autorisation d’accumuler des dettes pendant la guerre, lorsqu'il commerce avec eux.;Bitte um Erlaubnis, während Kriegszeiten beim Handel mit ihnen Verschuldungen einzugehen.;;;;;;;;;;;x
-NEEDED_OFFICERS;ÐèÒªµÄ¾ü¹Ù;Officiers requis;Benötigte Offiziere;;;;;;;;;;;x
-BUILD_OFF_DD_IRO;¾ü¹Ù;Officiers;Offiziere;;;;;;;;;;;x
-BUILD_OFF_DD_DRO;Õâ±íÊ¾¸Ãµ¥Î»ÐèÒª¶àÉÙ¾ü¹ÙÀ´±£Ö¤ÔÚÕý³£Ð§ÂÊÏÂ×÷Õ½¡£;Nombre d’officiers requis par chaque unit?pour se battre efficacement.;Dies ist die Anzahl der Offiziere, die jede Einheit zum effizienten Kampf benötigt.;;;;;;;;;;;x
-MODIFIER_GLOBAL_RESOURCES;×ÊÔ´;Ressources;Ressourcen;;;;;;;;;;;x
-OFFICER_NUMBER2_IRO;ÎÒÃÇÓµÓÐ§Y$OFFICERS$§W¾ü¹Ù¸ºÔð§Y$DIVISIONS$§W¸öÂ½¾üÂÃ£¬½¢´¬ºÍ·É»ú±à¶Ó¡£\n²»Í¬µ¥Î»ÐèÒª²»Í¬ÊýÁ¿µÄ¾ü¹Ù£¬\nÎÒÃÇÐèÒªÖÁÉÙ§Y$NEED$§W¾ü¹Ù²ÅÄÜ±£³ÖÒ»¸öºÏÊÊµÄ±ÈÀý¡£\nÃ¿ÌìÎÒÃÇÄÜÅàÑµ§Y$DAILY$§WÐÂ¾ü¹Ù¡£;Nous disposons de §Y$OFFICERS$§W officiers pour §Y$DIVISIONS$§W brigades, navires et escadrilles. Différents types d'unités requièrent différentes quantités d'officiers, mais pour un ratio correct nous avons besoin d'au moins §Y$NEED$§W officiers. Nous formons chaque jour §Y$DAILY$§W nouveaux officiers.;Wir haben §Y$OFFICERS$§W Offiziere in unseren §Y$DIVISIONS$§W Brigaden, Flugzeugen und auf unseren Schiffen. Verschiedene Einheitentypen benötigen unterschiedliche Anzahlen von Offizieren, aber für ein sinnvolles Verhältnis von Mannschaften zu Offizieren benötigen wir mindestens §Y$NEED$§W Offiziere. Wir bilden täglich §Y$DAILY$§W neue Offiziere aus.;;;;;;;;;;;x
-KPH;Ç§Ã×Ã¿Ð¡Ê±;km/h;;km/h;;;;;;;;;;x
-ITEM_RESEARCH_START;¿ªÊ¼ÑÐ¾¿;Début des recherches;Forschung beginnen;;;;;;;;;;;x
-CONVOYS;ÔËÊä½¢;Convois;Konvoi;Konwój;;;;;;;;;;x
-ESCORTS;»¤º½½¢;Escortes;Eskorte;Eskorta;;;;;;;;;;x
-NONE;Ã»ÓÐ;Rien;Keine;Brak;;;;;;;;;;x
+GGCOINS_BAD_LOGIN;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Nom dï¿½utilisateur ou mot de passe incorrect;Benutzername oder Passwort ungï¿½ltig;;;;;;;x;;;;x
+OV_CONT;Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½;Cochez la case pour dï¿½marrer immï¿½diatement la mission et la poursuivre jusquï¿½ï¿½ ce quï¿½elle soit annulï¿½e par le joueur.;"Aktivieren Sie das Kï¿½stchen ""Kontinuierlich"", um die Mission sofort zu starten. Sie wird dann weiter laufen, bis sie vom Spieler abgebrochen wird.";;;;;;;x;;;;x
+ALLOWDEBTDESC;ï¿½ï¿½Ã³ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ½Ê±ï¿½ï¿½ï¿½ï¿½Õ®ï¿½ï¿½;Demandez lï¿½autorisation dï¿½accumuler des dettes pendant la guerre, lorsqu'il commerce avec eux.;Bitte um Erlaubnis, wï¿½hrend Kriegszeiten beim Handel mit ihnen Verschuldungen einzugehen.;;;;;;;;;;;x
+NEEDED_OFFICERS;ï¿½ï¿½Òªï¿½Ä¾ï¿½ï¿½ï¿½;Officiers requis;Benï¿½tigte Offiziere;;;;;;;;;;;x
+BUILD_OFF_DD_IRO;ï¿½ï¿½ï¿½ï¿½;Officiers;Offiziere;;;;;;;;;;;x
+BUILD_OFF_DD_DRO;ï¿½ï¿½ï¿½Ê¾ï¿½Ãµï¿½Î»ï¿½ï¿½Òªï¿½ï¿½ï¿½Ù¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½;Nombre dï¿½officiers requis par chaque unit?pour se battre efficacement.;Dies ist die Anzahl der Offiziere, die jede Einheit zum effizienten Kampf benï¿½tigt.;;;;;;;;;;;x
+MODIFIER_GLOBAL_RESOURCES;ï¿½ï¿½Ô´;Ressources;Ressourcen;;;;;;;;;;;x
+OFFICER_NUMBER2_IRO;ï¿½ï¿½ï¿½ï¿½Óµï¿½Ð§Y$OFFICERS$ï¿½Wï¿½ï¿½ï¿½Ù¸ï¿½ï¿½ï¿½Y$DIVISIONS$ï¿½Wï¿½ï¿½Â½ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·É»ï¿½ï¿½ï¿½Ó¡ï¿½\nï¿½ï¿½Í¬ï¿½ï¿½Î»ï¿½ï¿½Òªï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½Ù£ï¿½\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½Ù§Y$NEED$ï¿½Wï¿½ï¿½ï¿½Ù²ï¿½ï¿½Ü±ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ÊµÄ±ï¿½ï¿½ï¿½ï¿½ï¿½\nÃ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñµï¿½Y$DAILY$ï¿½Wï¿½Â¾ï¿½ï¿½Ù¡ï¿½;Nous disposons de ï¿½Y$OFFICERS$ï¿½W officiers pour ï¿½Y$DIVISIONS$ï¿½W brigades, navires et escadrilles. Diffï¿½rents types d'unitï¿½s requiï¿½rent diffï¿½rentes quantitï¿½s d'officiers, mais pour un ratio correct nous avons besoin d'au moins ï¿½Y$NEED$ï¿½W officiers. Nous formons chaque jour ï¿½Y$DAILY$ï¿½W nouveaux officiers.;Wir haben ï¿½Y$OFFICERS$ï¿½W Offiziere in unseren ï¿½Y$DIVISIONS$ï¿½W Brigaden, Flugzeugen und auf unseren Schiffen. Verschiedene Einheitentypen benï¿½tigen unterschiedliche Anzahlen von Offizieren, aber fï¿½r ein sinnvolles Verhï¿½ltnis von Mannschaften zu Offizieren benï¿½tigen wir mindestens ï¿½Y$NEED$ï¿½W Offiziere. Wir bilden tï¿½glich ï¿½Y$DAILY$ï¿½W neue Offiziere aus.;;;;;;;;;;;x
+KPH;Ç§ï¿½ï¿½Ã¿Ð¡Ê±;km/h;;km/h;;;;;;;;;;x
+ITEM_RESEARCH_START;ï¿½ï¿½Ê¼ï¿½Ð¾ï¿½;Dï¿½but des recherches;Forschung beginnen;;;;;;;;;;;x
+CONVOYS;ï¿½ï¿½ï¿½ä½¢;Convois;Konvoi;Konwï¿½j;;;;;;;;;;x
+ESCORTS;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Escortes;Eskorte;Eskorta;;;;;;;;;;x
+NONE;Ã»ï¿½ï¿½;Rien;Keine;Brak;;;;;;;;;;x
 AI;AI;IA;KI;Przekaz SI;;;;;;;;;;x
-accept;½ÓÊÜ;Confirmer;Akzeptierung;;Aceptar;;;;;;;;;x
-cancel;È¡Ïû;Annuler;Abbrechen;;Cancelar;;;;;;;;;x
-new_deal_title;Õ½Õù¶¯Ô±;Préparatifs de guerre;Kriegsvorbereitungen;;;;;;;;;;;x
-gear_up_for_war_title;Õ½Õù¶¯Ô±;Préparatifs de guerre;Kriegsvorbereitungen;;;;;;;;;;;x
-gear_up_for_war_desc;µ±Õ½ÕùÏ¯¾íÊÀ½ç£¬ÃÀ¹úÒ²¿ªÊ¼ÎªÕ½ÕùÎä×°ÁËÆðÀ´¡£ÓÉÓÚÃÀ¹ú\n¾ü¶ÓµÄÀ©´óºÍ×â½è·¨°¸´øÀ´µÄ¾Þ´óÐèÇóÆÈÊ¹ÃÀ¹ú´ó¹æÄ£À©ÕÅ\nÁË×Ô¼ºµÄ¹¤Òµ»ùµØ¡£;Alors que la guerre devient mondiale, les préparatifs des Etats-Unis s’intensifient. L’expansion des forces armées américaines ainsi que la loi sur le prêt-bail nécessitent un développement massif de l’industrie américaine.;Während der Krieg sich über die ganze Welt ausbreitet, bereiten sich die Vereinigten Staaten immer mehr auf ihren Eintritt vor. Die Erweiterung der US-Streitkräfte sowie die enormen Erfordernisse des Leih- und Pachtgesetzes bedürfen alle einer massiven Expansion der US-Industriebasis.;;;;;;;;;;;x
-us_new_deal;ÂÞË¹¸£ÐÂÕþ;New Deal;New Deal;;;;;;;;;;;x
-ANNEX_SETUP;µ±Ò»¸ö¹ú¼ÒÍÌ²¢ÁËÁíÒ»¸ö¹ú¼Ò;Quand une nation en annexe une autre;Wenn eine Nation eine andere Nation annektiert;;;;;;;;;;;x
-ANNEX_HEADER;$foreign_minister$ ±¨¸æ;$foreign_minister$ rapporte que;$foreign_minister$ berichtet;;;;;;;;;;;x
+accept;ï¿½ï¿½ï¿½ï¿½;Confirmer;Akzeptierung;;Aceptar;;;;;;;;;x
+cancel;È¡ï¿½ï¿½;Annuler;Abbrechen;;Cancelar;;;;;;;;;x
+new_deal_title;Õ½ï¿½ï¿½ï¿½ï¿½Ô±;Prï¿½paratifs de guerre;Kriegsvorbereitungen;;;;;;;;;;;x
+gear_up_for_war_title;Õ½ï¿½ï¿½ï¿½ï¿½Ô±;Prï¿½paratifs de guerre;Kriegsvorbereitungen;;;;;;;;;;;x
+gear_up_for_war_desc;ï¿½ï¿½Õ½ï¿½ï¿½Ï¯ï¿½ï¿½ï¿½ï¿½ï¿½ç£¬ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½Ê¼ÎªÕ½ï¿½ï¿½ï¿½ï¿½×°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\nï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½è·¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾Þ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½ï¿½ï¿½\nï¿½ï¿½ï¿½Ô¼ï¿½ï¿½Ä¹ï¿½Òµï¿½ï¿½ï¿½Ø¡ï¿½;Alors que la guerre devient mondiale, les prï¿½paratifs des Etats-Unis sï¿½intensifient. Lï¿½expansion des forces armï¿½es amï¿½ricaines ainsi que la loi sur le prï¿½t-bail nï¿½cessitent un dï¿½veloppement massif de lï¿½industrie amï¿½ricaine.;Wï¿½hrend der Krieg sich ï¿½ber die ganze Welt ausbreitet, bereiten sich die Vereinigten Staaten immer mehr auf ihren Eintritt vor. Die Erweiterung der US-Streitkrï¿½fte sowie die enormen Erfordernisse des Leih- und Pachtgesetzes bedï¿½rfen alle einer massiven Expansion der US-Industriebasis.;;;;;;;;;;;x
+us_new_deal;ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;New Deal;New Deal;;;;;;;;;;;x
+ANNEX_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì²ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Quand une nation en annexe une autre;Wenn eine Nation eine andere Nation annektiert;;;;;;;;;;;x
+ANNEX_HEADER;$foreign_minister$ ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ rapporte que;$foreign_minister$ berichtet;;;;;;;;;;;x
 ANNEX_1;$ACTOR$;$ACTOR$;$ACTOR$;;;;;;;;;;;x
 ANNEX_2;$MONARCHTITLE$,;$MONARCHTITLE$,;$MONARCHTITLE$,;;;;;;;;;;;x
-ANNEX_3;$ACTOR$ ÍÌ²¢ÁË $RECIPIENT$;$ACTOR$ a annex?$RECIPIENT$;$ACTOR$ annektierte $RECIPIENT$,;;;;;;;;;;;x
-ANNEX_4;ºóÕßÒÑ¾­³ÉÎªËûÃÇ¹ú¼ÒµÄÒ»²¿·Ö¡£;qui fait désormais partie de son pays.;das nun Teil ihrer Nation ist;;;;;;;;;;;x
+ANNEX_3;$ACTOR$ ï¿½Ì²ï¿½ï¿½ï¿½ $RECIPIENT$;$ACTOR$ a annex?$RECIPIENT$;$ACTOR$ annektierte $RECIPIENT$,;;;;;;;;;;;x
+ANNEX_4;ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ç¹ï¿½ï¿½Òµï¿½Ò»ï¿½ï¿½ï¿½Ö¡ï¿½;qui fait dï¿½sormais partie de son pays.;das nun Teil ihrer Nation ist;;;;;;;;;;;x
 ANNEX_5;*;*;*;;;;;;;;;;;x
 ANNEX_6;*;*;*;;;;;;;;;;;x
-ANNEX_LOG;$ACTOR$ ÍÌ²¢ÁË $RECIPIENT$.;$ACTOR$ a annex?$RECIPIENT$.;$ACTOR$ annektierte $RECIPIENT$.;;;;;;;;;;;x
-ANNEX_BTN1;ºÃµÄ;OK;OK;;;;;;;;;;;x
-ANNEX_BTN2;ºÃµÄ;OK;OK;;;;;;;;;;;x
-ANNEX_BTN3;²é¿´;Aller ?Goto;;;;;;;;;;;x
+ANNEX_LOG;$ACTOR$ ï¿½Ì²ï¿½ï¿½ï¿½ $RECIPIENT$.;$ACTOR$ a annex?$RECIPIENT$.;$ACTOR$ annektierte $RECIPIENT$.;;;;;;;;;;;x
+ANNEX_BTN1;ï¿½Ãµï¿½;OK;OK;;;;;;;;;;;x
+ANNEX_BTN2;ï¿½Ãµï¿½;OK;OK;;;;;;;;;;;x
+ANNEX_BTN3;ï¿½é¿´;Aller ?Goto;;;;;;;;;;;;x
 ANNEX_MAP;*;*;*;;;;;;;;;;;x

@@ -1,133 +1,133 @@
 xxxx;;;;;;;;;;;;;;x
-LEDGER_PRE;ÉÏÒ»¸ö;Précédent;Zurück;Wstecz;Anterior;Indietro;Elõz?Pøedchoz?;;;;;x;
-LEDGER_NEXT;ÏÂÒ»¸ö;Suivant;Weiter;Dalej;Siguiente;Avanti;Következ?Další;;;;;;x
-LEDGER_CLOSE;¹Ø±Õ;Fermer;Schließen;Zamknij ;Cerrar;Chiudere;Bezárás;Zavøít;;;;;;x
-LEDGER_COUNTRY;¹ú¼Ò;Pays;Land;;País;;;;;;;;;x
-LEDGER_FACTION;ÕóÓª;Faction;Fraktion;;Facción;;;;;;;;;x
-LEDGER_VP;Ê¤Àûµã;PV;SP;;PV;;;;;;;;;x
-LEDGER_OFFMAP_VP;¶îÍâÊ¤Àûµã;PV hors de la carte;SP außerhalb der Karte;;PV fuera del mapa;;;;;;;;;x
-LEDGER_TOTAL_VP;Ê¤Àûµã×Ü¼Æ;PV totaux;SP gesamt;;PV totales;;;;;;;;;x
-LEDGER_VALUE;Ê¤Àûµã;Points de victoire;Siegespunkte;;Puntos de victoria;;;;;;;;;x
-LEDGER_CONTROLLER;¿ØÖÆÕß;Contrôleur;Kontrolle;;En poder de;;;;;;;;;x
-LEDGER_NEUTRAL;ÖÐÁ¢;Neutre;Neutral;;Neutrales;;;;;;;;;x
-LEDGER_TOTAL;×Ü¼Æ;Total;Gesamt;;Total;;;;;;;;;x
-LEDGER_ALLARMIES_TITLE;Í¬ÃËÂ½¾ü¶Ô±È;Comparaison de l'armée alliée;Vergleich Alliierte Armeen;;Comparación ejército aliado;;;;;;;;;x
-LEDGER_ALLNAVIES_TITLE;Í¬ÃËº£¾ü¶Ô±È;Comparaison de la marine alliée;Vergleich Alliierte Seestreitkr.;;Comparación marina aliada;;;;;;;;;x
-LEDGER_ALLAIR_TITLE;Í¬ÃË¿Õ¾ü¶Ô±È;Comparaison de l'armée de l'air alliée;Vergleich Alliierte Luftwaffen;;Comparación fuerza aérea aliado;;;;;;;;;x
-LEDGER_TERRITORIAL_TITLE;¿ØÖÆÊ¡·Ý;Provinces contrôlées;Kontrollierte Provinzen;;Provincias controladas;;;;;;;;;x
-LEDGER_PROVINCE;Ê¡·Ý;Province;Provinz;;Provincia;;;;;;;;;x
-LEDGER_ENERGY;ÄÜÔ´;Énergie;Energie;;Energía;;;;;;;;;x
-LEDGER_METAL;½ðÊô;Métaux;Metalle;;Metal;;;;;;;;;x
-LEDGER_RARE;Ï¡ÓÐÔ­ÁÏ;Matériaux rares;Seltene Mat.;;Mat. rara;;;;;;;;;x
-LEDGER_OIL;Ô­ÓÍ;Pétrole;Öl;;Petróleo;;;;;;;;;x
-LEDGER_MP;ÈËÁ¦;Main-d'œuvre;Mannstärke;;Rec. hum.;;;;;;;;;x
-LEDGER_LEADER;Áìµ¼Á¦;Leadership;Führung;;Liderazgo;;;;;;;;;x
-LEDGER_BUILDING_TITLE;½¨Öþ;Bâtiments;Gebäude;;Edificios;;;;;;;;;x
-ELEDGER_RESOURCE_FLOW;×ÊÔ´;Flux de ressources;Ressourcenfluss;;Flujo de recursos;;;;;;;;;x
-LEDGER_CATEGORY;·ÖÀà;Catégorie;Kategorie;;Categoría;;;;;;;;;x
-LEDGER_HOME_PRODUCED;¹úÄÚÉú²ú;Produit localement;Eigenproduktion;;Producción en patria;;;;;;;;;x
-LEDGER_CONVOYED_IN;»¤º½½¢¶ÓÊäÈë;Import?par convoi;Per Konvoi herein;;Entrada por convoyes;;;;;;;;;x
-LEDGER_CONVOYED_OUT;»¤º½½¢¶ÓÊä³ö;Export?par convoi;Per Konvoi hinaus;;Salida por convoyes;;;;;;;;;x
-LEDGER_REPAID_DEBT;³¥»¹Õ®Îñ;Dette remboursée;Getilgte Schulden;;Deuda pagada;;;;;;;;;x
-LEDGER_INCOMING_DEBT;¸ºÕ®ÊÕÈë;Converti en;Konvertiert zu;;Convertido a;;;;;;;;;x
-LEDGER_CONVERTED_FROM;×ª»¯ÏûºÄ;Converti ?partir de;Konvertiert von;;Convertido de;;;;;;;;;x
-LEDGER_PUPPET_FROM;À´×Ô¿þÀÜ¹ú;Provenant d'états fantoches;Von Marionetten;;De títeres;;;;;;;;;x
-LEDGER_PUPPET_TO;Ïò×ÚÖ÷¹ú½ø¹±;Vers l'état dominant;An Drahtzieherland;;Al jefe supremo;;;;;;;;;x
-LEDGER_USED_INDUSTRY;¹¤ÒµÏûºÄ;Utilis?par l'industrie;Von der Industrie genutzt;;En uso por la industria;;;;;;;;;x
-LEDGER_USED_TROOPS;¾ü¶ÓÏûºÄ;Utilis?par les troupes;Von Truppen genutzt;;En uso por tropas;;;;;;;;;x
-LEDGER_USED_ALLIES;ÃË¾üÏûºÄ;Utilis?par les alliés;Von Verbündeten genutzt;;En uso por aliados;;;;;;;;;x
-LEDGER_FROM_EXILES;À´×ÔÁ÷ÍöÕþ¸®;Provenant des gouvernements en exil;Von Exilanten;;De exiliados;;;;;;;;;x
-LEDGER_FLOW_TITLE;×ÊÔ´Á÷Á¿;Flux de ressources;Ressourcenfluss;;Flujo de recursos;;;;;;;;;x
-LEDGER_CONVOYS_TITLE;»¤º½½¢¶Ó;Convois;Konvois;;Convoyes;;;;;;;;;x
-LEDGER_FROM;´Ó;De;Von;;De;;;;;;;;;x
-LEDGER_TO;µ½;?Nach;;A;;;;;;;;;x
-LEDGER_TRANSPORTS;ÔËÊä½¢;Navires de transport;Truppentr.;;Transportes;;;;;;;;;x
-LEDGER_ESCORTS;»¤º½½¢;Escortes;Geleitschiffe;;Escoltas;;;;;;;;;x
-LEDGER_POLITICIANS_TITLE;ÕþÖÎ¼Ò;Politiciens;Politiker;;Políticos;;;;;;;;;x
-LEDGER_NONE;ÎÞ;Aucun;Keine;;Nada;;;;;;;;;x
-LEDGER_NAME;Ãû³Æ;Nom;Name;;Nombre;;;;;;;;;x
-LEDGER_TYPE;ÀàÐÍ;Type;Typ;;Tipo;;;;;;;;;x;
-LEDGER_STRENGTH;±øÁ¦;Puiss;St.;;Est;;;;;;;;;x;
-LEDGER_ORG;×éÖ¯¶È;Org;Org.;;Org.;;;;;;;;;x;
-LEDGER_LOCATION;Î»ÖÃ;Emplacement;Pos.;;Ubicación;;;;;;;;;x;
-LEDGER_DIVISION;ËùÊôÊ¦;Division;Division;;División;;;;;;;;;x;
-LEDGER_CORP;ËùÊô¾ü;Corps;Korps;;Cuerpo;;;;;;;;;x;
-LEDGER_ARMY;ËùÊô¼¯ÍÅ¾ü;Armée;Armee;;Ejército;;;;;;;;;x;
-LEDGER_ARMYGROUP;ËùÊô¼¯Èº;Groupe d'armées;Armeegruppe;;Grupo de ejércitos;;;;;;;;;x;
-LEDGER_THEATRE;ËùÊôÕ½Çø;Théâtre des opérations;Kriegsschauplatz;;Teatro;;;;;;;;;x;
-LEDGER_ORDER;ÃüÁî;Ordre;Befehl;;Orden;;;;;;;;;x;
-LEDGER_IDEOLOGY;ÒâÊ¶ÐÎÌ¬;Idéologie;Ideologie;;Ideología;;;;;;;;;x;
-LEDGER_POSSIBLE;¿ÉÄÜ;Possible;Möglich;;Posible;;;;;;;;;x;
-LEDGER_PERSONALITY;ÌØÐÔ;Personnalit?Persönlichkeit;;Personalidad;;;;;;;;;x;
-LEDGER_JOB;Ö°Î»;Emploi;Job;;Puesto;;;;;;;;;;x
-LEDGER_FLEET;ËùÊô½¢¶Ó;Flotte;Flotte;;Flota;;;;;;;;;;x
-LEDGER_BASE;»ùµØ;Base;Stützpunkt;;Base;;;;;;;;;;x
-LEDGER_WING;ËùÊô±à¶Ó;Flotte aérienne;Geschwader;;Ala;;;;;;;;;;x
-LEDGER_OWNER;ËùÊô;Détenteur;Eigentümer;;Propietario;;;;;;;;;;x
-LEDGER_SHIP;±»»÷³Á;Navire;Schiff;;Buque;;;;;;;;;;x
-LEDGER_SINKER_NAME;¹¥»÷Õß;Coul?par;Schiffsversenker-Name;;Nombre del que lo hundi?;;;;;;;;;x
-LEDGER_SINKER_TYPE;ÀàÐÍ;Type du navire ayant fait sombrer;Schiffsversenker-Typ;;Tipo del que lo hundi?;;;;;;;;;x
-LEDGER_SINKER_COUNTRY;ËùÊô;Pays ayant fait sombrer;Schiffsversenker-Land;;País del que lo hundi?;;;;;;;;;x
-LEDGER_YES;ÊÇ;Oui;Ja;;S?;;;;;;;;;x
-LEDGER_NO;²»;Non;Nein;;No;;;;;;;;;;x
-LEDGER_BRIGADE_TITLE;Â½¾üÂÃ;Brigades;Brigaden;;Brigadas;;;;;;;;;;x
-LEDGER_SHIP_TITLE;½¢´¬;Navires;Schiffe;;Barcos;;;;;;;;;;x
-LEDGER_PLANE_TITLE;·É»ú;Avions;Flugzeuge;;torp.;;;;;;;;;;x
-LEDGER_MODELNAME;ÐÍºÅ;Modèle;Modell;;Modelo;;;;;;;;;x;
-LEDGER_WIDTH;Õ½Êõ¿í¶È;Étendue;Breite;;Anchura;;;;;;;;;x;
-LEDGER_SOFT_ATTACK;Èí¹¥ÄÜÁ¦;Attaque de cibles non blindées;Angr. geg. ungep. Ziele;;Ataque blando;;;;;;;;;x;
-LEDGER_HARD_ATTACK;Ó²¹¥ÄÜÁ¦;Attaque de cibles blindées;Angr. geg. gep. Ziele;;Ataque duro;;;;;;;;;x;
-LEDGER_DEFENSIVNESS;·ÀÓùÁ¦.;Capacités défensives;Defensivstärke;;Defensa;;;;;;;;;x;
-LEDGER_TOUGHNESS;¼áÈÍ¶È;Résistance;Zähigkeit;;Resist.;;;;;;;;;x
-LEDGER_SOFTNESS;·Ç×°¼×¶È;Faiblesses;Schwäche;;Dureza;;;;;;;;;x
-LEDGER_AIR_ATTACK;¶Ô¿Õ¹¥»÷;Attaque aérienne;Luftangriff;;Ataque aéreo;;;;;;;;;x
-LEDGER_AIR_DEFENCE;¶Ô¿Õ·ÀÓù;Déf. Aérienne;Luftverteidigung;;Def. aérea;;;;;;;;;x
-LEDGER_SURPRESSION;ÕòÑ¹;Surprise;Unterdrückung;;Supr.;;;;;;;;;x
-LEDGER_SPEED;ËÙ¶È;Vitesse;Geschwindigkeit;;Veloc.;;;;;;;;;x
-LEDGER_SURFACE_DETECTION;¶Ôº£Ì½²â;Détec. de surface;Oberflächenortung;;Detecc. Superf.;;;;;;;;;x
-LEDGER_RANGE;º½³Ì;Rayon d'action;Reichweite;;Radio de acción;;;;;;;;;x
-LEDGER_DISTANCE;Éä³Ì;Distance;Entf.;;Dist.;;;;;;;;;x
-LEDGER_AIR_DETECTION;¶Ô¿ÕÌ½²â;Détec. Aérienne;Luftortung;;Detecc. aérea;;;;;;;;;x
-LEDGER_SUB_DETECTION;¶ÔÇ±Ì½²â;Détec. de sous-marins;U-Boot-Ortung;;Detecc. sub.;;;;;;;;;x
-LEDGER_VISIBILITY;ÄÜ¼û¶È;Visib.;Sichtw.;;Vis.;;;;;;;;;x
-LEDGER_SEA_DEFENCE;¶Ôº£·ÀÓù;Déf. Navale;Seevert.;;Def. mar.;;;;;;;;;x
-LEDGER_CONVOY_ATTACK;»¤º½Ï®»÷;Attaque de convoi;Konvoiangriff;;Conv. Ataque;;;;;;;;;x
-LEDGER_SEA_ATTACK;¶Ôº£¹¥»÷;Attaque navale;Seeangriff;;At. marítimo;;;;;;;;;x
-LEDGER_SUB_ATTACK;¶ÔÇ±¹¥»÷;Attaque de sous-marin;U-Boot-Angriff;;Ataque sub.;;;;;;;;;x
-LEDGER_SHORE_BOMBARDMENT;º£°¶ÅÚ»÷;Bombardement côtier;Küstenbombardement;;Bomb. costa;;;;;;;;;x
-LEDGER_HULL;´¬Ìå;Coque;Rumpf;;Hull;;;;;;;;;x
-LEDGER_POSITIONING;±øÁ¦²¼ÖÃ;Pos.;Pos.;;Pos.;;;;;;;;;x
-LEDGER_TRANSPORT_CAPABILITY;ÔËÊäÄÜÁ¦;Cap.;Kap.;;transporte;;;;;;;;;x
-LEDGER_CARRIER_CAPACITY;ÈÝÁ¿;Capacit?Kapazität;;Capacidad;;;;;;;;;x
-LEDGER_STRATEGIC_ATTACK;Õ½ÂÔ¹¥»÷;Attaque d'un détroit;Strat. Angriff;;Ataque est.;;;;;;;;;x
-LEDGER_RANK;¾üÏÎ;Rang;Rang;;Puesto;;;;;;;;;x
-LEDGER_SKILL;¼¼ÄÜ;Compétence;Fähigkeit;;Hab.;;;;;;;;;x
-LEDGER_EXPERIENCE;¾­Ñé;Expérience;Erfahrung;;Experiencia;;;;;;;;;x
-LEDGER_TRAIT1;ÌØÐÔ 1;Caractéristique 1;Eigenschaft 1;;Rasgo 1;;;;;;;;;x
-LEDGER_TRAIT2;ÌØÐÔ 2;Caractéristique 2;Eigenschaft 2;;Rasgo 2;;;;;;;;;x
-LEDGER_COMMISION;Ö¸»Óµ¥Î»;Commission;Kommission;;Cargo;;;;;;;;;x
-LEDGER_NO_DATA;Ã»ÓÐ´ËÏî×ÊÁÏ;Aucune donnée pour ce diagramme circulaire;Keine Daten für diesen Graphen;;Sin datos;;;;;;;;;x
-LEDGER_PIE_ALL;ËùÓÐµ¥Î»;Toutes les unités;Alle Einheiten;;Todas las unidades;;;;;;;;;x
-LEDGER_PIE_LAND;Â½¾üµ¥Î»;Unités terrestres;Landeinheiten;;Las unidades terrestres;;;;;;;;;x
-LEDGER_PIE_NAVAL;º£¾üµ¥Î»;Unités navales;Seeeinheiten;;Las unidades navales;;;;;;;;;x
-LEDGER_PIE_AIR;¿Õ¾üµ¥Î»;Unités aériennes;Lufteinheiten;;Las unidades aéreas;;;;;;;;;x
-LEDGER_LAND;Â½¾ü;Terre;Land;;Tierra;;;;;;;;;x
-LEDGER_AIR;¿Õ¾ü;Air;Luft;;Aéreos;;;;;;;;;x
-LEDGER_NAVAL;º£¾ü;Naval;See;;Naval;;;;;;;;;x
-LEDGER_UNIT_SPLIT;µ¥Î»ÊýÁ¿;Nombre d'unités;Anzahl der Einheiten;;Número de unidades;;;;;;;;;x
-LEDGER_SUPPLY_CONSUMPTION;²¹¸øÏûºÄ;Conso. en ravitaillement;Nachschubverbrauch;;Cons. sumin.;;;;;;;;;x
-LEDGER_FUEL_CONSUMPTION;È¼ÁÏÏûºÄ;Conso. en carburant;Treibstoffverbauch;;Cons. combus.;;;;;;;;;x
-LEDGER_UNIT_REINFORCE_NEED;ÔöÔ®ÐèÇó£º;Renforts nécessaires :;Benötigte Verstärkung:;;Necesidad de refuerzos: ;;;;;;;;;x
-ELEDGER_NATIONAL_STATISTICS;¹ú¼ÒÍ³¼Æ;Statistiques nationales;Landesstatistiken;;Estadísticas nacionales;;;;;;;;;x
-LEDGER_AIR_COMMMANDER;¿Õ¾ü½«Áì;Chefs de l'armée de l'air;Luftwaffenanführer;;Líderes aéreos;;;;;;;;;x
-LEDGER_SEA_COMMMANDER;º£¾ü½«Áì;Chefs de la marine;Flottenanführer;;Líderes navales;;;;;;;;;x
-LEDGER_LAND_COMMMANDER;Â½¾ü½«Áì;Chefs de l'armée;Armeeanführer;;Líderes de ejército;;;;;;;;;x
-LEDGER_SURFACE_DEFENCE;¶Ôº£·ÀÓù;Déf. en surface;Oberflächenvert.;;Def. Superf.;;;;;;;;;x
-LEDGER_BRIGADE_STATS;Â½¾üÂÃÍ³¼Æ;Stats de la brigade;Brigadestatistiken;;Estadísticas de brigada;;;;;;;;;x
-LEDGER_SHIP_STATS;½¢Ö»Í³¼Æ;Stats du navire;Schiffstatistiken;;Estadísticas de buque;;;;;;;;;x
-LEDGER_PLANE_STATS;·É»úÍ³¼Æ;Stats de l'avion;Flugzeugstatistiken;;Estadísticas de avión;;;;;;;;;x
-LEDGER_CONVERTED_TO;×ª»¯µÃµ½;Converti ?partir de;Konvertiert von;;Convertido de;;;;;;;;;x
-fascism;·¨Î÷Ë¹Ö÷Òå;;;;;;;;;;;;;x
-democracy;ÃñÖ÷Ö÷Òå;;;;;;;;;;;;;x
-communism;¹²²úÖ÷Òå;;;;;;;;;;;;;x
-LEDGER_PREVIOUS;ÉÏÒ»¸ö;;;;;;;;;;;;;x
+LEDGER_PRE;ï¿½ï¿½Ò»ï¿½ï¿½;Prï¿½cï¿½dent;Zurï¿½ck;Wstecz;Anterior;Indietro;Elï¿½z?Pï¿½edchoz?;;;;;;;x
+LEDGER_NEXT;ï¿½ï¿½Ò»ï¿½ï¿½;Suivant;Weiter;Dalej;Siguiente;Avanti;Kï¿½vetkez?Dalï¿½ï¿½;;;;;;;x
+LEDGER_CLOSE;ï¿½Ø±ï¿½;Fermer;Schlieï¿½en;Zamknij ;Cerrar;Chiudere;Bezï¿½rï¿½s;Zavï¿½ï¿½t;;;;;;x
+LEDGER_COUNTRY;ï¿½ï¿½ï¿½ï¿½;Pays;Land;;Paï¿½s;;;;;;;;;x
+LEDGER_FACTION;ï¿½ï¿½Óª;Faction;Fraktion;;Facciï¿½n;;;;;;;;;x
+LEDGER_VP;Ê¤ï¿½ï¿½ï¿½ï¿½;PV;SP;;PV;;;;;;;;;x
+LEDGER_OFFMAP_VP;ï¿½ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½;PV hors de la carte;SP auï¿½erhalb der Karte;;PV fuera del mapa;;;;;;;;;x
+LEDGER_TOTAL_VP;Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½Ü¼ï¿½;PV totaux;SP gesamt;;PV totales;;;;;;;;;x
+LEDGER_VALUE;Ê¤ï¿½ï¿½ï¿½ï¿½;Points de victoire;Siegespunkte;;Puntos de victoria;;;;;;;;;x
+LEDGER_CONTROLLER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Contrï¿½leur;Kontrolle;;En poder de;;;;;;;;;x
+LEDGER_NEUTRAL;ï¿½ï¿½ï¿½ï¿½;Neutre;Neutral;;Neutrales;;;;;;;;;x
+LEDGER_TOTAL;ï¿½Ü¼ï¿½;Total;Gesamt;;Total;;;;;;;;;x
+LEDGER_ALLARMIES_TITLE;Í¬ï¿½ï¿½Â½ï¿½ï¿½ï¿½Ô±ï¿½;Comparaison de l'armï¿½e alliï¿½e;Vergleich Alliierte Armeen;;Comparaciï¿½n ejï¿½rcito aliado;;;;;;;;;x
+LEDGER_ALLNAVIES_TITLE;Í¬ï¿½Ëºï¿½ï¿½ï¿½ï¿½Ô±ï¿½;Comparaison de la marine alliï¿½e;Vergleich Alliierte Seestreitkr.;;Comparaciï¿½n marina aliada;;;;;;;;;x
+LEDGER_ALLAIR_TITLE;Í¬ï¿½Ë¿Õ¾ï¿½ï¿½Ô±ï¿½;Comparaison de l'armï¿½e de l'air alliï¿½e;Vergleich Alliierte Luftwaffen;;Comparaciï¿½n fuerza aï¿½rea aliado;;;;;;;;;x
+LEDGER_TERRITORIAL_TITLE;ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½;Provinces contrï¿½lï¿½es;Kontrollierte Provinzen;;Provincias controladas;;;;;;;;;x
+LEDGER_PROVINCE;Ê¡ï¿½ï¿½;Province;Provinz;;Provincia;;;;;;;;;x
+LEDGER_ENERGY;ï¿½ï¿½Ô´;ï¿½nergie;Energie;;Energï¿½a;;;;;;;;;x
+LEDGER_METAL;ï¿½ï¿½ï¿½ï¿½;Mï¿½taux;Metalle;;Metal;;;;;;;;;x
+LEDGER_RARE;Ï¡ï¿½ï¿½Ô­ï¿½ï¿½;Matï¿½riaux rares;Seltene Mat.;;Mat. rara;;;;;;;;;x
+LEDGER_OIL;Ô­ï¿½ï¿½;Pï¿½trole;ï¿½l;;Petrï¿½leo;;;;;;;;;x
+LEDGER_MP;ï¿½ï¿½ï¿½ï¿½;Main-d'ï¿½uvre;Mannstï¿½rke;;Rec. hum.;;;;;;;;;x
+LEDGER_LEADER;ï¿½ìµ¼ï¿½ï¿½;Leadership;Fï¿½hrung;;Liderazgo;;;;;;;;;x
+LEDGER_BUILDING_TITLE;ï¿½ï¿½ï¿½ï¿½;Bï¿½timents;Gebï¿½ude;;Edificios;;;;;;;;;x
+ELEDGER_RESOURCE_FLOW;ï¿½ï¿½Ô´;Flux de ressources;Ressourcenfluss;;Flujo de recursos;;;;;;;;;x
+LEDGER_CATEGORY;ï¿½ï¿½ï¿½ï¿½;Catï¿½gorie;Kategorie;;Categorï¿½a;;;;;;;;;x
+LEDGER_HOME_PRODUCED;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Produit localement;Eigenproduktion;;Producciï¿½n en patria;;;;;;;;;x
+LEDGER_CONVOYED_IN;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Import?par convoi;Per Konvoi herein;;Entrada por convoyes;;;;;;;;;x
+LEDGER_CONVOYED_OUT;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Export?par convoi;Per Konvoi hinaus;;Salida por convoyes;;;;;;;;;x
+LEDGER_REPAID_DEBT;ï¿½ï¿½ï¿½ï¿½Õ®ï¿½ï¿½;Dette remboursï¿½e;Getilgte Schulden;;Deuda pagada;;;;;;;;;x
+LEDGER_INCOMING_DEBT;ï¿½ï¿½Õ®ï¿½ï¿½ï¿½ï¿½;Converti en;Konvertiert zu;;Convertido a;;;;;;;;;x
+LEDGER_CONVERTED_FROM;×ªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Converti ?partir de;Konvertiert von;;Convertido de;;;;;;;;;x
+LEDGER_PUPPET_FROM;ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½Ü¹ï¿½;Provenant d'ï¿½tats fantoches;Von Marionetten;;De tï¿½teres;;;;;;;;;x
+LEDGER_PUPPET_TO;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Vers l'ï¿½tat dominant;An Drahtzieherland;;Al jefe supremo;;;;;;;;;x
+LEDGER_USED_INDUSTRY;ï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½;Utilis?par l'industrie;Von der Industrie genutzt;;En uso por la industria;;;;;;;;;x
+LEDGER_USED_TROOPS;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Utilis?par les troupes;Von Truppen genutzt;;En uso por tropas;;;;;;;;;x
+LEDGER_USED_ALLIES;ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½ï¿½;Utilis?par les alliï¿½s;Von Verbï¿½ndeten genutzt;;En uso por aliados;;;;;;;;;x
+LEDGER_FROM_EXILES;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Provenant des gouvernements en exil;Von Exilanten;;De exiliados;;;;;;;;;x
+LEDGER_FLOW_TITLE;ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½;Flux de ressources;Ressourcenfluss;;Flujo de recursos;;;;;;;;;x
+LEDGER_CONVOYS_TITLE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Convois;Konvois;;Convoyes;;;;;;;;;x
+LEDGER_FROM;ï¿½ï¿½;De;Von;;De;;;;;;;;;x
+LEDGER_TO;ï¿½ï¿½;?Nach;;A;;;;;;;;;;x
+LEDGER_TRANSPORTS;ï¿½ï¿½ï¿½ä½¢;Navires de transport;Truppentr.;;Transportes;;;;;;;;;x
+LEDGER_ESCORTS;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Escortes;Geleitschiffe;;Escoltas;;;;;;;;;x
+LEDGER_POLITICIANS_TITLE;ï¿½ï¿½ï¿½Î¼ï¿½;Politiciens;Politiker;;Polï¿½ticos;;;;;;;;;x
+LEDGER_NONE;ï¿½ï¿½;Aucun;Keine;;Nada;;;;;;;;;x
+LEDGER_NAME;ï¿½ï¿½ï¿½ï¿½;Nom;Name;;Nombre;;;;;;;;;x
+LEDGER_TYPE;ï¿½ï¿½ï¿½ï¿½;Type;Typ;;Tipo;;;;;;;;;x
+LEDGER_STRENGTH;ï¿½ï¿½ï¿½ï¿½;Puiss;St.;;Est;;;;;;;;;x
+LEDGER_ORG;ï¿½ï¿½Ö¯ï¿½ï¿½;Org;Org.;;Org.;;;;;;;;;x
+LEDGER_LOCATION;Î»ï¿½ï¿½;Emplacement;Pos.;;Ubicaciï¿½n;;;;;;;;;x
+LEDGER_DIVISION;ï¿½ï¿½ï¿½ï¿½Ê¦;Division;Division;;Divisiï¿½n;;;;;;;;;x
+LEDGER_CORP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Corps;Korps;;Cuerpo;;;;;;;;;x
+LEDGER_ARMY;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Å¾ï¿½;Armï¿½e;Armee;;Ejï¿½rcito;;;;;;;;;x
+LEDGER_ARMYGROUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Èº;Groupe d'armï¿½es;Armeegruppe;;Grupo de ejï¿½rcitos;;;;;;;;;x
+LEDGER_THEATRE;ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½;Thï¿½ï¿½tre des opï¿½rations;Kriegsschauplatz;;Teatro;;;;;;;;;x
+LEDGER_ORDER;ï¿½ï¿½ï¿½ï¿½;Ordre;Befehl;;Orden;;;;;;;;;x
+LEDGER_IDEOLOGY;ï¿½ï¿½Ê¶ï¿½ï¿½Ì¬;Idï¿½ologie;Ideologie;;Ideologï¿½a;;;;;;;;;x
+LEDGER_POSSIBLE;ï¿½ï¿½ï¿½ï¿½;Possible;Mï¿½glich;;Posible;;;;;;;;;x
+LEDGER_PERSONALITY;ï¿½ï¿½ï¿½ï¿½;Personnalit?Persï¿½nlichkeit;;Personalidad;;;;;;;;;;x
+LEDGER_JOB;Ö°Î»;Emploi;Job;;Puesto;;;;;;;;;x
+LEDGER_FLEET;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Flotte;Flotte;;Flota;;;;;;;;;x
+LEDGER_BASE;ï¿½ï¿½ï¿½ï¿½;Base;Stï¿½tzpunkt;;Base;;;;;;;;;x
+LEDGER_WING;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Flotte aï¿½rienne;Geschwader;;Ala;;;;;;;;;x
+LEDGER_OWNER;ï¿½ï¿½ï¿½ï¿½;Dï¿½tenteur;Eigentï¿½mer;;Propietario;;;;;;;;;x
+LEDGER_SHIP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Navire;Schiff;;Buque;;;;;;;;;x
+LEDGER_SINKER_NAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Coul?par;Schiffsversenker-Name;;Nombre del que lo hundi?;;;;;;;;;x
+LEDGER_SINKER_TYPE;ï¿½ï¿½ï¿½ï¿½;Type du navire ayant fait sombrer;Schiffsversenker-Typ;;Tipo del que lo hundi?;;;;;;;;;x
+LEDGER_SINKER_COUNTRY;ï¿½ï¿½ï¿½ï¿½;Pays ayant fait sombrer;Schiffsversenker-Land;;Paï¿½s del que lo hundi?;;;;;;;;;x
+LEDGER_YES;ï¿½ï¿½;Oui;Ja;;S?;;;;;;;;;x
+LEDGER_NO;ï¿½ï¿½;Non;Nein;;No;;;;;;;;;x
+LEDGER_BRIGADE_TITLE;Â½ï¿½ï¿½ï¿½ï¿½;Brigades;Brigaden;;Brigadas;;;;;;;;;x
+LEDGER_SHIP_TITLE;ï¿½ï¿½ï¿½ï¿½;Navires;Schiffe;;Barcos;;;;;;;;;x
+LEDGER_PLANE_TITLE;ï¿½É»ï¿½;Avions;Flugzeuge;;torp.;;;;;;;;;x
+LEDGER_MODELNAME;ï¿½Íºï¿½;Modï¿½le;Modell;;Modelo;;;;;;;;;x
+LEDGER_WIDTH;Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;ï¿½tendue;Breite;;Anchura;;;;;;;;;x
+LEDGER_SOFT_ATTACK;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Attaque de cibles non blindï¿½es;Angr. geg. ungep. Ziele;;Ataque blando;;;;;;;;;x
+LEDGER_HARD_ATTACK;Ó²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Attaque de cibles blindï¿½es;Angr. geg. gep. Ziele;;Ataque duro;;;;;;;;;x
+LEDGER_DEFENSIVNESS;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½.;Capacitï¿½s dï¿½fensives;Defensivstï¿½rke;;Defensa;;;;;;;;;x
+LEDGER_TOUGHNESS;ï¿½ï¿½ï¿½Í¶ï¿½;Rï¿½sistance;Zï¿½higkeit;;Resist.;;;;;;;;;x
+LEDGER_SOFTNESS;ï¿½ï¿½×°ï¿½×¶ï¿½;Faiblesses;Schwï¿½che;;Dureza;;;;;;;;;x
+LEDGER_AIR_ATTACK;ï¿½Ô¿Õ¹ï¿½ï¿½ï¿½;Attaque aï¿½rienne;Luftangriff;;Ataque aï¿½reo;;;;;;;;;x
+LEDGER_AIR_DEFENCE;ï¿½Ô¿Õ·ï¿½ï¿½ï¿½;Dï¿½f. Aï¿½rienne;Luftverteidigung;;Def. aï¿½rea;;;;;;;;;x
+LEDGER_SURPRESSION;ï¿½ï¿½Ñ¹;Surprise;Unterdrï¿½ckung;;Supr.;;;;;;;;;x
+LEDGER_SPEED;ï¿½Ù¶ï¿½;Vitesse;Geschwindigkeit;;Veloc.;;;;;;;;;x
+LEDGER_SURFACE_DETECTION;ï¿½Ôºï¿½Ì½ï¿½ï¿½;Dï¿½tec. de surface;Oberflï¿½chenortung;;Detecc. Superf.;;;;;;;;;x
+LEDGER_RANGE;ï¿½ï¿½ï¿½ï¿½;Rayon d'action;Reichweite;;Radio de acciï¿½n;;;;;;;;;x
+LEDGER_DISTANCE;ï¿½ï¿½ï¿½;Distance;Entf.;;Dist.;;;;;;;;;x
+LEDGER_AIR_DETECTION;ï¿½Ô¿ï¿½Ì½ï¿½ï¿½;Dï¿½tec. Aï¿½rienne;Luftortung;;Detecc. aï¿½rea;;;;;;;;;x
+LEDGER_SUB_DETECTION;ï¿½ï¿½Ç±Ì½ï¿½ï¿½;Dï¿½tec. de sous-marins;U-Boot-Ortung;;Detecc. sub.;;;;;;;;;x
+LEDGER_VISIBILITY;ï¿½Ü¼ï¿½ï¿½ï¿½;Visib.;Sichtw.;;Vis.;;;;;;;;;x
+LEDGER_SEA_DEFENCE;ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½;Dï¿½f. Navale;Seevert.;;Def. mar.;;;;;;;;;x
+LEDGER_CONVOY_ATTACK;ï¿½ï¿½ï¿½ï¿½Ï®ï¿½ï¿½;Attaque de convoi;Konvoiangriff;;Conv. Ataque;;;;;;;;;x
+LEDGER_SEA_ATTACK;ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½;Attaque navale;Seeangriff;;At. marï¿½timo;;;;;;;;;x
+LEDGER_SUB_ATTACK;ï¿½ï¿½Ç±ï¿½ï¿½ï¿½ï¿½;Attaque de sous-marin;U-Boot-Angriff;;Ataque sub.;;;;;;;;;x
+LEDGER_SHORE_BOMBARDMENT;ï¿½ï¿½ï¿½ï¿½ï¿½Ú»ï¿½;Bombardement cï¿½tier;Kï¿½stenbombardement;;Bomb. costa;;;;;;;;;x
+LEDGER_HULL;ï¿½ï¿½ï¿½ï¿½;Coque;Rumpf;;Hull;;;;;;;;;x
+LEDGER_POSITIONING;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Pos.;Pos.;;Pos.;;;;;;;;;x
+LEDGER_TRANSPORT_CAPABILITY;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Cap.;Kap.;;transporte;;;;;;;;;x
+LEDGER_CARRIER_CAPACITY;ï¿½ï¿½ï¿½ï¿½;Capacit?Kapazitï¿½t;;Capacidad;;;;;;;;;;x
+LEDGER_STRATEGIC_ATTACK;Õ½ï¿½Ô¹ï¿½ï¿½ï¿½;Attaque d'un dï¿½troit;Strat. Angriff;;Ataque est.;;;;;;;;;x
+LEDGER_RANK;ï¿½ï¿½ï¿½ï¿½;Rang;Rang;;Puesto;;;;;;;;;x
+LEDGER_SKILL;ï¿½ï¿½ï¿½ï¿½;Compï¿½tence;Fï¿½higkeit;;Hab.;;;;;;;;;x
+LEDGER_EXPERIENCE;ï¿½ï¿½ï¿½ï¿½;Expï¿½rience;Erfahrung;;Experiencia;;;;;;;;;x
+LEDGER_TRAIT1;ï¿½ï¿½ï¿½ï¿½ 1;Caractï¿½ristique 1;Eigenschaft 1;;Rasgo 1;;;;;;;;;x
+LEDGER_TRAIT2;ï¿½ï¿½ï¿½ï¿½ 2;Caractï¿½ristique 2;Eigenschaft 2;;Rasgo 2;;;;;;;;;x
+LEDGER_COMMISION;Ö¸ï¿½Óµï¿½Î»;Commission;Kommission;;Cargo;;;;;;;;;x
+LEDGER_NO_DATA;Ã»ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Aucune donnï¿½e pour ce diagramme circulaire;Keine Daten fï¿½r diesen Graphen;;Sin datos;;;;;;;;;x
+LEDGER_PIE_ALL;ï¿½ï¿½ï¿½Ðµï¿½Î»;Toutes les unitï¿½s;Alle Einheiten;;Todas las unidades;;;;;;;;;x
+LEDGER_PIE_LAND;Â½ï¿½ï¿½ï¿½ï¿½Î»;Unitï¿½s terrestres;Landeinheiten;;Las unidades terrestres;;;;;;;;;x
+LEDGER_PIE_NAVAL;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»;Unitï¿½s navales;Seeeinheiten;;Las unidades navales;;;;;;;;;x
+LEDGER_PIE_AIR;ï¿½Õ¾ï¿½ï¿½ï¿½Î»;Unitï¿½s aï¿½riennes;Lufteinheiten;;Las unidades aï¿½reas;;;;;;;;;x
+LEDGER_LAND;Â½ï¿½ï¿½;Terre;Land;;Tierra;;;;;;;;;x
+LEDGER_AIR;ï¿½Õ¾ï¿½;Air;Luft;;Aï¿½reos;;;;;;;;;x
+LEDGER_NAVAL;ï¿½ï¿½ï¿½ï¿½;Naval;See;;Naval;;;;;;;;;x
+LEDGER_UNIT_SPLIT;ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½;Nombre d'unitï¿½s;Anzahl der Einheiten;;Nï¿½mero de unidades;;;;;;;;;x
+LEDGER_SUPPLY_CONSUMPTION;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Conso. en ravitaillement;Nachschubverbrauch;;Cons. sumin.;;;;;;;;;x
+LEDGER_FUEL_CONSUMPTION;È¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Conso. en carburant;Treibstoffverbauch;;Cons. combus.;;;;;;;;;x
+LEDGER_UNIT_REINFORCE_NEED;ï¿½ï¿½Ô®ï¿½ï¿½ï¿½ï¿½;Renforts nï¿½cessaires :;Benï¿½tigte Verstï¿½rkung:;;Necesidad de refuerzos: ;;;;;;;;;x
+ELEDGER_NATIONAL_STATISTICS;ï¿½ï¿½ï¿½ï¿½Í³ï¿½ï¿½;Statistiques nationales;Landesstatistiken;;Estadï¿½sticas nacionales;;;;;;;;;x
+LEDGER_AIR_COMMMANDER;ï¿½Õ¾ï¿½ï¿½ï¿½ï¿½ï¿½;Chefs de l'armï¿½e de l'air;Luftwaffenanfï¿½hrer;;Lï¿½deres aï¿½reos;;;;;;;;;x
+LEDGER_SEA_COMMMANDER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Chefs de la marine;Flottenanfï¿½hrer;;Lï¿½deres navales;;;;;;;;;x
+LEDGER_LAND_COMMMANDER;Â½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Chefs de l'armï¿½e;Armeeanfï¿½hrer;;Lï¿½deres de ejï¿½rcito;;;;;;;;;x
+LEDGER_SURFACE_DEFENCE;ï¿½Ôºï¿½ï¿½ï¿½ï¿½ï¿½;Dï¿½f. en surface;Oberflï¿½chenvert.;;Def. Superf.;;;;;;;;;x
+LEDGER_BRIGADE_STATS;Â½ï¿½ï¿½ï¿½ï¿½Í³ï¿½ï¿½;Stats de la brigade;Brigadestatistiken;;Estadï¿½sticas de brigada;;;;;;;;;x
+LEDGER_SHIP_STATS;ï¿½ï¿½Ö»Í³ï¿½ï¿½;Stats du navire;Schiffstatistiken;;Estadï¿½sticas de buque;;;;;;;;;x
+LEDGER_PLANE_STATS;ï¿½É»ï¿½Í³ï¿½ï¿½;Stats de l'avion;Flugzeugstatistiken;;Estadï¿½sticas de aviï¿½n;;;;;;;;;x
+LEDGER_CONVERTED_TO;×ªï¿½ï¿½ï¿½Ãµï¿½;Converti ?partir de;Konvertiert von;;Convertido de;;;;;;;;;x
+fascism;ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½;;;;;;;;;;;;;x
+democracy;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;;;;;;;;;;;;;x
+communism;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;;;;;;;;;;;;;x
+LEDGER_PREVIOUS;ï¿½ï¿½Ò»ï¿½ï¿½;;;;;;;;;;;;;x

@@ -1,549 +1,549 @@
 xxxx;;;;;;;;;;;;;;x
 MINISTER_MESSAGE_ENTRY;$TITLE$ $NAME$;$TITLE$ $NAME$;$TITLE$ $NAME$;;$TITLE$ $NAME$;;;;;;;;;X
 #;;;;;;;;;;;;;;x
-MINISTER_DEATH_SETUP;µ±Ò»Ãû²¿³¤ËÀÍö;Lorsqu'un ministre meurt.;Wenn ein Minister stirbt.;;Cuando un ministro muere.;;;;;;;;;x
-MINISTER_DEATH_HEADER;ËÀÍö;Mort;Tod;;Muerte;;;;;;;;;x
+MINISTER_DEATH_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsqu'un ministre meurt.;Wenn ein Minister stirbt.;;Cuando un ministro muere.;;;;;;;;;x
+MINISTER_DEATH_HEADER;ï¿½ï¿½ï¿½ï¿½;Mort;Tod;;Muerte;;;;;;;;;x
 MINISTER_DEATH_1;$NAME$;$NAME$ est mort.;$NAME$;;$NAME$;;;;;;;;;x
-MINISTER_DEATH_2;ËÀÁË. $NAME$ÓÀÔ¶Àë¿ªÎÒÃÇµÄÄÚ¸óÁË¡£;est mort. $NAME$ ne peut plus faire partie de notre cabinet.;ist gestorben. Wir können $NAME$ nicht länger als Kabinettmitglied einsetzen.;;ha muerto. Ya no tenemos la posibilidad de que $NAME$ forme parte de nuestro gabinete.;;;;;;;;;x
+MINISTER_DEATH_2;ï¿½ï¿½ï¿½ï¿½. $NAME$ï¿½ï¿½Ô¶ï¿½ë¿ªï¿½ï¿½ï¿½Çµï¿½ï¿½Ú¸ï¿½ï¿½Ë¡ï¿½;est mort. $NAME$ ne peut plus faire partie de notre cabinet.;ist gestorben. Wir kï¿½nnen $NAME$ nicht lï¿½nger als Kabinettmitglied einsetzen.;;ha muerto. Ya no tenemos la posibilidad de que $NAME$ forme parte de nuestro gabinete.;;;;;;;;;x
 MINISTER_DEATH_3;*;*;*;;*;;;;;;;;;x
 MINISTER_DEATH_4;*;*;*;;*;;;;;;;;;x
 MINISTER_DEATH_5;*;*;*;;*;;;;;;;;;x
 MINISTER_DEATH_6;*;*;*;;*;;;;;;;;;x
-MINISTER_DEATH_LOG;$MINISTERNAME$ËÀÁË¡£;$MINISTERNAME$ est mort.;$MINISTERNAME$ ist gestorben.;;$MINISTERNAME$ ha muerto.;;;;;;;;;x
-MINISTER_DEATH_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-MINISTER_DEATH_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-MINISTER_DEATH_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+MINISTER_DEATH_LOG;$MINISTERNAME$ï¿½ï¿½ï¿½Ë¡ï¿½;$MINISTERNAME$ est mort.;$MINISTERNAME$ ist gestorben.;;$MINISTERNAME$ ha muerto.;;;;;;;;;x
+MINISTER_DEATH_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+MINISTER_DEATH_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+MINISTER_DEATH_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 MINISTER_DEATH_MAP;*;*;*;;*;;;;;;;;;x
-MINISTER_APPOINTED_SETUP;µ±ÈÎÃüÒ»Î»ÐÂ²¿³¤;Lorsqu'un nouveau ministre est nomm?Wenn ein neuer Minister eingesetzt wird;;Cuando se elige un nuevo ministro;;;;;;;;;x
-MINISTER_APPOINTED_HEADER;Ò»Î»ÐÂ²¿³¤;Le nouveau ministre;Ein neuer Minister,;;Un nuevo ministro;;;;;;;;;x
+MINISTER_APPOINTED_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Î»ï¿½Â²ï¿½ï¿½ï¿½;Lorsqu'un nouveau ministre est nomm?Wenn ein neuer Minister eingesetzt wird;;Cuando se elige un nuevo ministro;;;;;;;;;;x
+MINISTER_APPOINTED_HEADER;Ò»Î»ï¿½Â²ï¿½ï¿½ï¿½;Le nouveau ministre;Ein neuer Minister,;;Un nuevo ministro;;;;;;;;;x
 MINISTER_APPOINTED_1;$MINISTERNAME$;$MINISTERNAME$;$MINISTERNAME$,;;$MINISTERNAME$;;;;;;;;;x
-MINISTER_APPOINTED_2;±»ÈÎÃüÎª$POSITION$;a ét?nomm?au poste de $POSITION$.;wurde als $POSITION$ eingesetzt;;ha sido elegido para ocupar el cargo de $POSITION$;;;;;;;;;x
+MINISTER_APPOINTED_2;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª$POSITION$;a ï¿½t?nomm?au poste de $POSITION$.;wurde als $POSITION$ eingesetzt;;ha sido elegido para ocupar el cargo de $POSITION$;;;;;;;;;x
 MINISTER_APPOINTED_3;$PERSONALITY_DESC$;*;$PERSONALITY_DESC$;;$PERSONALITY_DESC$;;;;;;;;;x
 MINISTER_APPOINTED_4;*;*;*;;*;;;;;;;;;x
 MINISTER_APPOINTED_5;*;*;*;;*;;;;;;;;;x
 MINISTER_APPOINTED_6;*;*;*;;*;;;;;;;;;x
-MINISTER_APPOINTED_LOG;$MINISTERNAME$±»ÈÎÃüÎª$POSITION$.;$MINISTERNAME$ a ét?désign?comme $POSITION$.;$MINISTERNAME$ wurde als $POSITION$ eingesetzt.;;$MINISTERNAME$ ha sido elegido como $POSITION$.;;;;;;;;;x
-MINISTER_APPOINTED_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-MINISTER_APPOINTED_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-MINISTER_APPOINTED_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+MINISTER_APPOINTED_LOG;$MINISTERNAME$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îª$POSITION$.;$MINISTERNAME$ a ï¿½t?dï¿½sign?comme $POSITION$.;$MINISTERNAME$ wurde als $POSITION$ eingesetzt.;;$MINISTERNAME$ ha sido elegido como $POSITION$.;;;;;;;;;x
+MINISTER_APPOINTED_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+MINISTER_APPOINTED_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+MINISTER_APPOINTED_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 MINISTER_APPOINTED_MAP;*;*;*;;*;;;;;;;;;x
-ELECTIONRESULTS_SETUP;µ±´óÑ¡½øÐÐ;Lorsque des élections ont lieu.;Wenn eine Wahl abgehalten wird;;Cuando se celebren elecciones;;;;;;;;;x
-ELECTIONRESULTS_HEADER;$ELECTION_YEAR$Äê´óÑ¡;Élections de $ELECTION_YEAR$;Wahl $ELECTION_YEAR$;;Elecciones $ELECTION_YEAR$;;;;;;;;;x
+ELECTIONRESULTS_SETUP;ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½;Lorsque des ï¿½lections ont lieu.;Wenn eine Wahl abgehalten wird;;Cuando se celebren elecciones;;;;;;;;;x
+ELECTIONRESULTS_HEADER;$ELECTION_YEAR$ï¿½ï¿½ï¿½Ñ¡;ï¿½lections de $ELECTION_YEAR$;Wahl $ELECTION_YEAR$;;Elecciones $ELECTION_YEAR$;;;;;;;;;x
 ELECTIONRESULTS_1;$WINNING_PARTY$;$WINNING_PARTY$;$WINNING_PARTY$;;$WINNING_PARTY$;;;;;;;;;x
-ELECTIONRESULTS_2;Ó®µÃ´óÑ¡;a gagn?les élections;Gewann die Wahl;;Gan?las elecciones;;;;;;;;;x
+ELECTIONRESULTS_2;Ó®ï¿½Ã´ï¿½Ñ¡;a gagn?les ï¿½lections;Gewann die Wahl;;Gan?las elecciones;;;;;;;;;x
 ELECTIONRESULTS_3;*;*;*;;*;;;;;;;;;x
 ELECTIONRESULTS_4;*;*;*;;*;;;;;;;;;x
 ELECTIONRESULTS_5;*;*;*;;*;;;;;;;;;x
 ELECTIONRESULTS_6;*;*;*;;*;;;;;;;;;x
-ELECTIONRESULTS_LOG;$WINNING_PARTY$Ó®µÃÁË$ELECTION_YEAR$Äê´óÑ¡¡£;Le $WINNING_PARTY$ a remport?les élections de $ELECTION_YEAR$.;$WINNING_PARTY$ gewann die Wahl von $ELECTION_YEAR$.;;$WINNING_PARTY$ gan?las elecciones de $ELECTION_YEAR$.;;;;;;;;;x
-ELECTIONRESULTS_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-ELECTIONRESULTS_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-ELECTIONRESULTS_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+ELECTIONRESULTS_LOG;$WINNING_PARTY$Ó®ï¿½ï¿½ï¿½ï¿½$ELECTION_YEAR$ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½;Le $WINNING_PARTY$ a remport?les ï¿½lections de $ELECTION_YEAR$.;$WINNING_PARTY$ gewann die Wahl von $ELECTION_YEAR$.;;$WINNING_PARTY$ gan?las elecciones de $ELECTION_YEAR$.;;;;;;;;;x
+ELECTIONRESULTS_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+ELECTIONRESULTS_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+ELECTIONRESULTS_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 ELECTIONRESULTS_MAP;*;*;*;;*;;;;;;;;;x
-EVENTHAPPENOTHEROPTION_SETUP;µ±Ò»¸ö¶àÑ¡ÏîµÄÀúÊ·ÊÂ¼þÔÚËû¹ú·¢Éú;Lorsqu'un événement historique ?choix multiple se produit dans un autre pays.;Wenn sich in einem anderen Land ein historisches Ereignis mit mehreren Auswahlmöglichkeiten ereignet.;Kiedy w innym pañstwie ma miejsce zdarzenie historyczne;Cuando a otro país le ocurra un suceso histórico con múltiples opciones.;Quando un evento storico a scelta multipla si verifica in un altro paese.;Mikor egy történelmi esemény több lehetõséget kínál egy másik nemzetnek;Kdy?v jin?zemi dojde k historick?události s více volbami.;;;;;;x
-EVENTHAPPENOTHEROPTION_HEADER;$foreign_minister$±¨¸æ;$foreign_minister$ a rédig?un rapport concernant :;;;$foreign_minister$ informa sobre;;;;;;;;;x
+EVENTHAPPENOTHEROPTION_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½Ê·ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsqu'un ï¿½vï¿½nement historique ?choix multiple se produit dans un autre pays.;Wenn sich in einem anderen Land ein historisches Ereignis mit mehreren Auswahlmï¿½glichkeiten ereignet.;Kiedy w innym paï¿½stwie ma miejsce zdarzenie historyczne;Cuando a otro paï¿½s le ocurra un suceso histï¿½rico con mï¿½ltiples opciones.;Quando un evento storico a scelta multipla si verifica in un altro paese.;Mikor egy tï¿½rtï¿½nelmi esemï¿½ny tï¿½bb lehetï¿½sï¿½get kï¿½nï¿½l egy mï¿½sik nemzetnek;Kdy?v jin?zemi dojde k historick?udï¿½losti s vï¿½ce volbami.;;;;;;x
+EVENTHAPPENOTHEROPTION_HEADER;$foreign_minister$ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ a rï¿½dig?un rapport concernant :;;;$foreign_minister$ informa sobre;;;;;;;;;x
 EVENTHAPPENOTHEROPTION_1;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;;;;;;x
-EVENTHAPPENOTHEROPTION_2;ËûÃÇ±íÊ¾ÔÚ;Ils nous ont parl?de;Sie erzählen uns über das Ereignis;informuje nas o wydarzeniu:;Nos informan de los eventos de;Ci parlano dei seguenti eventi:;A következ?eseményekrõl számolt be:;Sdìluj?nám informace o událostech;;;;;;x
+EVENTHAPPENOTHEROPTION_2;ï¿½ï¿½ï¿½Ç±ï¿½Ê¾ï¿½ï¿½;Ils nous ont parl?de;Sie erzï¿½hlen uns ï¿½ber das Ereignis;informuje nas o wydarzeniu:;Nos informan de los eventos de;Ci parlano dei seguenti eventi:;A kï¿½vetkez?esemï¿½nyekrï¿½l szï¿½molt be:;Sdï¿½luj?nï¿½m informace o udï¿½lostech;;;;;;x
 EVENTHAPPENOTHEROPTION_3;$EVENT$;$EVENT$;$EVENT$;$EVENT$.;$EVENT$;$EVENT$,;$EVENT$;$EVENT$;;;;;;x
-EVENTHAPPENOTHEROPTION_4;ÊÂ¼þËùÓÐ¿ÉÄÜµÄÑ¡ÏîÖÐ, ËûÃÇÑ¡ÔñÁË;o?ils ont choisi de;wobei sie von den möglichen Optionen;Spoœród wszystkich mo¿liwoœci wybrano;dónde, entre otras opciones, decidieron;dove, tra le diverse opzioni possibili, hanno scelto;és a több lehetõség közül a következõt választotta:;z dostupných možnost?si vybrali;;;;;;x
+EVENTHAPPENOTHEROPTION_4;ï¿½Â¼ï¿½ï¿½ï¿½ï¿½Ð¿ï¿½ï¿½Üµï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½;o?ils ont choisi de;wobei sie von den mï¿½glichen Optionen;Spoï¿½rï¿½d wszystkich moï¿½liwoï¿½ci wybrano;dï¿½nde, entre otras opciones, decidieron;dove, tra le diverse opzioni possibili, hanno scelto;ï¿½s a tï¿½bb lehetï¿½sï¿½g kï¿½zï¿½l a kï¿½vetkezï¿½t vï¿½lasztotta:;z dostupnï¿½ch moï¿½nost?si vybrali;;;;;;x
 EVENTHAPPENOTHEROPTION_5;$OPTION$.;$OPTION$;$OPTION$;$OPTION$;$OPTION$;$OPTION$;$OPTION$;$OPTION$;;;;;;x
-EVENTHAPPENOTHEROPTION_6;*;comme action ?entreprendre parmi les options possibles.;gewählt haben..;jako opcj?dzia³ania.;como curso de la de acción.;.;és cselekedett is.;jako svoji volbu.;;;;;;x
-EVENTHAPPENOTHEROPTION_LOG;ÊÂ¼þ£º$COUNTRY$ÔÚ'$EVENT$'ÖÐÑ¡ÔñÁË'$OPTION$'.;Événement : $COUNTRY$ a décid?de '$OPTION$' pendant '$EVENT$'.;Ereignis: $OPTION$ in $EVENT$ für $COUNTRY$.;$COUNTRY$. $EVENT$. $OPTION$;Suceso: '$OPTION$' en '$EVENT$' para $COUNTRY$.;Evento: $OPTION$ per $EVENT$ in $COUNTRY$.;Esemény: $COUNTRY$ nemzete a/az $OPTION$ lehetõséget választotta erre az eseményre válaszolva: $EVENT$.;Událost: $OPTION$ v $EVENT$ pro $COUNTRY$.;;;;;;x
-EVENTHAPPENOTHEROPTION_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-EVENTHAPPENOTHEROPTION_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-EVENTHAPPENOTHEROPTION_BTN3;²é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;PØEJÍT NA;;;;;;x
+EVENTHAPPENOTHEROPTION_6;*;comme action ?entreprendre parmi les options possibles.;gewï¿½hlt haben..;jako opcj?dziaï¿½ania.;como curso de la de acciï¿½n.;.;ï¿½s cselekedett is.;jako svoji volbu.;;;;;;x
+EVENTHAPPENOTHEROPTION_LOG;ï¿½Â¼ï¿½ï¿½ï¿½$COUNTRY$ï¿½ï¿½'$EVENT$'ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½'$OPTION$'.;ï¿½vï¿½nement : $COUNTRY$ a dï¿½cid?de '$OPTION$' pendant '$EVENT$'.;Ereignis: $OPTION$ in $EVENT$ fï¿½r $COUNTRY$.;$COUNTRY$. $EVENT$. $OPTION$;Suceso: '$OPTION$' en '$EVENT$' para $COUNTRY$.;Evento: $OPTION$ per $EVENT$ in $COUNTRY$.;Esemï¿½ny: $COUNTRY$ nemzete a/az $OPTION$ lehetï¿½sï¿½get vï¿½lasztotta erre az esemï¿½nyre vï¿½laszolva: $EVENT$.;Udï¿½lost: $OPTION$ v $EVENT$ pro $COUNTRY$.;;;;;;x
+EVENTHAPPENOTHEROPTION_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+EVENTHAPPENOTHEROPTION_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+EVENTHAPPENOTHEROPTION_BTN3;ï¿½é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;Pï¿½EJï¿½T NA;;;;;;;;x
 EVENTHAPPENOTHEROPTION_MAP;*;*;*;*;*;*;*;;;;;;;x
-EVENTHAPPENOTHER_SETUP;µ±Ò»¸öµ¥Ñ¡ÏîµÄÀúÊ·ÊÂ¼þÔÚËû¹ú·¢Éú;Lorsqu'un événement historique ?choix unique a lieu dans un autre pays.;Wenn sich in einem anderen Land etwas Historisches mit nur einer Auswahlmöglichkeit ereignet ?;Kiedy w innym kraju ma miejsce historyczne wydarzenie z jedyn?mo¿liw?opcj?wyboru;Cuando a otro país le ocurra un suceso histórico con una única opción.;Quando un evento storico a scelta singola si verifica in un altro paese.;Mikor egy történelmi esemény következményeként csak egy választási lehetõsége van egy másik országnak.;Kdy?v jin?zemi dojde k historick?události s jednou volbou.;;;;;;x
-EVENTHAPPENOTHER_HEADER;$foreign_minister$±¨¸æ;$foreign_minister$ a rédig?un rapport concernant :;;;$foreign_minister$ informa sobre;;;;;;;;;x
+EVENTHAPPENOTHER_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½Ê·ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsqu'un ï¿½vï¿½nement historique ?choix unique a lieu dans un autre pays.;Wenn sich in einem anderen Land etwas Historisches mit nur einer Auswahlmï¿½glichkeit ereignet ?;Kiedy w innym kraju ma miejsce historyczne wydarzenie z jedyn?moï¿½liw?opcj?wyboru;Cuando a otro paï¿½s le ocurra un suceso histï¿½rico con una ï¿½nica opciï¿½n.;Quando un evento storico a scelta singola si verifica in un altro paese.;Mikor egy tï¿½rtï¿½nelmi esemï¿½ny kï¿½vetkezmï¿½nyekï¿½nt csak egy vï¿½lasztï¿½si lehetï¿½sï¿½ge van egy mï¿½sik orszï¿½gnak.;Kdy?v jin?zemi dojde k historick?udï¿½losti s jednou volbou.;;;;;;x
+EVENTHAPPENOTHER_HEADER;$foreign_minister$ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ a rï¿½dig?un rapport concernant :;;;$foreign_minister$ informa sobre;;;;;;;;;x
 EVENTHAPPENOTHER_1;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;;;;;;x
-EVENTHAPPENOTHER_2;ËûÃÇ±íÊ¾×î½ü·¢ÉúÁË;Ils nous ont parl?de;Sie erzählen uns über das Ereignis;informuje nas o wydarzeniu:;Nos informan de los eventos de;Ci parlano dei seguenti eventi:;A következ?eseményekrõl számolt be:;Sdìluj?nám informace o událostech;;;;;;x
+EVENTHAPPENOTHER_2;ï¿½ï¿½ï¿½Ç±ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Ils nous ont parl?de;Sie erzï¿½hlen uns ï¿½ber das Ereignis;informuje nas o wydarzeniu:;Nos informan de los eventos de;Ci parlano dei seguenti eventi:;A kï¿½vetkez?esemï¿½nyekrï¿½l szï¿½molt be:;Sdï¿½luj?nï¿½m informace o udï¿½lostech;;;;;;x
 EVENTHAPPENOTHER_3;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$,;$EVENT$;$EVENT$;;;;;;x
-EVENTHAPPENOTHER_4;ÊÂ¼þ¡£;qui a récemment eu lieu dans ce pays.;das sich neulich in ihrem Land ereignet hat.;, które mia³o miejsce niedawno w ich pañstwie.;que han ocurrido recientemente en su país.;verificatisi nel loro paese di recente.;ami nemrég történt az országukban.;kter?se práv?odehrály v jejich zemi.;;;;;;x
+EVENTHAPPENOTHER_4;ï¿½Â¼ï¿½ï¿½ï¿½;qui a rï¿½cemment eu lieu dans ce pays.;das sich neulich in ihrem Land ereignet hat.;, ktï¿½re miaï¿½o miejsce niedawno w ich paï¿½stwie.;que han ocurrido recientemente en su paï¿½s.;verificatisi nel loro paese di recente.;ami nemrï¿½g tï¿½rtï¿½nt az orszï¿½gukban.;kter?se prï¿½v?odehrï¿½ly v jejich zemi.;;;;;;x
 EVENTHAPPENOTHER_5;*;*;*;*;*;*;*;;;;;;;x
 EVENTHAPPENOTHER_6;*;*;*;*;*;*;*;;;;;;;x
-EVENTHAPPENOTHER_LOG;ÊÂ¼þ£º$COUNTRY$·¢ÉúÁË'$EVENT$'¡£;Événement : '$EVENT$', $COUNTRY$.;Ereignis: $EVENT$ in $COUNTRY$.;$COUNTRY$. $EVENT$.;Suceso: '$EVENT$' en $COUNTRY$.;Evento: $EVENT$ in $COUNTRY$.;Esemény: $EVENT$ $COUNTRY$ nemzeténél.;Událost: $EVENT$ v $COUNTRY$.;;;;;;x
-EVENTHAPPENOTHER_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-EVENTHAPPENOTHER_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+EVENTHAPPENOTHER_LOG;ï¿½Â¼ï¿½ï¿½ï¿½$COUNTRY$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½'$EVENT$'ï¿½ï¿½;ï¿½vï¿½nement : '$EVENT$', $COUNTRY$.;Ereignis: $EVENT$ in $COUNTRY$.;$COUNTRY$. $EVENT$.;Suceso: '$EVENT$' en $COUNTRY$.;Evento: $EVENT$ in $COUNTRY$.;Esemï¿½ny: $EVENT$ $COUNTRY$ nemzetï¿½nï¿½l.;Udï¿½lost: $EVENT$ v $COUNTRY$.;;;;;;x
+EVENTHAPPENOTHER_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+EVENTHAPPENOTHER_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
 EVENTHAPPENOTHER_BTN3;*;*;*;*;*;*;*;;;;;;;x
 EVENTHAPPENOTHER_MAP;*;*;*;*;*;*;*;;;;;;;x
-EVENTHAPPENUS_SETUP;µ±Ò»¸öÀúÊ·ÊÂ¼þÔÚÎÒ¹ú·¢Éú;Lorsqu'un événement historique se produit pour nous.;Wenn sich bei uns ein historisches Ereignis abspielt.;Kiedy wydarzenie historyczne ma miejsce w naszym pañstwie;Cuando nos ocurra un suceso histórico.;Quando un evento storico si verifica da noi.;Mikor egy történelmi esemény nálunk következik be;Kdy?se u nás odehraje historick?událost.;;;;;;x
-EVENTHAPPENUS_HEADER;$foreign_minister$±¨¸æ;$foreign_minister$ a rédig?un rapport concernant;;;$foreign_minister$ informa sobre;;;;;;;;;x
+EVENTHAPPENUS_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ê·ï¿½Â¼ï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsqu'un ï¿½vï¿½nement historique se produit pour nous.;Wenn sich bei uns ein historisches Ereignis abspielt.;Kiedy wydarzenie historyczne ma miejsce w naszym paï¿½stwie;Cuando nos ocurra un suceso histï¿½rico.;Quando un evento storico si verifica da noi.;Mikor egy tï¿½rtï¿½nelmi esemï¿½ny nï¿½lunk kï¿½vetkezik be;Kdy?se u nï¿½s odehraje historick?udï¿½lost.;;;;;;x
+EVENTHAPPENUS_HEADER;$foreign_minister$ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ a rï¿½dig?un rapport concernant;;;$foreign_minister$ informa sobre;;;;;;;;;x
 EVENTHAPPENUS_1;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$;;;;;;x
-EVENTHAPPENUS_2;ÔÚÎÒ¹ú;qui s'est produit;das uns; - to zdarzy³o si?que nos ha sucedido;si ?verificato;történt;stalo se;;;;;;x
-EVENTHAPPENUS_3;·¢ÉúÁË¡£;pour nous.;widerfahren ist.;u nas.;.;a noi.;nálunk.;nám.;;;;;;x
+EVENTHAPPENUS_2;ï¿½ï¿½ï¿½Ò¹ï¿½;qui s'est produit;das uns; - to zdarzyï¿½o si?que nos ha sucedido;si ?verificato;tï¿½rtï¿½nt;stalo se;;;;;;;x
+EVENTHAPPENUS_3;ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½;pour nous.;widerfahren ist.;u nas.;.;a noi.;nï¿½lunk.;nï¿½m.;;;;;;x
 EVENTHAPPENUS_4;*;*;*;*;*;*;*;;;;;;;x
 EVENTHAPPENUS_5;*;*;*;*;*;*;*;;;;;;;x
 EVENTHAPPENUS_6;*;*;*;*;*;*;*;;;;;;;x
-EVENTHAPPENUS_LOG;ÊÂ¼þ£ºÍæ¼Ò·¢Éú'$EVENT$'¡£;Événement : '$EVENT$' pour le joueur.;Ereignis: $EVENT$ für Spieler.;Wydarzenie: $EVENT$ dla gracza.;Evento: '$EVENT$' para el jugador.;Evento: $EVENT$ per il giocatore.;Esemény: $EVENT$ a játékosnál.;Událost: $EVENT$ pro hráèe.;;;;;;x
-EVENTHAPPENUS_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-EVENTHAPPENUS_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+EVENTHAPPENUS_LOG;ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Ò·ï¿½ï¿½ï¿½'$EVENT$'ï¿½ï¿½;ï¿½vï¿½nement : '$EVENT$' pour le joueur.;Ereignis: $EVENT$ fï¿½r Spieler.;Wydarzenie: $EVENT$ dla gracza.;Evento: '$EVENT$' para el jugador.;Evento: $EVENT$ per il giocatore.;Esemï¿½ny: $EVENT$ a jï¿½tï¿½kosnï¿½l.;Udï¿½lost: $EVENT$ pro hrï¿½ï¿½e.;;;;;;x
+EVENTHAPPENUS_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+EVENTHAPPENUS_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
 EVENTHAPPENUS_BTN3;*;*;*;*;*;*;*;;;;;;;x
 EVENTHAPPENUS_MAP;*;*;*;*;*;*;*;;;;;;;x
-DECISIONOTHER_SETUP;µ±Ëû¹úÖ´ÐÐÁËÒ»Ïî¾öÒé;Lorsqu'un autre pays applique une décision.;Wenn ein anderes Land eine Entscheidung ausführt.;;Cuando otro país ejecuta una decisión.;;;;;;;;;x
-DECISIONOTHER_HEADER;$foreign_minister$±¨¸æ;$foreign_minister$ a rédig?un rapport concernant :;;;$foreign_minister$ informa sobre;;;;;;;;;x
+DECISIONOTHER_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsqu'un autre pays applique une dï¿½cision.;Wenn ein anderes Land eine Entscheidung ausfï¿½hrt.;;Cuando otro paï¿½s ejecuta una decisiï¿½n.;;;;;;;;;x
+DECISIONOTHER_HEADER;$foreign_minister$ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ a rï¿½dig?un rapport concernant :;;;$foreign_minister$ informa sobre;;;;;;;;;x
 DECISIONOTHER_1;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;;;;;;x
-DECISIONOTHER_2;ËûÃÇ¾ö¶¨;Ils ont décid?de;Sie berichten uns von;;¡Han decidido;;;;;;;;;x
+DECISIONOTHER_2;ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½;Ils ont dï¿½cid?de;Sie berichten uns von;;ï¿½Han decidido;;;;;;;;;x
 DECISIONOTHER_3;$EVENT$!;$EVENT$ !;$EVENT$;$EVENT$!;$EVENT$!;$EVENT$!;$EVENT$!;$EVENT$!;;;;;;x
-DECISIONOTHER_4;$DESC$;$DESC$;das in ihrem Reich kürzlich entschieden wurde.;$DESC$;$DESC$;$DESC$;$DESC$;;;;;;;x
+DECISIONOTHER_4;$DESC$;$DESC$;das in ihrem Reich kï¿½rzlich entschieden wurde.;$DESC$;$DESC$;$DESC$;$DESC$;;;;;;;x
 DECISIONOTHER_5;*;*;*;*;*;*;*;;;;;;;x
 DECISIONOTHER_6;*;*;*;*;*;*;*;;;;;;;x
-DECISIONOTHER_LOG;¾öÒé£º$COUNTRY$Ö´ÐÐÁË$EVENT$¡£;Décision : $COUNTRY$ a décid?de $EVENT$.;Entscheidung: $EVENT$ in $COUNTRY$.;;Decisión: $EVENT$ en $COUNTRY$.;;;;;;;;;x
-DECISIONOTHER_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-DECISIONOTHER_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+DECISIONOTHER_LOG;ï¿½ï¿½ï¿½é£º$COUNTRY$Ö´ï¿½ï¿½ï¿½ï¿½$EVENT$ï¿½ï¿½;Dï¿½cision : $COUNTRY$ a dï¿½cid?de $EVENT$.;Entscheidung: $EVENT$ in $COUNTRY$.;;Decisiï¿½n: $EVENT$ en $COUNTRY$.;;;;;;;;;x
+DECISIONOTHER_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+DECISIONOTHER_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
 DECISIONOTHER_BTN3;*;*;*;*;*;*;*;;;;;;;x
 DECISIONOTHER_MAP;*;*;*;*;*;*;*;;;;;;;x
-DECISIONUS_SETUP;µ±ÎÒÃÇÖ´ÐÐÁËÒ»Ïî¾öÒé;Lorsque nous appliquons une décision.;Wenn wir eine Entscheidung ausführen.;;Cuando ejecutamos una decisión.;;;;;;;;;x
-DECISIONUS_HEADER;$foreign_minister$±¨¸æ;$foreign_minister$ a rédig?un rapport concernant;;;?foreign_minister$ informa sobre;;;;;;;;;x
+DECISIONUS_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque nous appliquons une dï¿½cision.;Wenn wir eine Entscheidung ausfï¿½hren.;;Cuando ejecutamos una decisiï¿½n.;;;;;;;;;x
+DECISIONUS_HEADER;$foreign_minister$ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ a rï¿½dig?un rapport concernant;;;?foreign_minister$ informa sobre;;;;;;;;;x
 DECISIONUS_1;$EVENT$!;$EVENT$ !;$EVENT$!;$EVENT$!;$EVENT$!;$EVENT$!;$EVENT$!;$EVENT$!;;;;;;x
 DECISIONUS_2;$DESC$;$DESC$;$DESC$;;$DESC$;;;;;;;;;x
 DECISIONUS_3;*;*;*;*;*;*;*;;;;;;;x
 DECISIONUS_4;*;*;*;*;*;*;*;;;;;;;x
 DECISIONUS_5;*;*;*;*;*;*;*;;;;;;;x
 DECISIONUS_6;*;*;*;*;*;*;*;;;;;;;x
-DECISIONUS_LOG;¾öÒé£ºÍæ¼ÒÖ´ÐÐÁË$EVENT$¡£;Décision : $EVENT$ pour le joueur.;Entscheidung: $EVENT$ für Spieler.;;Decisión: $EVENT$ para el jugador.;;;;;;;;;x
-DECISIONUS_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-DECISIONUS_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+DECISIONUS_LOG;ï¿½ï¿½ï¿½é£ºï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½$EVENT$ï¿½ï¿½;Dï¿½cision : $EVENT$ pour le joueur.;Entscheidung: $EVENT$ fï¿½r Spieler.;;Decisiï¿½n: $EVENT$ para el jugador.;;;;;;;;;x
+DECISIONUS_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+DECISIONUS_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
 DECISIONUS_BTN3;*;*;*;*;*;*;*;;;;;;;x
 DECISIONUS_MAP;*;*;*;*;*;*;*;;;;;;;x
-LAW_APPOINTED_SETUP;µ±Ò»¸öÐÂ·¨°¸±»Í¨¹ý;Lorsqu'une nouvelle loi entre en vigueur.;Wenn ein neues Gesetz verabschiedet wird.;;Cuando se promulga una nueva ley.;;;;;;;;;x
-LAW_APPOINTED_HEADER;ÐÂ·¨°¸±»Í¨¹ý;Nouvelle loi en vigueur;Neues Gesetz verabschiedet;;Nueva ley promulgada;;;;;;;;;x
+LAW_APPOINTED_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½;Lorsqu'une nouvelle loi entre en vigueur.;Wenn ein neues Gesetz verabschiedet wird.;;Cuando se promulga una nueva ley.;;;;;;;;;x
+LAW_APPOINTED_HEADER;ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½;Nouvelle loi en vigueur;Neues Gesetz verabschiedet;;Nueva ley promulgada;;;;;;;;;x
 LAW_APPOINTED_1;$LAWNAME$;$LAWNAME$;$LAWNAME$;;$LAWNAME$;;;;;;;;;x
-LAW_APPOINTED_2;±»Í¨¹ý¶ø³ÉÎªÎÒÃÇÐÂµÄ$POSITION$;a ét?décrétée nouvelle $POSITION$;wurde als neues Gesetz für $POSITION$ verabschiedet;;se ha promulgado como nuestra nueva $POSITION$;;;;;;;;;x
+LAW_APPOINTED_2;ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½$POSITION$;a ï¿½t?dï¿½crï¿½tï¿½e nouvelle $POSITION$;wurde als neues Gesetz fï¿½r $POSITION$ verabschiedet;;se ha promulgado como nuestra nueva $POSITION$;;;;;;;;;x
 LAW_APPOINTED_3;*;*;*;;*;;;;;;;;;x
 LAW_APPOINTED_4;$EFFECT$\n$DESC$;$EFFECT$\n$DESC$;$EFFECT$\n$DESC$;;$EFFECT$\n$DESC$;;;;;;;;;x
 LAW_APPOINTED_5;*;*;*;;*;;;;;;;;;x
 LAW_APPOINTED_6;*;*;*;;*;;;;;;;;;x
-LAW_APPOINTED_LOG;ÎÒÃÇÍ¨¹ýÁË$LAWNAME$×÷ÎªÎÒÃÇµÄ$POSITION$¡£;Nous avons décrér?$LAWNAME$ comme étant notre $POSITION$.;Wir haben $LAWNAME$ als neues Gesetz für $POSITION$ verabschiedet.;;Hemos promulgado $LAWNAME$ como nuestra $POSITION$.;;;;;;;;;x
-LAW_APPOINTED_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-LAW_APPOINTED_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-LAW_APPOINTED_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+LAW_APPOINTED_LOG;ï¿½ï¿½ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½$LAWNAME$ï¿½ï¿½Îªï¿½ï¿½ï¿½Çµï¿½$POSITION$ï¿½ï¿½;Nous avons dï¿½crï¿½r?$LAWNAME$ comme ï¿½tant notre $POSITION$.;Wir haben $LAWNAME$ als neues Gesetz fï¿½r $POSITION$ verabschiedet.;;Hemos promulgado $LAWNAME$ como nuestra $POSITION$.;;;;;;;;;x
+LAW_APPOINTED_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+LAW_APPOINTED_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+LAW_APPOINTED_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 LAW_APPOINTED_MAP;*;*;*;;*;;;;;;;;;x
-TECH_ONCE_SETUP;µ±Ò»¸ö¿Æ¼¼ÑÐ¾¿Íê±Ï;Lorsqu'une technologie importante a ét?étudiée.;Wenn eine Schlüsseltechnologie erforscht wurde.;;Cuando se haya desarrollado una tecnología principal.;;;;;;;;;x
-TECH_ONCE_HEADER;¿Æ¼¼ÑÐ¾¿Íê±Ï.;Une technologie majeure a ét?étudiée.;Schlüsseltechnologie erforscht.;;Tecnología principal desarrollada.;;;;;;;;;x
+TECH_ONCE_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Æ¼ï¿½ï¿½Ð¾ï¿½ï¿½ï¿½ï¿½;Lorsqu'une technologie importante a ï¿½t?ï¿½tudiï¿½e.;Wenn eine Schlï¿½sseltechnologie erforscht wurde.;;Cuando se haya desarrollado una tecnologï¿½a principal.;;;;;;;;;x
+TECH_ONCE_HEADER;ï¿½Æ¼ï¿½ï¿½Ð¾ï¿½ï¿½ï¿½ï¿½.;Une technologie majeure a ï¿½t?ï¿½tudiï¿½e.;Schlï¿½sseltechnologie erforscht.;;Tecnologï¿½a principal desarrollada.;;;;;;;;;x
 TECH_ONCE_1;$TYPE$;$TYPE$;$TYPE$;;$TYPE$;;;;;;;;;x
-TECH_ONCE_2;$TITLE$£¬ÎÒÃÇÍê³ÉÁË$TYPE$µÄÑÐ¾¿£¬Ëü½«ÎªÎÒÃÇ´øÀ´ÒÔÏÂºÃ´¦£º;$TITLE$, nous avons termin?la recherche de : $TYPE$, ce qui nous donnera les avantages suivants.;$TITLE$, wir haben die Erforschung von $TYPE$ abgeschlossen, die uns die folgenden Vorzüge bietet.;;$TITLE$, hemos finalizado la investigación sobre $TYPE$ que nos proporcionar?los siguientes beneficios.;;;;;;;;;x
+TECH_ONCE_2;$TITLE$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$TYPE$ï¿½ï¿½ï¿½Ð¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÂºÃ´ï¿½ï¿½ï¿½;$TITLE$, nous avons termin?la recherche de : $TYPE$, ce qui nous donnera les avantages suivants.;$TITLE$, wir haben die Erforschung von $TYPE$ abgeschlossen, die uns die folgenden Vorzï¿½ge bietet.;;$TITLE$, hemos finalizado la investigaciï¿½n sobre $TYPE$ que nos proporcionar?los siguientes beneficios.;;;;;;;;;x
 TECH_ONCE_3;$EFFECT$;$EFFECT$;$EFFECT$;;$EFFECT$;;;;;;;;;x
 TECH_ONCE_4;*;*;*;;*;;;;;;;;;x
 TECH_ONCE_5;*;*;*;;*;;;;;;;;;x
 TECH_ONCE_6;*;*;*;;*;;;;;;;;;x
-TECH_ONCE_LOG;$TYPE$ÑÐ¾¿Íê±Ï¡£;La recherche de $TYPE$ est terminée.;Forschung an $TYPE$ abgeschlossen.;;Investigación sobre $TYPE$ finalizada.;;;;;;;;;x
-TECH_ONCE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-TECH_ONCE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-TECH_ONCE_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+TECH_ONCE_LOG;$TYPE$ï¿½Ð¾ï¿½ï¿½ï¿½Ï¡ï¿½;La recherche de $TYPE$ est terminï¿½e.;Forschung an $TYPE$ abgeschlossen.;;Investigaciï¿½n sobre $TYPE$ finalizada.;;;;;;;;;x
+TECH_ONCE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+TECH_ONCE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+TECH_ONCE_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 TECH_ONCE_MAP;*;*;*;;*;;;;;;;;;x
-TECH_REPEAT_SETUP;µ±ÄãÌáÉýÁË¿Æ¼¼µÈ¼¶;Lorsque vos compétences technologiques augmentent.;Wenn Sie Ihre technologische Fähigkeiten verbessert haben.;;Cuando aumente tu habilidad tecnológica.;;;;;;;;;x
-TECH_REPEAT_HEADER;¿Æ¼¼;Amélioration de la technologie;Technologieverbesserung;;Mejoras tecnológicas;;;;;;;;;x
-TECH_REPEAT_1;$TYPE$Éý¼¶ÁË!;$TYPE$ améliorés !;$TYPE$ verbessert!;;¡Avances en $TYPE$!;;;;;;;;;x
-TECH_REPEAT_2;$TITLE$£¬ÎÒÃÇ½«$TYPE$\nÌáÉýµ½ÁËµÈ¼¶$LEVEL$£¬\nËü½«ÎªÎÒÃÇ´øÀ´ÒÔÏÂºÃ´¦£º\n;$TITLE$, nos compétences $TYPE$ se sont améliorées et sont maintenant de niveau $LEVEL$, ce qui nous donne l'avantage suivant.;$TITLE$, wir haben unsere Fähigkeiten in $TYPE$ auf Stufe $LEVEL$ erhöht, was uns nun die folgenden Vorzüge bietet.;;$TITLE$, hemos mejorado nuestras habilidades en $TYPE$ hasta el nivel $LEVEL$, lo que nos da los siguientes beneficios.;;;;;;;;;x
+TECH_REPEAT_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿Æ¼ï¿½ï¿½È¼ï¿½;Lorsque vos compï¿½tences technologiques augmentent.;Wenn Sie Ihre technologische Fï¿½higkeiten verbessert haben.;;Cuando aumente tu habilidad tecnolï¿½gica.;;;;;;;;;x
+TECH_REPEAT_HEADER;ï¿½Æ¼ï¿½;Amï¿½lioration de la technologie;Technologieverbesserung;;Mejoras tecnolï¿½gicas;;;;;;;;;x
+TECH_REPEAT_1;$TYPE$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!;$TYPE$ amï¿½liorï¿½s !;$TYPE$ verbessert!;;ï¿½Avances en $TYPE$!;;;;;;;;;x
+TECH_REPEAT_2;$TITLE$ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½$TYPE$\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ËµÈ¼ï¿½$LEVEL$ï¿½ï¿½\nï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½Ç´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÂºÃ´ï¿½ï¿½ï¿½\n;$TITLE$, nos compï¿½tences $TYPE$ se sont amï¿½liorï¿½es et sont maintenant de niveau $LEVEL$, ce qui nous donne l'avantage suivant.;$TITLE$, wir haben unsere Fï¿½higkeiten in $TYPE$ auf Stufe $LEVEL$ erhï¿½ht, was uns nun die folgenden Vorzï¿½ge bietet.;;$TITLE$, hemos mejorado nuestras habilidades en $TYPE$ hasta el nivel $LEVEL$, lo que nos da los siguientes beneficios.;;;;;;;;;x
 TECH_REPEAT_3;$EFFECT$;$EFFECT$;$EFFECT$;;$EFFECT$;;;;;;;;;x
 TECH_REPEAT_4;*;*;*;;*;;;;;;;;;x
 TECH_REPEAT_5;*;*;*;;*;;;;;;;;;x
 TECH_REPEAT_6;*;*;*;;*;;;;;;;;;x
-TECH_REPEAT_LOG;$TYPE$Éý¼¶Îª$LEVEL$;$TYPE$ augmentés ?$LEVEL$;$TYPE$ erhöht auf $LEVEL$;;$TYPE$ ha aumentado hasta $LEVEL$;;;;;;;;;x
-TECH_REPEAT_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-TECH_REPEAT_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-TECH_REPEAT_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+TECH_REPEAT_LOG;$TYPE$ï¿½ï¿½ï¿½ï¿½Îª$LEVEL$;$TYPE$ augmentï¿½s ?$LEVEL$;$TYPE$ erhï¿½ht auf $LEVEL$;;$TYPE$ ha aumentado hasta $LEVEL$;;;;;;;;;x
+TECH_REPEAT_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+TECH_REPEAT_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+TECH_REPEAT_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 TECH_REPEAT_MAP;*;*;*;;*;;;;;;;;;x
-WE_NUKE_SETUP;µ±ÎÒÃÇÔÚµÐÈËµÄÒ»¸öµØÇøÍ¶·ÅÁËÔ­×Óµ¯;Lorsque nous larguons une bombe sur une province ennemie.;Wenn wir eine Atombombe auf eine feindliche Provinz abwerfen.;;Cuando lancemos un ataque nuclear sobre una provincia enemiga.;;;;;;;;;x
-WE_NUKE_HEADER;ÎÒÃÇÈÓÏÂÁËÒ»¿ÅÔ­×Óµ¯;Nous avons largu?une;Wir haben eine;;Hemos lanzado una;;;;;;;;;x
-WE_NUKE_1;ºË¹¥»÷$PROV$!;bombe atomique sur la province : $PROV$;Atombombe auf $PROV$ abgeworfen;;bomba nuclear sobre $PROV$;;;;;;;;;x
-WE_NUKE_2;$TITLE$\nÎÒÃÇÔÚ\n$PROV$\n³É¹¦µØÍ¶·ÅÁËÒ»¿ÅÔ­×Óµ¯£¬\n´Ý»ÙÁË¸ÃµØÇø¾ø´ó¶àÊýµÄ¹¤Òµ¼°´óÁ¿ÈË¿Ú¡£;$TITLE$, nous vous signalons la réussite du largage d'une bombe atomique sur la province : $PROV$. Ceci a détruit la plupart de l'industrie et a fait de nombreuses victimes.;$TITLE$, wir können vermelden, erfolgreich eine Atombombe auf $PROV$ abgeworfen zu haben. Diese hat den größten Teil der Industrie zerstört und viele Menschen getötet.;;$TITLE$, podemos informar de que hemos lanzado una bomba nuclear con éxito sobre $PROV$. Esto ha destruido la mayoría de la industria y ha matado a mucha gente.;;;;;;;;;x
-WE_NUKE_3;$TARGET$µÄ¹ú¼ÒÄý¾ÛÁ¦ÏÂ½µÁË$IMPACT$¡£;L'unit?nationale de : $TARGET$ a chut?de $IMPACT$.;Der nationale Zusammenhalt von $TARGET$ ist um $IMPACT$ gesunken.;;La unidad nacional de $TARGET$ ha caído en $IMPACT$.;;;;;;;;;x
+WE_NUKE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½Ëµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½Ô­ï¿½Óµï¿½;Lorsque nous larguons une bombe sur une province ennemie.;Wenn wir eine Atombombe auf eine feindliche Provinz abwerfen.;;Cuando lancemos un ataque nuclear sobre una provincia enemiga.;;;;;;;;;x
+WE_NUKE_HEADER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½Óµï¿½;Nous avons largu?une;Wir haben eine;;Hemos lanzado una;;;;;;;;;x
+WE_NUKE_1;ï¿½Ë¹ï¿½ï¿½ï¿½$PROV$!;bombe atomique sur la province : $PROV$;Atombombe auf $PROV$ abgeworfen;;bomba nuclear sobre $PROV$;;;;;;;;;x
+WE_NUKE_2;$TITLE$\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n$PROV$\nï¿½É¹ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½Óµï¿½ï¿½ï¿½\nï¿½Ý»ï¿½ï¿½Ë¸Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿Ú¡ï¿½;$TITLE$, nous vous signalons la rï¿½ussite du largage d'une bombe atomique sur la province : $PROV$. Ceci a dï¿½truit la plupart de l'industrie et a fait de nombreuses victimes.;$TITLE$, wir kï¿½nnen vermelden, erfolgreich eine Atombombe auf $PROV$ abgeworfen zu haben. Diese hat den grï¿½ï¿½ten Teil der Industrie zerstï¿½rt und viele Menschen getï¿½tet.;;$TITLE$, podemos informar de que hemos lanzado una bomba nuclear con ï¿½xito sobre $PROV$. Esto ha destruido la mayorï¿½a de la industria y ha matado a mucha gente.;;;;;;;;;x
+WE_NUKE_3;$TARGET$ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½$IMPACT$ï¿½ï¿½;L'unit?nationale de : $TARGET$ a chut?de $IMPACT$.;Der nationale Zusammenhalt von $TARGET$ ist um $IMPACT$ gesunken.;;La unidad nacional de $TARGET$ ha caï¿½do en $IMPACT$.;;;;;;;;;x
 WE_NUKE_4;*;*;*;;*;;;;;;;;;x
 WE_NUKE_5;*;*;*;;*;;;;;;;;;x
 WE_NUKE_6;*;*;*;;*;;;;;;;;;x
-WE_NUKE_LOG;ÎÒÃÇºË´ò»÷ÁË$PROV$£¬$TARGET$µÄ¹ú¼ÒÄý¾ÛÁ¦ÏÂ½µÁË$IMPACT$¡£;Nous avons atomis?la province : $PROV$, ce qui a réduit l'unit?nationale de : $TARGET$ de $IMPACT$.;Wir haben eine Atombombe auf $PROV$ abgeworfen und damit $TARGET$s nationalen Zusammenhalt um $IMPACT$ gesenkt.;;Hemos lanzado un ataque nuclear sobre $PROV$, reduciendo la unidad nacional de $TARGET$ en $IMPACT$.;;;;;;;;;x
-WE_NUKE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_NUKE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_NUKE_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
-WE_NUKE_MAP;ºËµ¯¹¥»÷!;*;*;;*;;;;;;;;;x
-NUKE_ON_US_SETUP;µ±Ëû¹úÔÚÎÒÃÇµÄÒ»¸öµØÇøÍ¶·ÅÁËÔ­×Óµ¯;Lorsque quelqu'un largue une bombe atomique sur l'une de nos provinces.;Wenn jemand eine Atombombe auf eine unserer Provinzen abwirft.;;Cuando alguien lanza un ataque nuclear sobre una de nuestras provincias.;;;;;;;;;x
-NUKE_ON_US_HEADER;$EVIL$ÈÓÏÂÁËÒ»¿ÅÔ­×Óµ¯;$EVIL$ a largu?une;$EVIL$ hat eine;;$EVIL$ ha lanzado una;;;;;;;;;x
-NUKE_ON_US_1;$PROV$Ôâµ½ºË¹¥»÷!;bombe atomique sur la province : $PROV$;Atombombe auf $PROV$ abgeworfen;;bomba nuclear sobre $PROV$;;;;;;;;;x
-NUKE_ON_US_2;$TITLE$\nÎÒÃÇ²»ÐÒµØ¸æÖªÄú£¬\n$EVIL$ÔÚ\n$PROV$\nÍ¶·ÅÁËÒ»¿ÅÔ­×Óµ¯£¬\n´Ý»ÙÁË¸ÃµØÇø¾ø´ó¶àÊýµÄ¹¤Òµ¼°´óÁ¿ÈË¿Ú¡£;$TITLE$, nous sommes navrés de vous apprendre que $EVIL$ a largu?une bombe atomique sur $PROV$. Ceci a détruit la plupart de l'industrie et a fait de nombreuses victimes.;$TITLE$, wir müssen leider berichten, dass $EVIL$ eine Atombombe auf $PROV$ abgeworfen hat. Diese hat den größten Teil der Industrie zerstört und viele Menschen getötet.;;$TITLE$, nos entristece informar que $EVIL$ ha lanzado una bomba nuclear sobre $PROV$. Esto ha destruido la mayoría de la industria y ha matado a mucha gente.;;;;;;;;;x
-NUKE_ON_US_3;ÎÒÃÇµÄ¹ú¼ÒÄý¾ÛÁ¦ÏÂ½µÁË$IMPACT$¡£;Notre unit?nationale a chut?de $IMPACT$.;Unser nationaler Zusammenhalt ist um $IMPACT$ gesunken.;;Nuestra unidad nacional ha caído en $IMPACT$.;;;;;;;;;x
+WE_NUKE_LOG;ï¿½ï¿½ï¿½ÇºË´ï¿½ï¿½ï¿½ï¿½$PROV$ï¿½ï¿½$TARGET$ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½$IMPACT$ï¿½ï¿½;Nous avons atomis?la province : $PROV$, ce qui a rï¿½duit l'unit?nationale de : $TARGET$ de $IMPACT$.;Wir haben eine Atombombe auf $PROV$ abgeworfen und damit $TARGET$s nationalen Zusammenhalt um $IMPACT$ gesenkt.;;Hemos lanzado un ataque nuclear sobre $PROV$, reduciendo la unidad nacional de $TARGET$ en $IMPACT$.;;;;;;;;;x
+WE_NUKE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_NUKE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_NUKE_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
+WE_NUKE_MAP;ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½!;*;*;;*;;;;;;;;;x
+NUKE_ON_US_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½Ô­ï¿½Óµï¿½;Lorsque quelqu'un largue une bombe atomique sur l'une de nos provinces.;Wenn jemand eine Atombombe auf eine unserer Provinzen abwirft.;;Cuando alguien lanza un ataque nuclear sobre una de nuestras provincias.;;;;;;;;;x
+NUKE_ON_US_HEADER;$EVIL$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½Óµï¿½;$EVIL$ a largu?une;$EVIL$ hat eine;;$EVIL$ ha lanzado una;;;;;;;;;x
+NUKE_ON_US_1;$PROV$ï¿½âµ½ï¿½Ë¹ï¿½ï¿½ï¿½!;bombe atomique sur la province : $PROV$;Atombombe auf $PROV$ abgeworfen;;bomba nuclear sobre $PROV$;;;;;;;;;x
+NUKE_ON_US_2;$TITLE$\nï¿½ï¿½ï¿½Ç²ï¿½ï¿½ÒµØ¸ï¿½Öªï¿½ï¿½ï¿½ï¿½\n$EVIL$ï¿½ï¿½\n$PROV$\nÍ¶ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½Óµï¿½ï¿½ï¿½\nï¿½Ý»ï¿½ï¿½Ë¸Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿Ú¡ï¿½;$TITLE$, nous sommes navrï¿½s de vous apprendre que $EVIL$ a largu?une bombe atomique sur $PROV$. Ceci a dï¿½truit la plupart de l'industrie et a fait de nombreuses victimes.;$TITLE$, wir mï¿½ssen leider berichten, dass $EVIL$ eine Atombombe auf $PROV$ abgeworfen hat. Diese hat den grï¿½ï¿½ten Teil der Industrie zerstï¿½rt und viele Menschen getï¿½tet.;;$TITLE$, nos entristece informar que $EVIL$ ha lanzado una bomba nuclear sobre $PROV$. Esto ha destruido la mayorï¿½a de la industria y ha matado a mucha gente.;;;;;;;;;x
+NUKE_ON_US_3;ï¿½ï¿½ï¿½ÇµÄ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½$IMPACT$ï¿½ï¿½;Notre unit?nationale a chut?de $IMPACT$.;Unser nationaler Zusammenhalt ist um $IMPACT$ gesunken.;;Nuestra unidad nacional ha caï¿½do en $IMPACT$.;;;;;;;;;x
 NUKE_ON_US_4;*;*;*;;*;;;;;;;;;x
 NUKE_ON_US_5;*;*;*;;*;;;;;;;;;x
 NUKE_ON_US_6;*;*;*;;*;;;;;;;;;x
-NUKE_ON_US_LOG;$EVIL$ºË´ò»÷ÁË$PROV$£¬ÎÒÃÇµÄ¹ú¼ÒÄý¾ÛÁ¦ÏÂ½µÁË$IMPACT$¡£;$EVIL$ a atomis?$PROV$, ce qui a réduit notre unit?nationale de $IMPACT$.;$EVIL$ hat eine Atombombe auf $PROV$ abgeworfen, was unseren nationalen Zusammenhalt um $IMPACT$ gesenkt hat.;;$EVIL$ lanz?un ataque nuclear sobre $PROV$, reduciendo nuestra unidad nacional en $IMPACT$.;;;;;;;;;x
-NUKE_ON_US_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-NUKE_ON_US_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-NUKE_ON_US_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
-NUKE_ON_US_MAP;ºËµ¯¹¥»÷!;*;*;;*;;;;;;;;;x
-NUKE_ON_OTHER_SETUP;µ±Ëû¹úÔÚµÐ¹úµÄÒ»¸öµØÇøÍ¶·ÅÁËÔ­×Óµ¯;Lorsque quelqu'un d'autre largue une bombe atomique sur une province ennemie.;Wenn jemand anderes eine Atombombe auf eine feindliche Provinz abwirft.;;Cuando alguien lance un ataque nuclear sobre una provincia enemiga.;;;;;;;;;x
-NUKE_ON_OTHER_HEADER;$EVIL$ÈÓÏÂÁËÒ»¿ÅÔ­×Óµ¯;$EVIL$ a largu?une;$EVIL$ hat eine;;$EVIL$ ha lanzado una;;;;;;;;;x
-NUKE_ON_OTHER_1;ºË¹¥»÷$PROV$;bombe atomique sur $PROV$;Atombombe auf $PROV$ abgeworfen;;bomba nuclear sobre $PROV$;;;;;;;;;x
-NUKE_ON_OTHER_2;$TITLE$\n$EVIL$ÔÚ\n$PROV$\nÍ¶·ÅÁËÒ»¿ÅÔ­×Óµ¯£¬\n´Ý»ÙÁË¸ÃµØÇø¾ø´ó¶àÊýµÄ¹¤Òµ¼°´óÁ¿ÈË¿Ú¡£;$TITLE$, nous vous informons que $EVIL$ a largu?une bombe atomique sur $PROV$. Ceci a détruit la plupart de l'industrie et a fait de nombreuses victimes.;$TITLE$, wir berichten, dass $EVIL$ eine Atombombe auf $PROV$ abgeworfen hat. Diese hat den größten Teil der Industrie zerstört und viele Menschen getötet.;;$TITLE$, podemos informar que $EVIL$ ha lanzado una bomba nuclear sobre $PROV$. Esto ha destruido la mayoría de la industria y ha matado a mucha gente.;;;;;;;;;x
-NUKE_ON_OTHER_3;$TARGET$µÄ¹ú¼ÒÄý¾ÛÁ¦ÏÂ½µÁË$IMPACT$¡£;L'unit?nationale de $TARGET$ a chut?de $IMPACT$.;Der nationale Zusammenhalt von $TARGET$ ist um $IMPACT$ gesunken.;;La unidad nacional de $TARGET$ ha caído en $IMPACT$.;;;;;;;;;x
+NUKE_ON_US_LOG;$EVIL$ï¿½Ë´ï¿½ï¿½ï¿½ï¿½$PROV$ï¿½ï¿½ï¿½ï¿½ï¿½ÇµÄ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½$IMPACT$ï¿½ï¿½;$EVIL$ a atomis?$PROV$, ce qui a rï¿½duit notre unit?nationale de $IMPACT$.;$EVIL$ hat eine Atombombe auf $PROV$ abgeworfen, was unseren nationalen Zusammenhalt um $IMPACT$ gesenkt hat.;;$EVIL$ lanz?un ataque nuclear sobre $PROV$, reduciendo nuestra unidad nacional en $IMPACT$.;;;;;;;;;x
+NUKE_ON_US_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+NUKE_ON_US_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+NUKE_ON_US_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
+NUKE_ON_US_MAP;ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½!;*;*;;*;;;;;;;;;x
+NUKE_ON_OTHER_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÚµÐ¹ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½Ô­ï¿½Óµï¿½;Lorsque quelqu'un d'autre largue une bombe atomique sur une province ennemie.;Wenn jemand anderes eine Atombombe auf eine feindliche Provinz abwirft.;;Cuando alguien lance un ataque nuclear sobre una provincia enemiga.;;;;;;;;;x
+NUKE_ON_OTHER_HEADER;$EVIL$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½Óµï¿½;$EVIL$ a largu?une;$EVIL$ hat eine;;$EVIL$ ha lanzado una;;;;;;;;;x
+NUKE_ON_OTHER_1;ï¿½Ë¹ï¿½ï¿½ï¿½$PROV$;bombe atomique sur $PROV$;Atombombe auf $PROV$ abgeworfen;;bomba nuclear sobre $PROV$;;;;;;;;;x
+NUKE_ON_OTHER_2;$TITLE$\n$EVIL$ï¿½ï¿½\n$PROV$\nÍ¶ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ô­ï¿½Óµï¿½ï¿½ï¿½\nï¿½Ý»ï¿½ï¿½Ë¸Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¿Ú¡ï¿½;$TITLE$, nous vous informons que $EVIL$ a largu?une bombe atomique sur $PROV$. Ceci a dï¿½truit la plupart de l'industrie et a fait de nombreuses victimes.;$TITLE$, wir berichten, dass $EVIL$ eine Atombombe auf $PROV$ abgeworfen hat. Diese hat den grï¿½ï¿½ten Teil der Industrie zerstï¿½rt und viele Menschen getï¿½tet.;;$TITLE$, podemos informar que $EVIL$ ha lanzado una bomba nuclear sobre $PROV$. Esto ha destruido la mayorï¿½a de la industria y ha matado a mucha gente.;;;;;;;;;x
+NUKE_ON_OTHER_3;$TARGET$ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½$IMPACT$ï¿½ï¿½;L'unit?nationale de $TARGET$ a chut?de $IMPACT$.;Der nationale Zusammenhalt von $TARGET$ ist um $IMPACT$ gesunken.;;La unidad nacional de $TARGET$ ha caï¿½do en $IMPACT$.;;;;;;;;;x
 NUKE_ON_OTHER_4;*;*;*;;*;;;;;;;;;x
 NUKE_ON_OTHER_5;*;*;*;;*;;;;;;;;;x
 NUKE_ON_OTHER_6;*;*;*;;*;;;;;;;;;x
-NUKE_ON_OTHER_LOG;$EVIL$ºË´ò»÷ÁË$PROV$£¬$TARGET$µÄ¹ú¼ÒÄý¾ÛÁ¦ÏÂ½µÁË$IMPACT$¡£;$EVIL$ a atomis?$PROV$, ce qui a réduit de $MPACT$ l'unit?nationale de $TARGET$.;$EVIL$ hat eine Atombombe auf $PROV$ abgeworfen und damit $TARGET$s nationalen Zusammenhalt um $IMPACT$ gesenkt.;;$EVIL$ ha lanzado un ataque nuclear sobre $PROV$, reduciendo la unidad nacional de $TARGET$ en $IMPACT$.;;;;;;;;;x
-NUKE_ON_OTHER_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-NUKE_ON_OTHER_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-NUKE_ON_OTHER_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
-NUKE_ON_OTHER_MAP;ºËµ¯¹¥»÷!;*;*;;*;;;;;;;;;x
-WE_ATTACK_CONVOY_SETUP;µ±ÎÒÃÇ¹¥»÷Ò»Ö§»¤º½½¢¶Ó;Lorsque nous attaquons un convoi.;Wenn wir einen Konvoi angreifen.;;Cuando atacamos un convoy.;;;;;;;;;x
-WE_ATTACK_CONVOY_HEADER;ÎÒÃÇµÄ»¤º½Ï®»÷½¢¶ÓÔÚÈçÏÂº£Óò·¢ÏÖÁËÒ»Ö§»¤º½½¢¶Ó²¢·¢ÆðÁË½ø¹¥;Nos intercepteurs ont surpris un convoi et l'ont attaqu?dans la province :;Unsere Handelszerstörer haben einen Konvoi in;;Nuestros atacantes a convoyes han atrapado uno y lo han atacado en;;;;;;;;;x
+NUKE_ON_OTHER_LOG;$EVIL$ï¿½Ë´ï¿½ï¿½ï¿½ï¿½$PROV$ï¿½ï¿½$TARGET$ï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½$IMPACT$ï¿½ï¿½;$EVIL$ a atomis?$PROV$, ce qui a rï¿½duit de $MPACT$ l'unit?nationale de $TARGET$.;$EVIL$ hat eine Atombombe auf $PROV$ abgeworfen und damit $TARGET$s nationalen Zusammenhalt um $IMPACT$ gesenkt.;;$EVIL$ ha lanzado un ataque nuclear sobre $PROV$, reduciendo la unidad nacional de $TARGET$ en $IMPACT$.;;;;;;;;;x
+NUKE_ON_OTHER_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+NUKE_ON_OTHER_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+NUKE_ON_OTHER_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
+NUKE_ON_OTHER_MAP;ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½!;*;*;;*;;;;;;;;;x
+WE_ATTACK_CONVOY_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç¹ï¿½ï¿½ï¿½Ò»Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque nous attaquons un convoi.;Wenn wir einen Konvoi angreifen.;;Cuando atacamos un convoy.;;;;;;;;;x
+WE_ATTACK_CONVOY_HEADER;ï¿½ï¿½ï¿½ÇµÄ»ï¿½ï¿½ï¿½Ï®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë½ï¿½ï¿½ï¿½;Nos intercepteurs ont surpris un convoi et l'ont attaqu?dans la province :;Unsere Handelszerstï¿½rer haben einen Konvoi in;;Nuestros atacantes a convoyes han atrapado uno y lo han atacado en;;;;;;;;;x
 WE_ATTACK_CONVOY_1;$PROV$;$PROV$.;$PROV$ gestellt und angegriffen;;$PROV$;;;;;;;;;x
-WE_ATTACK_CONVOY_2;$TITLE$£¬ÎÒÃÇ»÷³ÁÁË;$TITLE$, nous vous informons que nous avons réussi ?couler;$TITLE$, wir können vermelden, dass wir;;$TITLE$, podemos informar que hemos logrado hundir;;;;;;;;;x
-WE_ATTACK_CONVOY_3;$TRANSPORTS$ËÒÔËÊä½¢ºÍ$ESCORTS$ËÒ»¤º½½¢¡£;$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s).;$TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) versenken konnten.;;$TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s).;;;;;;;;;x
-WE_ATTACK_CONVOY_4;Õâ´ÎÏ®»÷·¢ÉúÔÚ$CONVOY$º½ÏßÉÏ¡£;Ce convoi a crois?la route de : $CONVOY$.;Dieser Konvoi war auf der $CONVOY$-Route.;;Este convoy estaba en la ruta $CONVOY$.;;;;;;;;;x
+WE_ATTACK_CONVOY_2;$TITLE$ï¿½ï¿½ï¿½ï¿½ï¿½Ç»ï¿½ï¿½ï¿½ï¿½ï¿½;$TITLE$, nous vous informons que nous avons rï¿½ussi ?couler;$TITLE$, wir kï¿½nnen vermelden, dass wir;;$TITLE$, podemos informar que hemos logrado hundir;;;;;;;;;x
+WE_ATTACK_CONVOY_3;$TRANSPORTS$ï¿½ï¿½ï¿½ï¿½ï¿½ä½¢ï¿½ï¿½$ESCORTS$ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s).;$TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) versenken konnten.;;$TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s).;;;;;;;;;x
+WE_ATTACK_CONVOY_4;ï¿½ï¿½ï¿½Ï®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$CONVOY$ï¿½ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½;Ce convoi a crois?la route de : $CONVOY$.;Dieser Konvoi war auf der $CONVOY$-Route.;;Este convoy estaba en la ruta $CONVOY$.;;;;;;;;;x
 WE_ATTACK_CONVOY_5;*;*;*;;*;;;;;;;;;x
 WE_ATTACK_CONVOY_6;*;*;*;;*;;;;;;;;;x
-WE_ATTACK_CONVOY_LOG;ÎÒÃÇÔÚ$CONVOY$ÊäËÍÏßÉÏµÄ$PROV$»÷³ÁÁË$TRANSPORTS$ËÒÊäËÍ´¬ºÍ$ESCORTS$ËÒ»¤º½½¢¡£;Nous avons coul?$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s) du convoi : $CONVOY$ dans la province : $PROV$.;Wir versenken $TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) des $CONVOY$ Konvoi in $PROV$.;;Hundimos $TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s) en $PROV$ en el convoy $CONVOY$.;;;;;;;;;x
-WE_ATTACK_CONVOY_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_ATTACK_CONVOY_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_ATTACK_CONVOY_BTN3;Goto;Détails;Details;;Detalles;;;;;;;;;x
-WE_ATTACK_CONVOY_MAP;ÓëÊäËÍ´¬¶Ó½»Õ½!;*;*;;*;;;;;;;;;x
-CONVOY_ATTACK_ON_US_SETUP;µ±ÎÒÃÇµÄÒ»Ö§ÊäËÍ´¬¶Ó±»¹¥»÷;Lorsque l'un de nos convois subit une attaque.;Wenn einer unserer Konvois angegriffen wird;;Cuando una de nuestros convoyes est?siendo atacado.;;;;;;;;;x
-CONVOY_ATTACK_ON_US_HEADER;ÊäËÍ´¬¶ÓÔÚÈçÏÂº£Óò±»¹¥»÷;Un convoi a ét?attaqu?dans la province :;Konvoi wird angegriffen in;;Convoy bajo ataque en;;;;;;;;;x
+WE_ATTACK_CONVOY_LOG;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$CONVOY$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïµï¿½$PROV$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$TRANSPORTS$ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½$ESCORTS$ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Nous avons coul?$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s) du convoi : $CONVOY$ dans la province : $PROV$.;Wir versenken $TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) des $CONVOY$ Konvoi in $PROV$.;;Hundimos $TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s) en $PROV$ en el convoy $CONVOY$.;;;;;;;;;x
+WE_ATTACK_CONVOY_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_ATTACK_CONVOY_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_ATTACK_CONVOY_BTN3;Goto;Dï¿½tails;Details;;Detalles;;;;;;;;;x
+WE_ATTACK_CONVOY_MAP;ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ï¿½Ó½ï¿½Õ½!;*;*;;*;;;;;;;;;x
+CONVOY_ATTACK_ON_US_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Ò»Ö§ï¿½ï¿½ï¿½Í´ï¿½ï¿½Ó±ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque l'un de nos convois subit une attaque.;Wenn einer unserer Konvois angegriffen wird;;Cuando una de nuestros convoyes est?siendo atacado.;;;;;;;;;x
+CONVOY_ATTACK_ON_US_HEADER;ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âºï¿½ï¿½ò±»¹ï¿½ï¿½ï¿½;Un convoi a ï¿½t?attaqu?dans la province :;Konvoi wird angegriffen in;;Convoy bajo ataque en;;;;;;;;;x
 CONVOY_ATTACK_ON_US_1;$PROV$;$PROV$.;$PROV$;;$PROV$;;;;;;;;;x
-CONVOY_ATTACK_ON_US_2;$TITLE$£¬ÎÒÃÇµÄ$CONVOY$ÊäËÍ´¬¶ÓÔâµ½¹¥»÷²¢ËðÊ§ÁË;$TITLE$, nous vous informons que notre convoi $CONVOY$ a ét?attaqu?et que;$TITLE$, wir müssen leider melden, dass unser $CONVOY$ Konvoi angegriffen wurde und;;$TITLE$, podemos informar que nuestro convoy $CONVOY$ ha sido atacado y se han perdido;;;;;;;;;x
-CONVOY_ATTACK_ON_US_3;$TRANSPORTS$ËÒÊäËÍ´¬ºÍ$ESCORTS$ËÒ»¤º½½¢¡£;$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s) ont ét?perdue(s).;$TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) verlor.;;$TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s).;;;;;;;;;x
+CONVOY_ATTACK_ON_US_2;$TITLE$ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½$CONVOY$ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½ï¿½âµ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê§ï¿½ï¿½;$TITLE$, nous vous informons que notre convoi $CONVOY$ a ï¿½t?attaqu?et que;$TITLE$, wir mï¿½ssen leider melden, dass unser $CONVOY$ Konvoi angegriffen wurde und;;$TITLE$, podemos informar que nuestro convoy $CONVOY$ ha sido atacado y se han perdido;;;;;;;;;x
+CONVOY_ATTACK_ON_US_3;$TRANSPORTS$ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½$ESCORTS$ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s) ont ï¿½t?perdue(s).;$TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) verlor.;;$TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s).;;;;;;;;;x
 CONVOY_ATTACK_ON_US_4;*;*;*;;*;;;;;;;;;x
 CONVOY_ATTACK_ON_US_5;*;*;*;;*;;;;;;;;;x
 CONVOY_ATTACK_ON_US_6;*;*;*;;*;;;;;;;;;x
-CONVOY_ATTACK_ON_US_LOG;$CONVOY$ÊäËÍ´¬¶ÓÔÚ$PROV$ËðÊ§ÁË$TRANSPORTS$ËÒÊäËÍ´¬ºÍ$ESCORTS$ËÒ»¤º½½¢¡£;$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s) ont ét?perdus dans la province : $PROV$.;Der $CONVOY$ Konvoi verlor $TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) in $PROV$.;;El convoy $CONVOY$ perdi?$TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s) en $PROV$.;;;;;;;;;x
-CONVOY_ATTACK_ON_US_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-CONVOY_ATTACK_ON_US_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-CONVOY_ATTACK_ON_US_BTN3;²é¿´;Détails;Details;;Detalles;;;;;;;;;x
-CONVOY_ATTACK_ON_US_MAP;ÊäËÍ´¬¶Ó±»Ï®»÷!;Convoi attaqu?!;Konvoi wird angegriffen!;;¡Convoy bajo ataque!;;;;;;;;;x
-WE_MOBILIZE_SETUP;µ±ÎÒÃÇ½øÐÐÕ½Õù¶¯Ô±;Lorsque nous mobilisons pour préparer une guerre.;Wenn wir für den Krieg mobilisieren.;;Cuando nos movilizamos en preparación de una guerra.;;;;;;;;;x
-WE_MOBILIZE_HEADER;ÎÒÃÇÒÑ¾­;Nous avons déclench?la;Wir haben die;;Hemos empezado a;;;;;;;;;x
-WE_MOBILIZE_1;¶¯Ô±;MOBILISATION;MOBILISIERUNG;;MOBILIZE;;;;;;;;;x
-WE_MOBILIZE_2;ÎÒÃÇ¶¯Ô±ÁËÎÒÃÇµÄ¾ü¶Ó£¬\nºÜ¿ìÎÒÃÇ½«ÓÐÒ»Ö§Ç¿´óµÄ¾ü¶Ó±»Í¶ÈëÕ½³¡¡£\nÎÒÃÇÇ±ÔÚµÄµÐÈË»á½«´ËÊÓÎªÍþÐ²¡£;de nos forces armées et nous serons bientôt en mesure de réunir une armée puissante. Cela sera cependant considér?comme un geste menaçant par nos ennemis potentiels.;unserer Streitkräfte beschlossen und werden bald eine starke Armee aufgestellt haben. Dies wird allerdings von unseren möglichen Feinden als Bedrohung angesehen werden.;;nuestras fuerzas armadas y pronto seremos capaces de desplegar un poderoso ejército. Desgraciadamente, esto ser?visto como un movimiento amenazador por nuestros enemigos potenciales.;;;;;;;;;x
+CONVOY_ATTACK_ON_US_LOG;$CONVOY$ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½ï¿½ï¿½$PROV$ï¿½ï¿½Ê§ï¿½ï¿½$TRANSPORTS$ï¿½ï¿½ï¿½ï¿½ï¿½Í´ï¿½ï¿½ï¿½$ESCORTS$ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;$TRANSPORTS$ navire(s) de transport et $ESCORTS$ escorte(s) ont ï¿½t?perdus dans la province : $PROV$.;Der $CONVOY$ Konvoi verlor $TRANSPORTS$ Transporter und $ESCORTS$ Geleitschiff(e) in $PROV$.;;El convoy $CONVOY$ perdi?$TRANSPORTS$ transporte(s) y $ESCORTS$ escolta(s) en $PROV$.;;;;;;;;;x
+CONVOY_ATTACK_ON_US_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+CONVOY_ATTACK_ON_US_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+CONVOY_ATTACK_ON_US_BTN3;ï¿½é¿´;Dï¿½tails;Details;;Detalles;;;;;;;;;x
+CONVOY_ATTACK_ON_US_MAP;ï¿½ï¿½ï¿½Í´ï¿½ï¿½Ó±ï¿½Ï®ï¿½ï¿½!;Convoi attaqu?!;Konvoi wird angegriffen!;;ï¿½Convoy bajo ataque!;;;;;;;;;x
+WE_MOBILIZE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½Ô±;Lorsque nous mobilisons pour prï¿½parer une guerre.;Wenn wir fï¿½r den Krieg mobilisieren.;;Cuando nos movilizamos en preparaciï¿½n de una guerra.;;;;;;;;;x
+WE_MOBILIZE_HEADER;ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½;Nous avons dï¿½clench?la;Wir haben die;;Hemos empezado a;;;;;;;;;x
+WE_MOBILIZE_1;ï¿½ï¿½Ô±;MOBILISATION;MOBILISIERUNG;;MOBILIZE;;;;;;;;;x
+WE_MOBILIZE_2;ï¿½ï¿½ï¿½Ç¶ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ÇµÄ¾ï¿½ï¿½Ó£ï¿½\nï¿½Ü¿ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½Ò»Ö§Ç¿ï¿½ï¿½Ä¾ï¿½ï¿½Ó±ï¿½Í¶ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½\nï¿½ï¿½ï¿½ï¿½Ç±ï¿½ÚµÄµï¿½ï¿½Ë»á½«ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½Ð²ï¿½ï¿½;de nos forces armï¿½es et nous serons bientï¿½t en mesure de rï¿½unir une armï¿½e puissante. Cela sera cependant considï¿½r?comme un geste menaï¿½ant par nos ennemis potentiels.;unserer Streitkrï¿½fte beschlossen und werden bald eine starke Armee aufgestellt haben. Dies wird allerdings von unseren mï¿½glichen Feinden als Bedrohung angesehen werden.;;nuestras fuerzas armadas y pronto seremos capaces de desplegar un poderoso ejï¿½rcito. Desgraciadamente, esto ser?visto como un movimiento amenazador por nuestros enemigos potenciales.;;;;;;;;;x
 WE_MOBILIZE_3;*;*;*;;*;;;;;;;;;x
 WE_MOBILIZE_4;*;*;*;;*;;;;;;;;;x
 WE_MOBILIZE_5;*;*;*;;*;;;;;;;;;x
 WE_MOBILIZE_6;*;*;*;;*;;;;;;;;;x
-WE_MOBILIZE_LOG;ÎÒÃÇ¿ªÊ¼¶¯Ô±Ô¤±¸ÒÛ¡£;Nous avons commenc??mobiliser nos réserves.;Wir haben begonnen, unsere Reserven zu mobilisieren.;;Hemos comenzado a movilizar nuestras reservas.;;;;;;;;;x
-WE_MOBILIZE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_MOBILIZE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_MOBILIZE_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+WE_MOBILIZE_LOG;ï¿½ï¿½ï¿½Ç¿ï¿½Ê¼ï¿½ï¿½Ô±Ô¤ï¿½ï¿½ï¿½Û¡ï¿½;Nous avons commenc??mobiliser nos rï¿½serves.;Wir haben begonnen, unsere Reserven zu mobilisieren.;;Hemos comenzado a movilizar nuestras reservas.;;;;;;;;;x
+WE_MOBILIZE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_MOBILIZE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_MOBILIZE_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 WE_MOBILIZE_MAP;*;*;*;;*;;;;;;;;;x
-WE_DEMOBILIZE_SETUP;µ±ÎÒÃÇ½â³ý¶¯Ô±;Lorsque nous décidons de démobiliser.;Wenn wir die Demobilisierung beschließen.;;Cuando decidimos desmovilizarnos.;;;;;;;;;x
-WE_DEMOBILIZE_HEADER;ÎÒÃÇ¾ö¶¨;Nous avons décid?de;Wir haben die;;¡Hemos decidido;;;;;;;;;x
-WE_DEMOBILIZE_1;²¿¶Ó¸´Ô±;DÉMOBILISER;DEMOBILISIERUNG;;DEMOBILIZE;;;;;;;;;x
-WE_DEMOBILIZE_2;ÎÒÃÇµÄ²¿¶ÓÏÖÔÚ½â³ýÁËÕ½±¸¡£;nos forces armées et nos troupes sont au repos.;unserer Streitkräfte beschlossen, und unsere Truppen sind nun inaktiv.;;nuestras fuerzas armadas y nuestras tropas están ahora detenidas.;;;;;;;;;x
+WE_DEMOBILIZE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½Ô±;Lorsque nous dï¿½cidons de dï¿½mobiliser.;Wenn wir die Demobilisierung beschlieï¿½en.;;Cuando decidimos desmovilizarnos.;;;;;;;;;x
+WE_DEMOBILIZE_HEADER;ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½;Nous avons dï¿½cid?de;Wir haben die;;ï¿½Hemos decidido;;;;;;;;;x
+WE_DEMOBILIZE_1;ï¿½ï¿½ï¿½Ó¸ï¿½Ô±;Dï¿½MOBILISER;DEMOBILISIERUNG;;DEMOBILIZE;;;;;;;;;x
+WE_DEMOBILIZE_2;ï¿½ï¿½ï¿½ÇµÄ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½;nos forces armï¿½es et nos troupes sont au repos.;unserer Streitkrï¿½fte beschlossen, und unsere Truppen sind nun inaktiv.;;nuestras fuerzas armadas y nuestras tropas estï¿½n ahora detenidas.;;;;;;;;;x
 WE_DEMOBILIZE_3;*;*;*;;*;;;;;;;;;x
 WE_DEMOBILIZE_4;*;*;*;;*;;;;;;;;;x
 WE_DEMOBILIZE_5;*;*;*;;*;;;;;;;;;x
 WE_DEMOBILIZE_6;*;*;*;;*;;;;;;;;;x
-WE_DEMOBILIZE_LOG;ÎÒÃÇ¾ö¶¨²¿¶Ó¸´Ô±¡£;Nous avons ordonn?la démobilisation de nos réserves.;Wir haben Befehl gegeben, unsere Reserven zu demobilisieren.;;Hemos dado órdenes para desmovilizar nuestras reservas.;;;;;;;;;x
-WE_DEMOBILIZE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_DEMOBILIZE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_DEMOBILIZE_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+WE_DEMOBILIZE_LOG;ï¿½ï¿½ï¿½Ç¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¸ï¿½Ô±ï¿½ï¿½;Nous avons ordonn?la dï¿½mobilisation de nos rï¿½serves.;Wir haben Befehl gegeben, unsere Reserven zu demobilisieren.;;Hemos dado ï¿½rdenes para desmovilizar nuestras reservas.;;;;;;;;;x
+WE_DEMOBILIZE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_DEMOBILIZE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_DEMOBILIZE_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 WE_DEMOBILIZE_MAP;*;*;*;;*;;;;;;;;;x
-OTHER_MOBILIZE_SETUP;µ±Ëû¹ú½øÐÐÕ½Õù¶¯Ô±;Lorsque quelqu'un d'autre mobilise pour préparer une guerre.;Wenn ein anderes Land für den Krieg mobilisiert.;;Cuando otro se moviliza en preparación de una guerra.;;;;;;;;;x
-OTHER_MOBILIZE_HEADER;$minister_of_intelligence$±¨¸æ;$minister_of_intelligence$ nous signale que;$minister_of_intelligence$ berichtet, dass;;$minister_of_intelligence$ nos informa de que;;;;;;;;;x
-OTHER_MOBILIZE_1;$COUNTRY$ÕýÔÚ¶¯Ô±;$COUNTRY$ mobilise actuellement;$COUNTRY$;;$COUNTRY$ esta movilizando;;;;;;;;;x
-OTHER_MOBILIZE_2;ËûÃÇµÄ¾ü¶Ó£¬ºÜ¿ìËûÃÇ½«ÓÐÒ»Ö§Ç¿´óµÄ¾ü¶Ó±»Í¶ÈëÕ½³¡¡£;ses forces armées et que ce pays sera bientôt en mesure de réunir une armée puissante. ;seine Streitkräfte mobilisiert und bald in eine starke Armee aufgestellt haben wird.;;sus fuerzas armadas y pronto serán capaces de desplegar un fuerte ejército. ;;;;;;;;;x
+OTHER_MOBILIZE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½Ô±;Lorsque quelqu'un d'autre mobilise pour prï¿½parer une guerre.;Wenn ein anderes Land fï¿½r den Krieg mobilisiert.;;Cuando otro se moviliza en preparaciï¿½n de una guerra.;;;;;;;;;x
+OTHER_MOBILIZE_HEADER;$minister_of_intelligence$ï¿½ï¿½ï¿½ï¿½;$minister_of_intelligence$ nous signale que;$minister_of_intelligence$ berichtet, dass;;$minister_of_intelligence$ nos informa de que;;;;;;;;;x
+OTHER_MOBILIZE_1;$COUNTRY$ï¿½ï¿½ï¿½Ú¶ï¿½Ô±;$COUNTRY$ mobilise actuellement;$COUNTRY$;;$COUNTRY$ esta movilizando;;;;;;;;;x
+OTHER_MOBILIZE_2;ï¿½ï¿½ï¿½ÇµÄ¾ï¿½ï¿½Ó£ï¿½ï¿½Ü¿ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½Ò»Ö§Ç¿ï¿½ï¿½Ä¾ï¿½ï¿½Ó±ï¿½Í¶ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½;ses forces armï¿½es et que ce pays sera bientï¿½t en mesure de rï¿½unir une armï¿½e puissante. ;seine Streitkrï¿½fte mobilisiert und bald in eine starke Armee aufgestellt haben wird.;;sus fuerzas armadas y pronto serï¿½n capaces de desplegar un fuerte ejï¿½rcito. ;;;;;;;;;x
 OTHER_MOBILIZE_3;*;*;*;;*;;;;;;;;;x
 OTHER_MOBILIZE_4;*;*;*;;*;;;;;;;;;x
 OTHER_MOBILIZE_5;*;*;*;;*;;;;;;;;;x
 OTHER_MOBILIZE_6;*;*;*;;*;;;;;;;;;x
-OTHER_MOBILIZE_LOG;$COUNTRY$¿ªÊ¼¶¯Ô±Ô¤±¸ÒÛ¡£;$COUNTRY$ a commenc??mobiliser ses réserves.;$COUNTRY$ hat begonnen, ihre Reserven zu mobilisieren.;;$COUNTRY$ ha comenzado a movilizar sus reservas.;;;;;;;;;x
-OTHER_MOBILIZE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-OTHER_MOBILIZE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-OTHER_MOBILIZE_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+OTHER_MOBILIZE_LOG;$COUNTRY$ï¿½ï¿½Ê¼ï¿½ï¿½Ô±Ô¤ï¿½ï¿½ï¿½Û¡ï¿½;$COUNTRY$ a commenc??mobiliser ses rï¿½serves.;$COUNTRY$ hat begonnen, ihre Reserven zu mobilisieren.;;$COUNTRY$ ha comenzado a movilizar sus reservas.;;;;;;;;;x
+OTHER_MOBILIZE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+OTHER_MOBILIZE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+OTHER_MOBILIZE_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 OTHER_MOBILIZE_MAP;*;*;*;;*;;;;;;;;;x
-OTHER_DEMOBILIZE_SETUP;µ±Ëû¹ú½â³ý¶¯Ô±;Lorsqu'un autre pays décide de démobiliser.;Wenn ein anderes Land die Demobilisierung beschließt.;;Cuando otro país decide desmovilizarse.;;;;;;;;;x
-OTHER_DEMOBILIZE_HEADER;ÎÒÃÇÊÕµ½±¨¸æ;Des rapports font état que;Es liegen Berichte vor, dass;;Hay informes que indican que;;;;;;;;;x
-OTHER_DEMOBILIZE_1;$COUNTRY$ÕýÔÚ¸´Ô±;$COUNTRY$ démobilise actuellement;$COUNTRY$ seine;;$COUNTRY$ est?desmovilizando;;;;;;;;;x
-OTHER_DEMOBILIZE_2;ËûÃÇµÄ²¿¶ÓÏÖÔÚ½â³ýÁËÕ½±¸¡£;ses forces armées et que leurs troupes sont maintenant au repos.;Streitkräfte demobilisiert hat und ihre Truppen nun inaktiv sind.;;sus fuerzas armadas y sus tropas están ahora detenidas.;;;;;;;;;x
+OTHER_DEMOBILIZE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô±;Lorsqu'un autre pays dï¿½cide de dï¿½mobiliser.;Wenn ein anderes Land die Demobilisierung beschlieï¿½t.;;Cuando otro paï¿½s decide desmovilizarse.;;;;;;;;;x
+OTHER_DEMOBILIZE_HEADER;ï¿½ï¿½ï¿½ï¿½ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½;Des rapports font ï¿½tat que;Es liegen Berichte vor, dass;;Hay informes que indican que;;;;;;;;;x
+OTHER_DEMOBILIZE_1;$COUNTRY$ï¿½ï¿½ï¿½Ú¸ï¿½Ô±;$COUNTRY$ dï¿½mobilise actuellement;$COUNTRY$ seine;;$COUNTRY$ est?desmovilizando;;;;;;;;;x
+OTHER_DEMOBILIZE_2;ï¿½ï¿½ï¿½ÇµÄ²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½;ses forces armï¿½es et que leurs troupes sont maintenant au repos.;Streitkrï¿½fte demobilisiert hat und ihre Truppen nun inaktiv sind.;;sus fuerzas armadas y sus tropas estï¿½n ahora detenidas.;;;;;;;;;x
 OTHER_DEMOBILIZE_3;*;*;*;;*;;;;;;;;;x
 OTHER_DEMOBILIZE_4;*;*;*;;*;;;;;;;;;x
 OTHER_DEMOBILIZE_5;*;*;*;;*;;;;;;;;;x
 OTHER_DEMOBILIZE_6;*;*;*;;*;;;;;;;;;x
-OTHER_DEMOBILIZE_LOG;$COUNTRY$¾ö¶¨²¿¶Ó¸´Ô±¡£;$COUNTRY$ a ordonn?la démobilisation de ses réserves.;$COUNTRY$ hat den Befehl gegeben, ihre Reserven zu demobilisieren.;;$COUNTRY$ ha dado órdenes para desmovilizar sus reservas.;;;;;;;;;x
-OTHER_DEMOBILIZE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-OTHER_DEMOBILIZE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-OTHER_DEMOBILIZE_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+OTHER_DEMOBILIZE_LOG;$COUNTRY$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¸ï¿½Ô±ï¿½ï¿½;$COUNTRY$ a ordonn?la dï¿½mobilisation de ses rï¿½serves.;$COUNTRY$ hat den Befehl gegeben, ihre Reserven zu demobilisieren.;;$COUNTRY$ ha dado ï¿½rdenes para desmovilizar sus reservas.;;;;;;;;;x
+OTHER_DEMOBILIZE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+OTHER_DEMOBILIZE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+OTHER_DEMOBILIZE_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 OTHER_DEMOBILIZE_MAP;*;*;*;;*;;;;;;;;;x
-WEDEFECT_SETUP;µ±ÎÒÃÇµÄÒ»¸öÊ¡·ÝÅÑÌÓ;Quand une de nos provinces se sépare de nous.;Wenn sich eine unserer Provinzen abspaltet.;Kiedy jedna z naszych prowincji od³¹cza si?Cuando una de nuestras provincias cambie de bando.;Quando una delle nostre province ci abbandona;Mikor az egyik tartományunk elpártol tõlünk.;Kdy?jednu ze svých provinci?ztratíme.;;;;;;x
-WEDEFECT_HEADER;ÅÑÌÓ!;Défection !;Sezession!;Zdrada!;¡Traición!;Defezione!;Elpártolás;Ztráta!;;;;;;x
-WEDEFECT_1;ÈçÏÂÊ¡·Ý£º;La province :;Die Provinz;Prowincja;La provincia de;La provincia di;A következ?tartomány:;Provincie;;;;;;x
+WEDEFECT_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Ò»ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Quand une de nos provinces se sï¿½pare de nous.;Wenn sich eine unserer Provinzen abspaltet.;Kiedy jedna z naszych prowincji odï¿½ï¿½cza si?Cuando una de nuestras provincias cambie de bando.;Quando una delle nostre province ci abbandona;Mikor az egyik tartomï¿½nyunk elpï¿½rtol tï¿½lï¿½nk.;Kdy?jednu ze svï¿½ch provinci?ztratï¿½me.;;;;;;;x
+WEDEFECT_HEADER;ï¿½ï¿½ï¿½ï¿½!;Dï¿½fection !;Sezession!;Zdrada!;ï¿½Traiciï¿½n!;Defezione!;Elpï¿½rtolï¿½s;Ztrï¿½ta!;;;;;;x
+WEDEFECT_1;ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½Ý£ï¿½;La province :;Die Provinz;Prowincja;La provincia de;La provincia di;A kï¿½vetkez?tartomï¿½ny:;Provincie;;;;;;x
 WEDEFECT_2;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;;;;;;x
-WEDEFECT_3;ÒÑ¾­ÅÑÌÓµ½ÁË;appartient maintenant au pays :;spaltete sich ab und ging zu;przesz³a na stron?pañstwa;se ha pasado al bando de;?passata a:;a következõhöz pártolt:;pøešla k zemi;;;;;;x
+WEDEFECT_3;ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½;appartient maintenant au pays :;spaltete sich ab und ging zu;przeszï¿½a na stron?paï¿½stwa;se ha pasado al bando de;?passata a:;a kï¿½vetkezï¿½hï¿½z pï¿½rtolt:;pï¿½eï¿½la k zemi;;;;;;x
 WEDEFECT_4;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;;;;;;x
 WEDEFECT_5;*;*;*;*;*;*;*;;;;;;;x
-WEDEFECT_6;Ò»ÈºÉµ¹Ï!ÎÒÃÇ¿É²»»á¶ÔÕâÖÖÓÞ´ÀµÄÊÂÇéÊÓ¶ø²»¼û!;Imbéciles ! Nous ne tolérerons pas cette mascarade !;Ihr Narren, diese Dummheit werden wir nicht hinnehmen!;Durnie! Nie zniesiemy takiej g³upoty!;¡Necios! ¡No toleraremos esta estupidez!;sciocchi, non sopporteremo tanta stupidit?;Bolondok! Nem tûrhetjük ezt a bolondságot!;Blázni! Tuhle bláhovost nebudeme tolerovat!;;;;;;x
-WEDEFECT_LOG;$PROV$ ÅÑÌÓµ½ÁË $COUNTRY$¡£;$PROV$ appartient maintenant au pays : $COUNTRY$.;$PROV$ hat sich $COUNTRY$ angeschlossen.;Prowincja $PROV$ przesz³a na stron?pañstwa $COUNTRY$.;$PROV$ se ha pasado al bando de $COUNTRY$.;$PROV$ ?passata a: $COUNTRY$.;$PROV$ $COUNTRY$ nemzetéhez pártolt.;$PROV$ pøešla k $COUNTRY$.;;;;;;x
-WEDEFECT_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-WEDEFECT_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-WEDEFECT_BTN3;²é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;PØEJÍT NA;;;;;;x
-WEDEFECT_MAP;ÅÑÌÓ!;Défection !;Sezession!;Zdrada!;¡Traición!;Defezione!;Elpártolás!;Ztráta!;;;;;;x
-THEYDEFECT_SETUP;µ±±ð¹úµÄÒ»¸öÊ¡·ÝÅÑÌÓµ½ÎÒ¹ú;Lorsque l'une de leurs provinces nous rejoint.;Wenn sich eine ihrer Provinzen uns anschließt.;Kiedy jedna z obcych prowincji przechodzi na nasz?stron?Cuando una de sus provincias se pasa a nuestro bando.;Quando una delle loro province passa a noi;Mikor az egyik tartományunk hozzánk pártol.;Kdy?jedna z jejich provinci?pøejde k nám.;;;;;;x
-THEYDEFECT_HEADER;Ò»¸öÐÂµÄÊ¡·Ý!;Nouvelle province !;Eine neue Provinz!;Nowa prowincja!;¡Una nueva provincia!;Una nuova provincia!;Egy új tartomány!;Nov?provincie!;;;;;;x
-THEYDEFECT_1;ÈçÏÂÊ¡·Ý;La province :;Die Provinz;Prowincja;La provincia de;La provincia di;A következ?tartomány:;Provincie;;;;;;x
+WEDEFECT_6;Ò»ÈºÉµï¿½ï¿½!ï¿½ï¿½ï¿½Ç¿É²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó¶ï¿½ï¿½ï¿½ï¿½ï¿½!;Imbï¿½ciles ! Nous ne tolï¿½rerons pas cette mascarade !;Ihr Narren, diese Dummheit werden wir nicht hinnehmen!;Durnie! Nie zniesiemy takiej gï¿½upoty!;ï¿½Necios! ï¿½No toleraremos esta estupidez!;sciocchi, non sopporteremo tanta stupidit?;Bolondok! Nem tï¿½rhetjï¿½k ezt a bolondsï¿½got!;Blï¿½zni! Tuhle blï¿½hovost nebudeme tolerovat!;;;;;;x
+WEDEFECT_LOG;$PROV$ ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ $COUNTRY$ï¿½ï¿½;$PROV$ appartient maintenant au pays : $COUNTRY$.;$PROV$ hat sich $COUNTRY$ angeschlossen.;Prowincja $PROV$ przeszï¿½a na stron?paï¿½stwa $COUNTRY$.;$PROV$ se ha pasado al bando de $COUNTRY$.;$PROV$ ?passata a: $COUNTRY$.;$PROV$ $COUNTRY$ nemzetï¿½hez pï¿½rtolt.;$PROV$ pï¿½eï¿½la k $COUNTRY$.;;;;;;x
+WEDEFECT_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+WEDEFECT_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+WEDEFECT_BTN3;ï¿½é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;Pï¿½EJï¿½T NA;;;;;;;;x
+WEDEFECT_MAP;ï¿½ï¿½ï¿½ï¿½!;Dï¿½fection !;Sezession!;Zdrada!;ï¿½Traiciï¿½n!;Defezione!;Elpï¿½rtolï¿½s!;Ztrï¿½ta!;;;;;;x
+THEYDEFECT_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½Ò¹ï¿½;Lorsque l'une de leurs provinces nous rejoint.;Wenn sich eine ihrer Provinzen uns anschlieï¿½t.;Kiedy jedna z obcych prowincji przechodzi na nasz?stron?Cuando una de sus provincias se pasa a nuestro bando.;Quando una delle loro province passa a noi;Mikor az egyik tartomï¿½nyunk hozzï¿½nk pï¿½rtol.;Kdy?jedna z jejich provinci?pï¿½ejde k nï¿½m.;;;;;;;x
+THEYDEFECT_HEADER;Ò»ï¿½ï¿½ï¿½Âµï¿½Ê¡ï¿½ï¿½!;Nouvelle province !;Eine neue Provinz!;Nowa prowincja!;ï¿½Una nueva provincia!;Una nuova provincia!;Egy ï¿½j tartomï¿½ny!;Nov?provincie!;;;;;;x
+THEYDEFECT_1;ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½;La province :;Die Provinz;Prowincja;La provincia de;La provincia di;A kï¿½vetkez?tartomï¿½ny:;Provincie;;;;;;x
 THEYDEFECT_2;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;;;;;;x
-THEYDEFECT_3;ÒÑ¾­ÅÑÌÓµ½ÁËÎÒ¹ú¡£;nous a rejoint.;ist zu uns übergelaufen;przesz³a na nasz?stron?;se ha pasado a nuestro bando.;?passata a noi.;hozzánk pártolt.;pøešla k nám.;;;;;;x
-THEYDEFECT_4;ËûÃÇÃ÷ÖÇµØÐÅ·îÁËÎÒÃÇµÄÎÄÃ÷¹æÔò;Avec une grande sagesse, ils ont décid?de rejoindre notre régime éclair?;Sie haben sich klugerweise dazu entschlossen, unsere erleuchtete Herrschaft zu begrüßen;M¹drze zdecydowali, ¿e podporz¹dkuj?si?naszej oœwieconej w³adzy.;Sabiamente, han decidido aceptar nuestro ilustrado gobierno.;Hanno deciso saggiamente di seguire la nostra guida illuminata.;Bölcsen úgy döntöttek, hogy a mi felvilágosult nemzetünk mellett kötelezik el magukat.;Moudøe se rozhodli pro naši osvícenou vládu;;;;;;x
+THEYDEFECT_3;ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½;nous a rejoint.;ist zu uns ï¿½bergelaufen;przeszï¿½a na nasz?stron?;se ha pasado a nuestro bando.;?passata a noi.;hozzï¿½nk pï¿½rtolt.;pï¿½eï¿½la k nï¿½m.;;;;;;x
+THEYDEFECT_4;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½Å·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Avec une grande sagesse, ils ont dï¿½cid?de rejoindre notre rï¿½gime ï¿½clair?;Sie haben sich klugerweise dazu entschlossen, unsere erleuchtete Herrschaft zu begrï¿½ï¿½en;Mï¿½drze zdecydowali, ï¿½e podporzï¿½dkuj?si?naszej oï¿½wieconej wï¿½adzy.;Sabiamente, han decidido aceptar nuestro ilustrado gobierno.;Hanno deciso saggiamente di seguire la nostra guida illuminata.;Bï¿½lcsen ï¿½gy dï¿½ntï¿½ttek, hogy a mi felvilï¿½gosult nemzetï¿½nk mellett kï¿½telezik el magukat.;Moudï¿½e se rozhodli pro naï¿½i osvï¿½cenou vlï¿½du;;;;;;x
 THEYDEFECT_5;*;*;*;*;*;*;*;;;;;;;x
 THEYDEFECT_6;*;*;*;*;*;*;*;;;;;;;x
-THEYDEFECT_LOG;$PROV$ ÅÑÌÓµ½ÁËÎÒ¹ú¡£;$PROV$ nous a rejoint.;$PROV$ hat sich uns angeschlossen.;Prowincja $PROV$ przesz³a na nasz?stron?;$PROV$ se ha pasado a nuestro bando.;$PROV$ ?passata a noi.;$PROV$ mellénk pártolt.;$PROV$ pøešla k nám.;;;;;;x
-THEYDEFECT_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-THEYDEFECT_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-THEYDEFECT_BTN3;²é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;PØEJÍT NA;;;;;;x
-THEYDEFECT_MAP;ÅÑÌÓ!;Défection !;Sezession!;Zdrada!;¡Traición!;Defezione!;Elpártolás!;Ztráta!;;;;;;x
-OTHERDEFECT_SETUP;µ±±ð¹úµÄÒ»¸öÊ¡·ÝÅÑÌÓµ½ÁËµÚÈý¹ú;Lorsque l'une des provinces d'une nation passe ?une autre (except??la nôtre).;Wenn sich eine Provinz eines Landes einem anderen anschließt (keines von beiden sind wir).;Kiedy prowincja jednego z pañstw przechodzi na stron?innego kraju (nie dotyczy naszego kraju);Cuando una provincia de una nación cambia al bando de otra (ninguna somos nosotros).;Quando la provincia di una nazione passa a un'altra (e noi non siamo nessuna delle due);Mikor egy nemzet úgy dönt, hogy egy másik nemzethez pártol (de nem hozzánk).;Kdy?provincie jednoho národa pøejde k jinému národu (nejedn?se o nás).;;;;;;x
-OTHERDEFECT_HEADER;ÅÑÌÓ!;Défection !;Sezession!;Zdrada!;¡Traición!;Defezione!;Elpártolás!;Ztráta!;;;;;;x
-OTHERDEFECT_1;ÈçÏÂÊ¡·Ý;La province :;Die Provinz;Prowincja;La provincia de;La provincia di;A következ?tartomány:;Provincie;;;;;;x
+THEYDEFECT_LOG;$PROV$ ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½;$PROV$ nous a rejoint.;$PROV$ hat sich uns angeschlossen.;Prowincja $PROV$ przeszï¿½a na nasz?stron?;$PROV$ se ha pasado a nuestro bando.;$PROV$ ?passata a noi.;$PROV$ mellï¿½nk pï¿½rtolt.;$PROV$ pï¿½eï¿½la k nï¿½m.;;;;;;x
+THEYDEFECT_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+THEYDEFECT_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+THEYDEFECT_BTN3;ï¿½é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;Pï¿½EJï¿½T NA;;;;;;;;x
+THEYDEFECT_MAP;ï¿½ï¿½ï¿½ï¿½!;Dï¿½fection !;Sezession!;Zdrada!;ï¿½Traiciï¿½n!;Defezione!;Elpï¿½rtolï¿½s!;Ztrï¿½ta!;;;;;;x
+OTHERDEFECT_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque l'une des provinces d'une nation passe ?une autre (except??la nï¿½tre).;Wenn sich eine Provinz eines Landes einem anderen anschlieï¿½t (keines von beiden sind wir).;Kiedy prowincja jednego z paï¿½stw przechodzi na stron?innego kraju (nie dotyczy naszego kraju);Cuando una provincia de una naciï¿½n cambia al bando de otra (ninguna somos nosotros).;Quando la provincia di una nazione passa a un'altra (e noi non siamo nessuna delle due);Mikor egy nemzet ï¿½gy dï¿½nt, hogy egy mï¿½sik nemzethez pï¿½rtol (de nem hozzï¿½nk).;Kdy?provincie jednoho nï¿½roda pï¿½ejde k jinï¿½mu nï¿½rodu (nejedn?se o nï¿½s).;;;;;;x
+OTHERDEFECT_HEADER;ï¿½ï¿½ï¿½ï¿½!;Dï¿½fection !;Sezession!;Zdrada!;ï¿½Traiciï¿½n!;Defezione!;Elpï¿½rtolï¿½s!;Ztrï¿½ta!;;;;;;x
+OTHERDEFECT_1;ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½;La province :;Die Provinz;Prowincja;La provincia de;La provincia di;A kï¿½vetkez?tartomï¿½ny:;Provincie;;;;;;x
 OTHERDEFECT_2;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;;;;;;x
-OTHERDEFECT_3;ÅÑÌÓµ½ÁË;appartient maintenant au pays :;spaltete sich ab und ging zu;przesz³a na stron?pañstwa;se pasa al bando de;?passata a:;a következ?mell?pártolt:;pøešla k;;;;;;x
+OTHERDEFECT_3;ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½;appartient maintenant au pays :;spaltete sich ab und ging zu;przeszï¿½a na stron?paï¿½stwa;se pasa al bando de;?passata a:;a kï¿½vetkez?mell?pï¿½rtolt:;pï¿½eï¿½la k;;;;;;x
 OTHERDEFECT_4;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$;;;;;;x
 OTHERDEFECT_5;*;*;*;*;*;*;*;;;;;;;x
 OTHERDEFECT_6;*;*;*;*;*;*;*;;;;;;;x
-OTHERDEFECT_LOG;$PROV$ ÅÑÌÓµ½ÁË $COUNTRY$¡£;$PROV$ est passée ?$COUNTRY$.;$PROV$ hat sich $COUNTRY$ angeschlossen.;Prowincja $PROV$ przesz³a na stron?pañstwa $COUNTRY$.;$PROV$ se ha pasado al bando de $COUNTRY$.;$PROV$ ?passata a: $COUNTRY$.;$PROV$ $COUNTRY$ nemzetéhez pártolt.;$PROV$ pøešla k $COUNTRY$.;;;;;;x
-OTHERDEFECT_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-OTHERDEFECT_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-OTHERDEFECT_BTN3;²é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;PØEJÍT NA;;;;;;x
-OTHERDEFECT_MAP;ÅÑÌÓ!;Défection !;Sezession!;Zdrada!;¡Traición!;Defezione!;Elpártolás!;Ztráta!;;;;;;x
-SHATTERED_SETUP;µ±ÎÒÃÇµÄÒ»Ö§²¿¶ÓÀ£É¢;L'une de nos divisions a ét?dispersée.;Wenn eine unserer Divisionen zusammenbricht.;;Cuando una de nuestras divisiones ha sido derrotada.;;;;;;;;;x
-SHATTERED_HEADER;$chief_of_army$ ±¨¸æ;$chief_of_army$ nous informe que;$chief_of_army$ berichtet das Zusammenbrechen von;;?chief_of_army$ nos informa de;;;;;;;;;x
-SHATTERED_1;$UNIT$ ÒÑ¾­À£É¢!;l'unit?: $UNIT$ a ét?dispersée !;$UNIT$!;;la derrota de $UNIT$!;;;;;;;;;x
-SHATTERED_2;$MONARCHTITLE$, $UNIT$ µÄ²¿¶Ó´ïµ½ÁË±ÀÀ£µãËùÒÔÒÑ¾­À£É¢¡£;$MONARCHTITLE$, nos troupes de $UNIT$ ont atteint leur point de rupture et ont ét?dispersées.;$MONARCHTITLE$, unsere Truppen in $UNIT$ haben ihre Belastungsgrenze erreicht und sind zusammengebrochen.;;$MONARCHTITLE$, nuestras tropas de $UNIT$ se han desmoronado y han sido derrotadas.;;;;;;;;;x
+OTHERDEFECT_LOG;$PROV$ ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ $COUNTRY$ï¿½ï¿½;$PROV$ est passï¿½e ?$COUNTRY$.;$PROV$ hat sich $COUNTRY$ angeschlossen.;Prowincja $PROV$ przeszï¿½a na stron?paï¿½stwa $COUNTRY$.;$PROV$ se ha pasado al bando de $COUNTRY$.;$PROV$ ?passata a: $COUNTRY$.;$PROV$ $COUNTRY$ nemzetï¿½hez pï¿½rtolt.;$PROV$ pï¿½eï¿½la k $COUNTRY$.;;;;;;x
+OTHERDEFECT_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+OTHERDEFECT_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+OTHERDEFECT_BTN3;ï¿½é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;Pï¿½EJï¿½T NA;;;;;;;;x
+OTHERDEFECT_MAP;ï¿½ï¿½ï¿½ï¿½!;Dï¿½fection !;Sezession!;Zdrada!;ï¿½Traiciï¿½n!;Defezione!;Elpï¿½rtolï¿½s!;Ztrï¿½ta!;;;;;;x
+SHATTERED_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Ò»Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¢;L'une de nos divisions a ï¿½t?dispersï¿½e.;Wenn eine unserer Divisionen zusammenbricht.;;Cuando una de nuestras divisiones ha sido derrotada.;;;;;;;;;x
+SHATTERED_HEADER;$chief_of_army$ ï¿½ï¿½ï¿½ï¿½;$chief_of_army$ nous informe que;$chief_of_army$ berichtet das Zusammenbrechen von;;?chief_of_army$ nos informa de;;;;;;;;;x
+SHATTERED_1;$UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½É¢!;l'unit?: $UNIT$ a ï¿½t?dispersï¿½e !;$UNIT$!;;la derrota de $UNIT$!;;;;;;;;;x
+SHATTERED_2;$MONARCHTITLE$, $UNIT$ ï¿½Ä²ï¿½ï¿½Ó´ïµ½ï¿½Ë±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½É¢ï¿½ï¿½;$MONARCHTITLE$, nos troupes de $UNIT$ ont atteint leur point de rupture et ont ï¿½t?dispersï¿½es.;$MONARCHTITLE$, unsere Truppen in $UNIT$ haben ihre Belastungsgrenze erreicht und sind zusammengebrochen.;;$MONARCHTITLE$, nuestras tropas de $UNIT$ se han desmoronado y han sido derrotadas.;;;;;;;;;x
 SHATTERED_3;$LOCATION$;$LOCATION$;$LOCATION$;;$LOCATION$;;;;;;;;;x
-SHATTERED_4;ÎÒÃÇÀûÓÃ´¦ÓÚÐÝ¼ÙÆÚºÍÔÚÒ½ÔºÁÆÑøµÄ¹Ç¸ÉÔÚ $NEWHOME$ ÖØ×éÁË²¿¶Ó¡£;Nous avons reform?cette division ?$NEWHOME$ en nous basant sur le personnel qui était en permission ou hospitalis?;Wir haben diese Division in $NEWHOME$ mit Soldaten wieder aufgestellt, die auf Fronturlaub oder im Krankenhaus waren.;;Hemos reformado esta división en $NEWHOME$ utilizando un núcleo de personal que estaba de servicio o en el hospital.;;;;;;;;;x
+SHATTERED_4;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½ï¿½Ý¼ï¿½ï¿½Úºï¿½ï¿½ï¿½Ò½Ôºï¿½ï¿½ï¿½ï¿½ï¿½Ä¹Ç¸ï¿½ï¿½ï¿½ $NEWHOME$ ï¿½ï¿½ï¿½ï¿½ï¿½Ë²ï¿½ï¿½Ó¡ï¿½;Nous avons reform?cette division ?$NEWHOME$ en nous basant sur le personnel qui ï¿½tait en permission ou hospitalis?;Wir haben diese Division in $NEWHOME$ mit Soldaten wieder aufgestellt, die auf Fronturlaub oder im Krankenhaus waren.;;Hemos reformado esta divisiï¿½n en $NEWHOME$ utilizando un nï¿½cleo de personal que estaba de servicio o en el hospital.;;;;;;;;;x
 SHATTERED_5;*;;*;;*;;;;;;;;;x
 SHATTERED_6;*;;*;;*;;;;;;;;;x
-SHATTERED_LOG;$UNIT$ ÔÚ $LOCATION$ À£É¢ÁË¡£;$UNIT$ ont ét?dispersées ?$LOCATION$.;$UNIT$ in $LOCATION$ auseinandergebrochen;;Derrota de $UNIT$ en $LOCATION$.;;;;;;;;;x
-SHATTERED_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-SHATTERED_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-SHATTERED_BTN3;²é¿´;ALLER ?Goto;;Ir all?;;;;;;;;x
-SHATTERED_MAP;$UNIT$ À£É¢ÁË!;;*;;*;;;;;;;;;x
-SHIPSUNK_SETUP;µ±ÎÒÃÇµÄÒ»ËÒ½¢´¬ÓÉÓÚËðºÄ¶ø³ÁÃ»;Lorsqu'un de vos navires coule ?cause de l'attrition.;Wenn eines Ihrer Schiffe aufgrund seiner Verlustquote sinkt;Kiedy jeden z twoich okrêtów idzie na dno z powodu zu¿ycia;Cuando uno de nuestros buques se hunde debido al desgaste;Quando una delle tue navi affonda per logoramento;Egyik hajód elsüllyedt az elhasználódás miatt;Kdy?se jedna z našich lod?potop?;;;;;x
-SHIPSUNK_HEADER;$chief_of_navy$ ±¨¸æ;$chief_of_navy$ nous signale;;;?chief_of_navy$ nos informa de que;;;;;;;;;x
-SHIPSUNK_1;Ê§È¥½¢´¬!;qu'un navire a ét?perdu !;Schiff gesunken!;Straciliœmy okrêt!;hemos perdido un buque!;Una nave ?perduta!;Elveszett egy haj?;Lo?je ztracena!;;;;;;x
-SHIPSUNK_2;ÎÒÃÇµÄ½¢´¬;$MONARCHTITLE$, l'un de nos vaisseaux a ét?$MONARCHTITLE$, eines unserer Schiffe ist;Jeden z naszych okrêtów;$MONARCHTITLE$, ¡uno de nuestros buques se ha;$MONARCHTITLE$, uno dei nostri vascelli ?Az egyik hajónk;$MONARCHTITLE$, jedno z našich plavidel;;;;;;x
-SHIPSUNK_3;$MONARCHTITLE$;PERDU;GESUNKEN!;ZATON¥^;PERDIDO!;PERDUTO!;ELVESZETT!;SE POTOPILO;;;;;;x
-SHIPSUNK_4;ÔÚ´©Ô½Î»ÓÚ$PROV$µÄÎ£ÏÕË®ÓòÊ±;en traversant les eaux périlleuses de la province de :;Es befuhr die gefährlichen Gewässer von;pokonuj¹c niebezpieczne wody;mientras navegaba por las peligrosas aguas de;mentre navigava nelle perigliose acque di:;miközben;pøi plavb?v nebezpeèných vodách;;;;;;x
-SHIPSUNK_5;³ÁÃ»ÁË;$PROV$;$PROV$;$PROV$.;$PROV$;$PROV$;$PROV$ veszélyes vizein hajózott.;$PROV$;;;;;;x
+SHATTERED_LOG;$UNIT$ ï¿½ï¿½ $LOCATION$ ï¿½ï¿½É¢ï¿½Ë¡ï¿½;$UNIT$ ont ï¿½t?dispersï¿½es ?$LOCATION$.;$UNIT$ in $LOCATION$ auseinandergebrochen;;Derrota de $UNIT$ en $LOCATION$.;;;;;;;;;x
+SHATTERED_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+SHATTERED_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+SHATTERED_BTN3;ï¿½é¿´;ALLER ?Goto;;Ir all?;;;;;;;;;;x
+SHATTERED_MAP;$UNIT$ ï¿½ï¿½É¢ï¿½ï¿½!;;*;;*;;;;;;;;;x
+SHIPSUNK_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Ò»ï¿½Ò½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½Ã»;Lorsqu'un de vos navires coule ?cause de l'attrition.;Wenn eines Ihrer Schiffe aufgrund seiner Verlustquote sinkt;Kiedy jeden z twoich okrï¿½tï¿½w idzie na dno z powodu zuï¿½ycia;Cuando uno de nuestros buques se hunde debido al desgaste;Quando una delle tue navi affonda per logoramento;Egyik hajï¿½d elsï¿½llyedt az elhasznï¿½lï¿½dï¿½s miatt;Kdy?se jedna z naï¿½ich lod?potop?;;;;;;x
+SHIPSUNK_HEADER;$chief_of_navy$ ï¿½ï¿½ï¿½ï¿½;$chief_of_navy$ nous signale;;;?chief_of_navy$ nos informa de que;;;;;;;;;x
+SHIPSUNK_1;Ê§È¥ï¿½ï¿½ï¿½ï¿½!;qu'un navire a ï¿½t?perdu !;Schiff gesunken!;Straciliï¿½my okrï¿½t!;hemos perdido un buque!;Una nave ?perduta!;Elveszett egy haj?;Lo?je ztracena!;;;;;;x
+SHIPSUNK_2;ï¿½ï¿½ï¿½ÇµÄ½ï¿½ï¿½ï¿½;$MONARCHTITLE$, l'un de nos vaisseaux a ï¿½t?$MONARCHTITLE$, eines unserer Schiffe ist;Jeden z naszych okrï¿½tï¿½w;$MONARCHTITLE$, ï¿½uno de nuestros buques se ha;$MONARCHTITLE$, uno dei nostri vascelli ?Az egyik hajï¿½nk;$MONARCHTITLE$, jedno z naï¿½ich plavidel;;;;;;;;x
+SHIPSUNK_3;$MONARCHTITLE$;PERDU;GESUNKEN!;ZATONï¿½^;PERDIDO!;PERDUTO!;ELVESZETT!;SE POTOPILO;;;;;;x
+SHIPSUNK_4;ï¿½Ú´ï¿½Ô½Î»ï¿½ï¿½$PROV$ï¿½ï¿½Î£ï¿½ï¿½Ë®ï¿½ï¿½Ê±;en traversant les eaux pï¿½rilleuses de la province de :;Es befuhr die gefï¿½hrlichen Gewï¿½sser von;pokonujï¿½c niebezpieczne wody;mientras navegaba por las peligrosas aguas de;mentre navigava nelle perigliose acque di:;mikï¿½zben;pï¿½i plavb?v nebezpeï¿½nï¿½ch vodï¿½ch;;;;;;x
+SHIPSUNK_5;ï¿½ï¿½Ã»ï¿½ï¿½;$PROV$;$PROV$;$PROV$.;$PROV$;$PROV$;$PROV$ veszï¿½lyes vizein hajï¿½zott.;$PROV$;;;;;;x
 SHIPSUNK_6;*;*;*;*;*;*;*;;;;;;;x
-SHIPSUNK_LOG;Ò»ËÒ½¢´¬ÔÚ $PROV$ ³ÁÃ»;Un navire a ét?perdu dans la province de : $PROV$.;Ein Schiff ging in $PROV$ verloren.;Straciliœmy okrêt w prowincji $PROV$.;Se ha perdido un buque en $PROV$;Abbiamo perso una nave in $PROV$.;Egy haj?elveszett $PROV$ provinciánál;V $PROV$ se potopila lo?;;;;;x
-SHIPSUNK_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-SHIPSUNK_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-SHIPSUNK_BTN3;²é¿´;ALLER ?Goto;Id?do;Ir all?Andare;Ugrás;Pøejít na;;;;;;x
-SHIPSUNK_MAP;Ê§È¥½¢´¬!;Nous avons perdu un navire !;Schiff gesunken!;Okrêt zaton¹³!;¡Se ha perdido un buque!;Una nave ?perduta!;Egy haj?elveszett;Lo?je ztracena!;;;;;;x
-DISBAND_SETUP;µ±Ò»Ö§²¿¶Ó±»²Ã¼õ;Lorsqu'une unit?est démantelée;Wenn eine Einheit aufgelöst wird;Kiedy jednostka zostaje rozwi¹zana;Cuando se desbanda una unidad;Quando un'unit?viene sciolta;Mikor egy egységet szétoszlatnak;Kdy?je rozpuštìna jednotka;;;;;;x
-DISBAND_HEADER;$chief_of_staff$ ±¨¸æ;$chief_of_staff$ signale que;$chief_of_staff$ berichtet die Angliederung von;;$chief_of_staff$ informa de que;;;;;;;;;x
-DISBAND_1;²Ã¼õ²¿¶Ó¡£;Unit?démantelée.;Einheit aufgelöst.;Jednostka rozwi¹zana;Unidad desbandada.;Unit?sciolta.;Egység szétoszlatva;Jednotka byla rozpuštìna.;;;;;;x
-DISBAND_2;$MONARCHTITLE$,ÎÒÃÇÒÑ¾­²Ã¼õÁËÈçÏÂ²¿¶Ó;$MONARCHTITLE$, nous avons démantel?l'unit?:;$MONARCHTITLE$;Rozwi¹zaliœmy;$MONARCHTITLE$, hemos desbandado;$MONARCHTITLE$, abbiamo sciolto l'unit?;Szétoszlattuk a következõt:;$MONARCHTITLE$, rozpustili jsme;;;;;;x
+SHIPSUNK_LOG;Ò»ï¿½Ò½ï¿½ï¿½ï¿½ï¿½ï¿½ $PROV$ ï¿½ï¿½Ã»;Un navire a ï¿½t?perdu dans la province de : $PROV$.;Ein Schiff ging in $PROV$ verloren.;Straciliï¿½my okrï¿½t w prowincji $PROV$.;Se ha perdido un buque en $PROV$;Abbiamo perso una nave in $PROV$.;Egy haj?elveszett $PROV$ provinciï¿½nï¿½l;V $PROV$ se potopila lo?;;;;;;x
+SHIPSUNK_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+SHIPSUNK_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+SHIPSUNK_BTN3;ï¿½é¿´;ALLER ?Goto;Id?do;Ir all?Andare;Ugrï¿½s;Pï¿½ejï¿½t na;;;;;;;;x
+SHIPSUNK_MAP;Ê§È¥ï¿½ï¿½ï¿½ï¿½!;Nous avons perdu un navire !;Schiff gesunken!;Okrï¿½t zatonï¿½ï¿½!;ï¿½Se ha perdido un buque!;Una nave ?perduta!;Egy haj?elveszett;Lo?je ztracena!;;;;;;x
+DISBAND_SETUP;ï¿½ï¿½Ò»Ö§ï¿½ï¿½ï¿½Ó±ï¿½ï¿½Ã¼ï¿½;Lorsqu'une unit?est dï¿½mantelï¿½e;Wenn eine Einheit aufgelï¿½st wird;Kiedy jednostka zostaje rozwiï¿½zana;Cuando se desbanda una unidad;Quando un'unit?viene sciolta;Mikor egy egysï¿½get szï¿½toszlatnak;Kdy?je rozpuï¿½tï¿½na jednotka;;;;;;x
+DISBAND_HEADER;$chief_of_staff$ ï¿½ï¿½ï¿½ï¿½;$chief_of_staff$ signale que;$chief_of_staff$ berichtet die Angliederung von;;$chief_of_staff$ informa de que;;;;;;;;;x
+DISBAND_1;ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½;Unit?dï¿½mantelï¿½e.;Einheit aufgelï¿½st.;Jednostka rozwiï¿½zana;Unidad desbandada.;Unit?sciolta.;Egysï¿½g szï¿½toszlatva;Jednotka byla rozpuï¿½tï¿½na.;;;;;;x
+DISBAND_2;$MONARCHTITLE$,ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â²ï¿½ï¿½ï¿½;$MONARCHTITLE$, nous avons dï¿½mantel?l'unit?:;$MONARCHTITLE$;Rozwiï¿½zaliï¿½my;$MONARCHTITLE$, hemos desbandado;$MONARCHTITLE$, abbiamo sciolto l'unit?;Szï¿½toszlattuk a kï¿½vetkezï¿½t:;$MONARCHTITLE$, rozpustili jsme;;;;;;x
 DISBAND_3;$UNIT$;$UNIT$;$UNIT$;$UNIT$.;$UNIT$;$UNIT$.;$UNIT$;$UNIT$;;;;;;x
-DISBAND_4;ºÁÎÞÒÉÎÊ;Il ne fait aucun doute que la racaille qui compose nos troupes va aller dépenser sa solde plus que généreuse dans les tavernes.;Das Gesocks, das in unseren Armeen dient, wird seinen mehr als großzügigen Sold zweifelsohne in den Schenken verprassen.;Bez w¹tpienia ci ³ajdacy, którzy s³u¿¹ w naszej armii roztrwoni?swój bardziej ni?pokaŸny ¿o³d w tawernach.;Sin duda, la escoria de la tierra que compone nuestros ejércitos dilapidar?su más que generosa paga en las tabernas...;Non c'?dubbio che quella feccia di cui ?fatto il nostro esercito sperperer?la nostra generosissima paga alla taverna.;Semmi kétség, hogy az söpredék, amibõl a seregünk állt még több pénzt fog elkölteni a kocsmákban.;Nen?pochyb, že ti mizerov?byli k nièemu a svùj více ne?štìdr?žold jen propíjeli v tavernách.;;;;;;x
-DISBAND_5;ÎÒÃÇµÄ¾ü¶ÓÀïµÄÕâÐ©·ÏÎï;*;*;*;*;*;*;;;;;;;x
-DISBAND_6;Ö»»á°Ñ×ÊÔ´¿¶¿®µØÀË·ÑÔÚ¾Æ°ÉÀï¡£;*;*;*;*;*;*;;;;;;;x
-DISBAND_LOG;$UNIT$ ÒÑ¾­±»²Ã¼õ¡£;$UNIT$ : unit?démantelée.;$UNIT$ wurde aufgelöst.;Jednostka $UNIT$ zosta³a rozwi¹zana.;Se ha desbandado $UNIT$.;L'unit? $UNIT$ ?stata sciolta.;$UNIT$ feloszlatva.;$UNIT$ byla rozpuštìna.;;;;;;x
-DISBAND_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-DISBAND_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-DISBAND_BTN3;²é¿´;ALLER ?GOTO;Id?do;Ir all?Andare;Ugrás;Pøejít na;;;;;;x
+DISBAND_4;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Il ne fait aucun doute que la racaille qui compose nos troupes va aller dï¿½penser sa solde plus que gï¿½nï¿½reuse dans les tavernes.;Das Gesocks, das in unseren Armeen dient, wird seinen mehr als groï¿½zï¿½gigen Sold zweifelsohne in den Schenken verprassen.;Bez wï¿½tpienia ci ï¿½ajdacy, ktï¿½rzy sï¿½uï¿½ï¿½ w naszej armii roztrwoni?swï¿½j bardziej ni?pokaï¿½ny ï¿½oï¿½d w tawernach.;Sin duda, la escoria de la tierra que compone nuestros ejï¿½rcitos dilapidar?su mï¿½s que generosa paga en las tabernas...;Non c'?dubbio che quella feccia di cui ?fatto il nostro esercito sperperer?la nostra generosissima paga alla taverna.;Semmi kï¿½tsï¿½g, hogy az sï¿½predï¿½k, amibï¿½l a seregï¿½nk ï¿½llt mï¿½g tï¿½bb pï¿½nzt fog elkï¿½lteni a kocsmï¿½kban.;Nen?pochyb, ï¿½e ti mizerov?byli k niï¿½emu a svï¿½j vï¿½ce ne?ï¿½tï¿½dr?ï¿½old jen propï¿½jeli v tavernï¿½ch.;;;;;;x
+DISBAND_5;ï¿½ï¿½ï¿½ÇµÄ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½;*;*;*;*;*;*;;;;;;;x
+DISBAND_6;Ö»ï¿½ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë·ï¿½ï¿½Ú¾Æ°ï¿½ï¿½ï¡£;*;*;*;*;*;*;;;;;;;x
+DISBAND_LOG;$UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Ã¼ï¿½ï¿½ï¿½;$UNIT$ : unit?dï¿½mantelï¿½e.;$UNIT$ wurde aufgelï¿½st.;Jednostka $UNIT$ zostaï¿½a rozwiï¿½zana.;Se ha desbandado $UNIT$.;L'unit? $UNIT$ ?stata sciolta.;$UNIT$ feloszlatva.;$UNIT$ byla rozpuï¿½tï¿½na.;;;;;;x
+DISBAND_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+DISBAND_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+DISBAND_BTN3;ï¿½é¿´;ALLER ?GOTO;Id?do;Ir all?Andare;Ugrï¿½s;Pï¿½ejï¿½t na;;;;;;;;x
 DISBAND_MAP;*;*;*;*;*;*;*;;;;;;;x
-CONVOY_TOO_STRONG_SETUP;µ±ÎÒÃÇ·¢ÏÖÒ»Ö§»¤º½½¢¶Ó£¬µ«×÷Îª¹¥»÷Ä¿±êËüÓÖÌ«Ç¿´ó;Lorsque nous localisons un convoi mais qu'il est trop puissant pour être attaqu?;Wenn wir einen Konvoi finden, der zu stark ist, um ihn anzugreifen.;;Cuando encontramos un convoy pero es demasiado grande para atacarlo.;;;;;;;;;x
-CONVOY_TOO_STRONG_HEADER;$chief_of_navy$ ±¨¸æ;$chief_of_navy$ signale;$chief_of_navy$ berichtet, dass;;$chief_of_navy$ nos informa que;;;;;;;;;x
-CONVOY_TOO_STRONG_1;ÔÚ $LOCATION$ ·¢ÏÖ»¤º½½¢¶Ó;qu'un convoi a ét?repér??$LOCATION$.;ein Konvoi bei $LOCATION$ gesichtet wurde;;se ha avistado un convoy en $LOCATION$;;;;;;;;;x
-CONVOY_TOO_STRONG_2;$MONARCHTITLE$£¬$UNIT$ ±¨¸æËûÃÇÔÚ $LOCATION$ ·¢ÏÖÁËÒ»Ö§»¤º½½¢¶Ó£¬µ«ËüÓÉ $EVIL$ »¤º½ËùÒÔÎÞ·¨³¢ÊÔ¹¥»÷¡£ËûÃÇ²ÂÏëÕâÖ§»¤º½½¢¶ÓÎ»ÓÚ;$MONARCHTITLE$, les $UNIT$ nous informent qu'un convoi a ét?repér??$LOCATION$ mais qu'il est trop lourdement escort?par $EVIL$ pour que nous puissions ne serait-ce qu'envisager de les attaquer. Ils soupçonnent que ce convoi est sur la route;$MONARCHTITLE$, $UNIT$ berichtet, dass sie einen Konvoi bei $LOCATION$ sichteten. Leider fuhr er mit einem Geleitschutz von $EVIL$, was einen Angriffsversuch unsinnig machte. Sie vermuten, dass der Konvoi auf der;;$MONARCHTITLE$, $UNIT$ informa de que ha avistado un convoy en $LOCATION$, pero $EVIL$ le había asignado una escolta demasiado fuerte como para intentar un ataque. Sospechan que el convoy estaba en la;;;;;;;;;x
+CONVOY_TOO_STRONG_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ò»Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì«Ç¿ï¿½ï¿½;Lorsque nous localisons un convoi mais qu'il est trop puissant pour ï¿½tre attaqu?;Wenn wir einen Konvoi finden, der zu stark ist, um ihn anzugreifen.;;Cuando encontramos un convoy pero es demasiado grande para atacarlo.;;;;;;;;;x
+CONVOY_TOO_STRONG_HEADER;$chief_of_navy$ ï¿½ï¿½ï¿½ï¿½;$chief_of_navy$ signale;$chief_of_navy$ berichtet, dass;;$chief_of_navy$ nos informa que;;;;;;;;;x
+CONVOY_TOO_STRONG_1;ï¿½ï¿½ $LOCATION$ ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;qu'un convoi a ï¿½t?repï¿½r??$LOCATION$.;ein Konvoi bei $LOCATION$ gesichtet wurde;;se ha avistado un convoy en $LOCATION$;;;;;;;;;x
+CONVOY_TOO_STRONG_2;$MONARCHTITLE$ï¿½ï¿½$UNIT$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $LOCATION$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $EVIL$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½Ô¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½ï¿½ï¿½Ö§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½;$MONARCHTITLE$, les $UNIT$ nous informent qu'un convoi a ï¿½t?repï¿½r??$LOCATION$ mais qu'il est trop lourdement escort?par $EVIL$ pour que nous puissions ne serait-ce qu'envisager de les attaquer. Ils soupï¿½onnent que ce convoi est sur la route;$MONARCHTITLE$, $UNIT$ berichtet, dass sie einen Konvoi bei $LOCATION$ sichteten. Leider fuhr er mit einem Geleitschutz von $EVIL$, was einen Angriffsversuch unsinnig machte. Sie vermuten, dass der Konvoi auf der;;$MONARCHTITLE$, $UNIT$ informa de que ha avistado un convoy en $LOCATION$, pero $EVIL$ le habï¿½a asignado una escolta demasiado fuerte como para intentar un ataque. Sospechan que el convoy estaba en la;;;;;;;;;x
 CONVOY_TOO_STRONG_3;$CONVOY$;du $CONVOY$.;$CONVOY$;;$CONVOY$;;;;;;;;;x
-CONVOY_TOO_STRONG_4;º½ÏßÉÏ¡£;*;Route war.;;ruta.;;;;;;;;;x
+CONVOY_TOO_STRONG_4;ï¿½ï¿½ï¿½ï¿½ï¿½Ï¡ï¿½;*;Route war.;;ruta.;;;;;;;;;x
 CONVOY_TOO_STRONG_5;*;;*;;*;;;;;;;;;x
 CONVOY_TOO_STRONG_6;*;;*;;*;;;;;;;;;x
-CONVOY_TOO_STRONG_LOG; $UNIT$ ÔÚ $LOCATION$ ·¢ÏÖÁË $CONVOY$ ¡£;$CONVOY$ a ét?repér?par l'unit?$UNIT$ ?$LOCATION$.;$CONVOY$ von $UNIT$ bei $LOCATION$ gesichtet.;;$CONVOY$ avistado por $UNIT$ en $LOCATION$.;;;;;;;;;x
-CONVOY_TOO_STRONG_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-CONVOY_TOO_STRONG_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-CONVOY_TOO_STRONG_BTN3;²é¿´;Aller ?Goto;;Ir all?;;;;;;;;x
-CONVOY_TOO_STRONG_MAP;»¤º½½¢¶ÓÊÜµ½±£»¤!;;*;;*;;;;;;;;;x
-ATTACHEDUNIT_SETUP;µ±ÎÒÃÇ½«²¿¶ÓÅäÊôµ½²»Í¬²ã¼¶;Lorsque nous rattachons une unit??une autre dans la hiérarchie.;Wenn wir eine Einheit an eine andere in der Befehlskette angliedern.;;Cuando vinculamos una unidad a otra en la jerarquía.;;;;;;;;;x
-ATTACHEDUNIT_HEADER;$chief_of_staff$ ±¨¸æ;$chief_of_staff$ signale que;$chief_of_staff$ berichtet die Angliederung von;;$chief_of_staff$ informa de que;;;;;;;;;x
+CONVOY_TOO_STRONG_LOG; $UNIT$ ï¿½ï¿½ $LOCATION$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $CONVOY$ ï¿½ï¿½;$CONVOY$ a ï¿½t?repï¿½r?par l'unit?$UNIT$ ?$LOCATION$.;$CONVOY$ von $UNIT$ bei $LOCATION$ gesichtet.;;$CONVOY$ avistado por $UNIT$ en $LOCATION$.;;;;;;;;;x
+CONVOY_TOO_STRONG_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+CONVOY_TOO_STRONG_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+CONVOY_TOO_STRONG_BTN3;ï¿½é¿´;Aller ?Goto;;Ir all?;;;;;;;;;;x
+CONVOY_TOO_STRONG_MAP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Üµï¿½ï¿½ï¿½ï¿½ï¿½!;;*;;*;;;;;;;;;x
+ATTACHEDUNIT_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ã¼¶;Lorsque nous rattachons une unit??une autre dans la hiï¿½rarchie.;Wenn wir eine Einheit an eine andere in der Befehlskette angliedern.;;Cuando vinculamos una unidad a otra en la jerarquï¿½a.;;;;;;;;;x
+ATTACHEDUNIT_HEADER;$chief_of_staff$ ï¿½ï¿½ï¿½ï¿½;$chief_of_staff$ signale que;$chief_of_staff$ berichtet die Angliederung von;;$chief_of_staff$ informa de que;;;;;;;;;x
 ATTACHEDUNIT_1;$UNIT$;l'unit?$UNIT$;$UNIT$;;$UNIT$;;;;;;;;;x
-ATTACHEDUNIT_2;ÏÖÔÚÒÑ¾­ÅäÊôµ½ÈçÏÂµ¥Î»;est maintenant rattachée ?:;an;;se ha vinculado a;;;;;;;;;x
+ATTACHEDUNIT_2;ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Î»;est maintenant rattachï¿½e ?:;an;;se ha vinculado a;;;;;;;;;x
 ATTACHEDUNIT_3;$PARENT$;$PARENT$.;$PARENT$;;$PARENT$;;;;;;;;;x
 ATTACHEDUNIT_4;*;*;*;;*;;;;;;;;;x
 ATTACHEDUNIT_5;*;*;*;;*;;;;;;;;;x
 ATTACHEDUNIT_6;*;*;*;;*;;;;;;;;;x
-ATTACHEDUNIT_LOG;$UNIT$ ÒÑ¾­±»ÅäÊôµ½ $PARENT$¡£;L'unit?$UNIT$ est maintenant rattachée ?$PARENT$.;$UNIT$ ist nun an $PARENT$ angegliedert.;;$UNIT$ se ha vinculado ahora a $PARENT$.;;;;;;;;;x
-ATTACHEDUNIT_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-ATTACHEDUNIT_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-ATTACHEDUNIT_BTN3;²é¿´;Aller ?Goto;;Ir all?;;;;;;;;x
-ATTACHEDUNIT_MAP;$UNIT$ ÒÑ¾­ÅäÊô¡£;*;*;;*;;;;;;;;;x
-DETACHEDUNIT_SETUP;µ±ÎÒÃÇ½«²¿¶Ó´ÓÔ­ÓÐ²ã¼¶·ÖÀë;Lorsque nous détachons une unit?du commandement.;Wenn wir eine Einheit aus der Befehlskette ausgliedern.;;Cuando desvinculamos una unidad de la jerarquía.;;;;;;;;;x
-DETACHEDUNIT_HEADER;$chief_of_staff$ ±¨¸æ;$chief_of_staff$ signale que;$chief_of_staff$ berichtet, dass;;$chief_of_staff$ informa que;;;;;;;;;x
+ATTACHEDUNIT_LOG;$UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $PARENT$ï¿½ï¿½;L'unit?$UNIT$ est maintenant rattachï¿½e ?$PARENT$.;$UNIT$ ist nun an $PARENT$ angegliedert.;;$UNIT$ se ha vinculado ahora a $PARENT$.;;;;;;;;;x
+ATTACHEDUNIT_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+ATTACHEDUNIT_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+ATTACHEDUNIT_BTN3;ï¿½é¿´;Aller ?Goto;;Ir all?;;;;;;;;;;x
+ATTACHEDUNIT_MAP;$UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;*;*;;*;;;;;;;;;x
+DETACHEDUNIT_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½Ó´ï¿½Ô­ï¿½Ð²ã¼¶ï¿½ï¿½ï¿½ï¿½;Lorsque nous dï¿½tachons une unit?du commandement.;Wenn wir eine Einheit aus der Befehlskette ausgliedern.;;Cuando desvinculamos una unidad de la jerarquï¿½a.;;;;;;;;;x
+DETACHEDUNIT_HEADER;$chief_of_staff$ ï¿½ï¿½ï¿½ï¿½;$chief_of_staff$ signale que;$chief_of_staff$ berichtet, dass;;$chief_of_staff$ informa que;;;;;;;;;x
 DETACHEDUNIT_1;$UNIT$;l'unit?$UNIT$;$UNIT$;;$UNIT$;;;;;;;;;x
-DETACHEDUNIT_2;ÒÑ¾­´ÓÔ­ÏÈµÄ²ã¼¶;est maintenant;nun aus der Befehlskette;;se ha;;;;;;;;;x
-DETACHEDUNIT_3;·ÖÀë;DÉTACHÉE;AUSGEGLIEDERT;;DESVINCULADO;;;;;;;;;x
-DETACHEDUNIT_4;*;du commandement.;wurde.;;de la jerarquía.;;;;;;;;;x
+DETACHEDUNIT_2;ï¿½Ñ¾ï¿½ï¿½ï¿½Ô­ï¿½ÈµÄ²ã¼¶;est maintenant;nun aus der Befehlskette;;se ha;;;;;;;;;x
+DETACHEDUNIT_3;ï¿½ï¿½ï¿½ï¿½;Dï¿½TACHï¿½E;AUSGEGLIEDERT;;DESVINCULADO;;;;;;;;;x
+DETACHEDUNIT_4;*;du commandement.;wurde.;;de la jerarquï¿½a.;;;;;;;;;x
 DETACHEDUNIT_5;*;*;*;;*;;;;;;;;;x
 DETACHEDUNIT_6;*;*;*;;*;;;;;;;;;x
-DETACHEDUNIT_LOG;$UNIT$ ÒÑ¾­´ÓÔ­ÏÈµÄ²ã¼¶·ÖÀë¡£;L'unit?$UNIT$ a ét?détachée du commandement des unités.;$UNIT$ aus der Einheitenbefehlskette ausgegliedert.;;$UNIT$ se ha desvinculado de la jerarquía de unidades.;;;;;;;;;x
-DETACHEDUNIT_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-DETACHEDUNIT_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-DETACHEDUNIT_BTN3;²é¿´;Aller ?Goto;;Ir all?;;;;;;;;x
-DETACHEDUNIT_MAP;ÒÑ¾­·ÖÀë!;*;*;;*;;;;;;;;;x
-TRANSFEREDSUBUNIT_SETUP;µ±Ò»ËÒ½¢´¬£¬Ò»¼Ü·É»ú»òÒ»¸öÊ¦±»ÖØÐÂ·ÖÅäÊ±;Lorsqu'un navire, un détachement ou une division est transfér?d'une unit??une autre.;Wenn ein Schiff, Geschwader oder eine Division von einer Einheit zu einer anderen transferiert wird.;;Cuando un buque, ala o división se transfiere de una unidad a otra.;;;;;;;;;x
-TRANSFEREDSUBUNIT_HEADER;$chief_of_staff$ ±¨¸æ;$chief_of_staff$ signale que;$chief_of_staff$ berichtet, dass;;?chief_of_staff$ informa que;;;;;;;;;x
-TRANSFEREDSUBUNIT_1;$SUB$ ÒÑ¾­ÖØÐÂ·ÖÅä!;$SUB$ réaffectée !;$SUB$ transferiert wurde!;;se ha reasignado $SUB$!;;;;;;;;;x
-TRANSFEREDSUBUNIT_2;$MONARCHTITLE$,ÎÒÃÇÒÑ¾­½« $SUB$ ´Ó $OLD$ µ÷Åäµ½ÁË;$MONARCHTITLE$, nous avons réaffect?l'unit?$SUB$ de l'unit?$OLD$ ?l'unit?$MONARCHTITLE$, wir haben $SUB$ von $OLD$ nach;;$MONARCHTITLE$, hemos reasignado $SUB$ de $OLD$ a;;;;;;;;;x
+DETACHEDUNIT_LOG;$UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½Ô­ï¿½ÈµÄ²ã¼¶ï¿½ï¿½ï¿½ë¡£;L'unit?$UNIT$ a ï¿½t?dï¿½tachï¿½e du commandement des unitï¿½s.;$UNIT$ aus der Einheitenbefehlskette ausgegliedert.;;$UNIT$ se ha desvinculado de la jerarquï¿½a de unidades.;;;;;;;;;x
+DETACHEDUNIT_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+DETACHEDUNIT_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+DETACHEDUNIT_BTN3;ï¿½é¿´;Aller ?Goto;;Ir all?;;;;;;;;;;x
+DETACHEDUNIT_MAP;ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½!;*;*;;*;;;;;;;;;x
+TRANSFEREDSUBUNIT_SETUP;ï¿½ï¿½Ò»ï¿½Ò½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ü·É»ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ê¦ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½Ê±;Lorsqu'un navire, un dï¿½tachement ou une division est transfï¿½r?d'une unit??une autre.;Wenn ein Schiff, Geschwader oder eine Division von einer Einheit zu einer anderen transferiert wird.;;Cuando un buque, ala o divisiï¿½n se transfiere de una unidad a otra.;;;;;;;;;x
+TRANSFEREDSUBUNIT_HEADER;$chief_of_staff$ ï¿½ï¿½ï¿½ï¿½;$chief_of_staff$ signale que;$chief_of_staff$ berichtet, dass;;?chief_of_staff$ informa que;;;;;;;;;x
+TRANSFEREDSUBUNIT_1;$SUB$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½!;$SUB$ rï¿½affectï¿½e !;$SUB$ transferiert wurde!;;se ha reasignado $SUB$!;;;;;;;;;x
+TRANSFEREDSUBUNIT_2;$MONARCHTITLE$,ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ $SUB$ ï¿½ï¿½ $OLD$ ï¿½ï¿½ï¿½äµ½ï¿½ï¿½;$MONARCHTITLE$, nous avons rï¿½affect?l'unit?$SUB$ de l'unit?$OLD$ ?l'unit?$MONARCHTITLE$, wir haben $SUB$ von $OLD$ nach;;$MONARCHTITLE$, hemos reasignado $SUB$ de $OLD$ a;;;;;;;;;;x
 TRANSFEREDSUBUNIT_3;$NEW$;$NEW$;$NEW$ transferiert;;$NEW$;;;;;;;;;x
 TRANSFEREDSUBUNIT_4;*;*;*;;*;;;;;;;;;x
 TRANSFEREDSUBUNIT_5;*;*;*;;*;;;;;;;;;x
 TRANSFEREDSUBUNIT_6;*;*;*;;*;;;;;;;;;x
-TRANSFEREDSUBUNIT_LOG;$SUB$ ÒÑ¾­±»·ÖÅäµ½ÁË $NEW$¡£;L'unit?$SUB$ a ét?transférée ?l'unit?$NEW$.;$SUB$ wurde $NEW$ angegliedert.;;Se ha asignado $SUB$ a $NEW$.;;;;;;;;;x
-TRANSFEREDSUBUNIT_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-TRANSFEREDSUBUNIT_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-TRANSFEREDSUBUNIT_BTN3;²é¿´;Aller ?Goto;;Ir all?;;;;;;;;x
+TRANSFEREDSUBUNIT_LOG;$SUB$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½äµ½ï¿½ï¿½ $NEW$ï¿½ï¿½;L'unit?$SUB$ a ï¿½t?transfï¿½rï¿½e ?l'unit?$NEW$.;$SUB$ wurde $NEW$ angegliedert.;;Se ha asignado $SUB$ a $NEW$.;;;;;;;;;x
+TRANSFEREDSUBUNIT_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+TRANSFEREDSUBUNIT_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+TRANSFEREDSUBUNIT_BTN3;ï¿½é¿´;Aller ?Goto;;Ir all?;;;;;;;;;;x
 TRANSFEREDSUBUNIT_MAP;*;*;*;;*;;;;;;;;;x
-UNITDEPLOYED_SETUP;µ±ÎÒÃÇÔÚµØÍ¼ÉÏÅäÖÃÒ»¸öÐÂµÄµ¥Î»;Lorsque nous déployons une nouvelle unit?sur la carte.;Wenn wir eine neue Einheit auf der Karte einsetzen.;;Cuando desplegamos una nueva unidad en el mapa.;;;;;;;;;x
-UNITDEPLOYED_HEADER;$chief_of_staff$ ±¨¸æ;$chief_of_staff$ nous informe que;$chief_of_staff$ berichtet, dass;;$chief_of_staff$ informa de que;;;;;;;;;x
-UNITDEPLOYED_1;$UNIT$ ÒÑ¾­ÅäÖÃ;l'unit?$UNIT$ a ét?déployée;$UNIT$ im Einsatz ist.;;se ha desplegado $UNIT$;;;;;;;;;x
-UNITDEPLOYED_2;$MONARCHTITLE$, $UNIT$ ÒÑ¾­×öºÃÐÐ¶¯×¼±¸²¢±»ÅäÖÃµ½ÁËÈçÏÂµØÇø;$MONARCHTITLE$, l'unit?$UNIT$ est maintenant déployée;$MONARCHTITLE$, $UNIT$ ist nun bereit zum Einsatz in;;$MONARCHTITLE$, $UNIT$ se encuentra en estado operativo y se ha desplegado en;;;;;;;;;x
-UNITDEPLOYED_3;$LOCATION$;?$LOCATION$ et prête au combat.;$LOCATION$;;$LOCATION$;;;;;;;;;x
+UNITDEPLOYED_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ÂµÄµï¿½Î»;Lorsque nous dï¿½ployons une nouvelle unit?sur la carte.;Wenn wir eine neue Einheit auf der Karte einsetzen.;;Cuando desplegamos una nueva unidad en el mapa.;;;;;;;;;x
+UNITDEPLOYED_HEADER;$chief_of_staff$ ï¿½ï¿½ï¿½ï¿½;$chief_of_staff$ nous informe que;$chief_of_staff$ berichtet, dass;;$chief_of_staff$ informa de que;;;;;;;;;x
+UNITDEPLOYED_1;$UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½;l'unit?$UNIT$ a ï¿½t?dï¿½ployï¿½e;$UNIT$ im Einsatz ist.;;se ha desplegado $UNIT$;;;;;;;;;x
+UNITDEPLOYED_2;$MONARCHTITLE$, $UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½ï¿½;$MONARCHTITLE$, l'unit?$UNIT$ est maintenant dï¿½ployï¿½e;$MONARCHTITLE$, $UNIT$ ist nun bereit zum Einsatz in;;$MONARCHTITLE$, $UNIT$ se encuentra en estado operativo y se ha desplegado en;;;;;;;;;x
+UNITDEPLOYED_3;$LOCATION$;?$LOCATION$ et prï¿½te au combat.;$LOCATION$;;$LOCATION$;;;;;;;;;x
 UNITDEPLOYED_4;*;*;*;;*;;;;;;;;;x
 UNITDEPLOYED_5;*;*;*;;*;;;;;;;;;x
 UNITDEPLOYED_6;*;*;*;;*;;;;;;;;;x
-UNITDEPLOYED_LOG;$UNIT$ ÅäÖÃµ½ÁË $LOCATION$¡£;L'unit?$UNIT$ a ét?déployée ?$LOCATION$.;$UNIT$ abkommandiert nach $LOCATION$.;;$UNIT$ se ha desplegado en $LOCATION$.;;;;;;;;;x
-UNITDEPLOYED_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-UNITDEPLOYED_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-UNITDEPLOYED_BTN3;²é¿´;Aller ?Goto;;Ir all?;;;;;;;;x
-UNITDEPLOYED_MAP;$UNIT$ ÒÑ¾­ÅäÖÃ.;*;*;;*;;;;;;;;;x
-WE_RETURN_EXILE_SETUP;µ±ÎÒÃÇ½â·ÅÁËÒ»¸ö¹ú¼Ò²¢»Ö¸´ÁËËûÃÇµÄÕþ¸®;Lorsque nous libérons un pays et rétablissons son gouvernement.;Wenn wir ein Land befreien und seine Regierung wieder einsetzen.;;Cuando liberamos un país y restauramos su Gobierno.;;;;;;;;;x
-WE_RETURN_EXILE_HEADER;ÎÒÃÇ½â·ÅÁË;Nous avons libér?le pays :;Wir haben;;Hemos liberado;;;;;;;;;x
+UNITDEPLOYED_LOG;$UNIT$ ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ $LOCATION$ï¿½ï¿½;L'unit?$UNIT$ a ï¿½t?dï¿½ployï¿½e ?$LOCATION$.;$UNIT$ abkommandiert nach $LOCATION$.;;$UNIT$ se ha desplegado en $LOCATION$.;;;;;;;;;x
+UNITDEPLOYED_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+UNITDEPLOYED_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+UNITDEPLOYED_BTN3;ï¿½é¿´;Aller ?Goto;;Ir all?;;;;;;;;;;x
+UNITDEPLOYED_MAP;$UNIT$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½.;*;*;;*;;;;;;;;;x
+WE_RETURN_EXILE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque nous libï¿½rons un pays et rï¿½tablissons son gouvernement.;Wenn wir ein Land befreien und seine Regierung wieder einsetzen.;;Cuando liberamos un paï¿½s y restauramos su Gobierno.;;;;;;;;;x
+WE_RETURN_EXILE_HEADER;ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½;Nous avons libï¿½r?le pays :;Wir haben;;Hemos liberado;;;;;;;;;x
 WE_RETURN_EXILE_1;$FREE$;$FREE$.;$FREE$ befreit;;$FREE$;;;;;;;;;x
-WE_RETURN_EXILE_2;$TITLE$£¬¶Ô $FREE$ \nµÄ½â·ÅÈ¡µÃÁË¾Þ´óµÄ³É¹¦¡£\nÔÚ½ñÌì»¶ÀÖµÄÇìµäÖÐ£¬n\²¿¶ÓÁÐ¶Ó´©¹ýÁË\n $FCAPITAL$ ¡£;$TITLE$, nous vous informons que notre tentative de libération de $FREE$ a ét?couronnée de succès. Aujourd'hui, les troupes ont défil?avec enthousiasme dans $FCAPITAL$ pour fêter la victoire.;$TITLE$, wir können vermelden, dass unsere Befreiung von $FREE$ ein großer Erfolg war. Heute ist eine Militärparade triumphierend durch $FCAPITAL$ marschiert.;;$TITLE$, podemos informar de que nuestra liberación de $FREE$ ha sido un éxito rotundo. Hoy, un desfile de tropas ha marchado sobre $FCAPITAL$ en alegre celebración.;;;;;;;;;x
+WE_RETURN_EXILE_2;$TITLE$ï¿½ï¿½ï¿½ï¿½ $FREE$ \nï¿½Ä½ï¿½ï¿½È¡ï¿½ï¿½ï¿½Ë¾Þ´ï¿½Ä³É¹ï¿½ï¿½ï¿½\nï¿½Ú½ï¿½ï¿½ì»¶ï¿½Öµï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½n\ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶Ó´ï¿½ï¿½ï¿½ï¿½ï¿½\n $FCAPITAL$ ï¿½ï¿½;$TITLE$, nous vous informons que notre tentative de libï¿½ration de $FREE$ a ï¿½t?couronnï¿½e de succï¿½s. Aujourd'hui, les troupes ont dï¿½fil?avec enthousiasme dans $FCAPITAL$ pour fï¿½ter la victoire.;$TITLE$, wir kï¿½nnen vermelden, dass unsere Befreiung von $FREE$ ein groï¿½er Erfolg war. Heute ist eine Militï¿½rparade triumphierend durch $FCAPITAL$ marschiert.;;$TITLE$, podemos informar de que nuestra liberaciï¿½n de $FREE$ ha sido un ï¿½xito rotundo. Hoy, un desfile de tropas ha marchado sobre $FCAPITAL$ en alegre celebraciï¿½n.;;;;;;;;;x
 WE_RETURN_EXILE_3;*;*;*;;*;;;;;;;;;x
 WE_RETURN_EXILE_4;*;*;*;;*;;;;;;;;;x
 WE_RETURN_EXILE_5;*;*;*;;*;;;;;;;;;x
 WE_RETURN_EXILE_6;*;*;*;;*;;;;;;;;;x
-WE_RETURN_EXILE_LOG;ÎÒÃÇ½â·ÅÁË $FREE$£¬ËûÃÇµÄÕþ¸®ÒÑÓÚ $FCAPITAL$ »Ö¸´¡£;Nous avons libér?$FREE$ et rétabli son gouvernement dans la capitale $FCAPITAL$.;Wir haben $FREE$ befreit und seine Regierung in $FCAPITAL$ wiederhergestellt.;;Hemos liberado $FREE$ y se ha restaurado su Gobierno en $FCAPITAL$.;;;;;;;;;x
-WE_RETURN_EXILE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_RETURN_EXILE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-WE_RETURN_EXILE_BTN3;ÏêÏ¸;Détails;Details;;Detalles;;;;;;;;;x
+WE_RETURN_EXILE_LOG;ï¿½ï¿½ï¿½Ç½ï¿½ï¿½ï¿½ï¿½ $FREE$ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $FCAPITAL$ ï¿½Ö¸ï¿½ï¿½ï¿½;Nous avons libï¿½r?$FREE$ et rï¿½tabli son gouvernement dans la capitale $FCAPITAL$.;Wir haben $FREE$ befreit und seine Regierung in $FCAPITAL$ wiederhergestellt.;;Hemos liberado $FREE$ y se ha restaurado su Gobierno en $FCAPITAL$.;;;;;;;;;x
+WE_RETURN_EXILE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_RETURN_EXILE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+WE_RETURN_EXILE_BTN3;ï¿½ï¿½Ï¸;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 WE_RETURN_EXILE_MAP;*;*;*;;*;;;;;;;;;x
-RETURN_EXILE_US_SETUP;µ±ÎÒÃÇµÄÕþ¸®ÔÚÃË¹ú°ïÖúÏÂµÃÒÔ»Ö¸´;Lorsque notre gouvernement est rétabli par nos alliés.;Wenn unsere Regierung von unseren Verbünbdeten wieder eingesetzt wurde.;;Cuando nuestro Gobierno ha sido restaurado por nuestros aliados.;;;;;;;;;x
-RETURN_EXILE_US_HEADER;ÎÒÃÇÒÑ±»ÈçÏÂ¹ú¼Ò½â·Å;Nous avons ét?libérés par;Wir wurden befreit von;;Hemos sido liberados por;;;;;;;;;x
+RETURN_EXILE_US_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½ï¿½Ô»Ö¸ï¿½;Lorsque notre gouvernement est rï¿½tabli par nos alliï¿½s.;Wenn unsere Regierung von unseren Verbï¿½nbdeten wieder eingesetzt wurde.;;Cuando nuestro Gobierno ha sido restaurado por nuestros aliados.;;;;;;;;;x
+RETURN_EXILE_US_HEADER;ï¿½ï¿½ï¿½ï¿½ï¿½Ñ±ï¿½ï¿½ï¿½ï¿½Â¹ï¿½ï¿½Ò½ï¿½ï¿½;Nous avons ï¿½t?libï¿½rï¿½s par;Wir wurden befreit von;;Hemos sido liberados por;;;;;;;;;x
 RETURN_EXILE_US_1;$FROM$;$FROM$.;$FROM$;;$FROM$;;;;;;;;;x
-RETURN_EXILE_US_2;$TITLE$£¬$FCAPITAL$ ÒÑ±»½â·Å£¬ÎÒÃÇµÄÕþ¸®Ò²ÒÑ¾­ÕýÊ½»Ø¹é¡£Õû¸ö³ÇÊÐ³äÂúÁË»¶ºôÒÔÇì×£ÕâÎ°´óµÄÒ»Ìì¡£ÎÒÃÇÓÀÔ¶ÔÞÃÀ $FROM$ ÎªÕü¾ÈÎÒÃÇ¹ú¼ÒËù×öµÄÒ»ÇÐ¡£;$TITLE$, nous vous informons que $FCAPITAL$ a ét?libérée et que le gouvernement a officiellement ét?remis en place. La ville grouille d'une foule festive célébrant ce grand jour. Nous serons éternellement reconnaissants envers $FROM$ pour ses faits d'ar;$TITLE$, wir können vermelden, dass $FCAPITAL$ befreit wurde und unsere Regierung nun offiziell wieder zurückgekehrt ist. Die Stadt ist voller jubelnder Menschen die diesen großen Tag feiern. Wir sind $FROM$ auf ewig für ihre Befreiung unseres Landes dankbar.;;$TITLE$, podemos informar de que se ha liberado $FCAPITAL$ y se ha producido el regreso oficial de nuestro Gobierno. La ciudad est?llena de personas celebrando este gran día. $FROM$ tiene nuestra gratitud eterna por su actuación al salvar a nuestra nación.;;;;;;;;;x
+RETURN_EXILE_US_2;$TITLE$ï¿½ï¿½$FCAPITAL$ ï¿½Ñ±ï¿½ï¿½ï¿½Å£ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½Ñ¾ï¿½ï¿½ï¿½Ê½ï¿½Ø¹é¡£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð³ï¿½ï¿½ï¿½ï¿½Ë»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×£ï¿½ï¿½Î°ï¿½ï¿½ï¿½Ò»ï¿½ì¡£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ $FROM$ Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Ð¡ï¿½;$TITLE$, nous vous informons que $FCAPITAL$ a ï¿½t?libï¿½rï¿½e et que le gouvernement a officiellement ï¿½t?remis en place. La ville grouille d'une foule festive cï¿½lï¿½brant ce grand jour. Nous serons ï¿½ternellement reconnaissants envers $FROM$ pour ses faits d'ar;$TITLE$, wir kï¿½nnen vermelden, dass $FCAPITAL$ befreit wurde und unsere Regierung nun offiziell wieder zurï¿½ckgekehrt ist. Die Stadt ist voller jubelnder Menschen die diesen groï¿½en Tag feiern. Wir sind $FROM$ auf ewig fï¿½r ihre Befreiung unseres Landes dankbar.;;$TITLE$, podemos informar de que se ha liberado $FCAPITAL$ y se ha producido el regreso oficial de nuestro Gobierno. La ciudad est?llena de personas celebrando este gran dï¿½a. $FROM$ tiene nuestra gratitud eterna por su actuaciï¿½n al salvar a nuestra naciï¿½n.;;;;;;;;;x
 RETURN_EXILE_US_3;*;*;*;;*;;;;;;;;;x
 RETURN_EXILE_US_4;*;*;*;;*;;;;;;;;;x
 RETURN_EXILE_US_5;*;*;*;;*;;;;;;;;;x
 RETURN_EXILE_US_6;*;*;*;;*;;;;;;;;;x
-RETURN_EXILE_US_LOG;ÎÒÃÇµÄÕþ¸®ÒÑ¾­ÔÚ $FCAPITAL$ »Ö¸´£¬¸ÐÐ» $FROM$ µÄ°ïÖú¡£;Notre gouvernement a ét?restaur?dans la capitale $FCAPITAL$ grâce ?l'aide de $FROM$.;Unsere Regierung wurde in $FCAPITAL$ wieder eingesetzt, dank der Hilfe aus $FROM$.;;Nuestro gobierno ha sido restaurado en $FCAPITAL$, gracias a la ayuda de $FROM$.;;;;;;;;;x
-RETURN_EXILE_US_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-RETURN_EXILE_US_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-RETURN_EXILE_US_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+RETURN_EXILE_US_LOG;ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ $FCAPITAL$ ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½Ð» $FROM$ ï¿½Ä°ï¿½ï¿½ï¿½ï¿½ï¿½;Notre gouvernement a ï¿½t?restaur?dans la capitale $FCAPITAL$ grï¿½ce ?l'aide de $FROM$.;Unsere Regierung wurde in $FCAPITAL$ wieder eingesetzt, dank der Hilfe aus $FROM$.;;Nuestro gobierno ha sido restaurado en $FCAPITAL$, gracias a la ayuda de $FROM$.;;;;;;;;;x
+RETURN_EXILE_US_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+RETURN_EXILE_US_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+RETURN_EXILE_US_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 RETURN_EXILE_US_MAP;*;*;*;;*;;;;;;;;;x
-RETURN_EXILE_SETUP;µ±Ò»¸ö¹ú¼Ò»Ö¸´ÁË×Ô¼ºµÄÕþ¸®;Lorsque le gouvernement d'un autre pays a ét?rétabli.;Wenn die Regierung eines anderen Landes wieder eingesetzt wird.;;Cuando restablecen el gobierno de otro país.;;;;;;;;;x
-RETURN_EXILE_HEADER;$foreign_minister$ ±¨¸æ;$foreign_minister$ nous a signal?$foreign_minister$ berichtet, dass;;?foreign_minister$ informa que;;;;;;;;;x
-RETURN_EXILE_1;$FREE$ ÒÑ¾­±»½â·Å!;la libération de $FREE$ !;$FREE$ befreit wurde!;;han liberado $FREE$!;;;;;;;;;x
-RETURN_EXILE_2;$TITLE$£¬$FREE$ ÒÑ¾­±» $FROM$ ½â·Å¡£ËûÃÇµÄÕþ¸®ÒÑ¾­ÓÚ $FCAPITAL$ »Ö¸´£¬Òò´ËËûÃÇÒÑ¾­²»ÔÙÊÇÁ÷ÍöÕþ¸®ÁË¡£;$TITLE$, nous vous signalons que $FREE$ a ét?libér?par $FROM$. Le gouvernement a ét?restaur?dans capitale $FCAPITAL$ et n'est plus en exil.;$TITLE$, wir können vermelden, dass $FREE$ von $FROM$ befreit wurde. Die Regierung wurde wieder in $FCAPITAL$ eingesetzt, sie befindet sich nun nicht mehr im Exil.;;$TITLE$, podemos informar que $FROM$ ha liberado $FREE$. Su Gobierno se ha restaurado en $FCAPITAL$ y ya no est?en el exilio.;;;;;;;;;x
+RETURN_EXILE_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ö¸ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque le gouvernement d'un autre pays a ï¿½t?rï¿½tabli.;Wenn die Regierung eines anderen Landes wieder eingesetzt wird.;;Cuando restablecen el gobierno de otro paï¿½s.;;;;;;;;;x
+RETURN_EXILE_HEADER;$foreign_minister$ ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ nous a signal?$foreign_minister$ berichtet, dass;;?foreign_minister$ informa que;;;;;;;;;;x
+RETURN_EXILE_1;$FREE$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!;la libï¿½ration de $FREE$ !;$FREE$ befreit wurde!;;han liberado $FREE$!;;;;;;;;;x
+RETURN_EXILE_2;$TITLE$ï¿½ï¿½$FREE$ ï¿½Ñ¾ï¿½ï¿½ï¿½ $FROM$ ï¿½ï¿½Å¡ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ $FCAPITAL$ ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½;$TITLE$, nous vous signalons que $FREE$ a ï¿½t?libï¿½r?par $FROM$. Le gouvernement a ï¿½t?restaur?dans capitale $FCAPITAL$ et n'est plus en exil.;$TITLE$, wir kï¿½nnen vermelden, dass $FREE$ von $FROM$ befreit wurde. Die Regierung wurde wieder in $FCAPITAL$ eingesetzt, sie befindet sich nun nicht mehr im Exil.;;$TITLE$, podemos informar que $FROM$ ha liberado $FREE$. Su Gobierno se ha restaurado en $FCAPITAL$ y ya no est?en el exilio.;;;;;;;;;x
 RETURN_EXILE_3;*;*;*;;*;;;;;;;;;x
 RETURN_EXILE_4;*;*;*;;*;;;;;;;;;x
 RETURN_EXILE_5;*;*;*;;*;;;;;;;;;x
 RETURN_EXILE_6;*;*;*;;*;;;;;;;;;x
-RETURN_EXILE_LOG;$FREE$ ÒÑ¾­±»½â·Å£¬ËûÃÇµÄÕþ¸®ÔÚÒÑ¾­ÓÚ $FCAPITAL$ »Ö¸´¡£;$FREE$ a ét?libér?et leur gouvernement a ét?restaur?dans capitale $FCAPITAL$.;$FREE$ wurde befreit und die Regierung in $FCAPITAL$ wiederhergestellt.;;Se ha liberado $FREE$ y se ha restaurado su Gobierno en $FCAPITAL$.;;;;;;;;;x
-RETURN_EXILE_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-RETURN_EXILE_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-RETURN_EXILE_BTN3;ÏêÇé;Détails;Details;;Detalles;;;;;;;;;x
+RETURN_EXILE_LOG;$FREE$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½ï¿½ï¿½ï¿½Çµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ $FCAPITAL$ ï¿½Ö¸ï¿½ï¿½ï¿½;$FREE$ a ï¿½t?libï¿½r?et leur gouvernement a ï¿½t?restaur?dans capitale $FCAPITAL$.;$FREE$ wurde befreit und die Regierung in $FCAPITAL$ wiederhergestellt.;;Se ha liberado $FREE$ y se ha restaurado su Gobierno en $FCAPITAL$.;;;;;;;;;x
+RETURN_EXILE_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+RETURN_EXILE_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+RETURN_EXILE_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;;Detalles;;;;;;;;;x
 RETURN_EXILE_MAP;*;*;*;;*;;;;;;;;;x
-REVOLT_SETUP;µ±ÄãµÄÒ»¸öÊ¡·Ý·¢ÉúÁËÅÑÂÒ;Lorsqu'une insurrection éclate dans l'une de vos provinces.;Wenn ein Aufstand in einer Ihrer Provinzen ausbricht;;Cuando haya una insurrección en una de tus provincias;;;;;;;;;x
-REVOLT_HEADER;$minister_of_security$ ±¨¸æ;$minister_of_security$ signale qu'un;$minister_of_security$ berichtet;;?minister_of_security$ informa de una;;;;;;;;;x
-REVOLT_1;ÅÑÂÒ!;soulèvement a éclat?!;Aufstand!;;insurrección!;;;;;;;;;x
-REVOLT_2;$MONARCHTITLE$£¬$REBELS$ ÒÑÓÚÈçÏÂÊ¡·Ý³öÏÖ;$MONARCHTITLE$, une insurrection rebelle des $REBELS$ a eu lieu dans la province :;$MONARCHTITLE$, $REBELS$ haben sich erhoben in;;$MONARCHTITLE$, ?REBELS$ se han alzado en;;;;;;;;;x
+REVOLT_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ê¡ï¿½Ý·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsqu'une insurrection ï¿½clate dans l'une de vos provinces.;Wenn ein Aufstand in einer Ihrer Provinzen ausbricht;;Cuando haya una insurrecciï¿½n en una de tus provincias;;;;;;;;;x
+REVOLT_HEADER;$minister_of_security$ ï¿½ï¿½ï¿½ï¿½;$minister_of_security$ signale qu'un;$minister_of_security$ berichtet;;?minister_of_security$ informa de una;;;;;;;;;x
+REVOLT_1;ï¿½ï¿½ï¿½ï¿½!;soulï¿½vement a ï¿½clat?!;Aufstand!;;insurrecciï¿½n!;;;;;;;;;x
+REVOLT_2;$MONARCHTITLE$ï¿½ï¿½$REBELS$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½Ý³ï¿½ï¿½ï¿½;$MONARCHTITLE$, une insurrection rebelle des $REBELS$ a eu lieu dans la province :;$MONARCHTITLE$, $REBELS$ haben sich erhoben in;;$MONARCHTITLE$, ?REBELS$ se han alzado en;;;;;;;;;x
 REVOLT_3;$PROV$!;$PROV$ !;$PROV$!;;$PROV$;;;;;;;;;x
 REVOLT_4;$REBELDESC$;$REBELDESC$;$REBELDESC$;;$REBELDESC$;;;;;;;;;x
 REVOLT_5;*;*;*;;*;;;;;;;;;x
 REVOLT_6;*;*;*;;*;;;;;;;;;x
-REVOLT_LOG;$REBELS$ ÔÚ $PROV$ ·¢ÆðÁËÅÑÂÒ!;Des $REBELS$ se révoltent dans la province de : $PROV$ !;$REBELS$ erheben sich in $PROV$!;;¡Una insurrección de $REBELS$ en $PROV$!;;;;;;;;;x
-REVOLT_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-REVOLT_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-REVOLT_BTN3;²é¿´;Aller ?Goto;;Ir all?;;;;;;;;x
-REVOLT_MAP;ÅÑÂÒ!;Révolte !;Revolte!;;¡Revuelta!;;;;;;;;;x
-PARTISANS_SETUP;µ±ÎÒÃÇ¿ØÖÆµÄÓÎ»÷¶Ó·¢¶¯ÁËÆðÒå;Lorsque les partisans s'insurgent contre notre oppresseur.;Wenn wir einen Partisanenaufstand unter Kontrolle bringen müssen;;Cuando hay un levantamiento partisano en nuestro favor;;;;;;;;;x
-PARTISANS_HEADER;$minister_of_intelligence$ ±¨¸æ;$minister_of_intelligence$ signale que;$minister_of_intelligence$ berichtet, dass;;$minister_of_intelligence$ nos informa que;;;;;;;;;x
-PARTISANS_1;·´¿¹ $EVIL$ µÄÓÎ»÷¶ÓÒÑ¾­ÓÚÈçÏÂÊ¡·ÝÆðÒå;se sont insurgés contre $EVIL$ dans la province :;sich Partisanen erheben gegen $EVIL$ in;;los partisanos se han levantado contra $EVIL$ en;;;;;;;;;x
+REVOLT_LOG;$REBELS$ ï¿½ï¿½ $PROV$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!;Des $REBELS$ se rï¿½voltent dans la province de : $PROV$ !;$REBELS$ erheben sich in $PROV$!;;ï¿½Una insurrecciï¿½n de $REBELS$ en $PROV$!;;;;;;;;;x
+REVOLT_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+REVOLT_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+REVOLT_BTN3;ï¿½é¿´;Aller ?Goto;;Ir all?;;;;;;;;;;x
+REVOLT_MAP;ï¿½ï¿½ï¿½ï¿½!;Rï¿½volte !;Revolte!;;ï¿½Revuelta!;;;;;;;;;x
+PARTISANS_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½Æµï¿½ï¿½Î»ï¿½ï¿½Ó·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque les partisans s'insurgent contre notre oppresseur.;Wenn wir einen Partisanenaufstand unter Kontrolle bringen mï¿½ssen;;Cuando hay un levantamiento partisano en nuestro favor;;;;;;;;;x
+PARTISANS_HEADER;$minister_of_intelligence$ ï¿½ï¿½ï¿½ï¿½;$minister_of_intelligence$ signale que;$minister_of_intelligence$ berichtet, dass;;$minister_of_intelligence$ nos informa que;;;;;;;;;x
+PARTISANS_1;ï¿½ï¿½ï¿½ï¿½ $EVIL$ ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;se sont insurgï¿½s contre $EVIL$ dans la province :;sich Partisanen erheben gegen $EVIL$ in;;los partisanos se han levantado contra $EVIL$ en;;;;;;;;;x
 PARTISANS_2;$PROV$;$PROV$.;$PROV$;;$PROV$;;;;;;;;;x
-PARTISANS_3; $PROV$ µÄ°®¹úÕßÒÑ¾­ÄÃÆðÁËÎäÆ÷¼¯ºÏ³ÉÎªÒ»Ö§×÷Õ½²¿¶ÓÊÔÍ¼»Ö¸´ÎÒÃÇ×æ¹úµÄÁìÍÁ¡£;Des citoyens patriotes ont pris les armes dans la province $PROV$ et ont réuni des forces armées pour tenter de reprendre notre mère patrie.;Patriotische Bürger greifen in $PROV$ zu den Waffen und organisieren eine kämpfende Truppe, um unser Heimatgebiet zurück zu erobern.;;Unos ciudadanos patriotas han tomado las armas en $PROV$ y han organizado una fuerza de combate con la intención de retomar nuestro territorio.;;;;;;;;;x
+PARTISANS_3; $PROV$ ï¿½Ä°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï³ï¿½ÎªÒ»Ö§ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Des citoyens patriotes ont pris les armes dans la province $PROV$ et ont rï¿½uni des forces armï¿½es pour tenter de reprendre notre mï¿½re patrie.;Patriotische Bï¿½rger greifen in $PROV$ zu den Waffen und organisieren eine kï¿½mpfende Truppe, um unser Heimatgebiet zurï¿½ck zu erobern.;;Unos ciudadanos patriotas han tomado las armas en $PROV$ y han organizado una fuerza de combate con la intenciï¿½n de retomar nuestro territorio.;;;;;;;;;x
 PARTISANS_4;*;*;*;;*;;;;;;;;;x
 PARTISANS_5;*;*;*;;*;;;;;;;;;x
 PARTISANS_6;*;*;*;;*;;;;;;;;;x
-PARTISANS_LOG;ÎÒÃÇµÄÓÎ»÷¶ÓÒÑ¾­ÓÚ $PROV$ ÆðÒå¡£;Des partisans se sont révoltés au nom de notre patrie dans la province : $PROV$.;Partisanen erheben sich für uns in $PROV$.;;Levantamiento partisano en nuestro favor en $PROV$.;;;;;;;;;x
-PARTISANS_BTN1;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-PARTISANS_BTN2;ºÃµÄ;OK;OK;;Aceptar;;;;;;;;;x
-PARTISANS_BTN3;²é¿´;Aller ?Goto;;Ir all?;;;;;;;;x
-PARTISANS_MAP;ÓÎ»÷¶Ó!;Partisans !;Partisanen!;;¡Partisanos!;;;;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_SETUP;µ±±ð¹ú·¢ÉúÁË¶àÑ¡ÏîµÄÖØ´óÊÂ¼þ;Lorsqu'un événement ?choix multiple majeur se produit pour un autre pays.;Wenn ein wichtiges Ereignis mit mehreren Auswahlmöglichkeiten für ein anderes Land eintritt.;;Cuando a otro país le ocurra un suceso importante con múltiples opciones.;;;;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_HEADER;$foreign_minister$ ±¨¸æ;$foreign_minister$ a rédig?un rapport concernant :;;;$foreign_minister$ nos informa sobre;;;;;;;;;x
+PARTISANS_LOG;ï¿½ï¿½ï¿½Çµï¿½ï¿½Î»ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ $PROV$ ï¿½ï¿½ï¿½å¡£;Des partisans se sont rï¿½voltï¿½s au nom de notre patrie dans la province : $PROV$.;Partisanen erheben sich fï¿½r uns in $PROV$.;;Levantamiento partisano en nuestro favor en $PROV$.;;;;;;;;;x
+PARTISANS_BTN1;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+PARTISANS_BTN2;ï¿½Ãµï¿½;OK;OK;;Aceptar;;;;;;;;;x
+PARTISANS_BTN3;ï¿½é¿´;Aller ?Goto;;Ir all?;;;;;;;;;;x
+PARTISANS_MAP;ï¿½Î»ï¿½ï¿½ï¿½!;Partisans !;Partisanen!;;ï¿½Partisanos!;;;;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¶ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½Â¼ï¿½;Lorsqu'un ï¿½vï¿½nement ?choix multiple majeur se produit pour un autre pays.;Wenn ein wichtiges Ereignis mit mehreren Auswahlmï¿½glichkeiten fï¿½r ein anderes Land eintritt.;;Cuando a otro paï¿½s le ocurra un suceso importante con mï¿½ltiples opciones.;;;;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_HEADER;$foreign_minister$ ï¿½ï¿½ï¿½ï¿½;$foreign_minister$ a rï¿½dig?un rapport concernant :;;;$foreign_minister$ nos informa sobre;;;;;;;;;x
 MAJOREVENTHAPPENOTHEROPTION_1;$COUNTRY$;$COUNTRY$.;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_2;ÎÒÃÇµÄÍâ½»ÈËÔ±ÌýËµÓÐÈçÏÂÊÂ¼þ;Notre ambassade a appris que lorsque;;;Nuestra embajada se ha enterado de que ha ocurrido;;;;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_2;ï¿½ï¿½ï¿½Çµï¿½ï¿½â½»ï¿½ï¿½Ô±ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½;Notre ambassade a appris que lorsque;;;Nuestra embajada se ha enterado de que ha ocurrido;;;;;;;;;x
 MAJOREVENTHAPPENOTHEROPTION_3;$EVENT$;$EVENT$;$EVENT$;$EVENT$.;$EVENT$;$EVENT$,;$EVENT$;$EVENT$;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_4;ÔÚ¸Ã¹ú·¢ÉúÁË£¬¶øËûÃÇÔÚ´ËÊÂ¼þÖÐÑ¡ÔñÁË;avait eu lieu, ils avaient choisi de;;;y han escogido;;;;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_4;ï¿½Ú¸Ã¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú´ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½;avait eu lieu, ils avaient choisi de;;;y han escogido;;;;;;;;;x
 MAJOREVENTHAPPENOTHEROPTION_5;$OPTION$;$OPTION$;$OPTION$;$OPTION$;$OPTION$;$OPTION$;$OPTION$;$OPTION$;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_6;×÷ÎªËûÃÇµÄÐÐ¶¯;parmi les choix qui leur étaient offerts.;gewählt haben..;jako opcj?dzia³ania.;como curso de acción.;.;és cselekedett is.;jako svoji volbu.;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_LOG;ÖØ´óÊÂ¼þ£º$COUNTRY$ ÔÚ $EVENT$ ÖÐÑ¡ÔñÁË $OPTION$ ¡£;Événement majeur : $COUNTRY$ a choisi de $OPTION$ lors de $EVENT$.;Ereignis: $OPTION$ in $EVENT$ für $COUNTRY$.;$COUNTRY$. $EVENT$. $OPTION$;Suceso importante: $OPTION$ en $EVENT$ para $COUNTRY$.;Evento: $OPTION$ per $EVENT$ in $COUNTRY$.;Esemény: $COUNTRY$ nemzete a/az $OPTION$ lehetõséget választotta erre az eseményre válaszolva: $EVENT$.;Událost: $OPTION$ v $EVENT$ pro $COUNTRY$.;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-MAJOREVENTHAPPENOTHEROPTION_BTN3;²é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;PØEJÍT NA;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_6;ï¿½ï¿½Îªï¿½ï¿½ï¿½Çµï¿½ï¿½Ð¶ï¿½;parmi les choix qui leur ï¿½taient offerts.;gewï¿½hlt haben..;jako opcj?dziaï¿½ania.;como curso de acciï¿½n.;.;ï¿½s cselekedett is.;jako svoji volbu.;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_LOG;ï¿½Ø´ï¿½ï¿½Â¼ï¿½ï¿½ï¿½$COUNTRY$ ï¿½ï¿½ $EVENT$ ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ $OPTION$ ï¿½ï¿½;ï¿½vï¿½nement majeur : $COUNTRY$ a choisi de $OPTION$ lors de $EVENT$.;Ereignis: $OPTION$ in $EVENT$ fï¿½r $COUNTRY$.;$COUNTRY$. $EVENT$. $OPTION$;Suceso importante: $OPTION$ en $EVENT$ para $COUNTRY$.;Evento: $OPTION$ per $EVENT$ in $COUNTRY$.;Esemï¿½ny: $COUNTRY$ nemzete a/az $OPTION$ lehetï¿½sï¿½get vï¿½lasztotta erre az esemï¿½nyre vï¿½laszolva: $EVENT$.;Udï¿½lost: $OPTION$ v $EVENT$ pro $COUNTRY$.;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+MAJOREVENTHAPPENOTHEROPTION_BTN3;ï¿½é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;Pï¿½EJï¿½T NA;;;;;;;;x
 MAJOREVENTHAPPENOTHEROPTION_MAP;*;*;*;*;*;*;*;;;;;;;x
-MAJOREVENTHAPPENOTHER_SETUP;µ±±ð¹ú·¢ÉúÁËµ¥Ñ¡ÏîµÄÖØ´óÊÂ¼þ;Lorsqu'un événement ?choix unique se produit pour un autre pays.;Wenn ein wichtiges Ereignis mit nur einer Auswahlmöglichkeit für ein anderes Land eintritt.;;Cuando a otro país le ocurra un suceso importante con una única opción.;;;;;;;;;x
-MAJOREVENTHAPPENOTHER_HEADER;$foreign_minister$ ±¨¸æ;Selon les rapports de $foreign_minister$ concernant;;;$foreign_minister$ informa sobre;;;;;;;;;x
+MAJOREVENTHAPPENOTHER_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Ø´ï¿½ï¿½Â¼ï¿½;Lorsqu'un ï¿½vï¿½nement ?choix unique se produit pour un autre pays.;Wenn ein wichtiges Ereignis mit nur einer Auswahlmï¿½glichkeit fï¿½r ein anderes Land eintritt.;;Cuando a otro paï¿½s le ocurra un suceso importante con una ï¿½nica opciï¿½n.;;;;;;;;;x
+MAJOREVENTHAPPENOTHER_HEADER;$foreign_minister$ ï¿½ï¿½ï¿½ï¿½;Selon les rapports de $foreign_minister$ concernant;;;$foreign_minister$ informa sobre;;;;;;;;;x
 MAJOREVENTHAPPENOTHER_1;$COUNTRY$;$COUNTRY$,;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;$COUNTRY$;;;;;;x
-MAJOREVENTHAPPENOTHER_2;ËÆºõÓÐÈçÏÂÊÂ¼þ;il semble que;;;Parece que;;;;;;;;;x
+MAJOREVENTHAPPENOTHER_2;ï¿½Æºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½;il semble que;;;Parece que;;;;;;;;;x
 MAJOREVENTHAPPENOTHER_3;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$;$EVENT$,;$EVENT$;$EVENT$;;;;;;x
 MAJOREVENTHAPPENOTHER_4;$EVENTDESC$;$EVENTDESC$;$EVENTDESC$;$EVENTDESC$;$EVENTDESC$;$EVENTDESC$;$EVENTDESC$;;;;;;;x
-MAJOREVENTHAPPENOTHER_5;ÔÚ¸Ã¹ú·¢ÉúÁË;ai concern?leur pays.;;;les ha sucedido;;;;;;;;;x
+MAJOREVENTHAPPENOTHER_5;ï¿½Ú¸Ã¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;ai concern?leur pays.;;;les ha sucedido;;;;;;;;;x
 MAJOREVENTHAPPENOTHER_6;*;*;*;*;*;*;*;;;;;;;x
-MAJOREVENTHAPPENOTHER_LOG;ÖØ´óÊÂ¼þ£º$COUNTRY$ ·¢ÉúÁË $EVENT$ ¡£;Événement majeur : $EVENT$ a eu lieu pour $COUNTRY$.;Ereignis: $EVENT$ in $COUNTRY$.;$COUNTRY$. $EVENT$.;Suceso importante: $EVENT$ en $COUNTRY$.;Evento: $EVENT$ in $COUNTRY$.;Esemény: $EVENT$ $COUNTRY$ nemzeténél.;Událost: $EVENT$ v $COUNTRY$.;;;;;;x
-MAJOREVENTHAPPENOTHER_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-MAJOREVENTHAPPENOTHER_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+MAJOREVENTHAPPENOTHER_LOG;ï¿½Ø´ï¿½ï¿½Â¼ï¿½ï¿½ï¿½$COUNTRY$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $EVENT$ ï¿½ï¿½;ï¿½vï¿½nement majeur : $EVENT$ a eu lieu pour $COUNTRY$.;Ereignis: $EVENT$ in $COUNTRY$.;$COUNTRY$. $EVENT$.;Suceso importante: $EVENT$ en $COUNTRY$.;Evento: $EVENT$ in $COUNTRY$.;Esemï¿½ny: $EVENT$ $COUNTRY$ nemzetï¿½nï¿½l.;Udï¿½lost: $EVENT$ v $COUNTRY$.;;;;;;x
+MAJOREVENTHAPPENOTHER_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+MAJOREVENTHAPPENOTHER_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
 MAJOREVENTHAPPENOTHER_BTN3;*;*;*;*;*;*;*;;;;;;;x
 MAJOREVENTHAPPENOTHER_MAP;*;*;*;*;*;*;*;;;;;;;x
-BUILDING_DONE_SETUP;µ±½¨ÉèÍê³É;Lorsque la construction est terminée.;Wenn ein Gebäude vollendet wird.;Kiedy budowa jest zakoñczona.;Cuando se finalice un edificio.;Quando un edificio ?stato completato;Mikor egy építkezés befejezõdik.;Kdy?je dokonèena budova.;;;;;;x
-BUILDING_DONE_HEADER;½¨ÉèÍê³É;Construction terminée.;Gebäude ist fertig.;Ukoñczono budow?;Edificio completado.;Edificio completato.;Építmény elkészült.;Budova je dokonèena.;;;;;;x
+BUILDING_DONE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Lorsque la construction est terminï¿½e.;Wenn ein Gebï¿½ude vollendet wird.;Kiedy budowa jest zakoï¿½czona.;Cuando se finalice un edificio.;Quando un edificio ?stato completato;Mikor egy ï¿½pï¿½tkezï¿½s befejezï¿½dik.;Kdy?je dokonï¿½ena budova.;;;;;;x
+BUILDING_DONE_HEADER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Construction terminï¿½e.;Gebï¿½ude ist fertig.;Ukoï¿½czono budow?;Edificio completado.;Edificio completato.;ï¿½pï¿½tmï¿½ny elkï¿½szï¿½lt.;Budova je dokonï¿½ena.;;;;;;x
 BUILDING_DONE_1;$NAME$;La construction de $NAME$;$NAME$;Budynek $NAME$;$NAME$;$NAME$;A/az $NAME$;$NAME$;;;;;;x
-BUILDING_DONE_2;ÔÚÈçÏÂÊ¡·Ý;dans la province;in der Provinz;w prowincji;en la provincia;nella provincia di;elkészült a/az;v provincii;;;;;;x
+BUILDING_DONE_2;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¡ï¿½ï¿½;dans la province;in der Provinz;w prowincji;en la provincia;nella provincia di;elkï¿½szï¿½lt a/az;v provincii;;;;;;x
 BUILDING_DONE_3;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;$PROV$;;;;;;x
-BUILDING_DONE_4;ÒÑ¾­Íê³É½¨Éè¡£;est achevée.;ist fertig.;zosta?ukoñczony.;se ha completado.;?stato completato.;nev?tartományodban.;je hotova.;;;;;;x
+BUILDING_DONE_4;ï¿½Ñ¾ï¿½ï¿½ï¿½É½ï¿½ï¿½è¡£;est achevï¿½e.;ist fertig.;zosta?ukoï¿½czony.;se ha completado.;?stato completato.;nev?tartomï¿½nyodban.;je hotova.;;;;;;x
 BUILDING_DONE_5;*;*;*;*;*;*;*;;;;;;;x
 BUILDING_DONE_6;*;*;*;*;*;*;*;;;;;;;x
-BUILDING_DONE_LOG;$NAME$ ÒÑ¾­ÔÚ $PROV$ ½¨ÉèÍê³É¡£;$NAME$ a ét?construit dans la province : $PROV$.;$NAME$ wurde in $PROV$ gebaut.;Zbudowano $NAME$ w prowincji $PROV$.;Se ha construido $NAME$ en $PROV$.;$NAME$: costruito in $PROV$.;$NAME$ épült $PROV$ nev?tartományodban.;$NAME$ byla postavena v $PROV$.;;;;;;x
-BUILDING_DONE_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-BUILDING_DONE_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-BUILDING_DONE_BTN3;²é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;PØEJÍT NA;;;;;;x
-BUILDING_DONE_MAP;$NAME$ ÒÑ¾­ÔÚ $PROV$ Íê³É½¨Éè¡£;$NAME$ a ét?construit dans la province : $PROV$.;$NAME$ wurde in $PROV$ gebaut.;Zbudowano $NAME$ w prowincji $PROV$.;Se ha construido $NAME$ en $PROV$.;$NAME$: costruito in $PROV$.;$NAME$ épült $PROV$ nev?tartományodban.;$NAME$ byla postavena v $PROV$.;;;;;;x
-TRIGMOD_SETUP;µ±ÄãÊÜµ½Ò»¸öÐÞÕýÒòËØµÄÓ°Ïì(Èç¶òÀÕº£Ï¿Í¨ÐÐË°);Quand vous êtes affect?par un modificateur activable (ex péage maritime).;Wenn Sie von einem ausgelösten Modifikator betroffen werden (z. B. Sundzoll);Kiedy modyfikator zwi¹zany z okreœlonym wydarzeniem wp³ywa na twoje pañstwo (np. c³o narzucone przez pañstwo trzecie);Cuando te veas afectado por un modificador desencadenado (como el sonido de peaje);Quando subisci l'influenza di un modificatore condizionato (ad es. il Pedaggio sullo Stretto);Mikor valami esemény módosulása van rád hatással (korábbi hang-vám);Kdy?jste subjektem trojnásobného modifikátoru;;;;;;x
-TRIGMOD_HEADER;$head_of_government$ ±¨¸æ;$head_of_government$ signale;;;$head_of_government$ informa de;;;;;;;;;x
+BUILDING_DONE_LOG;$NAME$ ï¿½Ñ¾ï¿½ï¿½ï¿½ $PROV$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É¡ï¿½;$NAME$ a ï¿½t?construit dans la province : $PROV$.;$NAME$ wurde in $PROV$ gebaut.;Zbudowano $NAME$ w prowincji $PROV$.;Se ha construido $NAME$ en $PROV$.;$NAME$: costruito in $PROV$.;$NAME$ ï¿½pï¿½lt $PROV$ nev?tartomï¿½nyodban.;$NAME$ byla postavena v $PROV$.;;;;;;x
+BUILDING_DONE_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+BUILDING_DONE_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+BUILDING_DONE_BTN3;ï¿½é¿´;ALLER ?GOTO;ID?DO;Ir all?ANDARE;Menj ide:;Pï¿½EJï¿½T NA;;;;;;;;x
+BUILDING_DONE_MAP;$NAME$ ï¿½Ñ¾ï¿½ï¿½ï¿½ $PROV$ ï¿½ï¿½É½ï¿½ï¿½è¡£;$NAME$ a ï¿½t?construit dans la province : $PROV$.;$NAME$ wurde in $PROV$ gebaut.;Zbudowano $NAME$ w prowincji $PROV$.;Se ha construido $NAME$ en $PROV$.;$NAME$: costruito in $PROV$.;$NAME$ ï¿½pï¿½lt $PROV$ nev?tartomï¿½nyodban.;$NAME$ byla postavena v $PROV$.;;;;;;x
+TRIGMOD_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Üµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½Ó°ï¿½ï¿½(ï¿½ï¿½ï¿½ï¿½Õºï¿½Ï¿Í¨ï¿½ï¿½Ë°);Quand vous ï¿½tes affect?par un modificateur activable (ex pï¿½age maritime).;Wenn Sie von einem ausgelï¿½sten Modifikator betroffen werden (z. B. Sundzoll);Kiedy modyfikator zwiï¿½zany z okreï¿½lonym wydarzeniem wpï¿½ywa na twoje paï¿½stwo (np. cï¿½o narzucone przez paï¿½stwo trzecie);Cuando te veas afectado por un modificador desencadenado (como el sonido de peaje);Quando subisci l'influenza di un modificatore condizionato (ad es. il Pedaggio sullo Stretto);Mikor valami esemï¿½ny mï¿½dosulï¿½sa van rï¿½d hatï¿½ssal (korï¿½bbi hang-vï¿½m);Kdy?jste subjektem trojnï¿½sobnï¿½ho modifikï¿½toru;;;;;;x
+TRIGMOD_HEADER;$head_of_government$ ï¿½ï¿½ï¿½ï¿½;$head_of_government$ signale;;;$head_of_government$ informa de;;;;;;;;;x
 TRIGMOD_1;$NAME$;que $NAME$ s'est produit.;$NAME$;$NAME$;$NAME$;$NAME$;$NAME$;$NAME$;;;;;;x
-TRIGMOD_2;$MONARCHTITLE$£¬ÎÒ¹ú·¢ÉúÁË $NAME$ ¡£;$MONARCHTITLE$, $NAME$ s'est produit pour notre pays.;$MONARCHTITLE$;$NAME$;$MONARCHTITLE$, nos ha ocurrido $NAME$.;$MONARCHTITLE$, si ?verificato: $NAME$.;$NAME$ történt velünk.;$MONARCHTITLE$, $NAME$ se nám pøihodilo.;;;;;;x
+TRIGMOD_2;$MONARCHTITLE$ï¿½ï¿½ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $NAME$ ï¿½ï¿½;$MONARCHTITLE$, $NAME$ s'est produit pour notre pays.;$MONARCHTITLE$;$NAME$;$MONARCHTITLE$, nos ha ocurrido $NAME$.;$MONARCHTITLE$, si ?verificato: $NAME$.;$NAME$ tï¿½rtï¿½nt velï¿½nk.;$MONARCHTITLE$, $NAME$ se nï¿½m pï¿½ihodilo.;;;;;;x
 TRIGMOD_3;*;*;*;*;*;*;*;;;;;;;x
 TRIGMOD_4;*;*;*;*;*;*;*;;;;;;;x
-TRIGMOD_5;Ð§¹û:;Effet :;Effekt:;Efekt:;Efecto:;Effetto:;Hatás:;Efekt:;;;;;;x
+TRIGMOD_5;Ð§ï¿½ï¿½:;Effet :;Effekt:;Efekt:;Efecto:;Effetto:;Hatï¿½s:;Efekt:;;;;;;x
 TRIGMOD_6;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;;;;;;x
-TRIGMOD_LOG;ÎÒ¹ú·¢ÉúÁË $NAME$ ¡£;$NAME$ nous est arriv?;Uns ist ein $NAME$ widerfahren.;$NAME$;Nos ha ocurrido $NAME$.;Si ?verificato $NAME$.;$NAME$ történt velünk.;Pøihodilo se nám $NAME$.;;;;;;x
-TRIGMOD_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-TRIGMOD_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-TRIGMOD_BTN3;ÏêÇé;Détails;Details;Szczegó³y;Detalles;Dettagli;Részletek;Detaily;;;;;;x
+TRIGMOD_LOG;ï¿½Ò¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $NAME$ ï¿½ï¿½;$NAME$ nous est arriv?;Uns ist ein $NAME$ widerfahren.;$NAME$;Nos ha ocurrido $NAME$.;Si ?verificato $NAME$.;$NAME$ tï¿½rtï¿½nt velï¿½nk.;Pï¿½ihodilo se nï¿½m $NAME$.;;;;;;x
+TRIGMOD_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+TRIGMOD_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+TRIGMOD_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;Szczegï¿½y;Detalles;Dettagli;Rï¿½szletek;Detaily;;;;;;x
 TRIGMOD_MAP;*;*;*;*;*;*;*;;;;;;;x
-TRIGMODLOST_SETUP;µ±Ò»¸öÐÞÕýÒòËØµÄÓ°ÏìÒÑ¾­ÖÕÖ¹(Èç¶òÀÕº£Ï¿Í¨ÐÐË°);Lorsqu'un modificateur activable ne fait plus effet (ex péage maritime).;Wenn der Effekt eines ausgelösten Modifikators endet (z. B. Sundzoll);Kiedy modyfikator zwi¹zany z okreœlonym wydarzeniem przestaje oddzia³ywa?na twoje pañstwo (np. c³o narzucone przez pañstwo trzecie);Cuando cese el efecto de un modificador desencadenado (como el sonido de peaje).;Quando l'effetto di un modificatore condizionato (ad es. il Pedaggio sullo Stretto) cessa;Mikor egy módosítást okoz?esemény befejezõdik (korábbi hang-vám);Kdy?jste subjektem trojnásobného modifikátoru.;;;;;;x
-TRIGMODLOST_HEADER;$head_of_government$ ±¨¸æ;$head_of_government$ nous informe que;;;$head_of_government$ informa de;;;;;;;;;x
+TRIGMODLOST_SETUP;ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Øµï¿½Ó°ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Ö¹(ï¿½ï¿½ï¿½ï¿½Õºï¿½Ï¿Í¨ï¿½ï¿½Ë°);Lorsqu'un modificateur activable ne fait plus effet (ex pï¿½age maritime).;Wenn der Effekt eines ausgelï¿½sten Modifikators endet (z. B. Sundzoll);Kiedy modyfikator zwiï¿½zany z okreï¿½lonym wydarzeniem przestaje oddziaï¿½ywa?na twoje paï¿½stwo (np. cï¿½o narzucone przez paï¿½stwo trzecie);Cuando cese el efecto de un modificador desencadenado (como el sonido de peaje).;Quando l'effetto di un modificatore condizionato (ad es. il Pedaggio sullo Stretto) cessa;Mikor egy mï¿½dosï¿½tï¿½st okoz?esemï¿½ny befejezï¿½dik (korï¿½bbi hang-vï¿½m);Kdy?jste subjektem trojnï¿½sobnï¿½ho modifikï¿½toru.;;;;;;x
+TRIGMODLOST_HEADER;$head_of_government$ ï¿½ï¿½ï¿½ï¿½;$head_of_government$ nous informe que;;;$head_of_government$ informa de;;;;;;;;;x
 TRIGMODLOST_1;$NAME$;$NAME$ a eu lieu.;$NAME$;$NAME$;$NAME$;$NAME$;$NAME$;$NAME$;;;;;;x
-TRIGMODLOST_2;ÎÒÃÇÒÑ¾­Ê§È¥ÁË $NAME$ ´øÀ´µÄÐ§¹û;$NAME$ n'a plus aucun effet sur nous.;;Koniec $NAME$.;Hemos perdido los efectos de $NAME$;$EXPLANATION$;$EXPLANATION$;Kdy?ztratíme efekty $NAME$;;;;;;x
+TRIGMODLOST_2;ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½Ê§È¥ï¿½ï¿½ $NAME$ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½;$NAME$ n'a plus aucun effet sur nous.;;Koniec $NAME$.;Hemos perdido los efectos de $NAME$;$EXPLANATION$;$EXPLANATION$;Kdy?ztratï¿½me efekty $NAME$;;;;;;x
 TRIGMODLOST_3;*;*;*;*;*;*;*;;;;;;;x
 TRIGMODLOST_4;*;*;*;*;*;*;*;;;;;;;x
-TRIGMODLOST_5;Ð§¹û:;Effet :;Effekt:;Efekt:;Efecto:;Effetto:;Hatás:;Efekt:;;;;;;x
+TRIGMODLOST_5;Ð§ï¿½ï¿½:;Effet :;Effekt:;Efekt:;Efecto:;Effetto:;Hatï¿½s:;Efekt:;;;;;;x
 TRIGMODLOST_6;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;$EFFECT$;;;;;;x
-TRIGMODLOST_LOG;$NAME$ ÒÑ¾­²»ÔÙÓ°ÏìÎÒÃÇ¡£;$NAME$ ne nous affecte plus.;$NAME$ beeinflusst uns nicht mehr.;$NAME$ nie ma ju?na nas wp³ywu.;$NAME$ ya no nos afecta.;$NAME$ non ha pi?alcuna influenza su di noi.;A/az $NAME$ már nincs ránk hatással.;$NAME$ se u?na nás nevztahuje.;;;;;;x
-TRIGMODLOST_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-TRIGMODLOST_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-TRIGMODLOST_BTN3;ÏêÇé;Détails;Details;Szczegó³y;Detalles;Dettagli;Részletek;Detaily;;;;;;x
+TRIGMODLOST_LOG;$NAME$ ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½Ó°ï¿½ï¿½ï¿½ï¿½ï¿½Ç¡ï¿½;$NAME$ ne nous affecte plus.;$NAME$ beeinflusst uns nicht mehr.;$NAME$ nie ma ju?na nas wpï¿½ywu.;$NAME$ ya no nos afecta.;$NAME$ non ha pi?alcuna influenza su di noi.;A/az $NAME$ mï¿½r nincs rï¿½nk hatï¿½ssal.;$NAME$ se u?na nï¿½s nevztahuje.;;;;;;x
+TRIGMODLOST_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+TRIGMODLOST_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+TRIGMODLOST_BTN3;ï¿½ï¿½ï¿½ï¿½;Dï¿½tails;Details;Szczegï¿½y;Detalles;Dettagli;Rï¿½szletek;Detaily;;;;;;x
 TRIGMODLOST_MAP;*;*;*;*;*;*;*;;;;;;;x
-LEADERDIED_SETUP;µ±ÎÒÃÇµÄÒ»¸öÖ¸»Ó¹ÙÈ¥ÊÀ;Lorsque l'un de nos leaders meurt.;Wenn einer unserer Anführer stirbt;Kiedy jeden z naszych dowódców umiera;Cuando muere uno de nuestros líderes;Quando muore uno dei nostri leader;Ha az egyik vezérünk meghal;Kdy?jeden z našich vùdc?zemøe;;;;;;x
+LEADERDIED_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Ò»ï¿½ï¿½Ö¸ï¿½Ó¹ï¿½È¥ï¿½ï¿½;Lorsque l'un de nos leaders meurt.;Wenn einer unserer Anfï¿½hrer stirbt;Kiedy jeden z naszych dowï¿½dcï¿½w umiera;Cuando muere uno de nuestros lï¿½deres;Quando muore uno dei nostri leader;Ha az egyik vezï¿½rï¿½nk meghal;Kdy?jeden z naï¿½ich vï¿½dc?zemï¿½e;;;;;;x
 LEADERDIED_HEADER;$MESSENGER$;$MESSENGER$;$MESSENGER$;$MESSENGER$;$MESSENGER$;$MESSENGER$;$MESSENGER$;$MESSENGER$;;;;;;x
-LEADERDIED_1;Ò»Î»¾üÊÂ½«ÁìÈ¥ÊÀ!;Un de nos leaders militaires est mort !;Ein Kommandauer ist gestorben!;Dowódca umar?;¡Ha muerto un líder militar!;Un condottiero ?morto!;Egy katonai vezetõnk elesett!;Vojensk?velitel zemøel!;;;;;;x
-LEADERDIED_2;$MONARCHTITLE$£¬ÎÒÃÇÊÕµ½ÁË²»ÐÒµÄÏûÏ¢;$MONARCHTITLE$, nous avons en effet de tristes nouvelles.;$MONARCHTITLE$, wir haben wahrlich schlechte Nachrichten:;Mamy smutne wieœci - ;$MONARCHTITLE$, tenemos malas noticias;$MONARCHTITLE$, abbiamo pessime notizie.;Rossz híreket hoztunk?$MONARCHTITLE$, pøinášíme špatn?zprávy;;;;;;x
-LEADERDIED_3;$TYPE$ $NAME$ ÒÑ¾­È¥ÊÀ!;$TYPE$ $NAME$ est mort !;$TYPE$ $NAME$ ist tot!;$TYPE$ $NAME$ nie ¿yje!;?TYPE$ $NAME$ ha muerto!;$TYPE$ $NAME$ ?morto!;$NAME$, a nagyszer?$TYPE$ halott!;$TYPE$ $NAME$ je mrtev!;;;;;;x
-LEADERDIED_4;ËûÎªÎÒÃÇÌá¹©ÁËÖÒ³Ï¶øÁ¼ºÃµÄ·þÎñ¡£×îÓÐ×îºÃµÄÔáÀñ²ÅÅäµÃÉÏÕâÎ»Õ½³¡ÉÏµÄ¾ÞÈË¡£;Il nous a servi avec loyaut?et compétence. Un tel titan du champ de bataille mérite les plus belles funérailles.;Er hat uns treu und gut gedient. Für solch einen Koloss des Schlachtfelds ist nur das glorreichste Begräbnis gut genug.;S³u¿y?nam dobrze i wiernie. Posta?tego formatu zas³uguje na najwspanialszy pogrzeb. ;Nos sirvi?con eficacia y lealtad. Solo el mejor funeral ser?apropiado para tal coloso de la batalla.;Ci ha servito bene e fedelmente, sar?necessario allestire una solenne commemorazione funebre per onorare un simile eroe.;Hûséggel és becsülettel szolgált minket, kijár neki a legpompázatosabb temetés!;Sloužil nám vìrn?a dobøe, takov?velikán bitevních pol?si zaslouží jen ten nejdùstojnìjší pohøeb.;;;;;;x
+LEADERDIED_1;Ò»Î»ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½È¥ï¿½ï¿½!;Un de nos leaders militaires est mort !;Ein Kommandauer ist gestorben!;Dowï¿½dca umar?;ï¿½Ha muerto un lï¿½der militar!;Un condottiero ?morto!;Egy katonai vezetï¿½nk elesett!;Vojensk?velitel zemï¿½el!;;;;;;x
+LEADERDIED_2;$MONARCHTITLE$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õµï¿½ï¿½Ë²ï¿½ï¿½Òµï¿½ï¿½ï¿½Ï¢;$MONARCHTITLE$, nous avons en effet de tristes nouvelles.;$MONARCHTITLE$, wir haben wahrlich schlechte Nachrichten:;Mamy smutne wieï¿½ci - ;$MONARCHTITLE$, tenemos malas noticias;$MONARCHTITLE$, abbiamo pessime notizie.;Rossz hï¿½reket hoztunk?$MONARCHTITLE$, pï¿½inï¿½ï¿½me ï¿½patn?zprï¿½vy;;;;;;;x
+LEADERDIED_3;$TYPE$ $NAME$ ï¿½Ñ¾ï¿½È¥ï¿½ï¿½!;$TYPE$ $NAME$ est mort !;$TYPE$ $NAME$ ist tot!;$TYPE$ $NAME$ nie ï¿½yje!;?TYPE$ $NAME$ ha muerto!;$TYPE$ $NAME$ ?morto!;$NAME$, a nagyszer?$TYPE$ halott!;$TYPE$ $NAME$ je mrtev!;;;;;;x
+LEADERDIED_4;ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½á¹©ï¿½ï¿½ï¿½Ò³Ï¶ï¿½ï¿½ï¿½ï¿½ÃµÄ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»Õ½ï¿½ï¿½ï¿½ÏµÄ¾ï¿½ï¿½Ë¡ï¿½;Il nous a servi avec loyaut?et compï¿½tence. Un tel titan du champ de bataille mï¿½rite les plus belles funï¿½railles.;Er hat uns treu und gut gedient. Fï¿½r solch einen Koloss des Schlachtfelds ist nur das glorreichste Begrï¿½bnis gut genug.;Sï¿½uï¿½y?nam dobrze i wiernie. Posta?tego formatu zasï¿½uguje na najwspanialszy pogrzeb. ;Nos sirvi?con eficacia y lealtad. Solo el mejor funeral ser?apropiado para tal coloso de la batalla.;Ci ha servito bene e fedelmente, sar?necessario allestire una solenne commemorazione funebre per onorare un simile eroe.;Hï¿½sï¿½ggel ï¿½s becsï¿½lettel szolgï¿½lt minket, kijï¿½r neki a legpompï¿½zatosabb temetï¿½s!;Slouï¿½il nï¿½m vï¿½rn?a dobï¿½e, takov?velikï¿½n bitevnï¿½ch pol?si zaslouï¿½ï¿½ jen ten nejdï¿½stojnï¿½jï¿½ï¿½ pohï¿½eb.;;;;;;x
 LEADERDIED_5;*;*;*;*;*;*;*;;;;;;;x
 LEADERDIED_6;*;*;*;*;*;*;*;;;;;;;x
-LEADERDIED_LOG;$TYPE$ $NAME$ ÒÑ¾­È¥ÊÀ¡£;$TYPE$ $NAME$ est mort.;$TYPE$ $NAME$ ist gestorben.;$TYPE$ $NAME$ umiera.;$TYPE$ $NAME$ ha muerto.;$TYPE$ $NAME$ ?morto.;$NAME$ $TYPE$ elesett.;$TYPE$ $NAME$ zemøel.;;;;;;x
-LEADERDIED_BTN1;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-LEADERDIED_BTN2;ºÃµÄ;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
-LEADERDIED_BTN3;²é¿´;Aller ?GOTO;Id?do;Ir all?Andare;Ugrás;Pøejít na;;;;;;x
+LEADERDIED_LOG;$TYPE$ $NAME$ ï¿½Ñ¾ï¿½È¥ï¿½ï¿½ï¿½ï¿½;$TYPE$ $NAME$ est mort.;$TYPE$ $NAME$ ist gestorben.;$TYPE$ $NAME$ umiera.;$TYPE$ $NAME$ ha muerto.;$TYPE$ $NAME$ ?morto.;$NAME$ $TYPE$ elesett.;$TYPE$ $NAME$ zemï¿½el.;;;;;;x
+LEADERDIED_BTN1;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+LEADERDIED_BTN2;ï¿½Ãµï¿½;OK;OK;OK;Aceptar;OK;Rendben;OK;;;;;;x
+LEADERDIED_BTN3;ï¿½é¿´;Aller ?GOTO;Id?do;Ir all?Andare;Ugrï¿½s;Pï¿½ejï¿½t na;;;;;;;;x
 LEADERDIED_MAP;*;*;*;*;*;*;*;;;;;;;x

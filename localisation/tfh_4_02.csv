@@ -1,46 +1,46 @@
-SPEED_MODIFIER;ÏÖÎªÄ¬ÈÏËÙ¶ÈµÄ$PERC$:;;Derzeitige $PERC$ der Standartgeschwindigkeit;;;;;;;;;;x;;
-SPEED_MODIFIER_COMBAT;Õ½¶·ÖÐ£º $PERC$;;Im Gefecht: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_FUEL;È¼ÁÏ²»×ã£º $PERC$;;Unzureichender Betriebstoff: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_TERRAIN;µØÐÎ£º $PERC$;;Gelände: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_TRAIT;½«ÁìÌØÖÊ£º $PERC$;;Anführer Fähigkeit: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_ADJACIENCY;¶ÉºÓ/º£Ï¿£º $PERC$;;Fluss oder Meerengen Überquerung: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_WEATHER;ÌìÆø£º $PERC$;;Wetter: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_LOCAL_MOD;±¾µØÐÞÕý£º $PERC$;;Lokaler Effekt: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_MOTORIZED_BONUS;Ä¦ÍÐ»¯¼Ó³É£º $PERC$;;Motorisierungs Bonus: $PERC$;;;;;;;;;;x;;
-SPEED_MODIFIER_RETREATING;³·ÍËÖÐ£º $PERC$;;Rückzug: $PERC$;;;;;;;;;;x;;
-CANT_START_REASON_SELECT_BOOKMARK;ÇëÏÈÑ¡Ôñ§YÀúÊ·¾ç±¾§!¡£;;Bitte zuerst den §YHistorical Start Bookmark§! auswählen.;;;;;;;;;;x;;
-CANT_START_REASON_SELECT_CGM;ÇëÏÈÑ¡Ôñ§Y×Ô¶¨Òå¾ç±¾§!¡£;;Bitte zuerst den §YCustom Game Bookmark§! auswählen.;;;;;;;;;;x;;
-CANT_START_REASON_SELECT_SCENARIO;ÇëÏÈÑ¡Ôñ§YÀúÊ·Õ½ÒÛ§!¡£;;Bitte zuerst das §YScenario§! auswählen.;;;;;;;;;;x;;
-CANT_START_REASON_SELECT_SAVE_GAME;ÇëÏÈÑ¡Ôñ§Y´æµµ§!¡£;;Bitte zuerst den §YSave Game§! auswählen.;;;;;;;;;;x;;
-ICON_LEND_LEASE;§Y¹¤ÒµÔ®ÖúÇëÇó§!;;§YLend Lease Request§!;;;;;;;;;;x;;
-ICON_LEND_LEASE_OFFER;§Y¹¤ÒµÔ®ÖúÌá°¸§!;;§YLend Lease Offer§!;;;;;;;;;;x;;
-LL_CONVOY_EFF_DESC;¹¤ÒµÔ®ÖúÔËÊäÐ§ÂÊÎª§Y$PERC$%§!¡£;;Die Hilfskonvoi Effektivität liegt bei §Y$PERC$%§!;;;;;;;;;;x;;
-LL_CONVOY_EFF_LOW_DESC;ÔËÊä´¬¶ÓÊÜµ½¹¥»÷»áµ¼ÖÂÐ§ÂÊÏÂ½µ¡£ÍêÈ«»Ö¸´Ð§ÂÊÒª»¨·Ñ§Y$DAYS$§!Ìì¡£;;Die Effektivität ist abgesungen, da der Konvoi angegriffen wurde. Es wird §Y$DAYS$§! Tage dauern um die Effektivität zurückzuerlangen.;;;;;;;;;;x;;
-ORDER_DAY_TIME;»ù×¼µØ$PROV$:;Örtlich in §PROV§;;;;;;;;;;;x;;
-ORDER_DAY_TIME_DESC;ÈÎÎñ¿ªÊ¼Ê±§Y$PROV$§!µÄµØ·½Ê±¼äÎª §Y$TIME$§!;;Die ungefähre Tageszeit zu der die Mission beginnt ist: §Y$TIME$§! ;;;;;;;;;;x;;
-EVTNAME18050;ÐÂÊ½ÎäÆ÷!;;Eine neue Waffe!;;;;;;;;;;x;;
-EVTDESC18050;¹þÀï¡¤¶ÅÂ³ÃÅËµ£¬¡°Ô­×Óµ¯²»ÊÇÊ²Ã´ÁË²»ÆðµÄ¶«Î÷£¬Ö»²»¹ýÊÇÕýÒå±ø¹¤³§µÄÒ»¼þÍþÁ¦¾Þ´óµÄÎäÆ÷°ÕÁË¡£¡±\n\nÕ½ÕùµÄÐÎÌ¬ÔÚÔ­×Óµ¯Í¶ÈëÊµÕ½ºóÓÀÔ¶µÄ¸Ä±äÁË£ºÐ¯´øÒ»Ã¶Õ¨µ¯µÄÒ»¼ÜºäÕ¨»úÏÖÔÚÓÐÄÜÁ¦´Ý»ÙÒ»Õû×ù³ÇÊÐ¡£ÏÖÔÚÖ»ÓÐÉÙÊý¼¸¸ö¹ú¼ÒÓµÓÐÔ­×Óµ¯£¬ÕâÊ¹ËüÃÇÃæ¶ÔµÐÈËÕ¼¾¡ÓÅÊÆ¡£µ«ÔÚÔ½À´Ô½¶à¹ú¼ÒÓµÓÐºËÁ¦Á¿Ö®ºó£¬ÊÀ½ç´óÕ½µÄ½á¹û½«Ã»ÓÐ¹ú¼ÒÄÜ¹»³ÐÊÜ¡£\n\n$COUNTRY$ÔÚ$PROVINCENAME$Í¶ÏÂÁËµÚÒ»Ã¶Ô­×Óµ¯¡£;;Die Atombombe war keine 'große Entscheidung'. Sie war nur eine weitere mächtige Waffe im Arsenal der Rechtschaffenden' - Harry S.Truman. \n\nMit dem Abwurf der ersten Atomwaffe änderte sich das Gesicht des Krieges für immer: Ein einzelner Bomber, bewaffnet mit einer einzigen Bombe, kann nun eine ganze Stadt zerstören. Solange nur einige wenige Staaten diese Macht besitzen, werden diese einen gewaltigen Vorteil gegenüber ihren Feinden haben. Sollten aber viele Nationen diese Waffe erhalten könnten Kriege unerträglich für alle Betroffenen werden. \n\n $COUNTRY$ hat die erste Atomwaffe auf §PROVINCENAME§ abgeworfen.;;;;;;;;;;x;;
-EVTOPTA18050;Ä§¹íÓÀÔ¶Ã»·¨±»¹Ø»ØÆ¿×ÓÀïÁË;;Der Geist kann nicht wieder in die Flasche zurück.;;;;;;;;;;x;;
-EVTNAME18051;$PROVINCENAME$´óºäÕ¨;;Atomwaffenabwurf auf $PROVINCENAME$;;;;;;;;;;x;;
-EVTDESC18051;Õâ´ÎºäÕ¨Ö»ÊÇÒ»¸ö¾¯¸æ¡£Èç¹û$FROMCOUNTRY$ÒÀÈ»¾Ü¾øÍ¶½µ£¬Õ¨µ¯½«Í¶ÏòÆäÖ÷Òª¹¤ÒµÇø£¬¶áÈ¥ÊýÒÔÍò¼ÆµÄÉúÃü¡£$FROMCOUNTRY$µÄÆ½ÃñÇë¾¡¿ìÀë¿ª´ó¹¤Òµ³ÇÊÐ£¬ÒÔ±£»¤×Ô¼ºÃâÔâºÆ½Ù¡£;;Dieser Angriff ist nur ein erster Blick auf die Dinge die noch kommen mögen. Sollte §FROMCOUNTRY§ nicht kapitulieren, werden Bomben auf die Kriegsindustrie fallen und, leider, werden tausende sterben. Ich empfehle allen Zivilisten in §FROMCOUNTRY§ alle Industriezentren sofort zu verlassen, um sich selbst vor der Vernichtung zu bewahren.;;;;;;;;;;x;;
-EVTOPTA18051;ÎÒÃÇÒª³¹µ×´Ý»Ù$FROMCOUNTRY$µÄÕ½ÕùÇ±Á¦;;Wir werden §FROMCOUNTRY§ fähig zur Kriegsführung vollständig vernichten;;;;;;;;;;x;;
-EVTNAME18052;Ô­×Óµ¯ºäÕ¨$PROVINCENAME$;;Atomwaffenabwurf auf §PROVINCENAME§;;;;;;;;;;x;;
-EVTDESC18052;¡°ÓÐÐ©ÈËÈÏÎªÔ­×Óµ¯ÓÀÔ¶²»Ó¦¸ÃÊ¹ÓÃ¡£ÎÒÎÞ·¨ÔÞÍ¬ÕâÒ»¹Ûµã¡£ÁîÈË¾ªÆæµÄÊÇ£¬Ä³Ð©ÖªÃûÈËÊ¿Ã»ÓÐÇ××ÔÔÚÇ°Ïß±£ÎÀ×æ¹úµÄÓÂÆø£¬È´ºôÓõÄþÔ¸¶àÎþÉü25ÍòÓ¢¹úÈËµÄÉúÃü£¬Ò²²»Ó¦¸ÃÊ¹ÓÃÕâÖÖÐÂÐÍÕ¨µ¯¡£¡±¡ª¡ªÎÂË¹¶Ù¡¤Çñ¼ª¶û;;'Es gab jene, die sagten, dass die Atombombe niemals hätte benutzt werden sollen. Ich kann solche Gedanken nicht nachvollziehen. Ich bin sehr Überrascht, dass sehr tüchtige Leute - aber zumeist solche, die sich niemals selbst an die Front begeben würden - solch eine Position vertreten, die verlangt, das Anstatt diese eine Bombe zu werfen tausende brittische Leben geobfert werden.' - Winston Churchill;;;;;;;;;;x;;
-EVTOPTA18052;ÇéÊÆËùÆÈ;;Was sein muss, muss sein.;;;;;;;;;;x;;
-EVTNAME18053;Ô­×Óµ¯´Ý»Ù$PROVINCENAME$;;Atomare Verwüstung von §PROVINCENAME§;;;;;;;;;;x;;
-EVTDESC18053;ÎÒÃÇµÄÔ­×ÓÄÜµÛ¹ú½«³ÖÐøÇ§Äê£¡$FROMCOUNTRY$ÒÑ±»ÎÒÃÇ×îÐÂµÄÊ¤ÀûÎäÆ÷´Ý»Ù£¬Í¶½µÖ¸ÈÕ¿É´ý£¡;;Unser atomares Reich wird 1000 Jahre bestehen! Unsere neueste Vergeltungswaffe hat $FROMCOUNTRY$ getroffen und unsere Feinde werden sich bald ergeben!;;;;;;;;;;x;;
-EVTOPTA18053;ÖÁÉÙÒ»Ç§Äê£¡;;Mindestens 1000 Jahre!;;;;;;;;;;x;;
-EVTNAME18054;Ô­×Óµ¯´Ý»Ù$PROVINCENAME$;;Atomare Verwüstung von §PROVINCENAME§;;;;;;;;;;x;;
-EVTDESC18054;ÎÒÃÇÒÑ¾­Ïò×Ê±¾µÛ¹úÖ÷Òå$FROMCOUNTRY$·¢ÉäÁËÍþÁ¦×îÇ¿´óµÄÎäÆ÷£¬ÎÞ²ú½×¼¶ÃüÖÐ×¢¶¨µÄ×îÖÕÊ¤ÀûÖ¸ÈÕ¿É´ýÁË£¡;;Unser unabwendbarer Sieg rückt immer näher nachdem wir unsere größte Waffe auf unseren kapitalistisch-imperialistischen Feind aus $FROMCOUNTRY$! losgelassen haben.;;;;;;;;;;x;;
-EVTOPTA18054;ÎªÁËÊ¤Àû£¬Í¬Ö¾£¡;;Zum Sieg, Genossen!;;;;;;;;;;x;;
-EVTNAME18055;Ô­×Óµ¯´Ý»Ù$PROVINCENAME$;;Atomare Verwüstung von $PROVINCENAME$;;;;;;;;;;x;;
-EVTDESC18055;ÎÒÃÇÎ°´óµÄ$COUNTRY$ÔÚ$FROMCOUNTRY$Í¶ÏÂÁËÒ»Ã¶Ô­×Óµ¯;;Unsere große Nation hat eine Atombombe auf $FROMCOUNTRY$ geworfen;;;;;;;;;;x;;
-EVTOPTA18055;ËûÃÇÃ»ÓÐ»ú»áÁË;;Sie haben keine Chance;;;;;;;;;;x;;
-EVTNAME8000;¿­Ä©¶ûÖ®ËÀ;;Der Tod Mustafa Kemals;;;;;;;;;;;x
-EVTDESC8000;ÄÂË¹Ëþ·¨¡¤¿­Ä©¶û¡¤°¢ËþÍÁ¿Ë£¬ÏÖ´úÍÁ¶úÆäµÄµÞÔìÕß£¬ÔÚ1938Äê11ÔÂ10ÈÕÈ¥ÊÀ¡£×÷ÎªÌì²ÅµÄ¾ü¹ÙºÍÑÝËµ¼Ò£¬¿­Ä©¶ûÁìµ¼ÍÁ¶úÆä¶ÀÁ¢Õ½Õù£¬·´¿¹ÍâÀ´ÇÖÂÔ£¬Ê¹ÍÁ¶úÆä°ÚÍÑÃñ×åÎ£»ú£¬Ó®µÃÃñ×å¶ÀÁ¢¡£Ö®ºó£¬¿­Ä©¶ûÖÂÁ¦ÓÚ½¨Á¢×Ê²ú½×¼¶¹²ºÍ¹ú£¬ÍÆÐÐÒ»ÏµÁÐÏÖ´ú»¯¸Ä¸ï£¬Ê¹ÍÁ¶úÆä×ßÉÏ¸´ÐËºÍÏÖ´ú»¯µÀÂ·¡£ËûµÄ¼ÌÈÎÕßÊÇÒÁË¹ÂóÌØ¡¤ÒÁÅµÅ¬£¬Ò»¸öÄ«Ë÷ÀïÄáµÄÈÈÇé³ç°ÝÕß¡£;;Mustafa Kemal Atatürk, der Gründer der modernen Türkei, entschlief am 10. November 1938. Als fähiger Offizier und begabter Redner, führte er die türkische Nationalbewegung durch den türkischen Unabhängigkeitskrieg. Seine militärischen und politischen Kampagnen brachten der Türkei die Unabhängigkeit. Mustafa Kemal Atatürk machte sich dann an ein Programm von politischen, ökonomischen und kulturellen Reformen um das ehemalige ottomanische Reich in einen modernen, westlich und säkularsierten Staat zu überführen. Seine Nachfolge trat Ismet Inonu an, ein brennender Bewunderer Mussolinis.;;;;;;;;;;;x
-EVTOPTA8000;ºÃµÄ;;OK;;;;;;;;;;x
-jap_seizes_coast;ÈÕ±¾¶áÈ¡ÑØº£µØÇø;;Japan ergreift die Küste;;;;;;;;;;x
-case_anton_title;°²¶«ÐÐ¶¯;;Fall Anton;;;;;;;;;;x
-case_anton_desc;Ò»¸öÖÐÁ¢µÄÎ¬Ï£·¨¹úÓÐÀûÓÚÊµÏÖÎÒÃÇµÄÄ¿±ê¡£µ«Ëæ×ÅÍ¬ÃË¹ú¶ÔÆäÕ¹¿ª¾üÊÂÐÐ¶¯£¬ÎÒÃÇÓÐ±ØÒªÖ±½Ó¿ØÖÆµØÖÐº£ÑØ°¶µÄ·¨¹úÁìÍÁÒÔ·ÀÖ¹µÐÈËµÄµÇÂ½£¬ÉõÖÁÎ¬Ï£ÕþÈ¨µÄµ¹¸ê¡£;;Ein neutrales Vichy-Regime hat unseren Zwecken gedient, aber da die Alliierten diesem nun feindlich gegenüber stehen müssen wir die direkte Kontrolle über die Restgebiete Frankreichs übernehmen, bevor die Alliierten landen oder ihnen eine solche Landung sogar erlaubt wird.;;;;;;;;;;x
-LAG_PAUSE;$PLAYER$µÄÑÓ³Ù·Ç³£ÑÏÖØ£¬ÓÎÏ·ÔÝÍ£¡£;$PLAYER$ est à la traîne, partie en pause.;$PLAYER$ hat Verbindungsprob., Spiel wird pausiert.;;$PLAYER$ está sufriendo lag, juego en pausa;;;;;;;;x;
-LAG_DECREASE_SPEED;$PLAYER$µÄÑÓ³Ù·Ç³£ÑÏÖØ£¬½µµÍËÙ¶È¡£;$PLAYER$ est à la traîne, ralentissement.;$PLAYER$ hat Verbindungsprobl., Spielgeschw. wird reduziert.;;$PLAYER$ está sufriendo lag, velocidad reducida;;;;;;;;x;
+SPEED_MODIFIER;ï¿½ï¿½ÎªÄ¬ï¿½ï¿½ï¿½Ù¶Èµï¿½$PERC$:;;Derzeitige $PERC$ der Standartgeschwindigkeit;;;;;;;;;;x;;
+SPEED_MODIFIER_COMBAT;Õ½ï¿½ï¿½ï¿½Ð£ï¿½ $PERC$;;Im Gefecht: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_FUEL;È¼ï¿½Ï²ï¿½ï¿½ã£º $PERC$;;Unzureichender Betriebstoff: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_TERRAIN;ï¿½ï¿½ï¿½Î£ï¿½ $PERC$;;Gelï¿½nde: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_TRAIT;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê£ï¿½ $PERC$;;Anfï¿½hrer Fï¿½higkeit: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_ADJACIENCY;ï¿½Éºï¿½/ï¿½ï¿½Ï¿ï¿½ï¿½ $PERC$;;Fluss oder Meerengen ï¿½berquerung: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_WEATHER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $PERC$;;Wetter: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_LOCAL_MOD;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ $PERC$;;Lokaler Effekt: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_MOTORIZED_BONUS;Ä¦ï¿½Ð»ï¿½ï¿½Ó³É£ï¿½ $PERC$;;Motorisierungs Bonus: $PERC$;;;;;;;;;;x;;
+SPEED_MODIFIER_RETREATING;ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ $PERC$;;Rï¿½ckzug: $PERC$;;;;;;;;;;x;;
+CANT_START_REASON_SELECT_BOOKMARK;ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½Yï¿½ï¿½Ê·ï¿½ç±¾ï¿½!ï¿½ï¿½;;Bitte zuerst den ï¿½YHistorical Start Bookmarkï¿½! auswï¿½hlen.;;;;;;;;;;x;;
+CANT_START_REASON_SELECT_CGM;ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½Yï¿½Ô¶ï¿½ï¿½ï¿½ç±¾ï¿½!ï¿½ï¿½;;Bitte zuerst den ï¿½YCustom Game Bookmarkï¿½! auswï¿½hlen.;;;;;;;;;;x;;
+CANT_START_REASON_SELECT_SCENARIO;ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½Yï¿½ï¿½Ê·Õ½ï¿½Û§!ï¿½ï¿½;;Bitte zuerst das ï¿½YScenarioï¿½! auswï¿½hlen.;;;;;;;;;;x;;
+CANT_START_REASON_SELECT_SAVE_GAME;ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½Yï¿½æµµï¿½!ï¿½ï¿½;;Bitte zuerst den ï¿½YSave Gameï¿½! auswï¿½hlen.;;;;;;;;;;x;;
+ICON_LEND_LEASE;ï¿½Yï¿½ï¿½ÒµÔ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½!;;ï¿½YLend Lease Requestï¿½!;;;;;;;;;;x;;
+ICON_LEND_LEASE_OFFER;ï¿½Yï¿½ï¿½ÒµÔ®ï¿½ï¿½ï¿½á°¸ï¿½!;;ï¿½YLend Lease Offerï¿½!;;;;;;;;;;x;;
+LL_CONVOY_EFF_DESC;ï¿½ï¿½ÒµÔ®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð§ï¿½ï¿½Îªï¿½Y$PERC$%ï¿½!ï¿½ï¿½;;Die Hilfskonvoi Effektivitï¿½t liegt bei ï¿½Y$PERC$%ï¿½!;;;;;;;;;;x;;
+LL_CONVOY_EFF_LOW_DESC;ï¿½ï¿½ï¿½ä´¬ï¿½ï¿½ï¿½Üµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½áµ¼ï¿½ï¿½Ð§ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½Ö¸ï¿½Ð§ï¿½ï¿½Òªï¿½ï¿½ï¿½Ñ§Y$DAYS$ï¿½!ï¿½ì¡£;;Die Effektivitï¿½t ist abgesungen, da der Konvoi angegriffen wurde. Es wird ï¿½Y$DAYS$ï¿½! Tage dauern um die Effektivitï¿½t zurï¿½ckzuerlangen.;;;;;;;;;;x;;
+ORDER_DAY_TIME;ï¿½ï¿½×¼ï¿½ï¿½$PROV$:;ï¿½rtlich in ï¿½PROVï¿½;;;;;;;;;;;x;;
+ORDER_DAY_TIME_DESC;ï¿½ï¿½ï¿½ï¿½Ê¼Ê±ï¿½Y$PROV$ï¿½!ï¿½ÄµØ·ï¿½Ê±ï¿½ï¿½Îª ï¿½Y$TIME$ï¿½!;;Die ungefï¿½hre Tageszeit zu der die Mission beginnt ist: ï¿½Y$TIME$ï¿½! ;;;;;;;;;;x;;
+EVTNAME18050;ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½!;;Eine neue Waffe!;;;;;;;;;;x;;
+EVTDESC18050;ï¿½ï¿½ï¿½ï¡¤ï¿½ï¿½Â³ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½Ô­ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½Ê²Ã´ï¿½Ë²ï¿½ï¿½ï¿½Ä¶ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¡ï¿½ï¿½ï¿½\n\nÕ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì¬ï¿½ï¿½Ô­ï¿½Óµï¿½Í¶ï¿½ï¿½ÊµÕ½ï¿½ï¿½ï¿½ï¿½Ô¶ï¿½Ä¸Ä±ï¿½ï¿½Ë£ï¿½Ð¯ï¿½ï¿½Ò»Ã¶Õ¨ï¿½ï¿½ï¿½ï¿½Ò»ï¿½Üºï¿½Õ¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý»ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½Ö»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½ï¿½Ô­ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ôµï¿½ï¿½ï¿½Õ¼ï¿½ï¿½ï¿½ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½Ô½ï¿½ï¿½ï¿½ï¿½ï¿½Óµï¿½Ðºï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½Ä½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð¹ï¿½ï¿½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ï¿½Ü¡ï¿½\n\n$COUNTRY$ï¿½ï¿½$PROVINCENAME$Í¶ï¿½ï¿½ï¿½Ëµï¿½Ò»Ã¶Ô­ï¿½Óµï¿½ï¿½ï¿½;;Die Atombombe war keine 'groï¿½e Entscheidung'. Sie war nur eine weitere mï¿½chtige Waffe im Arsenal der Rechtschaffenden' - Harry S.Truman. \n\nMit dem Abwurf der ersten Atomwaffe ï¿½nderte sich das Gesicht des Krieges fï¿½r immer: Ein einzelner Bomber, bewaffnet mit einer einzigen Bombe, kann nun eine ganze Stadt zerstï¿½ren. Solange nur einige wenige Staaten diese Macht besitzen, werden diese einen gewaltigen Vorteil gegenï¿½ber ihren Feinden haben. Sollten aber viele Nationen diese Waffe erhalten kï¿½nnten Kriege unertrï¿½glich fï¿½r alle Betroffenen werden. \n\n $COUNTRY$ hat die erste Atomwaffe auf ï¿½PROVINCENAMEï¿½ abgeworfen.;;;;;;;;;;x;;
+EVTOPTA18050;Ä§ï¿½ï¿½ï¿½ï¿½Ô¶Ã»ï¿½ï¿½ï¿½ï¿½ï¿½Ø»ï¿½Æ¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;;Der Geist kann nicht wieder in die Flasche zurï¿½ck.;;;;;;;;;;x;;
+EVTNAME18051;$PROVINCENAME$ï¿½ï¿½ï¿½Õ¨;;Atomwaffenabwurf auf $PROVINCENAME$;;;;;;;;;;x;;
+EVTDESC18051;ï¿½ï¿½Îºï¿½Õ¨Ö»ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½æ¡£ï¿½ï¿½ï¿½$FROMCOUNTRY$ï¿½ï¿½È»ï¿½Ü¾ï¿½Í¶ï¿½ï¿½ï¿½ï¿½Õ¨ï¿½ï¿½ï¿½ï¿½Í¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½Òµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$FROMCOUNTRY$ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ë¾¡ï¿½ï¿½ï¿½ë¿ªï¿½ï¿½Òµï¿½ï¿½ï¿½Ð£ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½Æ½Ù¡ï¿½;;Dieser Angriff ist nur ein erster Blick auf die Dinge die noch kommen mï¿½gen. Sollte ï¿½FROMCOUNTRYï¿½ nicht kapitulieren, werden Bomben auf die Kriegsindustrie fallen und, leider, werden tausende sterben. Ich empfehle allen Zivilisten in ï¿½FROMCOUNTRYï¿½ alle Industriezentren sofort zu verlassen, um sich selbst vor der Vernichtung zu bewahren.;;;;;;;;;;x;;
+EVTOPTA18051;ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½×´Ý»ï¿½$FROMCOUNTRY$ï¿½ï¿½Õ½ï¿½ï¿½Ç±ï¿½ï¿½;;Wir werden ï¿½FROMCOUNTRYï¿½ fï¿½hig zur Kriegsfï¿½hrung vollstï¿½ndig vernichten;;;;;;;;;;x;;
+EVTNAME18052;Ô­ï¿½Óµï¿½ï¿½ï¿½Õ¨$PROVINCENAME$;;Atomwaffenabwurf auf ï¿½PROVINCENAMEï¿½;;;;;;;;;;x;;
+EVTDESC18052;ï¿½ï¿½ï¿½ï¿½Ð©ï¿½ï¿½ï¿½ï¿½ÎªÔ­ï¿½Óµï¿½ï¿½ï¿½Ô¶ï¿½ï¿½Ó¦ï¿½ï¿½Ê¹ï¿½Ã¡ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½Í¬ï¿½ï¿½Ò»ï¿½Ûµã¡£ï¿½ï¿½ï¿½Ë¾ï¿½ï¿½ï¿½ï¿½ï¿½Ç£ï¿½Ä³Ð©Öªï¿½ï¿½ï¿½ï¿½Ê¿Ã»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç°ï¿½ß±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½25ï¿½ï¿½Ó¢ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò²ï¿½ï¿½Ó¦ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½Ù¡ï¿½ï¿½ñ¼ª¶ï¿½;;'Es gab jene, die sagten, dass die Atombombe niemals hï¿½tte benutzt werden sollen. Ich kann solche Gedanken nicht nachvollziehen. Ich bin sehr ï¿½berrascht, dass sehr tï¿½chtige Leute - aber zumeist solche, die sich niemals selbst an die Front begeben wï¿½rden - solch eine Position vertreten, die verlangt, das Anstatt diese eine Bombe zu werfen tausende brittische Leben geobfert werden.' - Winston Churchill;;;;;;;;;;x;;
+EVTOPTA18052;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;;Was sein muss, muss sein.;;;;;;;;;;x;;
+EVTNAME18053;Ô­ï¿½Óµï¿½ï¿½Ý»ï¿½$PROVINCENAME$;;Atomare Verwï¿½stung von ï¿½PROVINCENAMEï¿½;;;;;;;;;;x;;
+EVTDESC18053;ï¿½ï¿½ï¿½Çµï¿½Ô­ï¿½ï¿½ï¿½ÜµÛ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç§ï¿½ê£¡$FROMCOUNTRY$ï¿½Ñ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Âµï¿½Ê¤ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ý»Ù£ï¿½Í¶ï¿½ï¿½Ö¸ï¿½Õ¿É´ï¿½ï¿½ï¿½;;Unser atomares Reich wird 1000 Jahre bestehen! Unsere neueste Vergeltungswaffe hat $FROMCOUNTRY$ getroffen und unsere Feinde werden sich bald ergeben!;;;;;;;;;;x;;
+EVTOPTA18053;ï¿½ï¿½ï¿½ï¿½Ò»Ç§ï¿½ê£¡;;Mindestens 1000 Jahre!;;;;;;;;;;x;;
+EVTNAME18054;Ô­ï¿½Óµï¿½ï¿½Ý»ï¿½$PROVINCENAME$;;Atomare Verwï¿½stung von ï¿½PROVINCENAMEï¿½;;;;;;;;;;x;;
+EVTDESC18054;ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½Û¹ï¿½ï¿½ï¿½ï¿½ï¿½$FROMCOUNTRY$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ²ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¤ï¿½ï¿½Ö¸ï¿½Õ¿É´ï¿½ï¿½Ë£ï¿½;;Unser unabwendbarer Sieg rï¿½ckt immer nï¿½her nachdem wir unsere grï¿½ï¿½te Waffe auf unseren kapitalistisch-imperialistischen Feind aus $FROMCOUNTRY$! losgelassen haben.;;;;;;;;;;x;;
+EVTOPTA18054;Îªï¿½ï¿½Ê¤ï¿½ï¿½ï¿½ï¿½Í¬Ö¾ï¿½ï¿½;;Zum Sieg, Genossen!;;;;;;;;;;x;;
+EVTNAME18055;Ô­ï¿½Óµï¿½ï¿½Ý»ï¿½$PROVINCENAME$;;Atomare Verwï¿½stung von $PROVINCENAME$;;;;;;;;;;x;;
+EVTDESC18055;ï¿½ï¿½ï¿½ï¿½Î°ï¿½ï¿½ï¿½$COUNTRY$ï¿½ï¿½$FROMCOUNTRY$Í¶ï¿½ï¿½ï¿½ï¿½Ò»Ã¶Ô­ï¿½Óµï¿½;;Unsere groï¿½e Nation hat eine Atombombe auf $FROMCOUNTRY$ geworfen;;;;;;;;;;x;;
+EVTOPTA18055;ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Ð»ï¿½ï¿½ï¿½ï¿½ï¿½;;Sie haben keine Chance;;;;;;;;;;x;;
+EVTNAME8000;ï¿½ï¿½Ä©ï¿½ï¿½Ö®ï¿½ï¿½;;Der Tod Mustafa Kemals;;;;;;;;;;;;x
+EVTDESC8000;ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë£ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äµï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½1938ï¿½ï¿½11ï¿½ï¿½10ï¿½ï¿½È¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ÅµÄ¾ï¿½ï¿½Ùºï¿½ï¿½ï¿½Ëµï¿½Ò£ï¿½ï¿½ï¿½Ä©ï¿½ï¿½ï¿½ìµ¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î£ï¿½ï¿½ï¿½ï¿½Ó®ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ó£¬¿ï¿½Ä©ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú½ï¿½ï¿½ï¿½ï¿½Ê²ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½Í¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Ïµï¿½ï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½Ä¸ï£¬Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ï¿½Ëºï¿½ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½Â·ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½Ø¡ï¿½ï¿½ï¿½ÅµÅ¬ï¿½ï¿½Ò»ï¿½ï¿½Ä«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¡ï¿½;;Mustafa Kemal Atatï¿½rk, der Grï¿½nder der modernen Tï¿½rkei, entschlief am 10. November 1938. Als fï¿½higer Offizier und begabter Redner, fï¿½hrte er die tï¿½rkische Nationalbewegung durch den tï¿½rkischen Unabhï¿½ngigkeitskrieg. Seine militï¿½rischen und politischen Kampagnen brachten der Tï¿½rkei die Unabhï¿½ngigkeit. Mustafa Kemal Atatï¿½rk machte sich dann an ein Programm von politischen, ï¿½konomischen und kulturellen Reformen um das ehemalige ottomanische Reich in einen modernen, westlich und sï¿½kularsierten Staat zu ï¿½berfï¿½hren. Seine Nachfolge trat Ismet Inonu an, ein brennender Bewunderer Mussolinis.;;;;;;;;;;;;x
+EVTOPTA8000;ï¿½Ãµï¿½;;OK;;;;;;;;;;;;x
+jap_seizes_coast;ï¿½Õ±ï¿½ï¿½ï¿½È¡ï¿½Øºï¿½ï¿½ï¿½ï¿½ï¿½;;Japan ergreift die Kï¿½ste;;;;;;;;;;;;x
+case_anton_title;ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½;;Fall Anton;;;;;;;;;;;;x
+case_anton_desc;Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¬Ï£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½Çµï¿½Ä¿ï¿½ê¡£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½Õ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½ÒªÖ±ï¿½Ó¿ï¿½ï¿½Æµï¿½ï¿½Ðºï¿½ï¿½Ø°ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô·ï¿½Ö¹ï¿½ï¿½ï¿½ËµÄµï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¬Ï£ï¿½ï¿½È¨ï¿½Äµï¿½ï¿½ê¡£;;Ein neutrales Vichy-Regime hat unseren Zwecken gedient, aber da die Alliierten diesem nun feindlich gegenï¿½ber stehen mï¿½ssen wir die direkte Kontrolle ï¿½ber die Restgebiete Frankreichs ï¿½bernehmen, bevor die Alliierten landen oder ihnen eine solche Landung sogar erlaubt wird.;;;;;;;;;;;;x
+LAG_PAUSE;$PLAYER$ï¿½ï¿½ï¿½Ó³Ù·Ç³ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½Ï·ï¿½ï¿½Í£ï¿½ï¿½;$PLAYER$ est ï¿½ la traï¿½ne, partie en pause.;$PLAYER$ hat Verbindungsprob., Spiel wird pausiert.;;$PLAYER$ estï¿½ sufriendo lag, juego en pausa;;;;;;;;;;x
+LAG_DECREASE_SPEED;$PLAYER$ï¿½ï¿½ï¿½Ó³Ù·Ç³ï¿½ï¿½ï¿½ï¿½Ø£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶È¡ï¿½;$PLAYER$ est ï¿½ la traï¿½ne, ralentissement.;$PLAYER$ hat Verbindungsprobl., Spielgeschw. wird reduziert.;;$PLAYER$ estï¿½ sufriendo lag, velocidad reducida;;;;;;;;;;x

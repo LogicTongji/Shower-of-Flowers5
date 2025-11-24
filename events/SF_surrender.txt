@@ -1180,7 +1180,7 @@ country_event = {
 	option = {
 		  name = "Event1000092option"
 		 rehe_region = { remove_core = CRH }
-		  CTY = { rehe_region = { secede_province = MAN } }
+		  JAP = { rehe_region = { secede_province = MAN } }
 		   CHI ={
 				   country_event = 390059
 				   }
@@ -1205,8 +1205,12 @@ country_event = {
 	picture = "china_surrendered"
 	option = {
 		  name = "Event1000092option"
-		  any_owned = { limit = { controlled_by = JAP } secede_province = CRH change_controller = CRH }
-		  any_owned = { limit = { not = { controlled_by = JAP } } secede_province = CRH }
+		  JAP = {
+		  hebei_region = { limit = { controlled_by = JAP } secede_province = CRH change_controller = CRH }
+		  hebei_region = { limit = { not = { controlled_by = JAP } } secede_province = CRH }
+		  chahar_region = { limit = { controlled_by = JAP } secede_province = CRH change_controller = CRH }
+		  chahar_region = { limit = { not = { controlled_by = JAP } } secede_province = CRH }
+		  }
 		     CSX = { end_war = JAP }
 					CRH = { end_war = JAP }
                     CSY = { end_war = JAP }
@@ -1233,7 +1237,7 @@ country_event = {
 	option = {
 		  name = "Event1000092option"
 		 chahar_region = { remove_core = CHA }
-		  CHA = { chahar_region = { secede_province = MAN } }
+		  JAP = { chahar_region = { secede_province = MAN } }
 		   CHI ={
 				   country_event = 390052
 				   }

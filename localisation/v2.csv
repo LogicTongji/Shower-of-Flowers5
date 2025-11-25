@@ -1,36 +1,36 @@
 xxxx;;;;;;;;;;;;;;x
-PW_SEND;ï¿½ï¿½ï¿½ï¿½;Envoyer;Senden;;;;;;;;;;;x
-CD_DEBT;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¹ï¿½ï¿½Ò¸ï¿½Õ®ï¿½ï¿½$LIST$;Permet des dettes de $LIST$;Verschuldung von $LIST$ erlauben;;Permite deudas de $LIST$;;;;;;;;;x
-ESTIMATED_POWER;ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½Óµï¿½Ðµï¿½ï¿½ï¿½ï¿½ï¿½;Puissance ennemie estimï¿½e;Geschï¿½tzte Feindkrï¿½fte;;;;;;;;;;;x
-PROV_POINTS;Ê¤ï¿½ï¿½ï¿½ï¿½;Points;Siegpunkte ;;;;;;;;;;;x
-MAPMODE_14;ï¿½òµ¥µï¿½ï¿½Îµï¿½Í¼;Mode de terrain simplifiï¿½;Detaillierte Terrain Anzeige;;;;;;;;;;;x
-TERRAIN_MOVEMENT_COST;ï¿½Æ¶ï¿½ï¿½ï¿½ï¿½Ä£ï¿½;Coï¿½t de mouvement :;Bewegungskosten: ;;;;;;;;;;;x
-TERRAIN_ATTACK;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Attaque :;Angriffsmodifikator: ;;;;;;;;;;;x
-TERRAIN_DEFENCE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Dï¿½fense :;Verteidigungsmodifikator: ;;;;;;;;;;;x
-TERRAIN_ATTRITION;ï¿½ï¿½Ä£ï¿½;Attrition :;Verlustrate: ;;;;;;;;;;;x
-IC;IC;Capacitï¿½ industrielle; IK;;;;;;;;;;;x
-CANCEL_CURRENT_ORDER;È¡ï¿½ï¿½Ô­ï¿½ï¿½ï¿½ï¿½ï¿½î¡£;Supprimer l'ordre;Mission abbrechen;;;;;;;;;;;x
-AUTOMATE_TRADE;ï¿½Ô¶ï¿½Ã³ï¿½ï¿½;Commerce automatique;automatischer Handel;;;;;;;;;;;x
-AUTOMATE_MANUAL;ï¿½Ö¶ï¿½ï¿½ï¿½ï¿½ï¿½;Contrï¿½le manuel;manuelle Kontrolle;;;;;;;;;;;x
-AUTOMATE_REINFORCEMENT;ï¿½ï¿½Ô®ï¿½ï¿½ï¿½ï¿½;Prioritï¿½ ï¿½ la consolidation;Verstï¿½rkung priorisieren;;;;;;;;;;;x
-AUTOMATE_UPGRADES;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Prioritï¿½ aux amï¿½liorations;Modernisierung priorisieren;;;;;;;;;;;x
-AUTOMATE_PRODUCTION;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Prioritï¿½ ï¿½ la production;Produktion priorisieren;;;;;;;;;;;x
-SM_COUNTER_SLIDER;Í¼ï¿½ï¿½ï¿½ï¿½ï¿½;Distance des Pions.;Entf. Counter;;;;;;;;;;;x
-national_socialist_CAN;ï¿½ï¿½ï¿½ï¿½ï¿½Ì¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½åµ³;Parti national social chrï¿½tien;Parti national social chrï¿½tien;;;;;;;;;;;x
-fascistic_CAN;ï¿½ï¿½ï¿½Ã´ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½;Union canadienne des fascistes;Canadian Union of Fascists;;;;;;;;;;;x
-paternal_autocrat_CAN;ï¿½ï¿½ï¿½Ëµï¿½;Parti de la reconstruction du Canada;Reconstruction Party;;;;;;;;;;;x
-social_conservative_CAN;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Parti Crï¿½dit social;Social Credit Party;;;;;;;;;;;x
-market_liberal_CAN;ï¿½ï¿½ï¿½Øµï¿½;Parti conservateur;Conservative Party;;;;;;;;;;;x
-social_liberal_CAN;ï¿½ï¿½ï¿½Éµï¿½;Parti libï¿½ral;Liberal Party;;;;;;;;;;;x
-social_democrat_CAN;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½;Fï¿½dï¿½ration du commonwealth coopï¿½ratif;Co-operative Commonwealth Federation;;;;;;;;;;;x
-left_wing_radical_CAN;ï¿½ï¿½ï¿½ï¿½ï¿½Í¹ï¿½ï¿½ï¿½;Parti travailliste indï¿½pendant;Independent Labour Party;;;;;;;;;;;x
-leninist_CAN;ï¿½ï¿½ï¿½Ã´ï¿½ï¿½Ëµï¿½;Parti communiste du Canada;Workers' Party of Canada;;;;;;;;;;;x
-stalinist_CAN;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Parti communiste;Communist Party;;;;;;;;;;;x
-NEED;ï¿½ï¿½Òª;Nï¿½cessite;Benï¿½tigt;;;;;;;;;;;x
-independent_croatia_v2_title;ï¿½ï¿½ï¿½Þµï¿½ï¿½Ç¶ï¿½ï¿½ï¿½;Croatie indï¿½pendante;Nach dem antifaschistischen Staatsstreich in Jugoslawien griffen Deutschland und Italien das Land an und besiegten es. Die Wehrmacht stellte sich auf eine langfristige Besetzung ein, doch da immer mehr Truppen an die Ostfront abgezogen werden mussten, benï¿½tigte man dafï¿½r Hilfe. Die Deutschen konnten den Serben, die verschiedene Partisanengruppen wie z.B. die Tschetniks organisiert hatten, nicht lï¿½nger trauen. Die Kroaten hingegen zeigten sich im Gegenzug fï¿½r ihre Unabhï¿½ngigkeit hilfsbereit.;;Croacia independiente;;;;;;;;;x
-independent_croatia_v2_desc;ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½Ä·ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½ß·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö®ï¿½ó£¬µÂ¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð³ï¿½ï¿½ï¿½Õ¼\nï¿½ì£¬ï¿½ï¿½ï¿½ï¿½Ô½ï¿½ï¿½Ô½ï¿½ï¿½Ä²ï¿½ï¿½Ó²ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½ï¿½ï¿½ï¿½ï¿½Ç³ï¿½ï¿½ï¿½ÒªÑ°\nï¿½ï¿½Ð­ï¿½ï¿½ï¿½ï¿½ï¿½Â¹ï¿½ï¿½ï¿½ï¿½Þ·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î¬ï¿½ï¿½ï¿½Ë£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸ï¿½ï¿½Ö¸ï¿½\nï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½Ó£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ìµ¼ï¿½Ä¡ï¿½ï¿½ï¿½Ö®ï¿½à·´ï¿½ï¿½ï¿½ï¿½ï¿½Þµï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½\nÑ°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÔµÃ·Ç³ï¿½Ô¸ï¿½ï¿½Ð­ï¿½ï¿½ï¿½ï¿½;Aprï¿½s le coup d'ï¿½tat antifasciste en Yougoslavie, l'Allemagne et l'Italie envahirent le pays. La Wehrmacht se prï¿½parait ï¿½ une longue occupation, mais les besoins en troupes du Front de l'Est l'en empï¿½chï¿½rent. Les Allemands ne pouvaient plus faire confiance aux Serbes dont les partisans leur donnaient du fil ï¿½ retordre avec leurs groupes tels que les Rouges ou encore les Tchetniks. Cependant, les Croates ï¿½taient prï¿½ts ï¿½ apporter leur aide si on leur accordait l'indï¿½pendance.;Nach dem antifaschistischen Staatsstreich in Jugoslawien griffen Deutschland und Italien das Land an und besiegten es. Die Wehrmacht stellte sich auf eine langfristige Besetzung ein, doch da immer mehr Truppen an die Ostfront abgezogen werden mussten, benï¿½tigte man dafï¿½r Hilfe. Die Deutschen konnten den Serben, die verschiedene Partisanengruppen wie z.B. die Tschetniks organisiert hatten, nicht lï¿½nger trauen. Die Kroaten hingegen zeigten sich im Gegenzug fï¿½r ihre Unabhï¿½ngigkeit hilfsbereit.;;;;;;;;;;;x
-LEDGER_TRAIT3;ï¿½ï¿½ï¿½ï¿½ 3;Trait 3;Trait 3;;;;;;;;;;;x
-LEDGER_TRAIT4;ï¿½ï¿½ï¿½ï¿½ 4;Trait 4;Trait 4;;;;;;;;;;;x
-PARADROP_MISSION_DESC;ï¿½ï¿½Ò»ï¿½ï¿½Ê¡ï¿½ï¿½Ö´ï¿½Ð¿Õ½ï¿½Í»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¿ï¿½ï¿½ï¿½Í¶É¡ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½;Effectue un assaut aï¿½roportï¿½ sur une province en larguant des parachutistes sur la cible.;Fï¿½hrt eine Luftlandung mit Fallschirmjï¿½gern in einer Provinz durch.;;;;;;;;;;;x
-bessarabia;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Bessarabia;Bessarabia;;;;;;;;;;;x
-karelia;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Karelia;Karelia;;;;;;;;;;;x
+PW_SEND;·¢³ö;Envoyer;Senden;;;;;;;;;;;x
+CD_DEBT;ÔÊÐíÒÔÏÂ¹ú¼Ò¸ºÕ®£º$LIST$;Permet des dettes de $LIST$;Verschuldung von $LIST$ erlauben;;Permite deudas de $LIST$;;;;;;;;;x
+ESTIMATED_POWER;¹À¼ÆµÐÈËÓµÓÐµÄÁ¦Á¿;Puissance ennemie estimée;Geschätzte Feindkräfte;;;;;;;;;;;x
+PROV_POINTS;Ê¤Àûµã;Points;Siegpunkte ;;;;;;;;;;;x
+MAPMODE_14;¼òµ¥µØÐÎµØÍ¼;Mode de terrain simplifié;Detaillierte Terrain Anzeige;;;;;;;;;;;x
+TERRAIN_MOVEMENT_COST;ÒÆ¶¯ÏûºÄ£º;Coût de mouvement :;Bewegungskosten: ;;;;;;;;;;;x
+TERRAIN_ATTACK;½ø¹¥£º;Attaque :;Angriffsmodifikator: ;;;;;;;;;;;x
+TERRAIN_DEFENCE;·ÀÓù£º;Défense :;Verteidigungsmodifikator: ;;;;;;;;;;;x
+TERRAIN_ATTRITION;ËðºÄ£º;Attrition :;Verlustrate: ;;;;;;;;;;;x
+IC;IC;Capacité industrielle; IK;;;;;;;;;;;x
+CANCEL_CURRENT_ORDER;È¡ÏûÔ­ÓÐÃüÁî¡£;Supprimer l'ordre;Mission abbrechen;;;;;;;;;;;x
+AUTOMATE_TRADE;×Ô¶¯Ã³Ò×;Commerce automatique;automatischer Handel;;;;;;;;;;;x
+AUTOMATE_MANUAL;ÊÖ¶¯²Ù×÷;Contrôle manuel;manuelle Kontrolle;;;;;;;;;;;x
+AUTOMATE_REINFORCEMENT;ÔöÔ®ÓÅÏÈ;Priorité à la consolidation;Verstärkung priorisieren;;;;;;;;;;;x
+AUTOMATE_UPGRADES;Éý¼¶ÓÅÏÈ;Priorité aux améliorations;Modernisierung priorisieren;;;;;;;;;;;x
+AUTOMATE_PRODUCTION;Éú²úÓÅÏÈ;Priorité à la production;Produktion priorisieren;;;;;;;;;;;x
+SM_COUNTER_SLIDER;Í¼±ê¾àÀë;Distance des Pions.;Entf. Counter;;;;;;;;;;;x;
+national_socialist_CAN;»ù¶½½Ì¹ú¼ÒÉç»áÖ÷Òåµ³;Parti national social chrétien;Parti national social chrétien;;;;;;;;;;;;x
+fascistic_CAN;¼ÓÄÃ´ó·¨Î÷Ë¹ÁªÃË;Union canadienne des fascistes;Canadian Union of Fascists;;;;;;;;;;;;x
+paternal_autocrat_CAN;¸´ÐËµ³;Parti de la reconstruction du Canada;Reconstruction Party;;;;;;;;;;;;x
+social_conservative_CAN;Éç»áÐÅÓþµ³;Parti Crédit social;Social Credit Party;;;;;;;;;;;;x
+market_liberal_CAN;±£ÊØµ³;Parti conservateur;Conservative Party;;;;;;;;;;;;x
+social_liberal_CAN;×ÔÓÉµ³;Parti libéral;Liberal Party;;;;;;;;;;;;x
+social_democrat_CAN;ºÏ×÷Áª°îÍ¬ÃË;Fédération du commonwealth coopératif;Co-operative Commonwealth Federation;;;;;;;;;;;;x
+left_wing_radical_CAN;¶ÀÁ¢ÀÍ¹¤µ³;Parti travailliste indépendant;Independent Labour Party;;;;;;;;;;;;x
+leninist_CAN;¼ÓÄÃ´ó¹¤ÈËµ³;Parti communiste du Canada;Workers' Party of Canada;;;;;;;;;;;;x
+stalinist_CAN;¹²²úµ³;Parti communiste;Communist Party;;;;;;;;;;;;x
+NEED;ÐèÒª;Nécessite;Benötigt;;;;;;;;;;;;x
+independent_croatia_v2_title;¿ËÂÞµØÑÇ¶ÀÁ¢;Croatie indépendante;Nach dem antifaschistischen Staatsstreich in Jugoslawien griffen Deutschland und Italien das Land an und besiegten es. Die Wehrmacht stellte sich auf eine langfristige Besetzung ein, doch da immer mehr Truppen an die Ostfront abgezogen werden mussten, benötigte man dafür Hilfe. Die Deutschen konnten den Serben, die verschiedene Partisanengruppen wie z.B. die Tschetniks organisiert hatten, nicht länger trauen. Die Kroaten hingegen zeigten sich im Gegenzug für ihre Unabhängigkeit hilfsbereit.;;Croacia independiente;;;;;;;;;x;
+independent_croatia_v2_desc;ÔÚÄÏË¹À­·òµÄ·´·¨Î÷Ë¹Ö÷ÒåÕß·¢¶¯Õþ±äÖ®ºó£¬µÂ¹úºÍÒâ´óÀû\n½ø¹¥²¢´ò°ÜÁËÕâ¸ö¹ú¼Ò¡£¹ú·À¾ü×¼±¸¶ÔÄÏË¹À­·ò½øÐÐ³¤ÆÚÕ¼\nÁì£¬µ«ÊÇÔ½À´Ô½¶àµÄ²¿¶Ó²»µÃ²»µ÷Íù¶«Ïß£¬Òò¶ø·Ç³£ÐèÒªÑ°\nÇóÐ­Öú¡£µÂ¹úÈËÎÞ·¨ÔÙÏàÐÅÈû¶ûÎ¬ÑÇÈË£¬ËûÃÇ×ÜÊÇÓÐ¸÷ÖÖ¸÷\nÑùµÄÓÎ»÷¶Ó£¬ÀýÈçÌúÍÐÁìµ¼µÄ¡£ÓëÖ®Ïà·´£¬¿ËÂÞµØÑÇÈËÎªÁË\nÑ°Çó¶ÀÁ¢¶øÏÔµÃ·Ç³£Ô¸ÒâÐ­Öú¡£;Après le coup d'état antifasciste en Yougoslavie, l'Allemagne et l'Italie envahirent le pays. La Wehrmacht se préparait à une longue occupation, mais les besoins en troupes du Front de l'Est l'en empêchèrent. Les Allemands ne pouvaient plus faire confiance aux Serbes dont les partisans leur donnaient du fil à retordre avec leurs groupes tels que les Rouges ou encore les Tchetniks. Cependant, les Croates étaient prêts à apporter leur aide si on leur accordait l'indépendance.;Nach dem antifaschistischen Staatsstreich in Jugoslawien griffen Deutschland und Italien das Land an und besiegten es. Die Wehrmacht stellte sich auf eine langfristige Besetzung ein, doch da immer mehr Truppen an die Ostfront abgezogen werden mussten, benötigte man dafür Hilfe. Die Deutschen konnten den Serben, die verschiedene Partisanengruppen wie z.B. die Tschetniks organisiert hatten, nicht länger trauen. Die Kroaten hingegen zeigten sich im Gegenzug für ihre Unabhängigkeit hilfsbereit.;;;;;;;;;;;x;
+LEDGER_TRAIT3;ÌØÐÔ 3;Trait 3;Trait 3;;;;;;;;;;;x;
+LEDGER_TRAIT4;ÌØÐÔ 4;Trait 4;Trait 4;;;;;;;;;;;x;
+PARADROP_MISSION_DESC;ÔÚÒ»¸öÊ¡·ÝÖ´ÐÐ¿Õ½µÍ»»÷£¬ÏòÄ¿±ê¿ÕÍ¶É¡±ø²¿¶Ó¡£;Effectue un assaut aéroporté sur une province en larguant des parachutistes sur la cible.;Führt eine Luftlandung mit Fallschirmjägern in einer Provinz durch.;;;;;;;;;;;x
+bessarabia;±ÈÈøÀ­±ÈÑÇ;Bessarabia;Bessarabia;;;;;;;;;;;x
+karelia;¿¨ÀÛÀû°¢;Karelia;Karelia;;;;;;;;;;;x

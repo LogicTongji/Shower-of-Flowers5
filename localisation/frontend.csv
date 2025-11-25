@@ -2,221 +2,221 @@ xxxx;;;;;;;;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
 # Savegame transfers;;;;;;;;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
-SAVE_PROG;ï¿½ï¿½Ï·ï¿½ï¿½ï¿½È£ï¿½$VALUE$ %;Progression de la sauvegarde : $VALUE$ %;Speicherfortschritt: $VALUE$ %;Postï¿½p zapisu: $VALUE$ %;Guardado completado: $VALUE$ %;Salva progressi: $VALUE$ %;Mentï¿½s folyamaban: $VALUE$%;Uloï¿½it postup: $VALUE$ %;;;;;;x
-TRANSERING_SAVE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½;Dï¿½but du transfert de la sauvegardeï¿½;Spielstandtransfer eingeleitet ...;Rozpoczï¿½to transfer zapisanej gry...;Inicio de transferencia de datos guardados...;Trasferimento del salvataggio avviato...;Mentï¿½sï¿½ttï¿½ltï¿½s folyamatbanï¿½;Zaï¿½alo uklï¿½dï¿½nï¿½...;;;;;;x
-LOADING_LOCAL_SAVE;ï¿½ï¿½È¡ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½;Chargement de la copie de sauvegarde localeï¿½;Lokale Spielstandkopie wird geladen ...;Wczytujï¿½ kopiï¿½ zapisanej gry lokalnej...;Cargando copia local de datos guardados...;Caricamento copia salvataggio in locale in corso...;Helyi mentï¿½s betï¿½ltï¿½seï¿½;Nahrï¿½vï¿½nï¿½ mï¿½stnï¿½ uloï¿½enï¿½ hry...;;;;;;x
-PLR_DISC;ï¿½ï¿½Ò§Y$NAME$ï¿½Wï¿½ë¿ªï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½;Le joueur ï¿½Y$NAME$ï¿½W a quittï¿½ la partie.;Spieler $NAME$ hat das Spiel verlassen.;Gracz $NAME$ opuï¿½ciï¿½ grï¿½.;El jugador ï¿½Y$NAME$ï¿½W ha abandonado el juego.;Il giocatore $NAME$ ha lasciato la partita.;$NAME$ elhagyta a jï¿½tï¿½kot.;Hrï¿½ï¿½ ï¿½Y$NAME$ï¿½W opustil hru.;;;;;;x
-PLR_CONNECT;ï¿½ï¿½Ò§Y$NAME$ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½;Le joueur Player ï¿½Y$NAME$ï¿½W a rejoint la partie.;Spieler $NAME$ ist dem Spiel beigetreten.;Gracz $NAME$ doï¿½ï¿½czyï¿½ do gry.;El jugador ï¿½Y$NAME$ï¿½W se ha unido al juego.;Il giocatore $NAME$ partecipa alla partita.;$NAME$ csatlakozott a jï¿½tï¿½khoz.;Hrï¿½ï¿½ ï¿½Y$NAME$ï¿½W se pï¿½ipojil ke hï¿½e.;;;;;;x
-REVERT_SAVE_CAL;ï¿½Ö¸ï¿½Ä¬ï¿½ï¿½ï¿½ï¿½ï¿½Ý¡ï¿½;Retour ï¿½ la base de donnï¿½es par dï¿½faut.;Standard-Datenbank wird eingesetzt.;Powrï¿½t do domyï¿½lnej bazy danych.;Volviendo a la base de datos por defecto.;Ripristino del database predefinito.;Visszatï¿½rï¿½s az eredeti adatbï¿½zishozï¿½;Reverze na vï¿½chozï¿½ databï¿½zi.;;;;;;x
-SAVE_TRANSFER_DONE;ï¿½ï¿½Ï·ï¿½ï¿½ï¿½È½ï¿½ï¿½ï¿½ï¿½ï¿½É¡ï¿½;Transfert de sauvegarde terminï¿½.;Spielstandtransfer beendet.;Dokonano transferu zapisanej gry.;Transferencia de datos guardados completada.;Trasferimento del salvataggio completato.;Mentï¿½sï¿½ttï¿½ltï¿½s kï¿½sz.;Pï¿½enos uloï¿½enï¿½ hry ukonï¿½en.;;;;;;x
+SAVE_PROG;ÓÎÏ·½ø¶È£º$VALUE$ %;Progression de la sauvegarde : $VALUE$ %;Speicherfortschritt: $VALUE$ %;Postêp zapisu: $VALUE$ %;Guardado completado: $VALUE$ %;Salva progressi: $VALUE$ %;Mentés folyamaban: $VALUE$%;Uložit postup: $VALUE$ %;;;;;;x
+TRANSERING_SAVE;½âÎöÓÎÏ·½ø¶ÈÖÐ¡­¡­;Début du transfert de la sauvegarde…;Spielstandtransfer eingeleitet ...;Rozpoczêto transfer zapisanej gry...;Inicio de transferencia de datos guardados...;Trasferimento del salvataggio avviato...;Mentésáttöltés folyamatban…;Zaèalo ukládání...;;;;;;x
+LOADING_LOCAL_SAVE;¶ÁÈ¡ÓÎÏ·½ø¶ÈÖÐ¡­¡­;Chargement de la copie de sauvegarde locale…;Lokale Spielstandkopie wird geladen ...;Wczytujê kopiê zapisanej gry lokalnej...;Cargando copia local de datos guardados...;Caricamento copia salvataggio in locale in corso...;Helyi mentés betöltése…;Nahrávání místní uložené hry...;;;;;;x
+PLR_DISC;Íæ¼Ò§Y$NAME$§WÀë¿ªÁËÓÎÏ·¡£;Le joueur §Y$NAME$§W a quitté la partie.;Spieler $NAME$ hat das Spiel verlassen.;Gracz $NAME$ opuœci³ grê.;El jugador §Y$NAME$§W ha abandonado el juego.;Il giocatore $NAME$ ha lasciato la partita.;$NAME$ elhagyta a játékot.;Hráè §Y$NAME$§W opustil hru.;;;;;;x
+PLR_CONNECT;Íæ¼Ò§Y$NAME$§W¼ÓÈëÁËÓÎÏ·¡£;Le joueur Player §Y$NAME$§W a rejoint la partie.;Spieler $NAME$ ist dem Spiel beigetreten.;Gracz $NAME$ do³¹czy³ do gry.;El jugador §Y$NAME$§W se ha unido al juego.;Il giocatore $NAME$ partecipa alla partita.;$NAME$ csatlakozott a játékhoz.;Hráè §Y$NAME$§W se pøipojil ke høe.;;;;;;x
+REVERT_SAVE_CAL;»Ö¸´Ä¬ÈÏÊý¾Ý¡£;Retour à la base de données par défaut.;Standard-Datenbank wird eingesetzt.;Powrót do domyœlnej bazy danych.;Volviendo a la base de datos por defecto.;Ripristino del database predefinito.;Visszatérés az eredeti adatbázishoz…;Reverze na výchozí databázi.;;;;;;x
+SAVE_TRANSFER_DONE;ÓÎÏ·½ø¶È½âÎöÍê³É¡£;Transfert de sauvegarde terminé.;Spielstandtransfer beendet.;Dokonano transferu zapisanej gry.;Transferencia de datos guardados completada.;Trasferimento del salvataggio completato.;Mentésáttöltés kész.;Pøenos uložené hry ukonèen.;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
 # Loading texts;;;;;;;;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
-FE_TOGGLE;ï¿½ï¿½ï¿½Ù¿ï¿½Ê¼;Dï¿½marrage rapide;Schnellstart;;Inicio rï¿½pido;;;;;;;;;x
-FE_TOGGLE_NORMAL;ï¿½Ô¶ï¿½ï¿½å¿ªÊ¼;Dï¿½marrage personnalisï¿½;Benutzerdefinierter Start;;Inicio personalizado;;;;;;;;;x
+FE_TOGGLE;¿ìËÙ¿ªÊ¼;Démarrage rapide;Schnellstart;;Inicio rápido;;;;;;;;;x
+FE_TOGGLE_NORMAL;×Ô¶¨Òå¿ªÊ¼;Démarrage personnalisé;Benutzerdefinierter Start;;Inicio personalizado;;;;;;;;;x
 #######################################;;;;;;;;;;;;;;x
 # Quick Start Texts;;;;;;;;;;;;;;x
 #######################################;;;;;;;;;;;;;;x
-FE_QS_GER_TITLE;ï¿½Â¹ï¿½ï¿½ï¿½1939ï¿½ï¿½ï¿½ï¿½ï¿½;;;;;;;;;;;;;X
-FE_QS_GER_GOAL;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É³ï¿½Í°ï¿½ï¿½ï¿½;;;;;;;;;;;;;X
-FE_QS_GER_INFO;ï¿½ï¿½ï¿½ï¿½ç±¾ï¿½ï¿½ï¿½Øµï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\nÈ«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½Îªï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n;;;;;;;;;;;;;X
-FE_QS_SOV_TITLE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1941ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;;;;;;;;;;;;;X
-FE_QS_SOV_GOAL;ï¿½ï¿½×¡Ë¹ï¿½ï¿½ï¿½Ö¸ï¿½ï¿½Õ£ï¿½ÄªË¹ï¿½Æºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;;;;;;;;;;;;;X
-FE_QS_SOV_INFO;ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô½ï¿½Îª\nï¿½ï¿½ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½â½»ï¿½ï¿½ï¿½é±¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\n;;;;;;;;;;;;;X
-FE_QS_JAP_TITLE;ï¿½Õ±ï¿½ï¿½ï¿½1941ï¿½ï¿½Ê®ï¿½ï¿½ï¿½ï¿½;;;;;;;;;;;;;X
-FE_QS_JAP_GOAL;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÄºÍ¹Ï´ï¿½ï¿½ï¿½ï¿½ï¿½É¶ï¿½ï¿½ï¿½;;;;;;;;;;;;;X
-FE_QS_JAP_INFO;ï¿½ï¿½ï¿½ï¿½Ç¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ì«\nÆ½ï¿½ó¡£µï¿½ï¿½Ô½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ù¿Ø¹ï¿½ï¿½Òµï¿½\nï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¡ï¿½\n;;;;;;;;;;;;;X
-FE_QS_USA_TITLE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½1936ï¿½ï¿½Ò»ï¿½ï¿½;;;;;;;;;;;;;X
-FE_QS_USA_GOAL;ï¿½ï¿½Õ½;;;;;;;;;;;;;X
-FE_QS_USA_INFO;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½Îºï¿½ï¿½é±¨ï¿½ï¿½\nï¿½Ú´Ë»ï¿½ï¿½ï¿½ï¿½Ï´Ù½ï¿½ï¿½ï¿½ï¿½ï¿½×¼ï¿½ï¿½ï¿½Ã²Î¼ÓµÚ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½\nï¿½ï¿½Õ½ï¿½ï¿½ï¿½Ó·ï¿½ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ç¡£\n;;;;;;;;;;;;;X
+FE_QS_GER_TITLE;µÂ¹ú£¬1939Äê¾ÅÔÂ;;;;;;;;;;X
+FE_QS_GER_GOAL;Õ÷·þ»ªÉ³ºÍ°ÍÀè;;;;;;;;;;X
+FE_QS_GER_INFO;Õâ¸ö¾ç±¾µÄÖØµãÖ÷Òª¼¯ÖÐÓÚÕ½Õù¡£Äã¿ÉÒÔÍê\nÈ«¿ØÖÆÄãµÄ¾üÊÂÁ¦Á¿£¬¶øµçÄÔ½«ÎªÄã×Ô¶¯´¦\nÀíÆäËûÊÂÎñ¡£\n;;;;;;;;;;X
+FE_QS_SOV_TITLE;ËÕÁª£¬1941ÄêÁùÔÂ;;;;;;;;;;X
+FE_QS_SOV_GOAL;ÊØ×¡Ë¹´óÁÖ¸ñÀÕ£¬ÄªË¹¿ÆºÍÁÐÄþ¸ñÀÕ;;;;;;;;;;X
+FE_QS_SOV_INFO;ÍêÈ«¿ØÖÆËÕÁªµÄ¾üÊÂÁ¦Á¿ºÍÉú²ú¡£µçÄÔ½«Îª\nÄã×Ô¶¯´¦Àí¿ÆÑÐ¡¢Íâ½»¡¢Çé±¨ºÍÕþÖÎÊÂÎñ¡£\n;;;;;;;;;;X
+FE_QS_JAP_TITLE;ÈÕ±¾£¬1941ÄêÊ®¶þÔÂ;;;;;;;;;;X
+FE_QS_JAP_GOAL;Õ÷·þÏÄÍþÒÄºÍ¹Ï´ï¶û¿¨ÄÉ¶ûµº;;;;;;;;;;X
+FE_QS_JAP_INFO;¿ØÖÆÇ¿ÓÐÁ¦µÄÈÕ±¾º£¾ü¼°µÇÂ½²¿¶ÓÀ´Õ÷·þÌ«\nÆ½Ñó¡£µçÄÔ½«ÔÚÆäËû·½Ãæ°ïÖúÄã²Ù¿Ø¹ú¼ÒµÄ\n¸÷¸ö²¿·Ö¡£\n;;;;;;;;;;X
+FE_QS_USA_TITLE;ÃÀ¹ú£¬1936ÄêÒ»ÔÂ;;;;;;;;;;X
+FE_QS_USA_GOAL;²ÎÕ½;;;;;;;;;;X
+FE_QS_USA_INFO;Äã¿ÉÒÔÍêÈ«¿ØÖÆÉú²ú¡¢¿ÆÑÐ¡¢ÕþÖÎºÍÇé±¨£¬\nÔÚ´Ë»ù´¡ÉÏ´Ù½øÃÀ¹ú×¼±¸ºÃ²Î¼ÓµÚ¶þ´ÎÊÀ½ç\n´óÕ½£¬´Ó·¨Î÷Ë¹ÊÖÖÐÕü¾ÈÊÀ½ç¡£\n;;;;;;;;;;X
 ######################################################################;;;;;;;;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
 # Settings ;;;;;;;;;;;;;;x
-FE_SETTING_DIPLOMACY;ï¿½â½»;Diplomatie;Diplomatie;;Diplomacia;;;;;;;;;x
-FE_SETTING_PRODUCTION;ï¿½ï¿½ï¿½ï¿½;Production;Produktion;;Producciï¿½n;;;;;;;;;x
-FE_SETTING_POLITICS;ï¿½ï¿½ï¿½ï¿½;Politique;Politik;;Polï¿½tica;;;;;;;;;x
-FE_SETTING_INTEL;ï¿½é±¨;Espionnage;Aufklï¿½rung;;Inteligencia;;;;;;;;;x
-FE_SETTING_TECHNOLOGY;ï¿½ï¿½ï¿½ï¿½;Technologie;Technologie;;Tecnologï¿½a;;;;;;;;;x
-FE_SETTING_UNITINTERFACE;ï¿½ï¿½ï¿½ï¿½;Armï¿½es;Armeen;;Ejï¿½rcitos;;;;;;;;;x
-DIFF_VERY_EASY;ï¿½Ç³ï¿½ï¿½ï¿½;Trï¿½s facile;Sehr leicht;;Muy fï¿½cil;;;;;;;;;x
-DIFF_EASY;ï¿½ï¿½;Facile;Leicht;;Fï¿½cil;;;;;;;;;x
-DIFF_NORMAL;ï¿½ï¿½ï¿½ï¿½;Normal;Normal;;Normal;;;;;;;;;x
-DIFF_HARD;ï¿½ï¿½ï¿½ï¿½;Difficile;Schwer;;Difï¿½cil;;;;;;;;;x
-DIFF_VERY_HARD;ï¿½Ç³ï¿½ï¿½ï¿½ï¿½ï¿½;Trï¿½s difficile;Sehr schwer;;Muy difï¿½cil;;;;;;;;;x
-OPT_EASY;ï¿½ï¿½ï¿½ï¿½;Normal;Normal;;Normal;;;;;;;;;x
-OPT_EXPERT;×¨ï¿½ï¿½;Expert;Experte;;Experto;;;;;;;;;x
-OPT_AICONTROL;ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½;Contrï¿½le de l'IA;KI-Kontrolle;;Control de la IA;;;;;;;;;x
-OPT_AI_CORP;ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½Æ¾ï¿½ï¿½ï¿½ï¿½ï¿½Î»;Corps contrï¿½lï¿½s par l'IA;KI kontrolliert Korps;;La IA controla los cuerpos;;;;;;;;;x
-OPT_AI_ARMY;ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½Æ¼ï¿½ï¿½Å¾ï¿½ï¿½ï¿½ï¿½ï¿½Î»;Armï¿½es contrï¿½lï¿½s par l'IA;KI kontrolliert Armeen;;La IA controla los ejï¿½rcitos;;;;;;;;;x
-OPT_AI_ARMY_GROUP;ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½Æ¼ï¿½Èºï¿½ï¿½ï¿½ï¿½Î»;Groupes d'armï¿½es contrï¿½lï¿½s par l'IA;KI kontrolliert Armeegruppen;;La IA controla los grupos de ejï¿½rcito;;;;;;;;;x
-OPT_AI_THEATER;ï¿½ï¿½ï¿½Ô¿ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»;Thï¿½ï¿½tres des opï¿½rations contrï¿½lï¿½s par l'IA;KI kontrolliert Kriegsschauplï¿½tze;;La IA controla los teatros;;;;;;;;;x
-OPT_PLAYER_CONTROL;ï¿½ï¿½Ò¿ï¿½ï¿½ï¿½;Contrï¿½le du joueur;Spielersteuerung;;Control del jugador;;;;;;;;;x
-OPT_NORMAL;ï¿½ï¿½ï¿½ï¿½;Normal;Normal;;Normal;;;;;;;;;x
+FE_SETTING_DIPLOMACY;Íâ½»;Diplomatie;Diplomatie;;Diplomacia;;;;;;;;;x
+FE_SETTING_PRODUCTION;Éú²ú;Production;Produktion;;Producción;;;;;;;;;x
+FE_SETTING_POLITICS;ÕþÖÎ;Politique;Politik;;Política;;;;;;;;;x
+FE_SETTING_INTEL;Çé±¨;Espionnage;Aufklärung;;Inteligencia;;;;;;;;;x
+FE_SETTING_TECHNOLOGY;¿ÆÑÐ;Technologie;Technologie;;Tecnología;;;;;;;;;x
+FE_SETTING_UNITINTERFACE;²¿¶Ó;Armées;Armeen;;Ejércitos;;;;;;;;;x
+DIFF_VERY_EASY;·Ç³£¼òµ¥;Très facile;Sehr leicht;;Muy fácil;;;;;;;;;x
+DIFF_EASY;¼òµ¥;Facile;Leicht;;Fácil;;;;;;;;;x
+DIFF_NORMAL;Õý³£;Normal;Normal;;Normal;;;;;;;;;x
+DIFF_HARD;À§ÄÑ;Difficile;Schwer;;Difícil;;;;;;;;;x
+DIFF_VERY_HARD;·Ç³£À§ÄÑ;Très difficile;Sehr schwer;;Muy difícil;;;;;;;;;x
+OPT_EASY;Õý³£;Normal;Normal;;Normal;;;;;;;;;x
+OPT_EXPERT;×¨¼Ò;Expert;Experte;;Experto;;;;;;;;;x
+OPT_AICONTROL;µçÄÔ¿ØÖÆ;Contrôle de l'IA;KI-Kontrolle;;Control de la IA;;;;;;;;;x
+OPT_AI_CORP;µçÄÔ¿ØÖÆ¾ü¼¶µ¥Î»;Corps contrôlés par l'IA;KI kontrolliert Korps;;La IA controla los cuerpos;;;;;;;;;x
+OPT_AI_ARMY;µçÄÔ¿ØÖÆ¼¯ÍÅ¾ü¼¶µ¥Î»;Armées contrôlés par l'IA;KI kontrolliert Armeen;;La IA controla los ejércitos;;;;;;;;;x
+OPT_AI_ARMY_GROUP;µçÄÔ¿ØÖÆ¼¯Èº¼¶µ¥Î»;Groupes d'armées contrôlés par l'IA;KI kontrolliert Armeegruppen;;La IA controla los grupos de ejército;;;;;;;;;x
+OPT_AI_THEATER;µçÄÔ¿ØÖÆÕ½Çø¼¶µ¥Î»;Théâtres des opérations contrôlés par l'IA;KI kontrolliert Kriegsschauplätze;;La IA controla los teatros;;;;;;;;;x
+OPT_PLAYER_CONTROL;Íæ¼Ò¿ØÖÆ;Contrôle du joueur;Spielersteuerung;;Control del jugador;;;;;;;;;x
+OPT_NORMAL;Õý³£;Normal;Normal;;Normal;;;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
 # Misc ;;;;;;;;;;;;;;x
-FE_HEAD_OF_STATE;ï¿½ï¿½ï¿½ï¿½Ôªï¿½ï¿½;Chef de l'ï¿½tat;Staatsoberhaupt;;Jefe de Estado;;;;;;;;;x
-ATPEACE;ï¿½ï¿½ï¿½Úºï¿½Æ½ï¿½ï¿½;En paix.;Im Frieden;;En paz.;;;;;;;;;x
-ATWAR;ï¿½ï¿½ï¿½ï¿½Õ½ï¿½ï¿½ï¿½ï¿½;En guerre.;Im Krieg;;En guerra.;;;;;;;;;x
-WORLD_YEAR;$YEAR$ï¿½ï¿½$MONTH$$DAY$ï¿½Õ§Y$NAME$ï¿½W;ï¿½Y$NAME$ï¿½W, $DAY$ $MONTH$ $YEAR$;;;ï¿½Y$NAME$ï¿½W, $DAY$ de $MONTH$, $YEAR$;;;;;;;;;x
-CORE_PAUSED;ï¿½ï¿½Í£;PAUSE;PAUSE;PAUZA;PAUSA;PAUSA;Szï¿½net;PAUZA;;;;;;x
-SM_SETTINGS;ï¿½ï¿½ï¿½ï¿½;Paramï¿½tres;Einstellungen;Ustawienia;Configuraciï¿½n;Impostazioni;Beï¿½llï¿½tï¿½sok;Nastavenï¿½;;;;;;x
-SM_GAME;ï¿½ï¿½Ï·;Jeu;Spiel;Gra;Juego;Partita;Jï¿½tï¿½k;Hra;;;;;;x
-SM_VIDEO;ï¿½ï¿½Æµ;Vidï¿½o;Grafik;Grafika;Vï¿½deo;Video;Videï¿½;Grafika;;;;;;x
-SM_AUDIO;ï¿½ï¿½Æµ;Audio;Sound;Dï¿½wiï¿½k;Sonido;Audio;Hangok;Zvuk;;;;;;x
-SM_CONTROLS;ï¿½ï¿½ï¿½ï¿½;Contrï¿½les;Maus;Mysz;CONTROLES;Comandi;Irï¿½nyï¿½tï¿½s;Ovlï¿½dï¿½nï¿½;;;;;;x
-SM_MASTER_VOLUME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Volume principal;Hauptlautstï¿½rke;Gï¿½oï¿½noï¿½ï¿½ ogï¿½lna;Volumen principal;Volume generale;Hangerï¿½;Celkovï¿½ hlasitost;;;;;;x
-SM_EFFECT_VOLUME;Ð§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Volume des effets sonores;Soundeffektlautstï¿½rke;Gï¿½oï¿½noï¿½ï¿½ efektï¿½w;Volumen de los efectos;Volume effetti;Effektek hangereje;Hlasitost zvukovï¿½ch efektï¿½;;;;;;x
-SM_MUSIC_VOLUME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Volume de la musique;Musiklautstï¿½rke;Gï¿½oï¿½noï¿½ï¿½ muzyki;Volumen de la mï¿½sica;Volume musica;Zene hangereje;Hlasitost hudby;;;;;;x
-SM_SCROLL_SPEED;ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½;Vitesse de dï¿½filement;Scrollgeschwindigkeit;Prï¿½dkoï¿½ï¿½ przewijania;Velocidad de desplazamiento;Velocitï¿½ scorrimento;Gï¿½rgetï¿½s sebessï¿½ge;Rychlost posouvï¿½nï¿½;;;;;;x
-SM_ZOOM_SPEED;ï¿½ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½;Vitesse du zoom;Zoomgeschwindigkeit;Prï¿½dkoï¿½ï¿½ skalowania;Velocidad de zoom;Velocitï¿½ zoom;Nagyï¿½tï¿½s sebessï¿½ge;Rychlost zaostï¿½ovï¿½nï¿½;;;;;;x
-SM_MOUSE_SPEED;ï¿½ï¿½ï¿½ï¿½Ù¶ï¿½;Vitesse de la souris;Mausgeschwindigkeit;Prï¿½dkoï¿½ï¿½ myszy;Velocidad del ratï¿½n;Velocitï¿½ mouse;Egï¿½r sebessï¿½ge;Rychlost myï¿½i;;;;;;x
-SM_RESOLUTION;ï¿½Ö±ï¿½ï¿½ï¿½;Rï¿½solution;Auflï¿½sung;Rozdzielczoï¿½ï¿½;Definiciï¿½n;Risoluzione;Felbontï¿½s;Rozliï¿½enï¿½;;;;;;x
-SM_REFRESH_RATE;Ë¢ï¿½ï¿½ï¿½ï¿½;Taux de rafraï¿½chissement;Bildwiederholrate;Prï¿½dkoï¿½ï¿½ odï¿½wieï¿½ania;Tasa de actualizaciï¿½n;Aggiornamento;Frissï¿½tï¿½si frekvencia;Obnovovacï¿½ frekvence;;;;;;x
-SM_GAMMA;ï¿½ï¿½ï¿½ï¿½;Gamma;Gamma;Gamma;Gamma;Gamma;Gamma;Jas (Gamma);;;;;;x
-SM_SHADOWS;ï¿½ï¿½Ó°;Ombres;Schatten;Cienie;Sombras;Ombre;ï¿½rnyï¿½kok;Stï¿½novï¿½nï¿½;;;;;;x
-SM_TREES;ï¿½ï¿½Ä¾;Arbres;Bï¿½ume;Drzewa;ï¿½rboles;Alberi;Fï¿½k;Stromy;;;;;;x
-SM_DIFFICULTY;ï¿½ï¿½ï¿½Ñ¶ï¿½;Difficultï¿½;Schwierigkeit;Trudnoï¿½ï¿½;Dificultad;Difficoltï¿½;Nehï¿½zsï¿½g;Obtï¿½nost;;;;;;x
-SM_AUTOSAVE_INTERVAL;ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Intervalle de sauvegarde automatique;Intervall f. autom. Speichern ;Przedziaï¿½ autozapisu;Intervalo de guardado automï¿½tico;Intervallo autosalvataggio;Automentï¿½s idï¿½kï¿½ze;Interval automatickï¿½ho uklï¿½dï¿½nï¿½;;;;;;x
-SM_APPLY;Ó¦ï¿½ï¿½;Appliquer;Anwenden;Zastosuj;Aplicar;Applicare;Alkalmaz;Pouï¿½ï¿½t;;;;;;x
-SM_BACK;ï¿½ï¿½ï¿½ï¿½;Retour;Zurï¿½ck;Powrï¿½t;Atrï¿½s;Indietro;Vissza;Zpï¿½t;;;;;;x
-SM_ALERT;ï¿½ï¿½ï¿½ï¿½;Alerte;Benachrichtigung;Powiadomienie;Alerta;Avvertimento;Riadï¿½;Vï¿½straha;;;;;;x
-SM_RESTART;ï¿½ï¿½ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½Êµï¿½Ö¸ï¿½ï¿½Äºï¿½ï¿½Ð§ï¿½ï¿½ï¿½ï¿½;Vous devez redï¿½marrer pour que la modification prenne effet.;Sie mï¿½ssen den Rechner neu starten, damit die ï¿½nderung in Kraft treten kann.;Aby zmiany zostaï¿½y zapisane, musisz ponownie uruchomiï¿½ grï¿½.;Tendrï¿½s que reiniciar para que los cambios surtan efecto.;Per rendere attive le modifiche ï¿½ necessario riavviare.;Az ï¿½rvï¿½nybelï¿½ptetï¿½shez ï¿½jra kell indï¿½tanod a programot.;Zmï¿½ny se uplatnï¿½ aï¿½ po restartu hry.;;;;;;x
-SM_WP;ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½È·ï¿½ï¿½ï¿½Ä¼ï¿½Ã»ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¡ï¿½;Erreur lors de l'ï¿½criture du fichier de paramï¿½tres. Vï¿½rifiez qu'il n'est pas protï¿½gï¿½ et rï¿½essayez.;Fehler beim Schreiben der Einstellungsdatei. Prï¿½fen Sie, ob die Datei schreibgeschï¿½tzt ist und versuchen Sie es erneut;Bï¿½ï¿½d podczas zapisu pliku ustawieï¿½. Sprawdï¿½, czy plik nie jest chroniony przed zapisem i sprï¿½buj ponownie.;Error de escritura en el archivo de configuraciï¿½n. Comprueba que el archivo no estï¿½ protegido contra escritura e intï¿½ntalo de nuevo.;Errore di scrittura nel file delle impostazioni. Controllare che il file non sia protetto da scrittura e riprovare.;Hiba, nem sikerï¿½lt ï¿½rni a beï¿½llï¿½tï¿½sat tartalmazï¿½ fï¿½lba. Ellenï¿½rizd, hogy a fï¿½jl nem ï¿½rï¿½s;Chyba pï¿½i zapisovï¿½nï¿½ do souboru s nastavenï¿½m. Ovï¿½ï¿½te, zda soubor nenï¿½ chrï¿½nï¿½n pï¿½ed zï¿½pisem, a pokus opakujte.;;;;;;x
-FE_HOST;ï¿½ï¿½ï¿½ï¿½;Hï¿½berger;Host;Stwï¿½rz grï¿½.;Anfitriï¿½n;Host;Hoszt;Hostitel;;;;;;x
-FE_JOIN_LAN_GAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Rejoindre une partie LAN;LAN-Spiel beitreten;Doï¿½ï¿½cz do gry w sieci LAN.;Unirse a juego en LAN;Partecipare a partita LAN;Csatlakozï¿½s LAN jï¿½tï¿½khoz;Pï¿½ipojit se ke hï¿½e v sï¿½ti LAN;;;;;;x
-FE_JOIN_INTERNET_GAME;ï¿½ï¿½ï¿½ï¿½Internetï¿½ï¿½Ï·;Rejoindre une partie sur Internet;Internetspiel beitreten;Doï¿½ï¿½cz do gry internetowej.;Unirse a juego en Internet;Partecipare a partita Internet;Csatlakozï¿½s Internetes jï¿½tï¿½khoz;Pï¿½ipojit ke hï¿½e v Internetu;;;;;;x
-FE_SCAN;ï¿½ï¿½ï¿½ï¿½;Rechercher;SCAN;skanuj;exploraciï¿½n RAD;scansione;keresï¿½s;sken;;;;;;x
-FE_METASERVER;ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Mï¿½taserveur;Metaserver;Metaserwer;Metaserver;Metaserver;Kï¿½ztes szerver;Primï¿½rnï¿½ server;;;;;;x
-FE_BACK;ï¿½ï¿½ï¿½ï¿½;Retour;Zurï¿½ck;Powrï¿½t;Atrï¿½s;Indietro;Vissza;Zpï¿½t;;;;;;x
-FE_PLAYER;ï¿½ï¿½ï¿½;Joueur;Spieler;Gracz;Jugador;Giocatore;Jï¿½tï¿½kos;Hrï¿½ï¿½;;;;;;x
-FE_PLAYER_NAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Nom du joueur :;Spielername:;Nazwa gracza:;Nombre del jugador:;Nome giocatore:;Jï¿½tï¿½kos nï¿½v:;Jmï¿½no hrï¿½ï¿½e:;;;;;;x
-FE_SINGLE_PLAYER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Un joueur;Einzelspieler;Gra pojedyncza;Un jugador;Giocatore singolo;Egyjï¿½tï¿½kos mï¿½d;Hra pro jednoho hrï¿½ï¿½e;;;;;;x
-FE_MULTI_PLAYER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Multi-joueurs;Mehrspieler;Gra wieloosobowa;Multijugador;Multigiocatore;Tï¿½bbjï¿½tï¿½kos mï¿½d;Hra pro vï¿½ce hrï¿½ï¿½ï¿½;;;;;;x
-FE_OPTIONS;Ñ¡ï¿½ï¿½;Options;Optionen;Opcje;Options;Opzioni;Beï¿½llï¿½tï¿½sok;Moï¿½nosti;;;;;;x
-FE_CREDITS;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Gï¿½nï¿½rique;Credits;Twï¿½rcy gry;Crï¿½ditos;Riconoscimenti;Kï¿½szï¿½tï¿½k;Autoï¿½i;;;;;;x
-FE_EXIT;ï¿½Ë³ï¿½;Quitter;Beenden;Wyjï¿½cie;Salir;Esci;Kilï¿½pï¿½s;Konec;;;;;;x
-FE_NATION_TO_PLAY;Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÒªÊ¹ï¿½ÃµÄ¹ï¿½ï¿½Ò¡ï¿½;Cliquez sur la nation avec laquelle vous voulez jouerï¿½;Klicken Sie auf das Land, dessen Geschicke Sie leiten mï¿½chten ï¿½;Kliknij paï¿½stwo, ktï¿½rym chcesz wï¿½adaï¿½...;Haz clic en la naciï¿½n con la que desees jugar...;Fare clic sulla nazione con cui si desidera giocare...;Kattints arra a nemzetre, amelyikkel jï¿½tszani szeretnï¿½l;Klepnutï¿½m vyberte nï¿½rod, za kterï¿½ chcete hrï¿½t...;;;;;;x
-FE_NEW_GAME;ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½Ï·;Nouvelle partie;Neues Spiel;Nowa gra;Nueva partida;Nuova partita;ï¿½j jï¿½tï¿½k;Novï¿½ hra;;;;;;x
-FE_SAVE_GAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Sauvegarder des parties;Spiele speichern;Zapisz grï¿½;Guardar partida;Salva partite;Mentï¿½sek;Uloï¿½it hry;;;;;;x
-FE_HISTORICAL_START;Ê·Êµï¿½ï¿½ï¿½ï¿½;Dï¿½but historique;Historischer Start;Start historyczny;Inicio histï¿½rico;Avvio storico;Tï¿½rtï¿½nelemhï¿½sï¿½g;Historickï¿½ zaï¿½ï¿½tek;;;;;;x
-FE_SAVED_GAMES;ï¿½Ó´æµµï¿½ï¿½Ê¼;Parties sauvegardï¿½es;Spielestï¿½nde;Zapisane gry;Partidas guardadas;Partite salvate;Mentï¿½sek;Uloï¿½enï¿½ hry;;;;;;x
-FE_SELECT_NATION;ï¿½ï¿½ï¿½ï¿½ï¿½Í¼ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½Ò¡ï¿½;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;;;;;;x
-FE_NO_COUNTRY_SELECTED;ï¿½ï¿½Î´Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½;Aucun pays n'est sï¿½lectionnï¿½;Kein Land ausgewï¿½hlt;Nie wybrano paï¿½stwa;No se ha seleccionado paï¿½s;Nessun paese selezionato;Nincs orszï¿½g kijelï¿½lve.;Nebyla vybrï¿½na ï¿½ï¿½dnï¿½ zemï¿½;;;;;;x
-FE_MILITARY;ï¿½ï¿½ï¿½ï¿½;Militaire;Militï¿½r;Wojsko;Militar;Militare;Hadsereg;Vojenstvï¿½;;;;;;x
-FE_ECONOMY;ï¿½ï¿½ï¿½ï¿½;ï¿½conomie;Wirtschaft;Ekonomia;Economï¿½a;Economia;Gazdasï¿½g;Ekonomika;;;;;;x
-FE_DIPLOMACY;ï¿½â½»;Diplomatie;Diplomatie;Dyplomacja;Diplomacia;Diplomazia;Diplomï¿½cia;Diplomacie;;;;;;x
-FE_DIFFICULTY;ï¿½Ñ¶ï¿½;Difficultï¿½ :;Schwierigkeit:;Trudnoï¿½ï¿½:;Dificultad:;Difficoltï¿½:;Nehï¿½zsï¿½g:;Obtï¿½nost:;;;;;;x
-FE_AT_WAR;Õ½ï¿½ï¿½×´Ì¬ï¿½ï¿½;En guerre :;Im Krieg:;W stanie wojny:;En guerra:;In guerra:;Hï¿½borï¿½ban:;Ve vï¿½lce:;;;;;;x
-FE_ALLIES;Í¬ï¿½Ë¹ï¿½ï¿½Ò£ï¿½;Alliï¿½s :;Bï¿½ndnispartner:;Sojusze:;Aliados:;Alleati:;Szï¿½vetsï¿½gesek:;Spojenci:;;;;;;x
-FE_LOAD;ï¿½ï¿½È¡;CHARGER;LADEN;WCZYTAJ;CARGAR;CARICARE;BETï¿½LTï¿½S;NAHRï¿½T;;;;;;x
-FE_BOOKEDMARKED;Õ½ï¿½ï¿½Ê±ï¿½ä£º;Dates ayant un signet :;Markierte Daten:;Oznaczone daty:;Fechas seï¿½aladas:;Date importanti:;Mentett idï¿½pontok;Oznaï¿½enï¿½ data:;;;;;;x
-FE_STARTING_DATE;ï¿½ï¿½Ê¼Ê±ï¿½ï¿½;Date de dï¿½but;Startdatum;Data poczï¿½tkowa;Fecha de inicio;Data di inizio;Kezdï¿½s dï¿½tuma;Datum startu;;;;;;x
-FE_BOOKMARK_TITLE;Õ½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Titre du signet;Titelmarkierung;Tytuï¿½ zakï¿½adki;Seï¿½alar tï¿½tulo;Titolo data importante;Kï¿½nyvjelzï¿½ neve;Titul zï¿½loï¿½ky;;;;;;x
-FE_BOOKMARK_DATE;Õ½ï¿½ï¿½Ê±ï¿½ï¿½;Appliquer un signet ï¿½ la date;Datumsmarkierung;Data zakï¿½adki;Seï¿½alar fecha;Data importante;Kï¿½nyvjelzï¿½ dï¿½tuma;Datum zï¿½loï¿½ky;;;;;;x
-FE_LOCAL_GAMES;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;parties locales;lokale Spiele;gry lokalne;Partidas locales;partite in locale;helyi jï¿½tï¿½kok;mï¿½stnï¿½ hry;;;;;;x
-FE_MY_GAME;ï¿½Òµï¿½ï¿½ï¿½Ï·;Ma partie;Mein Spiel;Moja gra;Mi partida;Partita personale;Sajï¿½t jï¿½tï¿½k;Mï¿½ hra;;;;;;x
-FE_CANCEL;È¡ï¿½ï¿½;Annuler;Abbrechen;Anuluj;Cancelar;Annullare;Mï¿½gse;Zruï¿½it;;;;;;x
-PLAYER_LOST_TITLE;ï¿½ï¿½Ò¶Ï¿ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½;Joueur dï¿½connectï¿½.;Verbindung zum Spieler getrennt.;Gracz niedostï¿½pny;Jugador desconectado.;Giocatore disconnesso.;Jï¿½tï¿½kos lekapcsoldï¿½dott;Hrï¿½ï¿½ byl odpojen.;;;;;;x
-PLAYER_LOST_DESC;ï¿½ï¿½ï¿½$playername$ï¿½Ï¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó£ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½;Joueur(s) $playername$ dï¿½connectï¿½(s). Choisissez votre action.;Verbindung der/des Spieler/s $playername$ getrennt.;Gracz(e) $playername$ niedostï¿½pny(-ni). Wybierz opcjï¿½.;Jugador(s) $playername$ desconectado. Escoge una acciï¿½n.;Giocatore/i $playername$ disconnesso/i. Cosa intendi fare?;$playername$ jï¿½tï¿½kos lekapcsolï¿½dott. Vï¿½lassz valamit.;Hrï¿½ï¿½ $playername$ byl odpojen. Vyberte akci.;;;;;;x
-SERVER_LOST_TITLE;ï¿½ï¿½Ê§ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Connexion perdue avec le serveur !;Serververbindung getrennt!;Serwer niedostï¿½pny!;ï¿½Servidor perdido!;Server scollegato!;A szerverkapcsolat megszakadt!;Server ztracen!;;;;;;x
-SERVER_LOST_DESC;ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Ê§ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¹ï¿½ï¿½;Le serveur a ï¿½tï¿½ perdu. La partie va ï¿½tre terminï¿½e.;Die Serververbindung wurde getrennt. Das Spiel wird beendet.;Serwer jest niedostï¿½pny. Nastï¿½pi koniec gry.;Se ha perdido el servidor. La partida finalizarï¿½.;Il server non ï¿½ piï¿½ collegato. La partita verrï¿½ terminata.;A szerverkapcsolat megszakadt. Vï¿½get ï¿½rt a jï¿½tï¿½k.;Server byl ztracen. Hra skonï¿½ï¿½.;;;;;;x
-OK;ï¿½Ãµï¿½;Ok;Ok;OK;Aceptar;Ok;Rendben;Ok;;;;;;x
-CANCEL;È¡ï¿½ï¿½;Annuler;Abbrechen;Anuluj;Cancelar;Annullare;Mï¿½gsem;Zruï¿½it;;;;;;x
-SAVE;ï¿½ï¿½ï¿½ï¿½;Sauvegarder;Speichern;Zapisz;Guardar;Salvare;Mentï¿½s;Uloï¿½it;;;;;;x
-QUIT;ï¿½Ë³ï¿½;Quitter;Beenden;Wyjdï¿½;Salir;Uscire;Kilï¿½pï¿½s;Konec;;;;;;x
-START;ï¿½ï¿½Ê¼;Commencer;Start;Rozpocznij;Inicio;Avviare;Indï¿½tï¿½s;Spustit;;;;;;x
-CONTINUE;ï¿½ï¿½ï¿½ï¿½;Continuer;Fortfahren;Kontynuuj;Continuar;Continuare;Folytatï¿½s;Pokraï¿½ovat;;;;;;x
-CONNECTED;ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½;Connectï¿½.;Verbindung aktiv.;Poï¿½ï¿½czony.;Conectado.;Connesso.;Kapcsolï¿½dva.;Pï¿½ipojeno.;;;;;;x
-NAME_TAKEN;ï¿½ï¿½ï¿½Ñ±ï¿½ï¿½ï¿½ï¿½Ü£ï¿½ï¿½ï¿½ï¿½ë¿ªï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½;Votre nom est dï¿½jï¿½ utilisï¿½. Veuillez quitter et en choisir un autre.;Dieser Name ist bereits vergeben. Bitte beenden Sie und wï¿½hlen einen anderen.;Nazwa jest juï¿½ zajï¿½ta. Wybierz innï¿½.;El nombre elegido ya estï¿½ en uso. Por favor, sal y selecciona otro.;Nome esistente. Uscire e selezionare un altro nome.;Ezt a nevet mï¿½r hasznï¿½ljï¿½k. Kï¿½rlek, vï¿½lassz mï¿½sikat.;Toto jmï¿½no nenï¿½ k dispozici. Vyberte si jinï¿½ jmï¿½no.;;;;;;x
-CONNECTING;ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½;Connexionï¿½;Verbindung wird hergestellt ï¿½;Trwa ï¿½ï¿½czenie...;Conectando...;Connessione in corso...;Kapcsolï¿½dï¿½sï¿½;Pï¿½ipojenï¿½;;;;;;x
-BANNED;ï¿½ï¿½ï¿½Ñ±ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½;Vous avez ï¿½tï¿½ banni de cette partie;Sie wurden von diesem Spiel ausgeschlossen;Masz zakaz uczestnictwa w tej grze.;Has sido vetado para esta partida;Sei stato espulso dalla partita.;Ki vagy tiltva ebbï¿½l a jï¿½tï¿½kbï¿½l;Byl vï¿½m zakï¿½zï¿½n pï¿½ï¿½stup k tï¿½to hï¿½e;;;;;;x
-CONNECTION_FAILED;ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½;La connexion a ï¿½chouï¿½ !;Verbindungsherstellung fehlgeschlagen!;Nie udaï¿½o siï¿½ poï¿½ï¿½czyï¿½!;ï¿½Fallo de conexiï¿½n!;Connessione non riuscita!;Kapcsolï¿½dï¿½s sikertelen!;Pï¿½ipojenï¿½ se nezdaï¿½ilo!;;;;;;x
-GAME_NOT_FOUND;Ã»ï¿½ï¿½ï¿½Òµï¿½ï¿½ï¿½Ï·ï¿½ï¿½;Partie introuvable.;Spiel nicht gefunden.;Nie znaleziono gry.;No se ha encontrado la partida.;Partita non rilevata.;Jï¿½tï¿½k nem talï¿½lhatï¿½;Hra nebyla nalezena.;;;;;;x
-WAITING_FOR_PLAYERS;ï¿½È´ï¿½ï¿½ï¿½Ò¡ï¿½ï¿½ï¿½;En attente de joueursï¿½;Warte auf Spieler ...;Oczekiwanie na graczy...;Esperando jugadores...;In attesa di altri giocatori...;Vï¿½rakozï¿½s a jï¿½tï¿½kosokraï¿½;ï¿½ekï¿½m na hrï¿½ï¿½e...;;;;;;x
-ALL_PLAYERS_HERE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò¾ï¿½Î»ï¿½ï¿½;Tous les joueurs prï¿½sents.;Alle Spieler anwesend.;Wszyscy gracze obecni.;Todos los jugadores presentes.;Tutti i giocatori sono presenti.;Minden jï¿½tï¿½kos jelen van.;Vï¿½ichni hrï¿½ï¿½i jsou zde.;;;;;;x
-LOOKING_FOR_HOST;ï¿½ï¿½Ñ°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Recherche de l'hï¿½teï¿½;Suche nach Host ...;Trwa poszukiwanie gospodarza...;Buscando anfitriï¿½n...;Ricerca host in corso...;Kiszolgï¿½lï¿½ keresï¿½seï¿½;Hledï¿½nï¿½ hostitele...;;;;;;x
-LOST_PLAYER;Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Ê§ï¿½ï¿½ï¿½ï¿½;Un joueur a ï¿½tï¿½ perduï¿½;Die Verbindung eines Spielers wurde getrennt ...;Gracz jest niedostï¿½pny...;Se ha perdido un jugador...;Un giocatore ï¿½ stato perduto...;Egy jï¿½tï¿½kos eltï¿½ntï¿½;Hrï¿½ï¿½ byl ztracen...;;;;;;x
-SERVER_LOST;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½Ê§ï¿½ï¿½;La connexion avec le serveur a ï¿½tï¿½ perdue.;Die Serververbindung wurde getrennt.;Serwer jest niedostï¿½pny.;Se ha perdido el servidor.;Il server non ï¿½ piï¿½ collegato.;A kapcsolat a szerverrel megszakadt.;Server byl ztracen.;;;;;;x
-JOIN_IP_TITLE;ï¿½ï¿½ï¿½ï¿½IPï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½;Saisissez l'adresse IPï¿½;IP-Adresse eingeben ï¿½;Wprowadï¿½ adres IP...;Introduce la direcciï¿½n IP...;Immettere un indirizzo IP...;ï¿½rd be az IP cï¿½met:;Zadejte adresu IP...;;;;;;x
-HOST_TITLE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½Æ¡ï¿½ï¿½ï¿½;Saisissez le nom de votre partieï¿½;Geben Sie den Namen Ihres Spiels ein...;Wprowadï¿½ nazwï¿½ gry...;Introduce el nombre de tu partida...;Immettere il nome della partita...;ï¿½rd be a jï¿½tï¿½k nevï¿½tï¿½;Zadejte nï¿½zev svï¿½ hry...;;;;;;x
-HOST_BUTTON;ï¿½ï¿½ï¿½ï¿½;Hï¿½te;Host;Stwï¿½rz grï¿½.;Anfitriï¿½n;Host;Kiszolgï¿½lï¿½;Hostitel;;;;;;x
-JOIN_BUTTON;ï¿½ï¿½ï¿½ï¿½;Rejoindre;Beitreten;Doï¿½ï¿½cz;Unirse a una;Partecipare;Csatlakozï¿½s;Pï¿½ipojit;;;;;;x
-LOG_SETTING_LOG;ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½;Afficher dans l'historique.;In Log anzeigen.;Pokaï¿½ w dzienniku.;Mostrar en el registro.;Visualizzare nella cronologia.;Naplï¿½zï¿½s megjelenï¿½tï¿½se;Zobrazit v protokolu.;;;;;;x
-LOG_SETTING_POPUP;ï¿½ò¿ªµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú¡ï¿½;Ouvrir une fenï¿½tre de popup.;Popup-Fenster aufrufen.;Otwï¿½rz okno.;Abrir ventana emergente.;Aprire una finestra popup.;Felugrï¿½ ablak megnyitï¿½sa;Zobrazit rozevï¿½racï¿½ okno.;;;;;;x
-LOG_SETTING_MAP;ï¿½Úµï¿½Í¼ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½;Montrer sur la carte.;Auf Karte zeigen.;Pokaï¿½ na mapie.;Mostrar sobre el mapa.;Visualizzare sulla mappa.;Tï¿½rkï¿½pen valï¿½ jelï¿½lï¿½s;Zobrazit na mapï¿½.;;;;;;x
-LOG_SETTING_IDLE;ï¿½ï¿½Ê¾Îªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½;Afficher en tant que message Inactif.;Als Idle-Nachricht anzeigen.;Wyï¿½wietl jako wiadomoï¿½ï¿½ nieaktywnï¿½.;Mostrar como mensaje secundario.;Visualizzare come messaggio inattivo.;ï¿½resjï¿½rati ï¿½zenetkï¿½nt valï¿½ megjelenï¿½tï¿½s;Zobrazit jako zprï¿½vu o neï¿½innosti.;;;;;;x
-QUIT_TITLE;ï¿½Ë³ï¿½ï¿½ï¿½Ï·;Quitter le jeu;Spiel beenden;Wyjdï¿½ z gry;Abandonar el juego;Uscire dal gioco;Kilï¿½pï¿½s;Ukonï¿½it hru;;;;;;x
-QUIT_DESC;ï¿½ï¿½È·ï¿½ï¿½Òªï¿½Ë³ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;ï¿½tes-vous sï¿½r de vouloir quitter le jeu et retourner au bureau ?;Mï¿½chten Sie wirklich beenden und zum Desktop zurï¿½ckkehren?;Czy na pewno chcesz wyjï¿½ï¿½ z gry do Windows?;ï¿½Estï¿½s seguro de que deseas abandonar y volver al escritorio?;Uscire e tornare al desktop?;Biztos vagy benne, hogy ki szeretnï¿½l lï¿½pni a jï¿½tï¿½kbï¿½l?;Opravdu chcete ukonï¿½it hru?;;;;;;x
-ZOOM_IN;ï¿½Å´ï¿½;Zoomervers l'avant;Vergrï¿½ï¿½ern.;Powiï¿½ksz;Acerca el zoom;Ingrandire.;Kï¿½zelï¿½tï¿½s;Zaostï¿½it nablï¿½zko.;;;;;;x
-ZOOM_OUT;ï¿½ï¿½Ð¡;Zoomer vers l'arriï¿½re;Verkleinern.;Pomniejsz;Aleja el zoom;Rimpicciolire.;Tï¿½volï¿½tï¿½s;Zaostï¿½it na dï¿½lku.;;;;;;x
-RESIGN_TITLE;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Abandonner la partie;Spiel aufgeben;Zakoï¿½cz grï¿½;Renunciar a partida;Abbandonare la partita;Jï¿½tï¿½k feladï¿½sa;Odstoupit ze hry;;;;;;x
-RESIGN_DESC;ï¿½ï¿½È·ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½;ï¿½tes-vous sï¿½r de vouloir abandonner et retourner au menu principal ?;Mï¿½chten Sie aufgeben und zum Hauptmenï¿½ zurï¿½ckkehren?;Czy naprawdï¿½ chcesz skoï¿½czyï¿½ grï¿½ i wrï¿½ciï¿½ do menu gï¿½ï¿½wnego?;ï¿½Estï¿½s seguro de que deseas renunciar a esta partida y volver al escritorio?;Abbandonare la partita e tornare al menu principale?;Biztos vagy benne, hogy feladod, ï¿½s visszatï¿½rsz a fï¿½menï¿½be?;Opravdu chcete ukonï¿½it hru a vrï¿½tit se do hlavnï¿½ nabï¿½dky?;;;;;;x
-SCAN;ï¿½ï¿½ï¿½ï¿½;Rechercher;Scan;Skanuj;Escanear;Scansione;Keres;Skenovï¿½nï¿½;;;;;;x
-STOP_SCAN;Í£Ö¹ï¿½ï¿½ï¿½ï¿½;Arrï¿½ter la recherche;Stop;Przerwij skanowanie;Detener escaneado;Interrompere scansione;Keresï¿½s megï¿½llï¿½tï¿½sa;Zastavit skenovï¿½nï¿½;;;;;;x
-TIP_KICK;ï¿½ß³ï¿½ï¿½ï¿½ï¿½;Expulser le joueur;Spieler hinauswerfen;Wyrzuï¿½ gracza;Expulsar jugador;Espelli giocatore;Jï¿½tï¿½kos kirï¿½gï¿½sa;Vylouï¿½it hrï¿½ï¿½e;;;;;;x
-TIP_BAN;ï¿½Ú±ï¿½ï¿½ï¿½Í¨Ñ¶ï¿½Ð·ï¿½ï¿½ï¿½ï¿½ï¿½;Bannir le joueur pour la durï¿½e de cette session;Spieler fï¿½r die Dauer dieser Session ausschlieï¿½en;Zabroï¿½ graczowi uczestnictwa w grze na czas trwania tej sesji.;Vetar al jugador durante el resto de la sesiï¿½n.;Bandisci il giocatore fino al termine della sessione;Jï¿½tï¿½kos kitiltï¿½sa egy ideig ebbï¿½l a jï¿½tï¿½kbï¿½l;Zakï¿½zat hrï¿½ï¿½i pï¿½ï¿½stup po zbytek relace;;;;;;x
-PLAYER_KICKED;$NAME$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½;$NAME$ a ï¿½tï¿½ expulsï¿½ par l'hï¿½te.;$NAME$ wurde vom Host hinausgeworfen.;$NAME$ zostaï¿½ usuniï¿½ty z gry przez gospodarza.;$NAME$ fue expulsado por el anfitriï¿½n.;Il giocatore $NAME$ ï¿½ stato espulso dall'host.;$NAME$-t kirï¿½gta a hoszt.;$NAME$ byl hostitelem vylouï¿½en.;;;;;;x
-PLAYER_BANNED;$NAME$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;$NAME$ a ï¿½tï¿½ banni par l'hï¿½te.;$NAME$ wurde vom Host ausgeschlossen.;$NAME$ zostaï¿½ zablokowany przez gospodarza.;$NAME$ fue vetado por el anfitriï¿½n.;Il giocatore $NAME$ ï¿½ stato bandito dall'host.;$NAME$-t bannolta a hoszt.;$NAME$ byl hostitelem potrestï¿½n.;;;;;;x
-YOUKICKED;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ñ¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß³ï¿½ï¿½ï¿½;Votre mauvais comportement vous a valu de vous faire expulser par l'hï¿½te !;Sie wurden vom Host fï¿½r Ihre bï¿½sen Taten hinausgeworfen!;Za swoje nikczemne czyny zostaï¿½eï¿½ usuniï¿½ty z gry przez gospodarza!;ï¿½El anfitriï¿½n te ha vetado por tu mal comportamiento!;Sei stato espulso dall'host per il tuo comportamento scorretto!;ï¿½rdï¿½gi cselekedeteid miatt kirï¿½gott a hoszt!;Byli jste ze hry vylouï¿½eni hostitelem!;;;;;;x
-BAD_VERSION;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·Îªï¿½ï¿½Ò»ï¿½ï¿½ï¿½æ±¾ï¿½ï¿½;L'hï¿½te possï¿½de une autre version du jeu !;Der Host hat eine andere Spielversion!;Gospodarz ma innï¿½ wersjï¿½ gry!;ï¿½El anfitriï¿½n tiene otra versiï¿½n del juego!;L'host ha una versione diversa del gioco!;A hosztnak mï¿½s a jï¿½tï¿½kverziï¿½ja.;Hostitel pouï¿½ï¿½vï¿½ jinou verzi hry!;;;;;;x
-JOINED_CHANNEL;ï¿½ï¿½ï¿½ï¿½$CHAN$Æµï¿½ï¿½ï¿½ï¿½;Canal $CHAN$ rejoint.;Kanal $CHAN$ beitreten.;Doï¿½ï¿½czyï¿½ do kanaï¿½u $CHAN$.;Te has unido al canal $CHAN$.;Partecipa al canale $CHAN$.;Csatlakoztï¿½l a szobï¿½hoz: $CHAN$.;Pï¿½ipojili jste se ke kanï¿½lu $CHAN$.;;;;;;x
-USER_JOINED_CHANNEL;$NAME$ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½;$NAME$ a rejoint le canal.;$NAME$ ist dem Kanal beigetreten.;Gracz $NAME$ doï¿½ï¿½czyï¿½ do kanaï¿½u.;$NAME$ se uniï¿½ al canal.;Il giocatore $NAME$ partecipa al canale.;$NAME$ csatlakozott a szobï¿½hoz.;$NAME$ se pï¿½ipojil ke kanï¿½lu.;;;;;;x
-USER_LEFT_CHANNEL;$NAME$ï¿½ë¿ªï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½;$NAME$ a quittï¿½ le canal.;$NAME$ hat den Kanal verlassen.;$NAME$ opuï¿½ciï¿½ kanaï¿½.;$NAME$ abandonï¿½ canal.;Il giocatore $NAME$ ha lasciato il canale.;$NAME$ elhagyta a szobï¿½t.;$NAME$ opustil kanï¿½l.;;;;;;x
-METASERVER_GAME_INFO;ï¿½ï¿½ï¿½ï¿½ï¿½ß£ï¿½$CREATOR$\nï¿½ï¿½ï¿½Ú£ï¿½$DATE$;Crï¿½ateur : $CREATOR$ \n Date : $DATE$;Ersteller: $CREATOR$ \n Datum: $DATE$;Twï¿½rca: $CREATOR$ \n Dane: $DATE$;Creador: $CREATOR$ \n Fecha: $DATE$;Creatore: $CREATOR$ \n Data: $DATE$;Tulajdonos: $CREATOR$ \n Dï¿½tum: $DATE$;Tvï¿½rce: $CREATOR$ \n Datum: $DATE$;;;;;;x
-MESSAGE_IS_POPUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½$TRUTH$ï¿½ï¿½Ê¾ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¡ï¿½;Ce type de message $TRUTH$ est actuellement affichï¿½ comme popup.;Dieser Nachrichtentyp wird momentan $TRUTH$ als Popup angezeigt.;Ten rodzaj wiadomoï¿½ci aktualnie $TRUTH$ wyï¿½wietlany w oknie.;Este tipo de mensaje actualmente $TRUTH$ representado en una ventana emergente.;Questo tipo di messaggio al momento $TRUTH$ visualizzato come popup.;Az ï¿½zenettï¿½pus megjelenik elï¿½ugrï¿½ ablakkï¿½nt:;Tato zprï¿½va se prï¿½vï¿½ $TRUTH$ zobrazila v rozevï¿½racï¿½m oknï¿½.;;;;;;x
-MESSAGE_IS_LOG;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½$TRUTH$ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ð¡ï¿½;Ce type de message $TRUTH$ est actuellement affichï¿½ dans l'historique.;Dieser Nachrichtentyp wird momentan $TRUTH$ im Log angezeigt.;Ten rodzaj wiadomoï¿½ci aktualnie $TRUTH$ wyï¿½wietlany w dzienniku gry.;Este tipo de mensaje actualmente $TRUTH$ representado en el registro.;Questo tipo di messaggio al momento $TRUTH$ visualizzato nella cronologia.;Az ï¿½zenettï¿½pus lï¿½thatï¿½ az ï¿½zenetnaplï¿½ban: ;Tato zprï¿½va se prï¿½vï¿½ $TRUTH$ zobrazila v protokolu.;;;;;;x
-MESSAGE_IS_ONMAP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢ï¿½ï¿½$TRUTH$ï¿½ï¿½Ê¾ï¿½Úµï¿½Í¼ï¿½Ï£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã£ï¿½ï¿½ï¿½;Ce type de message $TRUTH$ est actuellement affichï¿½ sur la carte (si applicable);Dieser Nachrichtentyp wird momentan $TRUTH$ auf der Karte angezeigt (falls mï¿½glich).;Ten rodzaj wiadomoï¿½ci aktualnie $TRUTH$ wyï¿½wietlany na mapie (w stosownych przypadkach).;Este tipo de mensaje actualmente $TRUTH$ representado en el mapa (si procede).;Questo tipo di messaggio al momento $TRUTH$ visualizzato sulla mappa (se appropriato).;Az ï¿½zenettï¿½pus lï¿½thatï¿½ a tï¿½rkï¿½pen: ;Tato zprï¿½va se prï¿½vï¿½ $TRUTH$ zobrazila na mapï¿½ (je-li k dispozici).;;;;;;x
-MESSAGE_SETTING_TRUE;ï¿½ï¿½;est;ist;jest;estï¿½;ï¿½;BE;je;;;;;;x
-MESSAGE_SETTING_FALSE;ï¿½ï¿½;n'est pas;ist nicht;nie jest;no estï¿½;non ï¿½;KI;nenï¿½;;;;;;x
-MENU_BAR_SAVE_GAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Sauvegarder la partie;Spiel speichern;Zapisz grï¿½;Guardar partida;Salva partita;Mentï¿½s;Uloï¿½it hru;;;;;;x
-MENU_BAR_GAME_OPTIONS;ï¿½ï¿½Ï·Ñ¡ï¿½ï¿½;Options de jeu;Spieloptionen;Opcje gry;Opciones del juego;Opzioni di gioco;Beï¿½llï¿½tï¿½sok;Hernï¿½ nastavenï¿½;;;;;;x
-MENU_BAR_GAME_RESIGN;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Abandonner;Partie Beenden;Zrezygnuj;Renunciar;Abbandona;Feladï¿½s;Rezignovat;;;;;;x
-MENU_BAR_MESSAGE_SETTINGS;ï¿½ï¿½Ï¢ï¿½ï¿½ï¿½ï¿½;Paramï¿½tres des messages;Nachrichten-Einstellungen;Ustawienia wiadomoï¿½ci;Configuraciï¿½n de los mensajes;Impostazione dei messaggi;ï¿½zenetek beï¿½llï¿½tï¿½sai;Nastavenï¿½ zprï¿½v;;;;;;x
-MENU_BAR_QUIT;ï¿½Ë³ï¿½ï¿½ï¿½Ï·;Quitter;Beenden;Wyjï¿½cie;Salir;Uscire;Kilï¿½pï¿½s;Konec;;;;;;x
-MENU_BAR_CLOSE;ï¿½Ø±ï¿½;Fermer;Schlieï¿½en;Zamknij;Cerrar;Chiudere;Bezï¿½rï¿½s;Zavï¿½ï¿½t;;;;;;x
-MENU_BAR_SAVE;ï¿½ï¿½ï¿½ï¿½;Sauvegarder;Speichern;Zapisz;Guardar;Salvare;Mentï¿½s;Uloï¿½it;;;;;;x
-MENU_BAR_SAVE_GAME_FILENAME;ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½Îªï¿½ï¿½;Nom du fichier de la partie sauvegardï¿½e :;Dateinamen speichern:;Nazwa zapisanego pliku:;Nombre de archivo de partida guardada:;Nome file salvataggio:;Mentï¿½s fï¿½jlneve:;Nï¿½zev uloï¿½enï¿½ hry:;;;;;;x
-CHAT_ALLIES;ï¿½Ë¹ï¿½;Alliï¿½s;Verbï¿½ndete;Sojusz.;Aliados;Alleati;Szï¿½vetsï¿½gesek;Spojenci;;;;;;x
-CHAT_FOES;ï¿½ï¿½ï¿½ï¿½;Ennemis;Feinde;Wrog.;Enemigos;Nemici;Ellensï¿½gek;Nepï¿½ï¿½telï¿½;;;;;;x
-CHAT_ALL;È«ï¿½ï¿½;Tous;Alle;Wszyscy;Todos;Tutti;Mindenki;Vï¿½ichni;;;;;;x
-CHATMESSAGE_SETUP;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õµï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢;Lorsque vous recevez un message sur le chat;Wenn Sie eine Chatmessage erhalten;Kiedy otrzymujesz wiadomoï¿½ï¿½;Cuando recibes un mensaje de diï¿½logo;Quando ricevi un messaggio chat;Ha ï¿½zenetet kapsz;Kdyï¿½ obdrï¿½ï¿½te zprï¿½vu;;;;;;x
-CHATMESSAGE_HEADER;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï¢;Message de chat;Chatmessage;Wiadomoï¿½ï¿½;Mensaje de diï¿½logo;Messaggio chat;Csevejï¿½zenet;Zprï¿½va;;;;;;x
-CHATMESSAGE_1;ï¿½Õµï¿½ï¿½ï¿½ï¿½ï¿½Ï¢;Communication entrante,;Kommunikationseingang;Przychodzï¿½ca wiadomoï¿½ï¿½;Comunicaciï¿½n entrante,;Comunicazione in arrivo,;Bejï¿½vï¿½ ï¿½zenet;Pï¿½ï¿½chozï¿½ rozhovor,;;;;;;x
+FE_HEAD_OF_STATE;¹ú¼ÒÔªÊ×;Chef de l'état;Staatsoberhaupt;;Jefe de Estado;;;;;;;;;x
+ATPEACE;´¦ÓÚºÍÆ½¡£;En paix.;Im Frieden;;En paz.;;;;;;;;;x
+ATWAR;´¦ÓÚÕ½Õù¡£;En guerre.;Im Krieg;;En guerra.;;;;;;;;;x
+WORLD_YEAR;$YEAR$Äê$MONTH$$DAY$ÈÕ§Y$NAME$§W;§Y$NAME$§W, $DAY$ $MONTH$ $YEAR$;;;§Y$NAME$§W, $DAY$ de $MONTH$, $YEAR$;;;;;;;;;x
+CORE_PAUSED;ÔÝÍ£;PAUSE;PAUSE;PAUZA;PAUSA;PAUSA;Szünet;PAUZA;;;;;;x
+SM_SETTINGS;ÉèÖÃ;Paramètres;Einstellungen;Ustawienia;Configuración;Impostazioni;Beállítások;Nastavení;;;;;;x
+SM_GAME;ÓÎÏ·;Jeu;Spiel;Gra;Juego;Partita;Játék;Hra;;;;;;x
+SM_VIDEO;ÊÓÆµ;Vidéo;Grafik;Grafika;Vídeo;Video;Videó;Grafika;;;;;;x
+SM_AUDIO;ÒôÆµ;Audio;Sound;DŸwiêk;Sonido;Audio;Hangok;Zvuk;;;;;;x
+SM_CONTROLS;¿ØÖÆ;Contrôles;Maus;Mysz;CONTROLES;Comandi;Irányítás;Ovládání;;;;;;x
+SM_MASTER_VOLUME;Ö÷ÒôÁ¿;Volume principal;Hauptlautstärke;G³oœnoœæ ogólna;Volumen principal;Volume generale;Hangerõ;Celková hlasitost;;;;;;x
+SM_EFFECT_VOLUME;Ð§¹ûÒôÁ¿;Volume des effets sonores;Soundeffektlautstärke;G³oœnoœæ efektów;Volumen de los efectos;Volume effetti;Effektek hangereje;Hlasitost zvukových efektù;;;;;;x
+SM_MUSIC_VOLUME;ÒôÀÖÒôÁ¿;Volume de la musique;Musiklautstärke;G³oœnoœæ muzyki;Volumen de la música;Volume musica;Zene hangereje;Hlasitost hudby;;;;;;x
+SM_SCROLL_SPEED;¾íÆÁËÙ¶È;Vitesse de défilement;Scrollgeschwindigkeit;Prêdkoœæ przewijania;Velocidad de desplazamiento;Velocità scorrimento;Görgetés sebessége;Rychlost posouvání;;;;;;x
+SM_ZOOM_SPEED;Ëõ·ÅËÙ¶È;Vitesse du zoom;Zoomgeschwindigkeit;Prêdkoœæ skalowania;Velocidad de zoom;Velocità zoom;Nagyítás sebessége;Rychlost zaostøování;;;;;;x
+SM_MOUSE_SPEED;Êó±êËÙ¶È;Vitesse de la souris;Mausgeschwindigkeit;Prêdkoœæ myszy;Velocidad del ratón;Velocità mouse;Egér sebessége;Rychlost myši;;;;;;x
+SM_RESOLUTION;·Ö±æÂÊ;Résolution;Auflösung;Rozdzielczoœæ;Definición;Risoluzione;Felbontás;Rozlišení;;;;;;x
+SM_REFRESH_RATE;Ë¢ÐÂÂÊ;Taux de rafraîchissement;Bildwiederholrate;Prêdkoœæ odœwie¿ania;Tasa de actualización;Aggiornamento;Frissítési frekvencia;Obnovovací frekvence;;;;;;x
+SM_GAMMA;ÁÁ¶È;Gamma;Gamma;Gamma;Gamma;Gamma;Gamma;Jas (Gamma);;;;;;x
+SM_SHADOWS;ÒõÓ°;Ombres;Schatten;Cienie;Sombras;Ombre;Árnyékok;Stínování;;;;;;x
+SM_TREES;Ê÷Ä¾;Arbres;Bäume;Drzewa;Árboles;Alberi;Fák;Stromy;;;;;;x
+SM_DIFFICULTY;À§ÄÑ¶È;Difficulté;Schwierigkeit;Trudnoœæ;Dificultad;Difficoltà;Nehézség;Obtížnost;;;;;;x
+SM_AUTOSAVE_INTERVAL;×Ô¶¯´¢´æ¼ä¸ô;Intervalle de sauvegarde automatique;Intervall f. autom. Speichern ;Przedzia³ autozapisu;Intervalo de guardado automático;Intervallo autosalvataggio;Automentés idõköze;Interval automatického ukládání;;;;;;x
+SM_APPLY;Ó¦ÓÃ;Appliquer;Anwenden;Zastosuj;Aplicar;Applicare;Alkalmaz;Použít;;;;;;x
+SM_BACK;·µ»Ø;Retour;Zurück;Powrót;Atrás;Indietro;Vissza;Zpìt;;;;;;x
+SM_ALERT;¾¯¸æ;Alerte;Benachrichtigung;Powiadomienie;Alerta;Avvertimento;Riadó;Výstraha;;;;;;x
+SM_RESTART;ÄãÐèÒªÖØÆôÓÎÏ·ÒÔÊµÏÖ¸ü¸ÄºóµÄÐ§¹û¡£;Vous devez redémarrer pour que la modification prenne effet.;Sie müssen den Rechner neu starten, damit die Änderung in Kraft treten kann.;Aby zmiany zosta³y zapisane, musisz ponownie uruchomiæ grê.;Tendrás que reiniciar para que los cambios surtan efecto.;Per rendere attive le modifiche è necessario riavviare.;Az érvénybeléptetéshez újra kell indítanod a programot.;Zmìny se uplatní až po restartu hry.;;;;;;x
+SM_WP;ÉèÖÃÎÄ¼þÐ´Èë´íÎó£¬È·ÈÏÎÄ¼þÃ»ÓÐÐ´±£»¤ºóÖØÊÔ¡£;Erreur lors de l'écriture du fichier de paramètres. Vérifiez qu'il n'est pas protégé et réessayez.;Fehler beim Schreiben der Einstellungsdatei. Prüfen Sie, ob die Datei schreibgeschützt ist und versuchen Sie es erneut;B³¹d podczas zapisu pliku ustawieñ. SprawdŸ, czy plik nie jest chroniony przed zapisem i spróbuj ponownie.;Error de escritura en el archivo de configuración. Comprueba que el archivo no esté protegido contra escritura e inténtalo de nuevo.;Errore di scrittura nel file delle impostazioni. Controllare che il file non sia protetto da scrittura e riprovare.;Hiba, nem sikerült írni a beállításat tartalmazó fálba. Ellenõrizd, hogy a fájl nem írás;Chyba pøi zapisování do souboru s nastavením. Ovìøte, zda soubor není chránìn pøed zápisem, a pokus opakujte.;;;;;;x
+FE_HOST;Ö÷»ú;Héberger;Host;Stwórz grê.;Anfitrión;Host;Hoszt;Hostitel;;;;;;x
+FE_JOIN_LAN_GAME;¼ÓÈë¾ÖÓòÍøÓÎÏ·;Rejoindre une partie LAN;LAN-Spiel beitreten;Do³¹cz do gry w sieci LAN.;Unirse a juego en LAN;Partecipare a partita LAN;Csatlakozás LAN játékhoz;Pøipojit se ke høe v síti LAN;;;;;;x
+FE_JOIN_INTERNET_GAME;¼ÓÈëInternetÓÎÏ·;Rejoindre une partie sur Internet;Internetspiel beitreten;Do³¹cz do gry internetowej.;Unirse a juego en Internet;Partecipare a partita Internet;Csatlakozás Internetes játékhoz;Pøipojit ke høe v Internetu;;;;;;x
+FE_SCAN;ËÑË÷;Rechercher;SCAN;skanuj;exploración RAD;scansione;keresés;sken;;;;;;x
+FE_METASERVER;×÷Îª·þÎñÆ÷;Métaserveur;Metaserver;Metaserwer;Metaserver;Metaserver;Köztes szerver;Primární server;;;;;;x
+FE_BACK;·µ»Ø;Retour;Zurück;Powrót;Atrás;Indietro;Vissza;Zpìt;;;;;;x
+FE_PLAYER;Íæ¼Ò;Joueur;Spieler;Gracz;Jugador;Giocatore;Játékos;Hráè;;;;;;x
+FE_PLAYER_NAME;Íæ¼ÒÐÕÃû£º;Nom du joueur :;Spielername:;Nazwa gracza:;Nombre del jugador:;Nome giocatore:;Játékos név:;Jméno hráèe:;;;;;;x
+FE_SINGLE_PLAYER;µ¥ÈËÓÎÏ·;Un joueur;Einzelspieler;Gra pojedyncza;Un jugador;Giocatore singolo;Egyjátékos mód;Hra pro jednoho hráèe;;;;;;x
+FE_MULTI_PLAYER;¶àÈËÓÎÏ·;Multi-joueurs;Mehrspieler;Gra wieloosobowa;Multijugador;Multigiocatore;Többjátékos mód;Hra pro více hráèù;;;;;;x
+FE_OPTIONS;Ñ¡Ïî;Options;Optionen;Opcje;Options;Opzioni;Beállítások;Možnosti;;;;;;x
+FE_CREDITS;ÖÆ×÷Ãûµ¥;Générique;Credits;Twórcy gry;Créditos;Riconoscimenti;Készítõk;Autoøi;;;;;;x
+FE_EXIT;ÍË³ö;Quitter;Beenden;Wyjœcie;Salir;Esci;Kilépés;Konec;;;;;;x
+FE_NATION_TO_PLAY;Ñ¡ÔñÄãÏëÒªÊ¹ÓÃµÄ¹ú¼Ò¡£;Cliquez sur la nation avec laquelle vous voulez jouer…;Klicken Sie auf das Land, dessen Geschicke Sie leiten möchten …;Kliknij pañstwo, którym chcesz w³adaæ...;Haz clic en la nación con la que desees jugar...;Fare clic sulla nazione con cui si desidera giocare...;Kattints arra a nemzetre, amelyikkel játszani szeretnél;Klepnutím vyberte národ, za který chcete hrát...;;;;;;x
+FE_NEW_GAME;¿ªÊ¼ÐÂÓÎÏ·;Nouvelle partie;Neues Spiel;Nowa gra;Nueva partida;Nuova partita;Új játék;Nová hra;;;;;;x
+FE_SAVE_GAME;´¢´æÓÎÏ·;Sauvegarder des parties;Spiele speichern;Zapisz grê;Guardar partida;Salva partite;Mentések;Uložit hry;;;;;;x
+FE_HISTORICAL_START;Ê·Êµ¿ª¾Ö;Début historique;Historischer Start;Start historyczny;Inicio histórico;Avvio storico;Történelemhûség;Historický zaèátek;;;;;;x
+FE_SAVED_GAMES;´Ó´æµµ¿ªÊ¼;Parties sauvegardées;Spielestände;Zapisane gry;Partidas guardadas;Partite salvate;Mentések;Uložené hry;;;;;;x
+FE_SELECT_NATION;µã»÷µØÍ¼ÒÔÑ¡Ôñ¹ú¼Ò¡£;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;Select one of the 4 countries below.;;;;;;x
+FE_NO_COUNTRY_SELECTED;ÉÐÎ´Ñ¡Ôñ¹ú¼Ò;Aucun pays n'est sélectionné;Kein Land ausgewählt;Nie wybrano pañstwa;No se ha seleccionado país;Nessun paese selezionato;Nincs ország kijelölve.;Nebyla vybrána žádná zemì;;;;;;x
+FE_MILITARY;¾üÊÂ;Militaire;Militär;Wojsko;Militar;Militare;Hadsereg;Vojenství;;;;;;x
+FE_ECONOMY;¾­¼Ã;Économie;Wirtschaft;Ekonomia;Economía;Economia;Gazdaság;Ekonomika;;;;;;x
+FE_DIPLOMACY;Íâ½»;Diplomatie;Diplomatie;Dyplomacja;Diplomacia;Diplomazia;Diplomácia;Diplomacie;;;;;;x
+FE_DIFFICULTY;ÄÑ¶È;Difficulté :;Schwierigkeit:;Trudnoœæ:;Dificultad:;Difficoltà:;Nehézség:;Obtížnost:;;;;;;x
+FE_AT_WAR;Õ½Õù×´Ì¬£º;En guerre :;Im Krieg:;W stanie wojny:;En guerra:;In guerra:;Háborúban:;Ve válce:;;;;;;x
+FE_ALLIES;Í¬ÃË¹ú¼Ò£º;Alliés :;Bündnispartner:;Sojusze:;Aliados:;Alleati:;Szövetségesek:;Spojenci:;;;;;;x
+FE_LOAD;¶ÁÈ¡;CHARGER;LADEN;WCZYTAJ;CARGAR;CARICARE;BETÖLTÉS;NAHRÁT;;;;;;x
+FE_BOOKEDMARKED;Õ½ÒÛÊ±¼ä£º;Dates ayant un signet :;Markierte Daten:;Oznaczone daty:;Fechas señaladas:;Date importanti:;Mentett idõpontok;Oznaèená data:;;;;;;x
+FE_STARTING_DATE;¿ªÊ¼Ê±¼ä;Date de début;Startdatum;Data pocz¹tkowa;Fecha de inicio;Data di inizio;Kezdés dátuma;Datum startu;;;;;;x
+FE_BOOKMARK_TITLE;Õ½ÒÛÃû³Æ;Titre du signet;Titelmarkierung;Tytu³ zak³adki;Señalar título;Titolo data importante;Könyvjelzõ neve;Titul záložky;;;;;;x
+FE_BOOKMARK_DATE;Õ½ÒÛÊ±¼ä;Appliquer un signet à la date;Datumsmarkierung;Data zak³adki;Señalar fecha;Data importante;Könyvjelzõ dátuma;Datum záložky;;;;;;x
+FE_LOCAL_GAMES;±¾µØÓÎÏ·;parties locales;lokale Spiele;gry lokalne;Partidas locales;partite in locale;helyi játékok;místní hry;;;;;;x
+FE_MY_GAME;ÎÒµÄÓÎÏ·;Ma partie;Mein Spiel;Moja gra;Mi partida;Partita personale;Saját játék;Má hra;;;;;;x
+FE_CANCEL;È¡Ïû;Annuler;Abbrechen;Anuluj;Cancelar;Annullare;Mégse;Zrušit;;;;;;x
+PLAYER_LOST_TITLE;Íæ¼Ò¶Ï¿ªÁ¬½Ó¡£;Joueur déconnecté.;Verbindung zum Spieler getrennt.;Gracz niedostêpny;Jugador desconectado.;Giocatore disconnesso.;Játékos lekapcsoldódott;Hráè byl odpojen.;;;;;;x
+PLAYER_LOST_DESC;Íæ¼Ò$playername$¶Ï¿ªÁËÁ¬½Ó£¬Ñ¡ÔñÄãµÄÐÐ¶¯¡£;Joueur(s) $playername$ déconnecté(s). Choisissez votre action.;Verbindung der/des Spieler/s $playername$ getrennt.;Gracz(e) $playername$ niedostêpny(-ni). Wybierz opcjê.;Jugador(s) $playername$ desconectado. Escoge una acción.;Giocatore/i $playername$ disconnesso/i. Cosa intendi fare?;$playername$ játékos lekapcsolódott. Válassz valamit.;Hráè $playername$ byl odpojen. Vyberte akci.;;;;;;x
+SERVER_LOST_TITLE;¶ªÊ§Ö÷»ú£¡;Connexion perdue avec le serveur !;Serververbindung getrennt!;Serwer niedostêpny!;¡Servidor perdido!;Server scollegato!;A szerverkapcsolat megszakadt!;Server ztracen!;;;;;;x
+SERVER_LOST_DESC;Ö÷»úÒÑ¾­¶ªÊ§£¬ÓÎÏ·¼´½«ÖÕÖ¹¡£;Le serveur a été perdu. La partie va être terminée.;Die Serververbindung wurde getrennt. Das Spiel wird beendet.;Serwer jest niedostêpny. Nast¹pi koniec gry.;Se ha perdido el servidor. La partida finalizará.;Il server non è più collegato. La partita verrà terminata.;A szerverkapcsolat megszakadt. Véget ért a játék.;Server byl ztracen. Hra skonèí.;;;;;;x
+OK;ºÃµÄ;Ok;Ok;OK;Aceptar;Ok;Rendben;Ok;;;;;;x
+CANCEL;È¡Ïû;Annuler;Abbrechen;Anuluj;Cancelar;Annullare;Mégsem;Zrušit;;;;;;x
+SAVE;´¢´æ;Sauvegarder;Speichern;Zapisz;Guardar;Salvare;Mentés;Uložit;;;;;;x
+QUIT;ÍË³ö;Quitter;Beenden;WyjdŸ;Salir;Uscire;Kilépés;Konec;;;;;;x
+START;¿ªÊ¼;Commencer;Start;Rozpocznij;Inicio;Avviare;Indítás;Spustit;;;;;;x
+CONTINUE;¼ÌÐø;Continuer;Fortfahren;Kontynuuj;Continuar;Continuare;Folytatás;Pokraèovat;;;;;;x
+CONNECTED;ÒÑÁ¬½Ó¡£;Connecté.;Verbindung aktiv.;Po³¹czony.;Conectado.;Connesso.;Kapcsolódva.;Pøipojeno.;;;;;;x
+NAME_TAKEN;ÄãÒÑ±»»÷°Ü£¬ÇëÀë¿ª²¢Ñ¡ÔñÆäËûÓÎÏ·¡£;Votre nom est déjà utilisé. Veuillez quitter et en choisir un autre.;Dieser Name ist bereits vergeben. Bitte beenden Sie und wählen einen anderen.;Nazwa jest ju¿ zajêta. Wybierz inn¹.;El nombre elegido ya está en uso. Por favor, sal y selecciona otro.;Nome esistente. Uscire e selezionare un altro nome.;Ezt a nevet már használják. Kérlek, válassz másikat.;Toto jméno není k dispozici. Vyberte si jiné jméno.;;;;;;x
+CONNECTING;Á¬½ÓÖÐ¡­¡­;Connexion…;Verbindung wird hergestellt …;Trwa ³¹czenie...;Conectando...;Connessione in corso...;Kapcsolódás…;Pøipojení…;;;;;;x
+BANNED;ÄãÒÑ±»´ËÓÎÏ··â½û;Vous avez été banni de cette partie;Sie wurden von diesem Spiel ausgeschlossen;Masz zakaz uczestnictwa w tej grze.;Has sido vetado para esta partida;Sei stato espulso dalla partita.;Ki vagy tiltva ebbõl a játékból;Byl vám zakázán pøístup k této høe;;;;;;x
+CONNECTION_FAILED;Á¬½ÓÊ§°Ü£¡;La connexion a échoué !;Verbindungsherstellung fehlgeschlagen!;Nie uda³o siê po³¹czyæ!;¡Fallo de conexión!;Connessione non riuscita!;Kapcsolódás sikertelen!;Pøipojení se nezdaøilo!;;;;;;x
+GAME_NOT_FOUND;Ã»ÓÐÕÒµ½ÓÎÏ·¡£;Partie introuvable.;Spiel nicht gefunden.;Nie znaleziono gry.;No se ha encontrado la partida.;Partita non rilevata.;Játék nem található;Hra nebyla nalezena.;;;;;;x
+WAITING_FOR_PLAYERS;µÈ´ýÍæ¼Ò¡­¡­;En attente de joueurs…;Warte auf Spieler ...;Oczekiwanie na graczy...;Esperando jugadores...;In attesa di altri giocatori...;Várakozás a játékosokra…;Èekám na hráèe...;;;;;;x
+ALL_PLAYERS_HERE;ËùÓÐÍæ¼Ò¾ÍÎ»¡£;Tous les joueurs présents.;Alle Spieler anwesend.;Wszyscy gracze obecni.;Todos los jugadores presentes.;Tutti i giocatori sono presenti.;Minden játékos jelen van.;Všichni hráèi jsou zde.;;;;;;x
+LOOKING_FOR_HOST;ËÑÑ°Ö÷»ú¡­¡­;Recherche de l'hôte…;Suche nach Host ...;Trwa poszukiwanie gospodarza...;Buscando anfitrión...;Ricerca host in corso...;Kiszolgáló keresése…;Hledání hostitele...;;;;;;x
+LOST_PLAYER;Ò»¸öÍæ¼ÒÒÑ¾­¶ªÊ§¡­¡­;Un joueur a été perdu…;Die Verbindung eines Spielers wurde getrennt ...;Gracz jest niedostêpny...;Se ha perdido un jugador...;Un giocatore è stato perduto...;Egy játékos eltûnt…;Hráè byl ztracen...;;;;;;x
+SERVER_LOST;·þÎñÆ÷ÒÑ¾­¶ªÊ§¡£;La connexion avec le serveur a été perdue.;Die Serververbindung wurde getrennt.;Serwer jest niedostêpny.;Se ha perdido el servidor.;Il server non è più collegato.;A kapcsolat a szerverrel megszakadt.;Server byl ztracen.;;;;;;x
+JOIN_IP_TITLE;ÊäÈëIPµØÖ·¡­¡­;Saisissez l'adresse IP…;IP-Adresse eingeben …;WprowadŸ adres IP...;Introduce la dirección IP...;Immettere un indirizzo IP...;Írd be az IP címet:;Zadejte adresu IP...;;;;;;x
+HOST_TITLE;ÊäÈëÄãµÄÓÎÏ·Ãû³Æ¡­¡­;Saisissez le nom de votre partie…;Geben Sie den Namen Ihres Spiels ein...;WprowadŸ nazwê gry...;Introduce el nombre de tu partida...;Immettere il nome della partita...;Írd be a játék nevét…;Zadejte název své hry...;;;;;;x
+HOST_BUTTON;Ö÷»ú;Hôte;Host;Stwórz grê.;Anfitrión;Host;Kiszolgáló;Hostitel;;;;;;x
+JOIN_BUTTON;¼ÓÈë;Rejoindre;Beitreten;Do³¹cz;Unirse a una;Partecipare;Csatlakozás;Pøipojit;;;;;;x
+LOG_SETTING_LOG;ÔÚÈÕÖ¾ÖÐÏÔÊ¾¡£;Afficher dans l'historique.;In Log anzeigen.;Poka¿ w dzienniku.;Mostrar en el registro.;Visualizzare nella cronologia.;Naplózás megjelenítése;Zobrazit v protokolu.;;;;;;x
+LOG_SETTING_POPUP;´ò¿ªµ¯³ö´°¿Ú¡£;Ouvrir une fenêtre de popup.;Popup-Fenster aufrufen.;Otwórz okno.;Abrir ventana emergente.;Aprire una finestra popup.;Felugró ablak megnyitása;Zobrazit rozevírací okno.;;;;;;x
+LOG_SETTING_MAP;ÔÚµØÍ¼ÉÏÏÔÊ¾¡£;Montrer sur la carte.;Auf Karte zeigen.;Poka¿ na mapie.;Mostrar sobre el mapa.;Visualizzare sulla mappa.;Térképen való jelölés;Zobrazit na mapì.;;;;;;x
+LOG_SETTING_IDLE;ÏÔÊ¾ÎªÏÐÖÃÐÅÏ¢¡£;Afficher en tant que message Inactif.;Als Idle-Nachricht anzeigen.;Wyœwietl jako wiadomoœæ nieaktywn¹.;Mostrar como mensaje secundario.;Visualizzare come messaggio inattivo.;Üresjárati üzenetként való megjelenítés;Zobrazit jako zprávu o neèinnosti.;;;;;;x
+QUIT_TITLE;ÍË³öÓÎÏ·;Quitter le jeu;Spiel beenden;WyjdŸ z gry;Abandonar el juego;Uscire dal gioco;Kilépés;Ukonèit hru;;;;;;x
+QUIT_DESC;ÄãÈ·¶¨ÒªÍË³öÓÎÏ·²¢·µ»Ø×ÀÃæÂð£¿;Êtes-vous sûr de vouloir quitter le jeu et retourner au bureau ?;Möchten Sie wirklich beenden und zum Desktop zurückkehren?;Czy na pewno chcesz wyjœæ z gry do Windows?;¿Estás seguro de que deseas abandonar y volver al escritorio?;Uscire e tornare al desktop?;Biztos vagy benne, hogy ki szeretnél lépni a játékból?;Opravdu chcete ukonèit hru?;;;;;;x
+ZOOM_IN;·Å´ó;Zoomervers l'avant;Vergrößern.;Powiêksz;Acerca el zoom;Ingrandire.;Közelítés;Zaostøit nablízko.;;;;;;x
+ZOOM_OUT;ËõÐ¡;Zoomer vers l'arrière;Verkleinern.;Pomniejsz;Aleja el zoom;Rimpicciolire.;Távolítás;Zaostøit na dálku.;;;;;;x
+RESIGN_TITLE;·ÅÆúÓÎÏ·;Abandonner la partie;Spiel aufgeben;Zakoñcz grê;Renunciar a partida;Abbandonare la partita;Játék feladása;Odstoupit ze hry;;;;;;x
+RESIGN_DESC;ÄãÈ·¶¨Òª·ÅÆúÓÎÏ·²¢·µ»ØÖ÷²Ëµ¥Âð£¿;Êtes-vous sûr de vouloir abandonner et retourner au menu principal ?;Möchten Sie aufgeben und zum Hauptmenü zurückkehren?;Czy naprawdê chcesz skoñczyæ grê i wróciæ do menu g³ównego?;¿Estás seguro de que deseas renunciar a esta partida y volver al escritorio?;Abbandonare la partita e tornare al menu principale?;Biztos vagy benne, hogy feladod, és visszatérsz a fõmenübe?;Opravdu chcete ukonèit hru a vrátit se do hlavní nabídky?;;;;;;x
+SCAN;ËÑË÷;Rechercher;Scan;Skanuj;Escanear;Scansione;Keres;Skenování;;;;;;x
+STOP_SCAN;Í£Ö¹ËÑË÷;Arrêter la recherche;Stop;Przerwij skanowanie;Detener escaneado;Interrompere scansione;Keresés megállítása;Zastavit skenování;;;;;;x
+TIP_KICK;Ìß³ýÍæ¼Ò;Expulser le joueur;Spieler hinauswerfen;Wyrzuæ gracza;Expulsar jugador;Espelli giocatore;Játékos kirúgása;Vylouèit hráèe;;;;;;x
+TIP_BAN;ÔÚ±¾´ÎÍ¨Ñ¶ÖÐ·â½ûÍæ¼Ò;Bannir le joueur pour la durée de cette session;Spieler für die Dauer dieser Session ausschließen;Zabroñ graczowi uczestnictwa w grze na czas trwania tej sesji.;Vetar al jugador durante el resto de la sesión.;Bandisci il giocatore fino al termine della sessione;Játékos kitiltása egy ideig ebbõl a játékból;Zakázat hráèi pøístup po zbytek relace;;;;;;x
+PLAYER_KICKED;$NAME$±»Ö÷»úÌß³ý¡£;$NAME$ a été expulsé par l'hôte.;$NAME$ wurde vom Host hinausgeworfen.;$NAME$ zosta³ usuniêty z gry przez gospodarza.;$NAME$ fue expulsado por el anfitrión.;Il giocatore $NAME$ è stato espulso dall'host.;$NAME$-t kirúgta a hoszt.;$NAME$ byl hostitelem vylouèen.;;;;;;x
+PLAYER_BANNED;$NAME$±»Ö÷»ú·â½û¡£;$NAME$ a été banni par l'hôte.;$NAME$ wurde vom Host ausgeschlossen.;$NAME$ zosta³ zablokowany przez gospodarza.;$NAME$ fue vetado por el anfitrión.;Il giocatore $NAME$ è stato bandito dall'host.;$NAME$-t bannolta a hoszt.;$NAME$ byl hostitelem potrestán.;;;;;;x
+YOUKICKED;ÓÉÓÚÄãµÄ²»µ±ÐÐÎª£¬ÄãÒÑ¾­±»Ö÷»úÌß³ý£¡;Votre mauvais comportement vous a valu de vous faire expulser par l'hôte !;Sie wurden vom Host für Ihre bösen Taten hinausgeworfen!;Za swoje nikczemne czyny zosta³eœ usuniêty z gry przez gospodarza!;¡El anfitrión te ha vetado por tu mal comportamiento!;Sei stato espulso dall'host per il tuo comportamento scorretto!;Ördögi cselekedeteid miatt kirúgott a hoszt!;Byli jste ze hry vylouèeni hostitelem!;;;;;;x
+BAD_VERSION;Ö÷»úÓÎÏ·ÎªÁíÒ»¸ö°æ±¾£¡;L'hôte possède une autre version du jeu !;Der Host hat eine andere Spielversion!;Gospodarz ma inn¹ wersjê gry!;¡El anfitrión tiene otra versión del juego!;L'host ha una versione diversa del gioco!;A hosztnak más a játékverziója.;Hostitel používá jinou verzi hry!;;;;;;x
+JOINED_CHANNEL;¼ÓÈë$CHAN$ÆµµÀ¡£;Canal $CHAN$ rejoint.;Kanal $CHAN$ beitreten.;Do³¹czy³ do kana³u $CHAN$.;Te has unido al canal $CHAN$.;Partecipa al canale $CHAN$.;Csatlakoztál a szobához: $CHAN$.;Pøipojili jste se ke kanálu $CHAN$.;;;;;;x
+USER_JOINED_CHANNEL;$NAME$¼ÓÈëÁËÆµµÀ¡£;$NAME$ a rejoint le canal.;$NAME$ ist dem Kanal beigetreten.;Gracz $NAME$ do³¹czy³ do kana³u.;$NAME$ se unió al canal.;Il giocatore $NAME$ partecipa al canale.;$NAME$ csatlakozott a szobához.;$NAME$ se pøipojil ke kanálu.;;;;;;x
+USER_LEFT_CHANNEL;$NAME$Àë¿ªÁËÆµµÀ¡£;$NAME$ a quitté le canal.;$NAME$ hat den Kanal verlassen.;$NAME$ opuœci³ kana³.;$NAME$ abandonó canal.;Il giocatore $NAME$ ha lasciato il canale.;$NAME$ elhagyta a szobát.;$NAME$ opustil kanál.;;;;;;x
+METASERVER_GAME_INFO;´´½¨Õß£º$CREATOR$\nÈÕÆÚ£º$DATE$;Créateur : $CREATOR$ \n Date : $DATE$;Ersteller: $CREATOR$ \n Datum: $DATE$;Twórca: $CREATOR$ \n Dane: $DATE$;Creador: $CREATOR$ \n Fecha: $DATE$;Creatore: $CREATOR$ \n Data: $DATE$;Tulajdonos: $CREATOR$ \n Dátum: $DATE$;Tvùrce: $CREATOR$ \n Datum: $DATE$;;;;;;x
+MESSAGE_IS_POPUP;´ËÀàÐÅÏ¢½«$TRUTH$ÏÔÊ¾ÓÚµ¯³ö´°¿ÚÖÐ¡£;Ce type de message $TRUTH$ est actuellement affiché comme popup.;Dieser Nachrichtentyp wird momentan $TRUTH$ als Popup angezeigt.;Ten rodzaj wiadomoœci aktualnie $TRUTH$ wyœwietlany w oknie.;Este tipo de mensaje actualmente $TRUTH$ representado en una ventana emergente.;Questo tipo di messaggio al momento $TRUTH$ visualizzato come popup.;Az üzenettípus megjelenik elõugró ablakként:;Tato zpráva se právì $TRUTH$ zobrazila v rozevíracím oknì.;;;;;;x
+MESSAGE_IS_LOG;´ËÀàÐÅÏ¢½«$TRUTH$ÏÔÊ¾ÓÚÈÕÖ¾ÖÐ¡£;Ce type de message $TRUTH$ est actuellement affiché dans l'historique.;Dieser Nachrichtentyp wird momentan $TRUTH$ im Log angezeigt.;Ten rodzaj wiadomoœci aktualnie $TRUTH$ wyœwietlany w dzienniku gry.;Este tipo de mensaje actualmente $TRUTH$ representado en el registro.;Questo tipo di messaggio al momento $TRUTH$ visualizzato nella cronologia.;Az üzenettípus látható az üzenetnaplóban: ;Tato zpráva se právì $TRUTH$ zobrazila v protokolu.;;;;;;x
+MESSAGE_IS_ONMAP;´ËÀàÐÅÏ¢½«$TRUTH$ÏÔÊ¾ÓÚµØÍ¼ÉÏ£¨Èç¹û¿ÉÓÃ£©¡£;Ce type de message $TRUTH$ est actuellement affiché sur la carte (si applicable);Dieser Nachrichtentyp wird momentan $TRUTH$ auf der Karte angezeigt (falls möglich).;Ten rodzaj wiadomoœci aktualnie $TRUTH$ wyœwietlany na mapie (w stosownych przypadkach).;Este tipo de mensaje actualmente $TRUTH$ representado en el mapa (si procede).;Questo tipo di messaggio al momento $TRUTH$ visualizzato sulla mappa (se appropriato).;Az üzenettípus látható a térképen: ;Tato zpráva se právì $TRUTH$ zobrazila na mapì (je-li k dispozici).;;;;;;x
+MESSAGE_SETTING_TRUE;ÊÇ;est;ist;jest;está;è;BE;je;;;;;;x
+MESSAGE_SETTING_FALSE;·ñ;n'est pas;ist nicht;nie jest;no está;non è;KI;není;;;;;;x
+MENU_BAR_SAVE_GAME;´¢´æÓÎÏ·;Sauvegarder la partie;Spiel speichern;Zapisz grê;Guardar partida;Salva partita;Mentés;Uložit hru;;;;;;x
+MENU_BAR_GAME_OPTIONS;ÓÎÏ·Ñ¡Ïî;Options de jeu;Spieloptionen;Opcje gry;Opciones del juego;Opzioni di gioco;Beállítások;Herní nastavení;;;;;;x
+MENU_BAR_GAME_RESIGN;·ÅÆúÓÎÏ·;Abandonner;Partie Beenden;Zrezygnuj;Renunciar;Abbandona;Feladás;Rezignovat;;;;;;x
+MENU_BAR_MESSAGE_SETTINGS;ÐÅÏ¢ÉèÖÃ;Paramètres des messages;Nachrichten-Einstellungen;Ustawienia wiadomoœci;Configuración de los mensajes;Impostazione dei messaggi;Üzenetek beállításai;Nastavení zpráv;;;;;;x
+MENU_BAR_QUIT;ÍË³öÓÎÏ·;Quitter;Beenden;Wyjœcie;Salir;Uscire;Kilépés;Konec;;;;;;x
+MENU_BAR_CLOSE;¹Ø±Õ;Fermer;Schließen;Zamknij;Cerrar;Chiudere;Bezárás;Zavøít;;;;;;x
+MENU_BAR_SAVE;´¢´æ;Sauvegarder;Speichern;Zapisz;Guardar;Salvare;Mentés;Uložit;;;;;;x
+MENU_BAR_SAVE_GAME_FILENAME;´¢´æÎÄ¼þÃûÎª£º;Nom du fichier de la partie sauvegardée :;Dateinamen speichern:;Nazwa zapisanego pliku:;Nombre de archivo de partida guardada:;Nome file salvataggio:;Mentés fájlneve:;Název uložené hry:;;;;;;x
+CHAT_ALLIES;ÃË¹ú;Alliés;Verbündete;Sojusz.;Aliados;Alleati;Szövetségesek;Spojenci;;;;;;x
+CHAT_FOES;µÐÈË;Ennemis;Feinde;Wrog.;Enemigos;Nemici;Ellenségek;Nepøátelé;;;;;;x
+CHAT_ALL;È«²¿;Tous;Alle;Wszyscy;Todos;Tutti;Mindenki;Všichni;;;;;;x
+CHATMESSAGE_SETUP;µ±Äã½ÓÊÕµ½Ò»ÌõÁÄÌìÐÅÏ¢;Lorsque vous recevez un message sur le chat;Wenn Sie eine Chatmessage erhalten;Kiedy otrzymujesz wiadomoœæ;Cuando recibes un mensaje de diálogo;Quando ricevi un messaggio chat;Ha üzenetet kapsz;Když obdržíte zprávu;;;;;;x
+CHATMESSAGE_HEADER;ÁÄÌìÐÅÏ¢;Message de chat;Chatmessage;Wiadomoœæ;Mensaje de diálogo;Messaggio chat;Csevejüzenet;Zpráva;;;;;;x
+CHATMESSAGE_1;ÊÕµ½ÐÂÐÅÏ¢;Communication entrante,;Kommunikationseingang;Przychodz¹ca wiadomoœæ;Comunicación entrante,;Comunicazione in arrivo,;Bejövõ üzenet;Pøíchozí rozhovor,;;;;;;x
 CHATMESSAGE_2;*;*;*;*;*;*;*;;;;;;;x
 CHATMESSAGE_3;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;;;;;;x
 CHATMESSAGE_4;*;*;*;*;*;*;*;;;;;;;x
 CHATMESSAGE_5;*;*;*;*;*;*;*;;;;;;;x
 CHATMESSAGE_6;*;*;*;*;*;*;*;;;;;;;x
 CHATMESSAGE_LOG;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;$TEXT$;;;;;;x
-CHATMESSAGE_BTN1;ï¿½ï¿½;OK;OK;OK;OK;OK;Rendben;OK;;;;;;x
-CHATMESSAGE_BTN2;ï¿½ï¿½;OK;OK;OK;OK;OK;Rendben;OK;;;;;;x
-CHATMESSAGE_BTN3;ï¿½é¿´;Aller ï¿½;GOTO;Idï¿½ do;Ir allï¿½;Andare;Ugrï¿½s;Pï¿½ejï¿½t na;;;;;;x
+CHATMESSAGE_BTN1;ºÃ;OK;OK;OK;OK;OK;Rendben;OK;;;;;;x
+CHATMESSAGE_BTN2;ºÃ;OK;OK;OK;OK;OK;Rendben;OK;;;;;;x
+CHATMESSAGE_BTN3;²é¿´;Aller à;GOTO;IdŸ do;Ir allí;Andare;Ugrás;Pøejít na;;;;;;x
 CHATMESSAGE_MAP;*;*;*;*;*;*;*;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
 ######################################################################;;;;;;;;;;;;;;x
 # Meta Server;;;;;;;;;;;;;;x
-MS_USERNAME;ï¿½Ã»ï¿½ï¿½ï¿½ï¿½ï¿½;Nom d'utilisateur :;Benutzername:;Nazwa uï¿½ytkownika;Nombre de usuario:;Nome utente:;Felhasznï¿½lï¿½i nï¿½v:;Jmï¿½no uï¿½ivatele:;;;;;;x
-MS_PASSWORD;ï¿½ï¿½ï¿½ë£º;Mot de passe :;Kennwort:;Hasï¿½o;Contraseï¿½a:;Password:;Jelszï¿½:;Heslo:;;;;;;x
-MS_CREATE_GAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Crï¿½er une partie;Spiel erstellen;Stwï¿½rz grï¿½;Crear juego;Creare partita;ï¿½j jï¿½tï¿½k;Vytvoï¿½it hru;;;;;;x
-MS_NAME;ï¿½ï¿½ï¿½Æ£ï¿½;Nom :;Name:;Nazwa:;Nombre:;Nome:;Nï¿½v;Jmï¿½no:;;;;;;x
-MS_USE_PASSWORD;Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½;Utiliser un mot de passe;Kennwort benutzen;Uï¿½yj hasï¿½a;Usar contraseï¿½a;Usare password;Jelszï¿½ hasznï¿½lata;Pouï¿½ï¿½t heslo;;;;;;x
-MS_JOIN_GAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Rejoindre la partie;Spiel beitreten;Doï¿½ï¿½cz do gry;Unirse al juego;Partecipare alla partita;Csatlakozï¿½s sikertelen;Pï¿½ipojit ke hï¿½e;;;;;;x
-MS_PASSWD;ï¿½ï¿½ï¿½ï¿½;Mot de passe;Kennwort;Hasï¿½o;Contraseï¿½a;Password;Jelszï¿½;Heslo;;;;;;x
-MS_ALERT;ï¿½ï¿½ï¿½ï¿½;Alerte;Benachrichtigung;Powiadomienie;Alerta;Avvertimento;Riadï¿½;Vï¿½straha;;;;;;x
-MS_CONNECTION_FAILED;ï¿½ï¿½ï¿½ï¿½Ê§ï¿½Ü£ï¿½;La connexion a ï¿½chouï¿½ !;Verbindung nicht zustande gekommen!;Nie udaï¿½o siï¿½ poï¿½ï¿½czyï¿½!;ï¿½Fallo de conexiï¿½n!;Connessione non riuscita!;Csatlakozï¿½s sikertelen;Pï¿½ipojenï¿½ se nezdaï¿½ilo!;;;;;;x
-MS_CHANNELS;Æµï¿½ï¿½;Canaux;Kanï¿½le;Kanaï¿½y;Canales;Canali;Csatornï¿½k;Kanï¿½ly;;;;;;x
-MS_METASERVER_LOGIN;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â½;Se connecter au mï¿½taserveur;Metaserver-Login;Login metaserwera;Inicio de sesiï¿½n en Metaserver;Login metaserver;Kï¿½ztes szerver bejelentkezï¿½s;Pï¿½ihlï¿½enï¿½ k primï¿½rnï¿½mu serveru;;;;;;x
-MS_JOINGAME;ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ï·;Rejoindre la partie;Spiel beitreten;Doï¿½ï¿½cz do gry;Unirse al juego;Partecipare alla partita;Csatlakozï¿½s;Pï¿½ipojit ke hï¿½e;;;;;;x
-MS_REFRESH;Ë¢ï¿½ï¿½;Actualiser;Aktualisieren;Odï¿½wieï¿½;Actualizar;Aggiornare;Frissï¿½tï¿½s;Aktualizovat;;;;;;x
-MS_START;ï¿½ï¿½Ê¼;Commencer;Start;Start;Inicio;Avviare;Start;Spustit;;;;;;x
-MS_BACK;ï¿½ï¿½ï¿½ï¿½;Retour;Zurï¿½ck;Powrï¿½t;Atrï¿½s;Indietro;Vissza;Zpï¿½t;;;;;;x
-MS_JOIN;ï¿½ï¿½ï¿½ï¿½;Rejoindre;Beitreten;Doï¿½ï¿½cz;Unirse a una;Partecipare;Csatlakozï¿½s;Pï¿½ipojit;;;;;;x
-MS_JOIN_CHANNEL;ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½;Rejoindre le canal;Kanal beitreten;Doï¿½ï¿½cz do kanaï¿½u;Unirse a un canal;Partecipare al canale;Csatlakozï¿½s a csatornï¿½hoz;Pï¿½ipojit ke kanï¿½lu;;;;;;x
-MS_LOGIN;ï¿½ï¿½Â½;Se connecter;Anmelden;Login;Inicio de sesiï¿½n;Login;Bejelentkezï¿½s;Pï¿½ihlï¿½sit;;;;;;x
-MS_CREATE;ï¿½ï¿½ï¿½ï¿½;Crï¿½er;Erstellen;Stwï¿½rz;Crear;Creare;ï¿½j jï¿½tï¿½k;Vytvoï¿½it;;;;;;x
-MS_GAMES;ï¿½ï¿½Ï·;Parties;Spiele;Gry;Juegos;Partite;Jï¿½tï¿½k;Hry;;;;;;x
-MS_INFORMATION;ï¿½ï¿½Ï¢;Informations;Information;Informacje;La informaciï¿½n;Informazioni;Informï¿½ciï¿½;Informace;;;;;;x
-MS_CHAT;ï¿½ï¿½ï¿½ï¿½;Chat;Chat;Chat;Diï¿½logo;Chat;Csevej;Konverzace;;;;;;x
-MS_CHANNEL_PLAYER;#Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/ï¿½ï¿½ï¿½ï¿½Ð±ï¿½;#Channelname/Playerlist;#Kanalname/Spielerliste;#Nazwa kanaï¿½u/Lista graczy;#Nombre de canal/Lista de jugadores;#Nome canale/elenco giocatori;#csatornanï¿½v/jï¿½tï¿½koslista;#Nï¿½zev kanï¿½lu/Seznam hrï¿½ï¿½ï¿½;;;;;;x
-MS_CONNECTION_LOST;ï¿½ï¿½ï¿½Ó¶ï¿½Ê§ï¿½ï¿½;Connexion perdue.;Verbindung getrennt.;Poï¿½ï¿½czenie zerwane.;Conexiï¿½n perdida.;Connessione interrotta.;A kapcsolat megszakadt;Pï¿½ipojenï¿½ pï¿½eruï¿½eno.;;;;;;x
+MS_USERNAME;ÓÃ»§Ãû£º;Nom d'utilisateur :;Benutzername:;Nazwa u¿ytkownika;Nombre de usuario:;Nome utente:;Felhasználói név:;Jméno uživatele:;;;;;;x
+MS_PASSWORD;ÃÜÂë£º;Mot de passe :;Kennwort:;Has³o;Contraseña:;Password:;Jelszó:;Heslo:;;;;;;x
+MS_CREATE_GAME;´´½¨ÓÎÏ·;Créer une partie;Spiel erstellen;Stwórz grê;Crear juego;Creare partita;Új játék;Vytvoøit hru;;;;;;x
+MS_NAME;Ãû³Æ£º;Nom :;Name:;Nazwa:;Nombre:;Nome:;Név;Jméno:;;;;;;x
+MS_USE_PASSWORD;Ê¹ÓÃÃÜÂë;Utiliser un mot de passe;Kennwort benutzen;U¿yj has³a;Usar contraseña;Usare password;Jelszó használata;Použít heslo;;;;;;x
+MS_JOIN_GAME;¼ÓÈëÓÎÏ·;Rejoindre la partie;Spiel beitreten;Do³¹cz do gry;Unirse al juego;Partecipare alla partita;Csatlakozás sikertelen;Pøipojit ke høe;;;;;;x
+MS_PASSWD;ÃÜÂë;Mot de passe;Kennwort;Has³o;Contraseña;Password;Jelszó;Heslo;;;;;;x
+MS_ALERT;¾¯¸æ;Alerte;Benachrichtigung;Powiadomienie;Alerta;Avvertimento;Riadó;Výstraha;;;;;;x
+MS_CONNECTION_FAILED;Á¬½ÓÊ§°Ü£¡;La connexion a échoué !;Verbindung nicht zustande gekommen!;Nie uda³o siê po³¹czyæ!;¡Fallo de conexión!;Connessione non riuscita!;Csatlakozás sikertelen;Pøipojení se nezdaøilo!;;;;;;x
+MS_CHANNELS;ÆµµÀ;Canaux;Kanäle;Kana³y;Canales;Canali;Csatornák;Kanály;;;;;;x
+MS_METASERVER_LOGIN;·þÎñÆ÷µÇÂ½;Se connecter au métaserveur;Metaserver-Login;Login metaserwera;Inicio de sesión en Metaserver;Login metaserver;Köztes szerver bejelentkezés;Pøihlášení k primárnímu serveru;;;;;;x
+MS_JOINGAME;¼ÓÈëÓÎÏ·;Rejoindre la partie;Spiel beitreten;Do³¹cz do gry;Unirse al juego;Partecipare alla partita;Csatlakozás;Pøipojit ke høe;;;;;;x
+MS_REFRESH;Ë¢ÐÂ;Actualiser;Aktualisieren;Odœwie¿;Actualizar;Aggiornare;Frissítés;Aktualizovat;;;;;;x
+MS_START;¿ªÊ¼;Commencer;Start;Start;Inicio;Avviare;Start;Spustit;;;;;;x
+MS_BACK;·µ»Ø;Retour;Zurück;Powrót;Atrás;Indietro;Vissza;Zpìt;;;;;;x
+MS_JOIN;¼ÓÈë;Rejoindre;Beitreten;Do³¹cz;Unirse a una;Partecipare;Csatlakozás;Pøipojit;;;;;;x
+MS_JOIN_CHANNEL;¼ÓÈëÆµµÀ;Rejoindre le canal;Kanal beitreten;Do³¹cz do kana³u;Unirse a un canal;Partecipare al canale;Csatlakozás a csatornához;Pøipojit ke kanálu;;;;;;x
+MS_LOGIN;µÇÂ½;Se connecter;Anmelden;Login;Inicio de sesión;Login;Bejelentkezés;Pøihlásit;;;;;;x
+MS_CREATE;´´½¨;Créer;Erstellen;Stwórz;Crear;Creare;Új játék;Vytvoøit;;;;;;x
+MS_GAMES;ÓÎÏ·;Parties;Spiele;Gry;Juegos;Partite;Játék;Hry;;;;;;x
+MS_INFORMATION;ÐÅÏ¢;Informations;Information;Informacje;La información;Informazioni;Információ;Informace;;;;;;x
+MS_CHAT;ÁÄÌì;Chat;Chat;Chat;Diálogo;Chat;Csevej;Konverzace;;;;;;x
+MS_CHANNEL_PLAYER;#ÆµµÀÃû³Æ/Íæ¼ÒÁÐ±í;#Channelname/Playerlist;#Kanalname/Spielerliste;#Nazwa kana³u/Lista graczy;#Nombre de canal/Lista de jugadores;#Nome canale/elenco giocatori;#csatornanév/játékoslista;#Název kanálu/Seznam hráèù;;;;;;x
+MS_CONNECTION_LOST;Á¬½Ó¶ªÊ§¡£;Connexion perdue.;Verbindung getrennt.;Po³¹czenie zerwane.;Conexión perdida.;Connessione interrotta.;A kapcsolat megszakadt;Pøipojení pøerušeno.;;;;;;x

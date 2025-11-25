@@ -515,4 +515,4 @@ military_construction = {
 	progress = 0
 	duration = 61
 }
-
+}

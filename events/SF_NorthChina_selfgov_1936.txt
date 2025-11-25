@@ -14,6 +14,69 @@ country_event = {
 	}
 }
 country_event = {
+	id = 12216
+          fire_only_once = yes
+	title = "japnorth_China1_title"
+	subtitle = "japnorth_China1_subtitle"
+	desc = "japnorth_China1desc"
+	picture = "japnorth_China1"
+	trigger = {
+		tag = CHI
+		rehe_region = { controlled_by = CCH }
+		OR = {
+		rehe_region = {
+			any_neighbor_province = {
+				units_in_province = JAP
+			}
+		  }
+		  rehe_region = {
+			any_neighbor_province = {
+				units_in_province = MAN
+			}
+		  }
+		}
+		not = {
+		war_with = JAP 
+                   }
+				   date = 1934.4.28
+		has_global_flag = Anti_jap_front_great_wall_loss
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "japnorth_China1_option"
+				   CCH = {
+				       any_owned = { limit = { province_id = 7135 } secede_province = MEC } 
+                   any_owned = { limit = { province_id = 7159 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7183 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7208 } secede_province = MEC }
+  any_owned = { limit = { province_id = 4681 } secede_province = MEC }
+                    any_owned = { limit = { province_id = 7233 } secede_province = MEC } 
+                   any_owned = { limit = { province_id = 7259 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 4682 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7296 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7276 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7313 } secede_province = MEC }
+ any_owned = { limit = { province_id = 4834 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7312 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7326 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 4885 } secede_province = MEC }
+  any_owned = { limit = { province_id = 7325 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 7338 } secede_province = MEC } 
+ any_owned = { limit = { province_id = 4932 } secede_province = MEC }     
+				  }
+				   CSY = {
+				       any_owned = { limit = { province_id = 4980 } secede_province = MEC } 
+                   any_owned = { limit = { province_id = 7337 } secede_province = MEC }
+				   any_owned = { limit = { province_id = 7349 } secede_province = MEC }
+				   }
+				  MEC = { load_oob = "MEA_military.txt" }
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
                 is_triggered_only = yes
 	id = 2019711
 	title = "HBWST"

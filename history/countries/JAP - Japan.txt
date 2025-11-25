@@ -259,7 +259,9 @@ civil_law = repression
 1934.1.1 = {
 	set_global_flag = the_war_attack_great_wall
 } 
-
+1934.12.1 = {
+set_global_flag = JAP_invassion_northChina
+}
 1935.1.1 = {
 capital = 5315
 government = imperial

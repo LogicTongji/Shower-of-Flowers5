@@ -275,20 +275,28 @@ country_event = {
 			name = "NanChang_Conference_modifier"
 			duration = 180
 		}
-                   JAP = {
-				       any_owned = { limit = { province_id = 7313 } secede_province = CCH } 
-                   any_owned = { limit = { province_id = 7326 } secede_province = CCH } 
- any_owned = { limit = { province_id = 7338 } secede_province = CCH } 
- any_owned = { limit = { province_id = 4932 } secede_province = CCH }
-  any_owned = { limit = { province_id = 4885 } secede_province = CCH }
-                    any_owned = { limit = { province_id = 4978 } secede_province = CCH } 
-                   any_owned = { limit = { province_id = 4976 } secede_province = CCH } 
- any_owned = { limit = { province_id = 5016 } secede_province = CCH } 
- any_owned = { limit = { province_id = 4933 } secede_province = CCH } 
- any_owned = { limit = { province_id = 5084 } secede_province = CCH } 
- any_owned = { limit = { province_id = 5112 } secede_province = CCH } 
-                  }
                   CHA = { end_war = JAP }
+				   CCH = { 
+				   load_oob = "CJC_1936.txt" 
+				   create_alliance = CRH
+				   } 
+				   CRH = {
+			remove_brigade = "第二十九路军司令部"
+			remove_brigade = "特务旅"
+			remove_brigade = "第109旅"
+			remove_brigade = "第110旅"
+			remove_brigade = "第111旅"
+			remove_brigade = "第112旅"
+			remove_brigade = "第113旅"
+			remove_brigade = "第114旅"
+			remove_brigade = "第1旅"
+			remove_brigade = "第2旅"
+			remove_brigade = "第1旅"
+			remove_brigade = "第2旅"
+			remove_brigade = "第9师第1旅"
+			remove_brigade = "第9师第2旅"
+			remove_brigade = "独立第13旅"
+			}
 		ai_chance = { factor = 100 }
 	}
 }

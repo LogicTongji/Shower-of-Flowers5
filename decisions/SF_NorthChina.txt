@@ -8,7 +8,7 @@ diplomatic_decisions = {
                                                 exists = CHI
 			not = { has_global_flag = JAP_invassion_northChina } 
 			has_global_flag = Anti_jap_front_great_wall_loss
-			not = { year = 1937 } 
+			not = { year = 1936 } 
 		}
 		allow = {
 			not = { alliance_with = CHI }

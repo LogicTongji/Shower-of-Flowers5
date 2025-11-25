@@ -94,3 +94,4 @@ corps = {
 		regiment = { type = infantry_brigade experience = 45 name = "国防军第111步兵团" historical_model = 1 }
 	}
 }
+}

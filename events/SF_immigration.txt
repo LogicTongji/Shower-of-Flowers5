@@ -1,15 +1,11 @@
-####################
-#   ��Ǩ���¼���   #
-####################
-#��ҵ��Ǩ��һ�׶�
 country_event = {
         is_triggered_only = yes
 	id = 1550
-	title = "��չ��һ�׶εĹ�ҵ��Ǩ"
+	title = "The_Migration_Period1title"
 	desc = "Migration_Period1_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "�й�������ϣ���ģ�"
+		name = "The_Migration_Period1op"
                 add_country_modifier = {
 			name = "The_Migration_Period_modifier"
 			duration = 365
@@ -33,15 +29,14 @@ country_event = {
                 CHI = { 7520 = { metal  = 9 } }		
 	}
 }
-#��ҵ��Ǩ�ڶ��׶�
 country_event = {
         is_triggered_only = yes
 	id = 1551
-	title = "��չ�ڶ��׶εĹ�ҵ��Ǩ"
+	title = "The_Migration_Period2title"
 	desc = "Migration_Period2_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "�й�������ϣ���ģ�"
+		name = "The_Migration_Period1op"
                 country_event = 1552		
                 5728 = { industry = -1 }
                 5843 = { industry = -1 }
@@ -57,15 +52,14 @@ country_event = {
                 CHI = { 7508 = { metal  = -10 } }           			           	
 	}
 }
-#��ҵ��Ǩ�ڶ��׶�*���蹤ҵ��
 country_event = {
         is_triggered_only = yes
 	id = 1552
-	title = "���蹤ҵ��"
+	title = "The_Migration_Period3title"
 	desc = "Migration_Period3_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "�й�������ϣ���ģ�"		
+		name = "The_Migration_Period2op"		
                 7519 = { industry = 1 }              
                 7530 = { industry = 1 }
                 9415 = { industry = 1 }
@@ -92,17 +86,16 @@ country_event = {
                 CHI = { 7563 = { metal  = 1 } }					           	
 	}
 }
-#������Ǩ ����
 country_event = {
         is_triggered_only = yes
 	id = 1553
-	title = "ת�������ѧ��������ѧ����ͨ��ѧ��ͬ�ô�ѧ���㽭��ѧ"
+	title = "The_Migration_Period4title"
 	desc = "Migration_Period4_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "Ϊ�����壡"
+		name = "The_Migration_Period1op"
                 add_country_modifier = {
-			name = "The_Migration_Period��education_modifier"
+			name = "The_Migration_Period_education_modifier"
 			duration = 120
                 }
                 country_event = 1554		
@@ -111,99 +104,98 @@ country_event = {
                 9478 = { leadership = 1 }                     			           	
 	}
 }
-#������Ǩ ƽ��
 country_event = {
         is_triggered_only = yes
 	id = 1554
-	title = "ת�ƹ����廪��ѧ������������ѧ�Լ�˽���Ͽ���ѧ�ȸߵ�ѧ��"
+	title = "The_Migration_Period5title"
 	desc = "Migration_Period5_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "����ͼ��"
+		name = "The_Migration_Period2op"
                 country_event = 1556		
                 4979 = { leadership = -1.2 }              
                 7520 = { leadership = 0.7 }
                 7435 = { leadership = 0.5 }                     			           	
 	}
 }
-#������Ǩ ����
+
 country_event = {
         is_triggered_only = yes
 	id = 3553
-	title = "ת����ɽ��ѧ�����Ŵ�ѧ"
+	title = "The_Migration_Period11title"
 	desc = "Migration_Period11_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "Ϊ�����壡"              
+		name = "The_Migration_Period2op"              
                 5757 = { leadership = -0.3 }              
                 5834 = { leadership = -0.3 }
                 5763 = { leadership = 0.5 }    
                 5717 = { leadership = 0.5 } 		           	
 	}
 }
-#������ʱ��ѧ
+
 country_event = {
         is_triggered_only = yes
 	id = 1555
-	title = "��������������ʱ��ѧ"
+	title = "The_Migration_Period6title"
 	desc = "Migration_Period6_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "Ϊ�����壡"	                         
+		name = "The_Migration_Period2op"	                         
                 7435 = { leadership = 0.5 }                     			           	
 	}
 }
-#��ɳ��ʱ��ѧ
+
 country_event = {
         is_triggered_only = yes
 	id = 1556
-	title = "������ɳ��ʱ��ѧ"
+	title = "The_Migration_Period7title"
 	desc = "Migration_Period7_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "Ϊ�����壡"	 
+		name = "The_Migration_Period2op"	 
 		                      country_event = 3553	  
                 7520 = { leadership = 0.5 }                     			           	
 	}
 }
-#��������
+
 country_event = {
         is_triggered_only = yes
 	id = 1557
-	title = "���������������ϴ�ѧ"
+	title = "The_Migration_Period8title"
 	desc = "Migration_Period8_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "�й����꣡"
+		name = "The_Migration_Period2op"
                 add_country_modifier = {
-			name = "The_Migration_education2��education_modifier"
+			name = "The_Migration_education2_education_modifier"
 			duration = 2923
                 }	                         
                 7520 = { leadership = -0.5 }
                 7561 = { leadership = 1 }                     			           			           	
 	}
 }
-#��������
+
 country_event = {
         is_triggered_only = yes
 	id = 1558
-	title = "���������������ϴ�ѧ"
+	title = "The_Migration_Period12title"
 	desc = "Migration_Period12_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "�й����꣡"             
+		name = "The_Migration_Period2op"             
                 9296 = { leadership = 0.2 }                     			           			           	
 	}
 }
-#������
+
 country_event = {
         is_triggered_only = yes
 	id = 1559
-	title = "��֯��������У��ѧ"
+	title = "The_Migration_Period13title"
 	desc = "Migration_Period13_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "�й����꣡"           
+		name = "The_Migration_Period2op"           
 	           
                 9415 = { leadership = 0.5 }                     			           			           	
 	}

@@ -28,6 +28,7 @@ country_event = {
 		name = "CHI_Event_1000065_option"
 		manpower = -100
 		ENG = { country_event = 1000066 }
+		load_oob = "CHI_2.txt"
 		ai_chance = { factor = 100 }
 	}
 }
@@ -39,7 +40,6 @@ country_event = {
 	picture = "CHI_Event_1000065"
 	option = {
 		name = "CHI_Event_1000030_option"
-		load_oob = "CHI_2.txt"
 		ai_chance = { factor = 100 }
 	}
 }
@@ -117,7 +117,7 @@ country_enent = {
  country_event = {
          id = 559
          is_triggered_only = yes
-         title = "vCHI_Event_3019_title"
+         title = "CHI_Event_3019_title"
          desc = "CHI_Event_3019_decs"
          picture = "CHI_flag"
          option = {
@@ -170,15 +170,3 @@ country_enent = {
                  load_oob = "CHI_Y.txt"
         }
 }   
-#ÖÐ¹úÏÜ±ø
-country_event = {
-         id = 8029
-         is_triggered_only = yes
-         title = "CHI_Event_567_title"
-         desc = "KSECS"
-         picture = "China_Event_1000020"
-         option = {
-                 name = "CHI_Event_550_op"
-                 load_oob="CHI_JDAmry.txt"             
-        } 
-}    

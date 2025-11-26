@@ -2615,11 +2615,11 @@ The_Migration_Period_modifier = {
                org_regain = 0.1
                industrial_efficiency = 0.1 
 }
-The_Migration_Period¡¤education_modifier = {
-               global_leadership_modifier = 0.1 
+The_Migration_Period_education_modifier = {
+               global_leadership_modifier = 0.01
 }
-The_Migration_education2¡¤education_modifier = {
-               global_leadership_modifier = 0.2 
+The_Migration_education2_education_modifier = {
+               global_leadership_modifier = 0.02
 }
 Event19361_modifier = {
 	dissent = 0.1 

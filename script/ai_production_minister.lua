@@ -47,8 +47,25 @@ local UnitTypes = {
 		SupportGroup = "Militia",
 		Type = "Land",
 		SubType = "Infantry"},
+	For_the_occasion_brigade = {
+		Index = 79,
+		Serial = 4,
+		Size = 2,
+		Support = 2,
+		SupportGroup = "Militia",
+		Type = "Land",
+		SubType = "Infantry"},
 	infantry_brigade = {
 		Index = 4,
+		Serial = 4,
+		Size = 2,
+		Support = 1,
+		SecondaryMain = "anti_tank_brigade",
+		SupportGroup = "Infantry",
+		Type = "Land",
+		SubType = "Infantry"},
+    foring_brigade = {
+		Index = 80,
 		Serial = 4,
 		Size = 2,
 		Support = 1,
@@ -133,6 +150,23 @@ local UnitTypes = {
 		SupportGroup = "Motor",
 		Type = "Land",
 		SubType = "Motor"},
+	glider_armor_brigade = {
+		Index = 73,
+		Serial = 2,
+		Size = 2,
+		Support = 2,
+		SupportGroup = "Motor",
+		Type = "Land",
+		SubType = "Motor"},
+	amph_armour_brigade = {
+		Index = 74,
+		Serial = 2,
+		Size = 2,
+		Support = 2,
+		SupportGroup = "Motor",
+		Type = "Land",
+		SubType = "Motor"},
+
 
 	-- Support Brigades
 	anti_air_brigade = {
@@ -156,14 +190,47 @@ local UnitTypes = {
 		SupportType = Utils.Set {
 			"Infantry",
 			"Militia"}},
+	artillery_brigadeB = {
+		Index = 69,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Infantry",
+			"Militia"}},
 	alpine_artillery_brigade = {
 		Index = 60,
 		Type = "Land",
 		SubType = "Support",
 		SupportType = Utils.Set {
 			"bergsjaeger_brigade"}},
+	alpine_artillery_brigadeB = {
+		Index = 70,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"bergsjaeger_brigade"}},
 	engineer_brigade = {
 		Index = 18,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Mountain",
+			"Marine",
+			"Infantry",
+			"Motor",
+			"Armor"}},
+	air_engineer_brigade = {
+		Index = 84,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Mountain",
+			"Marine",
+			"Infantry",
+			"Motor",
+			"Armor"}},
+	hobart_armor_brigade = {
+		Index = 85,
 		Type = "Land",
 		SubType = "Support",
 		SupportType = Utils.Set {
@@ -226,6 +293,74 @@ local UnitTypes = {
 		Type = "Land",
 		SubType = "Support",
 		SupportType = Utils.Set {"Infantry"}},
+	motorized_artillery_brigade = {
+		Index = 71,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Motor",
+			"Armor"}},
+	motorized_anti_air_brigade = {
+		Index = 72,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Motor",
+			"Armor"}},
+	glider_anti_tank_brigade = {
+		Index = 75,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Motor",
+			"Armor"}},
+	assault_gun_brigade = {
+		Index = 76,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Motor",
+			"Armor"}},
+	sp_anti_air_brigade = {
+		Index = 77,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {{
+			"Mountain",
+			"Marine",
+			"Infantry",
+			"Motor",
+			"Armor"}},
+	anti_air_company = {
+		Index = 78,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {{
+			"Mountain",
+			"Marine",
+			"Infantry",
+			"Motor",
+			"Armor"}},
+    field_battalion = {
+		Index = 81,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Mountain",
+			"Marine",
+			"Infantry",
+			"Motor",
+			"Armor"}},
+	communications_company = {
+		Index = 82,
+		Type = "Land",
+		SubType = "Support",
+		SupportType = Utils.Set {
+			"Mountain",
+			"Marine",
+			"Infantry",
+			"Motor",
+			"Armor"}},
 		
 	-- Naval Units
 	battlecruiser = {
@@ -446,6 +581,24 @@ local UnitTypes = {
 		SubType = "Elite Infantry"},
 	chi_star_destroyer = {
 		Index = 58,
+		Serial = 4,
+		Size = 2,
+		Support = 1,
+		SecondaryMain = "artillery_brigade",
+		SupportGroup = "Infantry",
+		Type = "Land",
+		SubType = "Elite Infantry"}
+	GER_ss = {
+		Index = 68,
+		Serial = 4,
+		Size = 2,
+		Support = 1,
+		SecondaryMain = "artillery_brigade",
+		SupportGroup = "Infantry",
+		Type = "Land",
+		SubType = "Elite Infantry"}
+	camicie_nere_brigade = {
+		Index = 83,
 		Serial = 4,
 		Size = 2,
 		Support = 1,

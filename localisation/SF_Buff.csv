@@ -40,8 +40,8 @@ Event290000_modifier;三年饥荒;;;;;;;;;;;;;x
 Event289998_modifier;封锁陕甘宁;;;;;;;;;;;;;x
 Event290003_modifier;大生产;;;;;;;;;;;;;x
 The_Migration_Period_modifier;大迁徙·工业内迁;;;;;;;;;;;;;x
-The_Migration_Period·education_modifier;大迁徙·教育内迁;;;;;;;;;;;;;x
-The_Migration_education2·education_modifier;国立西南联合大学;;;;;;;;;;;;;x
+The_Migration_Period_education_modifier;大迁徙·教育内迁;;;;;;;;;;;;;x
+The_Migration_education2_education_modifier;国立西南联合大学;;;;;;;;;;;;;x
 Event19361_modifier;消极的对日态度;;;;;;;;;;;;;x
 Event19365_modifier;宪兵学校;;;;;;;;;;;;;x
 Event19369_modifier;消极的对日态度(2);;;;;;;;;;;;;x

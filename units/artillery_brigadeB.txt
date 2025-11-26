@@ -23,18 +23,18 @@ artillery_brigadeB = {
 
 	#Defensive Abilities
 	defensiveness = 1.67	# was 2.67
-	toughness = 1.00
-	softness = 1.00
+	toughness = 1.50
+	softness = 1.30
 	air_defence = 1.50
 
 	#Offensive Abilities
 	suppression = 0.00
 	soft_attack = 2.40
-	hard_attack = 1.00
+	hard_attack = 1.20
 	air_attack = 0.10
 
    	amphibious =    { attack = -0.80 }
-    	river =         { attack = -0.05 }
+    	river =         { attack = -0.01 }
    	marsh = 	{ attack = -0.20
 			  movement = -0.70}
 	jungle = 	{ attack = -0.40

@@ -341,7 +341,7 @@ end
 
 -- Elite Units
 function P.EliteUnits(voProductionData)
-	local laUnits = {"alpini_brigade"};
+	local laUnits = {"alpini_brigade","camicie_nere_brigade"};
 	
 	return laUnits	
 end

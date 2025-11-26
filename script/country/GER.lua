@@ -417,7 +417,8 @@ end
 
 -- Elite Units
 function P.EliteUnits(voProductionData)
-	local laUnits = {"waffen_brigade"};
+	local laUnits = {"waffen_brigade",
+	                 "GER_ss"};
 	
 	return laUnits	
 end
@@ -429,6 +430,7 @@ function P.FirePower(voProductionData)
 		"motorized_brigade",
 		"mechanized_brigade",
 		"armor_brigade",
+		"GER_ss",
 		"heavy_armor_brigade"};
 		
 	return laArray

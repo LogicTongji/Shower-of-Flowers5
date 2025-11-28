@@ -101,62 +101,34 @@ country_event = {
                 country_event = 1554		
                 5542 = { leadership = -0.3 }              
                 5494 = { leadership = -0.3 }
-                9478 = { leadership = 1 }                     			           	
-	}
-}
-country_event = {
-        is_triggered_only = yes
-	id = 1554
-	title = "The_Migration_Period5title"
-	desc = "Migration_Period5_desc"
-	picture = "CHI_Flag"
-	option = {
-		name = "The_Migration_Period2op"
-                country_event = 1556		
                 4979 = { leadership = -1.2 }              
                 7520 = { leadership = 0.7 }
-                7435 = { leadership = 0.5 }                     			           	
+                7435 = { leadership = 0.5 } 
+                9478 = { leadership = 1 }                     			           	
 	}
 }
 
 country_event = {
-        is_triggered_only = yes
 	id = 3553
+    fire_only_once = yes
 	title = "The_Migration_Period11title"
 	desc = "Migration_Period11_desc"
 	picture = "CHI_Flag"
+    trigger = {
+		tag = CHI
+        has_country_flag = The_Migration_Period_education4
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
 	option = {
 		name = "The_Migration_Period2op"              
                 5757 = { leadership = -0.3 }              
                 5834 = { leadership = -0.3 }
                 5763 = { leadership = 0.5 }    
                 5717 = { leadership = 0.5 } 		           	
-	}
-}
-
-country_event = {
-        is_triggered_only = yes
-	id = 1555
-	title = "The_Migration_Period6title"
-	desc = "Migration_Period6_desc"
-	picture = "CHI_Flag"
-	option = {
-		name = "The_Migration_Period2op"	                         
-                7435 = { leadership = 0.5 }                     			           	
-	}
-}
-
-country_event = {
-        is_triggered_only = yes
-	id = 1556
-	title = "The_Migration_Period7title"
-	desc = "Migration_Period7_desc"
-	picture = "CHI_Flag"
-	option = {
-		name = "The_Migration_Period2op"	 
-		                      country_event = 3553	  
-                7520 = { leadership = 0.5 }                     			           	
-	}
+                }
 }
 
 country_event = {
@@ -166,12 +138,11 @@ country_event = {
 	desc = "Migration_Period8_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "The_Migration_Period2op"
+		name = "The_Migration_Period3op"
                 add_country_modifier = {
 			name = "The_Migration_education2_education_modifier"
 			duration = 2923
                 }	                         
-                7520 = { leadership = -0.5 }
                 7561 = { leadership = 1 }                     			           			           	
 	}
 }
@@ -183,7 +154,7 @@ country_event = {
 	desc = "Migration_Period12_desc"
 	picture = "CHI_Flag"
 	option = {
-		name = "The_Migration_Period2op"             
+		name = "The_Migration_Period4op"             
                 9296 = { leadership = 0.2 }                     			           			           	
 	}
 }

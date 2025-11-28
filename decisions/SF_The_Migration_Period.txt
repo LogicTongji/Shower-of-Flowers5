@@ -97,36 +97,12 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
-	     #西安临时大学
-	   education3_chi = {               
-		potential = {
-			tag = CHI
-			CHI = { war_with = JAP }
-                        has_country_flag = The_Migration_Period_education
-			not = { has_country_flag = The_Migration_Period_education3 } 
-			not = { year = 1938 } 
-			date = 1937.10.18
-		}
-		allow = {
-			 exists = CHI
-                         CHI = { controls = 7435 
-                                 controls = 9296 }
-		}
-		effect = {
-			set_country_flag = The_Migration_Period_education3
-			country_event = 1555
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
 	 #西北联合大学
 	   educationXB_chi = {               
 		potential = {
 			tag = CHI
 			CHI = { war_with = JAP }
                         has_country_flag = The_Migration_Period_education
-                        has_country_flag = The_Migration_Period_education3
 			not = { has_country_flag = The_Migration_Period_education4 } 
 			date = 1938.3.18
 		}

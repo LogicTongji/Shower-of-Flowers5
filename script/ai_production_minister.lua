@@ -51,11 +51,12 @@ local UnitTypes = {
 		Index = 79,
 		Serial = 4,
 		Size = 2,
-		Support = 2,
-		SupportGroup = "Militia",
+		Support = 1,
+		SecondaryMain = "anti_tank_brigade",
+		SupportGroup = "Infantry",
 		Type = "Land",
 		SubType = "Infantry"},
-	infantry_brigade = {
+		infantry_brigade = {
 		Index = 4,
 		Serial = 4,
 		Size = 2,
@@ -202,12 +203,14 @@ local UnitTypes = {
 		Type = "Land",
 		SubType = "Support",
 		SupportType = Utils.Set {
+			"Infantry",
 			"bergsjaeger_brigade"}},
 	alpine_artillery_brigadeB = {
 		Index = 70,
 		Type = "Land",
 		SubType = "Support",
 		SupportType = Utils.Set {
+			"Infantry",
 			"bergsjaeger_brigade"}},
 	engineer_brigade = {
 		Index = 18,
@@ -322,20 +325,20 @@ local UnitTypes = {
 			"Motor",
 			"Armor"}},
 	sp_anti_air_brigade = {
-		Index = 77,
-		Type = "Land",
-		SubType = "Support",
-		SupportType = Utils.Set {{
-			"Mountain",
-			"Marine",
-			"Infantry",
-			"Motor",
-			"Armor"}},
+				Index = 77,
+				Type = "Land",
+				SubType = "Support",
+				SupportType = Utils.Set {
+					"Mountain",
+					"Marine",
+					"Infantry",
+					"Motor",
+					"Armor"}},
 	anti_air_company = {
 		Index = 78,
 		Type = "Land",
 		SubType = "Support",
-		SupportType = Utils.Set {{
+		SupportType = Utils.Set {
 			"Mountain",
 			"Marine",
 			"Infantry",
@@ -587,20 +590,20 @@ local UnitTypes = {
 		SecondaryMain = "artillery_brigade",
 		SupportGroup = "Infantry",
 		Type = "Land",
-		SubType = "Elite Infantry"}
+		SubType = "Elite Infantry"},
 	GER_ss = {
 		Index = 68,
 		Serial = 4,
-		Size = 2,
+		Size = 3,
 		Support = 1,
 		SecondaryMain = "artillery_brigade",
 		SupportGroup = "Infantry",
 		Type = "Land",
-		SubType = "Elite Infantry"}
+		SubType = "Elite Infantry"},
 	camicie_nere_brigade = {
 		Index = 83,
 		Serial = 4,
-		Size = 2,
+		Size = 3,
 		Support = 1,
 		SecondaryMain = "artillery_brigade",
 		SupportGroup = "Infantry",

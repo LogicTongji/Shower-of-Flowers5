@@ -1220,7 +1220,7 @@ country_event = {
 					CRH = { end_war = JAP }
                     CSY = { end_war = JAP }
 					CHI = { end_war = CJD }
-		   CHI ={
+		   CHI = {
 				   country_event = 12211
 				   }
 				    ai_chance = { factor = 100 }

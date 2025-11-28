@@ -234,7 +234,6 @@ set_country_flag = Event9111102
 set_global_flag = Event2000073
 set_country_flag = Event2000077
 set_global_flag = ZSHBQFTYUE 
-set_global_flag = Event10000272
 set_country_flag = Event2018417	
 }
 1938.1.21 = {

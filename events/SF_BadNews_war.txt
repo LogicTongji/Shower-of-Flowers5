@@ -79,7 +79,8 @@ country_event = {
                 CGX = { country_event = 22222 }
                 CYN = { country_event = 22222 }
                 CSY = { country_event = 22222 }
-                CHC = { country_event = 22222 }                                         
+                CHC = { country_event = 22222 }   
+                set_country_flag = fall_mouth
 	}
 }
 country_event = {

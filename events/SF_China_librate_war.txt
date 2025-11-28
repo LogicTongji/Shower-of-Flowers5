@@ -1,4 +1,4 @@
-#��Ъ����ͣ
+
 country_event = {
 	id = 390022
 	fire_only_once = yes
@@ -25,7 +25,6 @@ country_event = {
 		ai_chance = { factor = 0 }
 	}
 }
-#����ͣս��
 country_event = {
 	id = 8016
 		is_triggered_only = yes
@@ -39,7 +38,6 @@ country_event = {
 ai_chance = { factor = 100 }
 	}
 }
-#�Ի���������
 country_event = {
 	id = 390020
 	major = yes
@@ -65,7 +63,6 @@ country_event = {
 
 	}
 }
-#����ʯ��ׯ
 country_event = {
 	id = 390021
 	major = yes

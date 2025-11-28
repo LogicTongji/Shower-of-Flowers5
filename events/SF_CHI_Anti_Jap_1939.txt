@@ -113,16 +113,7 @@ country_event = {
 		 national_unity = 10 
 		 CHI = { country_event = 8337 } 
 		 ai_chance = { factor = 100 }
-	}		
-		option = {
-		name = "KMT_Amry_exciseOP2"
-		 national_unity = -50
-		  add_country_modifier = {
-			name = "LOSEWAR2_modifier"
-			duration = 1250
-	}		 
-		 ai_chance = { factor = 0 } 
-	}		
+	}			
 }
 country_event = {
 	id = 8337

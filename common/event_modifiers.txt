@@ -2692,7 +2692,6 @@ EVENT_15000_OPTION = {
 	land_organisation = 0.1
 }
 Event70_modifier = {
-	org_regain = -0.1
 	dissent = 0.1
 }
 Event71_modifier = {
@@ -2700,7 +2699,7 @@ Event71_modifier = {
 	dissent = 0.1
 }
 Event69_modifier = {
-	org_regain = 0.2
+	org_regain = 0.05
 	dissent = -0.1
 }
 Event68_modifier = {

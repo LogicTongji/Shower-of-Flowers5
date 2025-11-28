@@ -197,7 +197,6 @@ diplomatic_decisions = {
 			has_country_flag = jap_seizes_coast
 		}
 		allow = {
-				 has_country_flag = WJW_FCPUE
 			not = { CHI = { controls = 5681 } }
 			not = { CHI = { controls = 5494 } }
 			not = { CHI = { controls = 7508 } }

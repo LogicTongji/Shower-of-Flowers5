@@ -10,7 +10,7 @@ country_event = {
 	desc = "Man1desc"
 	picture = "ManZhou_developP1"
 	option = {
-		name = "立刻执行"
+		name = "Man1option"
                 ai_chance = { factor = 100 }
 	}
 }
@@ -23,7 +23,7 @@ country_event = {
 	desc = "Man2desc"
 	picture = "ManZhou_developP2"
 	option = {
-		name = "执行"
+		name = "Man1option"
                CHC = { country_event = 193111 }
                CHI = { country_event = 193111 }
                 5286 = { change_manpower = -1 }
@@ -50,7 +50,7 @@ country_event = {
 		years = 1
 	}
 	option = {
-		name = "继续执行！"
+		name = "Man1option"
                 dissent = -15
                 5020 = { change_manpower = 3 }   
                 4738 = { change_manpower = 1 } 
@@ -63,7 +63,7 @@ country_event = {
 	desc = "Man2desc"
 	picture = "Event19362"
 	option = {
-		name = "就看他小鬼子能不能待够20年"
+		name = "Man1option"
                            national_unity = 5    
 	}
 }
@@ -80,13 +80,7 @@ country_event = {
 		date = 1936.2.1
 	}
 	option = {
-		name = "攘外必先安内"
-                national_unity = -10
-                dissent = 15
-                        ai_chance = { factor = 0 }  		
-	}
-	option = {
-		name = "见鬼去吧"
+		name = "Man1option"
                 national_unity = 10
                 dissent = -5
                         ai_chance = { factor = 100 }  		
@@ -106,7 +100,7 @@ country_event = {
 		date = 1936.10.1
 	}
 	option = {
-		name = "精彩"
+		name = "Man1option"
              add_country_modifier = {
 			name = "Event19365_modifier"
 			duration = 365
@@ -127,7 +121,7 @@ country_event = {
 		date = 1936.6.1
 	}
 	option = {
-		name = "精彩"
+		name = "Man1option"
              add_country_modifier = {
 			name = "ManChu_Coal_modifier"
 			duration = 120
@@ -148,7 +142,7 @@ country_event = {
 		date = 1936.6.4
 	}
 	option = {
-		name = "精彩"       
+		name = "Man1option"       
       ai_chance = { factor = 100 }  		
 	}
 }
@@ -165,7 +159,7 @@ country_event = {
 		date = 1936.8.14
 	}
 	option = {
-		name = "精彩"   
+		name = "Man1option"   
 		     add_country_modifier = {
 			name = "ManChu_money_modifier"
 			duration = 365
@@ -180,7 +174,7 @@ country_event = {
 	desc = "Man7desc"
 	picture = "ManZhou_developP7"
 	option = {
-		name = "立刻执行"
+		name = "Man1option"
        7139 = { industry = 2 }              
        4686 = { industry = 1 }              
        5020 = { industry = 3 }              
@@ -210,7 +204,7 @@ country_event = {
 		years = 1
 	}
 	option = {
-		name = "继续执行！"
+		name = "Man1option"
                 dissent = -15
                7139 = { industry = 2 }              
        4686 = { industry = 1 }              
@@ -238,7 +232,7 @@ country_event = {
 		date = 1938.10.14
 	}
 	option = {
-		name = "精彩"     
+		name = "Man1option"     
 		  add_country_modifier = {
 			name = "ManChu_eat_modifier"
 			duration = 365

@@ -25,24 +25,7 @@ country_event = {
 			name = "SIAWAR_modifier"
 			duration = 70
 	}		
-}
-}
-country_event = {
-	id = 7182
- is_triggered_only = yes
-	title = "SIAP"
-	desc = "SIAPDCS"
-	picture = "CXM_flag"
-	option = {
-		name = "CSIAPOP"
-		non_aggression_pact = SIK
-		ai_chance = { factor = 100 }
-	}
-		option = {
-		name = "CSIA2POP"
-		 relation = { who = SIK value = -350 }
-		ai_chance = { factor = 0 }
-	}				
+  }
 }
 country_event = {
 	id = 7183
@@ -102,7 +85,6 @@ country_event = {
 }
 country_event = {
 	id = 7187
-	major = yes
  is_triggered_only = yes
 	title = "CLP"
 	desc = "CLDCS"

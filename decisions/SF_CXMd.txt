@@ -20,25 +20,6 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
-     Peace_tili = {
-		potential = {
-			tag = SIK                                            
-                                                exists = CXM
-      not = { has_global_flag = CXM_Peace }		
-			 date = 1936.2.1
-			 not = { year = 1937 }  
-		}
-		allow = {
-			not = { alliance_with = CXM }
-		}
-		effect = {
-			set_global_flag = CXM_Peace
-			CXM = { country_event = 7182 }  
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
      Peace_SOV = {
 		potential = {
 			tag = SIK                                            

@@ -12,7 +12,6 @@ country_event = {
 			name = "WinterWAR_modifier"
 			duration = 250
 	}		
-   country_event = 8333
     CHC = { country_event = 8334 }
     CGX = { country_event = 8334 }
     CYN = { country_event = 8334 }
@@ -36,16 +35,6 @@ country_event = {
 			duration = 150
 	}		
 	}		
-}
-country_event = {
-	id = 8333
- is_triggered_only = yes
-	title = "ZWFT"
-	desc = "ZWFD"
-	picture = "SIK_flag"
-	option = {
-		name = "ZWFOP"
-    national_unity = 10
 }
 country_event = {
           id = 20190723

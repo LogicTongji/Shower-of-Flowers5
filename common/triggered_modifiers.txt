@@ -3322,30 +3322,3 @@ global_leadership_modifier = -0.25
 research_efficiency = -0.45
 	icon = 5
 }
-#НЈХЅБо
-china_stop_war2 = {
-
-	potential = {		
-	OR = {	
-			TAG = CHI
-			TAG = CHC
-			TAG = CSY
-			TAG = CSX
-			TAG = CQM
-			TAG = CNM
-			TAG = CYN
-			TAG = CGX
-			TAG = CXK
-	}
-}
-	trigger = {
-	has_global_flag = JUNE_negotiations 
-	not = {
-	   has_global_flag = China_CivilWar2
-	   }
-	}
-	combat_movement_speed = -10.0
-	org_regain = -1.0
-    land_organisation = -0.99
-	icon = 5
-}

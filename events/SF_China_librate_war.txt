@@ -34,7 +34,6 @@ country_event = {
 	picture = "Event3000083"
 	option = {
 		name = "MXER2option1"
-		set_global_flag = JUNE_negotiations 
 ai_chance = { factor = 100 }
 	}
 }

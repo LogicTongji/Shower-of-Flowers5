@@ -12,11 +12,9 @@ diplomatic_decisions = {
 		}
 		allow = {
 			not = { alliance_with = CHI }
-			date = 1934.10.1
 		}
 		effect = {
 			set_global_flag = JAP_invassion_northChina
-
 			country_event = 390219
 		}
 		ai_will_do = {
@@ -27,6 +25,7 @@ diplomatic_decisions = {
 		potential = {
 			tag = CHI                                          
 			not = { has_country_flag = CHI_papring_northChina } 
+			has_country_flag = JAP_invassion_northChina_Heibei
 			has_global_flag = Anti_jap_front_great_wall_loss
 			not = { year = 1937 } 
 		}

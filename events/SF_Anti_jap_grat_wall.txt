@@ -77,24 +77,6 @@ country_event = {
 				   CRH = {	
 				rehe_region = { secede_province = CTY }
 				}
-				CRH = {
-			remove_brigade = "第五军团长官部"
-			remove_brigade = "第55军"
-			remove_brigade = "第55军"
-			remove_brigade = "第55军"
-			remove_brigade = "第55军"
-			remove_brigade = "骑兵第2军司令部"
-			remove_brigade = "骑兵第1师"
-			remove_brigade = "骑兵第1师"
-			remove_brigade = "骑兵第3师"
-			remove_brigade = "骑兵第3师"
-			remove_brigade = "骑兵第4师"
-			remove_brigade = "骑兵第4师"
-			remove_brigade = "骑兵第5师"
-			remove_brigade = "骑兵第5师"
-			remove_brigade = "骑兵第6师"
-			remove_brigade = "骑兵第6师"
-			}
 			CTY = { load_oob = "CTY_1933.txt" }
 		ai_chance = { factor = 100 }
 	}
@@ -241,10 +223,11 @@ country_event = {
 	trigger = {
 		tag = CHI
                    has_global_flag = Anti_jap_front_great_wall_loss 
+				   date = 1933.5.1
 		not = { war_with = JAP }
 		not = {
 		                        exists = CHA
-                                year = 1936
+                                year = 1934
                    }
 	}
 	mean_time_to_happen =  {
@@ -280,23 +263,6 @@ country_event = {
 				   load_oob = "CJC_1936.txt" 
 				   create_alliance = CRH
 				   } 
-				   CRH = {
-			remove_brigade = "第二十九路军司令部"
-			remove_brigade = "特务旅"
-			remove_brigade = "第109旅"
-			remove_brigade = "第110旅"
-			remove_brigade = "第111旅"
-			remove_brigade = "第112旅"
-			remove_brigade = "第113旅"
-			remove_brigade = "第114旅"
-			remove_brigade = "第1旅"
-			remove_brigade = "第2旅"
-			remove_brigade = "第1旅"
-			remove_brigade = "第2旅"
-			remove_brigade = "第9师第1旅"
-			remove_brigade = "第9师第2旅"
-			remove_brigade = "独立第13旅"
-			}
 		ai_chance = { factor = 100 }
 	}
 }

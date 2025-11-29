@@ -28,6 +28,8 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag = Taibei_chance
+					capital = 5737
+		taiwan_region = { remove_core = CHC }
 			country_event = 8018
 		}
 	}

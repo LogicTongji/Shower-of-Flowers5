@@ -91,7 +91,7 @@ country_event = {
 		war_with = JAP 
 		year = 1936
                    }
-				   date = 1935.6.1
+				   date = 1935.5.15
 		has_global_flag = JAP_invassion_northChina
 	}
 	mean_time_to_happen =  {
@@ -150,7 +150,7 @@ country_event = {
 		war_with = JAP 
 		year = 1936
                    }
-				   date = 1935.6.1
+				   date = 1935.7.6
 		has_global_flag = JAP_invassion_northChina
 	}
 	mean_time_to_happen =  {
@@ -159,7 +159,53 @@ country_event = {
 	option = {
 		name = "japnorth_China4_option"
         set_country_flag = JAP_invassion_northChina_Heibei
+		JAP ={ country_event = 12220 }
 		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 12220
+	title = "japnorth_China5_title"
+	subtitle = "japnorth_China5_subtitle"
+	desc = "japnorth_China5desc"
+	picture = "japnorth_China5"
+        option = {
+		name = "japnorth_China5_option" 
+	}
+}
+country_event = {
+	id = 12221
+          fire_only_once = yes
+	title = "japnorth_China6_title"
+	desc = "japnorth_China6desc"
+	picture = "japnorth_China4"
+	trigger = {
+		tag = CHI
+		not = {
+		war_with = JAP 
+		year = 1936
+                   }
+				   date = 1935.10.28
+		has_global_flag = JAP_invassion_northChina
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "japnorth_China6_option"
+		JAP ={ country_event = 12221 }
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+                is_triggered_only = yes
+	id = 12220
+	title = "japnorth_China7_title"
+	desc = "japnorth_China7desc"
+	picture = "japnorth_China6"
+        option = {
+		name = "japnorth_China7_option" 
 	}
 }
 

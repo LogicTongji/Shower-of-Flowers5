@@ -6,20 +6,20 @@ theatre = {
 			name = "第6熊本甲种师团'明'"
 			location = 4735
 			regiment = { type = hq_brigade experience = 55 historical_model = 1 }		
-				regiment = { type = engineer_brigade name = "工兵第6联队" experience = 55 historical_model = 1 }
-				regiment = { type = artillery_brigadeB name = "野炮兵第6联队" experience = 55 historical_model = 1 }
-				regiment = { type = cavalry_brigade name = "骑兵第10联队" experience = 55 historical_model = 1 }
 			division = {
 				name = "歩兵第11旅团"
 				location = 4627
 				regiment = { type = imperial_brigade name = "歩兵第13联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "歩兵第47联队" experience = 55 historical_model = 1 }
+				regiment = { type = cavalry_brigade name = "骑兵第10联队" experience = 55 historical_model = 1 }
 			}
 			division = {
 				name = "歩兵第36旅团"
 				location = 4735
 				regiment = { type = imperial_brigade name = "歩兵第23联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "歩兵第45联队" experience = 55 historical_model = 1 }
+				regiment = { type = engineer_brigade name = "工兵第6联队" experience = 55 historical_model = 1 }
+				regiment = { type = artillery_brigadeB name = "野炮兵第6联队" experience = 55 historical_model = 1 }
 			}
                                                 division = {
 				name = "骑兵第4旅团"

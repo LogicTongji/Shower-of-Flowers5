@@ -44,4 +44,43 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
+	independent_CJD = {
+		major = yes
+		potential = {
+			tag = JAP
+			not = { has_country_flag = independent_CJD }
+			NOT = { year = 1937 }
+            date = 1935.12.25
+		}
+		allow = {
+			NOT = { exists = CJD }
+			OR = {
+			JAP = {
+				controls = 4932
+			}
+			MEC = {
+				controls = 4932
+			}
+		  }
+		}
+		effect = {
+			MAN = {
+ any_owned = { limit = { province_id = 4886 } secede_province = CJD } 
+any_owned = { limit = { province_id = 4934 } secede_province = CJD }
+any_owned = { limit = { province_id = 4935 } secede_province = CJD }
+any_owned = { limit = { province_id = 5019 } secede_province = CJD }
+any_owned = { limit = { province_id = 5055 } secede_province = CJD }
+any_owned = { limit = { province_id = 4981 } secede_province = CJD }
+}
+			CJD = { 
+				manpower = 100
+				load_oob = "CJD_1936.txt"
+				threat = { who = CJC value = -75 }
+			}
+			set_country_flag = independent_CJD
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

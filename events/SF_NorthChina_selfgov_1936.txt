@@ -179,7 +179,7 @@ country_event = {
           fire_only_once = yes
 	title = "japnorth_China6_title"
 	desc = "japnorth_China6desc"
-	picture = "japnorth_China4"
+	picture = "japnorth_China6"
 	trigger = {
 		tag = CHI
 		not = {
@@ -194,13 +194,13 @@ country_event = {
 	}
 	option = {
 		name = "japnorth_China6_option"
-		JAP ={ country_event = 12221 }
+		JAP ={ country_event = 12222 }
 		ai_chance = { factor = 100 }
 	}
 }
 country_event = {
                 is_triggered_only = yes
-	id = 12220
+	id = 12222
 	title = "japnorth_China7_title"
 	desc = "japnorth_China7desc"
 	picture = "japnorth_China6"
@@ -208,22 +208,52 @@ country_event = {
 		name = "japnorth_China7_option" 
 	}
 }
-
 country_event = {
-                is_triggered_only = yes
-	id = 2019711
-	title = "HBWST"
-	desc = "HBWS"
-	picture = "CHI_flag"
-        option = {
-		name = "HBWSOP"
-		relation = { who = JAP value = -100 }
-		JAP = { threat = { who = CHI value = 20 
-     who = CHC value = 20 
-     who = CJC value = 20 
-     who = CSX value = 20 
-     who = CSD value = 20 
-     who = CSY value = 20 }
-   }  
+	id = 12223
+          fire_only_once = yes
+		  major = yes
+	title = "japnorth_China8_title"
+	subtitle = "japnorth_China8_subtitle"
+	desc = "japnorth_China8desc"
+	picture = "japnorth_China8"
+	trigger = {
+		tag = JAP
+		not = {
+		war_with = CHI 
+		year = 1936
+                   }
+				   date = 1935.10.1
+		has_global_flag = JAP_invassion_northChina
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "japnorth_China8_option"
+		set_global_flag = JAP_slef_northChina
+		ai_chance = { factor = 100 }
 	}
 }
+country_event = {
+                is_triggered_only = yes
+				major = yes
+	id = 12224
+	title = "japnorth_China9_title"
+	desc = "japnorth_China9desc"
+	picture = "japnorth_China9"
+        option = {
+		name = "japnorth_China9_option" 
+	}
+}
+country_event = {
+                is_triggered_only = yes
+				major = yes
+	id = 12225
+	title = "japnorth_China10_title"
+	desc = "japnorth_China10desc"
+	picture = "japnorth_China10"
+        option = {
+		name = "japnorth_China10_option" 
+	}
+}
+

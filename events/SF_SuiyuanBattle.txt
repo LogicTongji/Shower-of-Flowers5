@@ -6,8 +6,9 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	title = "Event1000090title"
+	subtitle = "Event1000090subtitle"
 	desc = "Event1000090desc"
-	picture = "Event1000090"
+	picture = "suiyuan_battle1"
 	option = {
 		name = "Event1000090option"
 		set_global_flag = suiyuan
@@ -24,6 +25,7 @@ country_event = {
 	}
 	title = "Event1000091title"
 	desc = "Event1000091desc"
+	picture = "suiyuan_battle2"
 	option = {
 		name = "Event1000091option"
 		set_country_flag = Event1000091
@@ -37,6 +39,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "Event1000093title"
 	desc = "Event1000093desc"
+	picture = "suiyuan_battle3"
 	option = {
 		name = "Event1000093option"
 		JAP = { create_vassal = MEA }
@@ -48,10 +51,23 @@ country_event = {
 	major = yes
 	is_triggered_only = yes
 	title = "Event1000095title"
+	subtitle = "Event1000095subtitle"
 	desc = "Event1000095desc"
-	picture = "NRA_Flag"
+	picture = "suiyuan_battle4"
 	option = {
 		name = "Event1000095option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 390310
+	is_triggered_only = yes
+	title = "Event390310title"
+	subtitle = "Event390310subtitle"
+	desc = "Event3903105desc"
+	picture = "suiyuan_battle5"
+	option = {
+		name = "Event390310option"
 		ai_chance = { factor = 100 }
 	}
 }

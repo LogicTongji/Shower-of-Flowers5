@@ -1,6 +1,6 @@
 250004 = {
 	name = "张自忠"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 3
 	max_skill = 5
@@ -14,7 +14,7 @@
 }
 250272 = {
 	name = "宋哲元"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 3
 	max_skill = 6
@@ -31,7 +31,7 @@
 }
 250293 = {
 	name = "秦德纯"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -45,7 +45,7 @@
 }
 250301 = {
 	name = "佟麟阁"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 2
 	max_skill = 5
@@ -60,7 +60,7 @@
 }
 250013 = {
 	name = "张克侠"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -73,7 +73,7 @@
 }
 250080 = {
 	name = "冯治安"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -87,7 +87,7 @@
 }
 250090 = {
 	name = "何基沣"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -100,7 +100,7 @@
 }
 250045 = {
 	name = "吉星文"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -114,7 +114,7 @@
 }
 250027 = {
 	name = "赵登禹"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 2
 	max_skill = 5
@@ -128,7 +128,7 @@
 }
 250209 = {
 	name = "刘汝明"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 2
 	max_skill = 5
@@ -142,7 +142,7 @@
 }
 250260 = {
 	name = "石友三"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -155,7 +155,7 @@
 }
 250147 = {
 	name = "高树勋"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -168,7 +168,7 @@
 }
 4200141 = {
 	name = "刘自珍"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -180,7 +180,7 @@
 }
 4200142 = {
 	name = "刘振三"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -193,7 +193,7 @@
 }
 4200143 = {
 	name = "阮玄武"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -206,7 +206,7 @@
 }
 4200144 = {
 	name = "郑大章"
-	country = CJC
+	country = CCH
 	type = land
 	skill = 1
 	max_skill = 3

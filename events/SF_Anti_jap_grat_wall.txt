@@ -105,9 +105,7 @@ country_event = {
 	}
 	option = {
 		name = "japrehe3_option"
-	     war = {
-                                        target = CTY 
-                                                           }
+	  JAP = { war = {	target = CRH } attacker_goal = { casus_belli = conquer } defender_goal = { casus_belli = conquer } }
 		ai_chance = { factor = 100 }
 	}
 }

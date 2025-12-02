@@ -1,6 +1,155 @@
 ######################
 #   军政新闻事件组   #
 ######################
+#鲁迅逝世
+country_event = {
+	id = 390300
+	major = yes
+	fire_only_once = yes
+	title = "event0009"
+	desc = "eventdesc0009"
+	picture = "luxun"
+	trigger = {
+		tag = CHI
+		 not = { year = 1937 }
+		date = 1936.10.19
+	}
+	option = {
+		name = "eventname0009"
+		ai_chance = { factor = 100 }
+	}
+}
+#中共通电停止内战一致抗日
+country_event = {
+	id = 390301
+	fire_only_once = yes
+	title = "event0010"
+	desc = "eventdesc0010"
+	picture = "tongdian"
+	trigger = {
+		tag = CHC
+		 not = { year = 1937 }
+		date = 1936.5.5
+	}
+	option = {
+		name = "eventname0010"
+                relation = { who = CHI value = 10 }
+                threat = { who = CHI value = -5 }
+	}
+}
+#蒋介石巡视
+country_event = {
+	id = 390302
+	fire_only_once = yes
+	title = "event0011"
+	desc = "eventdesc0011"
+	picture = "xunshi"
+	trigger = {
+		tag = CHI
+		not = { war_with = CDB }
+		 not = { year = 1937 }
+		date = 1936.10.22
+	}
+	option = {
+		name = "eventname0011"
+        relation = { who = CDB value = -20 }
+		ai_chance = { factor = 0 }
+	}
+}
+#白求恩来华
+country_event = {
+	id = 390303
+	fire_only_once = yes
+	major = yes
+	title = "event0012"
+	desc = "eventdesc0012"
+	picture = "baiqiuen"
+	trigger = {
+		tag = CHI
+		date = 1938.1.8
+		not = { year = 1939 }
+	}
+	option = {
+		name = "eventname0012"
+		ai_chance = { factor = 100 }
+	}
+}
+#张国焘叛逃
+country_event = {
+	id = 390304
+	fire_only_once = yes
+	major = yes
+	title = "event0013"
+	desc = "eventdesc0013"
+	picture = "my"
+	trigger = {
+		tag = CHC
+		has_country_flag = YananConversation
+		date = 1938.4.5
+	}
+	option = {
+		name = "eventname0013"
+		remove_minister = 51012
+		ai_chance = { factor = 100 }
+	}
+}
+#中日武汉空战
+country_event = {
+	id = 390305
+	fire_only_once = yes
+	major = yes
+	title = "event0014"
+	desc = "eventdesc0014"
+	picture = "wuhankongzhan"
+	trigger = {
+		tag = CHI
+		has_country_flag = event0015
+		not = { year = 1940 }
+	}
+	option = {
+		name = "eventname0014"
+		ai_chance = { factor = 100 }
+	}
+}
+#保卫武汉
+country_event = {
+	id = 390306
+	fire_only_once = yes
+	major = yes
+	title = "event0015"
+	desc = "eventdesc0015"
+	picture = "my"
+	trigger = {
+		tag = CHI
+		not = { JAP = { controls = 7508 }
+		        CJS = { controls = 7508 }
+		        WJW = { controls = 7508 } }
+    not = { CHI = { controls = 5494 } }
+	}
+	option = {
+		name = "eventname0015"
+		set_country_flag = event0015
+		ai_chance = { factor = 100 }
+	}
+}
+#日军毒气战
+country_event = {
+	id = 390307
+	fire_only_once = yes
+	major = yes
+	title = "event0016"
+	desc = "eventdesc0016"
+	picture = "duqi"
+	trigger = {
+		tag = CHI
+		date = 1938.10.5
+		not = { year = 1945 }
+	}
+	option = {
+		name = "eventname0016"
+		ai_chance = { factor = 100 }
+	}
+}
 #七君子事件
 country_event = {
 	id = 1100081
@@ -431,21 +580,6 @@ country_event = {
 	}
 }
 country_event = {
-	id = 193613
-		fire_only_once = yes
-	title = "ZBLT"	
-	desc = "ZBLD"
-	picture = "Event19362"
-	trigger = {
-		tag = ENG  
-		not = { year = 1937 }    
-		date = 1936.2.11
-	}
-	option = {
-		name = "太好了"             
-	}
-}
-country_event = {
 	id = 293613
 		fire_only_once = yes
 	title = "DWJ"	
@@ -457,7 +591,7 @@ country_event = {
 		date = 1936.1.5
 	}
 	option = {
-		name = "AI"             
+		name = "newsop1"             
 	}
 }
 
@@ -474,7 +608,7 @@ country_event = {
 		date = 1936.2.27
 	}
 	option = {
-		name = "唉"             
+		name = "newsop1"             
 	}
 }
 country_event = {
@@ -493,26 +627,9 @@ country_event = {
 		name = "dqrop"             
 	}
 }
-country_event = {
-	id = 193615
-	major = yes
-		fire_only_once = yes
-	title = "ots"	
-	desc = "otsdD"
-	picture = "Event19362"
-	trigger = {
-		tag = SOV
-		not = { year = 1937 }     
-		date = 1936.12.22
-	}
-	option = {
-		name = "otsop"             
-	}
-}
 #二中全会
 country_event = {
 	id = 193618
-	major = yes
 		fire_only_once = yes
 	title = "ERZTT"	
 	desc = "ERZTD"
@@ -523,40 +640,12 @@ country_event = {
 		date = 1936.6.20
 	}
 	option = {
-		name = "太好了" 
+		name = "newsop" 
                 stalinist_PRC = { popularity = 5 } 
                  CHI = { country_event = 193619 } 
                 dissent = -5
 		national_unity = 10                    
 		
-	}
-}
-country_event = {
-	id = 193619
-	is_triggered_only = yes
-	title = "TGtitle"
-	desc = "TGDESC"
-	picture = "CHC_Event_1000023"
-	option = {
-		name = "KMTKOP"
-		  national_unity = -20  
-        dissent = -20 
-        ai_chance = { factor = 100 }
-	}
-	option = {
-		name = "KMTKOP2" 
-		end_war = CHC
-		 CHC = { inherit = CNM 	
-             inherit = CQM }            
-      inherit = CDB
-      SF_china_region = { remove_core = CQM
-                          remove_core = CNM
-                          remove_core = CDB }
-      create_alliance = CHC                  	
-		set_global_flag = KRZZ
-        national_unity = 50  
-        dissent = -20 
-        ai_chance = { factor = 0 }  		
 	}
 }
 #杨永泰
@@ -958,7 +1047,6 @@ country_event = {
   set_global_flag = Nanking_cheakaishek
        	}
 }
-#1948新闻事件组
 #民革成立
 country_event = {
 	id = 20202081
@@ -974,7 +1062,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "呵"
+		name = "newsop"
 		ai_chance = { factor = 100 }
        	}
 }
@@ -993,7 +1081,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "为了民主！"
+		name = "newsop"
 		ai_chance = { factor = 100 }
        	}
 }
@@ -1013,7 +1101,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "咕咕咕"
+		name = "newsop"
 		ai_chance = { factor = 100 }
        	}
 }
@@ -1032,7 +1120,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "这些赔偿，够吗？"
+		name = "newsop"
 		supplies = 10000
 		money = 20
 		ai_chance = { factor = 100 }
@@ -1054,7 +1142,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "巨大损失"
+		name = "newsop"
 		ai_chance = { factor = 100 }
        	}
 }
@@ -1074,7 +1162,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "巨大损失"
+		name = "newsop"
 		ai_chance = { factor = 100 }
        	}
 }
@@ -1094,7 +1182,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "巨大损失"
+		name = "newsop"
 		dissent = 25
 		national_unity = -10
 		ai_chance = { factor = 100 }
@@ -1116,7 +1204,7 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "勇创佳绩"
+		name = "newsop"
 		national_unity = 10
 		ai_chance = { factor = 100 }
        	}
@@ -1137,8 +1225,383 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "精彩"
+		name = "newsop"
 		national_unity = 10
 		ai_chance = { factor = 100 }
        	}
+}
+#1937—1945新闻事件
+#1937
+country_event = {
+	id = 44450
+	major = yes
+		fire_only_once = yes
+	title = "XHSV"	
+	desc = "XHSD"
+	picture = "Event90719"
+	trigger = {
+		tag = CHC  
+		not = { year = 1938 }   
+		date = 1937.1.25
+	}
+	option = {
+		name = "XHS"  
+		national_unity = 2           
+	}
+}
+country_event = {
+	id = 44451
+		fire_only_once = yes
+	title = "FCJT"	
+	desc = "FCJD"
+	picture = "Event907191"
+	trigger = {
+		tag = CHC  
+		not = { year = 1938 }   
+		date = 1937.2.2
+	}
+	option = {
+		name = "FCJOP"  
+		national_unity = 2           
+	}
+}
+country_event = {
+	id = 44452
+	major = yes
+		fire_only_once = yes
+	title = "LTXZ"	
+	desc = "LTXZD"
+	picture = "EventLTXZ"
+	trigger = {
+		tag = CHI 
+		not = { year = 1938 }   
+		date = 1937.3.6
+	}
+	option = {
+		name = "LTXZOP"  
+		national_unity = 1           
+	}
+}
+country_event = {
+	id = 44453
+	major = yes
+		fire_only_once = yes
+	title = "YAC"	
+	desc = "YACD"
+	picture = "Event193618"
+	trigger = {
+		tag = CHC 
+		not = { year = 1938 }   
+		date = 1937.3.6
+	}
+	option = {
+		name = "YACOP"  
+		head_of_government = 51012
+		set_country_flag = YananConversation
+		national_unity = 1           
+	}
+}
+country_event = {
+	id = 44454
+		fire_only_once = yes
+	title = "NCC"	
+	desc = "NCD"
+	picture = "EventNCC"
+	trigger = {
+		tag = CHC 
+		not = { year = 1938 }   
+		date = 1937.3.6
+	}
+	option = {
+		name = "NCOP"             
+	}
+}
+country_event = {
+	id = 44455
+	major = yes
+		fire_only_once = yes
+	title = "GBDT"	
+	desc = "EVentGBD"
+	picture = "EventGBDP"
+	trigger = {
+		tag = FRA 
+		not = { year = 1938 }   
+		date = 1937.5.2
+	}
+	option = {
+		name = "GBDOP"             
+	}
+}
+country_event = {
+	id = 44456
+	major = yes
+		fire_only_once = yes
+	title = "QGHT"	
+	desc = "QGHD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		not = { year = 1938 }   
+		date = 1937.5.2
+	}
+	option = {
+		name = "QGHOP"  
+		national_unity = 2  
+		 set_global_flag = Yanan_conversation1 
+		   add_country_modifier = {
+			name = "TGconversation_modifier"
+			duration = 200
+	}		              
+	}
+}
+#1938
+country_event = {
+	id = 44457
+		fire_only_once = yes
+	title = "KMMT"	
+	desc = "KMMD"
+	picture = "KMMP"
+	trigger = {
+		tag = CHI
+		not = { year = 1939 }   
+		date = 1938.1.21
+	}
+	option = {
+		name = "NCOP"       
+	}
+}
+country_event = {
+	id = 44458
+	major = yes
+		fire_only_once = yes
+	title = "KMCT"	
+	desc = "KMCD"
+	picture = "CHI_flag"
+	trigger = {
+		tag = CHI
+		not = { year = 1939 }   
+		date = 1938.1.21
+	}
+	option = {
+		name = "KMCOP"
+		country_event = 15000
+		head_of_government = 52025       
+	}
+}
+#抗战建国纲领
+country_event = {
+	id = 15000
+	major = yes
+	is_triggered_only = yes
+	title = "EVENT_15000_TITLE"
+	desc = "EVENT_15000_DESC"
+	picture = "CHI_flag"
+	option = {
+		name = "EVENT_15000_OPTION"
+		add_country_modifier = {
+			name = "EVENT_15000_MODIFIER"
+			duration = 730
+		}
+	}
+}
+#游击战争
+country_event = {
+	id = 44459
+	major = yes
+		fire_only_once = yes
+	title = "PYT"	
+	desc = "PYD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		not = { year = 1939 }   
+		date = 1938.4.21
+	}
+	option = {
+		name = "PYOP"
+		add_country_modifier = {
+			name = "EYOUJQZB_MODIFIER"
+			duration = 400
+		}      
+	}
+}
+country_event = {
+	id = 444510
+	major = yes
+		fire_only_once = yes
+	title = "XZT"	
+	desc = "XZD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		not = { year = 1939 }   
+		JAP = { controls = 5419 }
+	}
+	option = {
+		name = "XZOP"
+		load_oob = "CHC_YDA.txt"
+}
+country_event = {
+	id = 444511
+	fire_only_once = yes
+	title = "SQT"	
+	desc = "SQD"
+	picture = "CHI_SQT"
+	trigger = {
+		tag = CHI
+		not = { year = 1939 }   
+		date = 1938.7.9
+	}
+	option = {
+		name = "SQOP1"
+		add_country_modifier = {
+			name = "SQT_MODIFIER"
+			duration = 4000
+		}  
+		ai_chance = { factor = 100 }    
+	}
+	option = {
+		name = "SQOP2"
+	  	national_unity = 2 
+	  	ai_chance = { factor = 0 }
+	}
+}
+country_event = {
+	id = 444512
+		major = yes
+		fire_only_once = yes
+	title = "JBLT"	
+	desc = "JBLD"
+	picture = "CHI_JBL"
+	trigger = {
+		tag = CHI
+		 exists = CHI
+	war_with = JAP
+	date = 1938.11.4
+	not = { year = 1939 }
+	}
+	option = {
+		name = "JBLP1"
+	  	national_unity = 2 
+	}
+}
+country_event = {
+	id = 444513
+		major = yes
+		fire_only_once = yes
+	title = "YAMT"	
+	desc = "YAMD"
+	picture = "CHCYAM"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1938.8.18
+	}
+	option = {
+		name = "YAMP1"
+	  	national_unity = 2 
+	}
+}
+#1939
+country_event = {
+	id = 444514
+		major = yes
+		fire_only_once = yes
+	title = "MPRT"	
+	desc = "MPRD"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1939.2.2
+	}
+	option = {
+		name = "MPRP1"
+			add_country_modifier = {
+			name = "MPR_modifier"
+			duration = 750
+		}
+		set_country_flag = Parer_MPR
+	  	national_unity = 2 
+	}
+}
+#军委会
+country_event = {
+	id = 444515
+		fire_only_once = yes
+	title = "CKST2"	
+	desc = "CKSD2"
+	picture = "CHI_flag"
+	trigger = {
+		tag = CHI
+		 exists = CHI
+	war_with = JAP
+	date = 1939.2.7
+	}
+	option = {
+		name = "CKS1"
+			add_country_modifier = {
+			name = "AmryCULI_modifier"
+			duration = 300
+		}
+		CHC = { country_event = 7221 }
+		CGX = { country_event = 7221 }
+		CQM = { country_event = 7221 }
+		CNM = { country_event = 7221 }
+		CYN = { country_event = 7221 }
+		CSY = { country_event = 7221 }
+	}
+}
+country_event = {
+	id = 7221
+	is_triggered_only = yes
+	title = "CKST3"	
+	desc = "CKSD3"
+	picture = "CHI_flag"
+	option = {
+		name = "CKS2"	
+	}
+}
+#土地革命
+country_event = {
+	id = 444516
+		fire_only_once = yes
+	title = "TDT1"	
+	desc = "TDD1"
+	picture = "CH_TDG"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1939.4.4
+	}
+	option = {
+		name = "TDOP1"
+		stalinist_PRC = { popularity = 5 }  
+	}
+}
+#施政纲领
+country_event = {
+	id = 444517
+		fire_only_once = yes
+	title = "SZG1"	
+	desc = "SZGD1"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		 exists = CHI
+	war_with = JAP
+	date = 1939.4.4
+	}
+	option = {
+		name = "SZGP1"
+		stalinist_PRC = { popularity = 5 }
+		government = socialist_republic 
+			add_country_modifier = {
+			name = "SZG_modifier"
+			duration = 750
+		} 
+	}
 }

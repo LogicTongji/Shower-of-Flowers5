@@ -1,6 +1,6 @@
 150011 = {
 	name = "张学良"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 3
 	max_skill = 5
@@ -17,7 +17,7 @@
 }
 150233 = {
 	name = "马占山"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 5
@@ -32,7 +32,7 @@
 }
 150340 = {
 	name = "杨虎城"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 3
 	max_skill = 5
@@ -48,7 +48,7 @@
 }
 150243 = {
 	name = "牟中珩"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -61,7 +61,7 @@
 }
 150005 = {
 	name = "常恩多"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -73,7 +73,7 @@
 }
 150319 = {
 	name = "王以哲"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -87,7 +87,7 @@
 }
 150059 = {
 	name = "周福成"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -99,7 +99,7 @@
 }
 150091 = {
 	name = "何柱国"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -113,7 +113,7 @@
 }
 150212 = {
 	name = "刘桂五"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -126,7 +126,7 @@
 }
 150216 = {
 	name = "刘多荃"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -140,7 +140,7 @@
 }
 150305 = {
 	name = "万福麟"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -154,7 +154,7 @@
 }
 150127 = {
 	name = "黄显声"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -169,7 +169,7 @@
 }
 150082 = {
 	name = "冯钦哉"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -182,7 +182,7 @@
 }
 150270 = {
 	name = "孙蔚如"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -196,7 +196,7 @@
 }
 150026 = {
 	name = "赵寿山"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -208,7 +208,7 @@
 }
 150157 = {
 	name = "孔从周"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 4
@@ -220,7 +220,7 @@
 }
 150336 = {
 	name = "武士敏"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -234,7 +234,7 @@
 }
 150145 = {
 	name = "高桂滋"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -247,7 +247,7 @@
 }
 150285 = {
 	name = "邓宝珊"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -260,7 +260,7 @@
 }
 150348 = {
 	name = "高福源"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -273,7 +273,7 @@
 }
 1503005 = {
 	name = "吴克仁"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -286,7 +286,7 @@
 }
 1503006 = {
 	name = "郭希鹏"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 2
@@ -299,7 +299,7 @@
 }
 1503009 = {
 	name = "檀自新"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 2
@@ -310,7 +310,7 @@
 }
 1503012 = {
 	name = "沈克"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 2
@@ -321,7 +321,7 @@
 }
 1503013 = {
 	name = "张文清"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 2
@@ -332,7 +332,7 @@
 }
 1503014 = {
 	name = "李振唐"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 2
@@ -344,7 +344,7 @@
 }
 1503015 = {
 	name = "刘翰东"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 2
@@ -356,7 +356,7 @@
 }
 1503017 = {
 	name = "赵毅"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 2
@@ -367,7 +367,7 @@
 }
 1503018 = {
 	name = "于学忠"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -381,7 +381,7 @@
 }
 150207 = {
 	name = "缪澄流"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -395,7 +395,7 @@
 }
 150269 = {
 	name = "刘启文"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 3
@@ -407,7 +407,7 @@
 }
 150279 = {
 	name = "冯占海"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -419,7 +419,7 @@
 }
 150284 = {
 	name = "周光烈"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -431,7 +431,7 @@
 }
 150291 = {
 	name = "霍守义"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 3
@@ -443,7 +443,7 @@
 }
 150309 = {
 	name = "朱鸿勋"
-	country = CDB
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -457,7 +457,7 @@
 }
 252224 = {
 	name = "张自忠"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 3
 	max_skill = 5
@@ -471,7 +471,7 @@
 }
 252222 = {
 	name = "宋哲元"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 3
 	max_skill = 6
@@ -488,7 +488,7 @@
 }
 252223 = {
 	name = "秦德纯"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -502,7 +502,7 @@
 }
 252221 = {
 	name = "佟麟阁"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 5
@@ -517,7 +517,7 @@
 }
 252225 = {
 	name = "张克侠"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -530,7 +530,7 @@
 }
 252220 = {
 	name = "冯治安"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -544,7 +544,7 @@
 }
 252229 = {
 	name = "何基沣"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -557,7 +557,7 @@
 }
 252228 = {
 	name = "吉星文"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -571,7 +571,7 @@
 }
 251127 = {
 	name = "赵登禹"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 5
@@ -585,7 +585,7 @@
 }
 251219 = {
 	name = "刘汝明"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 5
@@ -599,7 +599,7 @@
 }
 251261 = {
 	name = "石友三"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -612,7 +612,7 @@
 }
 251147 = {
 	name = "高树勋"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 4
@@ -625,7 +625,7 @@
 }
 4211141 = {
 	name = "刘自珍"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -637,7 +637,7 @@
 }
 4211142 = {
 	name = "刘振三"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -650,7 +650,7 @@
 }
 4211143 = {
 	name = "阮玄武"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -663,7 +663,7 @@
 }
 4211144 = {
 	name = "郑大章"
-	country = CJC
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -675,7 +675,7 @@
 }
 513113 = {
 	name = "李服膺"
-	country = CSX
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 3
@@ -689,7 +689,7 @@
 }
 513107 = {
 	name = "商震"
-	country = CSX
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 2
@@ -703,7 +703,7 @@
 }
 513108 = {
 	name = "史泽波"
-	country = CSX
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 3
@@ -716,7 +716,7 @@
 }
 513110 = {
 	name = "王靖国"
-	country = CSX
+	country = CRH
 	type = land
 	skill = 0
 	max_skill = 2
@@ -731,7 +731,7 @@
 }
 51185 = {
 	name = "傅作义"
-	country = CSY
+	country = CRH
 	type = land
 	skill = 3
 	max_skill = 5
@@ -750,7 +750,7 @@
 }
 51111 = {
 	name = "徐庭瑶"
-	country = CHI
+	country = CRH
 	type = land
 	skill = 1
 	max_skill = 4
@@ -764,7 +764,7 @@
 }
 51197 = {
 	name = "何应钦"
-	country = CHI
+	country = CRH
 	type = land
 	skill = 2
 	max_skill = 3

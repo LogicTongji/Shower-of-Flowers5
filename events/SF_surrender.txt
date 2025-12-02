@@ -1161,6 +1161,7 @@ country_event = {
 		  name = "Event1000094option"
 		  cir_global_flag = suiyuan
 		  CSY = { country_event = 1000095 }
+		  JAP = { country_event = 390310 }
 		  MEA = { mengkukuo_region = { secede_province = MEA } }
 		  MEA = {
 				       any_owned = { limit = { province_id = 4980 } secede_province = CSY } 

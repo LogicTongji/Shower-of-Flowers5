@@ -1,6 +1,46 @@
 ######################
 #   军政新闻事件组   #
 ######################
+#中山水兵案
+country_event = {
+	id = 390298
+	major = yes
+	fire_only_once = yes
+	title = "event1110"
+	subtitle = "event1110subtitle"
+	desc = "eventdesc1110"
+	picture = "luxun"
+	trigger = {
+		tag = CHI
+		 not = { year = 1936 }
+		date = 1935.11.9
+		has_global_flag = JAP_invassion_northChina
+	}
+	option = {
+		name = "eventname1110"
+		JAP ={ country_event = 12229 }
+		ai_chance = { factor = 100 }
+	}
+}
+#孙凤鸣刺汪
+country_event = {
+	id = 390299
+	major = yes
+	fire_only_once = yes
+	title = "event1111"
+	subtitle = "event1111subtitle"
+	desc = "eventdesc1111"
+	picture = "luxun"
+	trigger = {
+		tag = CHI
+		 not = { year = 1936 }
+		date = 1935.11.1
+	}
+	option = {
+		name = "eventname1111"
+		ai_chance = { factor = 100 }
+	}
+}
 #鲁迅逝世
 country_event = {
 	id = 390300

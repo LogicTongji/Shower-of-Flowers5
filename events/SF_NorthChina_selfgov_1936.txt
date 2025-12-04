@@ -322,3 +322,13 @@ country_event = {
 		name = "japnorth_China13_option" 
 	}
 }
+country_event = {
+                is_triggered_only = yes
+	id = 12229
+	title = "japnorth_China14_title"
+	desc = "japnorth_China14desc"
+	picture = "japnorth_China14"
+        option = {
+		name = "japnorth_China14_option" 
+	}
+}

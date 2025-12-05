@@ -259,6 +259,9 @@ civil_law = repression
 1934.1.1 = {
 	set_global_flag = the_war_attack_great_wall
 } 
+1934.4.28 = {
+set_global_flag = Japan_set_Mokokou
+}
 1934.12.1 = {
 set_global_flag = JAP_invassion_northChina
 }

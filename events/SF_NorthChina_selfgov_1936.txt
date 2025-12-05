@@ -59,6 +59,7 @@ country_event = {
 				   any_owned = { limit = { province_id = 7349 } secede_province = MEC }
 				   }
 				  MEC = { load_oob = "MEA_military.txt" }
+				  set_global_flag = Japan_set_Mokokou
 		ai_chance = { factor = 100 }
 	}
 }

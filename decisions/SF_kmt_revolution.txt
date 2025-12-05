@@ -1,0 +1,42 @@
+#政府革新
+diplomatic_decisions = {
+    #国民政府军事改革
+	chi_army_revolution = {            
+		potential = {
+			tag = CHI
+                        exists = CHI
+			not = { has_country_flag = GersupportA_chi } 
+			date = 1933.1.2
+			not = { year = 1936 
+			        war_with = JAP
+					} 
+		}
+		allow = {
+			CHI = { controls = 5494 }
+		}
+		effect = {
+			set_country_flag = GersupportA_chi
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	  #新生活运动
+	chi_newdailylife_revolution = {            
+		potential = {
+			tag = CHI
+                        exists = CHI
+			not = { has_country_flag = GersupportA_chi } 
+			date = 1934.2.17
+			not = { year = 1936 } 
+		}
+		allow = {
+			CHI = { controls = 5494 }
+		}
+		effect = {
+			set_country_flag = GersupportA_chi
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}

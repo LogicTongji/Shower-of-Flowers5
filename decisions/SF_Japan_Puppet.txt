@@ -8,6 +8,7 @@ diplomatic_decisions = {
 		potential = {
 			tag = JAP
 			not = { has_country_flag = independent_MEA }
+			has_global_flag = Japan_set_Mokokou
 			NOT = { year = 1937 }
             date = 1936.5.12
 		}
@@ -31,6 +32,9 @@ diplomatic_decisions = {
 				load_oob = "MEA_military.txt"
 				threat = { who = CSY value = -75 }
 			}
+			CHI = { country_event = 12230 }
+			CHC = { country_event = 12230 }
+			CSY = { country_event = 12230 }
 			set_country_flag = independent_MEA
 		}
 		ai_will_do = {

@@ -71,3 +71,14 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+country_event = {
+	id = 12230
+    is_triggered_only = yes
+	title = "suiyuan_battle1_title"
+	desc = "suiyuan_battle1desc"
+	picture = "suiyuan_battle6"
+	option = {
+		name = "suiyuan_battle1_option"
+		ai_chance = { factor = 100 }
+	}
+}

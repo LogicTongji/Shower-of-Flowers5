@@ -116,6 +116,7 @@ conquer = {
 	  country_event = 100160#热河抗战
 	  country_event = 100161#长城抗战
 	  country_event = 100162#察哈尔抗战
+	  country_event = 100163#闽变
 	}
 	
 	war_name = WAR_CONQUEST_NAME

@@ -1253,3 +1253,27 @@ country_event = {
 				    ai_chance = { factor = 100 }
 	}
 }
+#Ãö±ä
+country_event = {
+	id = 100163
+	is_triggered_only = yes
+	trigger = {
+		TAG = CFJ
+		OR = { FROM = { TAG = CHI } }
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		 fujian_region = { remove_core = CFJ }
+		  CHI = { 
+		  fujian_region = { limit = { controlled_by = CFJ } secede_province = CHI change_controller = CHI }
+		  fujian_region = { limit = { not = { controlled_by = CFJ } } secede_province = CHI }
+		  }
+		   CHI ={
+				   country_event = 12232
+				   }
+				    ai_chance = { factor = 100 }
+	}
+}

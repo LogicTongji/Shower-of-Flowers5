@@ -185,4 +185,4 @@ CHA = "countries/ChaHaer.txt"
 CRH = "countries/ShanGan Alliance.txt"
 CCH = "countries/Xibei Army.txt"
 CTY = "countries/ShanGan Alliance.txt"
-
+CFJ = "countries/Fujian.txt"

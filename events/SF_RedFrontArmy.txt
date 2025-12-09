@@ -18,7 +18,7 @@ country_event = {
 	option = {
 		name = "Event193617option" 
                 stalinist_PRC = { popularity = 5 } 
-                 set_country_flag = ZGTBS
+                 set_country_flag = FrontArmy_go_back_Shannxi
                 dissent = -5
 		national_unity = 10                    
 		

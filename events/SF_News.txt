@@ -301,51 +301,6 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
-#签订《有田—克莱琪协定》
-country_event = {
-	id = 1200002
-	fire_only_once = yes
-	major = yes
-	title = "签署《有田—克莱琪协定》"
-	desc = "Event1200002desc"
-	picture = "JAP_Flag"
-	trigger = {
-		or = {
-			tag = ENG
-                	tag = JAP
-		}
-		CHI = { war_with = JAP }
-                exists = CHI
-		date = 1939.7.24
-		not = {year = 1940 }
-	}
-	option = {
-                national_unity = -2
-                dissent = 3
-                relation = { who = CHI value = -100 }
-                CHI = { country_event = 1200003 }
-		ai_chance = { factor = 100 }
-	}
-	option = {
-		name = "和黄种人没什么好说的"
-                national_unity = 5
-                relation = { who = JAP value = -100 }
-		ai_chance = { factor = 0 }
-	}
-}
-#英国签订《有田—克莱琪协定》
-country_event = {
-	id = 1200003
-     	is_triggered_only = yes
-	title = "英国签署《有田—克莱琪协定》"
-	desc = "Event1200003desc"
-	picture = "CHI_Flag"
-	option = {
-		name = "看看这些绅士"
-                relation = { who = ENG value = -100 }
-                national_unity = 5
-	}
-}
 #12.9运动
 country_event = {
 	id = 193512
@@ -389,20 +344,13 @@ country_event = {
 		date = 1936.1.2
 	}
 	option = {
-		name = "扣押他们"
+		name = "Event19361option"
                 add_country_modifier = {
 			name = "Event19361_modifier"
 			duration = 506
 		}
 		set_country_flag = Event19361
                 ai_chance = { factor = 100 }
-	}
-	option = {
-		name = "支持他们"
-		set_country_flag = Event19361
-		dissent = -5
-		national_unity = 10
-                ai_chance = { factor = 0 }
 	}
 }
 #毛泽东填词《沁园春·雪》
@@ -419,9 +367,10 @@ country_event = {
 	        war_with = JAP
 	  not = { year = 1937 }       
 		date = 1936.2.1
+		has_country_flag = Postpone_war_ShanXi_Commist
 	}
 	option = {
-		name = "精彩"
+		name = "Event19363option"
                 national_unity = 1
                 dissent = -5
 	}
@@ -440,7 +389,7 @@ country_event = {
 		date = 1936.2.6
 	}
 	option = {
-		name = "精彩"
+		name = "newsop2"
                 national_unity = 10
                 dissent = -5
 	}
@@ -448,7 +397,6 @@ country_event = {
 #宪兵学校建校
 country_event = {
 	id = 19365
-	major = yes
           fire_only_once = yes
 	title = "Event19365title"	
 	desc = "Event19365desc"
@@ -459,7 +407,7 @@ country_event = {
 		date = 1936.2.1
 	}
 	option = {
-		name = "国之利剑"
+		name = "newsop2"
                 add_country_modifier = {
 			name = "Event19365_modifier"
 			duration = 365
@@ -468,31 +416,11 @@ country_event = {
                 dissent = -5
 	}
 }
-#召开中共中央政治局会议
-country_event = {
-	id = 19366	
-	title = "召开中共中央政治局会议"	
-	desc = "Event19366desc"
-	picture = "CHC_flag"
-	trigger = {
-		tag = CHC
-	        war_with = JAP 
-	   not = { year = 1937 }     
-		not = { has_country_flag = Event19366 }
-		date = 1936.3.20
-	}
-	option = {
-		name = "推进形成抗日民族统一战线"                       
-                dissent = -5
-                national_unity = 5
-		set_country_flag = Event19366
-	}
-}
 #阿部定事件
 country_event = {
 	id = 19367	
           fire_only_once = yes
-	title = "阿部定事件"	
+	title = "Event19367title"	
 	desc = "Event19367desc"
 	picture = "Event19367"
 	trigger = {
@@ -509,7 +437,7 @@ country_event = {
 	id = 19368
         major = yes	
           fire_only_once = yes
-	title = "提出图灵机模型"	
+	title = "Event19368title"	
 	desc = "Event19368desc"
 	picture = "Event19368"
 	trigger = {
@@ -518,41 +446,34 @@ country_event = {
 		date = 1936.5.28
 	}
 	option = {
-		name = "哦"                       
+		name = "Event19368option"                       
 	}
 }
 #成立全国各界救国联合会
 country_event = {
 	id = 19369
-        major = yes	
           fire_only_once = yes
-	title = "成立全国各界救国联合会"	
+	title = "Event19369title"	
 	desc = "Event19369desc"
 	picture = "Event19369"
 	trigger = {
-		tag = CHI
-                war_with = CHC
+	or = {
+	tag = CHI
+	tag = CHC
+	}
     not = { year = 1937 }            	      
 		date = 1936.5.31
 	}
 	option = {
-		name = "哦" 
-                national_unity = 5                      
+		name = "newsop"                   
         }
-	option = {
-		name = "逮捕他们"  
-                add_country_modifier = {
-		        name = "Event19369_modifier"
-			duration = 506
-		}                     
-	}
 }
 #斯诺到来
 country_event = {
 	id = 193610
         major = yes	
          fire_only_once = yes
-	title = "SNVT"	
+	title = "Event193610title"	
 	desc = "Event193610desc"
 	picture = "Event193610"
 	trigger = {
@@ -561,31 +482,14 @@ country_event = {
 		date = 1936.6.1
 	}
 	option = {
-		name = "欢迎他"                       
-	}
-}
-#小说《飘》发表
-country_event = {
-	id = 1936113
-        major = yes	
-         fire_only_once = yes
-	title = "小说《飘》发表"	
-	desc = "Event1936113desc"
-	picture = "Event19362"
-	trigger = {
-		tag = USA	  
-		not = { year = 1937 }    
-		date = 1936.6.30
-	}
-	option = {
-		name = "精彩"                       
+		name = "Event193610option"                       
 	}
 }
 #王亚樵事件
 country_event = {
 	id = 193611	
          fire_only_once = yes
-	title = "王亚樵被戴笠暗杀于广西梧州"	
+	title = "Event193611title"	
 	desc = "Event193611desc"
 	picture = "Event193611"
 	trigger = {
@@ -594,7 +498,7 @@ country_event = {
 		date = 1936.10.20
 	}
 	option = {
-		name = "太好了" 
+		name = "newsop1" 
                 add_country_modifier = {
 			name = "Event193611_modifier"
 			duration = 100
@@ -604,7 +508,7 @@ country_event = {
 #中央作出《关于青年工作的决定》
 country_event = {
 	id = 193612	
-	title = "中央作出《关于青年工作的决定》"	
+	title = "Event193612title"	
 	desc = "Event193612desc"
 	picture = "CHC_flag"
 	trigger = {
@@ -634,7 +538,6 @@ country_event = {
 		name = "newsop1"             
 	}
 }
-
 country_event = {
 	id = 193614
 	major = yes
@@ -687,110 +590,6 @@ country_event = {
 		national_unity = 10                    
 		
 	}
-}
-#杨永泰
-country_event = {
-	id = 193620
-	major = yes
-	fire_only_once = yes
-	title = "YYTtitle"
-	desc = "YYTDESC"
-	picture = "YYT"
-	trigger = {
-		tag = CHI
-		not = { year = 1937 }      
-		date = 1936.10.25
-	}
-	option = {
-		name = "YYT" 
-		random_list = {
-    50 = { dissent = 4 
-       social_democrat_CHI = { popularity = 5 } 
-       national_socialist_CHI = { popularity = -5 } } 
-    20 = { dissent = 3 
-       social_democrat_CHI = { popularity = 5 } 
-       national_socialist_CHI = { popularity = -5 } } 
-    20 = { dissent = 2
-           national_socialist_CHI = { popularity = -5 } } 
-    10 = { dissent = 1 
-            national_socialist_CHI = { popularity = -5 } } 
-           } 	
-	}
-}
-#葛兰西
-country_event = {
-	id = 193621
-	major = yes
-	fire_only_once = yes
-	title = "GLXtitle"
-	desc = "GLXDESC"
-	picture = "GLX"
-	trigger = {
-		tag = ITA
-		not = { year = 1938 }      
-		date = 1937.4.27
-	}
-	option = {
-		name = "GLX" 
-		random_list = {
-            stalinist_ITA = { popularity = -5 } 
-           } 	
-	}
-}
-#章太炎
-country_event = {
-	id = 193622
-	major = yes
-	fire_only_once = yes
-	title = "ZTYtitle"
-	desc = "ZTYDESC"
-	picture = "ZTY"
-	trigger = {
-		tag = CHI
-		not = { year = 1937 }      
-		date = 1936.6.17
-	}
-	option = {
-		name = "ZTY" 
-	}
-}
-#黄郛
-country_event = {
-	id = 193622
-	major = yes
-	fire_only_once = yes
-	title = "HFtitle"
-	desc = "HFYDESC"
-	picture = "HF"
-	trigger = {
-		tag = CHI
-		not = { year = 1937 }      
-		date = 1936.6.17
-	}
-	option = {
-		name = "GLX" 
-	}
-}
-country_event = {
-	id = 44444
-	fire_only_once = yes
-	title = "DLtitle"
-	desc = "DLRdecs"
-	picture = "Event81601"
-	trigger = {
-		tag = CHI
-    date = 1946.3.27
-	}
-        mean_time_to_happen =  {
-	        days = 1
-    }
-	option = {
-		name = "DLoption1"
-		remove_minister = 52063
-		minister_of_intelligence = 52080
-		set_global_flag = DL_DIE
-		ai_chance = { factor = 100 }
-       	}
 }
 country_event = {
 	id = 44445

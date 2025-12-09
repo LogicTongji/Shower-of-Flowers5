@@ -15,7 +15,8 @@ diplomatic_decisions = {
 		}
 		allow = {
 			not = { year = 1937 } 
-			has_country_flag = Event19362
+			has_country_flag = Eattack_papre
+			has_country_flag = Anti_jap_united_front_first
 		}
 		effect = {
 			set_country_flag = Eattack_chc
@@ -34,6 +35,7 @@ diplomatic_decisions = {
 		}
 		allow = {
 			not = { year = 1937 } 
+			has_country_flag = Eattack_papre
 		}
 		effect = {
 			set_country_flag = Eattack_chc

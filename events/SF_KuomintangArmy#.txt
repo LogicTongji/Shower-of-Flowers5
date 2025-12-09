@@ -43,20 +43,6 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
-#组建德式步兵师
-country_event = {
-         id = 550
-         is_triggered_only = yes
-         title = "CHI_Event_550_title"
-         desc = "CHI_Event_550_decs"
-         picture = "CHI_Flag"
-         option = {
-                 name = "CHI_Event_550_op"
-                 load_oob="CHI_GER_SupportA.txt"
-                 remove_brigade = "国民革命军第106旅"
-		 remove_brigade = "国民革命军第108旅"
-        } 
-}
 #组建军委会直属装甲团
 country_event = {
          id = 553

@@ -233,7 +233,7 @@ set_country_flag = The_Migration_Period¡¤education3
 set_country_flag = Event9111102
 set_global_flag = Event2000073
 set_country_flag = Event2000077
-set_global_flag = ZSHBQFTYUE 
+set_global_flag = soviet_help_anti_japan 
 set_country_flag = Event2018417	
 }
 1938.1.21 = {

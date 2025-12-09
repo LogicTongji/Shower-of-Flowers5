@@ -22,6 +22,33 @@ limited_war = yes
 1935.1.1 = {
 	add_attacker = CDB
 }
+#青藏战争
+1932.4.1 = {
+	add_attacker = TIB
+	add_defender = CXK
+	war_goal=
+	{
+		casus_belli = conquer
+		actor="TIB"
+		receiver="CXK"
+	}
+	war_goal=
+	{
+		casus_belli = conquer
+		actor="CXK"
+		receiver="TIB"
+	}
+}
+1933.1.1 = {
+	add_defender = CQM
+}
+1932.12.1 = {
+	rem_defender = CXK
+}
+1933.12.1 = {
+    rem_attacker = TIB
+	rem_defender = CQM
+}
 #西安事变
 1936.12.12 = {
 	rem_attacker = CHI

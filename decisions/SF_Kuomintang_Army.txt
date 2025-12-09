@@ -7,7 +7,7 @@
 			tag = SOV
                         exists = CHI
 			CHI = { war_with = JAP }
-			not = { has_global_flag = ZSHBQFTYUE } 
+			not = { has_global_flag = soviet_help_anti_japan  } 
 			date = 1937.8.20
 			not = { year = 1938 } 
 		}
@@ -16,7 +16,7 @@
 						 has_country_flag = CHI_Kangzhan
 		}
 		effect = {
-			set_global_flag = ZSHBQFTYUE 
+			set_global_flag = soviet_help_anti_japan 
                         non_aggression_pact = CHI
 			CHI = { country_event = 2100101 }
 		}
@@ -31,7 +31,7 @@
                         exists = CHI
 			not = { has_country_flag = SOVsupportA_chi }
 			has_global_flag = Event10000272
-                        has_global_flag = ZSHBQFTYUE 
+                        has_global_flag = soviet_help_anti_japan  
 			date = 1940.5.10
 			not = { year = 1942 } 
 		}

@@ -7,7 +7,7 @@ diplomatic_decisions = {
 		potential = {
 			tag = CHC
 			war_with = CHI
-			has_country_flag = ZGTBS
+			has_country_flag = FrontArmy_go_back_Shannxi
 			not = { has_country_flag = FrontArmy_chc } 
 			date = 1936.10.7
 			not = { year = 1937 } 
@@ -28,7 +28,7 @@ diplomatic_decisions = {
 		potential = {
 			tag = CHC
 			war_with = CHI
-			has_country_flag = ZGTBS
+			has_country_flag = FrontArmy_go_back_Shannxi
 			not = { has_country_flag = FrontArmy_chc } 
 			date = 1936.10.7
 			not = { year = 1937 } 

@@ -23,7 +23,7 @@ diplomatic_decisions = {
      Peace_SOV = {
 		potential = {
 			tag = SIK                                            
-      has_global_flag = ZSHBQFTYUE
+       has_global_flag = soviet_help_anti_japan 
       not = { has_global_flag = SIK_Peace }		
 		}
 		allow = {

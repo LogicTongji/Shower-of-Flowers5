@@ -8,7 +8,7 @@ diplomatic_decisions = {
 			tag = CHC
 			not = { has_global_flag = the_china_united_front_action }
 			not = { year = 1937 } 
-                        has_country_flag = Event19366 
+            has_country_flag = Anti_jap_united_front_first
 			exists = CHI		
 			war_with = CHI
 			not = {

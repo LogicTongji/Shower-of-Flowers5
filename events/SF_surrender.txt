@@ -1274,6 +1274,9 @@ country_event = {
 		   CHI ={
 				   country_event = 12232
 				   }
+		   CHC ={
+				   country_event = 12232
+				   }
 				    ai_chance = { factor = 100 }
 	}
 }

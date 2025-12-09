@@ -13,14 +13,14 @@ country_event = {
 	trigger = {
 		tag = CHC
 	        war_with = JAP 
-	   not = { year = 1937 }     
+	   not = { year = 1937 }
+	   has_country_flag = Anti_jap_united_front_first
 		date = 1936.1.15
 	}
 	option = {
-		name = "组建抗日先锋军"
-                country_event = 193601
+		name = "Event19362option"
                 national_unity = 10
-		set_country_flag = Event19362
+		set_country_flag = Eattack_papre
 	}
 }
 country_event = {

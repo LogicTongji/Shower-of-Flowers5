@@ -1,29 +1,27 @@
 #政府革新
 #抗战前
 diplomatic_decisions = {
-    #国民政府军事改革
-	chi_army_revolution = {            
+    #瓦窑堡会议
+	Anti_jap_united_front_first = {            
 		potential = {
-			tag = CHI
+			tag = CHC
                         exists = CHI
-			not = { has_country_flag = GersupportA_chi } 
-			date = 1933.1.2
-			not = { year = 1936 
+			not = { has_country_flag = Anti_jap_united_front_first } 
+			date = 1935.12.1
 			        war_with = JAP
-					} 
 		}
 		allow = {
-			CHI = { controls = 5494 }
+			has_country_flag = Postpone_war_ShanXi_Commist
 		}
 		effect = {
-			set_country_flag = GersupportA_chi
+			set_country_flag = Anti_jap_united_front_first
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	  #新生活运动
-	chi_newdailylife_revolution = {            
+	  #延安整风
+	Yanan_revolution = {            
 		potential = {
 			tag = CHI
                         exists = CHI
@@ -66,10 +64,11 @@ diplomatic_decisions = {
 		}
 	}
 	#抗战中
-	#全面抗战作战指导方案
-	#抗战建国纲领
-	#成立最高国防委员会
-	#内战
-	#重庆谈判
-	#制宪国大
+	#游击战争指示
+	#大生产运动
+	#陕甘宁边区土地条例
+	#陕甘宁边区施政纲领
+	#解放战争
+	#土地改革
+	#人民解放军
 }

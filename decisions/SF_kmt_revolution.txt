@@ -142,11 +142,8 @@ Intagrate_China_GuiZhou = {
 		}
 		effect = {
 		   CHI = {  
-		   inherit = CQS
-			     }	
-                             SF_china_region = { remove_core = CQS
-                             }
- }		
+		   inherit = CQS }	
+           SF_china_region = { remove_core = CQS }		
 			set_country_flag = Enter_into_Hunan_province
 		}
 		ai_will_do = {

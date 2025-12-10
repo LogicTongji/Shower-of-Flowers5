@@ -13,7 +13,7 @@ alignment = { x = 0 y = 0 }
 neutrality = 100
 national_unity = 70
 
-oob = "28A.txt"
+oob = "19A.txt"
 
 infantry_theory = 2.5
 infantry_practical = 2.5

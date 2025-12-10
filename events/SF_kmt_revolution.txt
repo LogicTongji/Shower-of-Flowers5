@@ -1,0 +1,73 @@
+#新生活运动
+country_event = {
+	id = 12234
+	is_triggered_only = yes
+	major = yes
+	title = "chi_gov_revolution1title"
+	subtitle = "chi_gov_revolution1_subtitle"
+	desc = "chi_gov_revolution1desc"
+	picture = "chi_gov_revolution1picture"
+	option = {
+		name = "chi_gov_revolution1_option"
+        national_unity = 1
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 12235
+          fire_only_once = yes
+	title = "chi_gov_revolution2title"
+	desc = "chi_gov_revolution2desc"
+	picture = "chi_gov_revolution2picture"
+	trigger = {
+		tag = CHI
+		has_country_flag = chi_newdailylife_revolution
+		date = 1934.7.1
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "chi_gov_revolution2_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 12236
+          fire_only_once = yes
+	title = "chi_gov_revolution3title"
+	desc = "chi_gov_revolution3desc"
+	picture = "chi_gov_revolution3picture"
+	trigger = {
+		tag = CHI
+		has_country_flag = chi_newdailylife_revolution
+		has_country_flag = jap_seizes_coast_chi
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "chi_gov_revolution3_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 12237
+          fire_only_once = yes
+	title = "chi_gov_revolution4title"
+	desc = "chi_gov_revolution4desc"
+	picture = "chi_gov_revolution4picture"
+	trigger = {
+		tag = CHI
+		has_country_flag = chi_newdailylife_revolution
+		has_global_flag = China_CivilWar4 
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "chi_gov_revolution4_option"
+		ai_chance = { factor = 100 }
+	}
+}
+#国民政府军事改革

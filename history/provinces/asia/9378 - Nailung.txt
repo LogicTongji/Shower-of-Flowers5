@@ -1,6 +1,6 @@
-owner = CXK
-controller = CXK
-add_core = CXK
+owner = TIB
+controller = TIB
+add_core = TIB
 add_core = CHI
 add_core = CHC
 

@@ -1,19 +1,19 @@
-capital = 5728
+capital = 7520
 government = chinese_warlord
 ideology = paternal_autocrat
-head_of_state = 3111129 
-head_of_government = 3111129 
-foreign_minister = 3111129 
-armament_minister = 3111129
-minister_of_security = 3111130 
-minister_of_intelligence = 3111130 
-chief_of_staff = 3111131 
-chief_of_army = 3111130
+head_of_state = 6111129 
+head_of_government = 6111129 
+foreign_minister = 6111129 
+armament_minister = 6111129
+minister_of_security = 6111130 
+minister_of_intelligence = 6111130 
+chief_of_staff = 6111131 
+chief_of_army = 6111130
 alignment = { x = 0 y = 0 }
 neutrality = 100
 national_unity = 70
 
-oob = "28A.txt"
+oob = "18D.txt"
 
 infantry_theory = 2.5
 infantry_practical = 2.5

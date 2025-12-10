@@ -134,29 +134,6 @@ theatre = {
 		}
 	}
 	corps = {
-		name = "第7军"
-		location = 5334
-		regiment = { type = hq_brigade name = "第7军军部" historical_model = 1 }
-		division= {
-			name = "第60师"
-			location = 5334
-			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
-		}
-		division= {
-			name = "第61师"
-			location = 5334
-			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
-		}
-		division= {
-			name = "第78师"
-			location = 5334
-			regiment = { type = infantry_brigade name = "第232旅" experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade name = "第234旅" experience = 10 historical_model = 0 }
-		}
-	}
-	corps = {
 		name = "第8军"
 		location = 7435
 		regiment = { type = hq_brigade name = "第8军军部" historical_model = 1 }

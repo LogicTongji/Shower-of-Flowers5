@@ -1,5 +1,6 @@
-owner = CHI controller = CHI
-
+owner = CHN
+controller = CHN
+add_core = CHN
 add_core = CHI
 add_core = CHC
 infra = 3
@@ -13,6 +14,11 @@ infra = 4
 air_base = 2
 manpower = 5.00
 leadership = 0.25
+1937.7.7 = {
+owner = CHI
+controller = CHI
+remove_core = CHN
+}
 1949.10.1 = {
 	owner = PRC
 	controller = PRC

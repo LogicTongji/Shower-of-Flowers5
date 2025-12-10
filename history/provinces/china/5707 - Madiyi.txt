@@ -10,7 +10,3 @@ owner = CHI
 controller = CHI
 remove_core = CHN
 }
-1949.10.1 = {
-	owner = PRC
-	controller = PRC
-}

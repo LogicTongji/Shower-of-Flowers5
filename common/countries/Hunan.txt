@@ -22,30 +22,29 @@ default_templates = {
 
 
 ministers = {
-	3111129 = {
-		name = "李济深"
+	6111129 = {
+		name = "何键"
 		ideology = leninist
 		loyalty = 1.00
-		picture = M3000129
-		head_of_state = biased_intellectual
+		picture = M6111129
+		head_of_state = iron_fisted_brute
 		foreign_minister = apologetic_clerk
 		start_date = 1930.1.1
 	}
-	3111130 = {
-		name = "蒋光鼐"
+	6111130 = {
+		name = "程潜"
 		ideology = leninist
 		loyalty = 1.00
-		picture = M3111130
+		picture = M3000131
 		chief_of_army = school_of_mass_combat
 		start_date = 1930.1.1
 	}
-	3111131 = {
-		name = "蔡廷锴"
+	6111131 = {
+		name = "唐生智"
 		ideology = leninist
 		loyalty = 1.00
-		picture = M3111131
+		picture = M6111131
 		chief_of_staff = school_of_mass_combat
 		start_date = 1930.1.1
 	}
 }
-

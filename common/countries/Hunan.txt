@@ -35,7 +35,7 @@ ministers = {
 		name = "³ÌÇ±"
 		ideology = leninist
 		loyalty = 1.00
-		picture = M3000131
+		picture = L50041
 		chief_of_army = school_of_mass_combat
 		start_date = 1930.1.1
 	}
@@ -43,7 +43,7 @@ ministers = {
 		name = "ÌÆÉúÖÇ"
 		ideology = leninist
 		loyalty = 1.00
-		picture = M6111131
+		picture = L50280
 		chief_of_staff = school_of_mass_combat
 		start_date = 1930.1.1
 	}

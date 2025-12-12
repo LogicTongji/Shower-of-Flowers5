@@ -163,7 +163,8 @@ Intagrate_China_GuiZhou = {
 		}
 		effect = {
 		   CHI = {  
-		   inherit = CQS }	
+		   inherit = CQS
+		   }	
            SF_china_region = { remove_core = CQS }		
 			set_country_flag = Enter_into_Hunan_province
 		}
@@ -189,6 +190,7 @@ Intagrate_China_GuiZhou = {
 		effect = {
 			set_country_flag = guangxi_army_anti_jap
 			country_event = 300000
+			load_oob = "18D.txt"
 		}
 		ai_will_do = {
 			factor = 1

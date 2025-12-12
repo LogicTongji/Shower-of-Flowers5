@@ -1273,6 +1273,7 @@ country_event = {
 		  }
 		   CHI ={
 				   country_event = 12232
+				   load_oob = "19A.txt"
 				   }
 		   CHC ={
 				   country_event = 12232

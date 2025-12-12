@@ -1,5 +1,6 @@
 CSD = { military_access = yes }
 CJC = { military_access = yes }
+CHN = { military_access = yes }
 theatre = {
 	name = "中华民国陆海空军总司令部"
 	location = 5494
@@ -317,12 +318,6 @@ division= {
 			regiment = { type = infantry_brigade name = "第61师" experience = 10 strength = 20 historical_model = 1 }
 		}
 		division= {
-			name = "第63师"
-			location = 5684
-			regiment = { type = infantry_brigade name = "第187旅" strength = 20 historical_model = 0 }
-			regiment = { type = militia_brigade name = "第189旅" strength = 20 historical_model = 0 }
-		}
-		division= {
 			name = "第77师"
 			location = 7507
 			regiment = { type = infantry_brigade name = "第230旅" strength = 20 historical_model = 0 }
@@ -338,40 +333,6 @@ division= {
 		name = "浙闽赣皖边区绥靖公署"
 		location = 5651
 		regiment = { type = hq_brigade name = "浙闽赣皖边区绥靖公署" historical_model = 0 }
-		army = {
-			name = "第4路军"
-			location = 5651
-			regiment = { type = hq_brigade name = "第4路军司令部" historical_model = 0 }
-			corps = {
-				name = "第28军"
-				location = 5651
-				regiment = { type = hq_brigade name = "第28军司令部" historical_model = 0 }
-				division= {
-					name = "第15师"
-					location = 7529
-					regiment = { type = infantry_brigade name = "第43旅" strength = 20 historical_model = 0 }
-					regiment = { type = militia_brigade name = "第44旅" strength = 20 historical_model = 0 }
-				}
-				division= {
-					name = "第16师"
-					location = 5651
-					regiment = { type = infantry_brigade name = "第46旅" experience = 5 strength = 20 historical_model = 0 }
-					regiment = { type = militia_brigade name = "第47旅" strength = 20 historical_model = 0 }
-				}
-				division= {
-					name = "第19师"
-					location = 5675
-					regiment = { type = infantry_brigade name = "第55旅" strength = 20 historical_model = 0 }
-					regiment = { type = militia_brigade name = "第57旅" strength = 20 historical_model = 0 }
-				}
-				division= {
-					name = "第62师"
-					location = 7519
-					regiment = { type = infantry_brigade name = "第185旅" historical_model = 0 }
-					regiment = { type = militia_brigade name = "第186旅" historical_model = 0 }
-				}
-			}
-		}
 	}
 	army = {
 		name = "湘鄂赣边区绥靖公署"

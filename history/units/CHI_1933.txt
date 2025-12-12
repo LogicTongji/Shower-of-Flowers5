@@ -1,4 +1,5 @@
-
+CHN = { military_access = yes }
+CRH = { military_access = yes }
 theatre = {
 	name = "中华民国陆海空军总司令部"
 	location = 5494
@@ -212,12 +213,6 @@ theatre = {
 			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
 		}
 		division= {
-			name = "第15师"
-			location = 5717
-			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
-			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
-		}
-		division= {
 			name = "第98师"
 			location = 7520
 			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
@@ -304,18 +299,6 @@ theatre = {
 					location = 7529
 					regiment = { type = infantry_brigade name = "第43旅" historical_model = 0 }
 					regiment = { type = militia_brigade name = "第44旅" historical_model = 0 }
-				}
-				division= {
-					name = "第16师"
-					location = 5651
-					regiment = { type = infantry_brigade name = "第46旅" historical_model = 0 }
-					regiment = { type = militia_brigade name = "第47旅" historical_model = 0 }
-				}
-				division= {
-					name = "第19师"
-					location = 5675
-					regiment = { type = infantry_brigade name = "第55旅" historical_model = 0 }
-					regiment = { type = militia_brigade name = "第57旅" historical_model = 0 }
 				}
 			}
 		}

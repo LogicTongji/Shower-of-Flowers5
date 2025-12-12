@@ -283,7 +283,7 @@
 	add_trait = mao_army_7
 	history = {
 		1930.1.1 = { rank = 1 }
-		1946.1.1 = { rank = 0 }
+		1942.5.25 = { rank = 0 }
 	}
 }
 76344 = {
@@ -546,10 +546,10 @@
 	add_trait = mao_army_4
 	add_trait = mao_army_5
 	history = {
-		1930.1.1 = { rank = 1 }
-		1930.1.1 = { rank = 2 }
-		1930.1.1 = { rank = 3 }
-		1930.1.1 = { rank = 4 }
+		1935.1.1 = { rank = 1 }
+		1935.2.1 = { rank = 2 }
+		1935.3.1 = { rank = 3 }
+		1936.1.1 = { rank = 4 }
 		1970.1.1 = { rank = 0 }
 	}
 }
@@ -745,7 +745,7 @@
 	add_trait = zhude_thought
 	history = {
 		1930.1.1 = { rank = 1 }
-		1946.1.1 = { rank = 0 }
+		1942.1.1 = { rank = 0 }
 	}
 }
 76306 = {
@@ -759,7 +759,7 @@
 	picture = CHCL0003
 	history = {
 		1936.1.1 = { rank = 1 }
-		1970.1.1 = { rank = 0 }
+		1937.1.1 = { rank = 0 }
 	}
 }
 76345 = {
@@ -844,7 +844,7 @@
 	picture = CHCL0011
 	history = {
 		1936.1.1 = { rank = 1 }
-		1970.1.1 = { rank = 0 }
+		1939.1.1 = { rank = 0 }
 	}
 }
 76349 = {
@@ -856,7 +856,7 @@
 	loyalty = 0.00
 	history = {
 		1936.1.1 = { rank = 1 }
-		1970.1.1 = { rank = 0 }
+		1939.1.1 = { rank = 0 }
 	}
 }
 76347 = {
@@ -871,7 +871,7 @@
 	add_trait = sincere_seeker
 	history = {
 		1936.1.1 = { rank = 1 }
-		1970.1.1 = { rank = 0 }
+		1941.1.29 = { rank = 0 }
 	}
 }
 76346 = {
@@ -958,7 +958,7 @@
 	loyalty = 0.00
 	picture = L76315
 	history = {
-		1936.1.1 = { rank = 1 }
+		1933.1.1 = { rank = 1 }
 		1970.1.1 = { rank = 0 }
 	}
 }
@@ -972,7 +972,7 @@
 	picture = CHCL0019
 	add_trait = mao_army_6
 	history = {
-		1936.1.1 = { rank = 1 }
+		1933.1.1 = { rank = 1 }
 		1970.1.1 = { rank = 0 }
 	}
 }

@@ -8,6 +8,7 @@ diplomatic_decisions = {
                         exists = CHI
 			not = { has_country_flag = Anti_jap_united_front_first } 
 			date = 1935.12.1
+			not = { year = 1936 }
 			        war_with = JAP
 		}
 		allow = {
@@ -20,50 +21,26 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
-	  #延安整风
+	#抗战中
+	 #延安整风
 	Yanan_revolution = {            
 		potential = {
-			tag = CHI
+			tag = CHC
                         exists = CHI
-			not = { has_country_flag = chi_newdailylife_revolution } 
-			date = 1934.2.17
-			not = { year = 1936 } 
+			not = { has_country_flag = Yanan_revolution } 
+			year = 1940
+			not = { year = 1944 } 
 		}
 		allow = {
-			CHI = { controls = 5494 }
+			CHI = { has_country_flag = jap_seizes_coast_chi }
 		}
 		effect = {
-			set_country_flag = chi_newdailylife_revolution
+			set_country_flag = Yanan_revolution
 		}
 		ai_will_do = {
 			factor = 1
 		}
 	}
-	 #调停青藏冲突
-	Stopping_Qinghai_tibet_war = {            
-		potential = {
-			tag = CHI
-                        exists = CQM
-						exists = TIB
-			not = { has_country_flag = Stopping_Qinghai_tibet_war } 
-			date = 1933.10.1
-			not = { year = 1936 } 
-		}
-		allow = {
-			CQM = {
-		war_with = TIB
-                   }
-		}
-		effect = {
-		    TIB = { end_war = CQM }
-			CQM = { end_war = TIB }
-			set_country_flag = Stopping_Qinghai_tibet_war
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#抗战中
 	#游击战争指示
 	#大生产运动
 	#陕甘宁边区土地条例

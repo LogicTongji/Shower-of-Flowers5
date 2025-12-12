@@ -22,50 +22,12 @@ limited_war = yes
 1935.1.1 = {
 	add_attacker = CDB
 }
-#青藏战争
-1932.4.1 = {
-	add_attacker = TIB
-	add_defender = CXK
-	war_goal=
-	{
-		casus_belli = conquer
-		actor="TIB"
-		receiver="CXK"
-	}
-	war_goal=
-	{
-		casus_belli = conquer
-		actor="CXK"
-		receiver="TIB"
-	}
-}
-1933.1.1 = {
-	add_defender = CQM
-}
-1932.12.1 = {
-	rem_defender = CXK
-}
-1933.12.1 = {
-    rem_attacker = TIB
-	rem_defender = CQM
-}
 #西安事变
 1936.12.12 = {
 	rem_attacker = CHI
 	rem_attacker = CDB
 	rem_defender = CHC
 }
-#盛马之争
-1937.1.12 = {
-	add_attacker = CXM
-	add_defender = SIK
-}
-	war_goal=
-	{
-		casus_belli=conquer
-		actor="SIA"
-		receiver="CXM"
-	}
 #·解放战争
 #蒋介石撕毁双十协定，发动全面进攻
 1946.6.6 = {
@@ -108,12 +70,8 @@ limited_war = yes
 }
 #解放大西南
 1949.10.1 = {
-	add_attacker = CHI
-	add_attacker = CYN
 	add_defender = PRC
-	add_attacker = CGX
-	add_attacker = CXK
-	add_attacker = CNM
+	rem_defender = CHC
 	war_goal=
 	{
 		casus_belli=conquer

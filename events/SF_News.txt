@@ -1,6 +1,27 @@
 ######################
 #   军政新闻事件组   #
 ######################
+#金树仁下野
+country_event = {
+	id = 390297
+	fire_only_once = yes
+	title = "event1109"
+	desc = "eventdesc1109"
+	picture = "news_picture0"
+	trigger = {
+		tag = CHI
+		 not = { year = 1936 }
+		date = 1933.4.9
+	}
+	option = {
+		name = "eventname1109"
+		SIK ={ 
+			remove_minister = 72111
+			head_of_state = 72001
+			}
+		ai_chance = { factor = 100 }
+	}
+}
 #中山水兵案
 country_event = {
 	id = 390298
@@ -38,6 +59,7 @@ country_event = {
 	}
 	option = {
 		name = "eventname1111"
+			head_of_government = 52030
 		ai_chance = { factor = 100 }
 	}
 }

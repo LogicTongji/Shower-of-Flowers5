@@ -1,7 +1,7 @@
 capital = 8955
 government = left_wing_radicals
 ideology = left_wing_radical
-head_of_state = 72001
+head_of_state = 72111
 head_of_government = 72002
 foreign_minister = 72001
 armament_minister = 72004
@@ -124,6 +124,18 @@ economic_law = full_civilian_economy
 conscription_law = volunteer_army
 civil_law = repression
 
+1934.1.1 = {
+	head_of_state = 72001
+	head_of_government = 72002
+	foreign_minister = 72031
+	armament_minister = 72032
+	minister_of_security = 72031
+	minister_of_intelligence = 72005
+	chief_of_staff = 72001
+	chief_of_army = 72001
+	chief_of_navy = 72009
+	chief_of_air = 72010
+}
 
 1938.9.1 = {
 	head_of_state = 72001

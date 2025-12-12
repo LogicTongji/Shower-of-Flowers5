@@ -10,21 +10,13 @@ country_event = {
 	picture = "CHI_flag"
 	trigger = {
 		tag = CHI
-			CHC = { 	
-		  controls = 4979
-			controls = 5275
-			controls = 4452
-			controls = 5174
-			controls = 7435
-			controls = 7447
-			controls = 5383
-			controls = 5435
-			controls = 5515	
+			PRC = { 	
 			controls = 9478
-			controls = 7520
 			controls = 7508
+			controls = 7520
 		}
 		has_global_flag = China_CivilWar4 
+		has_country_flag = Uaction_PRC
 		has_global_flag = China_CivilWar_hunan
 		OR = {
 		    war_with = CHC
@@ -37,8 +29,8 @@ country_event = {
     }
 	option = {
 		name = "LUCOP" 
-     CHC = { inherit = CYN }
-     CHC = {  load_oob = "CHC_Yunnan.txt" }
+     PRC = { inherit = CYN }
+     PRC = {  load_oob = "CHC_Yunnan.txt" }
 	 SF_china_region = { remove_core = CYN }
      set_global_flag = China_CivilWar_Yunnan 
        	}
@@ -54,6 +46,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		has_global_flag = China_CivilWar
+		has_country_flag = Uaction_PRC
 		has_global_flag = China_CivilWar4
 		has_global_flag = China_CivilWar_hunan
 		has_global_flag = China_CivilWar_Yunnan
@@ -63,8 +56,8 @@ country_event = {
     }
 	option = {
 		name = "LUCOP"
-		CHI = { guizhou_region = { limit = { controlled_by = CHI } secede_province = CHC change_controller = CHI } } 	
-		 CHC = { load_oob = "CHC_Guizhou.txt" }
+		CHI = { guizhou_region = { limit = { controlled_by = CHI } secede_province = PRC change_controller = PRC } } 	
+		 PRC = { load_oob = "CHC_Guizhou.txt" }
         }
 }
 #湖南起义
@@ -166,7 +159,34 @@ country_event = {
 	option = {
 		name = "Event8019option1"
 		CHC = { inherit = CSY } 
+		set_country_flag = CivilWar_suiyuan_uprise
 		 SF_china_region = { remove_core = CSY }
 		  load_oob = "CSY_1949(2).txt"
+        }
+}
+#宁夏起义
+country_event = {
+	id = 801915
+	major = yes
+	fire_only_once = yes
+	title = "Event80195title"
+	desc = "Event80195desc"
+	picture = "CHC_flag"
+	trigger = {
+		tag = CHC
+		has_global_flag = China_CivilWar
+		has_country_flag = CivilWar_suiyuan_uprise
+		has_global_flag = China_CivilWar4
+		CHC = { 	
+			controls = 9170
+		}
+	}
+        mean_time_to_happen =  {
+	        days = 1
+    }
+	option = {
+		name = "Event8019option1"
+		CHC = { inherit = CNM } 
+		 SF_china_region = { remove_core = CNM }
         }
 }

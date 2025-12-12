@@ -238,7 +238,7 @@ ministers = {
 		picture = M52001
 		head_of_government = benevolent_gentleman
 		foreign_minister = ideological_crusader
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 		death_date = 1942.1.1
 	}
 	52002 = {
@@ -247,7 +247,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52002
 		head_of_state = powerful_imperium
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52003 = {
 		name = "ÕÅÈº"
@@ -256,7 +256,7 @@ ministers = {
 		picture = M52003
 		foreign_minister = great_compromiser
 		head_of_government = happy_amateur
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52005 = {
 		name = "³Â¹û·ò"
@@ -266,7 +266,7 @@ ministers = {
 		minister_of_security = crooked_kleptocrat
 		foreign_minister = great_compromiser
 		armament_minister = laissez_faires_capitalist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52006 = {
 		name = "³ÂÁ¢·ò"
@@ -275,7 +275,7 @@ ministers = {
 		picture = M52006
 		minister_of_intelligence = political_specialist
 		minister_of_security = back_stabber
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52009 = {
 		name = "³ÂÉÜ¿í"
@@ -284,7 +284,7 @@ ministers = {
 		picture = M52009
 		chief_of_navy = indirect_approach_doctrine
 		armament_minister = battle_fleet_proponent
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52010 = {
 		name = "ÖÜÖÁÈá"
@@ -292,7 +292,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52010
 		chief_of_air = army_aviation_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52024 = {
 		name = "ËÎ×ÓÎÄ"
@@ -302,7 +302,7 @@ ministers = {
 		head_of_state = autocratic_charmer
 		head_of_government = political_protege
 		foreign_minister = the_cloak_n_dagger_schemer
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52025 = {
 		name = "Íô¾«ÎÀ"
@@ -310,8 +310,10 @@ ministers = {
 		loyalty = 1.00
 		picture = M52011
 		head_of_state = ruthless_powermonger
+		head_of_government = flamboyant_tough_guy
 		foreign_minister = great_compromiser
-		start_date = 1936.1.1
+		start_date = 1927.1.1
+		death_date = 1939.1.1
 	}
 	52026 = {
 		name = "Íõ³è»İ"
@@ -320,7 +322,7 @@ ministers = {
 		picture = M52026
 		head_of_government = flamboyant_tough_guy
 		foreign_minister = ideological_crusader
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52030 = {
 		name = "¿×ÏéÎõ"
@@ -329,7 +331,7 @@ ministers = {
 		picture = M52030
 		head_of_government = silent_workhorse
 		minister_of_security = man_of_the_people
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52031 = {
 		name = "Àî×ÚÈÊ"
@@ -338,7 +340,7 @@ ministers = {
 		picture = M52031
 		head_of_government = corporate_suit
 		chief_of_army = static_defence_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52035 = {
 		name = "ÁÖÎµ"
@@ -347,7 +349,7 @@ ministers = {
 		picture = M52035
 		foreign_minister = general_staffer
 		chief_of_staff = school_of_manoeuvre
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52036 = {
 		name = "Éò×í"
@@ -355,7 +357,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52036
 		foreign_minister = apologetic_clerk
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52038 = {
 		name = "ÍõÊÀ½Ü"
@@ -363,7 +365,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52038
 		foreign_minister = iron_fisted_brute
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52043 = {
 		name = "ÑîÂ³²ı"
@@ -372,7 +374,7 @@ ministers = {
 		picture = M52043
 		foreign_minister = great_compromiser
 		armament_minister = resource_industrialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52045 = {
 		name = "°×³çìû"
@@ -381,7 +383,7 @@ ministers = {
 		picture = M52045
 		armament_minister = resource_industrialist
 		chief_of_staff = school_of_mass_combat
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52047 = {
 		name = "»Æ³½×ó"
@@ -390,7 +392,7 @@ ministers = {
 		picture = M52047
 		armament_minister = military_entrepreneur
 		chief_of_air = air_superiority_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52048 = {
 		name = "ºÎÓ¦ÇÕ"
@@ -401,7 +403,7 @@ ministers = {
 		armament_minister = air_superiority_proponent
 		armament_minister = infantry_proponent
 		chief_of_army = elastic_defence_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52050 = {
 		name = "²ÌÎÄÖÎ"
@@ -409,7 +411,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52050
 		armament_minister = tank_proponent
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52051 = {
 		name = "ºØ¹ú¹â"
@@ -417,7 +419,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52051
 		armament_minister = air_to_ground_proponent
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52053 = {
 		name = "ÓÚ·ÉÅô"
@@ -425,7 +427,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52053
 		armament_minister = infantry_proponent
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52054 = {
 		name = "ÍõÊ÷Ãú"
@@ -434,7 +436,7 @@ ministers = {
 		picture = M52054
 		armament_minister = air_to_sea_proponent
 		chief_of_air = vertical_envelopment_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52055 = {
 		name = "½¯¾­¹ú"
@@ -443,7 +445,7 @@ ministers = {
 		picture = M52055
 		armament_minister = administrative_genius
 		minister_of_security = man_of_the_people
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52056 = {
 		name = "¶Å½¨Ê±"
@@ -451,7 +453,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52056
 		armament_minister = strategic_air_proponent
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52057 = {
 		name = "ÎÌÎÄå°"
@@ -459,7 +461,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52057
 		armament_minister = laissez_faires_capitalist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52059 = {
 		name = "³Â¹«²©"
@@ -467,7 +469,8 @@ ministers = {
 		loyalty = 0.75
 		picture = M52014
 		armament_minister = laissez_faires_capitalist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
+		death_date = 1939.1.1
 	}
 	52061 = {
 		name = "³Â²ß"
@@ -475,7 +478,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52061
 		armament_minister = submarine_proponent
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52063 = {
 		name = "´÷óÒ"
@@ -484,7 +487,7 @@ ministers = {
 		picture = M52063
 		minister_of_security = crime_fighter
 		minister_of_intelligence = political_specialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52064 = {
 		name = "Íß¶ûÌØ¡¤Ë¹ëøÄÚË¹"
@@ -492,7 +495,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52064
 		minister_of_security = back_stabber
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52065 = {
 		name = "ÎâÖÒĞÅ"
@@ -500,7 +503,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52065
 		minister_of_security = compassionate_gentleman
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52066 = {
 		name = "»ÆÄ½ËÉ"
@@ -508,7 +511,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52066
 		minister_of_security = efficient_sociopath
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52067 = {
 		name = "¹ÈÕıÂ×"
@@ -516,7 +519,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52067
 		minister_of_security = crime_fighter
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52068 = {
 		name = "Áõì³"
@@ -524,7 +527,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52068
 		minister_of_security = silent_lawyer
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52072 = {
 		name = "¿µÔó"
@@ -532,7 +535,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52072
 		minister_of_security = prince_of_terror
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52073 = {
 		name = "²ÌÔªÅà"
@@ -540,7 +543,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52073
 		minister_of_security = compassionate_gentleman
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52074 = {
 		name = "¶¡Ä¬ß—"
@@ -548,7 +551,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52015
 		minister_of_security = crooked_kleptocrat
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52076 = {
 		name = "³ÂºêÉ½"
@@ -556,7 +559,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52076
 		minister_of_security = prince_of_terror
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52077 = {
 		name = "³Â·É¿Ë"
@@ -565,7 +568,7 @@ ministers = {
 		picture = M52077
 		minister_of_security = efficient_sociopath
 		minister_of_intelligence = research_specialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52079 = {
 		name = "ºØÒ«×æ"
@@ -573,7 +576,7 @@ ministers = {
 		loyalty = 0.50
 		picture = M52079
 		minister_of_intelligence = industrial_specialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52080 = {
 		name = "Ã«ÈË·ï"
@@ -581,7 +584,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52080
 		minister_of_intelligence = research_specialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52081 = {
 		name = "½¯Ò»Ó¢"
@@ -589,7 +592,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52064
 		minister_of_intelligence = dismal_enigma
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52082 = {
 		name = "ÑîĞş³Ç"
@@ -597,7 +600,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52082
 		minister_of_intelligence = naval_intelligence_specialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52083 = {
 		name = "Ö£½éÃñ"
@@ -605,7 +608,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52083
 		minister_of_intelligence = technical_specialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52085 = {
 		name = "ÀîÊ¿Èº"
@@ -613,7 +616,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52016
 		minister_of_intelligence = political_specialist
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52089 = {
 		name = "³Â³Ï"
@@ -624,7 +627,7 @@ ministers = {
 		chief_of_army = guns_and_butter_doctrine
 		chief_of_navy = power_projection_doctrine
 		head_of_government = political_protege
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52090 = {
 		name = "½¯°ÙÀï"
@@ -633,7 +636,8 @@ ministers = {
 		picture = M52090
 		chief_of_staff = school_of_defence
 		chief_of_air = carpet_bombing_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
+		death_date = 1938.1.1
 	}
 	52092 = {
 		name = "ÏôÒãËà"
@@ -641,7 +645,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52092
 		chief_of_staff = school_of_fire_support
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52097 = {
 		name = "¹Ë×£Í¬"
@@ -649,7 +653,7 @@ ministers = {
 		loyalty = 0.50
 		picture = M52097
 		chief_of_army = decisive_battle_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52098 = {
 		name = "ĞìÍ¥Ñş"
@@ -657,7 +661,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52098
 		chief_of_army = armoured_spearhead_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52100 = {
 		name = "±«ÎÄéĞ"
@@ -665,7 +669,7 @@ ministers = {
 		loyalty = 0.50
 		picture = M52018
 		chief_of_army = static_defence_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52101 = {
 		name = "Å·Ñô¸ñ"
@@ -673,7 +677,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52101
 		chief_of_navy = open_seas_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52102 = {
 		name = "ÔøÒÔ¶¦"
@@ -681,7 +685,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52102
 		chief_of_navy = base_control_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52103 = {
 		name = "³Â¼¾Á¼"
@@ -689,7 +693,7 @@ ministers = {
 		loyalty = 0.75
 		picture = M52103
 		chief_of_navy = indirect_approach_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52104 = {
 		name = "¹ğÓÀÇå"
@@ -697,7 +701,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52104
 		chief_of_navy = decisive_naval_battle_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52106 = {
 		name = "ÈÎÊÙĞñ"
@@ -705,7 +709,7 @@ ministers = {
 		loyalty = 0.50
 		picture = M52106
 		chief_of_navy = open_seas_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52109 = {
 		name = "ÉòºèÁÒ"
@@ -713,7 +717,7 @@ ministers = {
 		loyalty = 1.00
 		picture = M52109
 		chief_of_air = naval_aviation_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 	52113 = {
 		name = "³Â²ı×æ"
@@ -721,6 +725,6 @@ ministers = {
 		loyalty = 0.50
 		picture = M52020
 		chief_of_air = army_aviation_doctrine
-		start_date = 1936.1.1
+		start_date = 1927.1.1
 	}
 }

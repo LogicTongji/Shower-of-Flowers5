@@ -109,7 +109,7 @@ country_event = {
                   CYN = { end_war = CHC }
                   CXK = { end_war = CHC }
                   CYS = { end_war = CHC }
-                  CTS = { end_war = CHC }
+                  CHN = { end_war = CHC }
                   CDX = { end_war = CHC }
                   CSC = { end_war = CHC }
 		ai_chance = { factor = 100 }

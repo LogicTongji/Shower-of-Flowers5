@@ -19,8 +19,8 @@ country_event = {
 	}
 	option = {
 		name = "Fujian1_option"
-				   CHI = {	
-				fujian_region = { any_owned = { limit = { controlled_by = CHI } } secede_province = CFJ add_core = CFJ change_controller = CFJ }
+				   CSJ = {	
+				fujian_region = { any_owned = { limit = { controlled_by = CSJ } } secede_province = CFJ add_core = CFJ change_controller = CFJ }
 				}
 		ai_chance = { factor = 100 }
 	}

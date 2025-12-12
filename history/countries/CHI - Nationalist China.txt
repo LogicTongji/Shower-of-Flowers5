@@ -126,7 +126,11 @@ civil_law = totalitarian_system
 
 1933.6.1 = {
 set_global_flag = Anti_jap_front_great_wall_loss
+set_country_flag = GersupportA_chi
 }
+1934.4.1 = {
+set_country_flag = chi_newdailylife_revolution
+ }
 1935.6.1 = {
 set_country_flag = Xian_war_ShanXi_Commist 
 set_global_flag = Anti_jap_front_great_wall

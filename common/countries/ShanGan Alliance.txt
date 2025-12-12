@@ -35,6 +35,7 @@ ministers = {
 		loyalty = 0.50
 		picture = M52008
 		head_of_state = die_hard_reformer
+		head_of_government = silent_workhorse
 		start_date = 1936.1.1
 	}
 	3000051 = {
@@ -42,6 +43,7 @@ ministers = {
 		ideology = paternal_autocrat
 		loyalty = 0.50
 		picture = L50340
+		head_of_state = die_hard_reformer
 		head_of_government = silent_workhorse
 		armament_minister = military_entrepreneur
 		start_date = 1936.1.1

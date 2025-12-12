@@ -95,7 +95,6 @@ diplomatic_decisions = {
                    CYS = { war = { target = CHC } }
                    CSC = { war = { target = CHC } }
                    CTS = { war = { target = CHC } }
-                   CDX = { war = { target = CHC } }
                    CXK = { war = { target = CHC } }
                    CQS = { war = { target = CHC } }
 		}

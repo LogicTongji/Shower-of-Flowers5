@@ -1,32 +1,32 @@
 army = {
-		name = "国民革命军第21集团军"
+		name = "第21集团军"
                                 leader = 50193 
 		location = 7553
                 expeditionary_owner = CGX
-		regiment = { type = hq_brigade name = "国民革命军第21集团军军司令部" historical_model = 0 }
+		regiment = { type = hq_brigade name = "第21集团军军司令部" historical_model = 0 }
 		regiment = { type = cavalry_brigade name = "司令部守备部队" strength = 20 historical_model = 0 }
-                regiment = { type = artillery_brigade name = "国民革命军第21集团军山炮团" experience = 25 strength = 20 historical_model = 3 }
+                regiment = { type = artillery_brigade name = "第21集团军山炮团" experience = 25 strength = 20 historical_model = 3 }
 		corps = {
 			name = "第7军"
 			location = 7553
                         expeditionary_owner = CGX
 			regiment = { type = hq_brigade name = "第7军司令部" historical_model = 0 }
 			division= {
-				name = "国民革命军第170师"
+				name = "第170师"
 				location = 7553
                                 expeditionary_owner = CGX
 				regiment = { type = bergsjaeger_brigade name = "第508旅" historical_model = 0 }
 				regiment = { type = bergsjaeger_brigade name = "第510旅" historical_model = 0 }
 			}
 			division= {
-				name = "国民革命军第171师"
+				name = "第171师"
 				location = 7553
                                 expeditionary_owner = CGX
 				regiment = { type = militia_brigade name = "第511旅" historical_model = 0 }
 				regiment = { type = militia_brigade name = "第513旅" historical_model = 0 }			
 		}
 		division= {
-			name = "国民革命军第172师"
+			name = "第172师"
 			location = 7553
                                 expeditionary_owner = CGX
 				regiment = { type = militia_brigade name = "第514旅" historical_model = 0 }
@@ -39,21 +39,21 @@ army = {
                         expeditionary_owner = CGX
 			regiment = { type = hq_brigade name = "第48军司令部" historical_model = 0 }
 			division= {
-				name = "国民革命军第173师"
+				name = "第173师"
 				location = 7553
                                 expeditionary_owner = CGX
 				regiment = { type = militia_brigade name = "第510旅" historical_model = 0 }
 				regiment = { type = infantry_brigade name = "第517旅" historical_model = 0 }
 			}
 			division= {
-				name = "国民革命军第174师"
+				name = "第174师"
 				location = 7553
                                 expeditionary_owner = CGX
 				regiment = { type = infantry_brigade name = "第528旅" historical_model = 0 }
 				regiment = { type = infantry_brigade name = "第528旅" historical_model = 0 }			
 		}
 		division= {
-			name = "国民革命军第176师"
+			name = "第176师"
 			location = 7553
                         expeditionary_owner = CGX
 			regiment = { type = militia_brigade name = "第1050团" historical_model = 0 }

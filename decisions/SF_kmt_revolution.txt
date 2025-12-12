@@ -22,6 +22,27 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
+	chi_army_revolution2 = {            
+		potential = {
+			tag = CHI
+                        exists = CHI
+			not = { has_country_flag = GersupportA_chi2 } 
+			date = 1936.1.2
+			has_country_flag = GersupportA_chi
+			not = { year = 1938
+			        war_with = JAP
+					} 
+		}
+		allow = {
+			CHI = { controls = 5494 }
+		}
+		effect = {
+			set_country_flag = GersupportA_chi2
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	  #新生活运动
 	chi_newdailylife_revolution = {            
 		potential = {
@@ -145,6 +166,53 @@ Intagrate_China_GuiZhou = {
 		   inherit = CQS }	
            SF_china_region = { remove_core = CQS }		
 			set_country_flag = Enter_into_Hunan_province
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#桂系
+	       guangxi_army_anti_jap = {  
+		potential = {
+			tag = CGX
+                        exists = CGX
+                        exists = CHI
+			war_with = JAP
+			CHI = { has_country_flag = Unit_front_to_antiJap }
+			not = { has_country_flag = guangxi_army_anti_jap }			
+		}
+		allow = {		
+			JAP = { has_country_flag = shanghai_incident }
+			not = { year = 1938 } 
+			has_country_flag = GersupportA_chi2
+		}
+		effect = {
+			set_country_flag = guangxi_army_anti_jap
+			country_event = 300000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#军阀整编抗日部队
+	       Unit_front_to_antiJap = {  
+		potential = {
+			tag = CHI
+                        exists = CSC
+                        exists = CYN
+		has_country_flag = GersupportA_chi2
+		not = { year = 1938 
+		        has_country_flag = Unit_front_to_antiJap
+		      }			
+		}
+		allow = {		
+			JAP = { has_country_flag = shanghai_incident }
+			war_with = JAP
+		}
+		effect = {
+			set_country_flag = Unit_front_to_antiJap
+			 CYN = { country_event = 33331 } 
+			 CSC = { country_event = 33332 }
 		}
 		ai_will_do = {
 			factor = 1

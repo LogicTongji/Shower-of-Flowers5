@@ -228,3 +228,15 @@ guarantee = {
   start_date = 1945.10.2
 	end_date = 1972.10.1
 }
+guarantee = {
+	first = CGX
+	second = CGD
+	start_date = 1932.6.25
+	end_date = 1936.9.1
+}
+guarantee = {
+	first = CGD
+	second = CGX
+	start_date = 1932.6.25
+	end_date = 1936.9.1
+}

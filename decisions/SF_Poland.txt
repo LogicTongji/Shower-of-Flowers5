@@ -116,8 +116,7 @@ diplomatic_decisions = {
 		}
 	}
 	#海军和空军
-	    Save_country_army_pol4 = {    
-	    major = yes           
+	    Save_country_army_pol4 = {             
 		potential = {
 			tag = POL             
 			government_in_exile = yes

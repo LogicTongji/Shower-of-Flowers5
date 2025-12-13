@@ -135,7 +135,6 @@ diplomatic_decisions = {
 		}
 	}
          China_Commist_Party_ZhunYi_Conference = {
-		major = yes
 		potential = {
 			tag = CHC
 			not = { has_country_flag = Recover_MaoZedong_guideline }
@@ -145,10 +144,14 @@ diplomatic_decisions = {
 			has_global_flag = Nanking_war_JiangXi_Commist
 		}
 		allow = {
-			CHC = {
+	       OR = { CHC = {
 				war_with = CHI
                                       controls = 7535
-			}    
+			} 
+			year = 1935
+			}
+			not = { year = 1936}
+			  
 		}
 		effect = {
 			set_country_flag = Recover_MaoZedong_guideline 

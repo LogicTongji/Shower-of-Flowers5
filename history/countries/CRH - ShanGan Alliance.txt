@@ -12,7 +12,7 @@ chief_of_staff = 3000054
 chief_of_army = 3000055
 oob = "CDB_1933.txt"
 
-
+national_unity = 60
 popularity = { 
 	national_socialist = 0
 	fascistic = 0

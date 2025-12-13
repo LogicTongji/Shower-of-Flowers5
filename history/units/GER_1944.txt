@@ -13,7 +13,7 @@ theatre = {
 		is_reserve = yes
 		regiment = { type = GER_ss experience = 50 name = "党卫军第39装甲掷弹兵团" historical_model = 5 }
 		regiment = { type = GER_ss experience = 50 name = "党卫军第40装甲掷弹兵团" historical_model = 5 }
-		regiment = { type = SS_panzer_brigade experience = 50 name = "第18装甲团" historical_model = 4 }
+		regiment = { type = mechanized_brigade experience = 50 name = "第18装甲团" historical_model = 4 }
 		regiment = { type = assault_gun_brigade experience = 45 name = "党卫军第18反坦克营" historical_model = 3 }
     regiment = { type = sp_artillery_brigade experience = 45 historical_model = 4 }
 	}
@@ -441,14 +441,14 @@ theatre = {
 					location = 820
 					regiment = { type = GER_ss experience = 45 name = "党卫军第23装甲掷弹兵团" historical_model = 5 }
 					regiment = { type = GER_ss experience = 45 name = "党卫军第24装甲掷弹兵团" historical_model = 5 }
-					regiment = { type = SS_panzer_brigade experience = 50 name = "第11装甲团" historical_model = 4 }
+					regiment = { type = mechanized_brigade experience = 50 name = "第11装甲团" historical_model = 4 }
 					regiment = { type = assault_gun_brigade experience = 45 name = "党卫军第11反坦克营" historical_model = 4 }
 					regiment = { type = sp_artillery_brigade experience = 45  historical_model = 8 }
 				}
 				division = {
 					name = "党卫军第20爱沙尼亚志愿兵师"
 					location = 820
-					regiment = { type = SS_panzer_brigade experience = 50 name = "第23装甲团" historical_model = 4 }
+					regiment = { type = mechanized_brigade experience = 50 name = "第23装甲团" historical_model = 4 }
 					regiment = { type = SS_mot_brigade experience = 75 name = "党卫军第45掷弹兵团" historical_model = 5 }
 					regiment = { type = SS_mot_brigade experience = 75 name = "党卫军第46掷弹兵团" historical_model = 5 }
 					regiment = { type = SS_mot_brigade experience = 75 name = "党卫军第47掷弹兵团" historical_model = 5 }
@@ -458,7 +458,7 @@ theatre = {
 				division = {
 					name = "党卫军尼德兰志愿装甲掷弹兵师"
 					location = 864
-					regiment = { type = SS_panzer_brigade experience = 50 name = "第23装甲团" historical_model = 4 }
+					regiment = { type = mechanized_brigade experience = 50 name = "第23装甲团" historical_model = 4 }
 					regiment = { type = GER_ss experience = 45 name = "党卫军第48装甲掷弹兵团" historical_model = 5 }
 					regiment = { type = GER_ss experience = 45 name = "党卫军第49装甲掷弹兵团" historical_model = 5 }
 					regiment = { type = assault_gun_brigade experience = 45 name = "党卫军第23反坦克营" historical_model = 6 }
@@ -857,7 +857,7 @@ theatre = {
 					location = 1756
 					regiment = { type = GER_ss experience = 45 name = "统帅堂掷弹兵团" historical_model = 5 }
 					regiment = { type = GER_ss experience = 45 name = "统帅堂燧发枪团" historical_model = 5 }
-					regiment = { type = SS_panzer_brigade experience = 50 name = "统帅堂突击团" historical_model = 5 }
+					regiment = { type = mechanized_brigade experience = 50 name = "统帅堂突击团" historical_model = 5 }
 					regiment = { type = assault_gun_brigade name = "第40反坦克营" historical_model = 4 }
           regiment = { type = sp_artillery_brigade experience = 45 historical_model = 8 }
 			}
@@ -1552,7 +1552,7 @@ theatre = {
 			is_reserve = yes
 			regiment = { type = GER_ss experience = 45 name = "党卫军第9装甲掷弹兵团" historical_model = 5 }
 			regiment = { type = GER_ss experience = 45 name = "党卫军第10装甲掷弹兵团" historical_model = 5 }
-			regiment = { type = SS_panzer_brigade experience = 50 name = "党卫军第5装甲团" historical_model = 4 }
+			regiment = { type = mechanized_brigade experience = 50 name = "党卫军第5装甲团" historical_model = 4 }
 			regiment = { type = assault_gun_brigade experience = 45 name = "党卫军第5反坦克营" historical_model = 3 }
       regiment = { type = sp_artillery_brigade experience = 45 historical_model = 4 }
 		}
@@ -1560,7 +1560,7 @@ theatre = {
 			name = "国防军第16装甲师"
 			location = 2449
 			is_reserve = yes
-			regiment = { type = SS_panzer_brigade experience = 50 name = "第2装甲团" historical_model = 4 }
+			regiment = { type = mechanized_brigade experience = 50 name = "第2装甲团" historical_model = 4 }
 			regiment = { type = GER_ss experience = 45 name = "第64装甲掷弹兵团" historical_model = 5 }
 			regiment = { type = GER_ss experience = 45 name = "第79装甲掷弹兵团" historical_model = 5 }
 			regiment = { type = assault_gun_brigade experience = 45 name = "国防军军第12反坦克营" historical_model = 3 }
@@ -2003,7 +2003,7 @@ theatre = {
 				leader = 521
 				location = 3444
 				is_reserve = yes
-				regiment = { type = SS_panzer_brigade experience = 50 name = "党卫军第3装甲团" historical_model = 4 }
+				regiment = { type = mechanized_brigade experience = 50 name = "党卫军第3装甲团" historical_model = 4 }
 				regiment = { type = GER_ss experience = 45 name = "党卫军第5装甲掷弹兵团" historical_model = 5 }
 				regiment = { type = GER_ss experience = 45 name = "党卫军第6装甲掷弹兵团" historical_model = 5 }
 				regiment = { type = assault_gun_brigade experience = 45 name = "党卫军第3反坦克营" historical_model = 4 }
@@ -2407,7 +2407,7 @@ theatre = {
 			location = 2618
 			regiment = { type = GER_ss experience = 45 name = "党卫军第19装甲掷弹兵团" historical_model = 5 }
 			regiment = { type = GER_ss experience = 45 name = "党卫军第20装甲掷弹兵团" historical_model = 5 }
-			regiment = { type = SS_panzer_brigade experience = 50 name = "党卫军第9装甲团" historical_model = 4 }
+			regiment = { type = mechanized_brigade experience = 50 name = "党卫军第9装甲团" historical_model = 4 }
 			regiment = { type = assault_gun_brigade experience = 45 historical_model = 4 }
 			regiment = { type = engineer_brigade experience = 45 historical_model = 4 }
 		}
@@ -2469,7 +2469,7 @@ theatre = {
 					name = "党卫军第12希特勒青年装甲师"
 					leader = 517
 					location = 2545
-					regiment = { type = SS_panzer_brigade experience = 50 name = "第12装甲团" historical_model = 5 }
+					regiment = { type = mechanized_brigade experience = 50 name = "第12装甲团" historical_model = 5 }
 					regiment = { type = GER_ss experience = 45 name = "第26党卫装甲掷弹兵团" historical_model = 5 }
 					regiment = { type = GER_ss experience = 45 name = "第25党卫装甲掷弹兵团" historical_model = 5 }
 					regiment = { type = assault_gun_brigade experience = 45 historical_model = 4 }
@@ -2692,7 +2692,7 @@ theatre = {
 					is_reserve = yes
 					regiment = { type = GER_ss experience = 45 name = "党卫军第1装甲掷弹兵团" historical_model = 10 }
 					regiment = { type = GER_ss experience = 45 name = "党卫军第2装甲掷弹兵团" historical_model = 10 }
-					regiment = { type = SS_panzer_brigade experience = 50 name = "党卫军第1装甲团" historical_model = 4 }
+					regiment = { type = mechanized_brigade experience = 50 name = "党卫军第1装甲团" historical_model = 4 }
 					regiment = { type = assault_gun_brigade name = "党卫军第1反坦克营" historical_model = 4 }
           regiment = { type = sp_artillery_brigade experience = 45 historical_model = 4 }
 				}
@@ -2928,7 +2928,7 @@ theatre = {
 			is_reserve = yes
 			regiment = { type = GER_ss experience = 45 name = "第3党卫装甲掷弹兵团" historical_model = 10 }
 			regiment = { type = GER_ss experience = 45 name = "第4党卫装甲掷弹兵团" historical_model = 10 }
-			regiment = { type = SS_panzer_brigade experience = 45 name = "第2党卫装甲团" historical_model = 6 }
+			regiment = { type = mechanized_brigade experience = 45 name = "第2党卫装甲团" historical_model = 6 }
 			regiment = { type = assault_gun_brigade experience = 45 historical_model = 4 }
       regiment = { type = sp_artillery_brigade experience = 45 historical_model = 4 }
 	}

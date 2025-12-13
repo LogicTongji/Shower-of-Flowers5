@@ -1,6 +1,4 @@
-######################
-#   战后秩序   #
-######################
+
 #莫斯科宣言
 country_event = {
         major = yes
@@ -182,7 +180,7 @@ country_event = {
                 exists = CHI
 		not = { exists = GER }
                 has_global_flag = Event80
-                CHI = { controls = 9478 }
+				has_global_flag = Yaert
 	}
         mean_time_to_happen =  {
 	        days = 1

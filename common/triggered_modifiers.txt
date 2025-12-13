@@ -3322,3 +3322,25 @@ global_leadership_modifier = -0.25
 research_efficiency = -0.45
 	icon = 5
 }
+kill_ccp = {
+
+	potential = {		
+	OR = {	
+			TAG = CXK
+			TAG = CGX
+			TAG = CHN
+			TAG = CQS
+			TAG = CYN
+			TAG = CSC
+			TAG = CYS
+	}
+}
+	trigger = {
+	CHI = { war_with = CHC }
+	has_global_flag = Nanking_war_JiangXi_Commist
+	not = { year = 1936 }
+	}
+land_organisation = 0.50
+org_regain = 0.25
+	icon = 5
+}

@@ -1,11 +1,14 @@
-owner = SIK
-controller = SIK
+owner = CXM
+controller = CXM
 add_core = SIK
 add_core = CHC
 add_core = CHI
 
 infra = 2
-
+1937.11.1 = {
+owner = SIK
+controller = SIK
+}
 1944.9.11 = {
 	owner = CHI
 }

@@ -8,7 +8,7 @@ country_event = {
 	title = "wangjingwei_defect"
 	subtitle = "wangjingwei_defectsubtitle"
 	desc = "wangjingwei_defect_desc"
-	picture = "CHI_event_1000004"
+	picture = "SF_ChinesePuppet1"
 	trigger = {
 		tag = CHI
 		war_with = JAP
@@ -32,7 +32,7 @@ country_event = {
 	title = "wangweizf_built"
 	subtitle = "wangweizf_builtsubtitle"
 	desc = "wangweizf_built_desc_chi"
-	picture = "WJW_Flag"
+	picture = "SF_ChinesePuppet2"
 	mean_time_to_happen =  {
 		days = 1
 	}
@@ -57,7 +57,7 @@ country_event = {
 	title = "wangweizf_built"
 	subtitle = "wangweizf_builtsubtitle"
 	desc = "wangweizf_built_desc_chc"
-	picture = "WJW_Flag"
+	picture = "SF_ChinesePuppet2"
 	mean_time_to_happen =  {
 		days = 1
 	}
@@ -79,7 +79,7 @@ country_event = {
 	title = "CHI_event_1000007_title"
 	subtitle = "CHI_event_1000007_subtitle"
 	desc = "CHI_event_1000007_desc"
-	picture = "CHI_Event_1000007"
+	picture = "SF_ChinesePuppet3"
 	mean_time_to_happen =  {
 		days = 1
 	}
@@ -103,7 +103,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "CJD_Event_1000034"
 	desc = "CJD_Event_1000034_desc"
-	picture = "CHB_Event_1000035"
+	picture = "SF_ChinesePuppet4"
 	option = {
 		name = "CJD_Event_1000034_option"
 		ai_chance = { factor = 100 }
@@ -117,7 +117,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "CJS_Event_1000036"
 	desc = "CJS_Event_1000036_desc"
-	picture = "CJS_Event_1000036"
+	picture = "SF_ChinesePuppet4"
 	option = {
 		name = "CJS_Event_1000036_option"
 		ai_chance = { factor = 100 }
@@ -131,7 +131,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "CJB_Event_1000036"
 	desc = "CJB_Event_1000036_desc"
-	picture = "CJS_Event_1000036"
+	picture = "SF_ChinesePuppet4"
 	option = {
 		name = "CJB_Event_1000036_option"
 		ai_chance = { factor = 100 }

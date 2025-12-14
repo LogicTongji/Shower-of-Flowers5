@@ -22,6 +22,7 @@ country_event = {
 				   CSJ = {	
 				fujian_region = { any_owned = { limit = { controlled_by = CSJ } } secede_province = CFJ add_core = CFJ change_controller = CFJ }
 				}
+				CHC = { country_event = 12233 }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -34,5 +35,16 @@ country_event = {
 	picture = "Fujian2_picture"
         option = {
 		name = "Fujian2_option" 
+	}
+}
+country_event = {
+                is_triggered_only = yes
+				major = yes
+	id = 12233
+	title = "Fujian1"
+	desc = "Fujian1desc"
+	picture = "Fujian1_picture"
+        option = {
+		name = "Fujian1_option"
 	}
 }

@@ -7,7 +7,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "northchinapolice_title"
 	desc = "JAP_Event_1000072_desc"
-	picture = "JAP_Event_1000072"
+	picture = "SF_HundredRegiments1"
 	option = {
 		name = "JAP_Event_1000072_option"
 		CHC = { country_event = 1000073 }
@@ -18,7 +18,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "CHC_Event_1000073"
 	desc = "CHC_Event_1000073_desc"
-	picture = "JAP_Event_1000072"
+	picture = "SF_HundredRegiments1"
 	option = {
 		name = "CHC_Event_1000073_option"
 	}
@@ -31,7 +31,7 @@ country_event = {
 	title = "baituandazhan_title"
 	subtitle = "CHC_Event_1000074_subtitle"
 	desc = "CHC_Event_1000074_desc"
-	picture = "baituandazhan"
+	picture = "SF_HundredRegiments2"
 	option = {
 		name = "CHC_Event_1000074_option"
 		add_country_modifier = {

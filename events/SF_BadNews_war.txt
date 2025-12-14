@@ -7,7 +7,7 @@ country_event = {
 		major = yes
 	title = "22222title"
 	desc = "22222decs"
-	picture = "fire_in_changsha"
+	picture = "massacre_in_war1"
 	trigger = {
 		tag = CHI
                 JAP = { controls = 7435 }
@@ -39,7 +39,7 @@ country_event = {
 		major = yes
 	title = "2224title"
 	desc = "2224decs"
-	picture = "fllowermouth"
+	picture = "massacre_in_war2"
 	trigger = {
 		tag = CHI
 		not = { has_country_flag = fall_mouth }
@@ -88,7 +88,7 @@ country_event = {
           is_triggered_only = yes
           title = "2224title"
           desc = "2224decs"
-          picture = "fllowermouth"
+          picture = "massacre_in_war2"
           option = {
           name = "2224option"       
          }
@@ -98,7 +98,7 @@ country_event = {
           is_triggered_only = yes
           title = "22223title"
           desc = "22222decs"
-          picture = "fire_in_changsha"
+          picture = "massacre_in_war1"
           option = {
           name = "2221option2"        
          }
@@ -109,7 +109,7 @@ country_event = {
 		major = yes
 	title = "2225title"
 	desc = "2225decs"
-	picture = "fllowermouth"
+	picture = "massacre_in_war3"
 	trigger = {
 		tag = CJD
 			 JAP = { war_with = CJC }

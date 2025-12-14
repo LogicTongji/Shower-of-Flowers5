@@ -4,7 +4,7 @@ controller = CHI
 add_core = CHI
 add_core = CHC
 land_fort = 8
-
+naval_base = 5
 infra = 2
 
 

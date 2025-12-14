@@ -209,6 +209,9 @@ any_owned = { limit = { province_id = 4981 } secede_province = MAN }
 			duration = 180
 		}   
 		set_global_flag = Anti_jap_front_great_wall_loss
+		 CHI ={
+				   country_event = 390061
+				   }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -378,4 +381,19 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
-
+country_event = {
+	id = 390061
+	is_triggered_only = yes
+	major = yes
+	      major = yes
+	title = "rehe1"
+	desc = "rehe1desc"
+	picture = "Anti_jap_front_great_wall2"
+	option = {
+	name = "rehename"
+				   JAP ={
+				   country_event = 390056
+				   }
+	ai_chance = { factor = 100 }
+	}
+}

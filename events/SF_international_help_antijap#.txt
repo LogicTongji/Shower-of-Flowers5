@@ -33,7 +33,7 @@ country_event= {
 	is_triggered_only = yes
 	title = "CHI_Event_title2000075"
 	desc = "CHI_Event_decs2000075"
-	picture = "CHI_Flag"
+	picture = "international_help1"
 	option = {
 		name = "CHI_Event_option2000075"          
 		9415 = { industry = 2 }
@@ -54,7 +54,7 @@ country_event = {
 		  }
 		  title = "CHI_Event_title2000077"
 		  desc = "CHI_Event_decs2000077"
-		 picture = "CHI_Flag"
+		 picture = "international_help2"
 		 option = {
 		   name = "CHI_Event_option2000077"
 		   set_country_flag = Event2000077
@@ -73,11 +73,11 @@ country_event = {
 		date = 1938.8.20
 		has_country_flag = CHI_Kangzhan
 		has_country_flag = jap_seizes_coast_chi
-		not = { year = 1938 }
+		not = { year = 1939 }
 	}
 	title = "CHI_Event_title2000079"
 	desc = "CHI_Event_decs2000079"
-	picture = "CHI_Flag"
+	picture = "international_help3"
 	option = {
 		name = "CHI_Event_option2000079"
 		set_global_flag = Event2000079
@@ -94,7 +94,6 @@ country_event={
 		   name="ENG_Event_option2000086"              
 			  national_unity = 5
 			  dissent = 5
-			  set_country_flag = Event2000086 
 			  relation = { who = JAP value = -100 }
 		   
 		 }
@@ -110,14 +109,15 @@ country_enent = {
 				has_global_flag = JAPsouthing 
 				has_country_flag = CHI_Kangzhan
 				has_country_flag = jap_seizes_coast_chi
-				date = 1943.8.20          
+				year = 1943
+				not = { year = 1945 }         
 		  }
 		  mean_time_to_happen = {
 				  days = 1
 		  }
 		  title = "CHI_Event_title2000087"
 		  desc = "CHI_Event_decs2000087"
-		 picture = "CHC_Event_1000075"
+		 picture = "international_help4"
 		 option={
 		   name="CHI_Event_op2000087"
 		   set_global_flag = Event1000087
@@ -134,14 +134,15 @@ country_enent={
 				JAP = { controls = 6070 }
 				has_global_flag = JAPsouthing 
 				has_global_flag = Event1000087
-				date = 1943.8.20
+				year = 1943
+				not = { year = 1945 }
 		  }
 		  mean_time_to_happen = {
 				  days = 1
 		  }
 		  title="CHI_Event_title2000088"
 		  desc = "CHI_Event_decs2000088"
-		 picture = "CHI_Flag"
+		 picture = "international_help5"
 		 option = {
 		   name = "CHI_Event_option2000088"
 		   set_country_flag = Event1000088

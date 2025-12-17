@@ -3017,3 +3017,9 @@ dissent = -0.35
 land_organisation = 0.15
 icon = 5
 }
+henan_famine_modifier = {
+org_regain = -0.05
+supply_throughput = -0.1
+dissent = 0.15
+icon = 5
+}

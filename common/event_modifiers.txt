@@ -3003,11 +3003,11 @@ JapLostByChina_modifier = {
         global_ic = -0.45 
 }
 TangGu_Conference_modifier = {
-        dissent = 0.150
-        ruling_party_support = -0.10
+        dissent = 0.02
+        ruling_party_support = -0.05
 }
 NanChang_Conference_modifier = {
-        dissent = 0.150
+        dissent = 0.03
         ruling_party_support = -0.10
 }
 Anti_jap_front_modifier = {
@@ -3020,6 +3020,6 @@ icon = 5
 henan_famine_modifier = {
 org_regain = -0.05
 supply_throughput = -0.1
-dissent = 0.15
+dissent = 0.03
 icon = 5
 }

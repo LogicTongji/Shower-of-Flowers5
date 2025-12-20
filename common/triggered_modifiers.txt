@@ -3239,7 +3239,7 @@ Left_through_guide_commist= {
           not = { has_country_flag = Recover_MaoZedong_guideline }
 	}
 unit_repair = -0.1
-org_regain = -0.2
+org_regain = -0.35
 land_organisation = -0.25
 	icon = 5
 }
@@ -3257,7 +3257,7 @@ Left_through_guide_commist2= {
 	}
 supply_consumption = -0.99
 unit_repair = -0.25
-org_regain = -0.25
+org_regain = -0.55
 land_organisation = -0.55
 	icon = 5
 }

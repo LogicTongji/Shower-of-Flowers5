@@ -1172,3 +1172,104 @@ country_event = {
 				    ai_chance = { factor = 100 }
 	}
 }
+#Î§½ËÕ½Õù
+country_event = {
+	id = 100164
+	is_triggered_only = yes
+	trigger = {
+		or = { TAG = CSC TAG = CTS TAG = CYS  TAG = CDX }
+		FROM = { TAG = CHC } 
+		has_global_flag = Nanking_war_JiangXi_Commist
+		CHC = {
+		     not = { 
+			       has_country_flag = Postpone_war_ShanXi_Commist  
+		      }
+		}
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		  SF_china_region = { remove_core = THIS }
+		  THIS = { any_owned = { secede_province = CSC } }
+         }
+}
+country_event = {
+	id = 100165
+	is_triggered_only = yes
+	trigger = {
+		TAG = CXK
+		FROM = { TAG = CHC } 
+		has_global_flag = Nanking_war_JiangXi_Commist
+		CHC = {
+		     not = { 
+			       has_country_flag = Postpone_war_ShanXi_Commist  
+		      }
+		}
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		  any_owned = { limit = { province_id = 9477 } secede_province = CSC } 
+          any_owned = { limit = { province_id = 9415 } secede_province = CSC } 
+          any_owned = { limit = { province_id = 9381 } secede_province = CSC } 
+          any_owned = { limit = { province_id = 9350 } secede_province = CSC } 
+          any_owned = { limit = { province_id = 9324 } secede_province = CSC } 
+		  any_owned = { limit = { province_id = 9501 } secede_province = CXK } 
+          any_owned = { limit = { province_id = 9444 } secede_province = CXK } 
+          any_owned = { limit = { province_id = 9414 } secede_province = CXK } 
+          any_owned = { limit = { province_id = 9476 } secede_province = CXK } 
+          any_owned = { limit = { province_id = 9380 } secede_province = CXK }
+		  any_owned = { limit = { province_id = 9322 } secede_province = CXK }		  
+		  CXK = { end_war = CHC }
+          }
+}
+country_event = {
+	id = 100166
+	is_triggered_only = yes
+	trigger = {
+		TAG = CQS
+		FROM = { TAG = CHC } 
+		has_global_flag = Nanking_war_JiangXi_Commist
+		CHC = {
+		     not = { 
+			       has_country_flag = Postpone_war_ShanXi_Commist  
+		      }
+		}
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		  SF_china_region = { remove_core = THIS }
+		  THIS = { any_owned = { secede_province = CHI } }
+		  set_country_flag = Intagrate_China_GuiZhou
+         }
+}
+country_event = {
+	id = 100167
+	is_triggered_only = yes
+	trigger = {
+		TAG = CHN
+		FROM = { TAG = CHC } 
+		has_global_flag = Nanking_war_JiangXi_Commist
+		CHC = {
+		     not = { 
+			       has_country_flag = Postpone_war_ShanXi_Commist  
+		      }
+		}
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		  SF_china_region = { remove_core = THIS }
+		  THIS = { any_owned = { secede_province = CHI } }
+		  set_country_flag = Enter_into_Hunan_province
+          }
+}

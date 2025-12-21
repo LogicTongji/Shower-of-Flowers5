@@ -105,6 +105,7 @@ country_event = {
 	picture = "SF_Anti_Koumingtang5"
 	option = {
 		name = "shaanxiname"
+		          CTS = { end_war = CHC }
                   CQS = { end_war = CHC }
                   CYN = { end_war = CHC }
                   CXK = { end_war = CHC }

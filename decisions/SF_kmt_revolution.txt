@@ -102,21 +102,20 @@ diplomatic_decisions = {
 		 }
 		effect = {
 			set_country_flag = Intagrate_China_SiChuan	
-		         CSC = {  inherit = CTS
-                                          inherit = CYS
-                                          inherit = CDX  
-			     }	
+		          any_owned = { limit = { province_id = 9351 } secede_province = CSC } 
+                  any_owned = { limit = { province_id = 9382 } secede_province = CSC } 
+                  any_owned = { limit = { province_id = 9352 } secede_province = CSC } 
+                  any_owned = { limit = { province_id = 9416 } secede_province = CSC } 
+				  any_owned = { limit = { province_id = 5113 } secede_province = CSC }
+				  any_owned = { limit = { province_id = 9477 } secede_province = CSC } 
+                  any_owned = { limit = { province_id = 9415 } secede_province = CSC } 
+                  any_owned = { limit = { province_id = 9381 } secede_province = CSC } 
+                  any_owned = { limit = { province_id = 9350 } secede_province = CSC } 
+                  any_owned = { limit = { province_id = 9324 } secede_province = CSC } 
                              SF_china_region = { remove_core = CTS
                                                             remove_core = CDX
                                                             remove_core = CYS
                              }
-                             CXK = {
-                                       any_owned = { limit = { province_id = 9477 } secede_province = CSC } 
-                                       any_owned = { limit = { province_id = 9415 } secede_province = CSC } 
-                                       any_owned = { limit = { province_id = 9381 } secede_province = CSC } 
-                                       any_owned = { limit = { province_id = 9350 } secede_province = CSC } 
-                                       any_owned = { limit = { province_id = 9324 } secede_province = CSC } 
-                          }
  }		
 		ai_will_do = { 
 			factor = 1
@@ -223,6 +222,28 @@ Intagrate_China_GuiZhou = {
 	#全面抗战作战指导方案
 	#抗战建国纲领
 	#成立最高国防委员会
+	#瓦解盛世才
+	 Intagrate_China_XinJiang = {
+		potential = {
+			tag = CHI                                           
+                                                exists = SIK
+      has_global_flag = SIK_CLEANING2
+	  has_country_flag = jap_seizes_coast_chi
+      not = { has_global_flag = CHI_Briger }		
+			 date = 1944.9.11
+			 not = { year = 1945 }  
+		}
+		allow = {
+		}
+		effect = {
+			set_global_flag = CHI_Briger
+			  CHI = { split_troops = 1.0 
+			          inherit = SIK } 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	#内战
 	#重庆谈判
 	#制宪国大

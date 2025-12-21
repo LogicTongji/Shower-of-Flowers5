@@ -1,7 +1,6 @@
 #新疆事件组
 country_event = {
 	id = 7180
-	major = yes
  is_triggered_only = yes
 	title = "CXM_1"
 	desc = "CXM_2DCS"
@@ -14,7 +13,6 @@ country_event = {
 }
 country_event = {
 	id = 7181
-	major = yes
  is_triggered_only = yes
 	title = "SIAT"
 	desc = "SIADCS"
@@ -66,20 +64,6 @@ country_event = {
 		name = "CXMOP"
 		create_alliance = SIK
 		load_oob = "SOV_GHAmry.txt"
-		ai_chance = { factor = 100 }
-	}				
-}
-country_event = {
-	id = 7186
-	major = yes
- is_triggered_only = yes
-	title = "CHIP"
-	desc = "CHIDCS"
-	picture = "SIK_flag"
-	option = {
-		name = "CXMOP"
-		   CHI = { split_troops = 1.0 }
-		CHI = { inherit = SIK } 
 		ai_chance = { factor = 100 }
 	}				
 }

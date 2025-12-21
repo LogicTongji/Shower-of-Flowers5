@@ -61,6 +61,8 @@ economic_law = total_economic_mobilisation
 conscription_law = volunteer_army
 civil_law = legalistic_restrictions
 
+1935.5.1 = { set_country_flag = Postpone_war_ShanXi_Commist }
+
 1935.12.1 = {
 capital = 5335
 government = socialist_republic
@@ -127,7 +129,6 @@ civil_law = legalistic_restrictions
 }
 1935.12.25 ={
 set_country_flag = Anti_jap_united_front_first
-set_country_flag = Postpone_war_ShanXi_Commist
 }
 1936.10.26 = {
 set_country_flag = FrontArmy_chc

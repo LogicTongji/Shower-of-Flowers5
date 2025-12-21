@@ -3226,7 +3226,7 @@ army_in_sov = {
   territorial_pride = 0.2
 	icon = 1
 }
-Left_through_guide_commist= {
+Left_through_guide_commist = {
 
 	potential = {			
 			TAG = CHC
@@ -3239,11 +3239,11 @@ Left_through_guide_commist= {
           not = { has_country_flag = Recover_MaoZedong_guideline }
 	}
 unit_repair = -0.1
-org_regain = -0.35
-land_organisation = -0.25
+org_regain = -0.55
+land_organisation = -0.65
 	icon = 5
 }
-Left_through_guide_commist2= {
+Left_through_guide_commist2 = {
 
 	potential = {			
 			TAG = CHC

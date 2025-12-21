@@ -195,6 +195,8 @@ civil_law = repression
 	peoples_army = 3
 	guerilla_warfare = 3
 }
-1941.12.7 = { oob = "SIK_DayOfInfamy.txt" }
+1941.12.7 = { oob = "SIK_DayOfInfamy.txt" 
+set_global_flag = SIK_CLEANING2
+}
 1943.2.1 = { oob = "SIK_TheTideHasTurned.txt" infantry_warfare = 2 }
 1944.6.20 = { oob = "SIK_1944.txt" }

@@ -1,5 +1,32 @@
 #新疆决议组
 diplomatic_decisions = {
+ CXM_west_attck = {
+		potential = {
+			tag = CXM                                            
+     exists = SIK
+      year = 1935
+			not = { year = 1936 } 
+		}
+		allow = {
+			not = { alliance_with = CHI }
+			not = { has_global_flag = CXM_west_attck }	
+		}
+		effect = {
+			set_global_flag = CXM_west_attck
+ any_owned = { limit = { province_id = 9166 } secede_province = CXM } 
+ any_owned = { limit = { province_id = 9058 } secede_province = CXM }  
+ any_owned = { limit = { province_id = 9030 } secede_province = CXM } 
+ any_owned = { limit = { province_id = 9137 } secede_province = CXM } 
+ any_owned = { limit = { province_id = 9194 } secede_province = CXM } 
+ any_owned = { limit = { province_id = 9111 } secede_province = CXM } 
+ any_owned = { limit = { province_id = 9136 } secede_province = CXM } 
+ any_owned = { limit = { province_id = 9082 } secede_province = CXM } 
+ any_owned = { limit = { province_id = 9056 } secede_province = CXM }   
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	     CXM_Briger = {
 		potential = {
 			tag = CXM                                            
@@ -52,25 +79,6 @@ diplomatic_decisions = {
 		effect = {
 			set_global_flag = CXM_PEACE
 			SIK = { country_event = 7185 }  
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
- CHI_SIK_tili = {
-		potential = {
-			tag = CHI                                           
-                                                exists = SIK
-      has_global_flag = SIK_CLEANING2
-      not = { has_global_flag = CHI_Briger }		
-			 date = 1944.9.11
-			 not = { year = 1945 }  
-		}
-		allow = {
-		}
-		effect = {
-			set_global_flag = CHI_Briger
-			SIK = { country_event = 7186 } 
 		}
 		ai_will_do = {
 			factor = 1

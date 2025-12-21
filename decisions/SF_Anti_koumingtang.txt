@@ -93,6 +93,8 @@ diplomatic_decisions = {
                              5733 = { land_fort = 1 }
                    CYN = { war = { target = CHC } }
                    CYS = { war = { target = CHC } }
+				   CDX = { war = { target = CHC } }
+                   CTS = { war = { target = CHC } }
                    CSC = { war = { target = CHC } }
                    CHN = { war = { target = CHC } }
                    CXK = { war = { target = CHC } }

@@ -102,9 +102,29 @@ diplomatic_decisions = {
 		 }
 		effect = {
 			set_country_flag = Intagrate_China_SiChuan	
-			  CSC = { 
+			  CXK = { 
+		  sichuan_region = { limit = { controlled_by = CXK } secede_province = CSC change_controller = CSC }
+		  sichuan_region = { limit = { not = { controlled_by = CXK } } secede_province = CSC }
+		  }
+		   CDX = { 
 		  sichuan_region = { limit = { controlled_by = CSC } secede_province = CSC change_controller = CSC }
 		  sichuan_region = { limit = { not = { controlled_by = CSC } } secede_province = CSC }
+		  }
+		   CYS = { 
+		  sichuan_region = { limit = { controlled_by = CDX } secede_province = CSC change_controller = CSC }
+		  sichuan_region = { limit = { not = { controlled_by = CDX } } secede_province = CSC }
+		  }
+		   CTS = { 
+		  sichuan_region = { limit = { controlled_by = CTS } secede_province = CSC change_controller = CSC }
+		  sichuan_region = { limit = { not = { controlled_by = CTS } } secede_province = CSC }
+		  }
+		   CHC = { 
+		  sichuan_region = { limit = { controlled_by = CHC } secede_province = CSC change_controller = CSC }
+		  sichuan_region = { limit = { not = { controlled_by = CHC } } secede_province = CSC }
+		  }
+		   CHI = { 
+		  sichuan_region = { limit = { controlled_by = CHI } secede_province = CSC change_controller = CSC }
+		  sichuan_region = { limit = { not = { controlled_by = CHI } } secede_province = CSC }
 		  }
                              SF_china_region = { remove_core = CTS
                                                             remove_core = CDX

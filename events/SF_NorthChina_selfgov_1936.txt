@@ -10,7 +10,10 @@ country_event = {
 	picture = "japnorth_China1"
 	trigger = {
 		tag = CHI
-		rehe_region = { controlled_by = CCH }
+		OR = {
+		rehe_region = { controlled_by = MAN }
+		rehe_region = { controlled_by = JAP }
+		}
 		OR = {
 		rehe_region = {
 			any_neighbor_province = {

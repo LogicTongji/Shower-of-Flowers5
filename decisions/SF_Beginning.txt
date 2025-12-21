@@ -165,11 +165,6 @@ diplomatic_decisions = {
 			country_event = 1001118
 			manpower = 1500
 			supplies = 15000
-			CDB = { manpower = 300 }
-			CSX = { manpower = 300 }
-			CSY = { manpower = 300 }	
-			CQM = { manpower = 300 }
-			CNM = { manpower = 300 }
 		}
 		ai_will_do = {
 			factor = 1

@@ -67,26 +67,6 @@ country_event = {
                            national_unity = 5    
 	}
 }
-#对华三原则
-country_event = {
-	id = 19312
-		fire_only_once = yes
-	title = "RHGX"
-	desc = "RHGXT"
-	picture = "CHI_flag"
-	trigger = {
-		tag = CHI
-	  not = { year = 1937 }       
-		date = 1936.2.1
-	}
-	option = {
-		name = "Man1option"
-                national_unity = 10
-                dissent = -5
-                        ai_chance = { factor = 100 }  		
-
-	}
-}
 #满铁设立铁道总局
 country_event = {
 	id = 19313

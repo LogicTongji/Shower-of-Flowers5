@@ -216,13 +216,13 @@ Intagrate_China_GuiZhou = {
                         exists = CSC
                         exists = CYN
 		has_country_flag = GersupportA_chi2
-		not = { year = 1938 
-		        has_country_flag = Unit_front_to_antiJap
-		      }			
+		war_with = JAP		
 		}
-		allow = {		
+		allow = {	
+		    not = { year = 1938 
+		        has_country_flag = Unit_front_to_antiJap
+		      }	
 			JAP = { has_country_flag = shanghai_incident }
-			war_with = JAP
 		}
 		effect = {
 			set_country_flag = Unit_front_to_antiJap

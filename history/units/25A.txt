@@ -1,7 +1,7 @@
 corps = {
-	name = "国民革命军第30军"
+	name = "第30军"
 	location = 7541
-	regiment = { type = hq_brigade name = "国民革命军第30军" experience = 5 historical_model = 0 }
+	regiment = { type = hq_brigade name = "第30军" experience = 5 historical_model = 0 }
 	division= {
 		name = "第13师"
 		location = 7541

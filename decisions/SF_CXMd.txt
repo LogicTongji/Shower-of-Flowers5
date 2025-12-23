@@ -9,10 +9,10 @@ diplomatic_decisions = {
 		}
 		allow = {
 			not = { alliance_with = CHI }
-			not = { has_global_flag = CXM_west_attck }	
+			not = { has_global_flag = CXM_west_attck_1935 }	
 		}
 		effect = {
-			set_global_flag = CXM_west_attck
+			set_global_flag = CXM_west_attck_1935
  any_owned = { limit = { province_id = 9166 } secede_province = CXM } 
  any_owned = { limit = { province_id = 9058 } secede_province = CXM }  
  any_owned = { limit = { province_id = 9030 } secede_province = CXM } 

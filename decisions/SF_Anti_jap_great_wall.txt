@@ -61,6 +61,7 @@ diplomatic_decisions = {
 				5315 = {
 						   province_event = 190029
 						   }
+			CHI = { leave_alliance = CRH }
 			}
 		ai_will_do = {
 			factor = 1

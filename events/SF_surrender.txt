@@ -1052,6 +1052,8 @@ country_event = {
 		  name = "Event1000094option"
 		  cir_global_flag = suiyuan
 		  CSY = { country_event = 1000095 }
+		  CHI = { country_event = 1000095 }
+		  CHC = { country_event = 1000095 }
 		  JAP = { country_event = 390310 }
 		  MEA = { mengkukuo_region = { secede_province = MEA } }
 		  MEA = {
@@ -1071,8 +1073,8 @@ country_event = {
 		OR = { FROM = { TAG = MAN } FROM = { TAG = JAP } }
 		has_global_flag = the_war_attack_rehe
 	}
-	title = "Event1000092title"
-	desc = "Event1000092desc"
+	title = "Event100160title"
+	desc = "Event100160desc"
 	picture = "china_surrendered"
 	option = {
 		  name = "Event1000092option"
@@ -1097,21 +1099,21 @@ country_event = {
 		has_global_flag = the_war_attack_rehe
 		has_global_flag = the_war_attack_great_wall
 	}
-	title = "Event1000092title"
-	desc = "Event1000092desc"
+	title = "Event100161title"
+	desc = "Event100161desc"
 	picture = "china_surrendered"
 	option = {
 		  name = "Event1000092option"
 		  JAP = {
+		  end_war = CRH
+		  end_war = CHI
+		  end_war = CSX
+		  end_war = CSY
 		  hebei_region = { limit = { controlled_by = JAP } secede_province = CRH change_controller = CRH }
 		  hebei_region = { limit = { not = { controlled_by = JAP } } secede_province = CRH }
 		  chahar_region = { limit = { controlled_by = JAP } secede_province = CRH change_controller = CRH }
 		  chahar_region = { limit = { not = { controlled_by = JAP } } secede_province = CRH }
 		  }
-		     CSX = { end_war = JAP }
-					CRH = { end_war = JAP }
-                    CSY = { end_war = JAP }
-					CHI = { end_war = CJD }
 		   CHI = {
 				   country_event = 12211
 				   }
@@ -1128,8 +1130,8 @@ country_event = {
 		has_global_flag = the_war_attack_rehe
 		has_global_flag = Anti_jap_front_great_wall_loss
 	}
-	title = "Event1000092title"
-	desc = "Event1000092desc"
+	title = "Event100162title"
+	desc = "Event100162desc"
 	picture = "china_surrendered"
 	option = {
 		  name = "Event1000092option"
@@ -1152,8 +1154,8 @@ country_event = {
 		TAG = CFJ
 		OR = { FROM = { TAG = CHI } }
 	}
-	title = "Event1000092title"
-	desc = "Event1000092desc"
+	title = "Event100163title"
+	desc = "Event100163desc"
 	picture = "china_surrendered"
 	option = {
 		  name = "Event1000092option"
@@ -1213,6 +1215,7 @@ country_event = {
 	picture = "china_surrendered"
 	option = {
 		  name = "Event1000092option"
+		  CHC = {
 		  any_owned = { limit = { province_id = 9477 } secede_province = CSC } 
           any_owned = { limit = { province_id = 9415 } secede_province = CSC } 
           any_owned = { limit = { province_id = 9381 } secede_province = CSC } 
@@ -1223,7 +1226,8 @@ country_event = {
           any_owned = { limit = { province_id = 9414 } secede_province = CXK } 
           any_owned = { limit = { province_id = 9476 } secede_province = CXK } 
           any_owned = { limit = { province_id = 9380 } secede_province = CXK }
-		  any_owned = { limit = { province_id = 9322 } secede_province = CXK }		  
+		  any_owned = { limit = { province_id = 9322 } secede_province = CXK }
+		  }
 		  CXK = { end_war = CHC }
           }
 }
@@ -1272,4 +1276,60 @@ country_event = {
 		  THIS = { any_owned = { secede_province = CHI } }
 		  set_country_flag = Enter_into_Hunan_province
           }
+}
+country_event = {
+	id = 100168
+	is_triggered_only = yes
+	trigger = {
+		TAG = CHC
+		OR = { FROM = { TAG = CHI } FROM = { TAG = CSC }  FROM = { TAG = CYN } FROM = { TAG = CXK } FROM = { TAG = CHN } FROM = { TAG = CDX } FROM = { TAG = CTS } FROM = { TAG = CYS } FROM = { TAG = CQS } }
+		has_global_flag = Nanking_war_JiangXi_Commist
+		CHC = {
+		     not = { 
+			       has_country_flag = Postpone_war_ShanXi_Commist  
+		      }
+		}
+	}
+	title = "Event1000092title"
+	desc = "Event1000092desc"
+	picture = "china_surrendered"
+	option = {
+		  name = "Event1000092option"
+		  CHI = {
+		  end_war = CHC
+		  any_owned = { limit = { province_id = 7391 } secede_province = CHC } 
+          any_owned = { limit = { province_id = 7398 } secede_province = CHC } 
+          any_owned = { limit = { province_id = 5241 } secede_province = CHC } 
+		  any_owned = { limit = { province_id = 7410 } secede_province = CHC } 
+          any_owned = { limit = { province_id = 5335 } secede_province = CHC } 
+          any_owned = { limit = { province_id = 9202 } secede_province = CHC } 
+		  any_owned = { limit = { province_id = 5177 } secede_province = CHC } 
+          any_owned = { limit = { province_id = 4517 } secede_province = CHC } 
+			war = {	
+				target = CHC
+				attacker_goal = { casus_belli = conquer }
+			} 
+		}
+		CHC = { 
+		    any_owned = { limit = { province_id = 5734 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 5715 } secede_province = CHI }  
+            any_owned = { limit = { province_id = 5708 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 5716 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 5725 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 5712 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 5724 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 5733 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 5744 } secede_province = CHI } 
+            any_owned = { limit = { province_id = 4739 } secede_province = CSC } 
+            any_owned = { limit = { province_id = 9445 } secede_province = CSC }   
+		    load_oob = "CHC_1936.txt" 
+		}
+		          CTS = { end_war = CHC }
+                  CQS = { end_war = CHC }
+                  CYN = { end_war = CHC }
+                  CXK = { end_war = CHC }
+                  CYS = { end_war = CHC }
+                  CHN = { end_war = CHC }
+                  CDX = { end_war = CHC }
+                  CSC = { end_war = CHC }
 }

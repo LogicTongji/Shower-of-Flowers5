@@ -112,6 +112,7 @@ country_event = {
     }
     option = {
         name = "chi_gov_revolution6_option"
+        CHI = { load_oob = "CHI_GER_SupportA.txt" }
         ai_chance = { factor = 100 }
     }
 }

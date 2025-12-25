@@ -92,6 +92,12 @@ country_event = {
 	picture = "Guangdong_event8"
 	option = {
 		name = "Event390295option1"
+			CRH = {
+			 add_country_modifier = {
+			name = "Anti_guangxi_modifier"
+			duration = 60
+		}
+	}
 		CHN = { load_oob = "Center_surport.txt" }
 		ai_chance = { factor = 100 }
 	}

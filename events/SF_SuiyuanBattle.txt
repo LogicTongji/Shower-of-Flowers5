@@ -48,7 +48,6 @@ country_event = {
 }
 country_event = {
 	id = 1000095
-	major = yes
 	is_triggered_only = yes
 	title = "Event1000095title"
 	subtitle = "Event1000095subtitle"

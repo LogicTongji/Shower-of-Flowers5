@@ -10,10 +10,10 @@ chi_star_destroyer;党化部队;;;;;;;;;;;;;x
 chi_star_destroyer_short;教导;;;;;;;;;;;;;x
 GER_ss;党卫军;;;;;;;;;;;;;x
 GER_ss_short;党卫军;;;;;;;;;;;;;x
-artillery_brigadeB;炮兵旅;;;;;;;;;;;;;x
-artillery_brigadeB_short;炮兵旅;;;;;;;;;;;;;x
-alpine_artillery_brigadeB;山炮旅;;;;;;;;;;;;;x
-alpine_artillery_brigadeB_short;山炮旅;;;;;;;;;;;;;x
+artillery_brigadeB;炮兵集团;;;;;;;;;;;;;x
+artillery_brigadeB_short;炮兵;;;;;;;;;;;;;x
+alpine_artillery_brigadeB;山炮集团;;;;;;;;;;;;;x
+alpine_artillery_brigadeB_short;山炮兵;;;;;;;;;;;;;x
 For_the_occasion_brigade;预备兵;;;;;;;;;;;;;x
 For_the_occasion_brigade_short;预备兵;;;;;;;;;;;;;x
 field_battalion;野战营;;;;;;;;;;;;;x
@@ -100,7 +100,7 @@ CHC_Front_Army.txt;二、四方面军\n;;;;;;;;;;;;;x
 CGD_715.txt;广东投诚军队\n;;;;;;;;;;;;;x
 CHC_Soviet_Support.txt;苏联的援助\n;;;;;;;;;;;;;x
 JAP_CHISupport.txt;日本的援助\n;;;;;;;;;;;;;x
-CHI_GER_SupportA.txt;德式步兵师\n;;;;;;;;;;;;;x
+CHI_GER_SupportA.txt;调整师\n;;;;;;;;;;;;;x
 CHI_SOV_SupportA.txt;苏械攻击军\n;;;;;;;;;;;;;x
 CHI_USA_SupportA.txt;中国驻印军\n;;;;;;;;;;;;;x
 CSD_JAPsupportA.txt;忠义救国军\n;;;;;;;;;;;;;x
@@ -196,6 +196,8 @@ CHA.txt;察哈尔抗日民众同盟军\n;;;;;;;;;;;;;x
 18D.txt;国民革命军第四路军\n;;;;;;;;;;;;;x
 19A.txt;国民革命军第十九路军\n;;;;;;;;;;;;;x
 Center_surport.txt;入湘中央军\n;;;;;;;;;;;;;x
+CHC_1936.txt;陕北红军\n;;;;;;;;;;;;;x
+CJC_1936.txt;二十九军\n;;;;;;;;;;;;;x
 #######################################;;;;;;;;;;;;;;x
 # 战争目标;;;;;;;;;;;;;;x
 #######################################;;;;;;;;;;;;;;x

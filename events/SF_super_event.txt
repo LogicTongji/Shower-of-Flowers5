@@ -6,7 +6,6 @@ province_event = {
 	desc = "Long_Marchdesc"
 	picture = "longMarch_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Long_Marchoption"
         }
@@ -18,7 +17,6 @@ province_event = {
 	desc = "Anti_jap_great_walldesc"
 	picture = "Greatwall_antijap_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Anti_jap_great_walleoption"
         }
@@ -30,7 +28,6 @@ province_event = {
 	desc = "Xian_incidencedesc"
 	picture = "XIan_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Xian_incidenceoption"
         }
@@ -42,7 +39,6 @@ province_event = {
 	desc = "AntiJapan_lugoudesc"
 	picture = "AntiJapan_lugou"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "AntiJapan_lugouoption"
         }
@@ -54,7 +50,6 @@ province_event = {
 	desc = "Wuhanbattledesc"
 	picture = "WuHan_battle_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Wuhanbattleoption"
         }
@@ -66,7 +61,6 @@ province_event = {
 	desc = "baituanbattledesc"
 	picture = "NorthChina_war_1940_super_event"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "baituanbattleoption"
         }
@@ -78,7 +72,6 @@ province_event = {
 	desc = "Anti_Japan_win_desc"
 	picture = "AntiJapan_win"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Anti_Japan_win_option"
         }
@@ -90,7 +83,6 @@ province_event = {
 	desc = "civil_war_desc"
 	picture = "liberation_war_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "civil_war_option"
         }
@@ -102,7 +94,6 @@ province_event = {
 	desc = "civil_war_desc1"
 	picture = "liberation_war_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "civil_war_option1"
         }
@@ -114,7 +105,6 @@ province_event = {
 	desc = "New_china_desc"
 	picture = "NewChina_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "New_china_option"
         }
@@ -126,7 +116,6 @@ province_event = {
 	desc = "Koreanwar_desc"
 	picture = "Koreanwar_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Koreanwar_option"
         }
@@ -139,7 +128,6 @@ province_event = {
 	desc = "Japan_lugoudesc"
 	picture = "NorthChina_war_super_event"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Japan_lugouoption"
         }
@@ -151,7 +139,6 @@ province_event = {
 	desc = "Eastern_Asian_wardesc"
 	picture = "EasternAsian_war_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Eastern_Asian_waroption"
         }
@@ -163,7 +150,6 @@ province_event = {
 	desc = "Great_wall_conquedesc"
 	picture = "Greatwall_antijap_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Great_wall_conqueoption"
         }
@@ -175,7 +161,6 @@ province_event = {
 	desc = "Stoped_in_Chinadesc"
 	picture = "stopped_in_China_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Stoped_in_Chinaoption"
         }
@@ -187,7 +172,6 @@ province_event = {
 	desc = "conqueChinadesc"
 	picture = "conque_China_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "conqueChinaoption"
         }
@@ -199,7 +183,6 @@ province_event = {
 	desc = "Army_attack_podesc"
 	picture = "226superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Army_attack_pooption"
         }
@@ -212,7 +195,6 @@ province_event = {
 	desc = "Northern_gov_establishdesc"
 	picture = "WestNorther_gov_superevent"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Northern_gov_establishoption"
         }
@@ -224,7 +206,6 @@ province_event = {
 	desc = "Eeatern_Asian_revolutiondesc"
 	picture = "Great_Asian_revolution_war"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Eeatern_Asian_revolutionoption"
         }
@@ -236,7 +217,6 @@ province_event = {
 	desc = "Northern_gov_win_desc"
 	picture = "AntiJapan_win"
 	is_triggered_only = yes
-	fire_only_once = yes
 	option = {
 		name = "Northern_gov_win_option"
         }

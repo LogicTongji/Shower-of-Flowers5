@@ -45,6 +45,7 @@ country_event = {
 		5494 = {
 						   province_event = 190022
 						   }
+		ai_chance = { factor = 100 }
 	}
 }
 #中共通电
@@ -61,6 +62,7 @@ country_event = {
 		7391 = {
 						   province_event = 190022
 						   }
+	   ai_chance = { factor = 100 }
 	}
 }
 #最高领袖的摇摆态度

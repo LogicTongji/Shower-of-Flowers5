@@ -170,9 +170,8 @@ Intagrate_China_GuiZhou = {
 			not = { year = 1938 } 
 		}
 		allow = {
-			CQM = {
-		war_with = TIB
-                   }
+			exists = CHN
+			has_global_flag = SF_anti_japanese_war
 		}
 		effect = {
 		   CHI = {  

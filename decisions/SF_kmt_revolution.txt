@@ -226,7 +226,6 @@ Intagrate_China_GuiZhou = {
 		effect = {
 			set_country_flag = Unit_front_to_antiJap
 			 CYN = { country_event = 33331 } 
-			 CSC = { country_event = 33332 }
 		}
 		ai_will_do = {
 			factor = 1

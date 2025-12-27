@@ -6,7 +6,7 @@ country_event = {
 	picture = "CHI_Flag"
 	option = {
 		name = "theatreop"
-		load_oob = "CHI_SF_FT.txt"
+		CJC = { load_oob = "CHI_SF_FT.txt" }
 		ai_chance = { factor = 100 }
 	}
 }

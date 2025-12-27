@@ -1332,4 +1332,5 @@ country_event = {
                   CHN = { end_war = CHC }
                   CDX = { end_war = CHC }
                   CSC = { end_war = CHC }
+        }
 }

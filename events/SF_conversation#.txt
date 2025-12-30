@@ -74,7 +74,7 @@ country_event = {
 }
 #庐山讲话全文
 country_event = {
-	id = 390038
+	id = 390039
 	major = yes
 	fire_only_once = yes
 	trigger = {
@@ -84,7 +84,7 @@ country_event = {
 	}
 	title = "CKST"
 	desc = "CKSD"
-	picture = "CHI_flag"
+	picture = "SF_Japan_Invasions4"
 	option = {
 		name = "CKSOP"
     dissent = -10

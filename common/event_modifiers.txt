@@ -3029,3 +3029,9 @@ land_organisation = 0.95
 land_build_speed = 0.15
 icon = 5
 }
+Anti_jap_front_modifier2 = {
+org_regain = -0.15
+supply_throughput = -0.55
+land_organisation = 0.45
+icon = 5
+}

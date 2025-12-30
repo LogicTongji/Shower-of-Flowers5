@@ -86,7 +86,7 @@ CHC_DAILI_modifier;地下党;;;;;;;;;;;;;x
 SIAWAR_modifier;马虎山乱疆;;;;;;;;;;;;;x
 SIACLA_modifier;第一次大清洗;;;;;;;;;;;;;x
 SIACLA2_modifier;第二次大清洗;;;;;;;;;;;;;x
-NOconversation_modifier;消极的对日态度（3）;;;;;;;;;;;;;x
+NOconversation_modifier;消极的对日态度(3);;;;;;;;;;;;;x
 TGconversation_modifier;抗日准备;;;;;;;;;;;;;x
 EYOUJQZB_MODIFIER;游击战争的准备;;;;;;;;;;;;;x
 MPR_modifier;南泥湾;;;;;;;;;;;;;x
@@ -166,5 +166,6 @@ Event290003_modifier;大生产运动;;;;;;;;;;;;;x
 Anti_jap_front_modifier;长城抗战;;;;;;;;;;;;;x
 kill_ccp;围剿战争;;;;;;;;;;;;;x
 henan_famine_modifier;河南饥荒;;;;;;;;;;;;;x
-Anti_guangxi_modifier;阻止联军北上;;;;;;;;;;;;;x
+Anti_guangxi_modifier;力拒两广;;;;;;;;;;;;;x
+Anti_jap_front_modifier2;卢沟火起;;;;;;;;;;;;;x
 #;;;;;;;;;;;;;;x

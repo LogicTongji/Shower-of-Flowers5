@@ -45,6 +45,18 @@ country_event = {
 		5494 = {
 						   province_event = 190022
 						   }
+					CJC = {
+			 add_country_modifier = {
+			name = "Anti_jap_front_modifier2"
+			duration = 30
+		}
+	}
+		CSD = {
+			 add_country_modifier = {
+			name = "Anti_jap_front_modifier2"
+			duration = 30
+		}
+	}
 		ai_chance = { factor = 100 }
 	}
 }

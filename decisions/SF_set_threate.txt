@@ -59,10 +59,10 @@ diplomatic_decisions = {
 				JAP = { has_country_flag = the_marco_polo_bridge_incident }
 		}
 		allow = {
-			not = { has_country_flag = event00018 }
+			not = { has_country_flag = The_third_armygroup }
 		}
 		effect = {
-			set_country_flag = event00018
+			set_country_flag = The_third_armygroup
 			country_event = 0008 
 		}
 		ai_will_do = {
@@ -103,10 +103,10 @@ diplomatic_decisions = {
 						has_country_flag = CHI_Kangzhan
 		}
 		allow = {
-			not = { has_country_flag = event00010 }
+			not = { has_country_flag = The_forth_armygroup }
 		}
 		effect = {
-			set_country_flag = event00010
+			set_country_flag = The_forth_armygroup
 		        country_event = 00010 
 		}
 		ai_will_do = {
@@ -125,10 +125,10 @@ diplomatic_decisions = {
 					   has_country_flag = Unit_front_to_antiJap
 		}
 		allow = {
-			not = { has_country_flag = event0001088 }
+			not = { has_country_flag = The_seventh_armygroup }
 		}
 		effect = {
-			set_country_flag = event0001088
+			set_country_flag = The_seventh_armygroup
 		       CSC = { country_event = 33332 } 
 		}
 		ai_will_do = {
@@ -147,10 +147,10 @@ diplomatic_decisions = {
                         war_with = JAP
 		}
 		allow = {
-			not = { has_country_flag = event000419 }
+			not = { has_country_flag = The_eighth_armygroup }
 		}
 		effect = {
-			set_country_flag = event000419
+			set_country_flag = The_eighth_armygroup
 		        country_event = 00012 
 		}
 		ai_will_do = {
@@ -175,10 +175,10 @@ diplomatic_decisions = {
 		}
 		allow = {
                                                 has_country_flag = event0015
-                                               	not = { has_country_flag = event00010881 }
+                                               	not = { has_country_flag = The_ninth_armygroup }
 		}
 		effect = {
-			set_country_flag = event00010881
+			set_country_flag = The_ninth_armygroup
 		               country_event = 333370
 		}
 		ai_will_do = {
@@ -197,10 +197,10 @@ diplomatic_decisions = {
 					   has_country_flag = CHI_Kangzhan
 		}
 		allow = {
-                   not = { has_country_flag = event000108812 }
+                   not = { has_country_flag = The_armygroup_in_henan }
 		}
 		effect = {
-			set_country_flag = event000108812
+			set_country_flag = The_armygroup_in_henan
 		               country_event = 333355 
 		}
 		ai_will_do = {
@@ -220,10 +220,10 @@ diplomatic_decisions = {
 						has_country_flag = jap_seizes_coast_chi
 		}
 		allow = {
-                   not = { has_country_flag = eventDSITT }
+                   not = { has_country_flag = The_sixth_armygroup }
 		}
 		effect = {
-			set_country_flag = eventDSITT
+			set_country_flag = The_sixth_armygroup
 		               country_event = 333356 
 		}
 		ai_will_do = {
@@ -268,10 +268,10 @@ diplomatic_decisions = {
 						has_country_flag = jap_seizes_coast_chi
 		}
 		allow = {
-                   not = { has_country_flag = jicha }
+                   not = { has_country_flag = The_jicha_armygroup }
 		}
 		effect = {
-			set_country_flag = jicha
+			set_country_flag = The_jicha_armygroup
 country_event = 6801
 		}
 		ai_will_do = {

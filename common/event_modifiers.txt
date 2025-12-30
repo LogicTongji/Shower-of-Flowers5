@@ -3012,7 +3012,7 @@ NanChang_Conference_modifier = {
 }
 Anti_jap_front_modifier = {
 org_regain = 0.15
-supply_throughput = -0.2
+supply_throughput = 0.25
 dissent = -0.35 
 land_organisation = 0.15
 icon = 5
@@ -3031,7 +3031,7 @@ icon = 5
 }
 Anti_jap_front_modifier2 = {
 org_regain = -0.15
-supply_throughput = -0.55
+supply_throughput = 0.55
 land_organisation = 0.45
 icon = 5
 }

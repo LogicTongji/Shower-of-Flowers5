@@ -8,7 +8,6 @@ diplomatic_decisions = {
 		        not = { 
 		        year = 1938    
 		        war_with = CHC }
-		has_country_flag = CHI_Kangzhan
 		JAP = { has_country_flag = the_marco_polo_bridge_incident }
 		}
 		allow = {
@@ -32,7 +31,6 @@ diplomatic_decisions = {
 		         year = 1938
 		        war_with = CHC 
 		        }
-				has_country_flag = CHI_Kangzhan
 		}
 		allow = {
 		     CSD = { war_with = JAP }

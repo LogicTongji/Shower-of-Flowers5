@@ -8,8 +8,9 @@ diplomatic_decisions = {
 			not = { year = 1936 } 
 		}
 		allow = {
-			not = { alliance_with = CHI }
-			not = { has_global_flag = CXM_west_attck_1935 }	
+			not = { alliance_with = CHI 
+                    has_global_flag = CXM_west_attck_1935 
+					}	
 		}
 		effect = {
 			set_global_flag = CXM_west_attck_1935
@@ -35,8 +36,8 @@ diplomatic_decisions = {
 			not = { year = 1938 } 
 		}
 		allow = {
-			not = { alliance_with = CHI }
-			not = { has_global_flag = CXM_WAR }	
+			not = { alliance_with = CHI 
+                    has_global_flag = CXM_WAR }	
 		}
 		effect = {
 			set_global_flag = CXM_WAR

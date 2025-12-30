@@ -13,7 +13,8 @@ diplomatic_decisions = {
 		allow = {
 		    CJC = { war_with = JAP }
 		        not = { 
-		        year = 1938   
+		        year = 1938  
+				}
 			not = { has_country_flag = The_first_armygroup }
 		}
 		effect = {
@@ -33,7 +34,13 @@ diplomatic_decisions = {
 		        }
 		}
 		allow = {
-		     CSD = { war_with = JAP }
+		OR = {
+		CSD = { war_with = JAP }
+		CJC = { war_with = JAP }
+		}
+		 not = { 
+		        year = 1938  
+				}
 			not = { has_country_flag = The_second_armygroup }
 		}
 		effect = {

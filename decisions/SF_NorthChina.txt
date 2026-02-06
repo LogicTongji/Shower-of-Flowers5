@@ -15,7 +15,6 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_global_flag = JAP_invassion_northChina
-			country_event = 390219
 		}
 		ai_will_do = {
 			factor = 1

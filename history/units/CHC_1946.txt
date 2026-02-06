@@ -933,7 +933,7 @@ corps = {
 					name = "第1军分区"
 					location = 4841
 						regiment = { type = partisan_bergsjaeger strength = 80 experience = 35 historical_model = 2 }
-						regiment = { type = partisan_bergsjaeger strength = 80 experience = 35 historical_model = 2 	
+						regiment = { type = partisan_bergsjaeger strength = 80 experience = 35 historical_model = 2 }	
 				}	
 			division= {
 					name = "第5军分区"
@@ -941,8 +941,7 @@ corps = {
 					regiment = { type = partisan_bergsjaeger strength = 80 experience = 35 historical_model = 2 }
 					regiment = { type = partisan_bergsjaeger strength = 80 experience = 35 historical_model = 2 }
 				}								
-		}	
-}		
+		}		
 army = {
 		name = "东满军区"
 		location = 4388
@@ -1004,6 +1003,7 @@ army = {
 					regiment = { type = infantry_brigade name = "警备第1旅" strength = 80 experience = 35 historical_model = 2 }
 					regiment = { type = infantry_brigade name = "警备第2旅" strength = 80 experience = 35 historical_model = 2 }
 					regiment = { type = infantry_brigade name = "警备第3旅" strength = 80 experience = 35 historical_model = 2 }
+					}
 		corps = {
 				name = "辽吉军区"
 				location = 4840
@@ -1056,6 +1056,7 @@ corps = {
 					regiment = { type = cavalry_brigade  strength = 80 experience = 40 historical_model = 2 }
 				}							
 		}	
+    }
 }
 armygroup = {
 		name = "晋察冀军区"

@@ -24,26 +24,20 @@ country_event = {
 		not = { has_global_flag = luochuan_meeting }
 		not = { year = 1938 } 
 		has_global_flag = Event10000271
+		has_global_flag = SF_anti_japanese_war
 		CHI = { war_with = JAP }
 	}
 	mean_time_to_happen =  {
 		days = 3
 	}
 	option = {
-		name = "luochuan_meeting_1"
-		set_global_flag = luochuan_meeting
-		set_country_flag = luochuan_meeting_1
-		manpower = 1000
-		country_event = 1000032
-		ai_chance = { factor = 100 }
-	}
-	option = {
 		name = "luochuan_meeting_2"
 		set_global_flag = luochuan_meeting
+		set_country_flag = luochuan_meeting_1
 		set_global_flag = luochuan_meeting_2
-		manpower = 100
+		manpower = 150
 		country_event = 1000033
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 100 }
 	}
 }
 #国共合作宣言

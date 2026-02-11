@@ -3,67 +3,6 @@
 ######################
 #工农红军改编
 country_event = {
-	id = 1000032
-	is_triggered_only = yes
-	title = "balu"
-	desc = "balu_1_desc"
-	subtitle = "balu_subtitle"
-	picture = "SF_CommunistChina_Army1"
-	trigger = {
-		tag = CHC
-		war_with = JAP
-	}
-	option = {
-		name = "balu_option"
-		load_oob = "CHC_Balu_1.txt"
-		CHC = {
-			remove_brigade = "红军前敌总指挥部"
-			remove_brigade = "红1方面军指挥部"
-			remove_brigade = "红军大学"
-			remove_brigade = "陕甘支队指挥部"
-			remove_brigade = "第1纵队第1大队"
-			remove_brigade = "第1纵队第2大队"
-			remove_brigade = "第1纵队第3大队"
-			remove_brigade = "第1纵队第4大队"
-			remove_brigade = "第2纵队第1大队"
-			remove_brigade = "第2纵队第2大队"
-			remove_brigade = "第2纵队第3大队"
-			remove_brigade = "第3纵队第1大队"
-			remove_brigade = "第3纵队第2大队"
-			remove_brigade = "第3纵队第3大队"
-			remove_brigade = "红15军团指挥部"
-			remove_brigade = "第223团"
-			remove_brigade = "第225团"
-			remove_brigade = "第232团"
-			remove_brigade = "第234团"
-			remove_brigade = "骑兵团"
-			remove_brigade = "第241团"
-			remove_brigade = "第243团"
-			remove_brigade = "第250团"
-			remove_brigade = "第251团"
-			remove_brigade = "第252团"
-			remove_brigade = "第255团"
-			remove_brigade = "第256团"
-			remove_brigade = "第257团"
-			remove_brigade = "第10师"
-			remove_brigade = "第11师"
-			remove_brigade = "第12师"
-			remove_brigade = "独立师"
-			remove_brigade = "第91师"
-			remove_brigade = "第93师"
-			remove_brigade = "红2方面军指挥部"
-			remove_brigade = "第4师"
-			remove_brigade = "第6师"
-			remove_brigade = "第16师"
-			remove_brigade = "第17师"
-			remove_brigade = "第18师"
-			remove_brigade = "第94师"
-			remove_brigade = "第96师"
-		}
-		ai_chance = { factor = 100 }
-	}
-}
-country_event = {
 	id = 1000033
 	is_triggered_only = yes
 	title = "balu"
@@ -76,7 +15,7 @@ country_event = {
 	}
 	option = {
 		name = "balu_option"
-		load_oob = "CHC_Balu_2.txt"
+		load_oob = "CHC_Balu_1.txt"
 		CHC = {
 			remove_brigade = "红军前敌总指挥部"
 			remove_brigade = "红1方面军指挥部"
@@ -394,6 +333,171 @@ country_event = {
 		name = "CHC_Event_1000039_option"
 		manpower = 50
 		load_oob = "CHC_7.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30127
+fire_only_once = yes
+	title = "chc_jirecha3"
+	desc = "chc_lunansub_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                  not = { 
+		  OR = {
+		  CHI = { controls = 5515 }
+		  CHC = { controls = 5515 }
+		  }                              
+   has_global_flag = luochuan_meeting
+   has_global_flag = SF_anti_japanese_war
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907042_option"
+		manpower = 5
+		load_oob = "CHC_SBLN.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30128
+fire_only_once = yes
+	title = "chc_jirecha4"
+	desc = "chc_jirecha4_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                  not = { 
+		  OR = {
+		  CHI = { controls = 7508 }
+		  CHC = { controls = 7508 }
+		  }
+                                JAP = { controls = 7508 }
+     has_global_flag = luochuan_meeting
+   has_global_flag = SF_anti_japanese_war
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907043_option"
+		manpower = 5
+		load_oob = "CHC_EB.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 30129
+fire_only_once = yes
+	title = "chc_jirecha5"
+	desc = "chc_jirecha5_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                  not = { 
+		  OR = {
+		  CHI = { controls = 5494 }
+		  CHC = { controls = 5494 }
+		  }
+		  }
+                                WJW = { controls = 5494 }
+has_global_flag = luochuan_meeting
+   has_global_flag = SF_anti_japanese_war
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907044_option"
+		manpower = 5
+		load_oob = "CHC_SN.txt"
+		load_oob = "CHC_ZD.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 40121
+fire_only_once = yes
+	title = "chc_jirecha6"
+	desc = "chc_jirecha6_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                 not = { 
+		  OR = {
+		  CHI = { controls = 5834 }
+		  CHC = { controls = 5834 }
+		  CGX = { controls = 5834 }
+		         }
+		  }
+                                WJW = { controls = 5834 }
+has_global_flag = luochuan_meeting
+   has_global_flag = SF_anti_japanese_war
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907045_option"
+		manpower = 5
+		load_oob = "CHC_HLFLJ.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 40122
+fire_only_once = yes
+	title = "chc_jirecha7"
+	desc = "chc_jirecha7_desc"
+	picture = "jirecha_army"
+                trigger = {
+		tag = CHC
+                                war_with = JAP
+                                WJW = { controls = 5965 }
+has_global_flag = luochuan_meeting
+   has_global_flag = SF_anti_japanese_war
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_201907046_option"
+		manpower = 5
+		load_oob = "CHC_QY.txt"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 40123
+fire_only_once = yes
+	title = "jizhong_army"
+	desc = "jizhong_army_desc"
+	picture = "jizhong_army"
+	trigger = {
+		tag = CHC
+		war_with = JAP
+		  not = { 
+		  OR = {
+		  CHI = { controls = 4979 }
+		  CHC = { controls = 4979 }
+		           }
+		  }
+has_global_flag = luochuan_meeting
+   has_global_flag = SF_anti_japanese_war
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "CHC_Event_1000039_option"
+		load_oob = "CHC_11.txt"
 		ai_chance = { factor = 100 }
 	}
 }

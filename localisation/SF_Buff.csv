@@ -18,8 +18,7 @@ Japan_Preparing;日本扩军计划;;;;;;;;;;;;;x
 Japan_Shanghai;长江扩张计划;;;;;;;;;;;;;x
 passive_defence;消极的防御;;;;;;;;;;;;;x
 cxb_1936;马家军的续命;;;;;;;;;;;;;x
-luochuan_1;洛川会议：正规运动战;;;;;;;;;;;;;x
-luochuan_2;洛川会议：山地游击战;;;;;;;;;;;;;x
+luochuan_2;山地游击战;;;;;;;;;;;;;x
 chi_1936;第一次国共内战;;;;;;;;;;;;;x
 sanguang;烬灭作战：杀光、抢光、烧光;;;;;;;;;;;;;x
 sanguang_chc;三光政策的影响;;;;;;;;;;;;;x
@@ -69,7 +68,6 @@ Zariety_warlords;刀耕火种的生产;;;;;;;;;;;;;x
 ICariety_warlords;损毁殆尽的民族工业;;;;;;;;;;;;;;x
 Qntiquated_strategy;模范战区;;;;;;;;;;;;;;x
 Event2221_modifier;文夕大火;;;;;;;;;;;;;x
-KRYJQ12_modifier;游击战争;;;;;;;;;;;;;x
 CHI_FOURfamily_BUFF;四大家族;;;;;;;;;;;;;x
 JAP_IC_BUFF;中岛、川崎、三菱;;;;;;;;;;;;;x
 JAP_ACT_BUFF;武士道;;;;;;;;;;;;;x

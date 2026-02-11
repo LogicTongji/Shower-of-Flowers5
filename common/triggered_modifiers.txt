@@ -1891,18 +1891,6 @@ chi_1936 = {
 	industrial_efficiency = -0.1
 	icon = 5
 }
-luochuan_1 = {
-	potential = {
-		tag = CHC
-		war_with = JAP
-		exists = JAP
-		JAP = { is_subject = no }
-		has_country_flag = luochuan_meeting_1
-	}
-	territorial_pride = 0.15
-	supply_consumption = 0.15
-	land_build_speed = -0.25
-}
 luochuan_2 = {
 	potential = {
 		tag = CHC

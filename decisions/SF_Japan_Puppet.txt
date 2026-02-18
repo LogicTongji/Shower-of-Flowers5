@@ -165,8 +165,9 @@ diplomatic_decisions = {
 			chekiang_region = { add_core = CJS }
 			anhui_region = { add_core = CJS	}
 			jiangsu_region = { add_core = CJS }
+			SF_CJB_region = { remove_core = CJB }
 			CHI = {		
-				national_unity = -5
+				national_unity = -10
 				anhui_region = { limit = { controlled_by = JAP } secede_province = CJS	}
 				jiangsu_region = { limit = { controlled_by = JAP } secede_province = CJS }
 				anhui_region = { limit = { NOT = { controlled_by = JAP } } secede_province = CJS change_controller = CHI }
@@ -181,6 +182,7 @@ diplomatic_decisions = {
 			create_vassal = CJS
 			CJS = { 
 				manpower = 500
+				inherit = CJB
 				load_oob = "CJS_military.txt"
 			}
 			set_country_flag = independent_CJS
@@ -208,6 +210,7 @@ diplomatic_decisions = {
 		effect = {
 			wjw_region = { add_core = WJW remove_core = CJS remove_core = CHB }
 			CHI = {		
+			national_unity = -5
 				wjw_region = { limit = { controlled_by = JAP } secede_province = WJW }
 			}
 			JAP = {	
@@ -241,7 +244,7 @@ diplomatic_decisions = {
 		}
 		allow = {
 			NOT = { exists = CJB }
-			
+			NOT = { exists = CJS }
 		}
 		effect = {
 			mengkukuo_region = { add_core = MEB remove_core = JAP }

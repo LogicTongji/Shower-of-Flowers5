@@ -349,8 +349,8 @@ country_event = {
 	picture = "Anti_jap_front_great_wall7"
 	option = {
 		name = "japrehe1_option"
-        national_unity = 5
-        dissent = -15
+        national_unity = -2
+        dissent = 1
 		ai_chance = { factor = 100 }
 	}
 }
@@ -362,8 +362,8 @@ country_event = {
 	picture = "Anti_jap_front_great_wall7"
 	option = {
 		name = "japrehe2_option"
-        national_unity = 5
-        dissent = -15
+        national_unity = -2
+        dissent = 1
 		ai_chance = { factor = 100 }
 	}
 }

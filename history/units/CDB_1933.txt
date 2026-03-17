@@ -6,7 +6,7 @@ theatre = {
 			regiment = { type = cavalry_brigade name = "骑兵团" historical_model = 0 }
 			armygroup = {
 			name = "第一集团军"
-			location = 7435
+			location = 4979
 			regiment = { type = hq_brigade name = "第一集团军长官部" historical_model = 0 }	
 			regiment = { type = infantry_brigade name = "直属特务团" experience = 15 historical_model = 0 }
 			regiment = { type = artillery_brigade name = "直属炮兵团" experience = 15 historical_model = 0 }

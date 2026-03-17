@@ -19,7 +19,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_first_armygroup
-			country_event = 0007 
+			country_event = 390062 
 		}
 		ai_will_do = {
 			factor = 1
@@ -32,6 +32,7 @@ diplomatic_decisions = {
 		         year = 1938
 		        war_with = CHC 
 		        }
+				JAP = { has_country_flag = the_marco_polo_bridge_incident }
 		}
 		allow = {
 		OR = {
@@ -45,7 +46,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_second_armygroup
-			CSX = { country_event = 0006 }
+			CSX = { country_event = 390063 }
 		}
 		ai_will_do = {
 			factor = 1
@@ -61,14 +62,14 @@ diplomatic_decisions = {
 		        war_with = CHC 
 		        }
 				has_country_flag = CHI_Kangzhan
-				JAP = { has_country_flag = the_marco_polo_bridge_incident }
+				JAP = { has_country_flag = shanghai_incident }
 		}
 		allow = {
 			not = { has_country_flag = The_third_armygroup }
 		}
 		effect = {
 			set_country_flag = The_third_armygroup
-			country_event = 0008 
+			country_event = 390064 
 		}
 		ai_will_do = {
 			factor = 1
@@ -83,14 +84,20 @@ diplomatic_decisions = {
 		        }
                         war_with = JAP
 						has_country_flag = CHI_Kangzhan
-						JAP = { has_country_flag = shanghai_incident }
+						JAP = { 
+						controller = 5542
+						controller = 5494
+						controller = 5275
+						controller = 4979
+						has_country_flag = shanghai_incident 
+						}
 		}
 		allow = {
 			not = { has_country_flag = The_fifth_armygroup }
 		}
 		effect = {
 			set_country_flag = The_fifth_armygroup
-                        country_event = 0009 
+                        country_event = 390065 
 		}
 		ai_will_do = {
 			factor = 1
@@ -112,7 +119,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_forth_armygroup
-		        country_event = 00010 
+		        country_event = 390066 
 		}
 		ai_will_do = {
 			factor = 1
@@ -144,7 +151,6 @@ diplomatic_decisions = {
 		potential = {
 			tag = CHI
 			 not = {
-		          year = 1938
 		        war_with = CHC 
 		        }
 				has_country_flag = CHI_Kangzhan
@@ -156,7 +162,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_eighth_armygroup
-		        country_event = 00012 
+		        country_event = 390067 
 		}
 		ai_will_do = {
 			factor = 1
@@ -184,7 +190,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_ninth_armygroup
-		               country_event = 333370
+		               country_event = 390068
 		}
 		ai_will_do = {
 			factor = 1
@@ -206,7 +212,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_armygroup_in_henan
-		               country_event = 333355 
+		               country_event = 390069 
 		}
 		ai_will_do = {
 			factor = 1
@@ -229,7 +235,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_sixth_armygroup
-		               country_event = 333356 
+		               country_event = 390070 
 		}
 		ai_will_do = {
 			factor = 1
@@ -253,7 +259,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = sulu
-         country_event = 6801
+         country_event = 390071
 		}
 		ai_will_do = {
 			factor = 1
@@ -277,7 +283,7 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = The_jicha_armygroup
-country_event = 6801
+country_event = 390072
 		}
 		ai_will_do = {
 			factor = 1

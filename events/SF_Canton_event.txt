@@ -129,7 +129,9 @@ country_event = {
 	major = yes
 	trigger = {
 		tag = CGX
-		not = { war_with = CHI }
+		OR = { war_with = CHI
+		       war_with = CHN
+			   }
 		has_global_flag = Event1000099
 		not = { has_country_flag = Event1000100 }
 	}

@@ -38,7 +38,7 @@ country_event = {
 				attacker_goal = { casus_belli = conquer }
 			} 
 		}
-		    7515 = {
+		    9478 = {
 						   province_event = 190023
 						   }
 			5315 = {

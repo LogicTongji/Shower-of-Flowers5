@@ -141,7 +141,8 @@ country_event = {
 		set_country_flag = Event1000100
 		cir_global_flag = Event10000973
 		CHI = { threat = { who = CGX value = -100 } }
-		 CGX = { end_war = CHN }
+		 CGX = { end_war = CHN 
+		         end_war = CHI }
 		 create_alliance = CHN
 		ai_chance = { factor = 100 }
 	}

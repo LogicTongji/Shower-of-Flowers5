@@ -13,7 +13,6 @@ country_event = {
 		tag = CHI
 		war_with = JAP
 		has_country_flag = jap_seizes_coast_chi
-		not = { controls = 5494 }
 	}
 	mean_time_to_happen =  {
 		days = 1

@@ -1029,7 +1029,7 @@ set_global_flag = SF_anti_japanese_war
 	collaboration_government = VIC
 	
 }
-1941.12.1 = {
+1941.12.7 = {
 oob = "JAP_DayOfInfamy.txt"
 	neutrality = 0
 	lighttank_gun = 2

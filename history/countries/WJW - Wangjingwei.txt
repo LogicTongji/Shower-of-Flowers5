@@ -54,7 +54,7 @@ civil_law = totalitarian_system
 	join_faction = axis
 	neutrality = 0
 }
-1941.1.25 = {
+1941.12.7 = {
 	oob = "WJW_OOB.txt"
 	
 }

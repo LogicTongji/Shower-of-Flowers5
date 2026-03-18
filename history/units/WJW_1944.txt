@@ -192,7 +192,6 @@ corps = {
 			name = "第六军"
 			location = 5365
 			regiment = { type = hq_brigade name = "第六军军部" historical_model = 3 }
-			regiment = { type = For_the_occasion_brigade builder = JAP historical_model = 4 }
 				division= {
 				name = "第46师"
 				location = 5365
@@ -209,7 +208,7 @@ corps = {
 				}
 }
 			corps = {
-			name = "第六军"
+			name = "第七军"
 			location = 5386
 			regiment = { type = hq_brigade name = "第六军军部" historical_model = 3 }
 				division= {

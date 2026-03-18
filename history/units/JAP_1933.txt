@@ -349,7 +349,7 @@ theatre = {
 		name = "驻沪海军陆战队"
 		location = 14182
 		is_reserve = yes
-		regiment = { type = garrison_brigade experience = 55 historical_model = 2 }
+		regiment = { type = marine_brigade experience = 100 historical_model = 2 }
 	}
                 air = {
 	name = "第1航空队"

@@ -941,7 +941,8 @@ corps = {
 					regiment = { type = partisan_bergsjaeger strength = 80 experience = 35 historical_model = 2 }
 					regiment = { type = partisan_bergsjaeger strength = 80 experience = 35 historical_model = 2 }
 				}								
-		}		
+		}	
+	}
 army = {
 		name = "¶«Âú¾üÇø"
 		location = 4388

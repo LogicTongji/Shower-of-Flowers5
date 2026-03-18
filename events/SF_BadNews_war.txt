@@ -2,9 +2,8 @@
 #  抗日惨案事件组   #
 #####################
 country_event = {
-	id = 2221
+	id = 12300
 	fire_only_once = yes
-		major = yes
 	title = "22222title"
 	desc = "22222decs"
 	picture = "massacre_in_war1"
@@ -34,7 +33,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 2224
+	id = 12301
 	fire_only_once = yes
 		major = yes
 	title = "2224title"
@@ -104,7 +103,7 @@ country_event = {
          }
 }
 country_event = {
-	id = 2225
+	id = 12302
 	fire_only_once = yes
 		major = yes
 	title = "2225title"
@@ -121,4 +120,43 @@ country_event = {
 		name = "2225option"
 		CJC = { load_oob = "Amry_in_jd.txt" }
 	}
+}
+country_event = {
+	id = 12303
+	fire_only_once = yes
+	title = "Event12303title"
+	subtitle = "Event12303subtitle"
+	desc = "Event12303decs"
+	picture = "massacre_in_war3"
+	trigger = {
+		tag = CHI
+		year = 1939
+        has_country_flag = jap_seizes_coast_chi
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+	option = {
+		name = "Event12303option"
+         9478 = { industry = -1 
+		          infra = -3
+				  }
+                CGX = { country_event = 12304 }
+                CYN = { country_event = 12304 }
+                CSY = { country_event = 12304 }
+                CHC = { country_event = 12304 }
+		ai_chance = { factor = 100 }
+       	}
+}
+country_event = {
+	id = 12304
+	is_triggered_only = yes
+	title = "Event12303title"
+	subtitle = "Event12303subtitle"
+	desc = "Event12303decs"
+	picture = "massacre_in_war3"
+	option = {
+		name = "Event12303option"
+		ai_chance = { factor = 100 }
+       	}
 }

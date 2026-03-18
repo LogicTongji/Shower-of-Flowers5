@@ -238,7 +238,7 @@ corps = {
 				regiment = { type = infantry_brigade experience = 15 historical_model = 2 }
 			}
 		corps = {
-			name = "第20军（忽略川军）"
+			name = "第20军"
 			location = 5542
 			regiment = { type = hq_brigade name = "第20军指挥部" historical_model = 0 }
 			division= {

@@ -529,7 +529,8 @@ regiment = { type = infantry_brigade name = "补充旅" experience = 20 historical_
 regiment = { type = infantry_brigade name = "补充旅" experience = 20 historical_model = 2 }
 regiment = { type = infantry_brigade name = "补充旅" experience = 20 historical_model = 2 }
                     }  
-           }                   
+           }    
+	}
 army = {    
         name = "陆军第38集团军"
         location = 5334 

@@ -1041,7 +1041,7 @@ armygroup = {
 			}
 		}
 	 	corps = {
-			name = "第6熊本甲种师团'明'" #调18军
+			name = "第6熊本甲种师团'明'" 
 			location = 7516
 			regiment = { type = hq_brigade experience = 30 historical_model = 3 }
 				regiment = { type = field_battalion experience = 20 name = "特战部队" historical_model = 3 }	
@@ -1600,6 +1600,7 @@ armygroup = {
 		regiment = { type = garrison_brigade experience = 60 historical_model = 4 }
 		regiment = { type = police_brigade historical_model = 0 }
 	}
+}
 }
 }
 theatre = {

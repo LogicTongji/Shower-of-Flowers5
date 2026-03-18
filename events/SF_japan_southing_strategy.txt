@@ -71,11 +71,11 @@ country_event = {
 	picture = "JAP_Flag"
 	option = {
 		name = "JAP_Event_decs390095option"
-   FRA = { laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
-   FRA = { cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
-   FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
-   FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
-   FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP change_controller = FRA }
+   FRA = { laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = JAP }
+   FRA = { cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = JAP }
+   FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = JAP }
+   FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = JAP }
+   FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP change_controller = JAP }
    JAP = {
 any_owned = { limit = { province_id = 7643 } secede_province = SIA } 
 any_owned = { limit = { province_id = 7668 } secede_province = SIA }

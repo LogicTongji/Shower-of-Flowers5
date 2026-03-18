@@ -485,6 +485,14 @@ theatre = {
 						regiment = { type = alpine_artillery_brigade name = "山炮第52联队" historical_model = 4 }
 					}
 				}
+	division = {
+		name = "那霸守备部队"
+		location = 5759
+		regiment = { type = garrison_brigade experience = 35 name = "那霸守备第1联队" historical_model = 4 }
+		regiment = { type = garrison_brigade experience = 35 name = "那霸守备第2联队" historical_model = 4 }
+		regiment = { type = garrison_brigade experience = 35 name = "那霸守备第3联队" historical_model = 4 }
+		regiment = { type = police_brigade historical_model = 0 }
+	}	
 	division= {
 		name = "威克岛登陆部队"
 		location = 10664
@@ -1495,16 +1503,7 @@ armygroup = {
 		regiment = { type = garrison_brigade historical_model = 2 }
 		regiment = { type = garrison_brigade historical_model = 2 }
 		regiment = { type = police_brigade historical_model = 0 }
-	}
-	division = {
-		name = "那霸守备部队"
-		location = 5759
-		regiment = { type = garrison_brigade experience = 35 name = "那霸守备第1联队" historical_model = 4 }
-		regiment = { type = garrison_brigade experience = 35 name = "那霸守备第2联队" historical_model = 4 }
-		regiment = { type = garrison_brigade experience = 35 name = "那霸守备第3联队" historical_model = 4 }
-		regiment = { type = police_brigade historical_model = 0 }
-	}	
-}
+   }
 	army = {
 		name = "第23军"
 		location = 5834 # Guangzhou, China

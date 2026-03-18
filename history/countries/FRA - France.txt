@@ -376,11 +376,10 @@ civil_law = open_society
 	oob = "FRA_1940.txt"
 	
 }
-1940.6.18={
+1940.6.18 = {
 	decision = shame_of_defeat
 	set_country_flag = fr_signs_peace
-	set_country_flag = FreeFra_in_africa
-                set_global_flag = France_lose	
+	set_global_flag = FreeFra_in_africa
 }
 1941.6.22 = {
 	government_in_exile = yes

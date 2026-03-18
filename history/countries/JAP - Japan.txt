@@ -928,6 +928,11 @@ set_global_flag = SF_anti_japanese_war
 	set_global_flag = wangweizf
 	set_country_flag = independent_WJW
 }
+
+1940.9.22 = {
+set_global_flag = JAP_invasion_indochina
+}
+
 1941.6.22 = {
 	head_of_state = 5001
 	head_of_government = 5042

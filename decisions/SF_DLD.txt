@@ -9,6 +9,8 @@ diplomatic_decisions = {
 	            war_with = GER }	
 	   date = 1947.6.1  
 	   NOT = { exists = IND }
+	   has_global_flag = JAP_Lost
+               has_global_flag = GER_Lost
 		}
 		allow = {
 	    not = { war_with = SOV }

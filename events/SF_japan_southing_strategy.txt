@@ -5,7 +5,7 @@
 country_event = {
           id = 390090
           is_triggered_only = yes
-          title = "组建南方军"
+          title = "JAP_Event_title300"
           desc = "JAP_Event_decs300"
           picture = "JAP_Flag"
           option = {
@@ -60,4 +60,35 @@ fire_only_once = yes
 		name = "JAP_Event_decs298option"
                 national_unity = 5
 	}
-}                                
+}   
+#进驻印支
+country_event = {
+	id = 390095
+	major = yes
+    is_triggered_only = yes
+	title = "JAP_Event_title390095"
+	desc = "JAP_Event_decs390095"
+	picture = "JAP_Flag"
+	option = {
+		name = "JAP_Event_decs390095option"
+   FRA = { laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
+   FRA = { cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
+   FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
+   FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP  change_controller = FRA }
+   FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAP change_controller = FRA }
+   JAP = {
+any_owned = { limit = { province_id = 7643 } secede_province = SIA } 
+any_owned = { limit = { province_id = 7668 } secede_province = SIA }
+any_owned = { limit = { province_id = 7651 } secede_province = SIA }
+any_owned = { limit = { province_id = 7678 } secede_province = SIA }
+any_owned = { limit = { province_id = 7709 } secede_province = SIA }
+any_owned = { limit = { province_id = 6178 } secede_province = SIA }
+any_owned = { limit = { province_id = 6186 } secede_province = SIA }
+any_owned = { limit = { province_id = 7714 } secede_province = SIA }
+any_owned = { limit = { province_id = 7718 } secede_province = SIA }
+any_owned = { limit = { province_id = 7712 } secede_province = SIA }
+any_owned = { limit = { province_id = 7715 } secede_province = SIA }
+}
+          national_unity = 5
+	}
+}  

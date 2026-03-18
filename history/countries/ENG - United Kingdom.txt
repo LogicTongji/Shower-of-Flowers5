@@ -487,7 +487,7 @@ civil_law = open_society
 	construction_practical = 5
 	officers_ratio = 1.0
 }
-1940.4.10={
+1940.4.10 = {
 	set_country_flag = uk_occupation_of_iceland_and_greenland
 }
 1940.5.10 = {
@@ -558,7 +558,7 @@ civil_law = open_society
 	strategic_bombardment_tactics = 3
 	construction_practical = 5
 }
-1940.6.17={
+1940.6.17 = {
 	decision = our_finest_hour
 }
 1941.6.22 = {

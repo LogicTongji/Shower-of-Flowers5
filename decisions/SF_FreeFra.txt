@@ -8,14 +8,14 @@ diplomatic_decisions = {
 			not = { has_country_flag = FreeFra_in_africa } 
 			OR = {
 			FRA = { government_in_exile = yes }
-			has_global_flag = France_lose
+			has_country_flag = fr_signs_peace
 			}
 		}
 		allow = {
 		      war_with = GER
 		}
 		effect = {
-			set_country_flag = FreeFra_in_africa	
+			set_global_flag = FreeFra_in_africa	
 		  national_unity = 40
 			     }			
 		ai_will_do = {
@@ -29,7 +29,7 @@ diplomatic_decisions = {
 			not = { has_global_flag = FreeFra_in_africa2 } 
 			OR = {
 			FRA = { government_in_exile = yes }
-			has_global_flag = France_lose
+			has_country_flag = fr_signs_peace
 			}
 			has_country_flag = FreeFra_in_africa
 		}
@@ -196,7 +196,7 @@ diplomatic_decisions = {
 			has_global_flag = FreeFra1
 			OR = {
 			FRA = { government_in_exile = yes }
-			has_global_flag = France_lose
+			FRA = { has_country_flag = fr_signs_peace }
 			}
 		      war_with = GER
 		      has_global_flag = FreeFra_in_africa
@@ -214,10 +214,9 @@ diplomatic_decisions = {
 		major = yes
 		potential = {
 			tag = USA
-			has_global_flag = France_lose
+			FRA = { has_country_flag = fr_signs_peace }
 			not = { has_global_flag = USA_OSS_OIW } 
 			has_global_flag = FreeFra1
-			has_global_flag = France_lose
 		   }
 		   allow = {
 	       war = no
@@ -236,10 +235,9 @@ diplomatic_decisions = {
 		major = yes
 		potential = {
 			tag = ENG
-			has_global_flag = France_lose
+			FRA = { has_country_flag = fr_signs_peace }
 			not = { has_global_flag = ENG_soe } 
 			has_global_flag = FreeFra1
-			has_global_flag = France_lose
 		   }
 		   allow = {
 	       war = yes

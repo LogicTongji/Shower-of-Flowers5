@@ -1,4 +1,4 @@
-ttheatre= {
+theatre= {
 	name = "国民政府军事委员会"
 	location = 5494
 	regiment = { type = hq_brigade name = "国民党中央军委" historical_model = 1 }

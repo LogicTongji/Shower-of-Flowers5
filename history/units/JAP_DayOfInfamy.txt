@@ -1504,7 +1504,6 @@ theatre = {
 				regiment = { type = cavalry_brigade historical_model = 0 }
 			}
 		}
-	}
 air = {	
 	name = "关东军第2飞行集团"
 	base = 10651

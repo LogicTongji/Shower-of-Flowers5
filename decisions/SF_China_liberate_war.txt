@@ -142,7 +142,10 @@ diplomatic_decisions = {
 		potential = {
 			tag = CXK  
 			exists = CHI	
-      war_with = CHI 		    
+			OR = {
+			CHC = { war_with = CHI  }
+			PRC = { war_with = CHI  }
+			}		    
 		}
 		allow = {
 		has_global_flag = China_CivilWar

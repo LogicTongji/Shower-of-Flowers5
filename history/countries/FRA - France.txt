@@ -380,6 +380,7 @@ civil_law = open_society
 	decision = shame_of_defeat
 	set_country_flag = fr_signs_peace
 	set_global_flag = FreeFra_in_africa
+	set_country_flag = FreeFra1
 }
 1941.6.22 = {
 	government_in_exile = yes

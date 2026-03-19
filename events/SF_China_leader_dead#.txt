@@ -105,7 +105,7 @@ country_event = {
 	desc = "3224decs"
 	picture = "CHI_flag"
 	option = {
-		name = "32223OP"                			           	
+		name = "32225OP"                			           	
 	}
 }   
 country_event = {

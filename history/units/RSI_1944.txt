@@ -13,14 +13,14 @@ division= {
 division = {
 	name = "第3'圣马可'师"
 	location = 3559
-	regiment = { type = elite_infantry_brigade name = "第5步兵团" historical_model = 8 }
-	regiment = { type = elite_infantry_brigade name = "第6步兵团" historical_model = 8 }
+	regiment = { type = camicie_nere_brigade name = "第5步兵团" historical_model = 8 }
+	regiment = { type = camicie_nere_brigade name = "第6步兵团" historical_model = 8 }
 }
 division = {
 	name = "第4'意大利'师"
 	location = 3559
-	regiment = { type = elite_infantry_brigade name = "第7贝尔萨格里步兵团" historical_model = 9 }
-	regiment = { type = elite_infantry_brigade name = "第8步兵团" historical_model = 8 }
+	regiment = { type = camicie_nere_brigade name = "第7贝尔萨格里步兵团" historical_model = 9 }
+	regiment = { type = camicie_nere_brigade name = "第8步兵团" historical_model = 8 }
 }
 division = {
 	name = "第5师"

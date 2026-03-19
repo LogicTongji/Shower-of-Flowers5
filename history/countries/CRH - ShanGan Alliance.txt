@@ -2,8 +2,8 @@
 capital = 4979
 government = chinese_warlord
 ideology = paternal_autocrat
-head_of_state = 3000051
-head_of_government = 3000050
+head_of_state = 3000050
+head_of_government = 3000051
 foreign_minister = 3000052
 armament_minister = 3000051
 minister_of_security = 3000053

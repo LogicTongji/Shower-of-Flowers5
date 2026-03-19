@@ -34,7 +34,7 @@ country_event = {
 	picture = "CHI_flag"
 	option = {
 		name = "EVENT3100102op"
-		CSC = { country_event = 190019 }
+		CSC = { country_event = 290019 }
                 national_unity = 5
         }
 }

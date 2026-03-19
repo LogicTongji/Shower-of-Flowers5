@@ -225,7 +225,7 @@ diplomatic_decisions = {
 		      has_global_flag = FreeFra_in_africa
 		}
 		effect = {
-			set_global_global_flag = USA_OSS_OIW
+			set_global_flag = USA_OSS_OIW
 			     }			
 		ai_will_do = {
 			factor = 1
@@ -247,7 +247,7 @@ diplomatic_decisions = {
 		      has_global_flag = FreeFra_in_africa
 		}
 		effect = {
-			set_global_global_flag = ENG_soe
+			set_global_flag = ENG_soe
 			     }			
 		ai_will_do = {
 			factor = 1
@@ -260,7 +260,7 @@ diplomatic_decisions = {
 			tag = USA
 		 has_global_flag = GER_Lost
 			not = { has_country_flag = CIA } 
-			has_global_global_flag = USA_OSS_OIW
+			has_global_flag = USA_OSS_OIW
 	       war = no
 		}
 		effect = {

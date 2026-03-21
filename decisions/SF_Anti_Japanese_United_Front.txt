@@ -46,20 +46,17 @@ diplomatic_decisions = {
 			not = { has_global_flag = the_china_united_front }
 			exists = CHC
 			not = { war_with = CHC }
-			has_global_flag = Yanan_conversation1
 			has_country_flag = CHI_Kangzhan
 			has_global_flag = luochuan_meeting
 		}
 		allow = {
 			CHI = {
-			has_country_flag = KRJW
 				not = { vassal_of = JAP }
 			}
 		}
 		effect = {
 			set_global_flag = the_china_united_front
 			national_unity = 5
-		  country_event = 206 
 			CHC = { country_event = 1000029 }
 		}
 		ai_will_do = {

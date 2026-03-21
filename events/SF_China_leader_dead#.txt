@@ -47,7 +47,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "32223OP"   
+		name = "3223OP"   
                 kill_leader = 50089                                   
 	}
 }
@@ -115,7 +115,7 @@ country_event = {
 	desc = "3223decs"
 	picture = "CHI_flag"
 	option = {
-		name = "32223OP"                			           	
+		name = "3223OP"                			           	
 	}
 } 
 country_event = {
@@ -148,7 +148,7 @@ country_event = {
 	desc = "3225decs"
 	picture = "CHI_flag"
 	option = {
-		name = "32223OP"                			           	
+		name = "3224OP"                			           	
 	}
 }
 country_event = {
@@ -221,7 +221,7 @@ country_event = {
 	desc = "3228decs"
 	picture = "CH_flag"
 	option = {
-		name = "32223OP"                			           	
+		name = "3228OP"                			           	
 	}
 }
 country_event = {
@@ -232,6 +232,6 @@ country_event = {
 	desc = "32228decs"
 	picture = "CHC_flag"
 	option = {
-		name = "32223OP"                			           	
+		name = "3228OP"                			           	
 	}
 }

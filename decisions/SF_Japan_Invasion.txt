@@ -30,6 +30,7 @@ diplomatic_decisions = {
 			set_global_flag = SF_anti_japanese_war
 			JAP = { country_event = 390103 }
 			5315 = { province_event = 190027 }
+			officer_pool = 5000
 		}
 		ai_will_do = {
 			factor = 1
@@ -50,45 +51,19 @@ diplomatic_decisions = {
 			has_country_flag = Japan_Preparing_3
 			has_global_flag = CHI_Event_1000021
 			not = { has_global_flag = Event10000272 }
-			CHI = { not = { has_country_flag = Chinese_Counterattack } }
 		}
 		allow = {
+		JAP = { 
+			controls = 5018
+			controls = 4979 
+			}
 			not = { alliance_with = CHI }
 			date = 1937.8.13
 		}
 		effect = {
 			set_country_flag = shanghai_incident
 			JAP = { country_event = 1000019 }
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-
-
-	shanghai_incident2 = {
-		major = yes
-		potential = {
-			tag = JAP
-			not = { has_country_flag = shanghai_incident }
-			exists = CHI
-			not = { vassal_of = CHI }
-			CHI = {
-				not = { vassal_of = JAP }
-			}
-			not = { controls = 5542 }	
-			has_country_flag = Japan_Preparing_3
-			has_global_flag = CHI_Event_1000021
-			not = { has_global_flag = Event10000272 }
-			CHI = { has_country_flag = Chinese_Counterattack }
-		}
-		allow = {
-			not = { alliance_with = CHI }
-			date = 1937.8.13
-		}
-		effect = {
-			set_country_flag = shanghai_incident
-			JAP = { country_event = 1011019 }
+			officer_pool = 5000
 		}
 		ai_will_do = {
 			factor = 1

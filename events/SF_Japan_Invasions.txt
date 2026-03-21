@@ -155,26 +155,6 @@ country_event = {
 		dissent = -10
 		CHI = { country_event = 1000020 }
 		CHC = { country_event = 1000022 }
-		CSD = { national_unity = -40 }
-		load_oob = "JAP_Shanghai.txt"
-		add_country_modifier = {
-			name = "Japan_Correct"
-			duration = 30
-		}
-	}
-}
-country_event = {
-	id = 1011019
-	is_triggered_only = yes
-	title = "Shanghai_Invasion"
-	desc = "Shanghai_Invasion_desc"
-	picture = "SF_Japan_Invasions5"
-	option = {
-		name = "Shanghai_Invasion_option"
-		dissent = -10
-		CHI = { country_event = 1011020 }
-		CHC = { country_event = 1011022 }
-		CSD = { national_unity = -40 }
 		load_oob = "JAP_Shanghai.txt"
 		add_country_modifier = {
 			name = "Japan_Correct"
@@ -197,30 +177,6 @@ country_event = {
 }
 country_event = {
 	id = 1000022
-	is_triggered_only = yes
-	title = "Shanghai_Invasion_China"
-	subtitle = "Shanghai_Invasion_China_subtitle"
-	desc = "Shanghai_Invasion_China_desc"
-	picture = "SF_Japan_Invasions6"
-	option = {
-		name = "Shanghai_Invasion_China_option"
-		set_country_flag = CHC_Kangzhan
-	}
-}
-country_event = {
-	id = 1011020
-	is_triggered_only = yes
-	title = "Shanghai_Invasion_China"
-	subtitle = "Shanghai_Invasion_China_subtitle"
-	desc = "Shanghai_Invasion_China_desc"
-	picture = "SF_Japan_Invasions6"
-	option = {
-		name = "Shanghai_Invasion_China_option"
-		set_country_flag = CHI_Kangzhan
-	}
-}
-country_event = {
-	id = 1011022
 	is_triggered_only = yes
 	title = "Shanghai_Invasion_China"
 	subtitle = "Shanghai_Invasion_China_subtitle"

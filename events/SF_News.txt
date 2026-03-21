@@ -1227,7 +1227,6 @@ country_event = {
 	option = {
 		name = "QGHOP"  
 		national_unity = 2  
-		 set_global_flag = Yanan_conversation1 
 		   add_country_modifier = {
 			name = "TGconversation_modifier"
 			duration = 200

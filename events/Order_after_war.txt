@@ -11,16 +11,10 @@ country_event = {
 		tag = GER
 		OR = {
 		FROM = { 
-		TAG = SOV 
+		faction = allies 
 		   }
 		   FROM = { 
-		TAG = USA 
-		   }
-		   FROM = { 
-		TAG = ENG
-		   }
-		   FROM = { 
-		TAG = CHI 
+		comintern
 		   }
 		}
 		not = { has_global_flag = GER_Lost }
@@ -31,6 +25,7 @@ country_event = {
 			SF_DDR_region = { secede_province = SOV }
 			SF_BRD_region = { secede_province = USA }
 			austria_region = { secede_province = ENG }
+			set_global_flag = GER_Lost
 		}
 	}
 }
@@ -46,13 +41,10 @@ country_event = {
 		TAG = JAP
 		OR = {
 		FROM = { 
-		TAG = SOV 
+		faction = allies 
 		   }
 		   FROM = { 
-		TAG = USA 
-		   }
-		   FROM = { 
-		TAG = ENG
+		comintern
 		   }
 		}
 		not = { has_global_flag = JAP_Lost }
@@ -85,6 +77,7 @@ country_event = {
 			jiandao_region = { secede_province = SOV }
 			andong_region = { secede_province = SOV }
 			}
+			set_global_flag = JAP_Lost
 	}
 }
 #对支议和

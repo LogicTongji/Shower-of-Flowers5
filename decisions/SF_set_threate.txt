@@ -152,6 +152,7 @@ diplomatic_decisions = {
 			tag = CHI
 			 not = {
 		        war_with = CHC 
+				year = 1944
 		        }
 				has_country_flag = CHI_Kangzhan
                         date = 1938.1.13

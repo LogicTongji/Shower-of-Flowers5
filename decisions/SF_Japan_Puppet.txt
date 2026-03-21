@@ -107,6 +107,7 @@ diplomatic_decisions = {
 				controls = 5275
 				controls = 5246
 				controls = 5174
+				controls = 5018
 			}
 			not = { has_country_flag = independent_CHB }
 			NOT = { exists = CSD }

@@ -23,19 +23,9 @@ country_event = {
                 controls = 1694
                 controls = 3581
                 }
-                OR = {
-                USA = { 
+                not = {
+                GER = { 
                 controls = 2613
-                controls = 2422
-                controls = 2482
-                }
-                                ENG = { 
-               controls = 2613
-                controls = 2422
-                controls = 2482
-                }
-                                FRA = { 
-               controls = 2613
                 controls = 2422
                 controls = 2482
                 }

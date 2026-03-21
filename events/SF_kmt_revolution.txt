@@ -136,3 +136,14 @@ country_event = {
         ai_chance = { factor = 100 }
     }
 }
+country_event = {
+    id = 12241
+    is_triggered_only = yes
+    title = "chi_gov_revolution8title"
+    desc = "chi_gov_revolution8desc"
+    picture = "chi_gov_revolution8picture"
+    option = {
+        name = "chi_gov_revolution8_option"
+        ai_chance = { factor = 100 }
+    }
+}

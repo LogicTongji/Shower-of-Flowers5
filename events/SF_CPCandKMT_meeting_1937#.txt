@@ -106,7 +106,6 @@ country_event = {
 		name = "205option"	
 		 national_unity = 1
     dissent = -10
-    CHI = { set_country_flag = KRJW }
 		relation = { who = CHI value = 100 }
 	}
 }

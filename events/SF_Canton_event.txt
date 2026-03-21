@@ -64,7 +64,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "Event1000097title"
 	desc = "Event1000097desc"
-	picture = "Guangdong_event3"
+	picture = "Guangdong_event2"
 	option = {
 		name = "Event1000097option1"
 		CGD = {	war = {	target = CHN } attacker_goal = { casus_belli = conquer } defender_goal = { casus_belli = conquer } }
@@ -154,7 +154,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "Event1000104title"
 	desc = "Event1000104desc"
-	picture = "Guangdong_event6"
+	picture = "china_surrendered"
 	option = {
 		  name = "Event1000104option"
 		  national_unity = 2
@@ -166,7 +166,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "Event1000106title"
 	desc = "Event1000106desc"
-	picture = "Guangdong_event7"
+	picture = "china_surrendered"
 	option = {
 		  name = "Event1000106option"
 		  ai_chance = { factor = 100 }

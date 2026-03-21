@@ -127,7 +127,7 @@ country_event = {
 	title = "Event12303title"
 	subtitle = "Event12303subtitle"
 	desc = "Event12303decs"
-	picture = "massacre_in_war3"
+	picture = "massacre_in_war4"
 	trigger = {
 		tag = CHI
 		year = 1939
@@ -138,9 +138,12 @@ country_event = {
         }
 	option = {
 		name = "Event12303option"
-         9478 = { industry = -1 
-		          infra = -3
-				  }
+         9478 = { 
+			add_province_modifier = {
+				name = "Boom_ChongQing_modifier"
+				duration = -1
+			}
+		}
                 CGX = { country_event = 12304 }
                 CYN = { country_event = 12304 }
                 CSY = { country_event = 12304 }
@@ -154,7 +157,7 @@ country_event = {
 	title = "Event12303title"
 	subtitle = "Event12303subtitle"
 	desc = "Event12303decs"
-	picture = "massacre_in_war3"
+	picture = "massacre_in_war4"
 	option = {
 		name = "Event12303option"
 		ai_chance = { factor = 100 }

@@ -1,33 +1,4 @@
 
-#ÄªË¹¿ÆÐûÑÔ
-country_event = {
-        major = yes
-        fire_only_once = yes
-	id = 80009
-	title = "MS091title"
-	desc = "MS091decs"
-	picture = "Event3000083"
-	trigger = {		
-                tag = SOV
-                exists = SOV
-                exists = CHI
-                exists = ENG
-                exists = USA
-                has_global_flag = against_germany
-                has_global_flag = JAPsouthing
-                SOV = { controls = 1409 }
-	}
-        mean_time_to_happen =  {
-	        days = 1
-        }
-	option = {
-		name = "4option1"
-    set_global_flag = EventMCD  
-                JAP = { country_event = 80011 }
-                CHI = { country_event = 80012 }
-		ai_chance = { factor = 100 }
-       	}
-}
 country_event = {
         major = yes
         fire_only_once = yes
@@ -39,7 +10,13 @@ country_event = {
                 tag = USA
 		year = 1943
                 exists = CHI
-                has_global_flag = EventMCD
+				exists = ENG
+				exists = FRA
+				exists = SOV
+				not = {
+				has_global_flag = JAP_Lost
+				has_global_flag = GER_Lost
+				}
                 has_global_flag = JAPsouthing
                 CHI = { controls = 9478 }
                  SOV = { controls = 1409 }
@@ -85,17 +62,18 @@ country_event = {
 	}
 }
 country_event = {
-        major = yes
         fire_only_once = yes
 	id = 80013
 	title = "31title"
 	desc = "31decs"
 	picture = "Event3000083"
 	trigger = {		
-                tag = USA
                 exists = CHI
                 exists = SOV
-		not = { exists = GER }
+				has_global_flag = GER_Lost
+		not = {
+				has_global_flag = JAP_Lost
+				}
                 has_global_flag = JAPsouthing
                 CHI = { controls = 9478 }
 	}
@@ -104,44 +82,8 @@ country_event = {
         }
 	option = {
 		name = "4option1"
-                JAP = { country_event = 80014 }
-                CHI = { country_event = 80015 }
 		ai_chance = { factor = 100 }
        	}
-}
-country_event = {
-	id = 80015
-       	is_triggered_only = yes
-	title = "31title"
-	desc = "31decs"
-	picture = "Event1100101"
-	option = {
-		name = "31OOP"
-                national_unity = 20
-                dissent = -10	
-		relation = { who = USA value = 100 }
-	}
-}
-country_event = {
-	id = 80014
-       	is_triggered_only = yes
-	title = "31title"
-	desc = "31decs"
-	picture = "Event1100101"
-	option = {
-		name = "31oop"
-                national_unity = 20
-                dissent = 30	
-		relation = { who = USA value = -100 }
-                ai_chance = { factor = 100 }
-	}
-        option = {
-		name = "31oop2"
-                national_unity = -100
-                dissent = 30	
-		relation = { who = USA value = -100 }
-                ai_chance = { factor = 0 }
-	}
 }
 country_event = {
 	id = 80016
@@ -178,9 +120,9 @@ country_event = {
 	trigger = {		
                 tag = SOV
                 exists = CHI
-		not = { exists = GER }
                 has_global_flag = Event80
 				has_global_flag = Yaert
+				has_global_flag = GER_Lost
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -203,7 +145,7 @@ country_event = {
 	is_triggered_only = yes
 	option = {
 		name = "61oop2"
-                national_unity = 20
+                national_unity = -95
                 dissent = 30
 	}
 }
@@ -216,7 +158,6 @@ country_event = {
 	desc = "MS09decs"
 	picture = "Event3000083"
 	trigger = {		
-                tag = ENG
               has_global_flag = GER_Lost 
 
 	}
@@ -238,7 +179,6 @@ country_event = {
 	desc = "MS091decs"
 	picture = "Event3000083"
 	trigger = {		
-                tag = USA
                	has_global_flag = JAP_Lost
 
 	}

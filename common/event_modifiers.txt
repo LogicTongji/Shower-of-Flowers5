@@ -3027,3 +3027,11 @@ supply_throughput = 0.55
 land_organisation = 0.45
 icon = 5
 }
+
+#province
+Boom_ChongQing_modifier = {
+    local_manpower_modifier = -0.05
+	local_resources = -0.15
+	local_ic = -0.55
+	local_leadership_modifier = -0.15
+}

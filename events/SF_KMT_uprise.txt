@@ -61,7 +61,6 @@ country_event = {
      set_global_flag = China_CivilWar_Yunnan 
        	}
 }
-}
 #πÛ÷›∆“Â
 country_event = {
 	id = 80192
@@ -177,6 +176,7 @@ country_event = {
 	picture = "CHC_flag"
 	trigger = {
 		tag = CHC
+		not = { exists = PRC }
 		has_global_flag = China_CivilWar
 		has_global_flag = China_CivilWar4
 	}

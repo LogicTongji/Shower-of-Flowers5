@@ -2629,14 +2629,6 @@ Event19365_modifier = {
 	counter_espionage = 0.1 
         global_revolt_risk = -0.1 
 }
-Event19369_modifier = {
-	dissent = 0.5 
-        territorial_pride = -0.1 
-        suseptibility = 0.1 
-        ruling_party_support = -0.1 
-        counter_espionage = -0.1 
-        global_revolt_risk = 0.5 
-}
 Event193611_modifier = {
 	dissent = 0.05
 }
@@ -2756,27 +2748,6 @@ EVENT_15000_MODIFIER = {
 counter_espionage = -0.1 
 global_resources = -0.1  
 global_manpower_modifier = -0.1 
-	icon = 5
-}
-NOconversation_modifier = {
-              land_organisation = -0.15 
-              org_regain = -0.1 
-              war_consumer_goods_demand = 0.3
-              land_build_speed = 0.1 
-              territorial_pride = 0.1
-              ruling_party_support = 0.1 
-counter_espionage = -0.1 
-global_resources = -0.1  
-global_manpower_modifier = -0.1 
-	icon = 5
-}
-TGconversation_modifier = {
-              dissent = -0.1 
-ruling_party_support = 0.1 
-global_resources = 0.1 
-global_leadership_modifier = 0.15
-
-	amm_movement_speed = 0.1
 	icon = 5
 }
 EYOUJQZB_MODIFIER = {
@@ -3009,12 +2980,6 @@ dissent = -0.35
 land_organisation = 0.15
 icon = 5
 }
-henan_famine_modifier = {
-org_regain = -0.05
-supply_throughput = -0.1
-dissent = 0.03
-icon = 5
-}
 Anti_guangxi_modifier = {
 org_regain = 0.95
 land_organisation = 0.95
@@ -3034,4 +2999,11 @@ Boom_ChongQing_modifier = {
 	local_resources = -0.15
 	local_ic = -0.55
 	local_leadership_modifier = -0.15
+}
+henan_famine_modifier = {
+    local_manpower_modifier = -0.35
+	local_resources = -0.55
+	local_ic = -0.55
+	local_unit_speed = 0.15
+	local_defensiveness = -1
 }

@@ -1,4 +1,45 @@
 #øπ’Ω’Ω¬‘
+#±£Œ¿Œ‰∫∫
+country_event = {
+	id = 390306
+	fire_only_once = yes
+	title = "event0015"
+	desc = "eventdesc0015"
+	picture = "news_picture9"
+	trigger = {
+		tag = CHI
+		not = { JAP = { controls = 7508 }
+		        CJS = { controls = 7508 }
+		        WJW = { controls = 7508 } }
+    not = { 
+	has_country_flag = jap_seizes_coast_chi
+	has_global_flag = JAP_Lost
+	CHI = { controls = 5494 } 
+	      }
+	}
+	option = {
+		name = "eventname0015"
+		set_country_flag = event0015
+		  CHC = { country_event = 390307 }
+    CGX = { country_event = 390307 }
+    CYN = { country_event = 390307 }
+    CSY = { country_event = 390307 }
+    CSX = { country_event = 390307 }
+    CNM = { country_event = 390307 }  
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 390307
+	major = yes
+  is_triggered_only = yes
+	title = "event0015"
+	desc = "eventdesc0015"
+	picture = "news_picture9"
+	option = {
+		name = "eventname0015"	
+	}		
+
 country_event = {
 	id = 8331
 	major = yes
@@ -18,7 +59,7 @@ country_event = {
     CSY = { country_event = 8334 }
     CQM = { country_event = 8334 }
     CNM = { country_event = 8334 }  
-		
+	CSX = { country_event = 8334 } 	
 	}		
 }
 country_event = {

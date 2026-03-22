@@ -2,26 +2,26 @@
 country_event = {
 	id = 390022
 	fire_only_once = yes
-	title = "MXERtitle"
-	desc = "MXERdecs"
+	title = "China_librate_war1title"
+	desc = "China_librate_war1decs"
 	picture = "China_librate_war1picture"
 	trigger = {
 		tag = USA
 		has_global_flag = China_CivilWar
 		has_global_flag = Chongqing_negotiations   
-    date = 1946.6.1
      not = { year = 1947 }
 	}
         mean_time_to_happen =  {
 	        days = 1
     }
 	option = {
-		name = "MXERoption1"
+		name = "China_librate_war1option1"
 	CHI = { country_event = 8016 }
+	CHC = { country_event = 8016 }
 		ai_chance = { factor = 100 }
        	}
 	option = { 
-		name = "MXERoption2"
+		name = "China_librate_war1option2"
 		ai_chance = { factor = 0 }
 	}
 }
@@ -29,11 +29,11 @@ country_event = {
 	id = 8016
 		is_triggered_only = yes
 			major = yes
-	title = "MXER2title"
-	desc = "MXER2decs"
-	picture = "China_librate_war1picture"
+	title = "China_librate_war2title"
+	desc = "China_librate_war2decs"
+	picture = "China_librate_war2picture"
 	option = {
-		name = "MXER2option1"
+		name = "China_librate_war2option1"
 ai_chance = { factor = 100 }
 	}
 }
@@ -41,9 +41,9 @@ country_event = {
 	id = 390020
 	major = yes
 	fire_only_once = yes
-	title = "MXER3title"
-	desc = "MXER3decs"
-	picture = "China_librate_war1picture"
+	title = "China_librate_war3title"
+	desc = "China_librate_war3decs"
+	picture = "China_librate_war3picture"
 	trigger = {
 		tag = USA
 		has_global_flag = China_CivilWar
@@ -56,7 +56,8 @@ country_event = {
 	        days = 1
     }
 	option = {
-		name = "MXER3option1"
+		name = "China_librate_war3option1"
+		set_global_flag = banning_gun_to_China
 	relation = { who = CHI value = -150 }
 		ai_chance = { factor = 100 }
 
@@ -64,26 +65,37 @@ country_event = {
 }
 country_event = {
 	id = 390021
-	major = yes
 	fire_only_once = yes
-	title = "WAR3title"
-	desc = "WAR3decs"
-	picture = "China_librate_war1picture"
+	title = "China_librate_war4title"
+	desc = "China_librate_war4decs"
+	picture = "China_librate_war4picture"
 	trigger = {
 		tag = CHI
 		has_global_flag = China_CivilWar
 		has_global_flag = Chongqing_negotiations   
-    date = 1946.10.5
+    has_global_flag = banning_gun_to_Chin
     not = { year = 1947 }
 	}
         mean_time_to_happen =  {
 	        days = 1
     }
 	option = {
-		name = "WAR3option1"
+		name = "China_librate_war4option1"
 	relation = { who = USA value = -150 }
-	dissent = 15
+	dissent = 5
 		ai_chance = { factor = 100 }
 
+	}
+}
+country_event = {
+	id = 390022
+		is_triggered_only = yes
+			major = yes
+	title = "China_librate_war4title"
+	desc = "China_librate_war4decs"
+	picture = "China_librate_war4picture"
+	option = {
+		name = "China_librate_war4option1"
+ai_chance = { factor = 100 }
 	}
 }

@@ -11,6 +11,7 @@ country_event = {
 	trigger = {
 		tag = CHI
         year = 1942
+		not = {year = 1945 }
 				has_country_flag = fall_mouth
 	}
         mean_time_to_happen =  {
@@ -18,9 +19,11 @@ country_event = {
         }
 	option = {
 		name = "henan_famineoption1"
-                 add_country_modifier = {
-			name = "henan_famine_modifier"
-			duration = 1095
+          henan_region = { 
+			add_province_modifier = {
+				name = "henan_famine_modifier"
+				duration = 1095
+			}
 		}
 		ai_chance = { factor = 100 }
        	}

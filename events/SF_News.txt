@@ -192,27 +192,6 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
-#保卫武汉
-country_event = {
-	id = 390306
-	fire_only_once = yes
-	major = yes
-	title = "event0015"
-	desc = "eventdesc0015"
-	picture = "news_picture9"
-	trigger = {
-		tag = CHI
-		not = { JAP = { controls = 7508 }
-		        CJS = { controls = 7508 }
-		        WJW = { controls = 7508 } }
-    not = { CHI = { controls = 5494 } }
-	}
-	option = {
-		name = "eventname0015"
-		set_country_flag = event0015
-		ai_chance = { factor = 100 }
-	}
-}
 #日军毒气战
 country_event = {
 	id = 390307
@@ -1226,11 +1205,7 @@ country_event = {
 	}
 	option = {
 		name = "QGHOP"  
-		national_unity = 2  
-		   add_country_modifier = {
-			name = "TGconversation_modifier"
-			duration = 200
-	}		              
+		national_unity = 2                
 	}
 }
 #1938

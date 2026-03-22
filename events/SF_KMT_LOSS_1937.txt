@@ -10,7 +10,7 @@ country_event = {
 		war_with = JAP
 		not = { CHI = { controls = 5143 } }
 		not = { CHI = { controls = 5176 } }
-		not = { year = 1938 }
+		not = { has_country_flag = jap_seizes_coast_chi }
 	}
 	mean_time_to_happen =  {
 		days = 1
@@ -41,7 +41,7 @@ country_event = {
 				controls = 5599
 				controls = 14185
 			}
-		not = { year = 1938 }
+		not = { has_country_flag = jap_seizes_coast_chi }
 	}
 	mean_time_to_happen =  {
 		days = 2

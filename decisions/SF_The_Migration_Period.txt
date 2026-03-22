@@ -6,8 +6,8 @@ diplomatic_decisions = {
 			tag = CHI
                         exists = CHI
 			war_with = JAP
+			JAP = { has_country_flag = shanghai_incident }
 			not = { has_country_flag = The_Migration_Period_WuHan  } 
-			date = 1937.9.1
 			not = { year = 1938 } 
 		}
 		allow = {

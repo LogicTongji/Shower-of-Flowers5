@@ -180,7 +180,7 @@ alliance = {
 	first = CHC
 	second = CSX
 	start_date = 1937.9.2
-	end_date = 1949.1.1
+	end_date = 1940.1.1
 }
 #SF_øπ√¿‘Æ≥Ø
 alliance = {
@@ -198,6 +198,12 @@ alliance = {
 #1941
 alliance = {
 	first = ENG
+	second = CHI
+	start_date = 1941.6.1
+	end_date = 1945.9.1
+}
+alliance = {
+	first = USA
 	second = CHI
 	start_date = 1941.6.1
 	end_date = 1945.9.1

@@ -43,7 +43,6 @@ The_Migration_Period_education_modifier;大迁徙·教育内迁;;;;;;;;;;;;;x
 The_Migration_education2_education_modifier;国立西南联合大学;;;;;;;;;;;;;x
 Event19361_modifier;消极的对日态度;;;;;;;;;;;;;x
 Event19365_modifier;宪兵学校;;;;;;;;;;;;;x
-Event19369_modifier;消极的对日态度(2);;;;;;;;;;;;;x
 Event193611_modifier;王亚樵事件;;;;;;;;;;;;;x
 kuibai_modifier;大溃败;;;;;;;;;;;;;x
 Event00004_modifier;失败的抗战;;;;;;;;;;;;;x
@@ -74,11 +73,8 @@ JAP_ACT_BUFF;武士道;;;;;;;;;;;;;x
 CHI_PEOPE_BUFF;落后的国民思想;;;;;;;;;;;;;x
 JAP_JINGYUN_BUFF;英美的制裁;;;;;;;;;;;;;x
 usa_JINGYUN_BUFF;制裁日本;;;;;;;;;;;;;x
-PERPARKR_CHI;南京政府的抗日准备;;;;;;;;;;;;;x
-PERPARKR_CHC;中共中央的抗日准备;;;;;;;;;;;;;x
 TCNOLOGYPOLICE_modifier;清剿共匪;;;;;;;;;;;;;x
 POLICEDA_modifier;大扫荡;;;;;;;;;;;;;x
-SLZONGCU_modifier;四联总处;;;;;;;;;;;;;x
 CHI_DAILI_modifier;军统局;;;;;;;;;;;;;x
 CHC_DAILI_modifier;地下党;;;;;;;;;;;;;x
 SIAWAR_modifier;马虎山乱疆;;;;;;;;;;;;;x

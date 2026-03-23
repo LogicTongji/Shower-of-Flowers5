@@ -8,7 +8,7 @@ diplomatic_decisions = {
 			tag = CHC
 			year = 1936	
 			not = { 
-			year = 1945
+			year = 1937
 			has_country_flag = introduction_chc_1936 
 			} 
 		}
@@ -29,7 +29,7 @@ diplomatic_decisions = {
 			tag = CHI
 			year = 1936
 			not = { 
-			year = 1945
+			year = 1937
 			has_country_flag = introduction_chi_1936 
 			}  
 		}
@@ -54,12 +54,12 @@ diplomatic_decisions = {
 		potential = {
 			tag = JAP
 			or = {
-                             year = 1933
+            year = 1933
 			year = 1936
-			year = 1938
-			year = 1941
 			}
-			not = { has_country_flag = introduction_jap_1936 } 
+			not = { 
+			year = 1937
+			has_country_flag = introduction_jap_1936 } 
 		}
 		allow = {
 		}
@@ -163,6 +163,79 @@ diplomatic_decisions = {
 		effect = {
 			set_country_flag = introduction_chi_1933
 			country_event = 1001118
+			manpower = 1500
+			supplies = 15000
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	introduction_japa = {
+		potential = {
+			tag = JAP
+            or = {
+			 year = 1941
+			 year = 1944
+			}
+			not = { 
+			year = 1936
+			has_country_flag = introduction_jap_1940
+			} 
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = introduction_jap_1940
+			country_event = 1001121
+			supplies = 15000
+			manpower = 250
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	introduction_chca = {
+		potential = {
+			tag = CHC
+			or = {
+			 year = 1941
+			 year = 1944
+			}
+			not = { 
+			year = 1945
+			has_country_flag = introduction_chc_1940
+			} 
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = introduction_chc_1940
+			country_event = 1001120
+			supplies = 15000
+			manpower = 250
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	introduction_chia = {
+		potential = {
+			tag = CHI
+            or = {
+			 year = 1941
+			 year = 1944
+			}
+			not = { 
+			year = 1945
+			has_country_flag = introduction_chi_1940
+			}  
+		}
+		allow = {
+		}
+		effect = {
+			set_country_flag = introduction_chi_1940
+			country_event = 1001119
 			manpower = 1500
 			supplies = 15000
 		}

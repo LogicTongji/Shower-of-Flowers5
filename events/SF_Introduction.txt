@@ -64,7 +64,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	title = "introduction_chcw_title"
+	title = "introduction_chc_title"
 	subtitle = "introduction_chcw_subtitle"
 	desc = "introduction_chcw"
 	picture = "1946begin_CHC"
@@ -79,7 +79,7 @@ country_event = {
 	
 	is_triggered_only = yes
 	
-	title = "introduction_chiw_title"
+	title = "introduction_chi_title"
 	subtitle = "introduction_chiw_subtitle"
 	desc = "introduction_chiw"
 	picture = "1946begin_CHI"
@@ -115,6 +115,51 @@ country_event = {
 	picture = "1933begin_CHI"
 	option = {
 		name = "introduction_chi_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+
+	id = 1001119
+	
+	is_triggered_only = yes
+	
+	title = "introduction_chi_title"
+	subtitle = "introduction_chia_subtitle"
+	desc = "introduction_chia"
+	picture = "1940begin_CHI"
+	option = {
+		name = "introduction_chi_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+
+	id = 1001120
+	
+	is_triggered_only = yes
+	
+	title = "introduction_chc_title"
+	subtitle = "introduction_chca_subtitle"
+	desc = "introduction_chca"
+	picture = "1940begin_CHC"
+	option = {
+		name = "introduction_chc_option"
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+
+	id = 1001121
+	
+	is_triggered_only = yes
+	
+	title = "introduction_jap_title"
+	subtitle = "introduction_jap_subtitle"
+	desc = "introduction_japa"
+	picture = "1940begin_JAP"
+	option = {
+		name = "introduction_jap_option"
 		ai_chance = { factor = 100 }
 	}
 }

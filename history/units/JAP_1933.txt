@@ -397,7 +397,7 @@ air = {
 		}
 	corps = {
 			name = "第3名古屋甲种师团'幸'"
-			location = 4885
+			location = 4685
 			regiment = { type = hq_brigade experience = 55 historical_model = 1 }
 				regiment = { type = engineer_brigade name = "工兵第3联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "守备联队" experience = 55 historical_model = 1 }
@@ -406,26 +406,26 @@ air = {
 				regiment = { type = anti_air_brigade name = "高射炮第1联队" experience = 55 historical_model = 1 }
 			division = {
 				name = "歩兵第5旅团"
-				location = 4885
+				location = 4685
 				regiment = { type = imperial_brigade name = "歩兵第6联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "歩兵第68联队" experience = 55 historical_model = 1 }
 			}
 			division = {
 				name = "歩兵第29旅团"
-				location = 4885
+				location = 4685
 				regiment = { type = imperial_brigade name = "歩兵第18联队" experience = 55 historical_model = 1 }
 				regiment = { type = imperial_brigade name = "歩兵第34联队" experience = 55 historical_model = 1 }
 			}
 			division = {
 				name = "骑兵第4旅团"
-				location = 4885
+				location = 4685
 				regiment = { type = cavalry_brigade name = "骑兵第3联队" experience = 55 historical_model = 1 }
 				regiment = { type = cavalry_brigade name = "骑兵第25联队" experience = 55 historical_model = 1 }
 				regiment = { type = cavalry_brigade name = "骑兵第26联队" experience = 55 historical_model = 1 }
 			}
 			division = {
 				name = "野战重炮兵第1旅团"
-				location = 4885
+				location = 4685
 				regiment = { type = imperial_brigade name = "加强大队" experience = 55 historical_model = 1 }
 				regiment = { type = artillery_brigadeB name = "野战重炮兵第2联队" experience = 55 historical_model = 1 }
 				regiment = { type = artillery_brigadeB name = "野战重炮兵第3联队" experience = 55 historical_model = 1 }

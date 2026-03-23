@@ -2,41 +2,6 @@ theatre = {
 	name = "帝国大本营"
 	location = 5370
 	regiment = { type = hq_brigade name = "帝国大本营" experience = 60 historical_model = 3 }
-		corps = {
-			name = "近卫师团"
-			location = 5370
-			regiment = { type = hq_brigade name = "师团部" experience = 60 historical_model = 3 }	
-				regiment = { type = police_brigade name = "铁道第1联队" experience = 60 historical_model = 3 }
-				regiment = { type = police_brigade name = "铁道第2联队" experience = 60 historical_model = 3 }
-			division = {
-				name = "近卫第1旅团"
-				location = 5370
-				regiment = { type = imperial_brigade name = "近卫第1联队" experience = 60 historical_model = 3 }
-				regiment = { type = imperial_brigade name = "近卫第2联队" experience = 60 historical_model = 3 }
-				regiment = { type = engineer_brigade name = "近卫工兵联队" experience = 60 historical_model = 3 }
-				regiment = { type = anti_air_brigade name = "高射炮第2联队" experience = 60 historical_model = 3 }
-			}
-			division = {
-				name = "近卫第2旅团"
-				location = 5370
-				regiment = { type = imperial_brigade name = "近卫第3联队" experience = 60 historical_model = 3 }
-				regiment = { type = imperial_brigade name = "近卫第4联队" experience = 60 historical_model = 3 }
-			}
-			division = {
-				name = "野战重炮兵第4旅团"
-				location = 5370
-				regiment = { type = cavalry_brigade name = "留守联队" experience = 60 historical_model = 3 }
-				regiment = { type = artillery_brigadeB name = "近卫野炮兵联队" experience = 60 historical_model = 3 }
-				regiment = { type = artillery_brigadeB name = "野战重炮兵第4联队" experience = 60 historical_model = 3 }
-				regiment = { type = artillery_brigadeB name = "野战重炮兵第8联队" experience = 60 historical_model = 3 }
-			}
-			division = {
-				name = "骑兵第1旅团"
-				location = 5345
-				regiment = { type = cavalry_brigade name = "骑兵第13联队" experience = 60 historical_model = 3 }
-				regiment = { type = cavalry_brigade name = "骑兵第14联队" experience = 60 historical_model = 3 }
-			}
-		}
             	corps = {
 			name = "第4大阪甲种师团'淀'"
 			location = 5543
@@ -1725,6 +1690,41 @@ theatre = {
 		regiment = { type = infantry_brigade name = "军直辖联队" experience = 15 historical_model = 6 }
 		regiment = { type = engineer_brigade name = "军工兵联队" historical_model = 4 }
 		regiment = { type = artillery_brigadeB name = "军属炮兵联队" experience = 10 historical_model = 4 }
+		corps = {
+			name = "近卫师团"
+			location = 6394
+			regiment = { type = hq_brigade name = "师团部" experience = 60 historical_model = 3 }	
+				regiment = { type = police_brigade name = "铁道第1联队" experience = 60 historical_model = 3 }
+				regiment = { type = police_brigade name = "铁道第2联队" experience = 60 historical_model = 3 }
+			division = {
+				name = "近卫第1旅团"
+				location = 6394
+				regiment = { type = mechanized_brigade name = "近卫第1联队" experience = 60 historical_model = 3 }
+				regiment = { type = mechanized_brigade name = "近卫第2联队" experience = 60 historical_model = 3 }
+				regiment = { type = engineer_brigade name = "近卫工兵联队" experience = 60 historical_model = 3 }
+				regiment = { type = anti_air_brigade name = "高射炮第2联队" experience = 60 historical_model = 3 }
+			}
+			division = {
+				name = "近卫第2旅团"
+				location = 6394
+				regiment = { type = mechanized_brigade name = "近卫第3联队" experience = 60 historical_model = 3 }
+				regiment = { type = mechanized_brigade name = "近卫第4联队" experience = 60 historical_model = 3 }
+				regiment = { type = artillery_brigadeB name = "近卫野炮兵联队" experience = 60 historical_model = 3 }
+			}
+			division = {
+				name = "野战重炮兵第4旅团"
+				location = 6394
+				regiment = { type = mechanized_brigade name = "留守联队" experience = 60 historical_model = 3 }
+				regiment = { type = artillery_brigadeB name = "野战重炮兵第4联队" experience = 60 historical_model = 3 }
+				regiment = { type = artillery_brigadeB name = "野战重炮兵第8联队" experience = 60 historical_model = 3 }
+			}
+			division = {
+				name = "骑兵第1旅团"
+				location = 6394
+				regiment = { type = cavalry_brigade name = "骑兵第13联队" experience = 60 historical_model = 3 }
+				regiment = { type = cavalry_brigade name = "骑兵第14联队" experience = 60 historical_model = 3 }
+			}
+		}
             	corps = {
 			name = "第5广岛甲种师团'鲤'"
 			location = 5917

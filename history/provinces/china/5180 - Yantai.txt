@@ -8,11 +8,10 @@ add_core = CSD
 add_core = CHI
 infra = 4
 1938.5.9 = { 	controller = JAP } 
-1940.3.1
+1940.3.1 = {
 owner = WJW
 controller = WJW
 add_core = WJW
-
 }
 1944.5.9 = {
 	controller = CHC 

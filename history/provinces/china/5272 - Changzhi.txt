@@ -9,11 +9,10 @@ infra = 4
 	controller = JAP
 }
 1938.9.1 = { owner = JAP }
-1940.3.1
+1940.3.1 = {
 owner = WJW
 controller = WJW
 add_core = WJW
-
 }
 1944.5.9 = {
 	controller = CHC 

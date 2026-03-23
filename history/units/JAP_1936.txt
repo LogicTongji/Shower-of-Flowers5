@@ -48,7 +48,7 @@ theatre = {
 			}
 		}
 	corps = {
-			name = "第12善通寺甲种师团'锦'"
+			name = "第12小仓甲种师团'剑'"
 			location = 8803
 			regiment = { type = hq_brigade experience = 55 historical_model = 1 }
 				regiment = { type = cavalry_brigade name = "骑兵第12联队" experience = 55 historical_model = 1 }
@@ -632,15 +632,15 @@ theatre = {
 			division = {
 				name = "歩兵第9旅团"
 				location = 5315
-				regiment = { type = imperial_brigade name = "歩兵第11联队" experience = 55 historical_model = 1 }
-				regiment = { type = imperial_brigade name = "歩兵第41联队" experience = 55 historical_model = 1 }
+				regiment = { type = motorized_brigade name = "歩兵第11联队" experience = 55 historical_model = 1 }
+				regiment = { type = motorized_brigade name = "歩兵第41联队" experience = 55 historical_model = 1 }
 				regiment = { type = engineer_brigade name = "工兵第5联队" experience = 55 historical_model = 1 }
 			}
 			division = {
 				name = "歩兵第21旅团"
 				location = 5315
-				regiment = { type = imperial_brigade name = "歩兵第21联队" experience = 55 historical_model = 1 }
-				regiment = { type = imperial_brigade name = "歩兵第42联队" experience = 55 historical_model = 1 }
+				regiment = { type = motorized_brigade name = "歩兵第21联队" experience = 55 historical_model = 1 }
+				regiment = { type = motorized_brigade name = "歩兵第42联队" experience = 55 historical_model = 1 }
 				regiment = { type = artillery_brigadeB name = "野炮兵第5联队" experience = 55 historical_model = 1 }
 				regiment = { type = cavalry_brigade name = "骑兵第5联队" experience = 55 historical_model = 1 }
 			}

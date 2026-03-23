@@ -82,7 +82,7 @@ corps = {
 	}
 	division = {
 		name = "苏鲁战区游击纵队第11纵队"
-		location = 5431
+		location = 5421
 		regiment = { type = militia_brigade historical_model = 0 }
 		regiment = { type = militia_brigade historical_model = 0 }
 		regiment = { type = militia_brigade historical_model = 0 }
@@ -431,7 +431,7 @@ division = {
 			}
 			division= {
 			name = "独立第20旅"
-			location = 5253
+			location = 5453
 				regiment = { type = infantry_brigade builder = JAP historical_model = 4 }
 			}
 		}
@@ -697,7 +697,7 @@ division = {
 	}
 			division = {
 			name = "第11集团"
-			location =5201
+			location =5178
 			regiment = { type = infantry_brigade builder = JAP historical_model = 4 }
 			regiment = { type = infantry_brigade builder = JAP historical_model = 4 }
 	}

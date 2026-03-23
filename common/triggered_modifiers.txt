@@ -3252,21 +3252,17 @@ wjw_a_dog = {
 	}
 }
 	trigger = {
-	JAP = { war_with = CHC 
-	        war_with = CHI
-			}
+	has_global_flag = SF_anti_japanese_war
 	not = { controls = 9478
 	        controls = 9415
 	        controls = 9170
 	        }
 	}
-global_ic = -0.5
 local_supplies = 0.2
-dissent = 0.10
-global_resources = -0.80
+dissent = 0.20
 land_organisation = -0.50
 global_leadership_modifier = -0.25 
-research_efficiency = -0.45
+research_efficiency = -0.25
 	icon = 5
 }
 kill_ccp = {

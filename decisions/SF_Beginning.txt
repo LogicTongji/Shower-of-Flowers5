@@ -179,7 +179,6 @@ diplomatic_decisions = {
 			 year = 1944
 			}
 			not = { 
-			year = 1936
 			has_country_flag = introduction_jap_1940
 			} 
 		}

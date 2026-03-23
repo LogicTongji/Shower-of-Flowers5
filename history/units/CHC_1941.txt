@@ -213,7 +213,7 @@ theatre = {
 				}	
 			}			
 		}					
-		corps = {			
+		army = {			
 			name = "“ª∂˛¡„ ¶"		
 			location = 7418	
 			leader = 76312 # He Long		

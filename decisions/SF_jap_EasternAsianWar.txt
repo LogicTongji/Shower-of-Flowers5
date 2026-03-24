@@ -100,4 +100,28 @@ diplomatic_decisions = {
 			factor = 1
 		}
 	}
+	#Ò»ºÅ×÷Õ½
+	  JAP_first_war_project = {
+	   major = yes
+		potential = {
+			tag = JAP
+                        exists = CHI
+                        exists = USA
+                        exists = ENG
+			war_with = CHI
+			not = { has_global_flag = JAP_first_war_project } 
+		}
+		allow = {
+			JAP = { controls = 5916 }
+			has_country_flag = jap_seizes_coast
+                               
+		}
+		effect = {
+			set_global_flag = JAP_first_war_project
+			country_event = 390096
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 }

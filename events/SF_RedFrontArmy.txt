@@ -50,7 +50,6 @@ country_event = {
 	trigger = {
 		tag = CHC
 		war_with = CHI
-		not = { has_global_flag = KRZZ }
 		not = { has_global_flag = Event1000084 }
 		not = { has_country_flag = Event10000842 }
 		not = { has_country_flag = xi_an_incident }

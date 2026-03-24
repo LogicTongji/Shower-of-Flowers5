@@ -2009,7 +2009,6 @@ passive_defence = {
 				tag = CHI
 				war_with = JAP
 				has_country_flag = CHI_Passive_defense
-				not = { has_global_flag = KRZZ }
 				not = { has_country_flag = jap_seizes_coast_chi }
 			}
 			and = {
@@ -2058,13 +2057,12 @@ cruel_mobilization = {
 		exists = JAP
 		JAP = { is_subject = no }
 		has_country_flag = CHI_Passive_defense
-		not = { has_global_flag = KRZZ }
 	}
 	global_manpower_modifier = 0.5
 	land_build_speed = -0.55
 	supply_consumption = -0.75
-	org_regain = -0.25
-	land_organisation = -0.15
+	org_regain = -0.15
+	land_organisation = -0.05
 	reinforcement_bonus = -0.15
 	global_leadership_modifier = -0.25
 	supply_throughput = -0.3
@@ -2117,8 +2115,8 @@ passive_defence_y = {
 		war_with = JAP
 		has_country_flag = yuxianggui
 	}
-	org_regain = -0.55
-	land_organisation = -0.5
+	org_regain = -0.25
+	land_organisation = -0.50
 	icon = 5
 }
 the_five_minutes = {
@@ -2502,16 +2500,12 @@ CHI_defence_war = {
 	has_global_flag = CHI_defence_war
 	war_with = JAP
 	}
-ruling_party_support = -0.05
 global_manpower_modifier = 0.15
-war_consumer_goods_demand = 0.1
-supply_consumption = 0.15 
-land_organisation = -0.2 
+war_consumer_goods_demand = -0.20
+land_organisation = -0.20 
 org_regain = 0.45
 leader_defence = 0.35
 
-
-	icon = 5
 }
 #ÄÚ¶·
 JAP_defence2_war = {

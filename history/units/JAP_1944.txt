@@ -377,7 +377,7 @@ theatre = {
 	}
 		army = {
 			name = "小笠原兵团"
-			location = 5174
+			location = 7214
 			regiment = { type = hq_brigade name = "小笠原兵团司令部"experience = 60 historical_model = 3 }	
 			regiment = { type = artillery_brigade name = "野战重炮兵第9联队" experience = 60 historical_model = 3 }
 			regiment = { type = light_armor_brigade name = "战车第26联队" experience = 60 historical_model = 3 }
@@ -852,11 +852,12 @@ theatre = {
 	}
 		corps = {
 			name = "战车第3师团"
-				location = 6088
+				location = 5141
 			regiment = { type = hq_brigade name = "师团部" historical_model = 3 }
 			regiment = { type = field_battalion experience = 20 name = "特战部队" historical_model = 3 }
 			division = {
 				name = "师团直属部队"
+				location = 5141
 			regiment = { type = mechanized_brigade name = "机动步兵第3联队" experience = 30 historical_model = 4 }
 			regiment = { type = engineer_brigade name = "工兵队" historical_model = 4 }
 			regiment = { type = anti_tank_brigade name = "师团直属速射炮队" experience = 40 historical_model = 4 }
@@ -865,18 +866,19 @@ theatre = {
 			}
 			division = {
 				name = "战车第5旅团"
-				location = 6088
+				location = 5141
 				regiment = { type = light_armor_brigade name = "战车第8联队" historical_model = 4 }
 				regiment = { type = light_armor_brigade name = "战车第12联队" historical_model = 4 }
 			}
 			division = {
 				name = "战车第6旅团"
+				location = 5141
 				regiment = { type = light_armor_brigade name = "战车第13联队" historical_model = 4 }
 				regiment = { type = light_armor_brigade name = "战车第17联队" historical_model = 4 }
 			}
 			division = {
 				name = "骑兵第4旅团"
-				location = 5110
+				location = 5141
 			  regiment = { type = cavalry_brigade name = "骑兵第4联队" experience = 30 historical_model = 3 }
 			  regiment = { type = cavalry_brigade name = "骑兵第25联队" experience = 30 historical_model = 3 }
 			  regiment = { type = cavalry_brigade name = "骑兵第26联队" experience = 30 historical_model = 3 }
@@ -1627,14 +1629,6 @@ theatre = {
 	name = "关东军"
 	location = 5020
 	regiment = { type = hq_brigade name = "关东军指挥部" experience = 60 historical_model = 3 }
-	division = {
-		name = "关东军守备司令部"
-		location = 7139
-		regiment = { type = garrison_brigade name = "第1守备联队" experience = 30 historical_model = 3 }
-		regiment = { type = garrison_brigade name = "第2守备联队" experience = 30 historical_model = 3 }
-		regiment = { type = garrison_brigade name = "第3守备联队" experience = 30 historical_model = 3 }
-		regiment = { type = police_brigade name = "第1宪兵联队" experience = 30 historical_model = 3 }
-	}
 			army = {
 				name = "第3军"
 				location = 6004
@@ -1858,8 +1852,8 @@ theatre = {
 						location = 8748
 						regiment = { type = imperial_brigade name = "歩兵第43联队" experience = 30 historical_model = 3 }
 						regiment = { type = imperial_brigade name = "歩兵第44联队" experience = 30 historical_model = 3 }
-											regiment = { type = engineer_brigade name = "工兵第11联队" experience = 30 historical_model = 3 }
-					regiment = { type = cavalry_brigade name = "骑兵第11联队" experience = 30 historical_model = 3 }
+						regiment = { type = engineer_brigade name = "工兵第11联队" experience = 30 historical_model = 3 }
+					    regiment = { type = cavalry_brigade name = "骑兵第11联队" experience = 30 historical_model = 3 }
 					} 
 				}
 				division = {
@@ -1890,8 +1884,8 @@ theatre = {
 						name = "军直属部队"
 						location = 8748
 						regiment = { type = artillery_brigadeB name = "军属野战重炮兵联队" experience = 30 historical_model = 3 }
-				regiment = { type = artillery_brigadeB name = "军属野战重炮兵联队" experience = 30 historical_model = 3 }
-		    regiment = { type = light_armor_brigade name = "装甲混编旅" experience = 30 historical_model = 3 }
+				        regiment = { type = artillery_brigadeB name = "军属野战重炮兵联队" experience = 30 historical_model = 3 }
+		                regiment = { type = light_armor_brigade name = "装甲混编旅" experience = 30 historical_model = 3 }
 					}
 				corps = {
 					name = "第7旭川甲种师团'熊'"
@@ -1941,6 +1935,14 @@ theatre = {
 							regiment = { type = field_battalion experience = 20 name = "野战部队" historical_model = 3 }	
 					}
 				}
+				division = {
+		name = "关东军守备司令部"
+		location = 7139
+		regiment = { type = garrison_brigade name = "第1守备联队" experience = 30 historical_model = 3 }
+		regiment = { type = garrison_brigade name = "第2守备联队" experience = 30 historical_model = 3 }
+		regiment = { type = garrison_brigade name = "第3守备联队" experience = 30 historical_model = 3 }
+		regiment = { type = police_brigade name = "第1宪兵联队" experience = 30 historical_model = 3 }
+	}
 			}
 	theatre = {	
 		name = "南方军"
@@ -2597,7 +2599,7 @@ theatre = {
 						location = 5917
 						regiment = { type = mechanized_brigade name = "歩兵第21联队" experience = 40 historical_model = 5 }
 						regiment = { type = mechanized_brigade name = "歩兵第42联队" experience = 40 historical_model = 5 }
-						regiment = { type = armored_brigade name = "骑兵第5联队" historical_model = 4 }
+						regiment = { type = light_armor_brigade name = "骑兵第5联队" historical_model = 4 }
 					regiment = { type = anti_tank_brigade name = "速射炮队" experience = 10 historical_model = 4 }
 					regiment = { type = motorized_anti_air_brigade name = "防空队" experience = 5 historical_model = 4 }
 					}
@@ -2977,7 +2979,7 @@ theatre = {
 						location = 6236
 						regiment = { type = motorized_brigade name = "歩兵第114联队" experience = 40 historical_model = 5 }
 						regiment = { type = motorized_brigade name = "歩兵第124联队" experience = 40 historical_model = 5 }
-						regiment = { type = armored_brigade name = "骑兵第18联队" historical_model = 3 }
+						regiment = { type = light_armor_brigade name = "骑兵第18联队" historical_model = 3 }
 					regiment = { type = anti_tank_brigade name = "速射炮队" experience = 10 historical_model = 4 }
 					regiment = { type = motorized_anti_air_brigade name = "防空队" experience = 5 historical_model = 4 }
 					}

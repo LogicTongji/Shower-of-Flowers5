@@ -14,6 +14,8 @@ guiTypes = {
 
 		
 
+		
+		
 		iconType =
 		{
 			name ="unitpanel_bg"
@@ -26,19 +28,19 @@ guiTypes = {
 		iconType = {
 			name ="counter_type"
 			spriteType = "GFX_temp_unit_icon"
-			position = { x= 15 y = -5 }
+			position = { x= 127 y = 88 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="counter_size"
 			spriteType = "GFX_counter_size"
-			position = { x= 15 y = -3 }
+			position = { x= 127 y = 90 }
 			Orientation = "UPPER_LEFT"
 		}
 		iconType = {
 			name ="unit_activity"
 			spriteType = "GFX_unit_activity_strip"
-			position = { x= 39 y = 25 }
+			position = { x= 177 y = 50 }
 			Orientation = "UPPER_LEFT"
 		}
 
@@ -47,7 +49,7 @@ guiTypes = {
 #			name = "unitname"
 #			position = { x = 100 y = 3 }
 #			textureFile = ""
-#			font = "Arial12"
+#			font = "Main_16"
 #			borderSize = {x = 0 y = 0}
 #			text = ""	
 #			maxWidth = 200
@@ -58,9 +60,9 @@ guiTypes = {
 
 		textBoxType = {
 			name = "unitstrength"
-			position = { x = 197 y = 21 }
+			position = { x = 10 y = 58 }
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial14_black"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 100
@@ -76,7 +78,7 @@ guiTypes = {
 		{
 			name ="leader_types"
 			spriteType = "GFX_leader_types"
-			position = { x= 78 y = 20 }
+			position = { x= 176 y = 35 }
 			Orientation = "UPPER_LEFT"
 			scale = 0.5
 		}
@@ -86,43 +88,43 @@ guiTypes = {
 		{
 			name ="leader_button"
 			quadTextureSprite = "GFX_leader_button"
-			position = { x= 63 y = 17 }
+			position = { x= 70 y = 0 }
 			Orientation = "UPPER_LEFT"
 
 			tooltip = ""
 			tooltipText =""
 			delayedTooltipText = ""
 			buttonText = ""
-			buttonFont = "Arial12"
+			buttonFont = "Arial12_headline"
 		}
 		
 		iconType =	{
 			name ="leader_photo"
 			spriteType = "GFX_empty_position"
-			position = { x = 3 y = 2 }
+			position = { x = 143 y = 38 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.7
+			scale = 1.0
 		}
 
 
 		textBoxType = {
 			name = "unitleader"
-			position = { x = 70 y = 22 }
+			position = { x = 60 y = 2 }
 			textureFile = ""
-			font = "Arial12_black"
+			font = "arial_18"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 200
 			maxHeight = 32	
 
-			format = left
+			format = centre
 		}
 
 		iconType =
 				{
 				name ="org_bar"
-				spriteType = "org_progress"
-				position = { x= 317 y = 31 }
+				spriteType = "supply_progress_org_sub_army"
+				position = { x= 320 y = 36 }
 				Orientation = "UPPER_LEFT"
 				rotation = 1.5708
 			}
@@ -130,8 +132,8 @@ guiTypes = {
 		iconType =
 				{
 				name ="str_bar"
-				spriteType = "strength_progress"
-				position = { x= 311 y = 31 }
+				spriteType = "supply_progress_str_sub_army"
+				position = { x= 311 y = 36 }
 				Orientation = "UPPER_LEFT"
 				rotation = 1.5708
 			}
@@ -142,14 +144,14 @@ guiTypes = {
 			{
 				name ="exp_force"
 				spriteType = "GFX_exp_minishield"
-				position = { x= 284 y = 4 }
+				position = { x= 282 y = 2 }
 				Orientation = "UPPER_LEFT"
 			}
 
 
 		guiButtonType = {
 				name = "remove_unit_from_selection_button"
-				position = { x = 304 y = -1 }
+				position = { x = 302 y = 1 }
 				quadTextureSprite ="GFX_remove_unit_button"
 				tooltip = ""
 				tooltipText =""
@@ -162,26 +164,26 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "only_unit_from_selection_button"
-				position = { x = 322 y = 4 }
+				position = { x = 222 y = 60 }
 				quadTextureSprite ="GFX_unit_select_button"
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "Select"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 
 			}
 		
 		
 			
 		editBoxType = {
-			position = { x = 53 y = -5 }
+			position = { x = 100 y = 13 }
 			name = "unitname"
-			font = "Arial12"
+			font = "Arial12_bold"
 			borderSize = {x = 8 y = 4}	
-			size = { x=235 y=24}
+			size = { x=150 y=24}
 			text = ""	
-			orientation = "UPPER_LEFT"
+			orientation = "centre"
 		}
 
 	}
@@ -216,9 +218,9 @@ guiTypes = {
 
 		textBoxType = {
 			name = "desc"
-			position = { x = 10	 y = 4 }
+			position = { x = 75	 y = -32 }
 			textureFile = ""
-			font = "Arial12_black"
+			font = "impact"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 300
@@ -227,10 +229,10 @@ guiTypes = {
 		
 		guiButtonType = {
 			name = "upgrade_all"
-			position = { x=175 y=1 }
+			position = { x=175 y=5 }
 			quadTextureSprite ="GFX_upgrade_unit"
 			buttonText = ""
-			buttonFont = "Arial12_black"
+			buttonFont = "Arial12_bold_black"
 		}
 
 		checkboxType = {
@@ -404,9 +406,9 @@ guiTypes = {
 	windowType = {
 		name = "leader_selection_panel"
 		backGround=""
-		position = { x=325 y=150 }	
+		position = { x=345 y=220 }	
 		size = { x=400 y=100 }
-		moveable = 0
+		moveable = 1
 		dontRender = ""
 		horizontalBorder= ""
 		verticalBorder= ""
@@ -424,17 +426,17 @@ guiTypes = {
 		iconType =	{
 			name ="selected_photo"
 			spriteType = "GFX_empty_position"
-			position = { x= 7 y = -48 }
+			position = { x= 17 y = -38 }
 			Orientation = "UPPER_LEFT"
-			scale = 0.7
+			scale = 1.7
 		}
 
 
 		instantTextBoxType = {
 				name = "selected_leader_name"
-				position = { x = 34 y = -43 }
+				position = { x = 85 y = -23 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "impact"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 340
@@ -445,9 +447,9 @@ guiTypes = {
 			
 		instantTextBoxType = {
 				name = "selected_leader_skill"
-				position = { x = 206 y = -43 }
+				position = { x = 225 y = 19 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "arial_18"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 50
@@ -461,13 +463,13 @@ guiTypes = {
 		{
 			name ="selected_leader_rank"
 			spriteType = "GFX_icon_rank_strip"
-			position = { x= 256 y = -43 }
+			position = { x= 275 y = 25 }
 			Orientation = "UPPER_LEFT"
 		}
 			
 		OverlappingElementsBoxType = {
 			name = "selected_leader_traits"
-			position = { x = 320 y = -59}
+			position = { x = 337 y = 4}
 			size = { x=340 y= 32 }
 			Orientation = "UPPER_LEFT"
 			format = left
@@ -478,19 +480,19 @@ guiTypes = {
 		{
 			name ="gaintrait_info"
 			spriteType = "GFX_leader_gaintrait_info"
-			position = { x= 318 y = -44 }
+			position = { x= 333 y = 18 }
 			Orientation = "UPPER_LEFT"
 		}
 
 		guiButtonType = {
 				name = "promote"
-				position = { x=470 y=-44}
+				position = { x=490 y= 16}
 				quadTextureSprite ="GFX_leader_promote"	
 			}
 			
 		guiButtonType = {
 				name = "demote"
-				position = { x=501 y=-44}
+				position = { x=521 y= 16}
 				quadTextureSprite ="GFX_leader_demote"	
 			}
 			
@@ -498,53 +500,53 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "sort_name"
-				position = { x=0 y=-12}
+				position = { x=30 y=52}
 				quadTextureSprite ="GFX_sort_button7"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "NAME"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}
 		guiButtonType = {
 				name = "sort_skill"
-				position = { x=206 y=-12}
+				position = { x=236 y=52}
 				quadTextureSprite ="GFX_sort_button1"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "SKILL"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}
 		guiButtonType = {
 				name = "sort_rank"
-				position = { x=258 y=-12}
+				position = { x=278 y=52}
 				quadTextureSprite ="GFX_sort_button1"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "RANK"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}
 		guiButtonType = {
 				name = "sort_traits"
-				position = { x=310 y=-12}
+				position = { x=330 y=52}
 				quadTextureSprite ="GFX_sort_button6"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "TRAITS"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}
 		guiButtonType = {
 				name = "filter_traits"
-				position = { x=411 y=378 }
+				position = { x=411 y=515 }
 				quadTextureSprite ="GFX_trait_filter"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "TRAIT_FILTER"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}
 
 
@@ -552,34 +554,34 @@ guiTypes = {
 
 		guiButtonType = {
 				name = "back_button"
-				position = { x=538 y=-52}
+				position = { x=570 y=-60}
 				quadTextureSprite ="GFX_close_button"	
 			}
 
 		guiButtonType = {
 				name = "noleader_button"
-				position = { x=10 y=376}
+				position = { x=10 y=516}
 				quadTextureSprite ="GFX_button_128wide"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "NO_LEADER"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}
 			
 		guiButtonType = {
 				name = "removeall_button"
-				position = { x=140 y=376}
+				position = { x=140 y=516}
 				quadTextureSprite ="GFX_button_128wide"	
 				tooltip = ""
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "REMOVE_ALL_LEADER"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}			
 		checkboxType = {
 			name = "auto_assign"
-			position = { x= 275 y = 378 }
+			position = { x= 275 y = 518 }
 			quadTextureSprite ="GFX_checkbox_square"
 			tooltip = ""
 			tooltipText =""
@@ -588,9 +590,9 @@ guiTypes = {
 
 		instantTextBoxType = {
 			name = "assign_label"
-			position = { x = 300 y = 387 }
+			position = { x = 300 y = 527 }
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial12_bold"
 			borderSize = {x = 4 y = 0}
 			text = "UW_AASSIGN"	
 			maxWidth = 300
@@ -601,9 +603,9 @@ guiTypes = {
 		listboxType = 
 			{
 			name ="leaderlist"
-			position = { x = 0 y = 10 }
+			position = { x = 15 y = 71 }
 			backGround=""
-			size = { x=537  y =360}
+			size = { x=537  y =460}
 			Orientation = "UPPER_LEFT"
 			spacing = 2
 			scrollbartype = "standardlistbox_slider"
@@ -668,7 +670,7 @@ guiTypes = {
 			name = "trait_name"
 			position = { x = 0 y = 4 }
 			textureFile = ""
-			font = "Arial12"
+			font = "Arial12_bold"
 			borderSize = {x = 10 y = 1}
 			text = "?"
 			maxWidth = 170
@@ -719,7 +721,7 @@ guiTypes = {
 				name = "leader_name"
 				position = { x = 34 y = 9 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "Arial12_bold_black"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 340
@@ -732,7 +734,7 @@ guiTypes = {
 				name = "leader_skill"
 				position = { x = 206 y = 9 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "Arial14_black"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 50
@@ -819,7 +821,7 @@ guiTypes = {
 				name = "leader_name"
 				position = { x = 34 y = 9 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "Arial12_bold_black"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 340
@@ -832,7 +834,7 @@ guiTypes = {
 				name = "leader_skill"
 				position = { x = 206 y = 9 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "Arial14_black"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 50
@@ -919,7 +921,7 @@ guiTypes = {
 				name = "leader_name"
 				position = { x = 34 y = 9 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "Arial12_bold_black"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 340
@@ -932,7 +934,7 @@ guiTypes = {
 				name = "leader_skill"
 				position = { x = 206 y = 9 }
 				textureFile = ""
-				font = "Arial12_black"
+				font = "Arial14_black"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 50
@@ -1035,7 +1037,7 @@ guiTypes = {
 			name = "positioning_left"
 			position = { x = 0 y = 12 }
 			format = left
-			font = "Arial12_black"
+			font = "Arial12_bold_black"
 			borderSize = {x = 4 y = 0}
 			text = "UNIT_PANEL"	
 			maxWidth = 170
@@ -1047,7 +1049,7 @@ guiTypes = {
 			name = "positioning_right"
 			position = { x = 362 y = 12 }
 			format = left
-			font = "Arial12_black"
+			font = "Arial12_bold_black"
 			borderSize = {x = 4 y = 0}
 			text = "UNIT_PANEL"	
 			maxWidth = 170
@@ -1059,7 +1061,7 @@ guiTypes = {
 			name = "ships_ratio_left"
 			position = { x = 0 y = 28 }
 			format = left
-			font = "Arial12_black"
+			font = "Arial12_bold_black"
 			borderSize = {x = 4 y = 0}
 			text = "UNIT_PANEL"	
 			maxWidth = 170
@@ -1071,7 +1073,7 @@ guiTypes = {
 			name = "ships_ratio_right"
 			position = { x = 362 y = 28 }
 			format = left
-			font = "Arial12_black"
+			font = "Arial12_bold_black"
 			borderSize = {x = 4 y = 0}
 			text = "UNIT_PANEL"	
 			maxWidth = 170
@@ -1084,7 +1086,7 @@ guiTypes = {
 			position = { x = 0 y =12 }
 			format = centre
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial12_bold_black"
 			borderSize = {x = 4 y = 0}
 			text = "UNIT_PANEL"	
 			maxWidth = 512
@@ -1097,7 +1099,7 @@ guiTypes = {
 			position = { x = 16 y =43 }
 			format = right
 			textureFile = ""
-			font = "Arial12"
+			font = "Arial12_bold"
 			borderSize = {x = 4 y = 0}
 			text = ""	
 			maxWidth = 200
@@ -1110,7 +1112,7 @@ guiTypes = {
 			position = { x = 296 y =43 }
 			format = left
 			textureFile = ""
-			font = "Arial12"
+			font = "Arial12_bold"
 			borderSize = {x = 4 y = 0}
 			text = ""	
 			maxWidth = 200
@@ -1128,7 +1130,7 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "CLOSE"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 
 				Orientation = "CENTER"
 				clicksound = close_window
@@ -1207,7 +1209,7 @@ guiTypes = {
 			position = { x = 20 y =2 }
 
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial12_bold"
 			borderSize = {x = 24 y =2 }
 			text = ""	
 			maxWidth = 300
@@ -1255,7 +1257,7 @@ guiTypes = {
 			format = left
 
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial14_black"
 			borderSize = {x = 4 y = 4 }
 			text = "xxxx"	
 			maxWidth = 100
@@ -1292,7 +1294,7 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "  "
-				buttonFont = "Arial12_black"
+				buttonFont = "Main_14_black"
 
 			}
 
@@ -1346,7 +1348,7 @@ guiTypes = {
 			position = { x = 20 y =2 }
 
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial12_headline"
 			borderSize = {x = 24 y =2 }
 			text = ""	
 			maxWidth = 300
@@ -1363,7 +1365,7 @@ guiTypes = {
 			format = left
 
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial12_headline"
 			borderSize = {x = 4 y = 0 }
 			text = "xxxxxxxxxx"	
 			maxWidth = 300
@@ -1394,7 +1396,7 @@ guiTypes = {
 			format = left
 
 			textureFile = ""
-			font = "Arial12_black"
+			font = "Arial14_black"
 			borderSize = {x = 4 y = 4 }
 			text = "xxxx"	
 			maxWidth = 100
@@ -1431,7 +1433,7 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "  "
-				buttonFont = "Arial12_black"
+				buttonFont = "Main_14_black"
 
 			}
 
@@ -1485,7 +1487,7 @@ guiTypes = {
 				tooltipText =""
 				delayedTooltipText = ""
 				buttonText = "CLOSE"
-				buttonFont = "Arial12_black"
+				buttonFont = "Arial12_bold_black"
 			}
 
 
@@ -1561,7 +1563,7 @@ guiTypes = {
 				name = "name"
 				position = { x = 48 y = 2 }
 				textureFile = ""
-				font = "Arial12"
+				font = "Arial12_bold"
 				borderSize = {x = 4 y = 4}
 				text = ""	
 				maxWidth = 360
@@ -1597,7 +1599,7 @@ guiTypes = {
 	
 	positionType = {
 		name = "unitlist_offset"
-		position = { x = 16 y =40 }
+		position = { x = 16 y =130 }
 	}
 
 

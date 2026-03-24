@@ -1627,7 +1627,7 @@ armygroup = {
 }
 theatre = {
 	name = "关东军"
-	location = 5020
+	location = 4983
 	regiment = { type = hq_brigade name = "关东军指挥部" experience = 60 historical_model = 3 }
 			army = {
 				name = "第3军"

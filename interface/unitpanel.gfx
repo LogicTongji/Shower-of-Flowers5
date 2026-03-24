@@ -747,6 +747,26 @@ spriteTypes = {
 	}
 	
 	progressbartype = {
+		name = "supply_progress_org_sub_army"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 0.0 0.0 1.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_green.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_gris.dds"
+		size = { x = 26 y = 10 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
+		name = "supply_progress_str_sub_army"
+		color = { 0.0 0.5 0.0 }
+		colortwo = { 0.0 0.0 1.0 }
+		textureFile1 = "gfx\\interface\\progress_bar_orange.dds"
+		textureFile2 = "gfx\\interface\\progress_bar_gris.dds"
+		size = { x = 26 y = 10 }
+		effectFile = "gfx\\FX\\progress.fx"
+	}
+	
+	progressbartype = {
 		name = "fuel_progress"
 		color = { 0.0 0.5 0.0 }
 		colortwo = { 1.0 0.0 0.0 }
@@ -814,7 +834,7 @@ spriteTypes = {
 		norefcount = yes
 		name = "GFX_leader_button"
 		texturefile = "gfx\\interface\\leader_button.tga"
-		effectFile = "gfx\\FX\\buttonstate.fx"
+		effectFile = "gfx\\FX\\interpolated_buttonstate.fx"
 		loadType = "INGAME"
 		norefcount = yes
 	}

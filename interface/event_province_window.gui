@@ -30,7 +30,7 @@ guiTypes = {
 				name = "Title"
 				position = { x = 262 y = 10 }
 				textureFile = ""
-				font = "Arial30chi"
+				font = "Garamond_40"
 				borderSize = {x = 0 y = 0}
 				text = "Long text here!"	
 				maxWidth = 670

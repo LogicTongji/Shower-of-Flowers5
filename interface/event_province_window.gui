@@ -26,7 +26,7 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 		}
 		
-		instantTextBoxType = {
+		textBoxType = {
 				name = "Title"
 				position = { x = 262 y = 10 }
 				textureFile = ""
@@ -39,7 +39,7 @@ guiTypes = {
 				format = centre
 			}
 			
-		instantTextBoxType = {
+		textBoxType = {
 				name = "Subtitle"
 				position = { x = 262 y = 86 }
 				textureFile = ""
@@ -83,7 +83,7 @@ guiTypes = {
 	#	name = "event_province_option_start"
 	#	position = { x = 100 y = 595 }
 	#}
-	instantTextBoxType = {
+	textBoxType = {
 				name = "Eventption"
 				position = { x = 565 y = 673 }
 				textureFile = ""
@@ -93,7 +93,7 @@ guiTypes = {
 				maxWidth = 563
 				maxHeight = 158
 
-				format = right
+				format = centre
 			}
 	positionType = {
 		name = "event_province_option_offset"

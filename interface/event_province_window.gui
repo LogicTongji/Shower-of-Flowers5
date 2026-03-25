@@ -76,25 +76,13 @@ guiTypes = {
 		tooltipText = ""
 		delayedTooltipText = ""
 		buttonText = "I Do."
-		buttonFont = "Arial12_black"
+		buttonFont = "Arial16"
 	}
 	
 	#positionType = {
 	#	name = "event_province_option_start"
 	#	position = { x = 100 y = 595 }
 	#}
-	textBoxType = {
-				name = "Eventption"
-				position = { x = 565 y = 673 }
-				textureFile = ""
-				font = "Arial16chi"
-				borderSize = {x = 0 y = 0}
-				text = "Long text here!"	
-				maxWidth = 563
-				maxHeight = 158
-
-				format = centre
-			}
 	positionType = {
 		name = "event_province_option_offset"
 		position = { x = 378 y = 45 }

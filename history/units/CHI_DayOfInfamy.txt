@@ -277,24 +277,24 @@ theatre = {
 		}
 		army = {
 			name = "第28集团军"
-			location = 5416
+			location = 5383
 			leader = 50176
 			regiment = { type = hq_brigade name = "第28集团军司令部" historical_model = 1 }
 			corps = {
 				name = "第56军"
-				location = 5416
+				location = 5383
 				leader = 50335
 				regiment = { type = hq_brigade name = "第85军司令部" historical_model = 1 }
 				division = {
 					name = "第163师"
-					location = 5416
+					location = 5383
 					regiment = { type = militia_brigade historical_model = 1 }
 					regiment = { type = militia_brigade historical_model = 1 }
 					regiment = { type = militia_brigade historical_model = 1 }
 				}			
 				division = {
 					name = "第164师"
-					location = 5416
+					location = 5400
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
@@ -303,29 +303,29 @@ theatre = {
 		}
 		army = {
 			name = "第31集团军"
-			location = 7468
+			location = 7447
 			regiment = { type = hq_brigade name = "第31集团军司令部" historical_model = 1 }
 			corps = {
 				name = "第13军"
-				location = 7468
+				location = 7447
 				regiment = { type = hq_brigade name = "第13军司令部" historical_model = 1 }
 				division = {
 					name = "第4师"
-					location = 7468
+					location = 7447
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
 				}
 				division = {
 					name = "第89师"
-					location = 7468
+					location = 7447
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
 				}
 				division = {
 					name = "新编第1师"
-					location = 7468
+					location = 7447
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
 					regiment = { type = infantry_brigade historical_model = 1 }
@@ -618,7 +618,7 @@ theatre = {
 		}
 		division = {
 			name = "特种兵团"
-			location = 5416
+			location = 5400
 			regiment = { type = bergsjaeger_brigade historical_model = 1 }
 			regiment = { type = bergsjaeger_brigade historical_model = 1 }
 		}
@@ -1383,36 +1383,36 @@ theatre = {
 	}
 	army = {
 		name = "第21集团军"
-		location = 5416
+		location = 5383
 		regiment = { type = hq_brigade name = "第21集团军司令部" historical_model = 0 }
 		corps = {
 			name = "第7军"
-			location = 5416
+			location = 5383
 			regiment = { type = hq_brigade name = "第7军司令部" historical_model = 0 }
 			division = {
 				name = "第171师"
-				location = 5416
+				location = 5383
 				regiment = { type = infantry_brigade historical_model = 0 }
 				regiment = { type = infantry_brigade historical_model = 0 }
 				regiment = { type = infantry_brigade historical_model = 0 }
 			}
 			division = {
 				name = "第172师"
-				location = 5416
+				location = 5383
 				regiment = { type = infantry_brigade historical_model = 0 }
 				regiment = { type = infantry_brigade historical_model = 0 }
 				regiment = { type = infantry_brigade historical_model = 0 }
 			}
 			division = {
 				name = "第173师"
-				location = 5416
+				location = 5383
 				regiment = { type = infantry_brigade historical_model = 0 }
 				regiment = { type = infantry_brigade historical_model = 0 }
 			}
 		}
 		corps = {
 			name = "第48军"
-			location = 5416
+			location = 5383
 			regiment = { type = hq_brigade name = "第48军司令部" historical_model = 0 }
 			division = {
 				name = "第138师"

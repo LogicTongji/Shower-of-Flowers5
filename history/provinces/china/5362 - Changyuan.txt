@@ -21,19 +21,11 @@ add_core = CJC
 	controller = JAP
 }
 
-1938.4.1 = {
-infra = 0
 
-}
 
 1938.5.9 = {
 
 	controller = JAP
-
-}
-
-1945.9.1 = {
-infra = 4
 
 }
 

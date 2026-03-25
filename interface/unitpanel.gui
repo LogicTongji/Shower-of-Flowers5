@@ -109,9 +109,9 @@ guiTypes = {
 
 		textBoxType = {
 			name = "unitleader"
-			position = { x = 60 y = 2 }
+			position = { x = 60 y = 6 }
 			textureFile = ""
-			font = "arial_18"
+			font = "Arial12_headline"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 200
@@ -218,9 +218,9 @@ guiTypes = {
 
 		textBoxType = {
 			name = "desc"
-			position = { x = 75	 y = -32 }
+			position = { x = 75	 y = 5 }
 			textureFile = ""
-			font = "impact"
+			font = "Arial16"
 			borderSize = {x = 0 y = 0}
 			text = ""	
 			maxWidth = 300

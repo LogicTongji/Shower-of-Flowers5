@@ -679,7 +679,7 @@ ATTR_WEATHER;恶劣天气;;;;;;;;;;X
 ATTR_TECH;通过科技降低;;;;;;;;;;X
 EXIT;退出;;;;;;;;;;X
 CANCEL_CONVOY;取消护航舰队;;;;;;;;;;X
-SELECT;选择;;;;;;;;;;X
+Select;选择;;;;;;;;;;X
 MOBILIZE;动员;;;;;;;;;;X
 DEMOBILIZE;遣散;;;;;;;;;;X
 BACK;返回;;;;;;;;;;X

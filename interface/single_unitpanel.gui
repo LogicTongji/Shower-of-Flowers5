@@ -152,7 +152,7 @@ guiTypes = {
 
 		textBoxType = {
 			name = "unitlocation"
-			position = { x = 120 y = 80 }
+			position = { x = 120 y = 77 }
 			textureFile = ""
 			font = "Arial12_bold_black"
 			borderSize = {x = 0 y = 0}

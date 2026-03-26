@@ -632,8 +632,8 @@ division = {
 			division = {
 			name = "教导集团"
 			location = 4979
-       			regiment = { type = training_brigade experience = 30 historical_model = 2 }
-       			regiment = { type = training_brigade experience = 30 historical_model = 2 }
+       			regiment = { type = infantry_brigade experience = 30 historical_model = 2 }
+       			regiment = { type = infantry_brigade experience = 30 historical_model = 2 }
 	}
 			division = {
 			name = "第1集团"

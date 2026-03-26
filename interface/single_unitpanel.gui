@@ -767,7 +767,7 @@ guiTypes = {
 		{
 			name ="children_label_bg"
 			spriteType = "GFX_children_label_bg"
-			position = { x= 0 y = 0 }
+			position = { x= 0 y = 44 }
 			Orientation = "UPPER_LEFT"
 		}
 		
@@ -779,7 +779,7 @@ guiTypes = {
 
 		textBoxType = {
 			name = "header"
-			position = { x = 15 y = 0 }
+			position = { x = 15 y = 37 }
 			textureFile = ""
 			font = "Arial12_bold"
 			borderSize = {x = 0 y = 0}
@@ -790,7 +790,7 @@ guiTypes = {
 		}
 		textBoxType = {
 			name = "str"
-			position = { x = 64 y = 0 }
+			position = { x = 64 y = 44 }
 			textureFile = ""
 			font = "Arial12_bold"
 			borderSize = {x = 0 y = 0}
@@ -802,7 +802,7 @@ guiTypes = {
 		
 		listboxType = 	{
 			name ="list"
-			position = { x = 0 y = 16 }
+			position = { x = 0 y = 60 }
 			backGround=""
 			size = { x=307  y =192}
 			Orientation = "UPPER_LEFT"

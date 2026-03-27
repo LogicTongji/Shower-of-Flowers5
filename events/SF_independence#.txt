@@ -58,8 +58,7 @@ country_event = {
         }
           option = {
           name = "12342option" 
-          inherit = PHI
-          release = PHI
+          PHI = { inherit = PHI }
             ai_chance = { factor = 100 }
          }
 } 

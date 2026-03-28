@@ -19,7 +19,7 @@ spriteTypes = {
 		norefcount = yes
 		name = "SandboxFloaterBackground"
 		size= {x=190 y=310 }		
-		textureFile ="gfx\\interface\\tiles_dialog_type2.tga"
+		textureFile ="gfx\\interface\\tiles_dialog_type2.dds"
 		borderSize = { x=94 y=94 }
 	}
 	

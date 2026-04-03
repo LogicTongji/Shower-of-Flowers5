@@ -876,7 +876,7 @@ guiTypes = {
 		}		
 		listboxType = 	{
 			name ="list"
-			position = { x = 0 y = 32 }
+			position = { x = 0 y = 77 }
 			backGround=""
 			size = { x=307  y =192}
 			Orientation = "UPPER_LEFT"

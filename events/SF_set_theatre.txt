@@ -109,6 +109,10 @@ country_event = {
 	option = {
 		name = "theatreop"
 		load_oob = "CHI_TSA.txt"
+		 CQM = { 
+		  fujian_region = { limit = { controlled_by = CQM } secede_province = CHI change_controller = CHI }
+		  fujian_region = { limit = { not = { controlled_by = CQM } } secede_province = CHI }
+		  }
 		ai_chance = { factor = 100 }
 	}
 }

@@ -79,6 +79,7 @@ any_owned = { limit = { province_id = 7417 } secede_province = CDB }
                        leave_alliance = CGX
                      leave_alliance = CXK
                      create_alliance = CDB
+					  CDB = { war = { target = CHC } }
                      CDB = { load_oob = "CDB_1936.txt" }
 		ai_chance = { factor = 100 }
 	}

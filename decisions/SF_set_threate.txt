@@ -156,6 +156,7 @@ diplomatic_decisions = {
 		        }
 				has_country_flag = CHI_Kangzhan
                         date = 1938.1.13
+						not = { has_country_flag = jap_seizes_coast_chi }
                         war_with = JAP
 		}
 		allow = {

@@ -3175,8 +3175,10 @@ Left_through_guide_commist = {
 	trigger = {
 	war_with = CHI
          not = { has_global_flag = Long_March }
+		 or = {
 	has_global_flag = Nanking_war_JiangXi_Commist
 	has_global_flag = RuiJin_war_JiangXi_KouMingTang
+	}
           not = { has_country_flag = Recover_MaoZedong_guideline }
 	}
 unit_repair = -0.1
@@ -3192,8 +3194,6 @@ Left_through_guide_commist2 = {
 	trigger = {
 	war_with = CHI
          has_global_flag = Long_March 
-	has_global_flag = Nanking_war_JiangXi_Commist
-	has_global_flag = RuiJin_war_JiangXi_KouMingTang
           not = { has_country_flag = Recover_MaoZedong_guideline }
 	}
 supply_consumption = -0.99
@@ -3210,8 +3210,6 @@ Mao_ZeDong_guide_commist = {
 	trigger = {
 	war_with = CHI
          has_global_flag = Long_March 
-	has_global_flag = Nanking_war_JiangXi_Commist
-	has_global_flag = RuiJin_war_JiangXi_KouMingTang
           has_country_flag = Recover_MaoZedong_guideline
           CHI = { not = { has_country_flag = Xian_war_ShanXi_Commist } }
 	}
@@ -3273,9 +3271,12 @@ kill_ccp = {
 	}
 }
 	trigger = {
-	CHI = { war_with = CHC }
-	has_global_flag = Nanking_war_JiangXi_Commist
-	not = { year = 1936 }
+    war_with = CHC 
+	has_global_flag = Long_March
+	not = {  
+	  CHI = { 
+	         has_country_flag = Xian_war_ShanXi_Commist 
+	        }
 	}
 land_organisation = 0.50
 org_regain = 0.25

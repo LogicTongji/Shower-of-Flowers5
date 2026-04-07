@@ -18,6 +18,9 @@ diplomatic_decisions = {
 			}
 			and = {
 				date = 1933.4.16
+				or = {
+				controls = 5725
+				}
 			}
 		}
 		effect = {
@@ -110,18 +113,20 @@ diplomatic_decisions = {
 			tag = CHC
 			not = { has_global_flag = Long_March }
 			exists = CHC
-                             has_global_flag = RuiJin_war_JiangXi_KouMingTang
-			has_global_flag = Nanking_war_JiangXi_Commist
 		}
 		allow = {
 			CHC = {
 				war_with = CHI
 			}
-                            CHI = { 	
+			or = {
+			has_global_flag = RuiJin_war_JiangXi_KouMingTang
+			has_global_flag = Nanking_war_JiangXi_Commist
+			    CHI = { 	
 			controls = 5725
                              controls = 5716
                              controls = 5733
 		          } 
+			} 
 				      CHC = { 	
 			controls = 5241
                              controls = 7398
@@ -141,9 +146,11 @@ diplomatic_decisions = {
 			tag = CHC
 			not = { has_country_flag = Recover_MaoZedong_guideline }
 			exists = CHC
+			or = {
                              has_global_flag = Long_March
                              has_global_flag = RuiJin_war_JiangXi_KouMingTang
 			has_global_flag = Nanking_war_JiangXi_Commist
+			}
 		}
 		allow = {
 	       OR = { CHC = {
@@ -169,9 +176,11 @@ diplomatic_decisions = {
 			tag = CHC
 			not = { has_country_flag = Postpone_war_ShanXi_Commist }
 			exists = CHI
+			or = {
                              has_global_flag = Long_March
                              has_global_flag = RuiJin_war_JiangXi_KouMingTang
 			has_global_flag = Nanking_war_JiangXi_Commist
+			}
 		}
 		allow = {
 			CHC = {
@@ -225,9 +234,11 @@ diplomatic_decisions = {
 			tag = CHI
 			not = { has_country_flag = Xian_war_ShanXi_Commist }
 			exists = CHC
+			or = {
                              has_global_flag = Long_March
                              has_global_flag = RuiJin_war_JiangXi_KouMingTang
 			has_global_flag = Nanking_war_JiangXi_Commist
+			}
 		}
 		allow = {
 			CHC = {
@@ -238,8 +249,6 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = Xian_war_ShanXi_Commist          
-                                      CHI = { war = { target = CHC } }
-                   CDB = { war = { target = CHC } }
                             country_event = 12213
 		}
 		ai_will_do = {

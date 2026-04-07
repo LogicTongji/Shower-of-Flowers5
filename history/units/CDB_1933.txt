@@ -213,19 +213,19 @@ theatre = {
 	}
 	corps = {
 		name = "第26军"
-		location = 5728
+		location = 5700
 		expeditionary_owner = CHI
 		regiment = { type = hq_brigade name = "第26军军部" historical_model = 1 }
 		division= {
 			name = "第97师"
-			location = 5728
+			location = 5700
 			expeditionary_owner = CHI
 			regiment = { type = infantry_brigade experience = 10 historical_model = 1 }
 			regiment = { type = infantry_brigade experience = 10 historical_model = 0 }
 		}
 		division= {
 			name = "独立第4旅"
-			location = 5728
+			location = 5700
 			expeditionary_owner = CHI
 			regiment = { type = infantry_brigade name = "独立第32旅" historical_model = 0 }
 		}

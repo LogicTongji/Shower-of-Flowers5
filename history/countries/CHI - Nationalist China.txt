@@ -246,8 +246,7 @@ set_global_flag = Event1000101
 }
 1938.9.1 = {
 set_country_flag = jap_seizes_coast_chi
-set_country_flag = event0015
-set_global_flag = Event2000079
+set_country_flag = defence_wuhan
 set_country_flag = fall_mouth
 capital = 9478
 government = right_wing_autocrat

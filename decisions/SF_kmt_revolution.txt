@@ -269,6 +269,33 @@ Intagrate_China_GuiZhou = {
 	}
 	#全面抗战作战指导方案
 	#抗战建国纲领
+	  AntiJapan_create_guide = {  
+	  major = yes
+		potential = {
+			tag = CHI
+		has_country_flag = defence_wuhan
+		not = { has_country_flag = jap_seizes_coast_chi 			 
+		        has_country_flag = AntiJapan_create_guide
+		      }	
+		}
+		allow = {	
+			  war_with = JAP
+		}
+		effect = {
+			set_country_flag = AntiJapan_create_guide
+			 CHI = { country_event = 12242 } 
+			 CHC = { country_event = 12242 }
+			 CSX = { country_event = 12242 }
+			 CYN = { country_event = 12242 }
+			 CQM = { country_event = 12242 }
+			 CNM = { country_event = 12242 }
+			 CXK = { country_event = 12242 }
+			 CSY = { country_event = 12242 }
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	#成立最高国防委员会
 	#瓦解盛世才
 	 Intagrate_China_XinJiang = {

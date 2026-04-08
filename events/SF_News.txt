@@ -167,6 +167,7 @@ country_event = {
 		tag = CHC
 		has_country_flag = YananConversation
 		date = 1938.4.5
+		not = { year = 1939 }
 	}
 	option = {
 		name = "eventname0013"
@@ -184,7 +185,7 @@ country_event = {
 	picture = "news_picture8"
 	trigger = {
 		tag = CHI
-		has_country_flag = event0015
+		has_country_flag = defence_wuhan
 		not = { year = 1940 }
 	}
 	option = {
@@ -194,7 +195,7 @@ country_event = {
 }
 #日军毒气战
 country_event = {
-	id = 390307
+	id = 390309
 	fire_only_once = yes
 	major = yes
 	title = "event0016"
@@ -518,11 +519,7 @@ country_event = {
 		date = 1936.10.20
 	}
 	option = {
-		name = "newsop1" 
-                add_country_modifier = {
-			name = "Event193611_modifier"
-			duration = 100
-		}                               
+		name = "newsop1"        
 	}
 }
 #中央作出《关于青年工作的决定》
@@ -624,6 +621,7 @@ country_event = {
 		has_global_flag = Chongqing_negotiations  
 		has_global_flag = JUNE_negotiations 
     date = 1946.7.11
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -650,6 +648,7 @@ country_event = {
 		has_global_flag = CHINA_CIVIL_WAR
 		has_global_flag = Chongqing_negotiations   
     date = 1946.7.11
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -672,6 +671,7 @@ country_event = {
 		has_global_flag = CHINA_CIVIL_WAR
 		has_global_flag = Chongqing_negotiations   
     date = 1946.7.15
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -706,6 +706,7 @@ country_event = {
 		tag = USA
 		has_global_flag = JUNE_negotiations 
     date = 1946.8.1
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -727,6 +728,7 @@ country_event = {
 		tag = CHC
 		has_global_flag = JUNE_negotiations 
     date = 1946.10.25
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -750,6 +752,7 @@ country_event = {
 		tag = CHI
 		has_global_flag = JUNE_negotiations 
     date = 1946.11.25
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -775,6 +778,7 @@ country_event = {
 		has_global_flag = JUNE_negotiations 
 		has_global_flag = ZX_negotiations 
     date = 1947.1.8
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -796,6 +800,7 @@ country_event = {
 		tag = CHI
 		not = { war_with = JAP }
     date = 1946.5.8
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -817,6 +822,7 @@ country_event = {
 	trigger = {
 		tag = CHC
     date = 1946.5.8
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -841,6 +847,7 @@ country_event = {
 	trigger = {
 		tag = USA
     date = 1946.6.26
+	not = { year = 1948 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -863,6 +870,7 @@ country_event = {
 	trigger = {
 		tag = CHC
     date = 1946.6.28
+	not = { year = 1948 }
     war_with = CHI
 	}
         mean_time_to_happen =  {
@@ -882,8 +890,9 @@ country_event = {
 	picture = "CHI_CXX"
 	trigger = {
 		tag = CHI
-			CHC = { 	
-		  controls = 4979
+		or = {
+		CHC = { 	
+		    controls = 4979
 			controls = 5275
 			controls = 4452
 			controls = 5174
@@ -894,7 +903,19 @@ country_event = {
 			controls = 5515
 			controls = 9170		
 		}
-    war_with = CHC
+		PRC = { 	
+		    controls = 4979
+			controls = 5275
+			controls = 4452
+			controls = 5174
+			controls = 7435
+			controls = 7447
+			controls = 5383
+			controls = 5435
+			controls = 5515
+			controls = 9170		
+		}
+	  }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -914,8 +935,8 @@ country_event = {
 	desc = "MGdecs"
 	picture = "Event8"
 	trigger = {
-		tag = CHI
     date = 1948.1.1
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -933,8 +954,8 @@ country_event = {
 	desc = "MMdecs"
 	picture = "Event8"
 	trigger = {
-		tag = CHC
     date = 1948.1.5
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -953,8 +974,8 @@ country_event = {
 	desc = "XGdecs"
 	picture = "Event8"
 	trigger = {
-		tag = BEL
     date = 1948.1.9
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -974,6 +995,7 @@ country_event = {
 	trigger = {
 		tag = CHI
     date = 1948.1.22
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -996,6 +1018,7 @@ country_event = {
 	trigger = {
 		tag = IND
     date = 1948.1.30
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -1016,6 +1039,7 @@ country_event = {
 	trigger = {
 		tag = USA
     date = 1948.1.30
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -1036,6 +1060,7 @@ country_event = {
 	trigger = {
 		tag = CHI
     date = 1948.2.2
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -1056,8 +1081,8 @@ country_event = {
 	desc = "DYdecs"
 	picture = "Event8"
 	trigger = {
-		tag = SCH
     date = 1948.1.30
+	not = { year = 1949 }
 	}
         mean_time_to_happen =  {
 	        days = 1
@@ -1224,61 +1249,7 @@ country_event = {
 		name = "NCOP"       
 	}
 }
-country_event = {
-	id = 44458
-	major = yes
-		fire_only_once = yes
-	title = "KMCT"	
-	desc = "KMCD"
-	picture = "CHI_flag"
-	trigger = {
-		tag = CHI
-		not = { year = 1939 }   
-		date = 1938.1.21
-	}
-	option = {
-		name = "KMCOP"
-		country_event = 15000
-		head_of_government = 52025       
-	}
-}
-#抗战建国纲领
-country_event = {
-	id = 15000
-	major = yes
-	is_triggered_only = yes
-	title = "EVENT_15000_TITLE"
-	desc = "EVENT_15000_DESC"
-	picture = "CHI_flag"
-	option = {
-		name = "EVENT_15000_OPTION"
-		add_country_modifier = {
-			name = "EVENT_15000_MODIFIER"
-			duration = 730
-		}
-	}
-}
-#游击战争
-country_event = {
-	id = 44459
-	major = yes
-		fire_only_once = yes
-	title = "PYT"	
-	desc = "PYD"
-	picture = "CHC_flag"
-	trigger = {
-		tag = CHC
-		not = { year = 1939 }   
-		date = 1938.4.21
-	}
-	option = {
-		name = "PYOP"
-		add_country_modifier = {
-			name = "EYOUJQZB_MODIFIER"
-			duration = 400
-		}      
-	}
-}
+
 country_event = {
 	id = 444510
 	major = yes
@@ -1307,11 +1278,7 @@ country_event = {
 		date = 1938.7.9
 	}
 	option = {
-		name = "SQOP1"
-		add_country_modifier = {
-			name = "SQT_MODIFIER"
-			duration = 4000
-		}  
+		name = "SQOP1"  
 		ai_chance = { factor = 100 }    
 	}
 	option = {

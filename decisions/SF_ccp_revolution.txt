@@ -22,6 +22,28 @@ diplomatic_decisions = {
 		}
 	}
 	#抗战中
+	#游击战争指示
+	   Guide_for_guerrilla = {
+		potential = {
+			tag = CHC
+            has_global_flag = SF_anti_japanese_war
+			NOT = { has_global_flag = Guide_for_guerrilla } 
+			NOT = { CHI = { has_country_flag = jap_seizes_coast_chi } }
+			CHI = { has_country_flag = defence_wuhan }
+		}
+		allow = {
+		    war_with = JAP
+			NOT = { exists = CJC }
+			NOT = { exists = CSD }
+		}
+		effect = {
+			set_global_flag = Guide_for_guerrilla
+			country_event = 13234
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
 	 #延安整风
 	Yanan_revolution = {            
 		potential = {
@@ -36,29 +58,6 @@ diplomatic_decisions = {
 		}
 		effect = {
 			set_country_flag = Yanan_revolution
-		}
-		ai_will_do = {
-			factor = 1
-		}
-	}
-	#游击战争指示
-	   Guide_for_guerrilla = {
-		potential = {
-			tag = CHC
-            has_global_flag = SF_anti_japanese_war
-			not = { has_global_flag = Guide_for_guerrilla } 
-		}
-		allow = {
-		    war_with = JAP
-			JAP = { controls = 4979
-			controls = 5174
-			controls = 5246
-			controls = 5275
-			}
-		}
-		effect = {
-			set_global_flag = Guide_for_guerrilla
-			country_event = 20126
 		}
 		ai_will_do = {
 			factor = 1

@@ -187,8 +187,8 @@ diplomatic_decisions = {
 			 has_country_flag = CHI_Kangzhan
 		}
 		allow = {
-                                                has_country_flag = event0015
-                                               	not = { has_country_flag = The_ninth_armygroup }
+             has_country_flag = defence_wuhan
+             not = { has_country_flag = The_ninth_armygroup }
 		}
 		effect = {
 			set_country_flag = The_ninth_armygroup

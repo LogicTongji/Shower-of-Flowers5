@@ -17,13 +17,23 @@ diplomatic_decisions = {
                             not = { has_global_flag = Taibei_chance }	
 		}
 		allow = {
+		OR = {
 		CHC = { 	
-		         controls = 4979
-		         controls = 5018
+		    controls = 4979
+		    controls = 5018
 			controls = 5275
 			controls = 5383
 			controls = 5435
 			controls = 5515
+			}
+		PRC = { 	
+		    controls = 4979
+		    controls = 5018
+			controls = 5275
+			controls = 5383
+			controls = 5435
+			controls = 5515
+			      }
 			}
 		}
 		effect = {

@@ -80,7 +80,6 @@ country_event = {
 	picture = "international_help3"
 	option = {
 		name = "CHI_Event_option2000079"
-		set_global_flag = Event2000079
 		7561 = { industry = 3 }
 	}
 }			

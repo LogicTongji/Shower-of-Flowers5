@@ -113,7 +113,6 @@ diplomatic_decisions = {
 			tag = CHI
 			or = {
 			year = 1946
-			year = 1949
 			}		
 			not = { has_country_flag = introduction_chi_1945 } 
 		}

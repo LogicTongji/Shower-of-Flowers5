@@ -8,9 +8,11 @@ country_event = {
 	picture = "news_picture9"
 	trigger = {
 		tag = CHI
-		not = { JAP = { controls = 7508 }
+		not = {
+		JAP = { controls = 7508 }
 		        CJS = { controls = 7508 }
-		        WJW = { controls = 7508 } }
+		        WJW = { controls = 7508 }
+				}
     not = { 
 	has_country_flag = jap_seizes_coast_chi
 	has_global_flag = JAP_Lost
@@ -19,7 +21,7 @@ country_event = {
 	}
 	option = {
 		name = "eventname0015"
-		set_country_flag = event0015
+		set_country_flag = defence_wuhan
 		  CHC = { country_event = 390307 }
     CGX = { country_event = 390307 }
     CYN = { country_event = 390307 }
@@ -31,7 +33,6 @@ country_event = {
 }
 country_event = {
 	id = 390307
-	major = yes
   is_triggered_only = yes
 	title = "event0015"
 	desc = "eventdesc0015"

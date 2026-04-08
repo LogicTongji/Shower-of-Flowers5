@@ -127,6 +127,9 @@ economic_law = total_economic_mobilisation
 conscription_law = volunteer_army
 civil_law = legalistic_restrictions
 }
+1935.1.21 = {
+set_country_flag = Recover_MaoZedong_guideline
+}
 1935.12.25 ={
 set_country_flag = Anti_jap_united_front_first
 }

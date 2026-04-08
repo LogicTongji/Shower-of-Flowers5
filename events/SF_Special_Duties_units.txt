@@ -30,6 +30,7 @@ country_event = {
 	trigger = {
 		tag = CHI		
 		date = 1941.8.1
+		not = { year = 1945 }
                 has_country_flag = Event9111100
                 has_country_flag = Event9111103
 	}
@@ -81,8 +82,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "л╚╨цак"
-                7561 = { leadership = 0.3 }
+		name = "SDUOP4"
 		set_country_flag = Event9111103
 		ai_chance = { factor = 100 }
 	}

@@ -118,6 +118,7 @@ diplomatic_decisions = {
 			CHC = {
 				war_with = CHI
 			}
+			not = { has_country_flag = Recover_MaoZedong_guideline }
 			or = {
 			has_global_flag = RuiJin_war_JiangXi_KouMingTang
 			has_global_flag = Nanking_war_JiangXi_Commist

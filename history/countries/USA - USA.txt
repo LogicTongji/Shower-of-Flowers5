@@ -1186,3 +1186,6 @@ head_of_state = 6034
 head_of_government = 6047
 oob = "USA_1946.txt"
 }
+1949.5.3 = {
+set_global_flag = independent_DFR
+}

@@ -16,7 +16,7 @@ infra = 10
 	remove_core  = GER
 }
 
-1949.5.23 = {
+1949.10.7 = {
 	controller = DDR
 	owner = DDR
 }

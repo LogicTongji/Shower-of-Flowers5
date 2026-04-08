@@ -13,6 +13,7 @@ diplomatic_decisions = {
 		allow = {
 			not = { CSX = { controls = 4977 } }
 			not = { CSX = { controls = 5175 } }
+			not = { CHI = { has_country_flag = jap_seizes_coast_chi } }
 			and = {
 				7391 = { units_in_province = 1 }
 				5241 = { units_in_province = 1 }
@@ -63,6 +64,7 @@ diplomatic_decisions = {
 		}
 		allow = {
 			alliance_with = CHC
+			not = { CHI = { has_country_flag = jap_seizes_coast_chi } }
 			not = { vassal_of = JAP }
 			not = { controls = 4977 }
 		}
@@ -86,6 +88,7 @@ diplomatic_decisions = {
 			has_global_flag = chc_jinchaji
 		}
 		allow = {
+		    not = { CHI = { has_country_flag = jap_seizes_coast_chi } }
 			not = { CHI = { controls = 5383 } }
 			not = { CHI = { controls = 5275 } }
 			not = { CHI = { controls = 5419 } }
@@ -109,6 +112,7 @@ diplomatic_decisions = {
 			has_country_flag = eighth_route_army_majority
 		}
 		allow = {
+		    not = { CHI = { has_country_flag = jap_seizes_coast_chi } }
 			not = { CHI = { controls = 5084 } }
 			not = { CHI = { controls = 5112 } }
 			not = { CHI = { controls = 5085 } }
@@ -132,6 +136,7 @@ diplomatic_decisions = {
 			has_country_flag = eighth_route_army_majority
 		}
 		allow = {
+		    not = { CHI = { has_country_flag = jap_seizes_coast_chi } }
 			not = { CSX = { controls = 7384 } }
 			not = { CSX = { controls = 7385 } }
 			not = { CSX = { controls = 7405 } }
@@ -154,6 +159,7 @@ diplomatic_decisions = {
 			has_country_flag = eighth_route_army_majority
 		}
 		allow = {
+		    not = { CHI = { has_country_flag = jap_seizes_coast_chi } }
 			not = { CSX = { controls = 5272 } }
 			not = { CSX = { controls = 5333 } }
 			not = { CSX = { controls = 7418 } }

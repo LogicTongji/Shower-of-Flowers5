@@ -49,7 +49,7 @@ spriteTypes = {
 	spriteType = {
 		norefcount = yes
 		name = "GFX_menubar_modifiers_button"
-		texturefile = "gfx\\interface\\menubar_modifiers_button.tga"
+		texturefile = "gfx\\interface\\modifier\\menubar_modifiers_button.tga"
 	}
 	spriteType = {
 		norefcount = yes

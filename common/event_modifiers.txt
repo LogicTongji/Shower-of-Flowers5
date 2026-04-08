@@ -2618,9 +2618,6 @@ The_Migration_Period_modifier = {
 The_Migration_Period_education_modifier = {
                global_leadership_modifier = 0.01
 }
-The_Migration_education2_education_modifier = {
-               global_leadership_modifier = 0.02
-}
 Event19361_modifier = {
 	dissent = 0.1 
 	national_unity_effect = 0.1
@@ -2628,9 +2625,6 @@ Event19361_modifier = {
 Event19365_modifier = {
 	counter_espionage = 0.1 
         global_revolt_risk = -0.1 
-}
-Event193611_modifier = {
-	dissent = 0.05
 }
 kuibai_modifier = {
         global_manpower_modifier = -0.15
@@ -2750,26 +2744,7 @@ global_resources = -0.1
 global_manpower_modifier = -0.1 
 	icon = 5
 }
-EYOUJQZB_MODIFIER = {
-ruling_party_support = 0.1 
-global_resources = 0.1 
-global_leadership_modifier = 0.15
-combat_movement_speed = 0.05
-	icon = 5
-}
-SQT_MODIFIER = {
-dissent = 0.1 
-ruling_party_support = -0.1 
-counter_espionage = 0.1 
-global_revolt_risk = -0.1 
 
-	icon = 5
-}
-MPR_modifier = {
-global_supplies = 0.1 
-
-	icon = 5
-}
 AmryCULI_modifier = {
 land_organisation = 0.1 
 org_regain = 0.1 
@@ -2995,8 +2970,6 @@ icon = 5
 
 #province
 Boom_ChongQing_modifier = {
-    local_manpower_modifier = -0.05
-	local_resources = -0.15
 	local_ic = -0.55
 	local_leadership_modifier = -0.15
 }
@@ -3006,4 +2979,7 @@ henan_famine_modifier = {
 	local_ic = -0.55
 	local_unit_speed = 0.15
 	local_defensiveness = -1
+}
+The_Migration_education2_education_modifier = {
+               local_leadership_modifier = 0.20
 }

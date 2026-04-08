@@ -9,6 +9,7 @@ country_event = {
 	picture = "massacre_in_war1"
 	trigger = {
 		tag = CHI
+		war_with = JAP
                 JAP = { controls = 7435 }
                 CHI = { controls = 7520 }
 	}
@@ -41,6 +42,7 @@ country_event = {
 	picture = "massacre_in_war2"
 	trigger = {
 		tag = CHI
+		war_with = JAP
 		not = { has_country_flag = fall_mouth }
 		or = {
 			 JAP = { controls = 5419 }
@@ -131,6 +133,7 @@ country_event = {
 	trigger = {
 		tag = CHI
 		year = 1939
+		war_with = JAP
         has_country_flag = jap_seizes_coast_chi
 	}
         mean_time_to_happen =  {

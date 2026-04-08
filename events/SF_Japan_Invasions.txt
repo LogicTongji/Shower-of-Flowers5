@@ -87,6 +87,10 @@ country_event = {
 	picture = "SF_Japan_Invasions4"
 	trigger = {
 		tag = CHI
+		or = {
+		CJC = { war_with = JAP }
+		CSD = { war_with = JAP }
+		}
 		not = { has_global_flag = CHI_Event_1000021 }
 		has_country_flag = CHI_Passive_defense
 	}

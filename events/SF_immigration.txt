@@ -139,10 +139,12 @@ country_event = {
 	picture = "immigration6"
 	option = {
 		name = "The_Migration_Period3op"
-                add_country_modifier = {
+                7561 = { 
+			add_province_modifier = {
 			name = "The_Migration_education2_education_modifier"
 			duration = 2923
-                }	                         
+                     }	 
+                }
                 7561 = { leadership = 1 }                     			           			           	
 	}
 }

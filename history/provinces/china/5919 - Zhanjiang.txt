@@ -13,5 +13,6 @@ naval_base = 5
 	controller = JAP
 }
 1946.2.1 = {	
-	owner = FRA
+	owner = CHI
+	remove_core = FRA
 }

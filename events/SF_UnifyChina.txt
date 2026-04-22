@@ -75,7 +75,7 @@ country_event = {
 		4452 = { change_province_name = "长春" }
 	}
 }
-#打过长江去
+#解放大西南
 country_event = {
 	id = 1000171
 	is_triggered_only = yes
@@ -95,6 +95,8 @@ country_event = {
 							remove_core = CSX
 							remove_core = CNM
 							remove_core = CSY
+							remove_core = CJC
+							remove_core = CRH
 							}
 		SF_china_region = { add_core = PRC }
 	}

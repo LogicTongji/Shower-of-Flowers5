@@ -114,7 +114,10 @@ diplomatic_decisions = {
 			or = {
 			year = 1946
 			}		
-			not = { has_country_flag = introduction_chi_1945 } 
+			not = { 
+			year = 1949
+			has_country_flag = introduction_chi_1945 
+			} 
 		}
 		allow = {
 		}

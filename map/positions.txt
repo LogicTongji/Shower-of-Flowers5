@@ -606681,3 +606681,94 @@ building_nudge =
 	{
 	}
 }
+14186 = 
+{
+building_position = 
+	{
+air_base=
+		{
+			x=4594.750000
+			y=1284.250000
+		}
+
+land_fort=
+		{
+			x=4594.750000
+			y=1284.250000
+		}
+
+anti_air=
+		{
+			x=4594.750000
+			y=1284.250000
+		}
+
+radar_station=
+		{
+			x=4594.750000
+			y=1284.250000
+		}
+
+nuclear_reactor=
+		{
+			x=4594.750000
+			y=1284.250000
+		}
+
+rocket_test=
+		{
+			x=4594.750000
+			y=1284.250000
+		}
+
+	}
+building_nudge = 
+	{
+	}
+}
+
+14187 = 
+{
+building_position = 
+	{
+air_base=
+		{
+			x=4561.750000
+			y=1281.250000
+		}
+
+land_fort=
+		{
+			x=4561.750000
+			y=1281.250000
+		}
+
+anti_air=
+		{
+			x=4561.750000
+			y=1281.250000
+		}
+
+radar_station=
+		{
+			x=4561.750000
+			y=1281.250000
+		}
+
+nuclear_reactor=
+		{
+			x=4561.750000
+			y=1281.250000
+		}
+
+rocket_test=
+		{
+			x=4561.750000
+			y=1281.250000
+		}
+
+	}
+building_nudge = 
+	{
+	}
+}

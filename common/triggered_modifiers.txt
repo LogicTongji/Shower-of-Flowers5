@@ -1931,7 +1931,6 @@ zhiansuzheng = {
 	}
 	global_revolt_risk = 0.15
 	global_manpower_modifier = 0.05
-	land_build_speed = -0.1
 	combat_movement_speed = 0.05
 	soft_attack = 0.05
 }
@@ -2212,7 +2211,12 @@ cvariety_warlords = {
 	trigger = {
 		tag = ENG
                 war_with = JAP
-                JAP = { controls = 6070 } 
+                 AND = {
+	   NOT = { year = 1942 }
+	   NOT = { JAP = { controls = 6070 } }
+	   NOT = { JAP = { controls = 6394 } }
+	   NOT = { JAP = { controls = 6142 } }
+	   }
 	}
 	
         supply_consumption = 0.2
@@ -2260,9 +2264,9 @@ ICariety_warlords = {
 	trigger = {
 		tag = CHI
                 war_with = JAP
-                has_country_flag = The_Migration_Period¡¤WuHan
+                has_country_flag = The_Migration_Period_WuHan
                 not = { has_country_flag = jap_seizes_coast_chi }
-                not = { has_country_flag = The_Migration_Period¡¤ChongQing } 
+                not = { has_country_flag = The_Migration_Period_ChongQing } 
 	}
 
 	global_ic = -0.2	
@@ -2298,6 +2302,12 @@ jap_southing_BUFF = {
 		tag = JAP
 	  not = { has_country_flag = EventJAP30190019 }
 	  has_global_flag = JAPsouthing
+	  AND = {
+	   NOT = { year = 1942 }
+	   NOT = { JAP = { controls = 6070 } }
+	   NOT = { JAP = { controls = 6394 } }
+	   NOT = { JAP = { controls = 6142 } }
+	   }
 	}
 
 	land_organisation = 0.3	
@@ -2315,6 +2325,12 @@ ENG_southing_BUFF = {
 		tag = ENG
 	  not = { has_global_flag = Event30190019 }
 	  has_global_flag = JAPsouthing
+	   AND = {
+	   NOT = { year = 1942 }
+	   NOT = { JAP = { controls = 6070 } }
+	   NOT = { JAP = { controls = 6394 } }
+	   NOT = { JAP = { controls = 6142 } }
+	   }
 	}
 
 	land_organisation = -0.25	
@@ -2331,6 +2347,12 @@ CHI_southing_BUFF = {
 	trigger = {
 		tag = CHI
 	  has_global_flag = JAPsouthing
+	   AND = {
+	   NOT = { year = 1942 }
+	   NOT = { JAP = { controls = 6070 } }
+	   NOT = { JAP = { controls = 6394 } }
+	   NOT = { JAP = { controls = 6142 } }
+	   }
 	}
 
 	land_organisation = 0.2	

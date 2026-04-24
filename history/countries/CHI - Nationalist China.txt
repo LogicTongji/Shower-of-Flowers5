@@ -232,9 +232,8 @@ national_unity = 100
 
 oob = "CHI_1938d.txt"
 
-set_country_flag =  The_Migration_Period¡¤WuHan 
-set_country_flag = The_Migration_Period¡¤education
-set_country_flag = The_Migration_Period¡¤education3
+set_country_flag =  The_Migration_Period_WuHan 
+set_country_flag = The_Migration_Period_education
 set_country_flag = Event9111102
 set_global_flag = Event2000073
 set_country_flag = Event2000077
@@ -248,6 +247,7 @@ set_global_flag = Event1000101
 set_country_flag = jap_seizes_coast_chi
 set_country_flag = defence_wuhan
 set_country_flag = fall_mouth
+set_country_flag = The_Migration_Period_ChongQing
 capital = 9478
 government = right_wing_autocrat
 officers_ratio = 0.75

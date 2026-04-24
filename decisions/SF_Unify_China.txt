@@ -52,6 +52,9 @@ diplomatic_decisions = {
 		effect = {
 			country_event = 1000168
 			set_country_flag = Uaction_PRC
+			4979 = {
+						   province_event = 190036
+						   }
 		}
 		ai_will_do = {
 			factor = 1

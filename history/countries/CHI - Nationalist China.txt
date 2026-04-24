@@ -234,6 +234,7 @@ oob = "CHI_1938d.txt"
 
 set_country_flag =  The_Migration_Period_WuHan 
 set_country_flag = The_Migration_Period_education
+set_country_flag = The_Migration_Period_education4
 set_country_flag = Event9111102
 set_global_flag = Event2000073
 set_country_flag = Event2000077
@@ -348,6 +349,7 @@ national_unity = 100
 }
 1940.6.1 ={
 set_global_flag = CHI_defence_war
+set_country_flag = The_Migration_Period_education5
 }
 1941.2.1 ={
          set_global_flag = Event700001

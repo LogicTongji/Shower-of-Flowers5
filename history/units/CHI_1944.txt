@@ -2758,7 +2758,7 @@ theatre= {
 				division= {
 					name = "第151师"
 					expeditionary_owner = CGX
-					location = 5198
+					location = 5598
 					regiment = { type = infantry_brigade experience = 20 historical_model = 2 }
 					regiment = { type = infantry_brigade experience = 20 historical_model = 2 }
 				}
@@ -2827,7 +2827,7 @@ theatre= {
 				division= {
 					name = "第187师"
 					expeditionary_owner = CGX
-					location = 5656
+					location = 5675
 					regiment = { type = infantry_brigade experience = 20 historical_model = 2 }
 					regiment = { type = infantry_brigade experience = 20 historical_model = 2 }
 				}

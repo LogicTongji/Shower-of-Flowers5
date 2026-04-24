@@ -750,4 +750,4 @@ join_faction = axis
 1943.3.1={
 	decision = trains_run_on_time
 }
-1943.9.23 = { oob = "empty.txt" leave_faction = axis }
+1943.9.23 = { oob = "empty.txt" leave_faction = axis join_faction = allies }

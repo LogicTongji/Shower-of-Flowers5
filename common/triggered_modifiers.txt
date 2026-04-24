@@ -2143,7 +2143,7 @@ chaotic_command = {
 	}
 	
 	
-counter_espionage = -0.1
+land_organisation = -0.05
 reinforcement_bonus = -0.15
 	icon = 5
 }
@@ -2522,10 +2522,7 @@ CHI_defence_war = {
 	has_global_flag = CHI_defence_war
 	war_with = JAP
 	}
-global_manpower_modifier = 0.15
-war_consumer_goods_demand = -0.20
-land_organisation = -0.20 
-org_regain = 0.45
+org_regain = 0.15
 leader_defence = 0.35
 
 }

@@ -154,14 +154,13 @@ country_event = {
 }
 #纽伦堡法庭宪章
 country_event = {
-        major = yes
-        fire_only_once = yes
 	id = 20203170
 	title = "MS09title"
 	desc = "MS09decs"
 	picture = "Event3000083"
 	trigger = {		
               has_global_flag = GER_Lost 
+			  not = { has_global_flag = EventMCD  }
 
 	}
         mean_time_to_happen =  {
@@ -175,22 +174,21 @@ country_event = {
 }
 #远东军事法庭
 country_event = {
-        major = yes
-        fire_only_once = yes
 	id = 20203171
 	title = "MS091title"
 	desc = "MS091decs"
 	picture = "Event3000083"
 	trigger = {		
                	has_global_flag = JAP_Lost
-
+				 has_global_flag = GER_Lost 
+			  not = { has_global_flag = east_asian_law  }
 	}
         mean_time_to_happen =  {
 	        days = 1
         }
 	option = {
 		name = "4option1"
-    set_global_flag = dp
+    set_global_flag = east_asian_law
 		ai_chance = { factor = 100 }
        	}
 }

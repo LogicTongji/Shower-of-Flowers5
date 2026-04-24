@@ -99,6 +99,7 @@ country_event = {
 							remove_core = CRH
 							}
 		SF_china_region = { add_core = PRC }
+		CHI = { SF_china_region = { limit = { controlled_by = CHI } change_controller = PRC } }
 	}
 }
 

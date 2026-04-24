@@ -2196,10 +2196,10 @@ rvariety_warlords = {
 	}
 	
 	dissent = 0.05
-        org_regain = -0.25	
+        org_regain = -0.15	
         supply_consumption = 0.15
         ruling_party_support = -0.1 
-        land_organisation = -0.1
+        land_organisation = -0.4
         war_consumer_goods_demand =0.5
 	icon = 5
 }
@@ -2939,22 +2939,6 @@ Appeasement_policy = {
 	global_leadership_modifier = 0.1
 	global_manpower_modifier = 0.1
 	global_supplies = -0.1
-	icon = 1
-}
-#联合政府
-EF_unity = {
-	potential = {
-			TAG = EFU
-	}
-	trigger = {
-		 war_with = GER
-	has_global_flag = Xaction_ENG_FRAUnity 
-	 }	
-  war_consumer_goods_demand = -0.55
-  land_organisation = 0.25
-	global_leadership_modifier = 0.1
-	global_manpower_modifier = 0.1
-	global_supplies = 0.1
 	icon = 1
 }
 #最后一战

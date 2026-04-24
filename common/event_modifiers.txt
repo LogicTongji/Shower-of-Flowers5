@@ -2920,13 +2920,6 @@ suseptibility = 0.15
 land_build_speed = -0.5
 org_regain = 0.15
 }
-FRA_ENG_modifier = {
-global_manpower_modifier = 0.1 
-dissent = -0.25
-suseptibility = 0.15
-land_build_speed = 0.25
-org_regain = 0.15
-}
 NOR_Against_modifier = {
 counter_intelligence = 0.1
 land_build_speed = 0.15

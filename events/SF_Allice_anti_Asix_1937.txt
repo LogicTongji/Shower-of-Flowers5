@@ -15,19 +15,10 @@ country_event = {
     }
 	option = {
 		name = "YDoption1"
-	non_aggression_pact = CHI
 	national_unity = -5
 	dissent = 5
 		ai_chance = { factor = 100 }
        	}
-	option = { 
-		name = "YDoption2"
-		 add_country_modifier = {
-			name = "FRA_ENG_modifier"
-			duration = 240
-			}
-		ai_chance = { factor = 0 }
-	}
 }
 country_event = {
 	id = 202022

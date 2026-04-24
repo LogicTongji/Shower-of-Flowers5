@@ -99,8 +99,9 @@ country_event = {
 							remove_core = CRH
 							}
 		SF_china_region = { add_core = PRC }
+		taiwan_region = { add_core = PRC }
 		CHI = { SF_china_region = { limit = { controlled_by = CHI } secede_province = PRC change_controller = CHI } }
-		CHI = { taiwan_region = { limit = { controlled_by = CHI } secede_province = CHI change_controller = CHI } }
+		
 	}
 }
 

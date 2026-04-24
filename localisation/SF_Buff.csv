@@ -79,9 +79,6 @@ CHC_DAILI_modifier;地下党;;;;;;;;;;;;;x
 SIAWAR_modifier;马虎山乱疆;;;;;;;;;;;;;x
 SIACLA_modifier;第一次大清洗;;;;;;;;;;;;;x
 SIACLA2_modifier;第二次大清洗;;;;;;;;;;;;;x
-NOconversation_modifier;消极的对日态度(3);;;;;;;;;;;;;x
-TGconversation_modifier;抗日准备;;;;;;;;;;;;;x
-EYOUJQZB_MODIFIER;游击战争的准备;;;;;;;;;;;;;x
 MPR_modifier;南泥湾;;;;;;;;;;;;;x
 AmryCULI_modifier;军委会;;;;;;;;;;;;;x
 SZG_modifier;施政纲领;;;;;;;;;;;;;x
@@ -130,8 +127,6 @@ ManChu_eat2_modifier;粮谷管理法;;;;;;;;;;;;;x
 ManChu_eat4_modifier;满洲农产公社;;;;;;;;;;;;;x
 ManChu_eat3_modifier;满洲农产公社;;;;;;;;;;;;;x
 Appeasement_policy;绥靖政策;;;;;;;;;;;;;x
-FRA_ENG_modifier;整军经武;;;;;;;;;;;;;x
-EF_unity;联合政府;;;;;;;;;;;;;x
 the_end_war;最后一战;;;;;;;;;;;;;x
 suddly_hit_ger;突然袭击;;;;;;;;;;;;;x
 suddly_hit_sov;突然袭击;;;;;;;;;;;;;x

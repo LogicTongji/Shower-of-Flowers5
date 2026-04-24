@@ -596,7 +596,7 @@ theatre = {
 }
 theatre = {
 	name = "支那派遣军"
-	location = 7447
+	location = 5976
 	regiment = { type = hq_brigade name = "支那派遣军指挥部" experience = 30 historical_model = 3 }
 	armygroup = {
 		name = "北支那方面军"

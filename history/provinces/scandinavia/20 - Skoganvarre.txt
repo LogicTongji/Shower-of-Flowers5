@@ -13,3 +13,7 @@ terrain = arctic
 	controller = GER
 infra = 2
 }
+1945.9.1 = {
+	owner = NOR
+	controller = NOR
+}

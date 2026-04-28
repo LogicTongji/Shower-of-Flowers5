@@ -26,3 +26,7 @@ infra = 3
 air_base = 1
 anti_air = 1
 }
+1945.9.1 = {
+	owner = NOR
+	controller = NOR
+}

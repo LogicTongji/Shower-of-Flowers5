@@ -75,7 +75,7 @@ country_event = {
 }
 #部分国民党军政要员变节投降
 country_event = {
-	id = 1000007
+	id = 1001117
 	fire_only_once = yes
 	title = "CHI_event_1000007_title"
 	subtitle = "CHI_event_1000007_subtitle"

@@ -16,3 +16,7 @@ leadership = 0.10
 1941.6.22 = {
 	controller = GER
 }
+1945.9.1 = {
+	owner = NOR
+	controller = NOR
+}

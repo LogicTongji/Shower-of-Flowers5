@@ -12,3 +12,7 @@ infra = 10
 	controller = GER
 
 }
+1945.9.1 = {
+	owner = DEN
+	controller = DEN
+}

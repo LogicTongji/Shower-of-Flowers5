@@ -63,7 +63,7 @@ country_event = {
 	desc = "Man2desc"
 	picture = "Event19362"
 	option = {
-		name = "Man1option"
+		name = "Man11option"
                            national_unity = 5    
 	}
 }

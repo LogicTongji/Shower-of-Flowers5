@@ -2116,7 +2116,7 @@ theatre = {
 				}
 				division = {
 					name = "野战重炮兵第3旅团"
-					location = 8537
+					location = 8573
 						regiment = { type = field_battalion experience = 20 name = "加强部队" historical_model = 3 }				
 					regiment = { type = artillery_brigadeB experience = 35 name = "野战重炮兵第1联队" historical_model = 4 }
 					regiment = { type = artillery_brigadeB experience = 35 name = "野战重炮兵第7联队" historical_model = 4 }
@@ -2267,19 +2267,19 @@ theatre = {
 				}
 				corps = {
 					name = "第10姬路甲种师团'铁'"
-					location = 8436
+					location = 4522
 					regiment = { type = hq_brigade name = "师团部" experience = 30 historical_model = 4 }
 						regiment = { type = field_battalion experience = 20 name = "守备部队" historical_model = 3 }
 					division = {
 						name = "歩兵第8旅团"
-						location = 8410
+						location = 4522
 						regiment = { type = infantry_brigade name = "歩兵第39联队" experience = 30 historical_model = 4 }
 						regiment = { type = imperial_brigade name = "歩兵第40联队" experience = 30 historical_model = 4 }
 						regiment = { type = alpine_artillery_brigade name = "山炮兵第10联队" experience = 30 historical_model = 4 }
 					}
 					division = {
 						name = "歩兵第33旅团"
-						location = 8384
+						location = 4522
 						regiment = { type = infantry_brigade name = "歩兵第10联队" experience = 30 historical_model = 4 }
 						regiment = { type = imperial_brigade name = "歩兵第63联队" experience = 30 historical_model = 4 }
 							regiment = { type = engineer_brigade name = "工兵第10联队" experience = 30 historical_model = 4 }
@@ -2429,7 +2429,7 @@ theatre = {
       	}
        	division= {
 					name = "第36师团"
-					location = 8272
+					location = 5401
 					regiment = { type = imperial_brigade name = "歩兵第222联队" experience = 30 historical_model = 3 }
 					regiment = { type = imperial_brigade name = "歩兵第223联队" experience = 30 historical_model = 3 }
 					regiment = { type = imperial_brigade name = "歩兵第224联队" experience = 30 historical_model = 3 }

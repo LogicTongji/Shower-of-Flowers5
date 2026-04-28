@@ -16,5 +16,6 @@ land_fort = 2
 
 
 1941.12.7 = {
+owner = FIN
 	controller = FIN
 }

@@ -618,6 +618,7 @@ country_event = {
 }
 country_event = {
 	id = 193903
+	is_triggered_only = yes
 	title = "CHI_event_1000007_title"
 	subtitle = "CHI_event_1000007_subtitle"
 	desc = "CHI_event_1000007_descf"

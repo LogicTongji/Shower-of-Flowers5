@@ -11,3 +11,7 @@ infra = 1
 1941.6.22 = {
 	controller = GER
 }
+1945.12.7 = {
+owner = NOR
+	controller = NOR
+}

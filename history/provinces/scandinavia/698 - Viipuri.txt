@@ -22,5 +22,6 @@ strategic_resource = fur
 
 
 1941.12.7 = {
+owner = FIN
 	controller = FIN
 }

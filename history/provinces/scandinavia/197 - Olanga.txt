@@ -14,5 +14,6 @@ infra = 1
 
 
 1941.12.7 = {
-	controller = FIN
+owner = FIN
+	controller = FIN
 }

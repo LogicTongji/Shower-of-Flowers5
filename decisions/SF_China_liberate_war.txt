@@ -148,8 +148,14 @@ diplomatic_decisions = {
 		potential = {
 			tag = CXK  
 			exists = CHI
+			OR = {
 			exists = PRC
-			PRC = { war_with = CHI  }		    
+			exists = CHC
+			}
+			OR = {
+			PRC = { war_with = CHI  }	
+			CHC = { war_with = CHI  }	
+			}		    
 		}
 		allow = {
 		has_global_flag = China_CivilWar
@@ -167,30 +173,6 @@ diplomatic_decisions = {
 			factor = 1
 		     }
     }  
- China_CivilWar5_CHC = {
-	     major = yes
-		potential = {
-			tag = CXK  
-			exists = CHI
-			exists = CHC
-			CHC = { war_with = CHI  }		    
-		}
-		allow = {
-		has_global_flag = China_CivilWar
-		has_global_flag = China_CivilWar4
-		has_global_flag = China_CivilWar_Yunnan
-      not = { has_global_flag = China_CivilWar5 }	
-		}
-		effect = {
-			set_global_flag = China_CivilWar5		
-			 CHC = { inherit = CXK }
-     CHC = {  load_oob = "CXK_1946.txt" }
-	 SF_china_region = { remove_core = CXK }
-		}
-		ai_will_do = {
-			factor = 1
-		     }
-    } 
 #组建快速纵队
  China_CivilWar6 = {
 		potential = {
@@ -219,17 +201,7 @@ diplomatic_decisions = {
 		potential = {	
 			tag = CHI
                             exists = CHI
-		OR = {
-		war_with = CHC
-		war_with = PRC
-				         exists = CHC
-						 		         exists = PRC
-		}
-                            has_global_flag = China_CivilWar
-                            not = { has_global_flag = Taibei_chance }	
-		}
-		allow = {
-		OR = {
+								OR = {
 		CHC = { 	
 		    controls = 4979
 		    controls = 5018
@@ -247,6 +219,20 @@ diplomatic_decisions = {
 			controls = 5515
 			      }
 			}
+                            has_global_flag = China_CivilWar
+                            not = { has_global_flag = Taibei_chance }	
+		}
+		allow = {
+		OR = {
+		war_with = CHC
+		war_with = PRC
+				         exists = CHC
+						 		         exists = PRC
+		}
+		OR = {
+				         exists = CHC
+						 		         exists = PRC
+		}
 		}
 		effect = {
 			set_global_flag = Taibei_chance

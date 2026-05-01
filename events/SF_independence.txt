@@ -22,20 +22,25 @@ country_event = {
           INO = { 
                   load_oob = "INO_SA.txt"
           }
-          any_country = {
-  			country_event = 190051
-		}
+          set_global_flag = SF_independence1
             ai_chance = { factor = 100 }
          }
 } 
 country_event = {
           id = 190051
-	      is_triggered_only = yes
           title = "SF_independencetitle1"
           desc = "SF_independencedecs1"
           picture = "SF_independencepicture1"
+           trigger = {
+               has_global_flag = SF_independence1
+               not = { has_country_flag = SF_independence11 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
           option = {
           name = "SF_independenceoption1" 
+          set_country_flag = SF_independence11
             ai_chance = { factor = 100 }
          }
 } 
@@ -58,20 +63,25 @@ country_event = {
           option = {
           name = "SF_independenceoption2" 
           PHI = { inherit = PHI }
-           any_country = {
-  			country_event = 190053
-		}
+          set_global_flag = SF_independence2
             ai_chance = { factor = 100 }
          }
 } 
 country_event = {
           id = 190053
-	      is_triggered_only = yes
           title = "SF_independencetitle2"
           desc = "SF_independencedecs2"
           picture = "SF_independencepicture2"
+           trigger = {
+               has_global_flag = SF_independence2
+               not = { has_country_flag = SF_independence22 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
           option = {
           name = "SF_independenceoption2" 
+          set_country_flag = SF_independence22
             ai_chance = { factor = 100 }
          }
 } 
@@ -174,19 +184,23 @@ country_event = {
                    } 
 			         }
             FRA = { load_oob = "indochina_FRA.txt" }
-                      any_country = {
-  			country_event = 190057
-		}
            }     
    }
 country_event = {
           id = 190057
-	      is_triggered_only = yes
           title = "SF_independencetitle4"
           desc = "SF_independencedecs4"
           picture = "SF_independencepicture4"
+             trigger = {
+               has_global_flag = first_war_of_indochine 
+               not = { has_country_flag = first_war_of_indochine1 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
           option = {
           name = "SF_independenceoption4" 
+          set_country_flag = first_war_of_indochine1
             ai_chance = { factor = 100 }
          }
 }

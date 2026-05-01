@@ -191,6 +191,7 @@ diplomatic_decisions = {
 		  militia_brigade = 7627
 		  officer_pool = 1000
 		  }
+}
 		ai_will_do = {
 			factor = 1
 		}

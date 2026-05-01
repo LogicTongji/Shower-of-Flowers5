@@ -163,7 +163,7 @@ country_event = {
    FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = YUE add_core = YUE remove_core = FRA remove_core = IDC change_controller = YUE }
    FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
    FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
-		YUE = {
+		    YUE = {
 			load_oob = "indochina.txt"
 			}     
 			JAN = {
@@ -176,16 +176,11 @@ country_event = {
 			create_alliance = JAN
 			create_alliance = LAO
 			}
-			FRA = { 
-			war = { 
-			target = YUE
-	  	    target = LAO
-			target = JAN
-                   } 
-			         }
+			FRA = { war = { target = YUE }  }
             FRA = { load_oob = "indochina_FRA.txt" }
            }     
-   }
+      }
+}
 country_event = {
           id = 190057
           title = "SF_independencetitle4"

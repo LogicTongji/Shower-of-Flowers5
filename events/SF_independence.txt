@@ -157,11 +157,11 @@ country_event = {
 	option = {
 		name = "SF_independenceoption4"
 		set_global_flag = first_war_of_indochine 
-   FRA = { laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = LAO add_core = LAO remove_core = FRA remove_core = IDC change_controller = LAO }
-   FRA = { cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAN add_core = JAN remove_core = FRA remove_core = IDC change_controller = FRA }
-   FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = YUE add_core = YUE remove_core = FRA remove_core = IDC change_controller = YUE }
-   FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
-   FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
+   FRA = { laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = LAO add_core = LAO remove_core = FRA remove_core = IDC change_controller = LAO } }
+   FRA = { cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAN add_core = JAN remove_core = FRA remove_core = IDC change_controller = FRA } }
+   FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = YUE add_core = YUE remove_core = FRA remove_core = IDC change_controller = YUE } }
+   FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } }
+   FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } }
 		    YUE = {
 			load_oob = "indochina.txt"
 			}     
@@ -180,4 +180,21 @@ country_event = {
             ai_chance = { factor = 100 }
            }     
       }
-
+      country_event = {
+          id = 190057
+          title = "SF_independencetitle4"
+          desc = "SF_independencedecs4"
+          picture = "SF_independencepicture4"
+             trigger = {
+               has_global_flag = first_war_of_indochine 
+               not = { has_country_flag = first_war_of_indochine1 }
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "SF_independenceoption4" 
+          set_country_flag = first_war_of_indochine1
+            ai_chance = { factor = 100 }
+         }
+}

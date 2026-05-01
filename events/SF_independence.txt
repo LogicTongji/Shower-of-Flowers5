@@ -164,7 +164,6 @@ country_event = {
    annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } 
    cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } 
    war = { target = YUE } 
-   load_oob = "indochina_FRA.txt"
    }
 		    YUE = {
 			load_oob = "indochina.txt"

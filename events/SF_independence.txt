@@ -20,7 +20,7 @@ country_event = {
           HOL = { Dutch_east_indies = { secede_province = INO } }
           HOL = { war = { target = INO } }
           INO = { 
-                  load_oob = "INO_SA.txt""
+                  load_oob = "INO_SA.txt"
           }
           any_country = {
   			country_event = 190051
@@ -153,7 +153,6 @@ country_event = {
    FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = YUE add_core = YUE remove_core = FRA remove_core = IDC change_controller = YUE }
    FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
    FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
-     }
 		YUE = {
 			load_oob = "indochina.txt"
 			}     
@@ -165,9 +164,6 @@ country_event = {
 			}  
 			YUE = {
 			create_alliance = JAN
-			create_alliance = LAO
-			}
-			JAN = {
 			create_alliance = LAO
 			}
 			FRA = { 

@@ -157,13 +157,19 @@ country_event = {
 	option = {
 		name = "SF_independenceoption4"
 		set_global_flag = first_war_of_indochine 
-   FRA = { laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = LAO add_core = LAO remove_core = FRA remove_core = IDC change_controller = LAO } }
-   FRA = { cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAN add_core = JAN remove_core = FRA remove_core = IDC change_controller = FRA } }
-   FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = YUE add_core = YUE remove_core = FRA remove_core = IDC change_controller = YUE } }
-   FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } }
-   FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } }
+   FRA = { 
+   laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = LAO add_core = LAO remove_core = FRA remove_core = IDC change_controller = LAO } 
+   cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAN add_core = JAN remove_core = FRA remove_core = IDC change_controller = FRA } 
+   tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = YUE add_core = YUE remove_core = FRA remove_core = IDC change_controller = YUE } 
+   annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } 
+   cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } 
+   war = { target = YUE } 
+   load_oob = "indochina_FRA.txt"
+   }
 		    YUE = {
 			load_oob = "indochina.txt"
+            create_alliance = JAN
+			create_alliance = LAO
 			}     
 			JAN = {
 			load_oob = "indochina1.txt"
@@ -171,12 +177,6 @@ country_event = {
 			LAO = {
 			load_oob = "indochina1.txt"
 			}  
-			YUE = {
-			create_alliance = JAN
-			create_alliance = LAO
-			}
-			FRA = { war = { target = YUE }  }
-            FRA = { load_oob = "indochina_FRA.txt" }
             ai_chance = { factor = 100 }
            }     
       }

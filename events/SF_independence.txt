@@ -1,0 +1,196 @@
+country_event = {
+          id = 190050
+	        fire_only_once = yes
+          title = "SF_independencetitle1"
+          desc = "SF_independencedecs1"
+          picture = "SF_independencepicture1"
+          trigger = {
+		tag = HOL
+               not = { war_with = GER
+                       war_with = JAP }
+               not = { exists = INO }
+               has_global_flag = JAP_Lost
+               has_global_flag = GER_Lost 
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "SF_independenceoption1" 
+          HOL = { Dutch_east_indies = { secede_province = INO } }
+          HOL = { war = { target = INO } }
+          INO = { 
+                  load_oob = "INO_SA.txt""
+          }
+          any_country = {
+  			country_event = 190051
+		}
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 190051
+	      is_triggered_only = yes
+          title = "SF_independencetitle1"
+          desc = "SF_independencedecs1"
+          picture = "SF_independencepicture1"
+          option = {
+          name = "SF_independenceoption1" 
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 190052
+	        fire_only_once = yes
+          title = "SF_independencetitle2"
+          desc = "SF_independencedecs2"
+          picture = "SF_independencepicture2"
+          trigger = {
+		tag = USA
+               not = { war_with = GER
+                       war_with = JAP }
+                       has_global_flag = JAP_Lost
+                       has_global_flag = GER_Lost 
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "SF_independenceoption2" 
+          PHI = { inherit = PHI }
+           any_country = {
+  			country_event = 190053
+		}
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 190053
+	      is_triggered_only = yes
+          title = "SF_independencetitle2"
+          desc = "SF_independencedecs2"
+          picture = "SF_independencepicture2"
+          option = {
+          name = "SF_independenceoption2" 
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 190054
+	      fire_only_once = yes
+          title = "SF_independencetitle3"
+          desc = "SF_independencedecs3"
+          picture = "SF_independencepicture3"
+          trigger = {
+		tag = CHI
+               not = { war_with = GER
+                       war_with = JAP }
+                       has_global_flag = JAP_Lost
+                       has_global_flag = GER_Lost 
+	}
+        mean_time_to_happen =  {
+	        days = 1
+        }
+          option = {
+          name = "SF_independenceoption3" 
+          any_owned = { limit = { province_id = 5946 } secede_province = CHI remove_core = FRA change_controller = CHI }
+           CHC = {
+  			country_event = 190055
+		}
+            ai_chance = { factor = 100 }
+         }
+} 
+country_event = {
+          id = 190055
+	      is_triggered_only = yes
+          title = "SF_independencetitle3"
+          desc = "SF_independencedecs3"
+          picture = "SF_independencepicture3"
+          option = {
+          name = "SF_independenceoption3" 
+            ai_chance = { factor = 100 }
+         }
+}
+#印度支那战争
+country_event = {
+	id = 190056
+    major = yes	
+	title = "SF_independencetitle4"
+	desc = "SF_independencedecs4"
+	fire_only_once = yes
+	picture = "SF_independencepicture4"	
+	trigger = {
+              tag = FRA       
+            not = { exists = IDC }
+			has_global_flag = GER_Lost
+			has_global_flag = JAP_Lost
+			has_global_flag = Yaert
+            controls = 5916 #河内 
+            controls = 5945 #海防  
+            controls = 5898 #谅山 
+            controls = 6236 #西贡  
+            controls = 6245 #美寿  
+            controls = 6195 #金兰湾  
+            controls = 6108 #广艺  
+            controls = 6188 #芽庄  
+            controls = 6075 #岘港  
+            controls = 6222 #金边  
+            controls = 6266 #迪石  
+            controls = 6033 #迪哈克科  
+            controls = 6001 #川圹 
+            controls = 6201 #菩萨  
+            controls = 7724 #磅同                
+        }
+	mean_time_to_happen =  { 
+	days = 1 
+	}
+	option = {
+		name = "SF_independenceoption4"
+		ai_chance = { factor = 100 }
+		set_global_flag = first_war_of_indochine 
+   FRA = { laos_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = LAO add_core = LAO remove_core = FRA remove_core = IDC change_controller = LAO }
+   FRA = { cambodia_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = JAN add_core = JAN remove_core = FRA remove_core = IDC change_controller = FRA }
+   FRA = { tonkin_region = { any_owned = { limit = { controlled_by = FRA } } secede_province = YUE add_core = YUE remove_core = FRA remove_core = IDC change_controller = YUE }
+   FRA = { annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
+   FRA = { cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA }
+     }
+		YUE = {
+			load_oob = "indochina.txt"
+			}     
+			JAN = {
+			load_oob = "indochina1.txt"
+			}  
+			LAO = {
+			load_oob = "indochina1.txt"
+			}  
+			YUE = {
+			create_alliance = JAN
+			create_alliance = LAO
+			}
+			JAN = {
+			create_alliance = LAO
+			}
+			FRA = { 
+			war = { 
+			target = YUE
+	  	    target = LAO
+			target = JAN
+                   } 
+			         }
+            FRA = { load_oob = "indochina_FRA.txt" }
+                      any_country = {
+  			country_event = 190057
+		}
+           }     
+   }
+country_event = {
+          id = 190057
+	      is_triggered_only = yes
+          title = "SF_independencetitle4"
+          desc = "SF_independencedecs4"
+          picture = "SF_independencepicture4"
+          option = {
+          name = "SF_independenceoption4" 
+            ai_chance = { factor = 100 }
+         }
+}

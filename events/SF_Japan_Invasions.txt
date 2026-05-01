@@ -22,9 +22,7 @@ country_event = {
 			guarantee = CJC
 		}
 		JAP = { war = { target = CJC } }
-		load_oob = "JAP_Peking.txt"
-                CHI = { alliance_with = CJC
-                        alliance_with = CSD }
+		load_oob = "JAP_Peking.txt" 
 		CHI = { country_event = 1000017 }
 		CHC = { country_event = 1000018 }
 	}

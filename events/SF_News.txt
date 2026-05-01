@@ -545,7 +545,7 @@ country_event = {
 	id = 194401
 	title = "Event194401title"	
 	desc = "Event194401desc"
-	picture = "CHC_flag"
+	picture = "news_picture11"
 	trigger = {
 		tag = WJW 
 		not = { year = 1945 }     
@@ -566,7 +566,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "Event1944011title"	
 	desc = "Event1944011desc"
-	picture = "CHC_flag"
+	picture = "news_picture11"
 	option = {
 		name = "Event1944011op" 
 		country_event = 1944013
@@ -577,7 +577,7 @@ country_event = {
 	is_triggered_only = yes
 	title = "Event1944012title"	
 	desc = "Event1944012desc"
-	picture = "CHC_flag"
+	picture = "news_picture11"
 	option = {
 		name = "Event1944012op" 
         }
@@ -588,7 +588,7 @@ country_event = {
 	title = "Event1944013title"	
 	subtitle = "Event1944013_defectsubtitle"
 	desc = "Event1944013desc"
-	picture = "CHC_flag"
+	picture = "news_picture12"
 	option = {
 		name = "Event1944013op" 
         }

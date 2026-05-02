@@ -1,11 +1,10 @@
 foring_brigade = {
 	usable_by = { FRA }
 	type = land
-	sprite = Motor
+	sprite = Infantry
 	active = no
-	is_buildable = yes
+	can_upgrade = no
 	unit_group = infantry_unit_type
-	is_mobile = yes
 		
 	#limitations
 	minimum_of_type = 6 

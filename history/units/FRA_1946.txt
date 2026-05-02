@@ -12,21 +12,7 @@ theatre = {
 	corps = {
 		name = "印支殖民军"
 		location = 6236
-		regiment = { type = hq_brigade name = "印支殖民军司令部" historical_model = 0 }
-		division= {
-			name = "第1外籍兵团"
-			location = 6236
-			regiment = { type = foring_brigade historical_model = 4 }
-			regiment = { type = foring_brigade historical_model = 4 }
-			regiment = { type = foring_brigade historical_model = 4 }
-		}
-		division= {
-			name = "第2外籍兵团"
-			location = 6236
-			regiment = { type = foring_brigade historical_model = 4 }
-			regiment = { type = foring_brigade historical_model = 4 }
-			regiment = { type = foring_brigade historical_model = 4 }
-		}
+		regiment = { type = hq_brigade name = "印支殖民军司令部" historical_model = 4 }
 		division= {
 			name = "第1殖民地步兵师"
 			location = 6236
@@ -36,6 +22,13 @@ theatre = {
 		}
 		division= {
 			name = "第2殖民地步兵师"
+			location = 6236
+			regiment = { type = imperial_brigade historical_model = 4 }
+			regiment = { type = infantry_brigade historical_model = 4 }
+			regiment = { type = infantry_brigade historical_model = 4 }
+		}
+		division= {
+			name = "第3殖民地步兵师"
 			location = 6236
 			regiment = { type = imperial_brigade historical_model = 4 }
 			regiment = { type = infantry_brigade historical_model = 4 }

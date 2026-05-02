@@ -82,13 +82,14 @@ country_event = {
 	option = {
 		name = "China_librate_war4option1"
 	relation = { who = USA value = -150 }
+	CHC = { country_event = 390033 }
 	dissent = 5
 		ai_chance = { factor = 100 }
 
 	}
 }
 country_event = {
-	id = 390022
+	id = 390033
 		is_triggered_only = yes
 			major = yes
 	title = "China_librate_war4title"

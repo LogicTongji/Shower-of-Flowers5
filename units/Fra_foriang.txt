@@ -1,9 +1,8 @@
 foring_brigade = {
 	usable_by = { FRA }
 	type = land
-	sprite = Infantry
+	sprite = Elite
 	active = no
-	can_upgrade = no
 	unit_group = infantry_unit_type
 		
 	#limitations

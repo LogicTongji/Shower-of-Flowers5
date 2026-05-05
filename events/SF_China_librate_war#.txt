@@ -100,3 +100,72 @@ country_event = {
 ai_chance = { factor = 100 }
 	}
 }
+#解放大西南
+country_event = {
+	id = 1000171
+	is_triggered_only = yes
+	major = yes
+	title = "Event1000171title"
+	subtitle = "Event1000171subtitle"
+	desc = "Event1000171desc"
+	picture = "Event1000171"
+	option = {
+		name = "Event1000171option"
+		ai_chance = { factor = 100 }
+		SF_china_region = { 
+		                    remove_core = CHC
+		                    remove_core = CQM
+							remove_core = CSD
+							remove_core = SIK
+							remove_core = CSX
+							remove_core = CNM
+							remove_core = CSY
+							remove_core = CJC
+							remove_core = CRH
+							}
+		SF_china_region = { add_core = PRC }
+		taiwan_region = { add_core = PRC }
+		CHI = { SF_china_region = { limit = { controlled_by = CHI } secede_province = PRC change_controller = CHI } }
+		
+	}
+}
+#解放西藏
+country_event = {
+	id = 1000172
+	is_triggered_only = yes
+	major = yes
+	title = "Event1000172title"
+	subtitle = "Event1000172subtitle"
+	desc = "Event1000172desc"
+	picture = "Event1000172"
+	option = {
+		name = "Event1000172option"
+		ai_chance = { factor = 100 }
+		SF_china_region = { 
+		                    remove_core = TIB
+							}
+		PRC = { war = { target = TIB } }
+		}
+}
+#解放海南
+country_event = {
+	id = 1000173
+	fire_only_once = yes
+	title = "Event1000173title"
+	subtitle = "Event1000173subtitle"
+	desc = "Event1000173desc"
+	picture = "Event1000173"
+	trigger = {
+		tag = PRC
+		hainan_region = { controlled_by = PRC }
+		has_country_flag = Uaction_Hainan
+	}
+	mean_time_to_happen =  {
+		days = 1
+	}
+	option = {
+		name = "Event1000173option"
+		ai_chance = { factor = 100 }
+		PRC = { end_war = CHI }
+	}
+}

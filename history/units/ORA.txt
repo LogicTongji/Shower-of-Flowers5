@@ -5,7 +5,7 @@ division = {
 	regiment = { type = partisan_bergsjaeger experience = 15 historical_model = 1 }
 }
 division = {
-	name = "	RI区支队"
+	name = "RI区支队"
 	location = 3148
 	regiment = { type = partisan_bergsjaeger experience = 15 historical_model = 1 }
 	regiment = { type = partisan_bergsjaeger experience = 15 historical_model = 1 }

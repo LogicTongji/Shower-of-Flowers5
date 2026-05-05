@@ -1,0 +1,45 @@
+corps  = {
+				name = "中国人民解放军第43军" 
+				location = 5975
+				regiment = { type = hq_brigade name = "第43军指挥部" experience = 50 historical_model = 4 }
+				regiment = { type = infantry_brigade name = "警卫团" experience = 50 historical_model = 4 }
+				division= {
+					name = "中国人民解放军第127师"
+					location = 5975
+					regiment = { type = infantry_brigade name = "第379团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第380团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第381团" experience = 50 historical_model = 3 }
+					regiment = { type = artillery_brigade name = "第39炮兵团" experience = 50 historical_model = 2 }
+				}
+				division= {
+					name = "中国人民解放军第128师"
+					location = 5975
+					regiment = { type = infantry_brigade name = "第382团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第383团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第384团" experience = 50 historical_model = 3 }
+					regiment = { type = artillery_brigade name = "第40炮兵团" experience = 50 historical_model = 2 }
+				}
+				division= {
+					name = "中国人民解放军第129师"
+					location = 5975
+					regiment = { type = infantry_brigade name = "第385团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第386团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第387团" experience = 50 historical_model = 3 }
+					regiment = { type = artillery_brigade name = "第41炮兵团" experience = 50 historical_model = 2 }
+				}
+				division= {
+					name = "中国人民解放军第163师"
+					location = 5975
+					regiment = { type = infantry_brigade name = "第487团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第488团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第489团" experience = 50 historical_model = 3 }
+				}
+			}
+			division= {	
+			name = "琼崖纵队"
+			location = 5975
+			leader = 76489
+			regiment = { type = partisan_bergsjaeger name = "第1支队" historical_model = 2 }
+			regiment = { type = partisan_bergsjaeger name = "第4支队" historical_model = 2 }
+			regiment = { type = partisan_bergsjaeger name = "第7支队" historical_model = 2 }
+			}

@@ -103,7 +103,7 @@ country_event = {
         }
           option = {
           name = "SF_independenceoption3" 
-          any_owned = { limit = { province_id = 5946 } secede_province = CHI remove_core = FRA change_controller = CHI }
+          any_owned = { limit = { province_id = 5919 } secede_province = CHI remove_core = FRA change_controller = CHI }
            CHC = {
   			country_event = 190055
 		}
@@ -164,6 +164,8 @@ country_event = {
    annam_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } 
    cochinchina_region = { any_owned = { limit = { controlled_by = FRA } } add_core = YUE remove_core = FRA remove_core = IDC change_controller = FRA } 
    war = { target = YUE } 
+   war = { target = LAO }
+   war = { target = JAN }
    }
 		    YUE = {
 			load_oob = "indochina.txt"

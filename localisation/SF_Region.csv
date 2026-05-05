@@ -68,7 +68,7 @@ shanxi_suiyuan_anti_japanese_base;晋绥抗日根据地;;;;;;;;;;;;;x
 shanxi_chahar_hebei_anti_japanese_base;晋察冀抗日根据地;;;;;;;;;;;;;x
 shanxi_hebei_shandong_henan_anti_japanese_base;晋冀鲁豫抗日根据地;;;;;;;;;;;;;x
 shandong_anti_japanese_base;山东抗日根据地;;;;;;;;;;;;;x
-wjw_region;汪伪政府宣称政区;;;;;;;;;;;;;x
+wjw_region;南京国民政府;;;;;;;;;;;;;x
 manchu_china_region;满洲国;;;;;;;;;;;;;x
 SF_china_region;中国大陆;;;;;;;;;;;;;x
 SF_Korean_region;朝鲜半岛;;;;;;;;;;;;;x
@@ -76,6 +76,6 @@ SF_DDR_region;民主德国主权区;;;;;;;;;;;;;x
 SF_BRD_region;联邦德国主权区;;;;;;;;;;;;;x
 SF_PRK_region;三八线以北非军事区;;;;;;;;;;;;;x
 SF_KOR_region;三八线以南非军事区;;;;;;;;;;;;;x
-SF_miandin_region;缅甸政权宣称区;;;;;;;;;;;;;x
+SF_miandin_region;缅甸;;;;;;;;;;;;;x
 SF_sov_2170;库尔斯克战区;;;;;;;;;;;;;x
 SF_Shanghai;上海特别市;;;;;;;;;;;;;x

@@ -116,7 +116,7 @@ diplomatic_decisions = {
 				ENG_7558 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = PAK }
 				ENG_5826 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = PAK }
 				ENG_9344 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAK remove_core = ENG change_controller = PAK }
-					9259 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = IND }
+				ENG_9259 = { any_owned = { limit = { controlled_by = ENG } } secede_province = IND remove_core = ENG change_controller = IND }
 			}
 		}
 		ai_will_do = {
@@ -138,10 +138,10 @@ diplomatic_decisions = {
 		effect = {
 			set_global_flag = UNN_YSL
 			ENG = {			
-				ENG_5415 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ENG }
-				ENG_5567 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAL remove_core = ENG change_controller = ENG }
-				ENG_5566 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ENG }
-				ENG_5565 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ENG }
+				ENG_5415 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ISR }
+				ENG_5567 = { any_owned = { limit = { controlled_by = ENG } } secede_province = PAL remove_core = ENG change_controller = PAL }
+				ENG_5566 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ISR }
+				ENG_5565 = { any_owned = { limit = { controlled_by = ENG } } secede_province = ISR remove_core = ENG change_controller = ISR }
 			}
 		}
 		ai_will_do = {
@@ -168,7 +168,7 @@ diplomatic_decisions = {
 		effect = { 
 		set_country_flag = the_liberation_of_burma
 	 	ENG = {
-	 	SF_miandin_region = { any_owned = { limit = { controlled_by = ENG } } secede_province = MID remove_core = ENG add_core = MID change_controller = ENG } 
+	 	SF_miandin_region = { any_owned = { limit = { controlled_by = ENG } } secede_province = MID remove_core = ENG add_core = MID change_controller = MID } 
 		}
 		MID = {
 		  infantry_brigade = 6070

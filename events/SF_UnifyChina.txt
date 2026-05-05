@@ -75,33 +75,4 @@ country_event = {
 		4452 = { change_province_name = "长春" }
 	}
 }
-#解放大西南
-country_event = {
-	id = 1000171
-	is_triggered_only = yes
-	major = yes
-	title = "Event1000171title"
-	subtitle = "Event1000171subtitle"
-	desc = "Event1000171desc"
-	picture = "Event1000168"
-	option = {
-		name = "Event1000171option"
-		ai_chance = { factor = 100 }
-		SF_china_region = { 
-		                    remove_core = CHC
-		                    remove_core = CQM
-							remove_core = CSD
-							remove_core = SIK
-							remove_core = CSX
-							remove_core = CNM
-							remove_core = CSY
-							remove_core = CJC
-							remove_core = CRH
-							}
-		SF_china_region = { add_core = PRC }
-		taiwan_region = { add_core = PRC }
-		CHI = { SF_china_region = { limit = { controlled_by = CHI } secede_province = PRC change_controller = CHI } }
-		
-	}
-}
 

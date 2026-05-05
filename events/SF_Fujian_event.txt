@@ -7,7 +7,7 @@ country_event = {
 	picture = "Fujian1_picture"
 	trigger = {
 		tag = CHI
-		fujian_region = { controlled_by = CHI }
+		fujian_region = { controlled_by = CSJ }
 		date = 1933.11.22
 		not = {
 		war_with = JAP 

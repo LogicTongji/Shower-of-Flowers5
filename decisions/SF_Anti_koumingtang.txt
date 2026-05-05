@@ -116,20 +116,18 @@ diplomatic_decisions = {
 			exists = CHC
 		}
 		allow = {
-			CHC = {
-				war_with = CHI
-			}
 			or = {
 			has_global_flag = RuiJin_war_JiangXi_KouMingTang
 			has_global_flag = Nanking_war_JiangXi_Commist
+			}
 			    CHI = { 	
-			controls = 5725
+			                 controls = 5725
                              controls = 5716
                              controls = 5733
 		          } 
-			} 
-				      CHC = { 	
-			controls = 5241
+			    CHC = { 	
+					         war_with = CHI
+			                 controls = 5241
                              controls = 7398
 		          } 
 		}

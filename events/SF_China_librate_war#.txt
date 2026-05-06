@@ -147,7 +147,6 @@ country_event = {
 	option = {
 		name = "Event1000172option"
 		PRC = { war = { target = TIB } }
-		SF_china_region = { remove_core = TIB }
 		}
 }
 #西藏和平解放
@@ -175,6 +174,7 @@ country_event = {
 		xikang_region = { any_owned = { limit = { controlled_by = TIB } } secede_province = PRC Change_controller = PRC }
 		utang_region = { any_owned = { limit = { controlled_by = PRC } } secede_province = CTB change_controller = CTB }
 		}
+		SF_china_region = { remove_core = TIB }
 		ai_chance = { factor = 100 }
 	}
 }

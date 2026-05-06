@@ -1,38 +1,39 @@
 corps  = {
-				name = "中国人民解放军第43军" 
-				location = 5975
-				regiment = { type = hq_brigade name = "第43军指挥部" experience = 50 historical_model = 4 }
+				name = "中国人民解放军第40军"
+				location = 7537
+				leader = 76405 
+				regiment = { type = hq_brigade name = "中国人民解放军第40军指挥部" experience = 50 historical_model = 4 }
 				regiment = { type = infantry_brigade name = "警卫团" experience = 50 historical_model = 4 }
 				division= {
-					name = "中国人民解放军第127师"
-					location = 5975
-					regiment = { type = infantry_brigade name = "第379团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第380团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第381团" experience = 50 historical_model = 3 }
-					regiment = { type = artillery_brigade name = "第39炮兵团" experience = 50 historical_model = 2 }
+					name = "中国人民解放军第118师"
+					location = 7537
+					regiment = { type = infantry_brigade name = "第352团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第353团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第354团" experience = 50 historical_model = 3 }
+					regiment = { type = artillery_brigade name = "第22炮兵团" experience = 50 historical_model = 2 }
 				}
 				division= {
-					name = "中国人民解放军第128师"
-					location = 5975
-					regiment = { type = infantry_brigade name = "第382团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第383团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第384团" experience = 50 historical_model = 3 }
-					regiment = { type = artillery_brigade name = "第40炮兵团" experience = 50 historical_model = 2 }
+					name = "中国人民解放军第119师"
+					location = 7537
+					regiment = { type = infantry_brigade name = "第355团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第356团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第357团" experience = 50 historical_model = 3 }
+					regiment = { type = artillery_brigade name = "第23炮兵团" experience = 50 historical_model = 2 }
 				}
 				division= {
-					name = "中国人民解放军第129师"
-					location = 5975
-					regiment = { type = infantry_brigade name = "第385团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第386团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第387团" experience = 50 historical_model = 3 }
-					regiment = { type = artillery_brigade name = "第41炮兵团" experience = 50 historical_model = 2 }
+					name = "中国人民解放军第120师"
+					location = 7537
+					regiment = { type = infantry_brigade name = "第358团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第359团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第360团" experience = 50 historical_model = 3 }
+					regiment = { type = artillery_brigade name = "第24炮兵团" experience = 50 historical_model = 2 }
 				}
 				division= {
-					name = "中国人民解放军第163师"
-					location = 5975
-					regiment = { type = infantry_brigade name = "第487团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第488团" experience = 50 historical_model = 3 }
-					regiment = { type = infantry_brigade name = "第489团" experience = 50 historical_model = 3 }
+					name = "中国人民解放军第153师"
+					location = 7537
+					regiment = { type = infantry_brigade name = "第457团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第458团" experience = 50 historical_model = 3 }
+					regiment = { type = infantry_brigade name = "第459团" experience = 50 historical_model = 3 }
 				}
 			}
 			division= {	

@@ -261,7 +261,7 @@ Uaction_Tibet = {
 		potential = {
 			tag = PRC
 			has_country_flag = Uaction_ALLPRC
-			has_global_flag = China_CivilWar5
+			has_country_flag = Uaction_Hainan 
 			not = { has_country_flag = Uaction_Tibet } 
 		}
 		allow = {
@@ -280,7 +280,7 @@ Uaction_Hainan = {
 		major = yes
 		potential = {
 			tag = PRC
-			has_country_flag = Uaction_Tibet
+			has_global_flag = China_CivilWar5
 			not = { 
 			has_country_flag = Uaction_Hainan 
 			has_country_modifier = usa_banning_sea

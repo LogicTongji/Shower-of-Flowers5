@@ -153,7 +153,16 @@ country_event = {
 	picture = "Event1000173"
 	trigger = {
 		tag = PRC
-		hainan_region = { controlled_by = PRC }
+		PRC = {
+				controls = 4932
+				controls = 5984 
+				controls = 5994 
+				controls = 5975 
+				controls = 5985 
+				controls = 5965 
+				controls = 5976 
+				controls = 14184
+			}
 		has_country_flag = Uaction_Hainan
 	}
 	mean_time_to_happen = {

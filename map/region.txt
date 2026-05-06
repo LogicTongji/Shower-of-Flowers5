@@ -9296,3 +9296,6 @@ SF_miandin_region = {
 SF_Shanghai = { 
 5542 14181 14182 14185
 }
+hainan_region = {
+5984 5994 5975 5985 5965 5976 14184
+}

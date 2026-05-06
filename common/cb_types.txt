@@ -122,6 +122,8 @@ conquer = {
 	    country_event = 100165
 	    country_event = 100166
 	    country_event = 100167
+		country_event = 100168
+		country_event = 100169
 	}
 	
 	war_name = WAR_CONQUEST_NAME

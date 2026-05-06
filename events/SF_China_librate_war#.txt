@@ -153,28 +153,18 @@ country_event = {
 country_event = {
 	id = 1000174
 	major = yes
-	fire_only_once = yes
+	is_triggered_only = yes
 	title = "Event1000174title"
 	subtitle = "Event1000174subtitle"
 	desc = "Event1000174desc"
 	picture = "Event1000174"
-	trigger = {
-		tag = PRC
-		utang_region = { controlled_by = PRC }
-		has_country_flag = Uaction_Tibet
-	}
-	mean_time_to_happen = {
-		days = 1
-	}
 	option = {
 		name = "Event1000174option"
-		end_war = TIB
 		PRC = {
-		utang_region = { any_owned = { limit = { controlled_by = TIB } } secede_province = CTB change_controller = CTB }
-		xikang_region = { any_owned = { limit = { controlled_by = TIB } } secede_province = PRC Change_controller = PRC }
+		utang_region = { any_owned = { limit = { controlled_by = PRC } } secede_province = CTB change_controller = CTB }
+		xikang_region = { any_owned = { limit = { controlled_by = PRC } } secede_province = PRC Change_controller = PRC }
 		utang_region = { any_owned = { limit = { controlled_by = PRC } } secede_province = CTB change_controller = CTB }
 		}
-		SF_china_region = { remove_core = TIB }
 		ai_chance = { factor = 100 }
 	}
 }

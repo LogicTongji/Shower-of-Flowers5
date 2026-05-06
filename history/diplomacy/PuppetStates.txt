@@ -193,3 +193,10 @@ vassal = {
 	start_date = 1946.1.1
 	end_date = 1955.7.4
 }
+# PRC - CTB
+vassal = {
+	first = PRC
+	second = CTB
+	start_date = 1949.1.1
+	end_date = 1959.7.4
+}

@@ -168,7 +168,7 @@ country_event = {
 	}
 	option = {
 		name = "Event1000174option"
-		create_vassal = CTB
+		end_war = TIB
 		PRC = {
 		utang_region = { any_owned = { limit = { controlled_by = TIB } } secede_province = CTB change_controller = CTB }
 		xikang_region = { any_owned = { limit = { controlled_by = TIB } } secede_province = PRC Change_controller = PRC }

@@ -140,10 +140,6 @@ country_event = {
 	picture = "Event1000172"
 	option = {
 		name = "Event1000172option"
-		ai_chance = { factor = 100 }
-		SF_china_region = { 
-		                    remove_core = TIB
-							}
 		PRC = { war = { target = TIB } }
 		}
 }
@@ -160,12 +156,12 @@ country_event = {
 		hainan_region = { controlled_by = PRC }
 		has_country_flag = Uaction_Hainan
 	}
-	mean_time_to_happen =  {
+	mean_time_to_happen = {
 		days = 1
 	}
 	option = {
 		name = "Event1000173option"
-		ai_chance = { factor = 100 }
 		PRC = { end_war = CHI }
+		ai_chance = { factor = 100 }
 	}
 }

@@ -9,32 +9,32 @@ army = {
 division = {
 				name = "第1步兵团"
 				location = 5134
-				regiment = { type = foring_brigade name = "外籍第1团" experience = 20 historical_model = 1 }
-				regiment = { type = foring_brigade name = "外籍第2团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第1团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第2团" experience = 20 historical_model = 1 }
 			}
 division = {
 				name = "第2步兵团"
 				location = 5134
-				regiment = { type = foring_brigade name = "外籍第3团" experience = 20 historical_model = 1 }
-				regiment = { type = foring_brigade name = "外籍第4团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第3团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第4团" experience = 20 historical_model = 1 }
 			}
 division = {
 				name = "第3步兵团"
 				location = 5134
-				regiment = { type = foring_brigade name = "外籍第5团" experience = 20 historical_model = 1 }
-				regiment = { type = foring_brigade name = "外籍第6团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第5团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第6团" experience = 20 historical_model = 1 }
 			}
 division = {
 				name = "第4步兵团"
 				location = 5134
-				regiment = { type = foring_brigade name = "外籍第7团" experience = 20 historical_model = 1 }
-				regiment = { type = foring_brigade name = "外籍第8团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第7团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第8团" experience = 20 historical_model = 1 }
 			}
 division = {
 				name = "第5步兵团"
 				location = 5916
-				regiment = { type = foring_brigade name = "外籍第7团" experience = 20 historical_model = 1 }
-				regiment = { type = foring_brigade name = "外籍第8团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第7团" experience = 20 historical_model = 1 }
+				regiment = { type = infantry_brigade name = "外籍第8团" experience = 20 historical_model = 1 }
 			}
 division = {
 				name = "骑兵第1团"

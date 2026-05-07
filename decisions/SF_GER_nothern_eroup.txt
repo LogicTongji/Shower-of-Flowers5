@@ -35,11 +35,11 @@ diplomatic_decisions = {
 			tag = ENG
 			not = { has_country_flag = Xaction_Northren_eroup2 } 
 			exists = NOR
-		}
-		allow = {
-				GER = { 	
+			GER = { 	
 		  controls = 812
 		      }
+		}
+		allow = {
 		      not = { war_with = NOR
 		      war_with = DEN
 		      }

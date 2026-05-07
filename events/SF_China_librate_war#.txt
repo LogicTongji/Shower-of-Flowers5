@@ -127,7 +127,7 @@ country_event = {
 							remove_core = CDB
 							remove_core = CGD
 							remove_core = WJW
-							remove_core = MEB
+							remove_core = MEN
 							}
 		SF_china_region = { add_core = PRC }
 		taiwan_region = { add_core = PRC }
@@ -135,7 +135,7 @@ country_event = {
 		
 	}
 }
-#解放西藏
+#进军西藏
 country_event = {
 	id = 1000172
 	is_triggered_only = yes

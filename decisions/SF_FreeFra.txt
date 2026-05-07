@@ -6,13 +6,13 @@ diplomatic_decisions = {
 		potential = {
 			tag = FRA
 			not = { has_country_flag = FreeFra_in_africa } 
-			OR = {
+			war_with = GER
+		}
+		allow = {
+		      OR = {
 			FRA = { government_in_exile = yes }
 			has_country_flag = fr_signs_peace
 			}
-		}
-		allow = {
-		      war_with = GER
 		}
 		effect = {
 			set_country_flag = FreeFra_in_africa	
@@ -188,7 +188,6 @@ diplomatic_decisions = {
 	}
 #英国预备队
  FreeFra4 = {
-		major = yes
 		potential = {
 			tag = ENG
 			not = { has_country_flag = ENG_Allity_unity } 
@@ -233,17 +232,16 @@ diplomatic_decisions = {
 	}
 #特别行动处
  FreeFra6 = {
-		major = yes
 		potential = {
 			tag = ENG
 			FRA = { 
 			has_country_flag = FreeFra1
 			has_country_flag = fr_signs_peace }
 			not = { has_global_flag = ENG_soe } 
+			war_with = GER 
 		   }
 		   allow = {
 	       war = yes
-		    war_with = GER 
 		      has_global_flag = FreeFra_in_africa
 		}
 		effect = {

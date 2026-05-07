@@ -16,8 +16,8 @@ country_event = {
     }
 	option = {
 		name = "China_librate_war1option1"
-	CHI = { country_event = 8016 }
-	CHC = { country_event = 8016 }
+	CHI = { country_event = 1000175 }
+	CHC = { country_event = 1000175 }
 		ai_chance = { factor = 100 }
        	}
 	option = { 
@@ -26,7 +26,7 @@ country_event = {
 	}
 }
 country_event = {
-	id = 8016
+	id = 1000175
 		is_triggered_only = yes
 			major = yes
 	title = "China_librate_war2title"
@@ -197,5 +197,51 @@ country_event = {
 		name = "Event1000173option"
 		PRC = { end_war = CHI }
 		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 1000176
+		is_triggered_only = yes
+	title = "China_librate_war5title"
+	subtitle = "China_librate_war5subtitle"
+	desc = "China_librate_war5decs"
+	picture = "China_librate_war5picture"
+	option = {
+		name = "China_librate_war5option1"
+ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 1000177
+		is_triggered_only = yes
+	title = "China_librate_war6title"
+	desc = "China_librate_war6decs"
+	picture = "China_librate_war5picture"
+	option = {
+		name = "China_librate_war6option1"
+ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 1000178
+		is_triggered_only = yes
+	title = "China_librate_war7title"
+	desc = "China_librate_war7decs"
+	picture = "China_librate_war7picture"
+	option = {
+		name = "China_librate_war7option1"
+ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 1000179
+		is_triggered_only = yes
+	title = "China_librate_war8title"
+	desc = "China_librate_war8decs"
+	picture = "China_librate_war7picture"
+	option = {
+		name = "China_librate_war8option1"
+ai_chance = { factor = 100 }
+        country_event = 1000178 
 	}
 }

@@ -53,7 +53,7 @@ diplomatic_decisions = {
 		potential = {
 			tag = JAP
 			has_country_flag = jap_seizes_coast
-			not = { has_global_flag = massacring_mongkoko } 
+			not = { has_country_flag = massacring_mongkoko } 
 			not = { year = 1939 } 
 		}
 		allow = {

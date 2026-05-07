@@ -5,6 +5,7 @@ limited_war = yes
 #四一二反革命政变
 1927.4.12 = {
 	add_attacker = CHI
+	add_attacker = CHN
 	add_defender = CHC
 	war_goal=
 	{
@@ -21,6 +22,7 @@ limited_war = yes
 }
 1935.1.1 = {
 	add_attacker = CDB
+	rem_attacker = CHN
 }
 #西安事变
 1936.12.12 = {

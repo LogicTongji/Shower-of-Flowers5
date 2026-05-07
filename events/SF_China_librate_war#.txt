@@ -28,7 +28,6 @@ country_event = {
 country_event = {
 	id = 1000175
 		is_triggered_only = yes
-			major = yes
 	title = "China_librate_war2title"
 	desc = "China_librate_war2decs"
 	picture = "China_librate_war2picture"

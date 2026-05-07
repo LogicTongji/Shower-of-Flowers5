@@ -66,7 +66,7 @@
 	add_trait = mao_army_6
 	history = {
 		1930.1.1 = { rank = 1 }
-		1945.1.1 = { rank = 0 }
+		1955.1.1 = { rank = 0 }
 	}
 }
 76320 = {
@@ -79,7 +79,7 @@
 	picture = L76320
 	history = {
 		1936.1.1 = { rank = 1 }
-		1944.1.1 = { rank = 0 }
+		1950.1.1 = { rank = 0 }
 	}
 }
 76321 = {
@@ -107,7 +107,7 @@
 	add_trait = logistics_wizard
 	history = {
 		1936.1.1 = { rank = 1 }
-		1946.1.1 = { rank = 0 }
+		1955.1.1 = { rank = 0 }
 	}
 }
 76325 = {
@@ -298,7 +298,7 @@
 	add_trait = mao_army_6
 	history = {
 		1930.1.1 = { rank = 1 }
-		1940.1.1 = { rank = 0 }
+		1955.1.1 = { rank = 0 }
 	}
 }
 4000005 = {
@@ -379,7 +379,7 @@
 	loyalty = 0.00
 	picture = L76353
 	history = {
-		1930.1.1 = { rank = 1 }
+		1937.1.1 = { rank = 1 }
 		1970.1.1 = { rank = 0 }
 	}
 }
@@ -394,7 +394,7 @@
 	add_trait = seawolf
 	history = {
 		1930.1.1 = { rank = 1 }
-		1946.1.1 = { rank = 0 }
+		1970.1.1 = { rank = 0 }
 	}
 }
 76356 = {
@@ -585,7 +585,7 @@
 	add_trait = mao_army_4
 	history = {
 		1936.1.1 = { rank = 1 }
-		1945.1.1 = { rank = 0 }
+		1970.1.1 = { rank = 0 }
 	}
 }
 76350 = {

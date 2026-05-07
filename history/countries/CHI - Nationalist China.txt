@@ -124,6 +124,9 @@ economic_law = full_civilian_economy
 conscription_law = service_by_requirement
 civil_law = totalitarian_system
 
+1932.6.1 = {
+set_country_flag = attack_commist_chi
+}
 1933.6.1 = {
 set_global_flag = Anti_jap_front_great_wall_loss
 set_country_flag = GersupportA_chi

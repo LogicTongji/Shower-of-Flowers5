@@ -112,14 +112,15 @@ diplomatic_decisions = {
 		potential = {
 			tag = CHC
 			not = { has_global_flag = Long_March }
+			or = {
+			CHI = { has_country_flag = attack_commist_chi }
+			has_global_flag = RuiJin_war_JiangXi_KouMingTang
+			has_global_flag = Nanking_war_JiangXi_Commist
+			}
 			not = { has_country_flag = Recover_MaoZedong_guideline }
 			exists = CHC
 		}
 		allow = {
-			or = {
-			has_global_flag = RuiJin_war_JiangXi_KouMingTang
-			has_global_flag = Nanking_war_JiangXi_Commist
-			}
 			    CHI = { 	
 			                 controls = 5725
                              controls = 5716
@@ -134,6 +135,14 @@ diplomatic_decisions = {
 		effect = {
 			set_global_flag = Long_March
 			5725 = { province_event = 190019 }
+			       CYN = { war = { target = CHC } }
+                   CYS = { war = { target = CHC } }
+				   CDX = { war = { target = CHC } }
+                   CTS = { war = { target = CHC } }
+                   CSC = { war = { target = CHC } }
+                   CHN = { war = { target = CHC } }
+                   CXK = { war = { target = CHC } }
+                   CQS = { war = { target = CHC } }
                              manpower = -160
 		}
 		ai_will_do = {

@@ -216,7 +216,7 @@ country_event = {
 		is_triggered_only = yes
 	title = "China_librate_war6title"
 	desc = "China_librate_war6decs"
-	picture = "China_librate_war5picture"
+	picture = "China_librate_war6picture"
 	option = {
 		name = "China_librate_war6option1"
 ai_chance = { factor = 100 }

@@ -313,19 +313,14 @@ Uaction_Taiwan = {
             not = { 
             has_country_flag = Uaction_Taiwan 
             } 
-        }
-        allow = {
-        OR = {
+            OR = {
         not = { 
             has_country_modifier = usa_banning_sea
             }
-        PRC = { 
-            check_variable = {
-						which = PrepareLibrateTaiwan
-						value = 15
-					}
-              }
+        has_country_flag = Uaction_Taiwan_prepare
         } 
+}
+        allow = {
 }
         effect = {
             set_country_flag = Uaction_Taiwan

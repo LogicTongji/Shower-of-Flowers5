@@ -380,6 +380,31 @@ country_event = {
 		ai_chance = { factor = 100 }
 	}
 }
+#Ω‚∑≈Ã®ÕÂ6
+country_event = {
+	id = 1000185
+	fire_only_once = yes
+	title = "China_librate_war17title"
+	desc = "China_librate_war17decs"
+	picture = "China_librate_war17picture"
+	trigger = {
+		tag = PRC
+		PRC = { 
+            check_variable = {
+						which = PrepareLibrateTaiwan
+						value = 15
+					}
+              }
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	option = {
+		name = "China_librate_war17option1"
+		set_country_flag = Uaction_Taiwan_prepare
+		ai_chance = { factor = 100 }
+	}
+}
 country_event = {
 	id = 1000186
 		is_triggered_only = yes
@@ -403,7 +428,6 @@ country_event = {
 	picture = "China_librate_war16picture"
 	option = {
 		name = "China_librate_war16option1"
-		country_event = 1000187
 ai_chance = { factor = 100 }
 	}
 }

@@ -62,8 +62,7 @@ diplomatic_decisions = {
         }
         allow = {
         has_global_flag = China_CivilWar
-     not = { has_global_flag = China_CivilWar3 }
-     date = 1946.7.1	
+     not = { has_global_flag = China_CivilWar3 }	
      not = ( year = 1947 }
         }
         effect = {
@@ -213,7 +212,6 @@ China_CivilWar51 = {
     }   
     #国府迁台
     Taibei_chance = {
-        major = yes
         potential = {	
             tag = CHI
                             exists = CHI
@@ -254,7 +252,8 @@ China_CivilWar51 = {
             set_global_flag = Taibei_chance
                     capital = 5737
         taiwan_region = { remove_core = CHC }
-            country_event = 8018
+            CHC = { country_event = 1000180 }
+            PRC = { country_event = 1000180 }
         }
     }
     #解放西南
@@ -292,7 +291,6 @@ Uaction_Tibet = {
     }
     #解放海南
 Uaction_Hainan = {
-        major = yes
         potential = {
             tag = PRC
             has_global_flag = China_CivilWar5
@@ -304,6 +302,37 @@ Uaction_Hainan = {
         effect = {
             set_country_flag = Uaction_Hainan
             PRC = {  load_oob = "hainan_1950.txt" }
+        }
+    }
+    #解放台湾
+Uaction_Taiwan = {
+        major = yes
+        potential = {
+            tag = PRC
+            has_country_flag = Uaction_Hainan
+            not = { 
+            has_country_flag = Uaction_Taiwan 
+            } 
+        }
+        allow = {
+        OR = {
+        not = { 
+            has_country_modifier = usa_banning_sea
+            }
+        check_variable = {
+						which = "PrepareLibrateTaiwan"
+						value = 15
+					}
+        } 
+}
+        effect = {
+            set_country_flag = Uaction_Taiwan
+            PRC = { war = { target = CHI } }
+            4979 = {
+						   province_event = 190037
+						   }
+            country_event = 1000186
+            PRC = {  load_oob = "taiwan_1950.txt" }
         }
     }
 }         

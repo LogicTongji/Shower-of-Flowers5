@@ -120,6 +120,17 @@ province_event = {
 		name = "Koreanwar_option"
         }
 }
+#台海战争
+province_event = {
+	id = 190037
+	title = "invasion_taiwai_war_title"
+	desc = "invasion_taiwai_war_desc"
+	picture = "invasion_taiwai_war_superevent"
+	is_triggered_only = yes
+	option = {
+		name = "invasion_taiwai_war_option"
+        }
+}
 #Japan
 #北支那事变
 province_event = {

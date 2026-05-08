@@ -319,10 +319,12 @@ Uaction_Taiwan = {
         not = { 
             has_country_modifier = usa_banning_sea
             }
-        check_variable = {
-						which = "PrepareLibrateTaiwan"
+        PRC = { 
+            check_variable = {
+						which = PrepareLibrateTaiwan
 						value = 15
 					}
+              }
         } 
 }
         effect = {

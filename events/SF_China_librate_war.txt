@@ -195,7 +195,7 @@ country_event = {
 	option = {
 		name = "Event1000173option"
 		PRC = { end_war = CHI }
-		set_variable = { which = "PrepareLibrateTaiwan" value = 1 }  
+		PRC = { set_variable = { which = "PrepareLibrateTaiwan" value = 1 } } 
 		ai_chance = { factor = 100 }
 	}
 }
@@ -282,7 +282,7 @@ country_event = {
 	}
 	option = {
 		name = "China_librate_war10option1"
-		change_variable = { which = "PrepareLibrateTaiwan" value = 1 }
+		PRC = { change_variable = { which = "PrepareLibrateTaiwan" value = 1 } }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -315,7 +315,7 @@ country_event = {
 	}
 	option = {
 		name = "China_librate_war11option1"
-		change_variable = { which = "PrepareLibrateTaiwan" value = 2 }
+		PRC = { change_variable = { which = "PrepareLibrateTaiwan" value = 2 } }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -335,7 +335,7 @@ country_event = {
 	}
 	option = {
 		name = "China_librate_war12option1"
-		change_variable = { which = "PrepareLibrateTaiwan" value = 4 }
+		PRC = { change_variable = { which = "PrepareLibrateTaiwan" value = 4 } }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -355,7 +355,7 @@ country_event = {
 	}
 	option = {
 		name = "China_librate_war13option1"
-		change_variable = { which = "PrepareLibrateTaiwan" value = 3 }
+		PRC = { change_variable = { which = "PrepareLibrateTaiwan" value = 3 } }
 		ai_chance = { factor = 100 }
 	}
 }
@@ -376,7 +376,7 @@ country_event = {
 	}
 	option = {
 		name = "China_librate_war14option1"
-		change_variable = { which = "PrepareLibrateTaiwan" value = 5 }
+		PRC = { change_variable = { which = "PrepareLibrateTaiwan" value = 5 } }
 		ai_chance = { factor = 100 }
 	}
 }

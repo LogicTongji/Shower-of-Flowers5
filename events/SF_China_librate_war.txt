@@ -382,7 +382,7 @@ country_event = {
 }
 #½â·ÅÌ¨Íå6
 country_event = {
-	id = 1000185
+	id = 1000188
 	fire_only_once = yes
 	title = "China_librate_war17title"
 	desc = "China_librate_war17decs"

@@ -1,21 +1,21 @@
 	division = {
 		name = "¸ß´ïµÚ1Ê¦"
 		location = 5494
-		regiment = { type = partisan_bergsjaeger name = "½¯½éÊ¯ÂÃ" historical_model = 0 }
-		regiment = { type = partisan_bergsjaeger name = "Íô¾«ÎÀÂÃ" historical_model = 0 }
-		regiment = { type = partisan_bergsjaeger name = "¸Ô´åÄþ´ÎÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "½¯½éÊ¯ÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "Íô¾«ÎÀÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "¸Ô´åÄþ´ÎÂÃ" historical_model = 0 }
 	}
 	division = {
 		name = "¸ß´ïµÚ2Ê¦"
 		location = 5494
-		regiment = { type = partisan_bergsjaeger name = "½¯½éÊ¯ÂÃ" historical_model = 0 }
-		regiment = { type = partisan_bergsjaeger name = "Íô¾«ÎÀÂÃ" historical_model = 0 }
-		regiment = { type = partisan_bergsjaeger name = "¸Ô´åÄþ´ÎÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "½¯½éÊ¯ÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "Íô¾«ÎÀÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "¸Ô´åÄþ´ÎÂÃ" historical_model = 0 }
 	}
 	division = {
 		name = "¸ß´ïµÚ3Ê¦"
 		location = 5494
-		regiment = { type = partisan_bergsjaeger name = "½¯½éÊ¯ÂÃ" historical_model = 0 }
-		regiment = { type = partisan_bergsjaeger name = "Íô¾«ÎÀÂÃ" historical_model = 0 }
-		regiment = { type = partisan_bergsjaeger name = "¸Ô´åÄþ´ÎÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "½¯½éÊ¯ÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "Íô¾«ÎÀÂÃ" historical_model = 0 }
+		regiment = { type = bergsjaeger_brigade name = "¸Ô´åÄþ´ÎÂÃ" historical_model = 0 }
 	}

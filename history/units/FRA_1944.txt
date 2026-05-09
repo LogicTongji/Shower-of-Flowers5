@@ -5,28 +5,28 @@ army = {
 	division = {
 		name = "新喀里多尼亚步兵师"
 		location = 6616
-		regiment = { type = militia_brigade historical_model = 1 }
+		regiment = { type = foring_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 	}
 	division = {
 		name = "吉布提步兵师"
 		location = 9867
-		regiment = { type = militia_brigade historical_model = 1 }
+		regiment = { type = foring_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 	}
 	division = {
 		name = "法兰西堡步兵师"
 		location = 10627
-		regiment = { type = militia_brigade historical_model = 1 }
+		regiment = { type = foring_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 	}
 	division = {
 		name = "加蓬步兵师"
 		location = 10021
-		regiment = { type = militia_brigade historical_model = 1 }
+		regiment = { type = foring_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 		regiment = { type = militia_brigade historical_model = 1 }
 	}
@@ -51,22 +51,22 @@ army = {
 		division= {
 			name = "第1殖民地步兵师"
 			location = 9741
-			regiment = { type = infantry_brigade historical_model = 4 }
-			regiment = { type = infantry_brigade historical_model = 4 }
-			regiment = { type = infantry_brigade historical_model = 4 }
+			regiment = { type = foring_brigade historical_model = 4 }
+			regiment = { type = foring_brigade historical_model = 4 }
+			regiment = { type = foring_brigade historical_model = 4 }
 		}
 		division= {
 			name = "第2殖民地步兵师"
 			location = 9741
-			regiment = { type = infantry_brigade historical_model = 4 }
-			regiment = { type = infantry_brigade historical_model = 4 }
+			regiment = { type = foring_brigade historical_model = 4 }
+			regiment = { type = foring_brigade historical_model = 4 }
 			regiment = { type = infantry_brigade historical_model = 4 }
 		}
 		division= {
 			name = "第3殖民地步兵师"
 			location = 9741
-			regiment = { type = infantry_brigade historical_model = 4 }
-			regiment = { type = infantry_brigade historical_model = 4 }
+			regiment = { type = foring_brigade historical_model = 4 }
+			regiment = { type = foring_brigade historical_model = 4 }
 			regiment = { type = infantry_brigade historical_model = 4 }
 		}
 	}

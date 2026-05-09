@@ -9,7 +9,7 @@ army = {
 division = {
 				name = "第1步兵团"
 				location = 5134
-				regiment = { type = infantry_brigade name = "外籍第1团" experience = 20 historical_model = 1 }
+				regiment = { type = foring_brigade name = "外籍第1团" experience = 20 historical_model = 1 }
 				regiment = { type = infantry_brigade name = "外籍第2团" experience = 20 historical_model = 1 }
 			}
 division = {

@@ -1,5 +1,8 @@
 CHN = { military_access = yes }
 CRH = { military_access = yes }
+CSJ = { military_access = yes }
+CGD = { military_access = yes }
+CGX = { military_access = yes }
 theatre = {
 	name = "中华民国陆海空军总司令部"
 	location = 5494
@@ -893,7 +896,7 @@ theatre = {
 			}
 			division= {
 				name = "独立第7旅"
-				location = 7621
+				location = 5743
 				regiment = { type = militia_brigade historical_model = 0 }
 			}
 		}

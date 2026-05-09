@@ -383,7 +383,6 @@ civil_law = open_society
 	set_country_flag = FreeFra1
 }
 1941.6.22 = {
-	government_in_exile = yes
 	national_unity = 95
 
 	head_of_state = 2031

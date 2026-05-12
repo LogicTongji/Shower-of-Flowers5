@@ -313,14 +313,23 @@ Uaction_Taiwan = {
             not = { 
             has_country_flag = Uaction_Taiwan 
             } 
-            OR = {
-        not = { 
-            has_country_modifier = usa_banning_sea
-            }
-        has_country_flag = Uaction_Taiwan_prepare
-        } 
 }
         allow = {
+  OR = {
+        AND = {
+        11929 = {
+         not = { 
+            has_province_modifier = usa_banning_sea
+            }
+        } 
+        12013 = {
+         not = { 
+            has_province_modifier = usa_banning_sea
+            }
+        }
+    }
+        has_country_flag = Uaction_Taiwan_prepare
+        } 
 }
         effect = {
             set_country_flag = Uaction_Taiwan

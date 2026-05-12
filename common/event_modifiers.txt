@@ -2976,3 +2976,8 @@ henan_famine_modifier = {
 The_Migration_education2_education_modifier = {
                local_leadership_modifier = 0.20
 }
+usa_banning_sea = {
+	local_naval_organisation = -0.45
+	local_org_regain = -0.35
+	local_air_organisation = -0.45
+}

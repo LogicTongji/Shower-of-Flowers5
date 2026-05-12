@@ -195,7 +195,10 @@ country_event = {
 	option = {
 		name = "Event1000173option"
 		PRC = { end_war = CHI }
-		PRC = { set_variable = { which = "PrepareLibrateTaiwan" value = 1 } } 
+		PRC = { 
+		set_country_flag = China_mainland_libration
+		set_variable = { which = "PrepareLibrateTaiwan" value = 1 } 
+		} 
 		ai_chance = { factor = 100 }
 	}
 }

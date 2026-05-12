@@ -1,6 +1,16 @@
 capital = 5116
 government = absolute_monarchy
 ideology = paternal_autocrat
+head_of_state = 578001
+head_of_government = 578001
+foreign_minister = 578003
+armament_minister = 578004
+minister_of_security = 578005
+minister_of_intelligence = 578006
+chief_of_staff = 578007
+chief_of_army = 578008
+chief_of_navy = 578009
+chief_of_air = 578010
 alignment = { x = 60 y = 61.6 }
 neutrality = 70
 national_unity = 70

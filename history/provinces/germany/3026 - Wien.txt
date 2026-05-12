@@ -19,8 +19,7 @@ leadership = 0.80
 	add_core = GER
 }
 1945.6.7 = {
-	controller = AUS
-	owner = AUS
-	add_core = AUS
+	controller = ENG
+	owner = ENG
 	remove_core  = GER
 }

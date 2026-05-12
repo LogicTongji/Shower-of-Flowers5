@@ -1,6 +1,16 @@
 capital = 5016
 government = socialist_republic
 ideology = stalinist
+head_of_state = 579001
+head_of_government = 579001
+foreign_minister = 579013
+armament_minister = 579014
+minister_of_security = 579001
+minister_of_intelligence = 579016
+chief_of_staff = 579003
+chief_of_army = 579018
+chief_of_navy = 579009
+chief_of_air = 579020
 alignment = { x = 60 y = 44.3 }
 neutrality = 70
 national_unity = 50

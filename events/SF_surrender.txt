@@ -1354,3 +1354,169 @@ country_event = {
 		  PRC = { country_event = 1000174 }
 	}
 }
+#欧战及太平洋
+#德国分区占领
+country_event = {
+	id = 100170
+	is_triggered_only = yes
+	major = yes
+	title = "GER_LOST"
+	desc = "GER_LOSTD" 
+	picture = "CH_Flag"
+	trigger = {
+		tag = GER
+		OR = {
+		FROM = { 
+		faction = allies 
+		   }
+		   FROM = { 
+		comintern
+		   }
+		}
+		not = { has_global_flag = GER_Lost }
+	}
+	option = {
+		name = "EVTOPTA524"
+		GER = {
+			SF_DDR_region = { secede_province = SOV }
+			SF_BRD_region = { secede_province = USA }
+			austria_region = { secede_province = ENG }
+			set_global_flag = GER_Lost
+		}
+	}
+}
+#日本战败
+country_event = {
+	id = 100171
+	is_triggered_only = yes
+	major = yes
+	title = "JAP_LOST"
+	desc = "JAP_LSTD" 
+	picture = "JAP_Flag"
+	trigger = {
+		TAG = JAP
+		OR = {
+		FROM = { 
+		faction = allies 
+		   }
+		   FROM = { 
+		comintern
+		   }
+		}
+		not = { has_global_flag = JAP_Lost }
+	}
+	option = {
+		name = "EVTOPTA524"
+		JAP = {
+		    japanese_pacific_bases_region = { secede_province = USA }
+			taiwan_region = { secede_province = CHI }
+			hokkaido_region = { secede_province = JPN }
+			kanto_region = { secede_province = JPN }
+			tohoku_region = { secede_province = JPN }
+            chubu_region = { secede_province = JPN }
+			kansai_region = { secede_province = JPN }
+			chugoku_region = { secede_province = JPN }
+            shikoku_region = { secede_province = JPN }
+			kyushu_region = { secede_province = JPN }	
+			SF_KOR_region = { secede_province = USA }	
+			SF_PRK_region = { secede_province = SOV }
+			}
+		any_owned = { 	
+		    heihe_region = { secede_province = SOV }
+			songjiang_region = { secede_province = SOV }
+			heilongjiang_region = { secede_province = SOV }
+			nenjiang_region = { secede_province = SOV }
+			xingan_region,  = { secede_province = SOV }
+			jilin_region = { secede_province = SOV }
+			fengtian_region = { secede_province = SOV }
+			liaonning_region = { secede_province = SOV }
+			jiandao_region = { secede_province = SOV }
+			andong_region = { secede_province = SOV }
+			}
+			set_global_flag = JAP_Lost
+	}
+}
+#对支议和
+country_event = {
+	id = 2021292
+	is_triggered_only = yes
+	major = yes
+	title = "JAP_LOSTF"
+	desc = "JAP_LSTDF" 
+	picture = "JAP_Flag"
+	trigger = {
+		tag = JAP
+		 has_global_flag = man_seizes_lost
+                                NOT = {
+                                JAP = {
+				controls = 5115
+				controls = 5147
+				controls = 5341
+				controls = 4896
+			}    
+                                     has_global_flag = jap_sei_lost                                              
+		}                                                          
+	}
+	option = {
+		name = "EVTOPTA525"
+		JAP = {
+			end_war = CHI  
+                                                add_country_modifier = {
+			name = "JapLostByChina_modifier"
+			duration = 3650
+          }
+                                   set_global_flag = jap_sei_lost
+		}
+	}
+}
+#朝鲜半岛问题(中国单挑日本取胜)
+country_event = {
+	id = 1000149
+	is_triggered_only = yes
+	title = "Event1000149title"
+	desc = "Event1000149desc"
+	picture = "Event1000149"
+	option = {
+		name = "Event1000149option"
+	}
+}
+country_event = {
+	id = 1000150
+	is_triggered_only = yes
+	title = "Event1000150title"
+	desc = "Event1000150desc"
+	picture = "Event1000149"
+	option = {
+		name = "Event1000150option1"
+		SF_Korean_region = { remove_core = JAP }
+		JAP = { SF_Korean_region = { secede_province = THIS } }
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = "Event1000150option2"
+		SF_Korean_region = { remove_core = JAP add_core = KOR }
+		JAP = { SF_Korean_region = { secede_province = KOR } }
+		KOR = { head_of_state = 578001 head_of_government = 578002 relation = { who = THIS value = 200 } }
+		ai_chance = { factor = 60 }
+	}
+}
+country_event = {
+	id = 1000151
+	is_triggered_only = yes
+	title = "Event1000150title"
+	desc = "Event1000150desc"
+	picture = "Event1000149"
+	option = {
+		name = "Event1000150option1"
+		SF_Korean_region = { remove_core = JAP }
+		JAP = { SF_Korean_region = { secede_province = THIS } }
+		ai_chance = { factor = 40 }
+	}
+	option = {
+		name = "Event1000150option2"
+		SF_Korean_region = { remove_core = JAP add_core = PRK }
+		JAP = { SF_Korean_region = { secede_province = PRK } }
+		PRK = { head_of_state = 579001 head_of_government = 579001 relation = { who = THIS value = 200 } }
+		ai_chance = { factor = 60 }
+	}
+}

@@ -148,12 +148,6 @@ alliance = {
 }
 alliance = {
 	first = CHI
-	second = CJC
-	start_date = 1933.1.1
-	end_date = 1945.12.10
-}
-alliance = {
-	first = CHI
 	second = CQM
 	start_date = 1937.9.2
 	end_date = 1949.12.10
@@ -167,12 +161,6 @@ alliance = {
 alliance = {
 	first = CHI
 	second = CSX
-	start_date = 1937.9.2
-	end_date = 1949.12.10
-}
-alliance = {
-	first = CHI
-	second = CSD
 	start_date = 1937.9.2
 	end_date = 1949.12.10
 }
@@ -353,12 +341,6 @@ alliance = {
 	second = CRH
 	start_date = 1931.1.1
 	end_date = 1935.10.1
-}
-alliance = {
-	first = CHI
-	second = CHN
-	start_date = 1931.1.1
-	end_date = 1937.10.1
 }
 alliance = {
 	first = CGX

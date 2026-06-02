@@ -19,7 +19,7 @@ country_event = {
 	desc = "Korean_Conflict1desc"
 	picture = "Korean_Conflict1picture"
 	trigger = {
-		NOT = { has_country_flag = Korean_Conflict_onwer1 }
+		NOT = { has_country_flag = Korean_Conflict_onwer }
 		has_global_flag = Korean_Conflict
 	}
 	mean_time_to_happen = {
@@ -77,12 +77,52 @@ country_event = {
 	id = 390077
 	is_triggered_only = yes
 	title = "Korean_Conflict4title"
-	subtitle = "Korean_Conflict4subtitle"
 	desc = "Korean_Conflict4desc"
+	trigger = {
+		NOT = { has_country_flag = Korean_Conflict_onwer2 }
+		UNN = { has_country_flag = Korean_Conflict_unn }
+		has_global_flag = Korean_Conflict
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	picture = "Korean_Conflict4picture"
 	option = {
 		name = "Korean_Conflict4option"
-		KOR = { country_event = 390076 }
+		set_country_flag = Korean_Conflict_onwer2
+		ai_chance = { factor = 100 }
+	}
+}
+#ÈÊ´¨µÇÂ½
+country_event = {
+	id = 390078
+	is_triggered_only = yes
+	title = "Korean_Conflict5title"
+	desc = "Korean_Conflict5desc"
+	trigger = {
+		NOT = { has_country_flag = Korean_Conflict_onwer3 }
+		UNN = { has_country_flag = Korean_Conflict_renchuan_battle }
+		has_global_flag = Korean_Conflict
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	picture = "Korean_Conflict5picture"
+	option = {
+		name = "Korean_Conflict5option"
+		set_country_flag = Korean_Conflict_onwer3
+		ai_chance = { factor = 100 }
+	}
+}
+country_event = {
+	id = 390079
+	is_triggered_only = yes
+	title = "Korean_Conflict6title"
+	subtitle = "Korean_Conflict6subtitle"
+	desc = "Korean_Conflict6desc"
+	picture = "Korean_Conflict6picture"
+	option = {
+		name = "Korean_Conflict6option"
 		ai_chance = { factor = 100 }
 	}
 }

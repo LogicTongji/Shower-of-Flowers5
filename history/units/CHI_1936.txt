@@ -1,4 +1,3 @@
-CSD = { military_access = yes }
 CJC = { military_access = yes }
 CHN = { military_access = yes }
 theatre = {

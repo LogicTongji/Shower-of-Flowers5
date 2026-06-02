@@ -27,7 +27,6 @@ country_event = {
 country_event = {
 	id = 12212
           is_triggered_only = yes
-          major = yes
 	title = "jiangxi2"
     subtitle = "jiangxi2_subtitle"
 	desc = "jiangxi2desc"

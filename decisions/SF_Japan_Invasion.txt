@@ -63,6 +63,8 @@ diplomatic_decisions = {
 		effect = {
 			set_country_flag = shanghai_incident
 			JAP = { country_event = 1000019 }
+			CHI = {  inherit = CSH
+			     }
 			officer_pool = 5000
 		}
 		ai_will_do = {

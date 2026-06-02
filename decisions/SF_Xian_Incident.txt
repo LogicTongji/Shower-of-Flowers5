@@ -9,7 +9,10 @@ diplomatic_decisions = {
 			not = { has_country_flag = Xaction_CDB } 
 			exists = CHI
 			exists = CHC
+			or = {
 			CHI = { war_with = CHC }
+			CDB = { war_with = CHC }
+			}
 			not = { CHI = { war_with = JAP } } 
 			not = { year = 1937 } 
 			has_global_flag = the_china_united_front_action

@@ -2949,9 +2949,9 @@ land_organisation = 0.15
 icon = 5
 }
 Anti_guangxi_modifier = {
-org_regain = 0.95
-land_organisation = 0.95
-land_build_speed = 0.15
+org_regain = 2.00
+land_organisation = 1.95
+land_build_speed = 1.15
 icon = 5
 }
 Anti_jap_front_modifier2 = {

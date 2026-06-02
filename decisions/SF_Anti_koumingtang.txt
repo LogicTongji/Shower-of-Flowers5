@@ -114,10 +114,7 @@ diplomatic_decisions = {
 			has_global_flag = Nanking_war_JiangXi_Commist
 			}
 			not = { has_country_flag = Recover_MaoZedong_guideline }
-			exists = CHC
-		}
-		allow = {
-			    CHI = { 	
+			  CHI = { 	
 			                 controls = 5725
                              controls = 5716
                              controls = 5733
@@ -127,6 +124,9 @@ diplomatic_decisions = {
 			                 controls = 5241
                              controls = 7398
 		          } 
+		}
+		allow = {
+			 exists = CHC
 		}
 		effect = {
 			set_global_flag = Long_March
@@ -243,13 +243,13 @@ diplomatic_decisions = {
                              has_global_flag = RuiJin_war_JiangXi_KouMingTang
 			has_global_flag = Nanking_war_JiangXi_Commist
 			}
+			CHC = { has_country_flag = Postpone_war_ShanXi_Commist }
 		}
 		allow = {
 			CHC = {
                                       controls = 7391
                                       controls = 7398
-			}    
-                             date = 1935.5.25
+			}                             
 		}
 		effect = {
 			set_country_flag = Xian_war_ShanXi_Commist          

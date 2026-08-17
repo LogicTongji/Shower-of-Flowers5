@@ -9,13 +9,13 @@ diplomatic_decisions = {
 		        year = 1938    
 		        war_with = CHC }
 		JAP = { has_country_flag = the_marco_polo_bridge_incident }
+		not = { has_country_flag = The_first_armygroup }
 		}
 		allow = {
 		    CJC = { war_with = JAP }
 		        not = { 
 		        year = 1938  
 				}
-			not = { has_country_flag = The_first_armygroup }
 		}
 		effect = {
 			set_country_flag = The_first_armygroup
@@ -33,6 +33,7 @@ diplomatic_decisions = {
 		        war_with = CHC 
 		        }
 				JAP = { has_country_flag = the_marco_polo_bridge_incident }
+				not = { has_country_flag = The_second_armygroup }
 		}
 		allow = {
 		OR = {
@@ -42,7 +43,6 @@ diplomatic_decisions = {
 		 not = { 
 		        year = 1938  
 				}
-			not = { has_country_flag = The_second_armygroup }
 		}
 		effect = {
 			set_country_flag = The_second_armygroup
@@ -62,10 +62,10 @@ diplomatic_decisions = {
 		        war_with = CHC 
 		        }
 				has_country_flag = CHI_Kangzhan
+				not = { has_country_flag = The_third_armygroup }
 				JAP = { has_country_flag = shanghai_incident }
 		}
 		allow = {
-			not = { has_country_flag = The_third_armygroup }
 		}
 		effect = {
 			set_country_flag = The_third_armygroup
@@ -91,9 +91,9 @@ diplomatic_decisions = {
 						controller = 4979
 						has_country_flag = shanghai_incident 
 						}
+						not = { has_country_flag = The_fifth_armygroup }
 		}
 		allow = {
-			not = { has_country_flag = The_fifth_armygroup }
 		}
 		effect = {
 			set_country_flag = The_fifth_armygroup
@@ -113,9 +113,9 @@ diplomatic_decisions = {
                         war_with = JAP
                         JAP = { controller = 5275 }
 						has_country_flag = CHI_Kangzhan
+						not = { has_country_flag = The_forth_armygroup }
 		}
 		allow = {
-			not = { has_country_flag = The_forth_armygroup }
 		}
 		effect = {
 			set_country_flag = The_forth_armygroup
@@ -135,9 +135,9 @@ diplomatic_decisions = {
                         war_with = JAP
 					   has_country_flag = CHI_Kangzhan
 					   has_country_flag = Unit_front_to_antiJap
+					   not = { has_country_flag = The_seventh_armygroup }
 		}
 		allow = {
-			not = { has_country_flag = The_seventh_armygroup }
 		}
 		effect = {
 			set_country_flag = The_seventh_armygroup
@@ -157,10 +157,11 @@ diplomatic_decisions = {
 				has_country_flag = CHI_Kangzhan
                         date = 1938.1.13
 						not = { has_country_flag = jap_seizes_coast_chi }
+						not = { has_country_flag = The_eighth_armygroup }
+						JAP = { controller = 5435 }
                         war_with = JAP
 		}
 		allow = {
-			not = { has_country_flag = The_eighth_armygroup }
 		}
 		effect = {
 			set_country_flag = The_eighth_armygroup
@@ -185,10 +186,10 @@ diplomatic_decisions = {
 			WJW = { controls = 5515 }  
 		     }
 			 has_country_flag = CHI_Kangzhan
+			 not = { has_country_flag = The_ninth_armygroup }
 		}
 		allow = {
              has_country_flag = defence_wuhan
-             not = { has_country_flag = The_ninth_armygroup }
 		}
 		effect = {
 			set_country_flag = The_ninth_armygroup
@@ -208,9 +209,9 @@ diplomatic_decisions = {
                        not = { year = 1941 }
                        JAP = { controls = 7508 } 
 					   has_country_flag = CHI_Kangzhan
+					   not = { has_country_flag = The_armygroup_in_henan }
 		}
 		allow = {
-                   not = { has_country_flag = The_armygroup_in_henan }
 		}
 		effect = {
 			set_country_flag = The_armygroup_in_henan
@@ -231,9 +232,9 @@ diplomatic_decisions = {
                          not = { year = 1941 }
                         has_country_flag = CHI_Kangzhan 
 						has_country_flag = jap_seizes_coast_chi
+						not = { has_country_flag = The_sixth_armygroup }
 		}
 		allow = {
-                   not = { has_country_flag = The_sixth_armygroup }
 		}
 		effect = {
 			set_country_flag = The_sixth_armygroup
@@ -255,9 +256,9 @@ diplomatic_decisions = {
                           JAP = { controls = 7508 }
                      has_country_flag = CHI_Kangzhan   
 					 has_country_flag = jap_seizes_coast_chi
+					 not = { has_country_flag = sulu }
 		}
 		allow = {
-                   not = { has_country_flag = sulu }
 		}
 		effect = {
 			set_country_flag = sulu
@@ -279,9 +280,9 @@ diplomatic_decisions = {
                          not = { year = 1941 }
                         has_country_flag = CHI_Kangzhan
 						has_country_flag = jap_seizes_coast_chi
+						not = { has_country_flag = The_jicha_armygroup }
 		}
 		allow = {
-                   not = { has_country_flag = The_jicha_armygroup }
 		}
 		effect = {
 			set_country_flag = The_jicha_armygroup

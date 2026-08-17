@@ -41,7 +41,7 @@ country_event = {
 
 		# Finland
 		add_core = 404 # Kuolismaa
-		add_core = 471 # Värtsilä
+		add_core = 471 # Värtsil?
 		add_core = 542 # Sortavala
 		finland_salla = { add_core = SOV }
 		finland_raja_karjala = { add_core = SOV }

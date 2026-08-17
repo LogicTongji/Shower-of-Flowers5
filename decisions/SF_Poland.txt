@@ -37,8 +37,7 @@ diplomatic_decisions = {
 		}
 	}
             #西方军团
-	    Save_country_army_pol2 = {    
-	    major = yes           
+	    Save_country_army_pol2 = {             
 		potential = {
 			tag = POL             
 			government_in_exile = yes

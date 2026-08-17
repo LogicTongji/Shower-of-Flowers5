@@ -1,45 +1,65 @@
 
 country_event = {
-		  id = 2000073
-		   fire_only_once = yes
-		  trigger = {
+	
+	id = 2201
+
+	trigger = {
 		tag = SOV
-		CHI ={ war_with = JAP } 
-				date = 1937.9.1
-				not = { year = 1938 }
-				 has_global_flag = soviet_help_anti_japan 
-		  }
-		  title = "SOV_Event_title2000073"
-		  desc = "SOV_Event_decs2000073"
-		  picture = "CHC_Event_2000075"
-		  option = {
-		name = "SOV_Event_option2000073"
-		set_global_flag = Event2000073
-		supplies = -1000
-		dissent = -10
-		CHI = { country_event = 2000075 }
-		   ai_chance = { factor = 100 }
-		 }
-	 option = {
-		name = "SOV_Event_option20000732"
-			set_global_flag = error10000
-				national_unity = -5
-				dissent = 50
-		ai_chance = { factor = 0 }
+		NOT = { has_country_flag = operation_zet_fired }
+		exists = CHI
+		exists = JAP
+		JAP = { not = { faction = comintern } }
+		JAP = { war_with = CHI }
+		not = { war_with = CHI }
+		not = { year = 1940 }
+		has_global_flag = soviet_help_anti_japan
 	}
-}
-country_event= {
-	id = 2000075
-	is_triggered_only = yes
-	title = "CHI_Event_title2000075"
-	desc = "CHI_Event_decs2000075"
+
+	mean_time_to_happen =  {
+		months = 16
+	}
+
+	title = "EVTNAME2201"
+	desc = "EVTDESC2201"
 	picture = "international_help1"
+
 	option = {
-		name = "CHI_Event_option2000075"          
-		9415 = { industry = 2 }
-		national_unity = 5
+		name = "EVTOPTA2201"			# Send aid to China
+  		neutrality = -3
+		money = -500
+		supplies = -1000
+		CHI = {
+			country_event = 2202
+		}
+		set_country_flag = operation_zet_fired
 	}
 }
+
+# China - Response from the Soviet Union
+country_event = {
+	
+	id = 2202
+
+	is_triggered_only = yes
+
+	title = "EVTNAME2202"
+	desc = "EVTDESC2202"
+	picture = "international_help1"
+
+	option = {
+		name = "EVTOPTA2202"			# This will strengthen us greatly
+		ai_chance = { factor = 100 }
+		# Chengdu
+		9415 = { air_base = 1 }
+		9415 = { industry = 2 }
+		9415 =  { strategic_bomber = current }
+		9415 = { interceptor = current }	
+		relation = { who = SOV value = 10 }
+		supplies = 1000
+	}
+}
+
+
 country_event = {
 		  id = 2000077
 		   fire_only_once = yes

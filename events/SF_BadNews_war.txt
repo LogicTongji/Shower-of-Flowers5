@@ -17,7 +17,7 @@ country_event = {
 	        days = 1
         }
 	option = {
-		name = "2221option1"
+		name = "2221option2"
                  add_country_modifier = {
 			name = "Event2221_modifier"
 			duration = 120
@@ -26,10 +26,6 @@ country_event = {
                 CYN = { country_event = 22223 }
                 CSY = { country_event = 22223 }
                 CHC = { country_event = 22223 }
-		ai_chance = { factor = 100 }
-       	}
-	option = {
-		name = "2221option2"
 		ai_chance = { factor = 100 }
 	}
 }

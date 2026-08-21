@@ -2198,7 +2198,7 @@ rvariety_warlords = {
         org_regain = -0.15	
         supply_consumption = 0.15
         ruling_party_support = -0.1 
-        land_organisation = -0.4
+        land_organisation = -0.50
         war_consumer_goods_demand =0.5
 	icon = 5
 }
